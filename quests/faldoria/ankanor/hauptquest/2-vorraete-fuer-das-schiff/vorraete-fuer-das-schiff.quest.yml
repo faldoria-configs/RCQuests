@@ -1,0 +1,35 @@
+name: Vorräte für das Schiff
+desc: 'Hole die Waren von der Liste aus dem Lager und bringe es zu Kapitän Mafei.'
+ordered: true
+author: Raid-Craft Team
+worlds:
+- ankanor
+locked: false
+auto-complete: true
+objectives:
+  1:
+    name: 'Sammle:|  * 10x Getreide|  * 1x Fass Wasser|  * 10x Holzbretter|  * 10x Wolle'
+    hidden: true
+    trigger:
+      flow:
+        - '@quest.item.pickup'
+    requirements:
+      flow:
+        - '?quest.has-item rci91025 10' # getreide
+        - '?quest.has-item rci91026' # wassereimer
+        - '?quest.has-item rci91027 10' # holzbretter
+        - '?quest.has-item rci91028 10' # wolle
+    complete-actions:
+      flow:
+        - '!text.info "Du hast alle benötigten Materalien gesammelt. Begib dich wieder zu Kapitän Mafei."'
+  2:
+    name: 'Kehre zu Kapitän Mafei zurück'
+    auto-complete: false
+    hidden: true
+    trigger:
+      flow:
+        - '@host.interact ../mafei'
+        - '!conversation.start ../mafei this.mafei-rueckkehr'
+complete-actions:
+  flow:
+    - '!quest.start ../3-aufstieg-zum-tianbaum/aufstieg-zum-tianbaum.quest'

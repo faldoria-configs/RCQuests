@@ -1,0 +1,39 @@
+name: Aufstieg zum Tianbaum
+desc: 'Steige den Tianbaum hinauf und rede mit Lious.'
+ordered: true
+worlds:
+- ankanor
+locked: false
+auto-complete: true
+trigger:
+  flow:
+    - '@player.move 15,95,79,ankanor,5'
+    - '!text.info "Du bist noch nicht soweit diesen Weg zu beschreiten."'
+    - '!teleport.location 8,94,81,ankanor,92,0'
+objectives:
+  1:
+    name: 'Rede mit Roschik über die Klassenwahl'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../roschik'
+        - '!conversation.start ../roschik this.roschick-weiterer-weg'
+        - '@player.move 15,95,79,ankanor,5'
+        - '!teleport.location 8,94,81,ankanor,92,0'
+  2:
+    name: 'Steige den Tianbaum hinauf.'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.proximity this.waechter-des-heiligtums 3'
+        - '!conversation.start this.waechter-des-heiligtums this.waechter-willkommen'
+  3:
+    name: 'Steige den Tianbaum weiter hinauf und rede mit Lious.'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../lious'
+        - '!conversation.start ../lious this.lious-willkommen'
+complete-actions:
+  flow:
+    - '!quest.start ../4-klassenwahl/klassenwahl'

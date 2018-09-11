@@ -1,0 +1,70 @@
+stages:
+  start:
+    text: Hast du meine Sachen gefunden?
+    answers:
+      '1':
+        text: Ja. Hier bitte.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage2
+      '2':
+        text: Nein, ich habe schon überall im Haus gesucht, fehlen noch ein paar Sachen.
+        actions:
+          A:
+            type: END
+  stage2:
+    text: Dann gib mal her, ich friere schon.
+    answers:
+      '1': 
+        text: Bitte sehr.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage3
+      '2':
+        text: Später...
+        actions:
+          A:
+            type: END
+  stage3:
+    text: Ich danke dir! Sag aber niemandem,|dass ich mich hier verstecke.||Die Stadtwache oben am Spawn sucht mich anscheinend.|Komm bald wieder, dann habe ich|sicher noch etwas für dich zu tun.
+    answers:
+      '1':
+        text: Ehm... Okay.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: way1
+      '2':
+        text: Hm, das muss ich mir noch überlegen.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: way2
+  way1:
+    text: Danke dir.
+    answers:
+      '1':
+        text: Gerne
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: finished
+  way2:
+    text: Wie du meinst, nimm trotzdem dies als Dank.
+    answers:
+      '1':
+        text: Dankeschön.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: finished
+  finished:
+    text: Mach es gut!

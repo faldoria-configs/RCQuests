@@ -1,0 +1,23 @@
+settings:
+  show-npc-name: true
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Ich freue mich für dich, nun testen wir deine neuen Fähigkeiten."'
+        - ~2s
+        - '!text.player "Soll ich dich jetzt verprügeln?"'
+        - ~2s
+        - '!text "Wie kommst du da drauf? Nein, ich hetze dir Spinnen auf den Hals."'
+        - ~2s
+        - '!text.player "Iih nein, alles nur nicht das."'
+        - ~2s
+        - '!text "Du hast keine Wahl!"'
+        - ~1s
+        - '!text "Bevor ich es vergesse, deine Fähigkeit musst du erst an deine Waffe binden."'
+        - '!text.info "Halte deine Waffe in der Hand und gebe dann /bind skillname ein"'
+        - ~2s
+        - '!teleport.location 12,193,38,ankanor,0,2'
+        - '!objective.complete this.faehigkeiten-test 1'
+        - ~5s
+        - '!rcmobs.mob.spawn this.schwache-spinne 15,194,43,ankanor id:this.klassenwahl-schwache-spinne'

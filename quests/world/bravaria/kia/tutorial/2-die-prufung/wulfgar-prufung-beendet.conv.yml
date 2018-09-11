@@ -1,0 +1,41 @@
+stages:
+  start:
+    text: Glückwunsch, du hast die Prüfung bestanden.
+    answers:
+      '1':
+        text: Und wie geht es nun weiter?
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage2
+      '2':
+        text: Ich muss mich ausruhen.
+        actions:
+          A:
+            type: END
+  stage2:
+    text: Es wird Zeit, dass du dich in der Welt umschaust und deine Reise|beginnst.||Hier nimm zunächst dies.
+    actions:
+      A:
+        type: COMMAND
+        args:
+          command: rci give -p %name 90907
+    answers:
+      '1':
+        text: Was soll ich damit tun?
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage3
+  stage3:
+    text: Gehe damit zum Spawn von Raid-Craft-City|und sprich mit dem Rüstmeister dort.||Aber vorher rede mit dem Farmer neben dem Haus.|Er kann dir sicher noch einige Tipps geben.
+    actions:
+      A:
+        type: TELEPORT
+        args:
+          world: world
+          x: -1726
+          y: 71
+          z: -53

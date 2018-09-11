@@ -1,0 +1,12 @@
+name: Dieb
+type: NPC
+health: 100
+attackable: false
+friendly: true
+location:
+  world: world
+  x: -238
+  y: 86
+  z: 52
+default-conv: world.badehaus.hera.bikinidieb.1-bikinidieb.dieb.default
+talk-close: false

@@ -1,0 +1,23 @@
+settings:
+  show-npc-name: true
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Hast du Kapitän Mafei über die Situation informiert?"'
+        - ~2s
+        - '!text.player "Ja, auch wenn er mir anfangs nicht glauben wollte, ich habe sogar Vorräte für das Schiff besorgt."'
+        - ~2s
+        - '!text "Sehr gut. Nun jetzt musst du dich selbst vorbereiten."'
+        - ~2s
+        - '!text.player "Wie meinst du das? Soll ich mein Haus sauber machen?"'
+        - ~2s
+        - '!text "Nein Dummkopf, es könnte zum Kampf kommen und darauf musst du dich vorbereiten."'
+        - ~2s
+        - '!text.player "Was muss ich tun?"'
+        - ~2s
+        - '!text "Steige den Tianbaum hinauf, dort wirst du jemanden treffen der dich unterrichtet."'
+        - ~2s
+        - '!text.player "Wie ihr wollt, ich werde zur Krone des Baumes hinauf steigen."'
+        - ~1s
+        - '!objective.complete this.aufstieg-zum-tianbaum 1'

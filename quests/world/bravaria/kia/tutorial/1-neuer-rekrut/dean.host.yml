@@ -1,0 +1,17 @@
+name: Dean
+type: NPC
+health: 100
+attackable: false
+friendly: true
+equipment:
+  hand: WATCH
+  chestplate: IRON_CHESTPLATE
+  leggings: IRON_LEGGINGS
+  boots: IRON_BOOTS
+location:
+  world: world
+  x: -1725
+  y: 77
+  z: -57
+default-conv: world.bravaria.kia.tutorial.1-neuer-rekrut.dean.default
+talk-close: false

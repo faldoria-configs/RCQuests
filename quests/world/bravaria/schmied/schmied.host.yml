@@ -1,0 +1,11 @@
+name: Schmied Heinz
+type: NPC
+health: 100
+attackable: false
+friendly: true
+default-conv: this.schmied.default
+location:  
+  world: world
+  x: -1776
+  y: 72
+  z: -129

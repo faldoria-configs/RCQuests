@@ -1,0 +1,210 @@
+stages:
+  start:
+    text: Ja schau einer an.|Ein Neuling, ich schätze Dean hat dich bereits aufgeklärt.|Dann wollen wir dich mal ausrüsten.||Welcher Klasse gehörst du an?
+    answers:
+      '1':
+        text: Ich bin mehr der Kriegertyp, draufhauen macht Spaß!
+        actions:
+          A:
+            type: CHOOSE_PROFESSION
+            args:
+              profession: WARRIOR
+              forced: true
+          B:
+            type: COMMAND
+            args:
+              command: rci give -p %name 90904
+          C:
+            type: GIVE_ITEM
+            args:
+              item: TORCH
+              amount: 64
+          D:
+            type: GIVE_ITEM
+            args:
+              item: BAKED_POTATO
+              amount: 32
+          E:
+            type: STAGE
+            args:
+              stage: stage2
+      '2':
+        text: Ich bin der geborene Heiler, ich bin Priester!
+        actions:
+          A:
+            type: CHOOSE_PROFESSION
+            args:
+              profession: PRIEST
+              forced: true
+          B:
+            type: COMMAND
+            args:
+              command: rci give -p %name 90905
+          C:
+            type: GIVE_ITEM
+            args:
+              item: TORCH
+              amount: 64
+          D:
+            type: GIVE_ITEM
+            args:
+              item: BAKED_POTATO
+              amount: 32
+          E:
+            type: STAGE
+            args:
+              stage: stage3
+      '3':
+        text: Es geht nichts über Magie! Natürlich bin ich Magier!
+        actions:
+          A:
+            type: CHOOSE_PROFESSION
+            args:
+              profession: MAGE
+              forced: true
+          B:
+            type: COMMAND
+            args:
+              command: rci give -p %name 90905
+          C:
+            type: GIVE_ITEM
+            args:
+              item: TORCH
+              amount: 64
+          D:
+            type: GIVE_ITEM
+            args:
+              item: BAKED_POTATO
+              amount: 32
+          E:
+            type: STAGE
+            args:
+              stage: stage4
+      '4':
+        text: Ich agiere lieber im Dunkeln, ich bin ein Schurke!
+        actions:
+          A:
+            type: CHOOSE_PROFESSION
+            args:
+              profession: ROGUE
+              forced: true
+          B:
+            type: COMMAND
+            args:
+              command: rci give -p %name 90906
+          C:
+            type: GIVE_ITEM
+            args:
+              item: TORCH
+              amount: 64
+          D:
+            type: GIVE_ITEM
+            args:
+              item: BAKED_POTATO
+              amount: 32
+          E:
+            type: STAGE
+            args:
+              stage: stage5
+  stage2:
+    text: Hier dann nimm deine Ausrüstung. Jetzt wird es Zeit für etwas Training.
+    answers:
+      '1':
+        text: Okay!
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage6
+  stage3:
+    text: Hier dann nimm deine Ausrüstung. Jetzt wird es Zeit für etwas Training.
+    answers:
+      '1':
+        text: Okay!
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage7
+  stage4:
+    text: Hier dann nimm deine Ausrüstung. Jetzt wird es Zeit für etwas Training.
+    answers:
+      '1':
+        text: Okay!
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage8
+  stage5:
+    text: Hier dann nimm deine Ausrüstung. Jetzt wird es Zeit für etwas Training.
+    answers:
+      '1':
+        text: Okay!
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage9
+  stage6:
+    text: Geh hinunter in den Trainingsraum im Keller und töte die &23|Gegner.||Vorher solltest du deinen ersten Skill, &lHieb&r&b,|an dein Schwert binden.||Dazu gibst du einfach &2/bind Hieb&b in den Chat ein, während du das Schwert in der Hand hälst.
+    answers:
+      '1':
+        text: Alles klar.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: end
+      '2':
+        text: Später...
+        actions:
+          A:
+            type: END
+  stage7:
+    text: Geh hinunter in den Trainingsraum im Keller und töte die &23|Gegner.||Vorher solltest du deinen ersten Skill, &lSchmettern&r&b,|an deinen Stab binden.||Dazu gibst du einfach &2/bind Schmettern&b in den|Chat ein, während du den Stab in der Hand hälst.
+    answers:
+      '1':
+        text: Alles klar!
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: end
+      '2': 
+        text: Später...
+        actions:
+          A:
+            type: END
+  stage8:
+    text: Geh hinunter in den Trainingsraum im Keller und töte die &23|Gegner.||Vorher solltest du deinen ersten Skill, &lMagisches Geschoss&r&b,|an deinen Stab binden.||Dazu gibst du einfach &2/bind Magisches Geschoss&b in den Chat|ein, während du den Stab in der Hand hälst.
+    answers:
+      '1':
+        text: Alles klar!
+        actions: 
+          A:
+            type: STAGE
+            args:
+              stage: end
+      '2': 
+        text: Später...
+        actions:
+          A:
+            type: END
+  stage9:
+    text: Geh hinunter in den Trainingsraum im Keller und töte die &23|Gegner.||Vorher solltest du deinen ersten Skill, &lSchattenschlag&r&b,|an deinen Dolch binden.||Dazu gibst du einfach &2/bind Schattenschlag&b in den Chat|ein, während du den Dolch in der Hand hälst.
+    answers:
+      '1':
+        text: Alles klar!
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: end
+      '2': 
+        text: Später...
+        actions:
+          A:
+            type: END
+  end:
+    text: Also los!|Wenn du eine andere Klasse wählen willst, komm einfach wieder zu mir.

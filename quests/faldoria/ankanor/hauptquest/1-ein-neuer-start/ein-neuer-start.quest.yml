@@ -1,0 +1,30 @@
+name: Ein neuer Start
+ordered: true
+author: Raid-Craft Team
+worlds:
+- ankanor
+locked: false
+auto-complete: true
+trigger:
+  flow:
+    - '@host.proximity this.shicho,4'
+    - '!conversation.start host:this.schicho conv:this.shicho-start'
+objectives:
+  1:
+    name: 'Rede mit Bürgermeister Roschik'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../roschik'
+        - '!conversation.start ../roschik this.roschik-willkommen'
+  2:
+    name: 'Finde und Spreche mit dem Kapitän Mafei'
+    auto-complete: false
+    hidden: true
+    trigger:
+      flow:
+        - '@host.interact ../mafei'
+        - '!conversation.start ../mafei this.mafei-willkommen'
+complete-actions:
+  flow:
+    - '!quest.start ../2-vorraete-fuer-das-schiff/vorraete-fuer-das-schiff.quest'

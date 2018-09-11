@@ -1,0 +1,71 @@
+stages:
+  start:
+    text: Du möchtest deine Klasse wechseln?||Welche Klasse möchtest du testen?
+    answers:
+      '1':
+        text: Den Krieger!
+        actions:
+          A:
+            type: CHOOSE_PROFESSION
+            args:
+              profession: WARRIOR
+              forced: true
+          B:
+            type: COMMAND
+            args:
+              command: rci give -p %name 90904
+          C:
+            type: STAGE
+            args:
+              stage: stage5
+      '2':
+        text: Den Priester!
+        actions:
+          A:
+            type: CHOOSE_PROFESSION
+            args:
+              profession: PRIEST
+              forced: true
+          B:
+            type: COMMAND
+            args:
+              command: rci give -p %name 90905
+          C:
+            type: STAGE
+            args:
+              stage: stage5
+      '3':
+        text: Den Magier!
+        actions:
+          A:
+            type: CHOOSE_PROFESSION
+            args:
+              profession: MAGE
+              forced: true
+          B:
+            type: COMMAND
+            args:
+              command: rci give -p %name 90905
+          C:
+            type: STAGE
+            args:
+              stage: stage5
+      '4':
+        text: Den Schurken!
+        actions:
+          A:
+            type: CHOOSE_PROFESSION
+            args:
+              profession: ROGUE
+              forced: true
+          B:
+            type: COMMAND
+            args:
+              command: rci give -p %name 90906
+          C:
+            type: STAGE
+            args:
+              stage: stage5
+  stage5:
+    text: Wenn du noch einmal wechseln möchtest, komm wieder.||Vergiss nicht deinen Skill neu zu binden.
+    

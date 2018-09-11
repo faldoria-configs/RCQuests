@@ -1,0 +1,92 @@
+stages:
+  start:
+    text: Hallo %name%!|Ich habe euch schon länge Zeit im Auge, Ihr seid mir aufgefallen, sehr sogar...
+    answers:
+      '1':
+        text: Ich... Okay, du mir aber nicht. Machs gut.
+        actions:
+          A:
+            type: END
+      '2':
+        text: Kommt zu Sache, gnädige Frau. Ich habe nicht viel Zeit.
+        actions: 
+          A:
+            type: STAGE
+            args:
+              stage: stage2
+      '3':
+        text: Oh, Euer Anblick ist eben so auffallend, meine Dame.
+        actions: 
+          A:
+            type: STAGE
+            args:
+              stage: stage3
+  stage2:
+    text: Ich will euch an einem weniger "öffentlichen" Ort treffen, meint Ihr das ist möglich?
+    answers:
+      '1':
+        text: Ja, sehr gerne. Wohin soll ich denn kommen?
+        actions: 
+          A:
+            type: STAGE
+            args:
+              stage: stage-final
+      '2':
+        text:  Ich könnte mich auch sehr gut hier und jetzt mit euch... "treffen".
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage-final
+      '3':
+        text: Danke nein, ich habe keine Zeit für so etwas.
+        actions:
+          A:
+            type: END
+  stage3:
+    text: Danke... kommt doch zu meinem Haus, wenn Ihr euch weiter mit mir unterhalten wollt.
+    answers:
+      '1':
+        text: Ich werde ablehnen müssen, in Eurem "Haus" waren sicher schon viele Leute.
+        actions:
+          A:
+            type: END
+      '2':
+        text: Ja... ich würde sehr gerne kommen. Äh.. zu Ihnen kommen. Wohin muss ich denn?
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage-final
+      '3':
+        text: Mit Vergnügen, wehrte Lady, darf ich erfahren zu welchem Ort ich denn muss?
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage-final
+  stage-final:
+    text: Mein Haus findet Ihr nicht weit von hier,|es ist dennoch schön abgelegen... für einen ungestörten Aufenthalt.|Geht diese Straße hier weiter nach Westen, dann Richtung Norden über die Brücke.|Dann durch den Berg – am Hafen vorbei.|Seid ihr Am Leuchtturm angelangt, seht Ihr schon mein Haus.
+    answers:
+      '1':
+        text: Auf dem Weg! Ich freue mich.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: accept
+      '2':
+        text: Ich komme später nochmal wieder.
+        actions:
+          A:
+            type: END
+      '3':
+        text: Ich laufe so schnell ich kann!
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: accept
+  accept:
+    text: Ihr werdet es nicht bereuen...
+

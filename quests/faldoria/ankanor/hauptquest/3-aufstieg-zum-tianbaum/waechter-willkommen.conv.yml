@@ -1,0 +1,23 @@
+settings:
+  show-npc-name: true
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Halt! Was ist dein Begehr?"'
+        - ~2s
+        - '!text.player "Ich soll den Tianbaum hinauf steigen und dort mit jemanden reden."'
+        - ~2s
+        - '!text "Wer hat dir das aufgetragen?"'
+        - ~2s
+        - '!text.player "Bürgermeister Roschik. Es ist von höchster Wichtigkeit, sagte er."'
+        - ~2s
+        - '!text "Hmmm… Sagte er auch, warum du dort hinauf sollst?"'
+        - ~2s
+        - '!text.player "Nein, nur das ich jemanden treffen soll. Er sagte, es wird zum Kampf kommen."'
+        - ~2s
+        - '!text "In diesem Fall darfst du passieren. Sei vorsichtig, das du nicht herunterfällst!"'
+        - ~2s
+        - '!text.player "Hab Dank!"'
+        - ~1s
+        - '!objective.complete this.aufstieg-zum-tianbaum 2'

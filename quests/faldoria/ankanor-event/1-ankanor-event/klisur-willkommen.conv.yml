@@ -1,0 +1,20 @@
+settings:
+  show-npc-name: true
+stages:
+  start:
+    actions:
+      flow:
+        - '!player.freeze'
+        - '!text "Ihr habt es geschafft, fast alle sind an Bord, wir müssen auch los."'
+        - ~2s
+        - '!text.player "Aber, was ist mit unserer Heimat?"'
+        - ~2s
+        - '!text "Wir müssen sie aufgeben, vielleicht kehren wir eines Tages zurück."'
+        - ~2s
+        - '!text.player "Wo segeln wir nun hin?"'
+        - ~2s
+        - '!text "In den Osten."'
+        - ~4s
+        - '!player.unfreeze'
+        - '!teleport.location x,y,z,faldoria'
+        - '!objective.complete this.ankanor-event 1'

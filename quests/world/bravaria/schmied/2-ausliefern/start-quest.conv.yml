@@ -1,0 +1,36 @@
+stages:
+  start:
+    text: Soooooo ich habe den Auftrag fertig. Das Legendäre Low Budget|Hero Sword of Geschnellkaputt! Bringe es bitte zu meinem Kunden,|er wohnt im Wald zwischen New Raid City und Venezia im Gasthof|von Mama Garn. Folge einfach dem Weg südlich von NRC nach Venezia.
+    answers:
+      '1':
+        text: Wie komme ich dahin? 
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage2
+      '2':
+        text: Ich habe doch keine Zeit.
+        actions:
+          A:
+            type: END
+  stage2:
+    text: Östlich von Bravaria gibt es eine Kette am Wasserfall die über|den Void Krater führt und dir es ermöglicht auf der anderen|Seite hoch zu schwimmen! Sei vorsichtig und fall|nicht ins Nichts. 
+    answers:
+      '1':
+        text: Alles klar.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: accept
+      '2':
+        text: Ich kann doch nicht..
+        actions:
+          A:
+            type: END
+  accept:
+    text: Hier nimm und viel Glück!
+    actions: 
+      A:
+        type: END

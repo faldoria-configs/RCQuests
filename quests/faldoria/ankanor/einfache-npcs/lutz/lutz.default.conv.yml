@@ -1,0 +1,7 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Ist das nicht ein sch<&ouml>nes pl<&auml>tzchen hier?"'
+        - '!text "Ich werde heute den ganzen Tag hier faulenzen."'
+        - '!text "Mein Bruder Syjin ist draußen bei der Kohlengewinnung."'

@@ -1,0 +1,16 @@
+name: Stallbursche
+type: NPC
+health: 100
+attackable: false
+friendly: true
+default-conv: world.bravaria.kia.heu_lieferung.stallbursche.default
+equipment:
+  hand: HAY_BLOCK
+  leggings: LEATHER_LEGGINGS
+  boots: LEATHER_BOOTS
+location:
+  world: world
+  x: -1711
+  y: 71
+  z: -48
+talk-close: false

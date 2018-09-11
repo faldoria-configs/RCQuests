@@ -1,0 +1,55 @@
+name: Der Tod
+desc: Besuche den Geisterheiler in Bravaria
+locked: false
+author: Kiachan
+hidden: true
+ordered: true
+required: 0
+worlds:
+- world
+trigger:
+  '0':
+    type: quest.completed
+    delay: 5
+    args:
+      quest: world.bravaria.kia.tutorial.3-farmen.start-farmen
+    actions:
+      '0':
+        type: quest.start
+        args:
+          quest: world.bravaria.kia.tutorial.4-der-tod.start-der-tod
+objectives:
+  '0':
+    name: Folge dem Kompass bis zum Geisterheiler
+    trigger:
+      '0':
+        type: player.move
+        args:
+          world: world
+          x: -1720
+          y: 72
+          z: -135
+          radius: 2
+        actions:
+          '0':
+            type: player.remove.compass
+            args:
+              name: Der Geisterheiler
+        requirements:
+          '0':
+            type: rcgraveyards.player.isalive
+complete-actions:
+  '0':
+    type: player.give.compass
+    args:
+      world: world
+      x: -1673
+      y: 72
+      z: -101
+      name: Der Händler
+  '1':
+    type: rcskills.hero.addxp
+    args:
+      exp: 270
+cooldown: 0
+repeatable: false

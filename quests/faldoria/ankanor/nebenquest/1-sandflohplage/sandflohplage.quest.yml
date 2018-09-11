@@ -1,0 +1,27 @@
+name: Sandflohplage
+ordered: true
+author: Raid-Craft Team
+worlds:
+- ankanor
+locked: false
+auto-complete: true
+trigger:
+  flow:
+    - '@host.interact this.angunt'
+    - '!conversation.start host:this.angunt conv:this.angunt-willkommen'
+objectives:
+  1:
+    name: 'Töte 15 Sandflöhe'
+    trigger:
+      flow:
+        - '@rcmobs.mob.kill faldoria-ankanor-sandfloh-sandfloh'
+    requirements: 
+      flow:
+        - '?count(count:15, count-text:"%current% von %count% Sandflöhen getötet", persistent:true)'
+  2:
+    name: 'Kehre zu Angunt zurück'
+    trigger:
+      flow:
+        - '@host.interact this.angunt'
+        - '!conversation.start this.angunt this.angunt-ende'
+complete-actions:

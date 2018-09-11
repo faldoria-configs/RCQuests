@@ -1,0 +1,63 @@
+stages:
+  start:
+    text: Hallo du!|Würdest du mir vielleicht helfen?
+    answers:
+      '1':
+        text: Klar doch. Was soll ich tun?
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage2
+      '2':
+        text: Nein, ich habe keine Zeit.
+        actions:
+          A:
+            type: END
+  stage2:
+    text: Ich habe hier eine Lieferung mit Heu|für den Pferdeknecht in Bravaria.|Könntest du sie zu ihm bringen?
+    answers:
+      '1':
+        text: Klar mach ich, gib her.
+        actions: 
+          A:
+            type: STAGE
+            args:
+              stage: stage4
+      '2':
+        text: Warum bringst du sie ihm nicht selbst?
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage3
+  stage3:
+    text: Weil ich hier alleine bin| und das Lager bewachen muss.
+    answers:
+      '1':
+        text: Ach so. Okay ich bring es rüber.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage4
+      '2':
+        text: Tja dein Pech, ich hab keine Zeit für sowas.
+        actions:
+          A:
+            type: END
+  stage4:
+    text:  Oh danke!| Hier hast du es.  
+    answers:
+      '1':
+        text: Aber wie komme ich dahin?
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: accept
+  accept:
+    text: Folge dort drüben der Strasse, die nach Bravaria führt.||Folge dann dem Weg weiter bis er nach rechts abbiegt und|laufe danach links durch die Tore.||Dann läufst du genau am Stall vorbei.
+           
+
+

@@ -1,0 +1,13 @@
+name: Yoshni
+type: NPC
+health: 100
+attackable: false
+friendly: true
+equipment:
+location:
+  world: ankanor
+  x: 101
+  y: 83
+  z: -82
+default-conv: faldoria.ankanor.einfache-npcs.yoshni.yoshni.default
+talk-close: false

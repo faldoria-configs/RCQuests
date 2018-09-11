@@ -1,0 +1,17 @@
+name: Verteidige ankanor
+author: Thallo
+worlds:
+- ankanor-event
+locked: false
+auto-complete: true
+objectives:
+  1:
+    name: 'Verteidige ankanor und finde Bootsman Klisur'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.proximity this.klisur,4'
+        - '!conversation.start this.klisur this.klisur-willkommen'
+complete-actions:
+  flow:
+    - '!quest.start ../../eisenküste/1-vorraete-fuer-das-schiff/vorraete-fuer-das-schiff.quest'

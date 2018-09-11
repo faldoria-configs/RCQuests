@@ -1,0 +1,5 @@
+stages:
+  start:
+    actions:
+      flow:
+       - '!text(cooldown:30s) "Diese dreckigen Sandflöhe werden uns noch alle töten!"'

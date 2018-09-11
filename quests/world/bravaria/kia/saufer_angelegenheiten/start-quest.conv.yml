@@ -1,0 +1,63 @@
+stages:
+  start:
+    text: '*Hicks* Was schaust du so?'
+    answers:
+      '1':
+        text: Du bist aber schon ganz schön blau was?
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage2
+      '2':
+        text: Schlaf erstmal deinen Rausch aus!
+        actions:
+          A:
+            type: END
+  stage2:
+    text: Ach was. Nichtmal im Ansatz!||Ich bekomm nur nichts mehr...
+    answers:
+      '1':
+        text: Wieso bekommst du nichst mehr?
+        actions: 
+          A:
+            type: STAGE
+            args:
+              stage: stage3
+      '2':
+        text: Tja, das ist dein Pech!
+        actions:
+          A:
+            type: END
+  stage3:
+    text: Ich habe Hausverbot im &oZum Huber Wirt&r.||Unglückliche Sache...
+    answers:
+      '1':
+        text: Soll ich dir was holen??
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage4
+      '2':
+        text: Das wird schon einen guten Grund haben!
+        actions:
+          A:
+            type: END
+  stage4:
+    text: Das wäre großartig! Hier nimm etwas Geld von mir.
+    answers:
+      '1':
+        text: Wo bekomme ich denn was leckeres für dich?
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: accept
+      '2':
+        text: Pfff... vergiss es!
+        actions:
+          A:
+            type: END
+  accept:
+    text: Oben in der Küche vom &oZum Huber Wirt&r&b findest du Lilli.||Sie hat den besten Schnapps der Welt!

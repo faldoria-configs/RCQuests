@@ -1,0 +1,107 @@
+name: Bikinidieb
+desc: Finde den Dieb im Schwimmbad
+locked: false
+author: milk / Heracklos
+ordered: true
+hidden: true
+required: 0
+trigger:
+  '0':
+    type: host.interact
+    args:
+      host: world.badehaus.hera.bikinidieb.bademeister
+    actions:
+      '0':
+        type: rcconversations.conversation.start
+        args:
+          host: world.badehaus.hera.bikinidieb.bademeister
+          conv: world.badehaus.hera.bikinidieb.start-quest
+  '1':
+    type: rcconversations.conversation.stage
+    args:
+      conv: world.badehaus.hera.bikinidieb.start-quest
+      stage: accept
+    actions:
+      '0':
+        type: quest.start
+        args:
+          quest: world.badehaus.hera.bikinidieb.start
+      '1':
+        type: rcconversations.host.save
+        args:
+          host: world.badehaus.hera.bikinidieb.bademeister
+          conv: world.badehaus.hera.bikinidieb.bademeister-1
+      '2':
+        type: rcconversations.host.save
+        args:
+          host: world.badehaus.hera.bikinidieb.1-bikinidieb.dieb
+          conv: world.badehaus.hera.bikinidieb.1-bikinidieb.end-quest
+  '2':
+    type: rcconversations.conversation.stage
+    args:
+      conv: world.badehaus.hera.bikinidieb.complete-quest
+      stage: stage2
+    actions:
+      '0':
+        type: rcskills.hero.addxp
+        args:
+          exp: 200
+  '3':
+    type: rcconversations.conversation.stage
+    args:
+      conv: world.badehaus.hera.bikinidieb.start-quest
+      stage: thief
+    actions:
+      '0':
+        type: player.remove.money
+        args:
+          amount: 2S
+      '1':
+        type: rcconversations.host.save
+        args:
+          host: world.badehaus.hera.bikinidieb.bademeister
+          conv: world.badehaus.hera.bikinidieb.bademeister-thief
+objectives:
+  '0':
+    name: Finde den Dieb im Badehaus
+    trigger:
+      '0':
+        type: host.interact
+        args:
+          host: world.badehaus.hera.bikinidieb.1-bikinidieb.dieb
+        actions:
+          '0':
+            type: player.message
+            args:
+              text: Das ist der Dieb.. Ich sollte zurück zum Bademeister gehen.
+          '1':
+            type: rcconversations.host.save
+            args:
+              host: world.badehaus.hera.bikinidieb.bademeister
+              conv: world.badehaus.hera.bikinidieb.complete-quest
+  '1':
+    name: Kehre zurück zum Bademeister
+    hidden: true
+    trigger:
+      '0':
+        type: rcconversations.conversation.stage
+        args:
+          conv: world.badehaus.hera.bikinidieb.complete-quest
+          stage: finished
+complete-actions:
+  '0':
+    type: player.give.money
+    args:
+      amount: 5s10k
+  '1':
+    type: rcconversations.host.save
+    args:
+      host: world.badehaus.hera.bikinidieb.1-bikinidieb.dieb
+      conv: world.badehaus.hera.bikinidieb.1-bikinidieb.end-quest
+  '2':
+    type: rcconversations.host.save
+    args:
+      host: world.badehaus.hera.bikinidieb.bademeister
+      conv: world.badehaus.hera.bikinidieb.end-quest
+cooldown: 0
+repeatable: false

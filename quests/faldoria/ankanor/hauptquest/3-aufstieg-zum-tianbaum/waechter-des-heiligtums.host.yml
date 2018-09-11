@@ -1,0 +1,12 @@
+name: Wächter des Heiligtums
+type: NPC
+health: 100
+attackable: false
+friendly: true
+location:
+  world: ankanor
+  x: 12
+  y: 95
+  z: 79
+default-conv: this.waechter-des-heiligtums.default
+talk-close: true

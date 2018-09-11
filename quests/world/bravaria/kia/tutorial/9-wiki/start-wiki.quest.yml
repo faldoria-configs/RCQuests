@@ -1,0 +1,50 @@
+name: Wiki und Bugs
+desc: Sprich mit Andy
+locked: false
+author: Kiachan
+ordered: false
+required: 0
+worlds:
+- world
+trigger:
+  '0':
+    type: quest.completed
+    delay: 15
+    args:
+      quest: world.bravaria.kia.tutorial.8-bauherr.start-bauherr
+    actions:
+      '0':
+        type: quest.start
+        args:
+          quest: world.bravaria.kia.tutorial.9-wiki.start-wiki
+      '1':
+        type: rcconversations.host.save
+        args:
+          host: world.bravaria.kia.tutorial.9-wiki.andy
+          conv: world.bravaria.kia.tutorial.9-wiki.andy
+objectives:
+  '0':
+    name: Sprich mit Andy vor der Kaserne von Bravaria
+    trigger:
+      '0':
+        type: rcconversations.conversation.stage
+        args:
+          conv: world.bravaria.kia.tutorial.9-wiki.andy
+          stage: tut-end
+        actions:
+          '0':
+            type: player.remove.compass
+            args:
+              name: Andy
+complete-actions:
+  '0':
+    type: rcskills.hero.addxp
+    args:
+      exp: 270
+  '1':
+    type: rcconversations.host.save
+    args:
+      host: world.bravaria.kia.tutorial.9-wiki.andy
+      conv: world.bravaria.kia.tutorial.9-wiki.andy-end-quest
+cooldown: 0
+repeatable: false

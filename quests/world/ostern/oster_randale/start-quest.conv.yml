@@ -1,0 +1,66 @@
+stages:
+  start:
+    text: Ach es ist doch immer das gleiche... vermaledeite Vandalen!
+    answers:
+      '1':
+        text: Wieso was ist los?
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage2
+      '2':
+        text: Tja so ist das halt.
+        actions:
+          A:
+            type: END
+  stage2:
+    text: Mir werden andauernd die frischen Eier im Lager zerschlagen|und die jungen Hühner aus dem Stall gestohlen.
+    answers:
+      '1':
+        text: Ist ja schrecklich!
+        actions: 
+          A:
+            type: STAGE
+            args:
+              stage: stage3
+      '2':
+        text: Dein Pech.
+        actions:
+          A:
+            type: END
+  stage3:
+    text: Ich bin echt verzweifelt, würdest du mir helfen und diese|Verbrecher aufspüren? 
+    answers:
+      '1':
+        text: Ich werde mal sehen ob ich sie finden kann!
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage4
+      '2':
+        text: Nein dazu habe ich keine Lust.
+        actions:
+          A:
+            type: END
+  stage4:
+    text: Oh das wäre super. Marty, unser Ostereimaler wartet schon|seit einiger Zeit auf seine Lieferung, aber ich habe einfach|nie genug. Bitte versuche herrauszufinden wer oder was der|Grund ist und beseitige ihn.
+    answers:
+      '1':
+        text: Alles klar.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: accept
+      '2':
+        text: Das ist mir doch zu anstrengend.
+        actions:
+          A:
+            type: END
+  accept:
+    text: Gut, am besten fängst du mit deiner Suche hinter dem Lager an.|Ich glaube da hast du die größten Chancen. Viel Glück!
+    actions:
+      A:
+        type: END

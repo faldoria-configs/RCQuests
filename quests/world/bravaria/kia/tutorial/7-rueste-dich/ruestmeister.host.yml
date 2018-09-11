@@ -1,0 +1,17 @@
+name: Rüstmeister Steve
+type: NPC
+health: 100
+attackable: false
+friendly: true
+default-conv: world.bravaria.kia.tutorial.7-rueste-dich.ruestmeister.default
+equipment:
+  hand: CHEST
+  chestplate: LEATHER_CHESTPLATE
+  leggings: LEATHER_LEGGINGS
+  boots: LEATHER_BOOTS
+location:
+  world: world
+  x: 35
+  y: 70
+  z: 163
+talk-close: false

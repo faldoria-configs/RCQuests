@@ -1,0 +1,16 @@
+name: Pferdeknecht
+type: NPC
+health: 100
+attackable: false
+friendly: true
+default-conv: world.bravaria.kia.heu_lieferung.1-heu-lieferung.pferdeknecht.default
+equipment:
+  hand: HAY_BLOCK
+  leggings: LEATHER_LEGGINGS
+  boots: LEATHER_BOOTS
+location:
+  world: world
+  x: -1674
+  y: 72
+  z: -160
+talk-close: false

@@ -1,0 +1,13 @@
+name: Lutz
+type: NPC
+health: 100
+attackable: false
+friendly: true
+equipment:
+location:
+  world: ankanor
+  x: 92
+  y: 82
+  z: -24
+default-conv: faldoria.ankanor.einfache-npcs.lutz.lutz.default
+talk-close: false

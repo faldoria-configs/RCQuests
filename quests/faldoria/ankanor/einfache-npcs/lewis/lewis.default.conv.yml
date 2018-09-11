@@ -1,0 +1,7 @@
+﻿stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Dieser Brunnen macht mir Angst!"'
+        - '!text "Ein sch<&ouml>ner Tag für die Feldarbeit, findest du nicht?"'
+        - '!text "Lutz sollte bald kommen und mir helfen."'

@@ -1,0 +1,25 @@
+settings:
+  show-npc-name: true
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Willkommen in der Krone des Tianbaumes."'
+        - ~2s
+        - '!text.player "Was bedeutet das alles? Roshik sprach von einem Pfad? Was kann ich wählen?"'
+        - ~2s
+        - '!text "Übe dich in Geduld, junger Kaishi. Ich bin Lious, du solltest mir nun gut zuhören."'
+        - ~2s
+        - '!text.player "Ich glaube wir haben aber keine Zeit für langanhaltende Geduld."'
+        - ~2s
+        - '!text "Wir haben alle Zeit die wir benötigen, damit du deine Wahl treffen kannst, der dein restliches Leben bestimmen wird."'
+        - ~2s
+        - '!text.player "Denn du wirst die Wahl zwischen 4 Pfaden des Kampfes haben. Jeder Pfad bestimmt eine Klasse. Eine Lebensweise!"'
+        - ~2s
+        - '!text "Du wirst die Wahl haben zwischen Krieger, Schurke, Magier oder des Priesters. Jeder Pfad ist einzigartig, wählt also Weise."'
+        - ~2s
+        - '!text.player "Was muss ich tun? Wie wähle ich meinen Pfad?"'
+        - ~2s
+        - '!text "Gehe hinüber zu einem der 4 Ritualsteine, diese werden dir die einzelnen Pfade weiter erläutern, sobald du alle 4 Steine berührt hast, komme zu mir zurück."'
+        - ~1s
+        - '!objective.complete this.aufstieg-zum-tianbaum 3'

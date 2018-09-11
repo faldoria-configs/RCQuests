@@ -1,0 +1,45 @@
+stages:
+  start:
+    text: Hallo, Heinz schickt dich?
+    answers:
+      '1':
+        text: Ja tut er.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage2
+      '2':
+        text: Wer ist Heinz?
+        action:
+          A:
+            type: STAGE
+            args:
+              stage: stage3
+  stage2: 
+    text: Wohoo, das Legendäre Low Budget Hero Sword of Geschnellkaputt|ist endlich hier. Hier ist die Bezahlung.
+    actions:
+      A:
+        type: STAGE
+        args:
+          stage: finished
+  stage3:
+    text: Lüg mich nicht an, Heinz hat mir von dir erzählt. Er sagte, dass er einen Neuling gefunden hat.
+    answers:
+      '1':
+        text: Also gut.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: finished
+      '2':
+        text: Nein, da verwechselst du mich.
+        actios:
+          A:
+            type: END
+  finished:
+    text: Hier ist die Bezahlung, bringe sie bitte zu Heinz und sage ihm Danke von mir. 
+    actions:
+      A:
+        type: END

@@ -1,0 +1,24 @@
+name: Hungriger Heuler
+type: ocelote
+min-level: 25
+max-level: 26
+min-health: 1350
+max-health: 1450
+min-damage: 80
+max-damage: 105
+loot-tables:
+- trash
+- equipment
+equipment: {}
+baby: false
+reset-health: true
+ranged: false
+elite: false
+rare: false
+spawn-chance: 1.0
+spawn-naturally: false
+sound:
+  hurt: mob.cat.meow
+  hurt-pitch: 1.0
+  death: mob.cat.purreow
+  death-pitch: 0.25

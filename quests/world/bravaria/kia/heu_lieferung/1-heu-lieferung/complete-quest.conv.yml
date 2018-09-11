@@ -1,0 +1,38 @@
+stages:
+  start:
+    text: Was willst du?
+    answers:
+      '1':
+        text: Ich habe hier eine Lieferung Heu für dich.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: check_item
+      '2':
+        text: Nichts, lass dich nicht stören.
+        actions:
+          A:
+            type: END
+  check_item:
+    text: Na dann zeig mal.
+    answers:
+      '1':
+        text: Hier!
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: deep1
+  deep1:
+    text: Danke dir.|Hier nimm dies als Belohnung.
+    answers:
+      '1':
+        text: Mehr nicht?
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: finished
+  finished:
+    text: Sei froh, dass du überhaupt etwas bekommst!|Und jetzt verschwinde!

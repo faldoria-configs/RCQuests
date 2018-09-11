@@ -1,0 +1,7 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Die Arbeit mit der Kohle ist anstrengend."'
+        - '!text "Ich hoffe das der Kohlestaub mir nicht schaden wird."'
+        - '!text "Bist du gekommen um mir zu helfen?"'

@@ -1,0 +1,18 @@
+settings:
+  show-npc-name: true
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Sehr schön hast du das gemacht"'
+        - ~2s
+        - '!text.player "Danke, war einfach. "'
+        - ~2s
+        - '!text "Gehe nun zu Ältester Jamos."'
+        - ~2s
+        - '!text.player "Darf ich den verprügeln?"'
+        - ~2s
+        - '!text "Ich glaube dir fehlt eine Tracht Prügel. Nein, er wird deine weitere Ausbildung überwachen."'
+        - ~1s
+        - '!text "Ok ich werde ihn aufsuchen."'
+        - '!objective.complete this.faehigkeiten-test 4'

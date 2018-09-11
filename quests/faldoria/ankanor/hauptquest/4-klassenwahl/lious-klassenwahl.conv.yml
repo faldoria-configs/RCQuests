@@ -1,0 +1,39 @@
+settings:
+  show-npc-name: true
+stages:
+  start:
+    text: "Hast du dich entschieden welchen Pfad du folgen möchtest?"
+    actions:
+      flow:
+        - '!text.info "Du kannst mit einem NPC sprechen in dem du die Nachrichten im Chat anklickst."'
+    answers:
+      flow:
+        - ':"Nein, ich bin mir noch unsicher."'
+        - '!text "Dies ist eine wichtige Entscheidung, also lass dir zeit...aber nicht zu viel."'
+        - ':"Ja das habe ich!"'
+        - '!stage pre-choose'
+  pre-choose:
+    text: "Bist du dir ganz sicher?"
+    answers:
+      flow:
+        - ':"Ja ich bin mir ganz sicher."'
+        - '!stage choose'
+        - ':"Vielleicht sollte ich nochmal überlegen."'
+  choose:
+    text: "Dann sage mir welchen Pfad du wählst: Den des mutigen Kriegers, des listigen Schurken, des selbstlosen Priesters oder gar den Pfad des wissbegierigen Magiers."
+    answers:
+      flow:
+        - ':"Ich wähle den Pfad des Priester"'
+        - '!rcskills.profession.choose priest force:true'
+        - '!player.item.give rci90905'
+        - ':"Ich wähle den Pfad des Kriegers"'
+        - '!rcskills.profession.choose warrior force:true'
+        - '!player.item.give rci90904'
+        - ':"Ich wähle den Pfad des Magier"'
+        - '!rcskills.profession.choose mage force:true'
+        - '!player.item.give rci90905'
+        - ':"Ich wähle den Pfad des Schurke"'
+        - '!rcskills.profession.choose rogue force:true'
+        - '!player.item.give rci90906'
+        - ~2s
+        - '!objective.complete this.klassenwahl 5'

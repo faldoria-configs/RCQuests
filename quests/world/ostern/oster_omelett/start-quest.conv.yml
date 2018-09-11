@@ -1,0 +1,66 @@
+stages:
+  start:
+    text: Hey hättest du nicht Hunger auf ein schönes Osteromelett?
+    answers:
+      '1':
+        text: Klar doch klingt gut.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage2
+      '2':
+        text: Nein, ich habe gerade keinen Hunger.
+        actions:
+          A:
+            type: END
+  stage2:
+    text: Ja es schmeckt sehr gut. Nur kann ich gerade hier nicht weg um|die Zutaten zu holen. Würdest du das für mich tun?
+    answers:
+      '1':
+        text: Logo, was brauchst du den?
+        actions: 
+          A:
+            type: STAGE
+            args:
+              stage: stage3
+      '2':
+        text: Ne da hab ich keine Zeit für.
+        actions:
+          A:
+            type: END
+  stage3:
+    text: Du müsstest mir zwei dutzend schmutzige Hühnereier und ein|dutzend Karotten besorgen. Schaffst du das?
+    answers:
+      '1':
+        text: Klar mach ich!
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage4
+      '2':
+        text: Nein, ich hab keine Zeit, sorry.
+        actions:
+          A:
+            type: END
+  stage4:
+    text: Oh, super. Das freut mich zu hören, wo du die Karotten|herbekommst weiß ich nicht, aber die Eier kannst du sicher im|süd-westen der Insel finden.
+    answers:
+      '1':
+        text: Alles klar.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: accept
+      '2':
+        text: Vielleicht doch später.
+        actions:
+          A:
+            type: END
+  accept:
+    text: Na dann lass ich schonmal die Pfanne heiß werden. Viel Erfolg!
+    actions:
+      A:
+        type: END

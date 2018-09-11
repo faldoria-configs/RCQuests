@@ -1,0 +1,70 @@
+name: Test der Fähigkeiten
+desc: 'Teste deine Fähigkeiten an den Aufgaben von Lious.'
+author: Raid-Craft Team
+worlds:
+- ankanor
+locked: false
+auto-complete: true
+objectives:
+  1:
+    name: 'Sprich mit Lious um deine Fähigkeiten zu testen.'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../lious'
+        - '!conversation.start ../lious this.faehigkeiten-test'
+  2:
+    name: 'Besiege die Spinne'
+    hidden: true
+    auto-complete: false
+    trigger:
+      flow:
+        - '@rcmobs.mob.kill this.schwache-spinne id:this.klassenwahl-schwache-spinne'
+        - ~2s
+        - '!text "Sehr gut! Mach dich bereit, es gibt noch mehr!" Lious'
+        - '!objective.complete this.faehigkeiten-test 2'
+        - ~5s
+        - '!rcmobs.group.spawn this.spinnen 15,194,43,ankanor id:this.klassenwahl-spinnen'
+      death:
+        - '@player.death'
+        - ~1s
+        - '!player.heal'
+        - ~1s
+        - '!text "Lass dich nicht entmutigen!" Lious'
+  3:
+    name: 'Besiege die 3 Spinnen'
+    hidden: true
+    auto-complete: false
+    trigger:
+      flow:
+        - '@rcmobs.group.kill this.spinnen id:this.klassenwahl-spinnen'
+        - ~2s
+        - '!text "Hah! Ich wusste doch dass du es schaffst." Lious'
+        - '!objective.complete this.faehigkeiten-test 3'
+        - ~2s
+        - '!teleport.location 12,184,28,ankanor,179,44'
+      death:
+        - '@player.death'
+        - ~1s
+        - '!player.heal'
+        - ~1s
+        - '!text "Lass dich nicht entmutigen!" Lious'
+  4:
+    name: 'Sprich mit Lious um weitere Anweisungen zu erhalten'
+    hidden: true
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../lious'
+        - '!conversation.start ../lious this.lious-spinne-besiegt'
+  5:
+    name: 'Gehe zum Ältesten Jamos und sprich mit ihm.'
+    hidden: true
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact this.jamos'
+        - '!conversation.start this.jamus this.jamos-willkommen'
+complete-actions:
+  flow:
+    - '!quest.start ../../../ankanor-event/1-ankanor-event/ankanor-event.quest'

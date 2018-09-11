@@ -1,0 +1,57 @@
+name: Handel
+desc: Besuche den Händler in Bravaria
+locked: false
+author: Kiachan
+hidden: true
+ordered: false
+required: 0
+worlds:
+- world
+trigger:
+  '0':
+    type: quest.completed
+    delay: 5
+    args:
+      quest: world.bravaria.kia.tutorial.4-der-tod.start-der-tod
+    actions:
+      '0':
+        type: quest.start
+        args:
+          quest: world.bravaria.kia.tutorial.5-handel.start-handel
+objectives:
+  '0':
+    name: Folge dem Kompass bis zum Händler
+    trigger:
+      '0':
+        type: player.move
+        args:
+          world: world
+          x: -1672
+          y: 72
+          z: -101
+          radius: 3
+    actions:
+      '0':
+        type: player.remove.compass
+        args:
+          name: Der Händler
+complete-actions:
+  '0':
+    type: player.give.compass
+    args:
+      world: world
+      x: -1685
+      y: 83
+      z: -139
+      name: Stanly
+  '1':
+    type: rcskills.hero.addxp
+    args:
+      exp: 270
+  '2':
+    type: rcconversations.host.save
+    args:
+      host: world.bravaria.kia.tutorial.6-freiheit.stanly
+      conv: world.bravaria.kia.tutorial.6-freiheit.stanly
+cooldown: 0
+repeatable: false

@@ -1,0 +1,16 @@
+name: Stadtwache
+type: NPC
+health: 100
+attackable: false
+friendly: true
+equipment:
+  hand: FISHING_ROD
+  head: SKULL_ITEM:pro
+  legs: LEATHER_TROUSERS
+  boots: LEATHER_BOOTS
+location:
+  world: world
+  x: 51
+  y: 70
+  z: 130
+default-conv: this.stadtwache.default

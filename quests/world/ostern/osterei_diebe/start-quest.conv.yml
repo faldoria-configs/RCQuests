@@ -1,0 +1,66 @@
+stages:
+  start:
+    text: Hallo würdest du mir einen Gefalle tun?
+    answers:
+      '1':
+        text: Kommt drauf an was.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage2
+      '2':
+        text: Nein ich habe grade keine Zeit.
+        actions:
+          A:
+            type: END
+  stage2:
+    text: An Ostern verstecke ich immer Ostereier für die|Kinder aus dem Dorf. Aber dieses Jahr wurden alle buntbemalten|Ostereier von Eierdieben gestohlen.
+    answers:
+      '1':
+        text: Das ist ja schrecklich!
+        actions: 
+          A:
+            type: STAGE
+            args:
+              stage: stage3
+      '2':
+        text: Tja das ist Pech.
+        actions:
+          A:
+            type: END
+  stage3:
+    text: Ich weiß es ist viel verlangt, aber würdest du sie|zurückholen? Für die Kinder?!
+    answers:
+      '1':
+        text: Klar mach ich!
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage4
+      '2':
+        text: Nein, ich hab keine Zeit sorry.
+        actions:
+          A:
+            type: END
+  stage4:
+    text: Oh, super. Da werden sich die kleinen aber freuen. Im Norden|der Insel sah ich zuletzt einige der Diebe verschwinden.
+    answers:
+      '1':
+        text: Alles klar.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: accept
+      '2':
+        text: Vielleicht doch später.
+        actions:
+          A:
+            type: END
+  accept:
+    text: Wenn du mir jeweils 6 grüne, 6 rote, 6 blaue, 6 pinke, 6 gelbe|und 6 türkise Ostereier bringen könntest wäre das ein warer|Segen. Viel Erfolg dir!
+           
+
+

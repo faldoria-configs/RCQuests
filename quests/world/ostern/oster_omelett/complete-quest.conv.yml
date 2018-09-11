@@ -1,0 +1,48 @@
+stages:
+  start:
+    text: Und hast du alle Zutaten zusammen?
+    answers:
+      '1':
+        text: Ja, klar hab ich.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage2
+      '2':
+        text: Nein, noch nicht. Aber bald.
+        actions:
+          A:
+            type: END
+  stage2:
+    text: Sehr gut dann gib mir zuerst die Eier!
+    answers:
+      '1':
+        text: Hier bitte.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage3
+      '2':
+        text: Später, ich muss nochmal los.
+        actions:
+          A:
+            type: END
+  stage3:
+    text: Und jetzt die Karotten.
+    answers:
+      '1':
+        text: Hier bitte.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: finished
+  finished:
+    text: Sehr gut....einen Augenblick noch...fertig!|Hier nimm und lass es dir schmecken.
+    actions:
+      A:
+        type: END
+
+  

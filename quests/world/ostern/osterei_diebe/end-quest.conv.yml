@@ -1,0 +1,177 @@
+stages:
+  start:
+    text: Und hast du noch mehr Eier gefunden?
+    answers:
+      '1':
+        text: Ja, 5 grüne Ostereier.
+        actions:
+          A:
+            type: HAS_ITEM
+            args:
+              item: Grünes Osterei
+              amount: 5
+              onsuccess: remove1
+              onfailure: no
+      '2':
+        text: Ja, 5 rote Ostereier.
+        actions:
+          A:
+            type: HAS_ITEM
+            args:
+              item: Rotes Osterei
+              amount: 5
+              onsuccess: remove2
+              onfailure: no
+      '3':
+        text: Ja, 5 blaue Ostereier.
+        actions:
+          A:
+            type: HAS_ITEM
+            args:
+              item: Blaues Osterei
+              amount: 5
+              onsuccess: remove3
+              onfailure: no
+      '4':
+        text: Ja, 5 pinke Ostereier.
+        actions:
+          A:
+            type: HAS_ITEM
+            args:
+              item: Pinkes Osterei
+              amount: 5
+              onsuccess: remove4
+              onfailure: no
+      '5':
+        text: Ja, 5 gelbe Ostereier.
+        actions:
+          A:
+            type: HAS_ITEM
+            args:
+              item: Gelbes Osterei
+              amount: 5
+              onsuccess: remove5
+              onfailure: no
+      '6':
+        text: Ja, 5 türkise Ostereier.
+        actions:
+          A:
+            type: HAS_ITEM
+            args:
+              item: Türkises Osterei
+              amount: 5
+              onsuccess: remove6
+              onfailure: no
+      '7':
+        text: Nein, leider nicht.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: no
+  no: 
+    text: Dann such fleißig weiter!
+    actions:
+      A:
+        type: END
+  remove1:
+    text: Dann gib sie mir bitte!
+    answers:
+      '1':
+        text: Hier bitte!
+        actions:
+          A:
+            type: REMOVE_ITEM
+            args:
+              item: Grünes Osterei
+              amount: 5
+          B:
+            type: STAGE
+            args:
+              stage: finished
+  remove2:
+    text: Dann gib sie mir bitte!
+    answers:
+      '1':
+        text: Hier bitte!
+        actions:
+          A:
+            type: REMOVE_ITEM
+            args:
+              item: Rotes Osterei
+              amount: 5
+          B:
+            type: STAGE
+            args:
+              stage: finished
+  remove3:
+    text: Dann gib sie mir bitte!
+    answers:
+      '1':
+        text: Hier bitte!
+        actions:
+          A:
+            type: REMOVE_ITEM
+            args:
+              item: Blaues Osterei
+              amount: 5
+          B:
+            type: STAGE
+            args:
+              stage: finished
+  remove4:
+    text: Dann gib sie mir bitte!
+    answers:
+      '1':
+        text: Hier bitte!
+        actions:
+          A:
+            type: REMOVE_ITEM
+            args:
+              item: Pinkes Osterei
+              amount: 5
+          B:
+            type: STAGE
+            args:
+              stage: finished
+  remove5:
+    text: Dann gib sie mir bitte!
+    answers:
+      '1':
+        text: Hier bitte!
+        actions:
+          A:
+            type: REMOVE_ITEM
+            args:
+              item: Gelbes Osterei
+              amount: 5
+          B:
+            type: STAGE
+            args:
+              stage: finished
+  remove6:
+    text: Dann gib sie mir bitte!
+    answers:
+      '1':
+        text: Hier bitte!
+        actions:
+          A:
+            type: REMOVE_ITEM
+            args:
+              item: Türkises Osterei
+              amount: 5
+          B:
+            type: STAGE
+            args:
+              stage: finished
+  finished:
+    text: Hier nimm dies als Gegenleistung, diese Ostertickets|kannst du bei unserem Händler|Rafael gegen tolle Items tauschen!||Komm wieder wenn du noch mehr Eier findest!
+    actions:
+      A:
+        type: GIVE_ITEM
+        args:
+          item: 90970
+          amount: 10
+      B:
+        type: END
+        

@@ -1,0 +1,107 @@
+name: Farmen
+desc: Erkunde die erste Farm
+locked: false
+author: Kiachan
+ordered: true
+required: 0
+worlds:
+- world
+trigger:
+  '0':
+    type: quest.completed
+    delay: 5
+    args:
+      quest: world.bravaria.kia.tutorial.2-die-prufung.start-die-prufung
+    actions:
+      '0':
+        type: quest.start
+        args:
+          quest: world.bravaria.kia.tutorial.3-farmen.start-farmen
+      '1':
+        type: rcconversations.host.save
+        args:
+          host: world.bravaria.kia.tutorial.3-farmen.farmer
+          conv: world.bravaria.kia.tutorial.3-farmen.farmer-start
+  '1':
+    type: host.interact
+    args:
+      host: world.bravaria.kia.tutorial.3-farmen.farmer
+    actions:
+      '0':
+        type: player.remove.compass
+        args:
+          name: Der Farmer
+    requirements:
+      '0':
+        type: quest.completed
+        args:
+          quest: world.bravaria.kia.tutorial.2-die-prufung.start-die-prufung
+objectives:
+  '0':
+    name: Sprich mit dem Farmer bei Bravaria
+    trigger:
+      '0':
+        type: rcconversations.conversation.stage
+        args:
+          conv: world.bravaria.kia.tutorial.3-farmen.farmer-start
+          stage: stage3
+  '1':
+    name: Baue 3 Blöcke in der Erdfarm ab
+    hidden: true
+    trigger:
+      '0':
+        type: player.block.break
+        args:
+          blocks:
+          - dirt
+          - grass
+        actions:
+          '0':
+            type: rcconversations.host.save
+            args:
+              host: world.bravaria.kia.tutorial.3-farmen.farmer
+              conv: world.bravaria.kia.tutorial.3-farmen.farmer-block-abgebaut
+        requirements:
+          '0':
+            type: dummy
+            count: 3
+            persistant: true
+            count-text: '%current% von %count% Blöcken abgebaut.'
+    requirements:
+      '0':
+        type: player.location
+        args:
+          world: world
+          x: -1745
+          y: 71
+          z: -64
+          radius: 4
+  '2':
+    name: Sprich erneut mit Sly
+    hidden: true
+    trigger:
+      '0':
+        type: rcconversations.conversation.stage
+        args:
+          conv: world.bravaria.kia.tutorial.3-farmen.farmer-block-abgebaut
+          stage: stage3
+complete-actions:
+  '0':
+    type: rcskills.hero.addxp
+    args:
+      exp: 270
+  '1':
+    type: rcconversations.host.save
+    args:
+      host: world.bravaria.kia.tutorial.3-farmen.farmer
+      conv: world.bravaria.kia.tutorial.3-farmen.farmer-end-quest
+  '2':
+    type: player.give.compass
+    args:
+      world: world
+      x: -1715
+      y: 72
+      z: -142
+      name: Der Geisterheiler
+cooldown: 0
+repeatable: false

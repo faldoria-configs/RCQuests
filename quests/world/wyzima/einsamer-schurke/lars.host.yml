@@ -1,0 +1,15 @@
+name: Lars
+type: NPC
+health: 100
+attackable: false
+friendly: true
+default-conv: world.wyzima.einsamer-schurke.lars.default
+equipment:
+  hand: FLOWER_POT
+  leggings: LEATHER_LEGGINGS
+  boots: LEATHER_BOOTS
+location:  
+  world: world
+  x: 45
+  y: 45
+  z: 176

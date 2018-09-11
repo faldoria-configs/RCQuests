@@ -1,0 +1,155 @@
+name: Oster Randale
+desc: Finde heraus wer auf Olafs Hof randaliert
+locked: true
+author: Kiachan
+ordered: true
+hidden: true
+required: 0
+trigger:
+  '0':
+    type: host.interact
+    args:
+      host: world.ostern.oster_randale.olaf
+    actions:
+      '0':
+        type: rcconversations.conversation.start
+        args:
+          host: world.ostern.oster_randale.olaf
+          conv: world.ostern.oster_randale.start-quest
+  '1':
+    type: rcconversations.conversation.stage
+    args:
+      conv: world.ostern.oster_randale.start-quest
+      stage: accept
+    actions:
+      '0':
+        type: quest.start
+        args:
+          quest: world.ostern.oster_randale.start-oster_randale
+      '1':
+        type: rcmobs.mob.spawn
+        args:
+          mob: world.ostern.oster_randale.mobs.hungriger-heuler
+          amount: 1
+          world: world
+          x: 525
+          y: 72
+          z: 2855
+      '2':
+        type: rcconversations.host.save
+        args:
+          host: world.ostern.oster_randale.olaf
+          conv: world.ostern.oster_randale.1-olaf
+objectives:
+  '0':
+    name: Finde den Schuldigen
+    trigger:
+      '0':
+        type: rcmobs.mob.kill
+        args:
+          mob: world.ostern.oster_randale.mobs.hungriger-heuler
+          amount: 1
+        actions:
+          '0':
+            type: player.message
+            args:
+              text: Ich glaube die Biester waren Schuld. Irgendwo am Strand muss ihr Nest sein.
+          '1':
+            type: rcmobs.mob.spawn
+            args:
+              mob: world.ostern.oster_randale.mobs.hungriger-heuler
+              amount: 3
+              world: world
+              x: 526
+              y: 59
+              z: 2882
+  '1':
+    name: Räuchere das Nest aus
+    hidden: true
+    trigger:
+      '0':
+        type: rcmobs.mobs.kill
+        args:
+          mob: world.ostern.oster_randale.mobs.hungriger-heuler
+          amount: 3
+        actions:
+          '0':
+            type: rcconversations.host.save
+            args:
+              host: world.ostern.oster_randale.olaf
+              conv: world.ostern.oster_randale.complete-quest
+    requirements:
+      '0':
+        type: dummy
+        count: 3
+        persistant: true
+        count-text: '%current%/%count% Hungrige Heuler getötet.'
+  '2':
+    name: Sprich mit Olaf
+    hidden: true
+    trigger:
+      '0':
+        type: objective.completed
+        args:
+          objective: Räuchere das Nest aus
+        actions:
+          '0':
+            type: rcconversations.host.save
+            args:
+              host: world.ostern.oster_randale.olaf
+              conv: world.ostern.oster_randale.2-olaf
+          '1':
+            type: quest.item.add
+            args:
+              item: 90969
+              amount: 1
+          '2':
+            type: rcconversations.conversation.start
+            args:
+              host: world.ostern.oster_randale.1-marty.marty
+              conv: world.ostern.oster_randale.1-marty.complete-quest
+    requirements:
+      '0':
+        type: rcconversations.conversation.stage
+        args:
+          conv: world.ostern.oster_randale.complete-quest
+          stage: finished
+  '3':
+    name: Bringe die Lieferung zu Marty
+    trigger:
+      '0':
+        type: rcconversations.conversation.stage
+        args:
+          conv: world.ostern.oster_randale.complete-quest
+          stage: finished
+complete-actions:
+  '0':
+    type: rcskills.hero.addxp
+    args:
+      exp: 400
+  '1':
+    type: rcconversations.host.save
+    args:
+      host: world.ostern.oster_randale.olaf
+      conv: world.ostern.oster_randale.end-quest
+  '2':
+    type: rcconversations.host.save
+    args:
+      host: world.ostern.oster_randale.1-marty
+      conv: world.ostern.oster_randale.1-marty.end-quest
+  '3':
+    type: quest.item.remove
+    args:
+      item: 90969
+      amount: 1
+  '4':
+    type: quest.item.add
+    args:
+      item: 90970
+      amount: 20
+  '5':
+    type: player.give.money
+    args:
+      amount: 1g50k
+cooldown: 0
+repeatable: false

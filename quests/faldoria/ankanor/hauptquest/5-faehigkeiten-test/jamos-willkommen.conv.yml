@@ -1,0 +1,20 @@
+settings:
+  show-npc-name: true
+stages:
+  start:
+    actions:
+      flow:
+        - '!text.player "Ältester Jamos ich soll mich bei dir melden für weitere Ausbildung."'
+        - ~2s
+        - '!text "Waaas? Du willst etwas hören über die Helden der Graupilzburg? Was ist das denn?"'
+        - ~2s
+        - '!text.player "Oh mann."'
+        - ~2s
+        - '!text "Junger Mann, das war ein Scherz und nun los, wir brauchen dich sofort am Rand des Dorfes. | Agnatus Truppen wurden gesichtet."'
+        - ~2s
+        - '!text.player "Wie? Was? Jetzt? ich dachte ich werde weiter ausgebildet."'
+        - ~2s
+        - '!text "Dies ist teil deiner Ausbildung und nun verliere keine Zeit."'
+        - ~1s
+        - '!teleport.location x,y,z,ankanor-event'
+        - '!objective.complete this.faehigkeiten-test 5'

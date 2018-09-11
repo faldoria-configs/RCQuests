@@ -1,0 +1,90 @@
+stages:
+  start:
+    text: Psst, der Schwarzmarkthändler hat dich geschickt oder?
+    answers:
+      '1':
+        text: Ja. Du musst Lars sein.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage4
+      '2':
+        text:  Wer bist du?
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage2
+  stage2:
+    text: Mein Name ist Lars, Lars der Schurke.|Ich brauche deine Hilfe.||Es geht um meine Sachen, die hier in|diesem Haus versteckt sind. Und ich möchte,|dass du diese für mich findest.
+    answers:
+      '1':
+        text: Warum suchst du nicht selbst?
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage3
+      '2':
+        text: Gerne, welche Sachen muss ich finden?
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage4
+      '3':
+        text: Warum muss ich denn deine Sachen finden? Habe keine Lust.
+        actions:
+          A:
+            type: END
+  stage3:
+    text: Das wäre zu auffällig.
+    answers:
+      '1': 
+        text: Ja ja, ist schon ok. Ich helfe dir.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage5
+      '2':
+        text: Dann dein Pech. Tschüss. 
+        actions:
+          A:
+            type: END
+  stage4:
+    text: Gut, ich brauche deine Hilfe.|Es geht um meine Sachen, die|hier in diesem Haus versteckt sind.||Ich möchte, dass du sie für mich findest.
+    answers:
+      '1':
+        text: Okay, was vermisst du?
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage5
+      '2':
+        text: Ne, ich hab keine Zeit.
+        actions:
+          A:
+            type: END
+  stage5:
+    text: Du musst meine Schurkenhose, Schurkenbrust,|Schurkenstiefel, meinen Schurkenkopfschutz und meinen Dolch|finden.||Wo die genau sind, weiss ich nicht.|Irgend so ein Witzbold hat sie mir weggenommen, als ich schlief.
+    answers:
+      '1': 
+        text: In Ordnung, ich bin gleich wieder zurück.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: accept
+      '2':
+        text: Ich habe keine Lust zu suchen. Ist mir zu mühsam.
+        actions:
+          A:
+            type: END
+  accept: 
+    text: Super, ich warte hier auf dich. Ich spüre, dass sie nicht so weit weg sind!
+    actions:
+      A:
+        type: END

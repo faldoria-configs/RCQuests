@@ -1,0 +1,16 @@
+name: Wirtin Lilli
+type: NPC
+health: 100
+attackable: false
+friendly: true
+default-conv: world.bravaria.kia.saufer_angelegenheiten.saufer-angelegenheiten.lilli.default
+equipment:
+  hand: POTION
+  leggings: LEATHER_LEGGINGS
+  boots: LEATHER_BOOTS
+location:
+  world: world
+  x: -1688
+  y: 77
+  z: -89
+talk-close: false

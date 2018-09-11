@@ -1,0 +1,66 @@
+stages:
+  start:
+    text: Hallo Reisender,|sei vorsichtig auf diesem Weg!
+    answers:
+      '1':
+        text: Was ist den hier passiert?
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage2
+      '2':
+        text: Werde ich sein.
+        actions:
+          A:
+            type: END
+  stage2:
+    text: Mein Bruder und ich waren mit einigen Knechten auf dem Weg|nach Bravaria um Ware zu verkaufen, als wir von Banditen|überfallen wurden.|Sie töteten die Knechte und verschleppten meinen Bruder.||Kannst du ihn retten?
+    answers:
+      '1':
+        text: Ich werde es versuchen! Woher kamen sie?
+        actions: 
+          A:
+            type: STAGE
+            args:
+              stage: stage3
+      '2':
+        text: Das tut mir leid aber ich muss weiter.
+        actions:
+          A:
+            type: END
+  stage3:
+    text: Von dort oben aus den Bergen! Folge einfach den Steinen,|sie führen dich geradewegs zu ihrem Lager.|Aber sei vorsichtig!
+    answers:
+      '1':
+        text: Wie heißt dein Bruder?
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage4
+      '2':
+        text: Ich werde auf mich aufpassen.
+        actions:
+          A:
+            type: END
+  stage4:
+    text: Er heißt Emil, wir reisen schon lange zusammen. Bitte rette ihn!
+    answers:
+      '1':
+        text: Ich mache mich auf den Weg.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: accept
+      '2':
+        text: Nein, dafür habe ich keine Zeit.
+        actions:
+          A:
+            type: END   
+  accept:
+    text: Folge diesen Pflastersteinen, sie führen dich in ihr Lager.||Aber sei vorsichtig!
+    
+
+

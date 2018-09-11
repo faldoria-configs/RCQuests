@@ -1,0 +1,66 @@
+stages:
+  start:
+    text: Hach heute beißen sie nicht so recht!
+    answers:
+      '1':
+        text: Was meinst du?
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage2
+      '2':
+        text: Tja mal so, mal so.
+        actions:
+          A:
+            type: END
+  stage2:
+    text: Ich wollte mir eine nette Portion Fisch angeln.|Aber sie beißen einfach nicht an.
+    answers:
+      '1':
+        text: Soll ich mit Angeln?
+        actions: 
+          A:
+            type: STAGE
+            args:
+              stage: stage4
+      '2':
+        text: Tja, dann viel Erfolg noch.
+        actions:
+          A:
+            type: END
+  stage3:
+    text: Wenn du magst gerne.|Aber es ist eine langwierige Arbeit.
+    answers:
+      '1':
+        text: Ach, das macht nichts ich habe Zeit.
+        actions:
+          A:
+            type: STAGE
+            args:
+              stage: stage4
+      '2':
+        text: Uhm ne, so viel Zeit habe ich nicht.
+        actions:
+          A:
+            type: END
+  stage4:
+    text:  Oh, super.||Hier nimm meine Ersatzangel!
+    answers:
+      '1':
+        text: Alles klar.
+        actions:
+          A:
+            type: GIVE_ITEM
+            args:
+              item: FISHING_ROD
+              amount: 1
+          B:
+            type: STAGE
+            args:
+              stage: accept
+  accept:
+    text: Wenn du mir ein Dutzend Fische angelst, wäre ich dir sehr dankbar.
+           
+
+

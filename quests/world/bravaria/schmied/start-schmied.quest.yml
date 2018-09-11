@@ -1,0 +1,279 @@
+name: Hilf dem Schmied
+desc: Besorge dem Schmied Holz
+locked: false
+author: Jomant/Kiachan
+ordered: true
+hidden: true
+required: 0
+trigger:
+  '0':
+    type: host.interact
+    args:
+      host: this.1-issabella.issabella
+    actions:
+      '0':
+        type: rcconversations.conversation.start
+        args:
+          host: this.1-issabella.issabella
+          conv: this.1-issabella.start-quest
+  '1':
+    type: rcconversations.conversation.stage
+    args:
+      conv: this.1-issabella.start-quest
+      stage: accept
+    actions:
+      '0':
+        type: quest.start
+        args:
+          quest: this.start-schmied
+      '1':
+        type: rcconversations.host.save
+        args:
+          host: this.1-issabella.issabella
+          conv: this.1-issabella.1-issabella
+      '2':
+        type: rcconversations.host.save
+        args:
+          host: this.schmied
+          conv: this.start-quest
+objectives:
+  '0':
+    name: Rede mit dem Schmied
+    trigger:
+      '0':
+        type: rcconversations.conversation.stage
+        args:
+          conv: this.1-issabella.start-quest
+          stage: accept
+        actions:
+          '0':
+            type: rcconversations.host.save
+            args:
+              host: this.schmied
+              conv: this.1-schmied
+          '1':
+            type: player.give.compass
+            args:
+              name: Die Farm
+              world: world
+              x: -1816
+              y: 117
+              z: -50
+  '1':
+    name: Besorge Holz von der Farm
+    hidden: true
+    trigger:
+      '0':
+        type: player.location
+        args:
+          world: world
+          x: -1816
+          y: 117
+          z: -50
+          radius: 10
+        actions:
+          '0':
+            type: rcconversations.host.save
+            args:
+              host: this.schmied
+              conv: this.complete-quest
+    requirements:
+      '0':
+        type: player.has-item
+        args:
+          amount: 32
+          item: WOOD:5
+  '2':
+    name: Bringe dem Schmied das Holz
+    hidden: true
+    trigger:
+      '0':
+        type: host.interact
+        args:
+          host: this.schmied
+        actions:
+          '1':
+            type: rcconversations.host.save
+            args:
+              host: this.schmied
+              conv: this.2-ausliefern.start-quest
+          '2':
+            type: rcconversations.host.save
+            args:
+              host: this.2-ausliefern.werner
+              conv: this.2-ausliefern.complete-quest
+          '3':
+            type: player.give.compass
+            args:
+              name: Mama Garn
+              world: world
+              x: -935
+              y: 68
+              z: 496
+          '4':
+            type: quest.item.add
+            args:
+              item:   Rc91018
+              amount: 1
+          '5':
+            type: player.remove.item
+            args:
+              amount: 32
+              item: WOOD:5
+    requirements: 
+      '0':
+        type: player.has-item
+        args:
+          amount: 32
+          item: WOOD:5
+      '1':
+        type: rcconversations.conversation.stage
+        args:
+          conv: this.complete-quest
+          stage: finished
+  '3':
+    name: Liefere das Schwert aus
+    hidden: true
+    trigger: 
+      '0':
+        type: rcconversations.conversation.stage
+        args:
+          conv: this.2-ausliefern.complete-quest
+          stage: finished
+        actions:
+          '0':
+            type: quest.item.remove
+            args:
+              item:  Rc91018
+              amount: 1
+          '1':
+            type: player.give.item
+            args:
+              item: GOLD_INGOT
+              amount: 1
+          '2':
+            type: player.give.item
+            args:
+              item: IRON_INGOT
+              amount: 2
+          '3':
+            type: rcconversations.host.save
+            args:
+              host: this.schmied
+              conv: this.2-ausliefern.complete-quest1
+          '4':
+            type: rcconversations.host.save
+            args:
+              host: this.2-aslieferm.werner
+              conv: this.2-ausliefern.end-quest
+    requirements:
+      '0':
+        type: quest.item.has
+        args:
+          amount: 1
+          item: Rc91018
+      '1':
+        type: rcconversations.conversation.stage
+        args:
+          conv: this.2-ausliefern.complete-quest
+          stage: finished
+  '4':
+    name: Gib dem Schmied die Bezahlung
+    hidden: true
+    optinal: true
+    trigger:
+      '0':
+        type: rcconversations.conversation.stage
+        args:
+          conv: this.2-ausliefern.complete-quest1
+          stage: way1
+        actions:
+          '0':
+            type: rcskills.hero.addxp
+            args:
+            exp: 500
+          '1':
+            type: player.give.money
+            args:
+              amount: 10s
+          '2':
+            type: quest.complete
+            args:
+              quest: this.start-schmied
+          '3':
+            type: player.remove.item
+            args:
+              amount: 1
+              item: IRON_INGOT
+          '4':
+            type: player.remove.item
+            args:
+              amount: 1
+              item: GOLD_INGOT
+    requirements:
+      '0':
+        type: player.has-item
+        args:
+          item: GOLD_INGOT
+          amount: 1
+      '1':
+        type: player.has-item
+        args:
+          item: IRON_INGOT
+          amount: 1
+  '5':
+    name: Belüge den Schmied
+    hidden: true
+    optinal: true
+    trigger:
+      '0':
+        type: rcconversations.conversation.stage
+        args:
+          conv: this.2-ausliefern.complete-quest1
+          stage: way2
+        actions:
+          '0':
+            type: rcskills.hero.addxp
+            args:
+            exp: 350
+          '1':
+            type: player.give.money
+            args:
+              amount: 8s
+          '2':
+            type: quest.complete
+            args:
+              quest: this.start-schmied
+  '6':
+    name: Gib dem Schmied die Bezahlung nicht
+    hidden: true
+    optinal: true
+    trigger:
+      '0':
+        type: rcconversations.conversation.stage
+        args:
+          conv: this.2-ausliefern.complete-quest1
+          stage: kill
+        actions:
+          '0':
+            type: player.kill
+          '1':
+            type: quest.complete
+            args:
+              quest: this.start-schmied
+complete-actions: 
+  '0':
+    type: rcconversations.host.save
+    args:
+      host: this.schmied
+      conv: this.end-quest
+  '1':
+    type: rcconversations.host.save
+    args:
+      host: this.1-issabella.issabella
+      conv: this.1-issabella.end-quest
+  '2':
+    type: rcconversations.host.save
+    args:
+      host: this.2-ausliefern.werner
+      conv: this.2-ausliefern.end-quest

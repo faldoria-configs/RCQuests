@@ -1,0 +1,13 @@
+settings:
+  show-npc-name: true
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Hast du die 15 Sandflöhe getötet?"'
+        - '~2s'
+        - '!text.player "Ja, es war wie ich schon sagte, kein Problem."'
+        - '~2s'
+        - '!text "Gute Leistung das hast du schnell hinbekommen."'
+        - '~2s'
+        - '!objective.complete this.sandflohplage 2'

@@ -1,0 +1,14 @@
+name: Sokensos
+type: NPC
+health: 100
+attackable: false
+friendly: true
+equipment:
+  hand: SHEARS
+location:
+  world: ankanor
+  x: 72
+  y: 82
+  z: -26
+default-conv: faldoria.ankanor.einfache-npcs.sokensos.sokensos.default
+talk-close: false

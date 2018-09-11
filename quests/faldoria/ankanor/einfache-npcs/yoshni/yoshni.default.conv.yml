@@ -1,0 +1,6 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Sprich mit den Einwohnern. Sie k<&ouml>nnen dir wichtige Aufgaben geben."'
+        - '!text "Kisten können n<&uuml>tzliche Dinge beinhalten."'

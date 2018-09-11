@@ -1,0 +1,12 @@
+name: Lious
+type: NPC
+health: 100
+attackable: false
+friendly: true
+location:
+  world: ankanor
+  x: 8
+  y: 183
+  z: 21
+default-conv: this.lious.default
+talk-close: true
