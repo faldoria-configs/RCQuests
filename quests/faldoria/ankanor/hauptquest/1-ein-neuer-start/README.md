@@ -14,7 +14,6 @@ Ein kurzer Überblick über den schematischen Ablauf der Quest wie sie vom Quest
     1. 10 Dirt abbauen
     2. 5 [Kieselsteine](#kieselsteine) sammeln (Custom Item das beim Abbau von Dirt droppt)
     3. Die Kieselsteine zu [Max](#max) bringen
-4. Beim Abbau der Kieselsteine können [Kiesflöhe](#kiesfloehe) spawnen die den Spieler angreifen.
 
 ## NPCs
 
