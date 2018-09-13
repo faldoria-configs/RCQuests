@@ -22,37 +22,6 @@ cd quests
 code .
 ```
 
-### Ordner Struktur
-
-Der Übersicht halber sollte alle Dateien die zu einer Quest gehören in einem Ordner und Sub-Ordnern gespeichert werden. NPCs die mehrere Quests verwenden sollten auf der höchst möglichen Ebene abgelegt werden. Das ermöglicht den Quests einen leichten Zugriff durch die Nutzung von [relativen Pfad Angaben](#relative-pfade).
-
-Auch [Mobs](https://git.faldoria.de/raidcraft/rcmobs) und [Custom Items](https://git.faldoria.de/raidcraft/rcitems) sollten, wenn sie nur von der Quest verwendet werden, in dem jweiligen Quest Ordner abgelegt werden.
-
-> Die eindeutige ID einer Quest besteht aus dem Ordner Pfad und dem Quest Namen.
-> z.B. `ankanor.hauptquest.1-quest-name.quest-name`
-
-```text
-quests
-└── ankanor
-    ├── einfache-npcs
-    │   └── ...
-    ├── hauptquest
-    │   ├── 1-quest-name
-    │   │   ├── README.md
-    │   │   ├── quest-name.quest.yml
-    │   │   ├── npc-name.host.yml
-    │   │   ├── npc-name.default.conv.yml
-    │   │   ├── unterhaltung.conv.yml
-    │   │   ├── quest-item.item.yml
-    │   │   ├── quest-mob.mob.yml
-    │   │   └── quest-mobgruppe.mob-group.yml
-    │   ├── 2-quest-name
-    │   │   └── ...
-    │   └── quest-übergreifender-npc.host.yml
-    └── nebenquest
-        └── ...
-```
-
 ### Bestandteile
 
 Eine Quest besteht aus mehreren YAML Dateien (Endung `.yml`) die alle verschiedene Funktionen innerhalb der Quest übernehmen. Eine Quest kann dabei folgende Bestandteile haben.
