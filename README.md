@@ -8,6 +8,11 @@ Die **Quest Entwickler** nutzen dann die `README` Dateien um daraus fertige Konf
 
 > Quest Konfigurationen befinden sich immer im selben Ordner wie die `README.md` der dazugehörigen Quest.
 
+- [Getting Started](#getting-started)
+    - [Benötigte Software](#benötigte-software)
+    - [Repository Clonen](#repository-clonen)
+- [Ordner Struktur](#ordner-struktur)
+
 ## Getting Started
 
 Sowohl für das Schreiben, als auch für das Konfigurieren von Quests sollte der [Issue Tracker](https://git.faldoria.de/plugin-configs/quests/issues) genutzt werden. Dort können Aufgaben priorisiert und unter Teammitglieder aufgeteilt werden.
@@ -38,7 +43,7 @@ Folgende URL einfügen: `https://git.faldoria.de/plugin-configs/quests.git`
 
 Anschließend den Ordner auswählen in dem die Quests gespeichert werden sollen und bestätigen.
 
-### Ordner Struktur
+## Ordner Struktur
 
 Der Übersicht halber sollte alle Dateien die zu einer Quest gehören in einem Ordner und Sub-Ordnern gespeichert werden. NPCs die mehrere Quests verwenden sollten auf der höchst möglichen Ebene abgelegt werden. Das ermöglicht den Quests einen leichten Zugriff durch die Nutzung von [relativen Pfad Angaben](docs/QUESt-DEVELOPER.md#relative-pfade).
 
