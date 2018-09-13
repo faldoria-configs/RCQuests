@@ -10,7 +10,7 @@ stages:
         - '~2s'
         - '!text "Nichts, sag mir schnell was du willst und geh dann wieder."'
         - '~2s'
-        - '!text.player "Der Bürgermeister schickt mich, du sollst das Schiff klar machen. Irgendwas von Weltuntergang oder so."'
+        - '!text.player "Der Bürgermeister schickt mich, du sollst das Schiff klar machen. Irgendwas von Weltuntergang oder so..."'
         - '~2s'
         - '!text "Wie bitte? Verarsch mich nicht."'
         - '~2s'
