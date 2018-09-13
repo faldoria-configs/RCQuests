@@ -1,0 +1,12 @@
+name: Beispiel Quest
+desc: Beschreibung der Quest für das Quest Log.
+locked: true
+authors: 
+  - TheFum (QS)
+  - Silthus (QD)
+worlds:
+- ankanor
+auto-complete: true
+ordered: false
+required: 0
+auto-complete: false

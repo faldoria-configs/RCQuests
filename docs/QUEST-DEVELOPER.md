@@ -26,28 +26,16 @@ code .
 
 Eine Quest besteht aus mehreren YAML Dateien (Endung `.yml`) die alle verschiedene Funktionen innerhalb der Quest übernehmen. Eine Quest kann dabei folgende Bestandteile haben.
 
-| Bestandteil | Datei-Endung | Beschreibung |
-| ----------- | ------------ | ------------ |
-| Quest | `.quest.yml` | Die Hauptdatei einer Quest in welcher der Ablauf und die Aufgaben definiert werden. |
-| Host/NPC | `.host.yml` | NPCs die beim Laden der Quest gespawnt werden und mit denen interagiert werden kann. |
-| Conversation | `.conv.yml` | Eine Unterhaltung die während der Quest durch einen NPC oder anderweitig ausgeführt wird. |
-| Default Conversation | `host-name.default.conv.yml` | Eine Standard Unterhaltung für den entsprechenden NPC die aufgerufen wird wenn keine andere Unterhaltung aktiv ist. |
-| [Custom Items](https://git.faldoria.de/raidcraft/rcitems/blob/master/docs/ADMIN.md#config-dateien) | `.item.yml` | Ein Custom Item das temporär für die Quest existiert. Belohnungen sollten als normale Items über das Webinterface angelegt werden. |
-| Mobs | `.mob.yml` | Custom Mobs die nur für die Quest relevant sind. |
-| Mob Gruppen | `.mob-group.yml` | Eine Gruppierung von Custom Mobs um das Tracking und Spawnen zu erleichtern. |
-| Loot-Tabellen | `.loot.yml` | Eine Loot Tabelle speziell für die Quest um z.B. die definierten Custom Items zu droppen wenn die Quest aktiv ist. |
+| Bestandteil                                                                                        | Datei-Endung                 | Beschreibung                                                                                                                       |
+| -------------------------------------------------------------------------------------------------- | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| [Quest](QUEST-CONFIG.md)                                                                           | `.quest.yml`                 | Die Hauptdatei einer Quest in welcher der Ablauf und die Aufgaben definiert werden.                                                |
+| Host/NPC                                                                                           | `.host.yml`                  | NPCs die beim Laden der Quest gespawnt werden und mit denen interagiert werden kann.                                               |
+| Conversation                                                                                       | `.conv.yml`                  | Eine Unterhaltung die während der Quest durch einen NPC oder anderweitig ausgeführt wird.                                          |
+| Default Conversation                                                                               | `host-name.default.conv.yml` | Eine Standard Unterhaltung für den entsprechenden NPC die aufgerufen wird wenn keine andere Unterhaltung aktiv ist.                |
+| [Custom Items](https://git.faldoria.de/raidcraft/rcitems/blob/master/docs/ADMIN.md#config-dateien) | `.item.yml`                  | Ein Custom Item das temporär für die Quest existiert. Belohnungen sollten als normale Items über das Webinterface angelegt werden. |
+| Mobs                                                                                               | `.mob.yml`                   | Custom Mobs die nur für die Quest relevant sind.                                                                                   |
+| Mob Gruppen                                                                                        | `.mob-group.yml`             | Eine Gruppierung von Custom Mobs um das Tracking und Spawnen zu erleichtern.                                                       |
+| Loot-Tabellen                                                                                      | `.loot.yml`                  | Eine Loot Tabelle speziell für die Quest um z.B. die definierten Custom Items zu droppen wenn die Quest aktiv ist.                 |
 
 > Klicke auf den Namen der Quest Komponente in der Tabelle um Details zur Konfiguration des jeweiligen Bestandteils zu erhalten.
 
-## Quest Config
-
-Jede Quest benötigt mindestens eine Quest Config Datei die mit `.quest.yml` endet. In dieser Config wird folgendes definiert:
-
-* **Start der Quest** - Was führt dazu, dass die Quest startet/gestartet werden kann.
-* **Aufgaben** - Was muss der Spieler für Aufgaben erfüllen, damit die Quest abgeschlossen wird.
-* **Ende der Quest** - Was führt dazu, dass die Quest beendet wird.
-* **Belohnungen** - Was für Belohnungen erhält der Spieler für das Beenden der Quest.
-
-In den anschließenden Erklärungen wird folgende [Beispiel Quest](./example-quest/) verwendet. Die dort verwendete `README.md` sollte bei allen Quests von den Quest Schreibern als Vorlage verwendet werden.
-
-Die gesamte Config der Beispiel Quest befindet sich im [example-quest/](./example-quest) Ordner.
