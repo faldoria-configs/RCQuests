@@ -73,7 +73,22 @@ Im nachfolgenden kommen einzelne Config Sektionen die das Herzstück einer Quest
 Jede Quest kann beliebig viele Start Bedingungen enthalten. Sind die Bedingungen nicht erfüllt werden die [Start Trigger](#start-trigger) gar nicht erst geprüft.
 
 ```yml
+# Alle Bedingungen in einem Requirement Block werden automatisch in einer UND Bedingung zusammengefasst.
 start-requirements:
-  flow:
-    - 
+  - '?player.tag quest.completed-der_anfang'
 ```
+
+### Start Trigger
+
+Jede Quest muss irgendwie gestartet werden, daher gibt es die Möglichkeit in Quests `start-trigger` zu definieren. Diese Trigger werden registriert und überprüft sobald alle [Start Bedingungen](#start-bedingungen-optional) erfüllt sind.
+
+> Nicht jede Quest benötigt Start Trigger.
+> Eine Quest kann z.B. auch durch eine andere Quest oder Unterhaltung direkt gestartet werden.
+
+```yml
+start-trigger:
+  - '@player.location x,y,z radius:5'
+  - '!conversation.start conv:beispiel-conversation'
+```
+
+Die Start Trigger werden registriert sobald alle start-requirements erfüllt wurden. Alle Actions unterhalb eines Triggers werden ausgeführt sobald der Trigger ausgelöst wird. Wenn mehrere Trigger definiert sind, werden alle gleichzeitig abgehört und führen jeweils die darunterliegenden Actions aus.
