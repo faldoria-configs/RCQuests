@@ -66,7 +66,7 @@ repeatable: false
 
 ## Quest Core
 
-Im nachfolgenden kommen einzelne Config Sektionen die das Herzstück einer Quest bilden. Diese Config Abschnitte basieren fast alle auf der [ART API](https://git.faldoria.de/raidcraft/raidcraft-api/docs/art/ART-API.md) und machen massiven Gebrauch von [Actions](https://git.faldoria.de/raidcraft/raidcraft-api/docs/art/ACTIONS.md), [Actions](https://git.faldoria.de/raidcraft/raidcraft-api/docs/art/REQUIREMENTS.md) und [Triggern](https://git.faldoria.de/raidcraft/raidcraft-api/docs/art/TRIGGER.md). Außerdem wird in den ganzen Quest Beispielen der einfachheit halber die [Flow Syntax](https://git.faldoria.de/raidcraft/raidcraft-api/docs/art/FLOW.md) verwendet. Die Grundkonzepte von `ART` und der `Flow Syntax` sollten daher bekannt sein um Quests zu schreiben.
+Im nachfolgenden kommen einzelne Config Sektionen die das Herzstück einer Quest bilden. Diese Config Abschnitte basieren fast alle auf der [ART API](https://git.faldoria.de/raidcraft/raidcraft-api/docs/ART-API.md) und machen massiven Gebrauch von [Actions](https://git.faldoria.de/raidcraft/raidcraft-api/docs/ART-API.md#actions), [Actions](https://git.faldoria.de/raidcraft/raidcraft-api/docs/ART-API.md#actions) und [Triggern](https://git.faldoria.de/raidcraft/raidcraft-api/docs/ART-API.md#trigger). Außerdem wird in den ganzen Quest Beispielen der einfachheit halber die [Flow Syntax](https://git.faldoria.de/raidcraft/raidcraft-api/docs/ART-API.md#flow) verwendet. Die Grundkonzepte von `ART` und der `Flow Syntax` sollten daher bekannt sein um Quests zu schreiben.
 
 ### Start Bedingungen (optional)
 
