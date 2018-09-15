@@ -37,11 +37,7 @@ Angunt: Als erstes könntest du 15 von diesen verdammten Sandflöhen töten.
 
 ...
 
-```yml
-
-Angunt: Hast du die 15 Sandflöhe getötet?
-
-```
+`Angunt: Hast du die 15 Sandflöhe getötet?`
 
 > 1. Ja, es war wie ich schon sagte, kein Problem. 
 
