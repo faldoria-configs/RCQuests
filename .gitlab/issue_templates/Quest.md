@@ -10,7 +10,7 @@ Folgende Schritte müssen in den einzelnen Teams erledigt werden, damit die Ques
 
 * [ ]  Niederschrift über den Ablauf der Quest in einer `Readme.md` Datei. [Dokumentation für Questschreiber](/docs/QUEST-WRITER.md)
 * [ ]  Freigabe der Quest für die Questentwickler durch das Setzen des ~ready-for-config Labels.
-* [ ]  Konfiguration der Quest durch einen Quest Entwickler. [Dokumentation für Quest Entwickler][/docs/QUEST-DEVELOPER.md]
+* [ ]  Konfiguration der Quest durch einen Quest Entwickler. [Dokumentation für Quest Entwickler](/docs/QUEST-DEVELOPER.md)
 * [ ]  Freigabe der Quest zum Testen durch das Setzen des ~ready-for-testing Labels.
 * [ ]  Testen der Quest. [Dokumentation für Quest Tester](/docs/QUEST-TESTER.md)
 * [ ]  Erstellen eines Merge Requests um die Quest auf Live zu übernehmen und Zuweisen des Labels ~ready-for-merge
