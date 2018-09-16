@@ -1,5 +1,3 @@
-# Name der Quest
-
 (Kurze Zusammenfassung der Quest, bzw. der geplanten Quest Idee.)
 
 <!-- Vergiss nicht dir den Task zuzuweisen in dem du unten oder rechts auf "Assign" klickst. -->
