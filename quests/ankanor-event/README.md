@@ -4,7 +4,7 @@ Nach dem Teleport durch Jamos muss der Spieler sich bis zum Schiff durchkämpfen
 
 Quests:
 
-* [Verteidige Ankanor](./1-ankanor-event)
+* [Verteidige Ankanor](1-ankanor-event/)
 
 ## Referenzen
 
@@ -16,4 +16,4 @@ Quests:
 
 ### Vorherige Questgebiete
 
-* 00. Ankanor [Link zur Readme.md](/ankanor/hauptquest)  [Forenlink](https://faldoria.de/board/index.php?thread/390-00-ankanor-ankanor-event-aktuell/)
+* 00. Ankanor [Link zur Readme.md](../ankanor/hauptquest)  [Forenlink](https://faldoria.de/board/index.php?thread/390-00-ankanor-ankanor-event-aktuell/)
