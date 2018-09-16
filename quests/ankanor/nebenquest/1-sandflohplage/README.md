@@ -5,8 +5,8 @@ An der südlichen Küste der Insel hat sich eine Königin von [Mobs Sandflöhen]
 ## Ablauf
 
 1. Start: Spieler nähert sich Angunt
-2. Spieler spricht [NPC Angunt](#Angunt) an welcher ihm die Aufgabe gibt 15 [Mobs Sandflöhe](#Sandflöhe) zu töten
-3. Spieler kehrt zurück und erhält eine Belohnung
+2. Spieler spricht [NPC Angunt](#Angunt) an welcher ihm die Aufgabe gibt 15 [Mobs Sandflöhe](#Sandflöhe) zu töten `Questbeginn:`[Sandfloh Plage](#sandfloh-plage)
+3. Spieler kehrt zurück und erhält eine [Belohnung](#Belohnung)
 
 ## NPCs
 
@@ -22,6 +22,8 @@ Standartsätze:
 
 ##### Quest Dialog
 
+##### Sandfloh Plage
+
 ```yml
 Angunt: Hat dich der Bürgermeister geschickt ? Wenn ja dann bist du zur passender Zeit gekommen, wir haben ein Sandfloh Problem.
 Spieler: Sandflöhe, das hört sich ekelhaft an.
@@ -29,7 +31,7 @@ Angunt: Wahrscheinlich hat sich am Strand eine Königin eingenistet. Deswegen si
 Spieler: Wie kann ich helfen?
 Angunt: Als erstes könntest du 15 von diesen verdammten Sandflöhen töten.
 ```
->1. Sandflöhe? Kein Problem! `[QUEST START]`
+>1. Sandflöhe? Kein Problem! `[QUEST START]` [Sandfloh Plage](#sandfloh-plage)
 
 `Angunt: Viel Glück!`
 
@@ -41,7 +43,7 @@ Angunt: Als erstes könntest du 15 von diesen verdammten Sandflöhen töten.
 
 `Angunt: Hast du die 15 Sandflöhe getötet?`
 
-> 1. Ja, es war wie ich schon sagte, kein Problem. 
+> 1. Ja, es war wie ich schon sagte, kein Problem. `[QUEST ENDE]` [Sandfloh Plage](#sandfloh-plage)
 
 `Angunt: Gute Leistung, das hast du schnell hinbekommen.`
 
@@ -76,6 +78,8 @@ lore: Eine leicht glänzende Schuppe eines Flohs die zu nichts zu gebrauchen ist
 max-stack-size: 64
 ```
 
+## Stinkendes Fleisch
+
 ```yml
 name: Stinkendes Fleisch
 type: ROHSTOFF
@@ -103,5 +107,11 @@ spawning-naturally: false
 loot-table: 
 aggro: true
 ```
+
+## Belohnungen
+
+[Sandfloh Plage](#sandfloh-plage)
+> 8 Heller
+> 5 exp
 
 ## Referenzen
