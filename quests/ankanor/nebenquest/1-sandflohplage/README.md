@@ -35,17 +35,11 @@ Angunt: Als erstes könntest du 15 von diesen verdammten Sandflöhen töten.
 
 > 2. Darauf habe ich keine Lust. `[Ende]`
 
+
 ...
 
-<<<<<<< HEAD
+
 `Angunt: Hast du die 15 Sandflöhe getötet?`
-=======
-```yml
-
-Angunt: Hast du die 15 Sandflöhe getötet?
-
-```
->>>>>>> 1a845006a056ae93a43c5da353f657bfd51af7dc
 
 > 1. Ja, es war wie ich schon sagte, kein Problem. 
 
