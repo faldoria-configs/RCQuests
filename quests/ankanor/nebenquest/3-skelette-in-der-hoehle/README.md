@@ -9,7 +9,7 @@ Die Höhle befindet sich am südwestlichen teil des Tianbaumes und wird von Gena
 3. Nach eienem kurzen Dialog, in welcher der Spieler erklärt das er für den Schmied in die Höhle muss
 4. Gibt Genam ihm auch noch eine Aufgabe `Questbeginn` [Skelette in der Höhle](#skelette-in-der-hoehle)
 5. Spieler tötet die geforderten 10 Skelette und erledigt im besten Fall auch noch die Quests des Schmieds.
-6. Ende: Beim verlassen der Höhle und dem Ansprechen von Genam schließt der Spieler die Quest ab. `Questende` [Skelette in der Höhle](#skelette-in-der-hoehle) und erhält eine [Belohung](#Belohung)
+6. Ende: Beim verlassen der Höhle und dem Ansprechen von Genam schließt der Spieler die Quest ab. `Questende` [Skelette in der Höhle](#skelette-in-der-hoehle) und erhält eine [Belohnung](#Belohnung)
 
 ## NPCs
 
@@ -49,7 +49,7 @@ Spieler: Musste ich ja wohl…
 ```
 > 1. `[QUEST ENDE]` [Skelette in der Höhle](#skelette-in-der-hoehle) und erhält [Belohnung](#Belohnung)
 
-> Spieler kann zu [Sakros](../2-der-schmied) zurückkehren
+> Spieler kann zu [NPC Sakros](../2-der-schmied) zurückkehren
 
 #### Ausrüstung
 
