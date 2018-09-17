@@ -4,15 +4,14 @@ Am südöstlichen Rand des Dorfes steht [NPC Sakros](#Sakros) der Schmied. Der S
 
 ## Ablauf
 
-> Vorquest siehe
-> [Quest Material für die Schmiede](../2-der-schmied/REAMDE.md) und 
-> Spieler trifft [Genam](../3-skelette-in-der-hoehle/README.md)
-> Spieler erledigt die Aufgabe und kehrt zum Questgeben zurück
-
 1. Start: Spieler nähert sich Sakros
 2. Spieler spricht [NPC Sakros](#Sakros) an und fordert den Spieler auf die Schwerter herzustellen `Questbeginn` [Hilf in der Schmiede](#Hilf-in-der-Schmiede)
 3. Spieler muss eine gewisse Reihenfolge einhalten. Hebel ziehen, Knopf drücken, Hebel ziehen.
 4. Ende: Nach erfolgreichen betätigen schließt der Spieler die Quest ab und erhält eine [Belohnung](#Belohnung) `Questende` [Hilf in der Schmiede](#Hilf-in-der-Schmiede)
+
+## Vorrausetzungen
+
+> 1. Erledigen der [Quest Material für die Schmiede](../2-der-schmied/REAMDE.md) 
 
 ## NPCs
 

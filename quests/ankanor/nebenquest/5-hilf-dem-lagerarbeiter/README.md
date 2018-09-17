@@ -14,6 +14,10 @@
     * In den Gewässern um und auf der Insel muss der Spieler 3x Schwarzer Barsch angeln
 5. Spieler kehrt zurück und erhält eine [Belohnung](#Belohnung) `Questende:`[Hilf dem Lagerarbeiter](#hilf-dem-lagerarbeiter)
 
+## Vorrausetzungen
+
+> 1. Keine
+
 ## NPCs
 
 ### Kansa

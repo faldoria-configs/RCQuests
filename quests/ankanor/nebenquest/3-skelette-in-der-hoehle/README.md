@@ -11,6 +11,10 @@ Die Höhle befindet sich am südwestlichen teil des Tianbaumes und wird von Gena
 5. Spieler tötet die geforderten 10 Skelette und erledigt im besten Fall auch noch die Quests des Schmieds.
 6. Ende: Beim verlassen der Höhle und dem Ansprechen von Genam schließt der Spieler die Quest ab. `Questende` [Skelette in der Höhle](#skelette-in-der-hoehle) und erhält eine [Belohnung](#Belohnung)
 
+## Vorrausetzungen
+
+> 1. Annehmen der [Quest Material für die Schmiede](../2-der-schmied) 
+
 ## NPCs
 
 ### Genam
@@ -109,10 +113,10 @@ loot-table:
 aggro: true
 ```
 
-## Belohnungen
+## Belohnung
 
 [Skelette in der Höhle](#skelette-in-der-hoehle)
-> 5 Heller
+> 5 Heller  
 > 5 exp
 
 ## Referenzen
