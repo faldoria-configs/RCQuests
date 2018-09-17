@@ -1,7 +1,6 @@
 # Der Schmied
 
 Am südöstlichen Rand des Dorfes steht [NPC Sakros](#Sakros) der Schmied. Er benötigt Materialien für Schwerter, er erklärt dem Spieler das er Eisen und rostige Schwerter aus einer Höhle auf der anderen Seite holen soll.
-Nachdem der Spieler diese Aufgabe erledigt hat soll er noch in der Schmiede helfen die Schwerter herzustellen indem er einige Hebel bedient.
 
 ## Ablauf
 
@@ -10,9 +9,11 @@ Nachdem der Spieler diese Aufgabe erledigt hat soll er noch in der Schmiede helf
 3. Auf der anderen Seite der Insel in der Höhle findet der Spieler einen Genam vor der ihn nur hineinlässt wenn der Spieler die Quest hat.
 4. In der Höhle selbst findet der Spieler Skelette welche die geforderten Items droppen, diese sind aber auch in den Kisten dort zu finden.
 5. Spieler kehrt zurück und erhält eine [Belohnung](#Belohnung) `Questende:`[Material für die Schmiede](#Material-für-die-Schmiede)
-6. Sakros fordert den Spieler die Schwerter herzustellen `Questbeginn` [Hilf in der Schmiede](#Hilf-in-der-Schmiede)
-7. Spieler muss eine gewisse Reihenfolge einhalten. Hebel ziehen, Knopf drücken, Hebel ziehen.
-8. Ende: Nach erfolgreichen betätigen schließt der Spieler die Quest ab und erhält eine [Belohnung](#Belohnung) `Questende` [Hilf in der Schmiede](#Hilf-in-der-Schmiede)
+
+> Folgequest siehe
+> Spieler trifft [Genam](../3-skelette-in-der-hoehle/README.md) und
+> [Hilf in der Schmiede](../4-hilf-in-der-schmiede/README.md)
+> Spieler erledigt die Aufgabe und kehrt zum Questgeben zurück
 
 ## NPCs
 
@@ -62,23 +63,7 @@ Spieler: Na gut.
 ```
 > 1. `[QUEST ENDE]` [Material für die Schmiede](#Material-für-die-Schmiede) und erhält [Belohnung](#Belohnung)
 
-##### Hilf in der Schmiede
-
-> 2. `[Quest START]` [Hilf in der Schmiede](#Hilf-in-der-Schmiede)
-**QuestLog:** *Stelle 3 Schwerter her, indem du den Hebel ziehst, den Knopf drückst und nochmal den Hebel betätigst.*
-
-> Spieler macht die gegebenen Aufgabe, bis Sakros nach dem dritten Schwert sagt:
-
-```yml
-NPC: Gut, das soll reichen.
-Spieler: Und? Bist du zufrieden mit der Arbeit?
-NPC: Hab schon besseres gesehen, aber für den ersten Versuch ist das schon recht gut.
-Spieler: Und warum konntest du das selbst nicht machen?
-NPC: Hab mir 'nen Nagel eingerissen. Und jetzt hau ab!
-```
-
-> 1. `[QUEST ENDE]` [Hilf in der Schmiede](#Hilf-in-der-Schmiede) und erhält [Belohnung](#Belohnung)
-
+> Folgequest [Hilf in der Schmiede](../4-hilf-in-der-schmiede/README.md)
 
 #### Ausrüstung
 
@@ -144,11 +129,8 @@ aggro: true
 > 8 Heller
 > 5 exp
 
-[Hilf in der Schmiede](#Hilf-in-der-Schmiede)
-> 5 Heller
-> 10 verbrannte Steaks
-> 5 exp
+
 
 ## Referenzen
 
-> Verbunden mit [Genam](../3-skelette-in-der-hoehle/README.md)
+> Verbunden mit [Genam](../3-skelette-in-der-hoehle/README.md) und [Hilf in der Schmiede](../4-hilf-in-der-schmiede/README.md)
