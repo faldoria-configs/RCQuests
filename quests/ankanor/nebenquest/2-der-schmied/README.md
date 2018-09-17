@@ -10,6 +10,10 @@ Am südöstlichen Rand des Dorfes steht [NPC Sakros](#Sakros) der Schmied. Er be
 4. In der Höhle selbst findet der Spieler Skelette welche die geforderten Items droppen, diese sind aber auch in den Kisten dort zu finden.
 5. Spieler kehrt zurück und erhält eine [Belohnung](#Belohnung) `Questende:`[Material für die Schmiede](#Material-für-die-Schmiede)
 
+## Vorrausetzungen
+
+> 1. Erledigen der [HQ Klassenwahl](../../hauptquest/4-klassenwahl/README.md) bzw. es ist das Kämpfen / eine Klasse nötig.
+
 > Folgequest siehe
 > Spieler trifft [Genam](../3-skelette-in-der-hoehle/README.md) und
 > [Hilf in der Schmiede](../4-hilf-in-der-schmiede/README.md)
@@ -58,7 +62,7 @@ Sakros: Wieso hat das so lange gedauert??
 Spieler: Ich musste einmal um die ganze Insel rum, also beschwer dich nicht!
 Sakros: Dann los, mach mir die Schwerter!
 Spieler: Äh, Was?!?
-Sakros: Irgendwann musst du es schließlich lernen. Also los, es ist einfach: Zieh den Hebel, drück den Knopf und betätige den Hebel erneut.
+Sakros: Irgendwann musst du es schließlich lernen. Also los, es ist einfach. Zieh den Hebel, drück den Knopf und betätige den Hebel erneut.
 Spieler: Na gut.
 ```
 > 1. `[QUEST ENDE]` [Material für die Schmiede](#Material-für-die-Schmiede) und erhält [Belohnung](#Belohnung)
@@ -123,10 +127,10 @@ loot-table:
 aggro: true
 ```
 
-## Belohnungen
+## Belohnung
 
 [Material für die Schmiede](#Material-für-die-Schmiede)
-> 8 Heller
+> 8 Heller  
 > 5 exp
 
 

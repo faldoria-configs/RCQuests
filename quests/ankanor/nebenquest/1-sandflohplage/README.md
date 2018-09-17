@@ -8,6 +8,10 @@ An der südlichen Küste der Insel hat sich eine Königin von [Mobs Sandflöhen]
 2. Spieler spricht [NPC Angunt](#Angunt) an welcher ihm die Aufgabe gibt 15 [Mobs Sandflöhe](#Sandflöhe) zu töten `Questbeginn:`[Sandfloh Plage](#sandfloh-plage)
 3. Spieler kehrt zurück und erhält eine [Belohnung](#Belohnung)
 
+## Vorrausetzungen
+
+> 1. Erledigen der [HQ Klassenwahl](../../hauptquest/4-klassenwahl/README.md) bzw. es ist das Kämpfen / eine Klasse nötig.
+
 ## NPCs
 
 ### Angunt
@@ -31,7 +35,7 @@ Angunt: Wahrscheinlich hat sich am Strand eine Königin eingenistet. Deswegen si
 Spieler: Wie kann ich helfen?
 Angunt: Als erstes könntest du 15 von diesen verdammten Sandflöhen töten.
 ```
->1. Sandflöhe? Kein Problem! `[QUEST START]` [Sandfloh Plage](#sandfloh-plage)
+> 1. Sandflöhe? Kein Problem! `[QUEST START]` [Sandfloh Plage](#sandfloh-plage)
 
 `Angunt: Viel Glück!`
 
@@ -108,10 +112,10 @@ loot-table:
 aggro: true
 ```
 
-## Belohnungen
+## Belohnung
 
 [Sandfloh Plage](#sandfloh-plage)
-> 8 Heller
+> 8 Heller  
 > 5 exp
 
 ## Referenzen
