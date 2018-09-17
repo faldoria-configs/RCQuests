@@ -1,5 +1,5 @@
 stages:
   start:
-    actions:
-      flow:
-       - '!text(cooldown:30s) "Diese dreckigen Sandflöhe werden uns noch alle töten!"'
+    random-actions:
+       - '!text "Seid vorsichtig und tretet mir die Pflanzen nicht kaputt."'
+       - '!text "Sandflöhe sind sehr selten aggressiv. Irgendwas muss sie verärgert haben."'
