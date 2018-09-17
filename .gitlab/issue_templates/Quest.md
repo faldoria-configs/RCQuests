@@ -6,7 +6,9 @@
 
 Folgende Schritte müssen in den einzelnen Teams erledigt werden, damit die Quest live geht.
 
-* [ ]  Niederschrift über den Ablauf der Quest in einer `Readme.md` Datei. [Dokumentation für Questschreiber](/docs/QUEST-WRITER.md)
+<!-- Den Link zur README.md Datei mit dem Link zum Quest Ordner im Git ersetzen. -->
+
+* [ ]  Niederschrift über den Ablauf der Quest in einer [`Readme.md`]() Datei. [Dokumentation für Questschreiber](/docs/QUEST-WRITER.md)
 * [ ]  Freigabe der Quest für die Questentwickler durch das Setzen des ~ready-for-config Labels.
 * [ ]  Konfiguration der Quest durch einen Quest Entwickler. [Dokumentation für Quest Entwickler](/docs/QUEST-DEVELOPER.md)
 * [ ]  Freigabe der Quest zum Testen durch das Setzen des ~ready-for-testing Labels.
