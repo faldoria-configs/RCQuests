@@ -35,6 +35,8 @@ y: 91
 z: 54
 world: Ankanor
 ``` 
+**Während der Quest**  
+1. Diese Skelette solltet ihr schnell vernichten, dieses geklapper nervt langsam.
 
 **Nach der Quest**  
 1. Ich frage mich noch immer wie diese Skelette hierher gekommen sind und vorallem warum? Ob das eine Prüfung ist?  

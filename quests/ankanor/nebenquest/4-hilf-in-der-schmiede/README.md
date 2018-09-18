@@ -24,6 +24,9 @@ Ist der Schmied von Ankanor. Ein sehr rauer und ungeduldiger Geselle.
 **Vor der Quest**  
 1. Nicht vorhanden bzw. Questdialog [Quest Material für die Schmiede](../2-der-schmied/REAMDE.md) 
 
+**Während der Quest**  
+1. Hebel ziehen, Knopf drücken und wieder den Hebel ziehen, so schwer kann das doch nicht sein!
+
 **Nacht der Quest**  
 1. Deine Faust muss stark sein, selbst Genam konnte es nicht so einfach mit den Skeletten in der Höhle aufnehmen.  
 2. Wenn ich nicht wüsste das es Jahrelange Erfrahrung bräuchte um Schmied zu sein, müsste ich Angst haben das du mir meinen Job nimmst. Deine Arbeit mit den Schwertern war klasse.

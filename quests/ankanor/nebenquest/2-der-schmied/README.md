@@ -31,6 +31,9 @@ Ist der Schmied von Ankanor. Ein sehr rauer und ungeduldiger Geselle.
 1. Nur mit einer starken Faust kann man etwas in seinem Leben erreichen.  
 2. Puh, ich hasse diese Hitze am Schmelzofen, aber du solltet nicht zu nah rangehen, ich möchte nicht das du dich verletzt! *lacht lauthals*
 
+**Während der Quest**  
+1. Du bist ja noch immer hier, beeil dich und hol mir die Materialien für die Schmiede.
+
 **Nach der Quest**  
 1. Nicht vorhanden bzw. Questdialog [Hilf in der Schmiede](../4-hilf-in-der-schmiede/README.md)
     
