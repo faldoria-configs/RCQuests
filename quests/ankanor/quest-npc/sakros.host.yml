@@ -1,0 +1,12 @@
+name: Sakros
+type: NPC
+health: 100
+attackable: false
+friendly: true
+location:
+  world: ankanor
+  x: 90
+  y: 83
+  z: -2
+default-conv: this.sakros.default
+talk-close: true
