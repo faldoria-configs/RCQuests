@@ -21,11 +21,25 @@ Die Höhle befindet sich am südwestlichen teil des Tianbaumes und wird von Gena
 
 Er bewacht die Höhle auf der südwestlichen Seite der Insel, sodass keiner dort hineingeht bevor er nicht bereit ist.
 
+##### Standartsätze
+
+**Vor der Quest**  
 Wenn Spieler die benötigte Quest noch nicht hat und sich der Höhle nähert passiert folgendens
 ```yml
-Genam: Halt, in dieser lauern böse Skelette du solltest dort nicht hinein!
+Genam: Halt, in dieser Höhle lauern böse Skelette du solltest dort nicht hinein!
 ```
-Spieler wird außerdem nach (x: -16, y: 91, z: 54, world: Ankanor) teleportiert
+Spieler wird außerdem nach folgenden Koordinaten teleportiert.
+```yml
+x: -16
+y: 91
+z: 54
+world: Ankanor
+``` 
+
+**Nach der Quest**  
+1. Ich frage mich noch immer wie diese Skelette hierher gekommen sind und vorallem warum? Ob das eine Prüfung ist?  
+2. Vielen Dank nochmal das ihr diese ausgeburten von Skeletten getötet habt.
+
 
 #### Dialoge
 
@@ -36,7 +50,7 @@ Genam: Halt, kein Zutritt!
 Spieler: Aber ich habe die Genehmigung des Schmiedes.
 Genam: Des Schmiedes? Er braucht wohl die alten, rostigen Schwerder von da unten. Nin, dort unten warten Skelette auf Unglückliche, die in die Höhle müssen.
 Spieler: Oha, und jetzt?
-Genam: Wenn der SChmied seine Schwerter will, musst du sie wohl oder übel da unten rausholen. Töte doch bitte ein paar von diesen Skeletten für mich, während du da bist.
+Genam: Wenn der Schmied seine Schwerter will, musst du sie wohl oder übel da unten rausholen. Töte doch bitte ein paar von diesen Skeletten für mich, während du da bist.
 ```
 
 > 1. Muss ich ja wohl, wenn ich da runter muss...

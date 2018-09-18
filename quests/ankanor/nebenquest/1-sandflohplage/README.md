@@ -18,9 +18,15 @@ An der südlichen Küste der Insel hat sich eine Königin von [Mobs Sandflöhen]
 
 Er ist ein neugieriger Kaishi welcher sehr viel über die Pflanzen und Tiere weiß. Ständig ist wandert er auf der Insel herum. 
 
-Standartsätze:
-    1. Seid vorsichtig und tretet mir die Pflanzen nicht kaputt.
-    2. Sandflöhe sind sehr selten Aggressiv, irgendwas muss sie verärgert haben.
+##### Standartsätze  
+
+**Vor der Quest**
+1. Seid vorsichtig und tretet mir die Pflanzen nicht kaputt.
+2. Sandflöhe sind sehr selten Aggressiv, irgendwas muss sie verärgert haben.
+
+**Nach der Quest**
+1. Ich hoffe eines Tages nistet sich die Sandflohkönigin woanders ein, es ist ein Graus das wir die Sandflöhe sonst komplett vernichten müssten.
+2. Wusstet ihr das Sandflöhe viele Verwandte Arten haben? Zum Beispiel gibt es noch Kiesflöhe, die sind noch zäher als die Sandflöhe, aber sonst sind sie fast gleich.
     
 #### Dialoge
 
@@ -95,7 +101,7 @@ max-stack-size: 64
 
 ## Mobs
 
-### Sandflöhe
+### Sandflöhe (Worldspawn)
 
 ```yml
 name: Sandfloh

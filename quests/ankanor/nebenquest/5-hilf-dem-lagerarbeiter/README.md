@@ -24,9 +24,15 @@
 
 Der Lagerarbeiter Kansa ist ein sehr ruhiger und geduldiger Geselle, trotz das Agnatus auf dem Weg ist, sagt er dem Spieler das man viel Zeit hat.
 
-Standartsätze:
-    1. Jemand sagte einmal "In der Ruhe liegt die Kraft", dass war ein sehr weiser Mann.
-    2. Ich mag diese Hektik wegen diesem Agnatus nicht.
+##### Standartsätze
+
+**Vor der Quest**  
+1. Jemand sagte einmal "In der Ruhe liegt die Kraft", dass war ein sehr weiser Mann.  
+2. Ich mag diese Hektik wegen diesem Agnatus nicht.
+
+**Nach der Quest**  
+1. Das Lager ist dank dir nun wieder etwas voller, doch ob wir dieses Lager noch lange nutzen ist fraglich.  
+2. Sag, bist du auch so ein begeisterter Angler wie Kaptiän Mafei, denn du hattest die Fische ziemlich schnell gefangen.
     
 #### Dialoge
 

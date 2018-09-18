@@ -25,9 +25,14 @@ Am südöstlichen Rand des Dorfes steht [NPC Sakros](#Sakros) der Schmied. Er be
 
 Ist der Schmied von Ankanor. Ein sehr rauer und ungeduldiger Geselle.
 
-Standartsätze:
-    1. Nur mit einer starken Faust kann man etwas in seinem Leben erreichen.
-    2. Puh, ich hasse diese Hitze am Schmelzofen.
+##### Standartsätze
+
+**Vor der Quest**  
+1. Nur mit einer starken Faust kann man etwas in seinem Leben erreichen.  
+2. Puh, ich hasse diese Hitze am Schmelzofen, aber du solltet nicht zu nah rangehen, ich möchte nicht das du dich verletzt! *lacht lauthals*
+
+**Nach der Quest**  
+1. Nicht vorhanden bzw. Questdialog [Hilf in der Schmiede](../4-hilf-in-der-schmiede/README.md)
     
 #### Dialoge
 
