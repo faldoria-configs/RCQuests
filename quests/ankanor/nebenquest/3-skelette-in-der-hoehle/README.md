@@ -11,17 +11,37 @@ Die Höhle befindet sich am südwestlichen teil des Tianbaumes und wird von Gena
 5. Spieler tötet die geforderten 10 Skelette und erledigt im besten Fall auch noch die Quests des Schmieds.
 6. Ende: Beim verlassen der Höhle und dem Ansprechen von Genam schließt der Spieler die Quest ab. `Questende` [Skelette in der Höhle](#skelette-in-der-hoehle) und erhält eine [Belohnung](#Belohnung)
 
+## Vorrausetzungen
+
+> 1. Annehmen der [Quest Material für die Schmiede](../2-der-schmied) 
+
 ## NPCs
 
 ### Genam
 
 Er bewacht die Höhle auf der südwestlichen Seite der Insel, sodass keiner dort hineingeht bevor er nicht bereit ist.
 
+##### Standartsätze
+
+**Vor der Quest**  
 Wenn Spieler die benötigte Quest noch nicht hat und sich der Höhle nähert passiert folgendens
 ```yml
-Genam: Halt, in dieser lauern böse Skelette du solltest dort nicht hinein!
+Genam: Halt, in dieser Höhle lauern böse Skelette du solltest dort nicht hinein!
 ```
-Spieler wird außerdem nach (x: -16, y: 91, z: 54, world: Ankanor) teleportiert
+Spieler wird außerdem nach folgenden Koordinaten teleportiert.
+```yml
+x: -16
+y: 91
+z: 54
+world: Ankanor
+``` 
+**Während der Quest**  
+1. Diese Skelette solltet ihr schnell vernichten, dieses geklapper nervt langsam.
+
+**Nach der Quest**  
+1. Ich frage mich noch immer wie diese Skelette hierher gekommen sind und vorallem warum? Ob das eine Prüfung ist?  
+2. Vielen Dank nochmal das ihr diese ausgeburten von Skeletten getötet habt.
+
 
 #### Dialoge
 
@@ -32,7 +52,7 @@ Genam: Halt, kein Zutritt!
 Spieler: Aber ich habe die Genehmigung des Schmiedes.
 Genam: Des Schmiedes? Er braucht wohl die alten, rostigen Schwerder von da unten. Nin, dort unten warten Skelette auf Unglückliche, die in die Höhle müssen.
 Spieler: Oha, und jetzt?
-Genam: Wenn der SChmied seine Schwerter will, musst du sie wohl oder übel da unten rausholen. Töte doch bitte ein paar von diesen Skeletten für mich, während du da bist.
+Genam: Wenn der Schmied seine Schwerter will, musst du sie wohl oder übel da unten rausholen. Töte doch bitte ein paar von diesen Skeletten für mich, während du da bist.
 ```
 
 > 1. Muss ich ja wohl, wenn ich da runter muss...
@@ -109,10 +129,10 @@ loot-table:
 aggro: true
 ```
 
-## Belohnungen
+## Belohnung
 
 [Skelette in der Höhle](#skelette-in-der-hoehle)
-> 5 Heller
+> 5 Heller  
 > 5 exp
 
 ## Referenzen

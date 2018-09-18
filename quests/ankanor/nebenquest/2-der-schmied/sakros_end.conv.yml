@@ -1,0 +1,16 @@
+stages:
+  start:
+    actions:
+       - '!text "Wieso hat das so lange gedauert?"'
+       - '~2s'
+       - '!text.player "Ich musste einmal um die ganze Insel rum, also beschwer dich nicht!"'
+       - '~2s'
+      #Items abgeben
+       - '~2s'
+       - '!text "Dann los, mach mir die Schwerter!"'
+       - '~2s'
+       - '!text.player "Äh, was?!"'
+       - '~2s'
+       - '!text "Irgendwann musst du es schließlich lernen. Also los, es ist einfach. Zieh den Hebel, drück den Knopf und betätige den Hebel erneut."'
+       - '~2s'
+       - '!text.player "Na gut."'

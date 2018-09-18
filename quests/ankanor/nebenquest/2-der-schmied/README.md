@@ -10,6 +10,10 @@ Am südöstlichen Rand des Dorfes steht [NPC Sakros](#Sakros) der Schmied. Er be
 4. In der Höhle selbst findet der Spieler Skelette welche die geforderten Items droppen, diese sind aber auch in den Kisten dort zu finden.
 5. Spieler kehrt zurück und erhält eine [Belohnung](#Belohnung) `Questende:`[Material für die Schmiede](#Material-für-die-Schmiede)
 
+## Vorrausetzungen
+
+> 1. Erledigen der [HQ Klassenwahl](../../hauptquest/4-klassenwahl/README.md) bzw. es ist das Kämpfen / eine Klasse nötig.
+
 > Folgequest siehe
 > Spieler trifft [Genam](../3-skelette-in-der-hoehle/README.md) und
 > [Hilf in der Schmiede](../4-hilf-in-der-schmiede/README.md)
@@ -21,9 +25,17 @@ Am südöstlichen Rand des Dorfes steht [NPC Sakros](#Sakros) der Schmied. Er be
 
 Ist der Schmied von Ankanor. Ein sehr rauer und ungeduldiger Geselle.
 
-Standartsätze:
-    1. Nur mit einer starken Faust kann man etwas in seinem Leben erreichen.
-    2. Puh, ich hasse diese Hitze am Schmelzofen.
+##### Standartsätze
+
+**Vor der Quest**  
+1. Nur mit einer starken Faust kann man etwas in seinem Leben erreichen.  
+2. Puh, ich hasse diese Hitze am Schmelzofen, aber du solltet nicht zu nah rangehen, ich möchte nicht das du dich verletzt! *lacht lauthals*
+
+**Während der Quest**  
+1. Du bist ja noch immer hier, beeil dich und hol mir die Materialien für die Schmiede.
+
+**Nach der Quest**  
+1. Nicht vorhanden bzw. Questdialog [Hilf in der Schmiede](../4-hilf-in-der-schmiede/README.md)
     
 #### Dialoge
 
@@ -58,7 +70,7 @@ Sakros: Wieso hat das so lange gedauert??
 Spieler: Ich musste einmal um die ganze Insel rum, also beschwer dich nicht!
 Sakros: Dann los, mach mir die Schwerter!
 Spieler: Äh, Was?!?
-Sakros: Irgendwann musst du es schließlich lernen. Also los, es ist einfach: Zieh den Hebel, drück den Knopf und betätige den Hebel erneut.
+Sakros: Irgendwann musst du es schließlich lernen. Also los, es ist einfach. Zieh den Hebel, drück den Knopf und betätige den Hebel erneut.
 Spieler: Na gut.
 ```
 > 1. `[QUEST ENDE]` [Material für die Schmiede](#Material-für-die-Schmiede) und erhält [Belohnung](#Belohnung)
@@ -123,10 +135,10 @@ loot-table:
 aggro: true
 ```
 
-## Belohnungen
+## Belohnung
 
 [Material für die Schmiede](#Material-für-die-Schmiede)
-> 8 Heller
+> 8 Heller  
 > 5 exp
 
 

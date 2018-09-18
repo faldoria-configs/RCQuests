@@ -1,0 +1,5 @@
+stages:
+  start:
+    random-actions:
+       - '!text "Nur mit einer starken Faust kann man etwas in seinem Leben erreichen."'
+       - '!text "Puh, ich hasse diese Hitze am Schmelzofen, aber du solltest nicht zu nah rangehen. Ich möchte nicht, dass du dich verletzt! *lacht lauthals*"'

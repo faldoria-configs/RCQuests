@@ -3,26 +3,22 @@ settings:
 stages:
   start:
     actions:
-      flow:
-        - '!text "Hat dich der Bürgermeister geschickt ? Wenn ja dann bist du zur passender Zeit gekommen, wir haben ein Sandfloh Problem."'
+        - '!text "Hat dich der Bürgermeister geschickt ? Wenn ja dann bist du zur passenden Zeit gekommen. Wir haben ein Sandfloh Problem."'
         - '~2s'
-        - '!text.player "Sandflöhe, das hört sich ekelhaft an."'
+        - '!text.player "Sandflöhe? Das hört sich ekelhaft an."'
         - '~2s'
         - '!text "Wahrscheinlich hat sich am Strand eine Königin eingenistet. Deswegen sind sie so aggressiv."'
         - '~2s'
         - '!text.player "Wie kann ich helfen?"'
         - '~2s'
         - '!text "Als erstes könntest du 15 von diesen verdammten Sandflöhen töten."'
-        - ~1s
+        - '~1s'
         - '!text.info "Du kannst mit einem NPC sprechen in dem du die Nachrichten im Chat anklickst."'
         - '!stage choose'
   choose:
-    answers:
-      1:
-        text: "Sandflöhe? Kein Problem!"
-        actions:
-          flow:
-            - '!text "Viel Glück!"'
-            - '!quest.start this.sandflohplage'
-      2:
-        text: "Darauf hab ich keine Lust."
+    actions:
+      - ':"Sandflöhe? Kein Problem!"'
+      - '!text "Viel Glück!"'
+      - '!quest.start this.sandflohplage'
+      #########################################
+      - ':"Darauf hab ich keine Lust."'

@@ -1,0 +1,40 @@
+name: Sandflohplage
+desc: An der südlichen Küste der Insel hat sich eine Königin von Sandflöhen 
+eingenistet und diese sind nun sehr Aggressiv. 
+Der Spieler soll sie für Angunt töten.
+locked: true
+authors:
+  - TheFum (QS)
+  - Luki (QD)
+worlds:
+  - ankanor
+
+level: 1
+auto-complete: false
+ordered: true
+required: 0
+silent: true
+cooldown: 0
+repeatable: false
+
+start-trigger:
+  - '@host.interact this.angunt'
+  - '!conversation.start conv:this.angunt_start host:this.angunt'
+
+objectives:
+  - 1:
+    name: 'Töte 15 Sandflöhe'
+    trigger:
+        - '?rcmobs.mob.kill(count:15)'
+        - '@rcmobs.mob.kill this.sandfloh'
+        - '~2s'
+        - '!text.info Ich sollte besser zu Angunt zurückkehren und ihm berichten.'
+  - 2:
+    name: 'Gehe zurück und sprich mit Angunt'
+    trigger:
+      - '@host.interact this.angunt'
+      - '!conversation.start conv:this.angunt_end host:this.angunt'
+
+complete-actions:
+  - '!player.money.add 8h Quest'
+  - '!rcskills.hero.addxp 5'

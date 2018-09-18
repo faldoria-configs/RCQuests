@@ -4,15 +4,14 @@ Am südöstlichen Rand des Dorfes steht [NPC Sakros](#Sakros) der Schmied. Der S
 
 ## Ablauf
 
-> Vorquest siehe
-> [Quest Material für die Schmiede](../2-der-schmied/REAMDE.md) und 
-> Spieler trifft [Genam](../3-skelette-in-der-hoehle/README.md)
-> Spieler erledigt die Aufgabe und kehrt zum Questgeben zurück
-
 1. Start: Spieler nähert sich Sakros
 2. Spieler spricht [NPC Sakros](#Sakros) an und fordert den Spieler auf die Schwerter herzustellen `Questbeginn` [Hilf in der Schmiede](#Hilf-in-der-Schmiede)
 3. Spieler muss eine gewisse Reihenfolge einhalten. Hebel ziehen, Knopf drücken, Hebel ziehen.
 4. Ende: Nach erfolgreichen betätigen schließt der Spieler die Quest ab und erhält eine [Belohnung](#Belohnung) `Questende` [Hilf in der Schmiede](#Hilf-in-der-Schmiede)
+
+## Vorrausetzungen
+
+> 1. Erledigen der [Quest Material für die Schmiede](../2-der-schmied/REAMDE.md) 
 
 ## NPCs
 
@@ -20,9 +19,17 @@ Am südöstlichen Rand des Dorfes steht [NPC Sakros](#Sakros) der Schmied. Der S
 
 Ist der Schmied von Ankanor. Ein sehr rauer und ungeduldiger Geselle.
 
-Standartsätze:  
-    1. Nur mit einer starken Faust kann man etwas in seinem Leben erreichen.  
-    2. Puh, ich hasse diese Hitze am Schmelzofen.
+##### Standartsätze  
+
+**Vor der Quest**  
+1. Nicht vorhanden bzw. Questdialog [Quest Material für die Schmiede](../2-der-schmied/REAMDE.md) 
+
+**Während der Quest**  
+1. Hebel ziehen, Knopf drücken und wieder den Hebel ziehen, so schwer kann das doch nicht sein!
+
+**Nacht der Quest**  
+1. Deine Faust muss stark sein, selbst Genam konnte es nicht so einfach mit den Skeletten in der Höhle aufnehmen.  
+2. Wenn ich nicht wüsste das es Jahrelange Erfrahrung bräuchte um Schmied zu sein, müsste ich Angst haben das du mir meinen Job nimmst. Deine Arbeit mit den Schwertern war klasse.
     
 #### Dialoge
 
