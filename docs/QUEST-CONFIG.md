@@ -16,8 +16,13 @@ Die gesamte Config der Beispiel Quest befindet sich im [example-quest/](./exampl
 - [Quest Beschreibung](#quest-beschreibung)
 - [Allgemeine Config](#allgemeine-config)
 - [Quest Core](#quest-core)
-  - [Start Bedingungen (optional)](#start-bedingungen-optional)
+  - [Start Requirements](#start-requirements)
   - [Start Trigger](#start-trigger)
+  - [Start Actions](#start-actions)
+  - [Active Trigger](#active-trigger)
+  - [Complete Actions](#complete-actions)
+  - [Complete Trigger](#complete-trigger)
+- [Objectives](#objectives)
 
 ## Quest Beschreibung
 
@@ -31,6 +36,8 @@ name: Beispiel Quest
 desc: Eine kurze Beschreibung der Quest.
 # Diese Quest kann nur von Spielern mit dem Recht rcquests.quest.start-locked angenommen werden
 locked: true
+# Zeigt die Seite im Questlog verzaubert an.
+glow: false
 # Personen die an der Quest arbeiten/gearbeitet haben
 authors: 
   - TheFum (QS) # QS steht für Quest Schreiber
@@ -69,7 +76,7 @@ repeatable: false
 
 Im nachfolgenden kommen einzelne Config Sektionen die das Herzstück einer Quest bilden. Diese Config Abschnitte basieren fast alle auf der [ART API]https://git.faldoria.de/raidcraft/raidcraft-api/blob/master/docs/ART-API.md) und machen massiven Gebrauch von [Actions](https://git.faldoria.de/raidcraft/raidcraft-api/blob/master/docs/ART-API.md#actions), [Actions](https://git.faldoria.de/raidcraft/raidcraft-api/blob/master/docs/ART-API.md#actions) und [Triggern](https://git.faldoria.de/raidcraft/raidcraft-api/blob/master/docs/ART-API.md#trigger). Außerdem wird in den ganzen Quest Beispielen der einfachheit halber die [Flow Syntax](https://git.faldoria.de/raidcraft/raidcraft-api/docs/blob/master/ART-API.md#flow) verwendet. Die Grundkonzepte von `ART` und der `Flow Syntax` sollten daher bekannt sein um Quests zu schreiben.
 
-### Start Bedingungen (optional)
+### Start Requirements
 
 Jede Quest kann beliebig viele Start Bedingungen enthalten. Sind die Bedingungen nicht erfüllt werden die [Start Trigger](#start-trigger) gar nicht erst geprüft.
 
@@ -81,7 +88,7 @@ start-requirements:
 
 ### Start Trigger
 
-Jede Quest muss irgendwie gestartet werden, daher gibt es die Möglichkeit in Quests `start-trigger` zu definieren. Diese Trigger werden registriert und überprüft sobald alle [Start Bedingungen](#start-bedingungen-optional) erfüllt sind.
+Jede Quest muss irgendwie gestartet werden, daher gibt es die Möglichkeit in Quests `start-trigger` zu definieren. Diese Trigger werden registriert und überprüft sobald alle [Start Bedingungen](#start-requirements) erfüllt sind.
 
 > Nicht jede Quest benötigt Start Trigger.
 > Eine Quest kann z.B. auch durch eine andere Quest oder Unterhaltung direkt gestartet werden.
@@ -93,3 +100,46 @@ start-trigger:
 ```
 
 Die Start Trigger werden registriert sobald alle start-requirements erfüllt wurden. Alle Actions unterhalb eines Triggers werden ausgeführt sobald der Trigger ausgelöst wird. Wenn mehrere Trigger definiert sind, werden alle gleichzeitig abgehört und führen jeweils die darunterliegenden Actions aus.
+
+### Start Actions
+
+Nachdem eine Quest gestartet wurde gibt es die Möglichkeit Actions im `start-actions` Block auszuführen.
+
+```yml
+start-actions:
+  - '!player.give.item this.zauberstab'
+```
+
+### Active Trigger
+
+Während eine Quest aktiv ist gibt es die Möglichkeit Trigger zu registrieren um auf Events zu reagieren.
+
+```yml
+active-trigger:
+  - '@player.death'
+  - '!quest.abort this.foobar'
+```
+
+### Complete Actions
+
+Sobald eine Quest beendet wurde kann man, z.B. durch die `complete-actions` eine Belohung an den Spieler verteilen und EXP vergeben.
+
+```yml
+complete-actions:
+  - '!player.give.money 1g2s'
+  - '!rcskills.hero.addxp 500'
+```
+
+### Complete Trigger
+
+Wenn eine Quest beendet wurde hat man die Möglichkeit durchgehend Trigger zu registrieren die auch nach dem Ende der Quest weiter registriert sind. Dadurch kann die Umwelt auf das Erledigen von Quests reagieren.
+
+```yml
+complete-trigger:
+  - '@player.location x,y,z'
+  - '!player.kill'
+```
+
+## Objectives
+
+Der letzte und wichtigste Block in der Config sind die `objectives`. Jede Quest benötigt mindestens ein Objective (Aufgabe) damit sie gültig ist. Die Aufgaben sind das was der Spieler in seinem Quest Log sieht und nach und nach erledigen muss um die Quest abzuschließen.
