@@ -35,7 +35,7 @@ Eine Quest besteht aus mehreren YAML Dateien (Endung `.yml`) die alle verschiede
 | [Custom Items](https://git.faldoria.de/raidcraft/rcitems/blob/master/docs/ADMIN.md#config-dateien)    | `.item.yml`                  | Ein Custom Item das temporär für die Quest existiert. Belohnungen sollten als normale Items über das Webinterface angelegt werden. |
 | [Mobs](https://git.faldoria.de/raidcraft/rcmobs/blob/master/docs/ADMIN.md)                            | `.mob.yml`                   | Custom Mobs die nur für die Quest relevant sind.                                                                                   |
 | [Mob Gruppen](https://git.faldoria.de/raidcraft/rcmobs/blob/master/docs/ADMIN.md#mob-gruppen)         | `.mob-group.yml`             | Eine Gruppierung von Custom Mobs um das Tracking und Spawnen zu erleichtern.                                                       |
-| Loot-Tabellen                                                                                         | `.loot.yml`                  | Eine Loot Tabelle speziell für die Quest um z.B. die definierten Custom Items zu droppen wenn die Quest aktiv ist.                 |
+| [Loot-Tabellen](https://git.faldoria.de/raidcraft/rcloot/blob/master/docs/ADMIN.md)                                                                                         | `.loot.yml`                  | Eine Loot Tabelle speziell für die Quest um z.B. die definierten Custom Items zu droppen wenn die Quest aktiv ist.                 |
 
 > Klicke auf den Namen der Quest Komponente in der Tabelle um Details zur Konfiguration des jeweiligen Bestandteils zu erhalten.
 
