@@ -15,10 +15,10 @@ Die **Quest Entwickler** nutzen dann die `README` Dateien um daraus fertige Konf
 
 ## Getting Started
 
-Sowohl für das Schreiben, als auch für das Konfigurieren von Quests sollte der [Issue Tracker](https://git.faldoria.de/plugin-configs/quests/issues) genutzt werden. Dort können Aufgaben priorisiert und unter Teammitglieder aufgeteilt werden.
+Sowohl für das Schreiben, als auch für das Konfigurieren von Quests sollte der [Issue Tracker](https://git.faldoria.de/tof/plugin-configs/quests/issues) genutzt werden. Dort können Aufgaben priorisiert und unter Teammitglieder aufgeteilt werden.
 
-* [Issue Tracker](https://git.faldoria.de/plugin-configs/quests/issues)
-* [Pull Requests](https://git.faldoria.de/plugin-configs/quests/milestones)
+* [Issue Tracker](https://git.faldoria.de/tof/plugin-configs/quests/issues)
+* [Pull Requests](https://git.faldoria.de/tof/plugin-configs/quests/milestones)
 * [Quest Schreiber Dokumentation](docs/QUEST-WRITER.md)
 * [Quest Entwickler Dokumentation](docs/QUEST-DEVELOPER.md)
 
@@ -37,7 +37,7 @@ In Visual Studio Code <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>P</kbd> drücken um 
 
 ![VSCode Git Clone](docs/img/vscode_git_clone.png)
 
-Folgende URL einfügen: `https://git.faldoria.de/plugin-configs/quests.git`
+Folgende URL einfügen: `https://git.faldoria.de/tof/plugin-configs/quests.git`
 
 ![VSCode Clone URL](docs/img/vscode_git_clone_url.png)
 
@@ -49,7 +49,7 @@ Der Übersicht halber sollte alle Dateien die zu einer Quest gehören in einem O
 
 > Alle Infos die zu einer Quest gehören sollten in einer eigenen `README.md` im jeweiligen Quest Ordner gespeichert werden.
 
-Auch [Mobs](https://git.faldoria.de/raidcraft/rcmobs) und [Custom Items](https://git.faldoria.de/raidcraft/rcitems) sollten, wenn sie nur von der Quest verwendet werden, in dem jweiligen Quest Ordner abgelegt werden.
+Auch [Mobs](https://git.faldoria.de/tof/plugins/raidcraft/rcmobs) und [Custom Items](https://git.faldoria.de/tof/plugins/raidcraft/rcitems) sollten, wenn sie nur von der Quest verwendet werden, in dem jweiligen Quest Ordner abgelegt werden.
 
 > Die eindeutige ID einer Quest besteht aus dem Ordner Pfad und dem Quest Namen.
 > z.B. `ankanor.hauptquest.1-quest-name.quest-name`
