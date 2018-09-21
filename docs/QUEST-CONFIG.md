@@ -83,7 +83,8 @@ Jede Quest kann beliebig viele Start Bedingungen enthalten. Sind die Bedingungen
 ```yml
 # Alle Bedingungen in einem Requirement Block werden automatisch in einer UND Bedingung zusammengefasst.
 start-requirements:
-  - '?player.tag quest.completed-der_anfang'
+  flow:
+    - '?player.tag quest.completed-der_anfang' 
 ```
 
 ### Start Trigger
@@ -95,8 +96,9 @@ Jede Quest muss irgendwie gestartet werden, daher gibt es die Möglichkeit in Qu
 
 ```yml
 start-trigger:
-  - '@player.location x,y,z radius:5'
-  - '!conversation.start conv:beispiel-conversation'
+  flow:
+    - '@player.location x,y,z radius:5'
+    - '!conversation.start conv:beispiel-conversation'
 ```
 
 Die Start Trigger werden registriert sobald alle start-requirements erfüllt wurden. Alle Actions unterhalb eines Triggers werden ausgeführt sobald der Trigger ausgelöst wird. Wenn mehrere Trigger definiert sind, werden alle gleichzeitig abgehört und führen jeweils die darunterliegenden Actions aus.
@@ -107,7 +109,8 @@ Nachdem eine Quest gestartet wurde gibt es die Möglichkeit Actions im `start-ac
 
 ```yml
 start-actions:
-  - '!player.give.item this.zauberstab'
+  flow:
+    - '!player.give.item this.zauberstab'
 ```
 
 ### Active Trigger
@@ -116,8 +119,9 @@ Während eine Quest aktiv ist gibt es die Möglichkeit Trigger zu registrieren u
 
 ```yml
 active-trigger:
-  - '@player.death'
-  - '!quest.abort this.foobar'
+  flow:
+    - '@player.death'
+    - '!quest.abort this.foobar'
 ```
 
 ### Complete Actions
@@ -126,8 +130,9 @@ Sobald eine Quest beendet wurde kann man, z.B. durch die `complete-actions` eine
 
 ```yml
 complete-actions:
-  - '!player.give.money 1g2s'
-  - '!rcskills.hero.addxp 500'
+  flow:
+    - '!player.give.money 1g2s'
+    - '!rcskills.hero.addxp 500'
 ```
 
 ### Complete Trigger
@@ -136,8 +141,9 @@ Wenn eine Quest beendet wurde hat man die Möglichkeit durchgehend Trigger zu re
 
 ```yml
 complete-trigger:
-  - '@player.location x,y,z'
-  - '!player.kill'
+  flow:
+    - '@player.location x,y,z'
+    - '!player.kill'
 ```
 
 ## Objectives
