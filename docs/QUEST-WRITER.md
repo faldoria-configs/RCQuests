@@ -181,7 +181,7 @@ Und hey, für das Lesen dieses Markdowns erhälst auch du was.
 Unter den Referenzen können diverse dinge angegeben werden. Verlinkungen zu wichtigen Quests die hiermit zu tun haben, Forenbeiträge, die IssueID im Git, Karten, etc.  
 Ich werde ein paar Links da lassen.
 
-* [Beispiel Quest](../quests/ankanor/nebenquest/1-sandflohplage/readme.md) - Die von mir verwendete Quest für die Beispiele.
+* [Beispiel Quest](../quests/ankanor/nebenquest/1-sandflohplage/README.md) - Die von mir verwendete Quest für die Beispiele.
 * [Markdown Formatierung](https://support.zendesk.com/hc/de/articles/203691016-Formatieren-von-Text-mit-Markdown) - Eine kleine Übersicht der Wichtigsten Formatierungen die verwendet werden. (Bessere Links bitte melden oder selbst eintragen)
 * [Webinterface Items](https://app.faldoria.de/items) / [Forenlink](https://faldoria.de/board/index.php?thread/491-tof-webinterface-f%C3%BCr-admins/) - Hier befindet sich das Interface wo wir Items erstellen bzw. die Übersicht der Vorhandenen.
 * [Faldoria Git-Issues](https://git.faldoria.de/groups/tof/-/issues) - Hier findest du alle Issues die in unserem Git erstellt worden sind. 
