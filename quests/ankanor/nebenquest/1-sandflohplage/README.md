@@ -1,4 +1,4 @@
-# Sandflohplage
+# Sandfloh Plage
 
 An der südlichen Küste der Insel hat sich eine Königin von [Mobs Sandflöhen](#Sandflöhe) eingenistet und diese sind nun sehr Aggressiv, der Spieler soll die Sandflöhe für Angunt töten.
 
@@ -8,7 +8,7 @@ An der südlichen Küste der Insel hat sich eine Königin von [Mobs Sandflöhen]
 2. Spieler spricht [NPC Angunt](#Angunt) an welcher ihm die Aufgabe gibt 15 [Mobs Sandflöhe](#Sandflöhe) zu töten `Questbeginn:`[Sandfloh Plage](#sandfloh-plage)
 3. Spieler kehrt zurück und erhält eine [Belohnung](#Belohnung)
 
-## Vorrausetzungen
+## Vorraussetzungen
 
 > 1. Erledigen der [HQ Klassenwahl](../../hauptquest/4-klassenwahl/README.md) bzw. es ist das Kämpfen / eine Klasse nötig.
 
@@ -18,7 +18,9 @@ An der südlichen Küste der Insel hat sich eine Königin von [Mobs Sandflöhen]
 
 Er ist ein neugieriger Kaishi welcher sehr viel über die Pflanzen und Tiere weiß. Ständig ist wandert er auf der Insel herum. 
 
-##### Standartsätze  
+### Dialoge
+
+#### Standartsätze  
 
 **Vor der Quest**
 1. Seid vorsichtig und tretet mir die Pflanzen nicht kaputt.
@@ -31,9 +33,7 @@ Er ist ein neugieriger Kaishi welcher sehr viel über die Pflanzen und Tiere wei
 1. Ich hoffe eines Tages nistet sich die Sandflohkönigin woanders ein, es ist ein Graus das wir die Sandflöhe sonst komplett vernichten müssten.
 2. Wusstet ihr das Sandflöhe viele Verwandte Arten haben? Zum Beispiel gibt es noch Kiesflöhe, die sind noch zäher als die Sandflöhe, aber sonst sind sie fast gleich.
     
-#### Dialoge
-
-##### Quest Dialog
+#### Quest Dialog
 
 ##### Sandfloh Plage
 
@@ -76,9 +76,9 @@ z: 117
 world: Ankanor
 ```
 
-##Items
+## Items
 
-## Flohschuppen
+### Flohschuppen
 
 Dropt von den Sandflöhen nach dem töten.
 
@@ -91,7 +91,7 @@ lore: Eine leicht glänzende Schuppe eines Flohs die zu nichts zu gebrauchen ist
 max-stack-size: 64
 ```
 
-## Stinkendes Fleisch
+### Stinkendes Fleisch
 
 ```yml
 name: Stinkendes Fleisch
