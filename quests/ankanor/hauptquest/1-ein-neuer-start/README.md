@@ -49,7 +49,6 @@ Shicho: Bevor du gehst, vergiss nicht das du deine Aufgaben im Journal notiert h
 ```
 > 1. Ich bin ja schon unterwegs. [Klick auf die Antwort] `[QUEST START]` [Ein neuer Start](#ein-neuer-start)  
 **QuestLog:** *Begib dich zur Versammlungshalle und sprich mit Roschik*
-
 ...
 
 

@@ -36,7 +36,7 @@ Er ist der Bürgermeister des Dorfes in dem die Kaishi wohnen. Roschik ist ein s
     
 #### Quest Dialog
 
-##### Vorräte für das Schiff
+##### Vorräte für das Schiff 1
 
 ```yml
 Roschik: Wir werden Vorbereitungen treffen müssen und du musst dabei helfen.
@@ -45,6 +45,19 @@ Roschik: Zuerst müssen wir das Schiff klar machen. Geh und suche den Kapitän, 
 ```
 > 1. Spieler: Ich mache mich sofort auf den Weg. `[QUEST START]` [Vorräte für das Schiff](#vorräte-für-das-schiff)  
 **Questlog**: *Finde Kapitän Mafei, du wirst ihn an der Küste beim Schiff finden.*
+
+> Weiter bei [NPC Kapitän Mafei](#kapitän-mafei)
+
+##### Vorräte für das Schiff 3
+
+```yml
+Roschik: Hast du Kapitän Mafei über die Situation informiert?
+Spieler: Ja, auch wenn er mir anfangs nicht glauben wollte, ich habe sogar Vorräte für das Schiff besorgt.
+```
+`[QUEST ENDE]` [Vorräte für das Schiff](#vorräte-für-das-schiff)
+
+
+> Weiter bei [Aufstieg zum Tianbaum](../3-aufstieg-zum-tianbaum/README.md)
 
 #### Ausrüstung
 
@@ -75,9 +88,9 @@ Der Kapitän ist ein ambitionierter Angler der ziemlich schnell genervt ist.
 1. Auch wenn du mir geholfen hast, LASS MICH IN RUHE!
 2. Verdammt nochmal nerv wen anders!
     
-#### Quest Dialog
+#### Quest Dialog 
 
-##### Vorräte für das Schiff
+##### Vorräte für das Schiff 2
 
 ```yml
 Mafei: Und der Tag ist perfekt.
@@ -99,13 +112,16 @@ Spieler erhält [Item Liste für Vorräte](#liste-für-vorräte)
 
 `Mafei: Hast du die Vorräte?`
 
-> 1. Ja hier hast du sie. `QUEST ENDE`[Vorräte für das Schiff](#vorräte-für-das-schiff)
+> 1. Ja hier hast du sie. `QUEST UPDATE` [Vorräte für das Schiff](#vorräte-für-das-schiff)  
+**Questlog** *Gehe zurück zu Bürgermeister Roshik in der Versammlungshalle*  
 
-  `Mafei: Vielen Dank. Nun geh zurück zum Bürgermeister, er hat bestimmt noch mehr Aufgaben für dich.`
+`Mafei: Vielen Dank. Nun geh zurück zum Bürgermeister, er hat bestimmt noch mehr Aufgaben für dich.`
 
 > 2. Mir fehlen noch ein paar Vorräte.
 
 `Mafei: Dann solltest du dich beeilen.`
+
+> Weiter bei [NPC Roschik](#vorräte-für-das-schiff-3)
 
 #### Ausrüstung
 
