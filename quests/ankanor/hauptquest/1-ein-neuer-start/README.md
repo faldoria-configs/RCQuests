@@ -1,118 +1,130 @@
-# Beispiel Quest
+# Ein neuer Start
 
-Hier sollte in ein bis zwei kurzen Sätzen der Kern der Quest erzählt werden, so dass man schnell weiß um was es in der Quest geht.
-
-> Die `README` Dateien für Quests können auch von den Quest Schreibern entworfen werden um den Quest Entwicklern die Arbeit zu erleichtern.
+Sobald der Spieler auf den Server kommt landet er in einem Haus mitten im Dorf, wenn er das Gebäude verlässt hält ihn Shicho auf und teilt dem Spieler mit sich in der Versammlungshalle beim Bürgermeister Roshik zu melden.
 
 ## Ablauf
 
-Ein kurzer Überblick über den schematischen Ablauf der Quest wie sie vom Quest Schreiber geplant wurde.
+1. Start: Spieler verlässt das Gebäude und trifft Shicho, Spieler wird eingefroren
+2. [NPC Shicho](#Shicho) spricht Spieler an und gibt ihm die Info in die Versammlungshalle zu gehen und mit [NPC Roschik](#Roschik) zu sprechen
+3. Spieler geht in die Versammlungshalle und spricht Roshik an.
+3. Roshik erklärt die Lage und gibt eine neue Aufgabe an den Spieler.
 
-1. Start: Spieler kommt in die Nähe von Max
-2. [NPC Max](#max) verwickelt den Spieler in ein Gespräch über Minecraft
-3. Der Spieler soll folgendes erledigen:
-    1. 10 Dirt abbauen
-    2. 5 [Kieselsteine](#kieselsteine) sammeln (Custom Item das beim Abbau von Dirt droppt)
-    3. Die Kieselsteine zu [Max](#max) bringen
+## Vorraussetzungen
+
+> nicht vorhanden
 
 ## NPCs
 
-Hier kann eine kurze Auflistung der in der Quest vorkommenden NPCs stehen.
+### Shicho
 
-### Max
+Dieser Kaishi ist die Rechtehand des Bürgermeisters, er ist ein Besserwisser und mischt sich ständig in andere Angelegenheiten ein.
 
-Beschreibung des NPCs in beliebiger Ausführung. Am besten mit Standardsatz, Charakterzügen etc. um ein wenig Hintergrund zu bekommen.
+### Dialoge
 
-#### Dialoge
+#### Standartsätze  
 
-Dialoge die der NPC führen soll, z.B.:
+**Vor der Quest**
+1. Nicht vorhanden
 
-`Max: Na, wie geht es dir heute?`
+**Während der Quest**  
+1. Beweg dich jetzt zur Versammlungshalle, es ist sehr wichtig.
 
-> 1. Super!
+**Nach der Quest**
+1. Enttäusche uns nicht, jetzt muss jeder anpacken bevor die Katastrophe beginnt. Auch du!
+2. Wenn ich mich nicht irre hast du was zu tun!
+    
+#### Quest Dialog
 
-`Max: Das freut mich. Einen schönen Tag noch. [ENDE]`
-
-> 2. [Was kann ich für dich tun?](#quest-dialog)
-> 3. Welche Waren bietest du heute an? (Handeln)
-
-##### Quest Dialog
+##### Ein neuer Start
 
 ```yml
-Max: Ja da gibt es tatsächlich etwas wobei ich deine Hilfe benötigen könnte.
-2s
-Max: Meine Kieselsteine gehen zu Neige und ich benötige neue.
-Kannst du mir welche besorgen?
+Shicho: Hey [Spielername], was machst du noch hier, der Bürgermeister hat zu einer Versammlung gerufen. [Klick auf die Antwort]
+Spieler: Wieso, was ist los? Gab es wieder Ärger im Lager?
+Shicho: Schön wär’s, folge dem Weg links zur Versammlungshalle, du kannst es nicht verfehlen. Mach schnell die anderen warten schon. 
+Spieler: Und was mache ich dann?
+Shicho: Nimm Junnar mit, sie müsste auch schon längst los. Wenn ihr angekommen seid, sprecht sofort mit unserem Bürgermeister Roshik. 
+> Grauer Text: Du kannst mit einem NPC per Rechtsklick sprechen
+Spieler: Ok, ich mache mich gleich auf den Weg.
+Shicho: Bevor du gehst, vergiss nicht das du deine Aufgaben im Journal notiert hast. Wenn du es weggesteckt hast, kannst du es wieder mit /journal in dein Inventar holen. Und nun los geh zur Versammlungshalle.
 ```
+> 1. Ich bin ja schon unterwegs. [Klick auf die Antwort] `[QUEST START]` [Ein neuer Start](#ein-neuer-start)  
+**QuestLog:** *Begib dich zur Versammlungshalle und sprich mit Roschik*
 
-> 1. Ja klar! `[QUEST START]`
+...
 
-`Max: Wunderbar! Der Dreck hinter dem Dorf enthält besonders viel Kies. Bau einfach etwas davon ab und du solltest mehr als genug Kieselsteine finden. 10 Stück sollten fürs Erste reichen.`
 
-> 2. Ich hab besseres zu tun als Kieselsteine zu sammeln... `[ENDE]`
+Weiter bei [NPC Roschik](#Roschik)
 
 #### Ausrüstung
-
-```yml
-# Kann auch weggelassen werden
-# Namen gibt es auf: https://minecraft-ids.grahamedgecombe.com/
-hand: HAY_BLOCK
-leggings: LEATHER_LEGGINGS
-boots: LEATHER_BOOTS
-chestplate: LEATHER_CHESTPLATE
-# Base64 Encoded "Other Value" von der Seite: https://minecraft-heads.com/custom/heads
-head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjRkMTk0NDE5MTYxOTY4MWViNjg4MWE0OGFlMmM5NTRkNzViNDMzNmQ0YjUzODhhOGVlOWRlNTZiMTg0YjhjMiJ9fX0=
-```
 
 #### Standort
 
 ```yml
-x: 1337
-y: 64
-z: -1337
-world: test
+x: 52
+y: 82
+z: -40
+world: Ankanor
+```
+
+### Roschik
+
+Er ist der Bürgermeister des Dorfes in dem die Kaishi wohnen. Roschik ist ein sehr gütiger Kaishi und wird von allen Respektiert.
+
+### Dialoge
+
+#### Standartsätze  
+
+**Vor der Quest**
+1. Nicht vorhanden
+
+**Während der Quest**  
+1. nicht vorhanden
+
+**Nach der Quest**
+1. Es ist sehr wichtig das du keinen Unsinn machst im Moment, wir brauchen jeden jetzt um uns vorzubereiten.
+2. Ich hoffe du verstehst das ich gerade keine Zeit habe für dich.
+    
+#### Quest Dialog
+
+##### Ein neuer Start
+
+```yml
+Roschik: Endlich hast du es auch geschafft.
+Spieler: Was ist los? Warum sind alle so aufgeregt? Hat Kozas wieder einmal einen Riesenfisch gefangen? Wenn ja, lasst mich damit in Ruhe.
+Roschik: Nein! Wir haben erfahren, dass Agnatus auf dem Weg hierher sein könnte. Berichten zufolge hat er Schiffe in unsere Richtung entsandt.
+Spieler: Agnatus? Wer ist das nun wieder?
+Roschik: Hast du die letzten Monate geschlafen? Agnatus der Nekromant, er terrorisiert das Festland mit seinen Untoten und Schergen.
+Spieler: Ach der, und was machen wir jetzt?
+```
+> `[QUEST ENDE]` [Ein neuer Start](#ein-neuer-start)  
+
+Weiter bei [Vorräte für das Schiff](../2-vorraete-fuer-das-schiff/README.md)
+
+#### Ausrüstung
+
+#### Standort
+
+```yml
+x: 100
+y: 82
+z: -85
+world: Ankanor
 ```
 
 ## Items
 
-Hier eine kurze Auflistung der in der Quest verwendeten Items geben und ob das Item nur für die Quest oder Global verfügbar ist.
-
-### Kieselsteine
-
-Soll vom Spieler in der Quest gesammelt werden. Droppt beim Abbau von Dirt (aber nur wenn man die Quest hat).
-
-```yml
-name: Kieselstein
-type: QUEST
-quality: COMMON
-item: FLINT
-lore: Beispiel Quest
-max-stack-size: 10
-```
+nicht vorhanden
 
 ## Mobs
 
-Hier eine kurze Auflistung von den in der Quest verwendeten Mobs.
+nicht vorhanden
 
-### Kiesfloh
+## Belohnung
 
-Jedes Mal wenn ein Kieselstein droppt soll ein Kiesfloh spawnen.
+[Ein neuer Start](#ein-neuer-start)  
+> 2 Heller  
 
-```yml
-name: Sandfloh
-type: silverfish
-min-level: 1
-max-level: 2
-min-health: 80
-max-health: 88
-min-damage: 3
-max-damage: 5
-spawn-chance: 1.0
-spawning-naturally: false
-loot-table: mobs.default-loottable
-aggro: true
-```
 
 ## Referenzen
 
-Hier können Quer-Links zu anderen Quests, Quellen, Foren-Beiträgen, Karten etc. eingefügt werden.
+Folgequest [Vorräte für das Schiff](../2-vorraete-fuer-das-schiff/README.md)
