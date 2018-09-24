@@ -18,13 +18,15 @@ cooldown: 0
 repeatable: false
 
 start-trigger:
-  - '@host.interact this.angunt'
-  - '!conversation.start conv:this.angunt_start host:this.angunt'
+  flow:
+    - '@host.interact this.angunt'
+    - '!conversation.start conv:this.angunt_start host:this.angunt'
 
 objectives:
   - 1:
     name: 'Töte 15 Sandflöhe'
     trigger:
+      flow:
         - '?rcmobs.mob.kill(count:15)'
         - '@rcmobs.mob.kill this.sandfloh'
         - '~2s'
@@ -32,9 +34,11 @@ objectives:
   - 2:
     name: 'Gehe zurück und sprich mit Angunt'
     trigger:
-      - '@host.interact this.angunt'
-      - '!conversation.start conv:this.angunt_end host:this.angunt'
+      flow:
+        - '@host.interact this.angunt'
+        - '!conversation.start conv:this.angunt_end host:this.angunt'
 
 complete-actions:
-  - '!player.money.add 8h Quest'
-  - '!rcskills.hero.addxp 5'
+  flow:
+    - '!player.money.add 8h Quest'
+    - '!rcskills.hero.addxp 5'

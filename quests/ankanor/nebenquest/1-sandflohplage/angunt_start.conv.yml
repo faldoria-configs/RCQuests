@@ -3,6 +3,7 @@ settings:
 stages:
   start:
     actions:
+      flow:
         - '!text "Hat dich der Bürgermeister geschickt ? Wenn ja dann bist du zur passenden Zeit gekommen. Wir haben ein Sandfloh Problem."'
         - '~2s'
         - '!text.player "Sandflöhe? Das hört sich ekelhaft an."'
@@ -17,8 +18,9 @@ stages:
         - '!stage choose'
   choose:
     actions:
-      - ':"Sandflöhe? Kein Problem!"'
-      - '!text "Viel Glück!"'
-      - '!quest.start this.sandflohplage'
-      #########################################
-      - ':"Darauf hab ich keine Lust."'
+      flow:
+        - ':"Sandflöhe? Kein Problem!"'
+        - '!text "Viel Glück!"'
+        - '!quest.start this.sandflohplage'
+        #########################################
+        - ':"Darauf hab ich keine Lust."'

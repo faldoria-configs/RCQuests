@@ -3,6 +3,7 @@ settings:
 stages:
   start:
     actions:
+      flow:
         - '!text "Hast du die 15 Sandflöhe getötet?"'
         - ':"Ja, es war wie ich schon sagte, kein Problem"'
         - '!text "Gute Leistung, das hast du schnell hinbekommen"'
