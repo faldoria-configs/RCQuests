@@ -48,9 +48,8 @@ Spieler: Ok, ich mache mich gleich auf den Weg.
 Shicho: Bevor du gehst, vergiss nicht das du deine Aufgaben im Journal notiert hast. Wenn du es weggesteckt hast, kannst du es wieder mit /journal in dein Inventar holen. Und nun los geh zur Versammlungshalle.
 ```
 > 1. Ich bin ja schon unterwegs. [Klick auf die Antwort] `[QUEST START]` [Ein neuer Start](#ein-neuer-start)  
-**QuestLog:** *Begib dich zur Versammlungshalle und sprich mit Roschik*
-...
-
+**QuestLog:** *Begib dich zur Versammlungshalle und sprich mit Roschik*  
+> Spieler erhält 10x [Steak](#steak)
 
 Weiter bei [NPC Roschik](#Roschik)
 
@@ -112,7 +111,18 @@ world: Ankanor
 
 ## Items
 
-nicht vorhanden
+### Steak
+
+Ein Steak welches bei diversen Händler zu kaufen gibt.
+
+```yml
+name: Steak
+type: Food
+quality: COMMON
+item: STEAK
+lore: Dieses frische Steak ist noch ganz saftig, da läuft einem das Wasser im Mund zusammen.
+max-stack-size: 64
+```
 
 ## Mobs
 

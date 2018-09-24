@@ -149,10 +149,6 @@ Spieler: Was bedeutet das alles? Roshik sprach von einem Pfad? Was kann ich wäh
 Lious: Übe dich in Geduld, junger Kaishi. Ich bin Lious, du solltest mir nun gut zuhören.
 Spieler: Ich glaube wir haben aber keine Zeit für lang anhaltende Geduld.
 Lious: Wir haben alle Zeit die wir benötigen, damit du deine Wahl treffen kannst, die dein restliches Leben bestimmen wird.
-Lious: Denn du wirst die Wahl zwischen 5 Pfaden des Kampfes haben. Jeder Pfad bestimmt eine Klasse. Eine Lebensweise!
-Lious: Du wirst die Wahl haben zwischen dem Weg des Kriegers,  Assassinen,  Elementaristen, Klerikers oder dem des Waldläufers. Jeder Pfad ist einzigartig, wählt also weise. 
-Spieler: Was muss ich tun? Wie wähle ich meinen Pfad?
-Lious: Gehe hinüber zu den Ritualsteinen, diese werden dir die einzelnen Pfade weiter erläutern, sobald du alle fünf Steine berührt hast, komme zu mir zurück.
 ```
 > `[QUEST ENDE]` [Aufstieg zum Tianbaum](#aufstieg-zum-tianbaum) und erhält
 [Belohnung](#Belohnung)
