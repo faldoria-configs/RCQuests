@@ -18,7 +18,7 @@ cooldown: 0
 repeatable: false
 
 start-trigger:
-  - '@host.proximity this.angunt radius:5'
+  - '@host.interact this.angunt'
   - '!conversation.start conv:this.angunt_start host:this.angunt'
 
 objectives:
