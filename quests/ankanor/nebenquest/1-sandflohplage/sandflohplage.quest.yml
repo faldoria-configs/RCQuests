@@ -1,13 +1,11 @@
 name: Sandflohplage
-desc: An der südlichen Küste der Insel hat sich eine Königin von Sandflöhen 
-eingenistet und diese sind nun sehr Aggressiv. 
-Der Spieler soll sie für Angunt töten.
-locked: true
+desc: "An der südlichen Küste der Insel hat sich eine Königin von Sandflöhen|eingenistet und diese sind nun sehr Aggressiv.|Der Spieler soll sie für Angunt töten."
+locked: false
 authors:
   - TheFum (QS)
   - Luki (QD)
 worlds:
-  - ankanor
+  - faldoria
 
 level: 1
 auto-complete: false
@@ -23,15 +21,15 @@ start-trigger:
     - '!conversation.start conv:this.angunt_start host:this.angunt'
 
 objectives:
-  - 1:
+  '1':
     name: 'Töte 15 Sandflöhe'
     trigger:
       flow:
-        - '?rcmobs.mob.kill(count:15)'
+        - '?dummy(count:15,count-text:"%current%/%count% Sandflöhe getötet.")'
         - '@rcmobs.mob.kill this.sandfloh'
         - '~2s'
         - '!text.info Ich sollte besser zu Angunt zurückkehren und ihm berichten.'
-  - 2:
+  '2':
     name: 'Gehe zurück und sprich mit Angunt'
     trigger:
       flow:

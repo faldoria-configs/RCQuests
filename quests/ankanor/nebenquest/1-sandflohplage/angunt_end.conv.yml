@@ -2,7 +2,7 @@ settings:
   show-npc-name: true
 stages:
   start:
-    actions:
+    answers:
       flow:
         - '!text "Hast du die 15 Sandflöhe getötet?"'
         - ':"Ja, es war wie ich schon sagte, kein Problem"'

@@ -17,7 +17,7 @@ stages:
         - '!text.info "Du kannst mit einem NPC sprechen in dem du die Nachrichten im Chat anklickst."'
         - '!stage choose'
   choose:
-    actions:
+    answers:
       flow:
         - ':"Sandflöhe? Kein Problem!"'
         - '!text "Viel Glück!"'
