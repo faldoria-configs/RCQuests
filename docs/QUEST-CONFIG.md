@@ -28,7 +28,14 @@ Die gesamte Config der Beispiel Quest befindet sich im [example-quest/](./exampl
 
 Folgender Config Teil ist in jeder Quest enthalten. Er definiert grundlegende Parameter der Quest, wie z.B. den Namen und die Welten in der die Quest spielt.
 
+> Bei einer neuen Quest darf **auf keinen Fall** das ID Feld in der Config stehen.
+> Die ID wird beim ersten Start automatisch generiert.
+
 ```yml
+# Die ID wird beim ersten Start der Quest automatisch vom Server generiert.
+# Damit beim Verschieben der Dateien die Quests der Spieler nicht zurückgesetzt werden muss die ID konstant bleiben.
+# NICHT KOPIEREN ODER MANUELL EINSETZEN --- WIRD AUTOMATISCH GENERIERT!!!
+# id: 3a98240d-9985-42d1-8d34-8d771014cd4f
 # Der Name der Quest wie er beim Spieler angezeigt wird.
 name: Beispiel Quest
 # Optional kann eine Beschreibung der Quest angegeben werden.
