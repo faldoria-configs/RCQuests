@@ -8,5 +8,5 @@ location:
   x: 49
   y: 70
   z: 117
-default-conv: this.angunt.default
-talk-close: true
+# default-conv: this.angunt.default
+talk-close: false
