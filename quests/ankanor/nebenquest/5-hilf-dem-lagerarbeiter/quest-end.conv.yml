@@ -1,0 +1,17 @@
+stages:
+  start:
+    answers:
+      groups:
+        end-quest:
+          - '!quest.complete this.lagerarbeiter'
+          - '~1s'
+          - '!text "Danke vielmals für die Hilfe!", this.kansa'
+          - '~1s'
+          - '!text.player "Hab ich doch gern gemacht."'
+      flow:
+        - '!text "Hast du die Sachen?", this.kansa'
+        - ':"Ja habe ich."'
+        - '!end-quest'
+        - ':"Nein, du musst dich noch gedulden."'
+        - '!text "Wir haben Zeit.", this.kansa'
+        - '!end'

@@ -1,0 +1,7 @@
+name: Kansa
+default-conv: this.kansa.default
+location:
+  x: 85
+  y: 82
+  z: -88
+  world: Ankanor

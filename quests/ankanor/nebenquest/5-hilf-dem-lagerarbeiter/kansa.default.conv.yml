@@ -1,0 +1,6 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Jemand sagte einmal \"In der Ruhe liegt die Kraft\", dass war ein sehr weiser Mann.", this.kansa'
+        - '!text "Ich mag diese Hektik wegen diesem Agnatus nicht.", this.kansa'
