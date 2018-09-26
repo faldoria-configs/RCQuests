@@ -13,16 +13,30 @@ Die gesamte Config der Beispiel Quest befindet sich im [example-quest/](./exampl
 
 > Bei allen folgenden Beispielen sind immer, bis auf wenige Ausnahmen, die Default Werte gesetzt.
 
-- [Quest Beschreibung](#quest-beschreibung)
-- [Allgemeine Config](#allgemeine-config)
-- [Quest Core](#quest-core)
-  - [Start Requirements](#start-requirements)
-  - [Start Trigger](#start-trigger)
-  - [Start Actions](#start-actions)
-  - [Active Trigger](#active-trigger)
-  - [Complete Actions](#complete-actions)
-  - [Complete Trigger](#complete-trigger)
-- [Objectives](#objectives)
+* [Referenzen](#referenzen)
+* [Quest Beschreibung](#quest-beschreibung)
+* [Allgemeine Config](#allgemeine-config)
+* [Quest Core](#quest-core)
+  * [Start Requirements](#start-requirements)
+  * [Start Trigger](#start-trigger)
+  * [Start Actions](#start-actions)
+  * [Active Trigger](#active-trigger)
+  * [Complete Actions](#complete-actions)
+  * [Complete Trigger](#complete-trigger)
+* [Objectives](#objectives)
+  * [Tasks](#tasks)
+
+## Referenzen
+
+Folgende Links helfen beim Schreiben einer Quest.
+
+* [Actions](https://git.faldoria.de/tof/plugins/raidcraft/raidcraft-api/blob/master/docs/ART-API.md#verwendung-von-actions) Dokumentation
+* [Requirements](https://git.faldoria.de/tof/plugins/raidcraft/raidcraft-api/blob/master/docs/ART-API.md#verwendung-von-requirements) Dokumentation
+* [Trigger](https://git.faldoria.de/tof/plugins/raidcraft/raidcraft-api/blob/master/docs/ART-API.md#verwendung-von-triggern) Dokumentation
+* Übersicht von [Quest Dateiendungen](QUEST-DEVELOPER.md)
+* [Conversations](https://git.faldoria.de/tof/plugins/raidcraft/conversations/blob/master/docs/ADMIN.md)
+* Web Interface für das [Erstellen von Items](https://app.faldoria.de/items)
+* Durchsuchbare [Liste von **A**actions**R**equirements**T**rigger](https://app.faldoria.de/art)
 
 ## Quest Beschreibung
 
@@ -35,6 +49,7 @@ Folgender Config Teil ist in jeder Quest enthalten. Er definiert grundlegende Pa
 # Die ID wird beim ersten Start der Quest automatisch vom Server generiert.
 # Damit beim Verschieben der Dateien die Quests der Spieler nicht zurückgesetzt werden muss die ID konstant bleiben.
 # NICHT KOPIEREN ODER MANUELL EINSETZEN --- WIRD AUTOMATISCH GENERIERT!!!
+# Wenn man weiß was man tut kann man hier auch selber eine eindeutige ID (String) für die Quest vergeben.
 # id: 3a98240d-9985-42d1-8d34-8d771014cd4f
 # Der Name der Quest wie er beim Spieler angezeigt wird.
 name: Beispiel Quest
@@ -156,3 +171,91 @@ complete-trigger:
 ## Objectives
 
 Der letzte und wichtigste Block in der Config sind die `objectives`. Jede Quest benötigt mindestens ein Objective (Aufgabe) damit sie gültig ist. Die Aufgaben sind das was der Spieler in seinem Quest Log sieht und nach und nach erledigen muss um die Quest abzuschließen.
+
+Wie bei den `start-trigger` und `start-requirements` der Quest wird bei jeder Auslösung eines Objective [Triggers](https://git.faldoria.de/tof/plugins/raidcraft/raidcraft-api/blob/master/docs/ART-API.md#trigger) alle `requirements` des Objectives geprüft. Vorrausgesetzt die Requirements des Triggers sind erfüllt. Steht das Objective auf `auto-complete: true` (default) wird es automatisch abgeschlossen.
+
+```yml
+objectives:
+  # Alle objectives müssen der Reihenfolge nach nummeriert werden.
+  # Da in YAML Zahlen keine gültigen Keys sind müssen sie in ' ' geschrieben werden.
+  '1':
+    # Kurze prägnante Beschreibung der Aufgabe.
+    # Steht so im Questlog.
+    name: "Deine erste Aufgabe"
+    # Ausführlichere Beschreibung für das erweiterte Questlog (optional).
+    desc: "Mache einen Handstand mit einer Rolle rückwärts."
+    # Markiert die Aufgabe als optional, d.h. sie muss nicht erfüllt werden um die Quest abzuschließen.
+    optional: false
+    # Zeigt die Aufgabe nicht im Questlog an.
+    hidden: false
+    # Zeigt keine Benachrichtigungen zur Aufgabe im Chat an.
+    # Zusammen mit hidden: true kann so eine Aufgabe komplett vom Spieler verborgen bleiben.
+    silent: false
+    # Wenn ein Trigger der Aufgabe ausgeführt wird werden alle Requirements geprüft.
+    # Sind alle Requirements erfüllt wird die Aufgabe automatisch abgeschlossen.
+    auto-complete: true
+    # Die Anzahl an Tasks die erfüllt sein müssen damit das Objective abgeschlossen werden kann.
+    # 0 ist der Default Wert und bedeutet, dass alle (falls vorhanden) erfüllt sein müssen.
+    required-tasks: 0
+    # Bedingungen die erfüllt sein müssen um die Aufgabe abzuschließen.
+    requirements:
+      flow:
+        - '?player.has-item this.holzschwert'
+    # Die Trigger einer Aufgabe werden erst aktiv wenn die Aufgabe aktiv wird.
+    trigger:
+      flow:
+        - '@host.interact this.kansa'
+    # Folgende Actions werden beim Abschluss der Aufgabe ausgeführt.
+    complete-actions:
+      flow:
+        - '!text "Gut gemacht!"'
+    # Jedes Objective kann Tasks haben die sich im Prinzip genau wie Objectives verhalten.
+    # Details zur Konfiguration von Tasks gibt es weiter unten.
+    tasks:
+      ...
+  '2':
+    name: ...
+    ...
+```
+
+> `Tipp:` Wenn man eine Quest mit zwei Objectives, `required: 1` setzt und die beiden Objectives als `optional: true` markiert, kann man eine Quest mit zwei unterschiedlichen Ausgängen scripten.
+
+### Tasks
+
+Jedes Objective kann zusätzlich noch Unteraufgaben in Form von `tasks` haben. Im Gegensatz zu den Objectives sind jedoch alle Tasks paralell aktiv. Wenn das Objective aktiv wird werden auch gleichzeitig alle `trigger` der Tasks aktiviert. Sobald ein Task abgeschlossen wurde wird dessen Trigger deaktiviert. Die Tasks werden unterhalb ihres Objectives im Questlog angezeigt.
+
+```yml
+objectives:
+  '1':
+    name: "Objective mit Unteraufgaben"
+    tasks:
+      # Auch Tasks müssen mit Nummern deklariert werden.
+      '1':
+          # Kurze prägnante Beschreibung des Tasks.
+          # Steht so im Questlog unterhalb des Objectives.
+          name: "Dein erster Task"
+          # Ausführlichere Beschreibung für das erweiterte Questlog (optional).
+          desc: "Mache einen Handstand mit einer Rolle rückwärts."
+          # Markiert den Task als optional, d.h. er muss nicht erfüllt werden damit das Objective erfüllt wird.
+          optional: false
+          # Zeigt den Task nicht im Questlog an.
+          hidden: false
+          # Zeigt keine Benachrichtigungen zum Task im Chat an.
+          # Zusammen mit hidden: true kann so ein Task komplett vom Spieler verborgen bleiben.
+          silent: false
+          # Wenn ein Trigger des Tasks ausgeführt wird werden alle Requirements geprüft.
+          # Sind alle Requirements erfüllt wird der Task automatisch abgeschlossen.
+          auto-complete: true
+          # Bedingungen die erfüllt sein müssen um den Task abzuschließen.
+          requirements:
+            flow:
+              - '?player.has-item this.holzschwert'
+          # Die Trigger eines Tasks werden erst aktiv wenn das dazugehörige Objective aktiv wird.
+          trigger:
+            flow:
+              - '@host.interact this.kansa'
+          # Folgende Actions werden beim Abschluss des Tasks ausgeführt.
+          complete-actions:
+            flow:
+              - '!text "Gut gemacht!"'
+```
