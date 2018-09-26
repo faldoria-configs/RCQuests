@@ -49,7 +49,7 @@ Folgender Config Teil ist in jeder Quest enthalten. Er definiert grundlegende Pa
 # Die ID wird beim ersten Start der Quest automatisch vom Server generiert.
 # Damit beim Verschieben der Dateien die Quests der Spieler nicht zurückgesetzt werden muss die ID konstant bleiben.
 # NICHT KOPIEREN ODER MANUELL EINSETZEN --- WIRD AUTOMATISCH GENERIERT!!!
-# Wenn man weiß was man tut kann man hier auch selber eine eindeutige ID (String) für die Quest vergeben.
+# Wenn man weiß was man tut kann man hier auch selber eine eindeutige ID (String) für die Quest vergeben.doc
 # id: 3a98240d-9985-42d1-8d34-8d771014cd4f
 # Der Name der Quest wie er beim Spieler angezeigt wird.
 name: Beispiel Quest
