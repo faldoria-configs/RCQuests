@@ -1,0 +1,7 @@
+stages:
+  start:
+    text: "Halt, in dieser Höhle lauern böse Skelette du solltest dort nicht hinein!"
+    actions:
+      flow:
+        - '~2s'
+        - '!player.teleport -16,91,54'

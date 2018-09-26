@@ -1,0 +1,22 @@
+name: "Skelette in der Höhle"
+locked: false
+auto-complete: false
+worlds:
+  - ankanor
+start-trigger:
+  flow:
+    - '?quest.active ../2-der-schmied/der-schmied'
+    - '@host.proximity this.genam'
+    - '!player.freeze'
+    - '!conversation.start this.start-quest.conv,this.genam'
+start-actions:
+  flow:
+    - '!player.unfreeze'
+    - '!conversation.set'
+objectives:
+  '1':
+    name: 'Töte in der Höhle für die Wache Genam 10 Skelette.'
+    trigger:
+      flow:
+        - '?dummy(count:10,count-text:"%current%/%count% Skelette getötet.",persistent:true)'
+        - '@rcmobs.mob.kill ../2-der-schmied/skelett'

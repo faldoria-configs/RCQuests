@@ -1,0 +1,16 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Halt, kein Zutritt!", this.genam'
+        - '~1s'
+        - '!text.player "Aber ich habe die Genehmigung des Schmiedes."'
+        - '~1s'
+        - '!text "Des Schmiedes? Er braucht wohl die alten, rostigen Schwerter von da unten.|Nun, dort unten warten Skelette auf Unglückliche, die in die Höhle müssen.", this.genam'
+        - '~3s'
+        - '!text.player "Oha, und jetzt?"'
+        - '~1s'
+        - '!text "Wenn der Schmied seine Schwerter will, musst du sie wohl oder übel da unten rausholen. Töte doch bitte ein paar von diesen Skeletten für mich, während du da bist.", this.genam'
+        - '~3s'
+        - '!text.player "Muss ich ja wohl, wenn ich da runter muss..."'
+        - '!quest.start this.skelette-in-der-hoehle'
