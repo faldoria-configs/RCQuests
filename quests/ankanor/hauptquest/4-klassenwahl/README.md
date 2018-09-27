@@ -139,6 +139,8 @@ Spieler: Danke, war einfach.
 
 `[QUEST ENDE]` [Klassenwahl](#klassenwahl)  
 
+> Weiter bei [HQ Weitere Ausbildung](../5-weitere-ausbildung/README.md)
+
 #### Ausrüstung
 
 #### Standort
