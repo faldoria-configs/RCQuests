@@ -19,7 +19,7 @@ repeatable: false
 
 start-trigger:
   - '@host.interact this.angunt'
-  - '!conversation.start conv:this.sakros_start host:../quest-npc/sakros'
+  - '!conversation.start conv:this.sakros-start host:../quest-npc/sakros'
 
 objectives:
   - 1:
@@ -33,7 +33,7 @@ objectives:
     name: 'Gehe zurück und sprich mit Sakros'
     trigger:
       - '@host.interact ../quest-npc/sakros'
-      - '!conversation.start conv:this.sakros_end host:../quest-npc/sakros'
+      - '!conversation.start conv:this.sakros-end host:../quest-npc/sakros'
 
 complete-actions:
   - '!player.money.add 8h Quest'

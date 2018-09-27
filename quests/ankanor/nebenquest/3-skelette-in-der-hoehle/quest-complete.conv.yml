@@ -1,0 +1,8 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Ich frage mich noch immer wie diese Skelette hierher gekommen sind und vorallem warum? Ob das eine Prüfung ist?", this.genam'
+        - '!text "Vielen Dank nochmal das ihr diese ausgeburten von Skeletten getötet habt.", this.genam'
+        - '?quest.complete ../2-der-schmied/der-schmied'
+        - '!text "Hast du die rostigen Schwerter schon zu Sakros gebracht? Er wartet auf dich...", this.genam'

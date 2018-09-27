@@ -21,6 +21,6 @@ stages:
         - '~2s'
         - '!text "Ja und jetzt los, sonst setzt´s was!"'
         - ':"Ok, ich habe ja sonst nichts zu tun."'
-        - '!quest.start this.der_schmied'
+        - '!quest.start this.der-schmied'
         #Default-conv von Sakros ändern!
         - ':"Nein vergiss es!"'
