@@ -1,7 +1,5 @@
 name: Der Schmied
-desc: Am südöstlichen Rand des Dorfes steht Sakros der Schmied. 
-Er benötigt Materialien für Schwerter und erklärt dem Spieler, dass er Eisen 
-und rostige Schwerter aus einer Höhle auf der anderen Seite der Insel holen soll.
+desc: Am südöstlichen Rand des Dorfes steht Sakros der Schmied. Er benötigt Materialien für Schwerter und erklärt dem Spieler, dass er Eisen und rostige Schwerter aus einer Höhle auf der anderen Seite der Insel holen soll.
 locked: true
 authors:
   - TheFum (QS)
@@ -24,7 +22,7 @@ start-trigger:
 objectives:
   - 1:
     name: 'Besorge für den Schmied Eisen und 10 rostige Schwerter'
-    trigger:`
+    trigger:
         # Items definieren?
         # Checken ob alle Items gesammelt wurden
         - '~2s'
