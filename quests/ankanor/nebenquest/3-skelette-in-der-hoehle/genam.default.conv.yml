@@ -4,4 +4,4 @@ stages:
     actions:
       flow:
         - '~2s'
-        - '!player.teleport -16,91,54'
+        - '!teleport.location -16,91,54'
