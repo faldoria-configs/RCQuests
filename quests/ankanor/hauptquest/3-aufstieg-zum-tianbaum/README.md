@@ -46,7 +46,7 @@ Spieler: Wie ihr wollt, ich werde zur Krone des Baumes hinauf steigen..
 ```
 
 > 1. Spieler: Wie ihr wollt, ich werde zur Krone des Baumes hinauf steigen.. `[QUEST START]` [Aufstieg zum Tianbaum](#aufstieg-zum-tianbaum)  
-**Questlog**: *Folge den Weg um den Tianbaum herum auf die andere Seite, steige den Tianbaum hinauf und wähle deinen Pfad des Kampfes.*
+**Questlog**: *Folge den Weg um den Tianbaum herum auf die andere Seite, triff den Wächter des Heiligtums und steige den Tianbaum hinauf und wähle deinen Pfad des Kampfes.*
 
 > Weiter bei [NPC Wächter](#aufstieg-zum-tianbaum-2)
 
