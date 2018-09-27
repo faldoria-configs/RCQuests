@@ -1,0 +1,8 @@
+min-interval: 300
+max-interval: 300
+min-amount: 1
+max-amount: 1
+respawn-treshhold: 0
+mobs:    
+    'this.sandfloh':
+        chance: 1.0
