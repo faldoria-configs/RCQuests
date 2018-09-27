@@ -22,7 +22,7 @@ start-trigger:
 objectives:
   - 1:
     name: 'Besorge für den Schmied Eisen und 10 rostige Schwerter'
-    trigger:`
+    trigger:
         # Items definieren?
         # Checken ob alle Items gesammelt wurden
         - '~2s'
