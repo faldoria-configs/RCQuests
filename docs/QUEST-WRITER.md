@@ -45,7 +45,7 @@ Zunächst ist wichtig, dass man überprüft, ob es für das jeweilige Questgebie
 ![](img/example_ordnerstruktur_1.png)
 
 
-Dies ist die Ordnerstruktur der Insel Anakanor. Sie ist aufgespalten in zwei Hauptordner `/ankanor` und `/ankanor-event`, dann gibt es noch die drei Unterordner welche für uns wichtig sind. `/einfache-npcs`, `/hauptquest` und `/nebenquest` 
+Dies ist die Ordnerstruktur der Insel Anakanor. Sie ist aufgespalten in zwei Hauptordner `/ankanor` und `/ankanor-event`, dann gibt es noch drei für uns wichtige Unterordner: `/einfache-npcs`, `/hauptquest` und `/nebenquest` 
 
 | Ordner           | Beschreibung                                                                                                                                                                                                                               |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
