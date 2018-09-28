@@ -36,11 +36,11 @@ Um die `README.md` anlegen und bearbeiten zu können wird ein Account im [Gitlab
 
 Dort liegen auch die Ordner für die Questbearbeitung, bzw. dort werden sie abgelegt. Meist reicht es aus, dort im Browser seine Datein zu bearbeiten. Für alle, die aber außerhalb des Browsers arbeiten wollen gibt es Editoren, die das Bearbeiten der Dateien vereinfachen. Wir empfehlen [Visual Studio Code](https://code.visualstudio.com/). Weiteres dazu auch hier unter [Tales of Faldoria Quests](../README.md).
 
-Nun braucht es nur noch eine Idee, kreativität und motivation und schon kann man loslegen die Quest zu entwickeln.
+Nun braucht es nur noch eine Idee, Kreativität und Motivation und schon kann man loslegen um die Quest zu entwickeln.
 
 ## Der erste Schritt - Ordnerstruktur
 
-Zunächst ist wichtig das überprüft wird ob es für das jeweilige Questgebiet schon die Ordnerstruktur vorhanden ist.  
+Zunächst ist wichtig, dass man überprüft, ob es für das jeweilige Questgebietdie Ordnerstruktur schon gibt.  
 
 ![](img/example_ordnerstruktur_1.png)
 
