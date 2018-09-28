@@ -34,7 +34,7 @@ Der Story und Quest Entwickler, auch Questschreiber genannt, entwirft Storys und
 
 Um die `README.md` anlegen und bearbeiten zu können wird ein Account im [Gitlab von Faldoria](https://git.faldoria.de/) benötigt. Für einen Zugang bitte an `xanily` wenden.
 
-Dort liegen auch die Ordner für die Questbearbeitung, bzw. dort werden sie abgelegt. Meist reicht es aus dort im Browser seine Datein zu bearbeiten, für alle die aber außerhalb des Browsers arbeiten wollen gibt es Editoren die das bearbeiten der Datein auch einfacher machen können. Wir empfehlen [Visual Studio Code](https://code.visualstudio.com/). Weiteres dazu auch hier unter [Tales of Faldoria Quests](../README.md).
+Dort liegen auch die Ordner für die Questbearbeitung, bzw. dort werden sie abgelegt. Meist reicht es aus, dort im Browser seine Datein zu bearbeiten. Für alle, die aber außerhalb des Browsers arbeiten wollen gibt es Editoren, die das Bearbeiten der Dateien vereinfachen. Wir empfehlen [Visual Studio Code](https://code.visualstudio.com/). Weiteres dazu auch hier unter [Tales of Faldoria Quests](../README.md).
 
 Nun braucht es nur noch eine Idee, kreativität und motivation und schon kann man loslegen die Quest zu entwickeln.
 
