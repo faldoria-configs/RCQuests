@@ -1,3 +1,91 @@
-# Test
+# Gebietsübersicht Ankanor <!-- omit in toc -->
 
-Blubbi
+
+- [Story](#story)
+- [NPCs](#npcs)
+    - [NonQuestNPCs](#nonquestnpcs)
+- [Quests](#quests)
+    - [Hauptquest](#hauptquest)
+    - [Nebenquest](#nebenquest)
+- [Vergebene Belohnungen](#vergebene-belohnungen)
+    - [Quest Belohnungen](#quest-belohnungen)
+    - [Verteilte Kisten](#verteilte-kisten)
+- [Achievements](#achievements)
+- [Referenzen](#referenzen)
+
+## Story
+
+## NPCs
+
+> Gesamtliste aller NPCs - [siehe Referenzen](#referenzen)
+
+### NonQuestNPCs
+
+|Name         | Beschreibung| README|
+| ---------------- | ---| ---|
+|Händler|  | |
+|Junzo | | |
+|Kazui | | |
+|Kozas | | |
+|Lewis| | |
+|Lutz| | | |
+|Noromi| | |
+|Patient| | |
+|Sokensos| | |
+|Syjin| | |
+|Yoshni| | |
+|Klisur| Der Bootsmann Klisur ist nicht mehr vorhanden, Dialog übernimmt Mafei| |
+
+## Quests
+
+### Hauptquest
+
+|Name/Git-Link         | Beschreibung| Sonstiges|
+| ---------------- | ---|---|
+|1. [Ein neuer Start](./hauptquest/1-ein-neuer-start/README.md)| Von Schicho zu Bürgermeister Roschik laufen. | Spieler lernt `ansprechen mit Rechtsklick`|
+|2. [Vorräte für das Schiff](./hauptquest/2-vorraete-fuer-das-schiff/README.md)|Spieler sucht Kapitän Mafei und hilft ihm beim füllen des Schiffslagers | |
+|3. [Aufstieg zum Tianbaum](./hauptquest/3-aufstieg-zum-tianbaum/README.md)|Roschik schickt in den Tianbaum hinauf |Buff Speed 20% 3 Minuten beim betreten des Baumes |
+|4. [Klassenwahl](./hauptquest/4-klassenwahl/README.md)|Lious läasst den Spieler seine Kalsse wählen und testen |Spieler lernt Klasse + Lernt mit Hotbar und Menü umzugehen |
+|5. [Weitere Ausbildung](./hauptquest/5-weitere-ausbildung/README.md)|Soll bei Jamos weitere Ausbildung erhalten, macht Nebenquests, versucht dann zum Schiff zu kommen. Landet dann an der Eisenküste| mögliches Achievment `Unversehrter Kaishi`|
+
+### Nebenquest
+
+|Name/Git-Link         | Beschreibung| Sonstiges|
+| ---------------- | ---|---|
+|1. [Sandfloh Plage](./nebenquest/1-sandflohplage/README.md)|Angut bittet den Spieler am Strand Sandflöhe zu töten |Vorraussetzung: Erledigt `HQ Klassenwahl` |
+|2. [Material für die Schmiede](./nebenquest/2der-schmied/README.md)|Spieler soll Material aus einer Höhle auf der anderen Seite des Baumes holen |Vorraussetzung: Erledigt `HQ Klassenwahl` |
+|3. [Skelette in der Höhle](./nebenquest/3-skelette-in-der-hoehle/README.md)|Die höhle bei Genam beherbergt Skelette diese soll der Spieler töten | Vorraussetzung: Angenommen `NQ Material für die Schmiede`|
+|4. [Hilf in der Schmiede](./nebenquest/4-hilf-in-der-schmiede/README.md)|Zum Schmieden soll der Spieler Knöpfe und hebel drücken |Vorraussetzung: Erledigt `NQ Material für die Schmiede` |
+|5. [Hilf dem Lagerarbeiter](./nebenquest/5-hilf-dem-lagerarbeiter/README.md)| Das Lager an der Versammlungshalle ist fast leer, der Spieler soll sie für Kansa wieder füllen| |
+
+## Vergebene Belohnungen
+
+### Quest Belohnungen
+
+|Belohnung (Insgesamt)       | erhalten durch| 
+| ---------------- | ---|
+|10 Steaks | Hauptquest `Ein neuer Start` |
+|53 Heller |diverse Quest |
+|55 EXP |diverse Quest |
+|Abgetragene Hose|Hauptquest `Weitere Ausbildung` |
+|10 verbrannte Steaks|Nebenquest `Hilf in der Schmiede`|
+|2 Rote Äpfel|Nebenquest `Hilf dem Lagerarbeiter`
+
+
+### Verteilte Kisten
+
+|Kistenart | Ort/Beschreibung|
+| --- | --- |
+
+## Achievements
+
+|Name | Beschreibung/erhalten durch|
+| --- | --- |
+|Unversehrter Kaishi |*Erreiche die Eisenküste ohne von Agnatus Schergen ausgeknockt worden zu sein.*|
+
+## Referenzen
+
+| Link           | Beschreibung|
+| ---------------- | ---| 
+|[GDoc - NPC Ankanor](https://docs.google.com/spreadsheets/d/1mz25MB9RLFfWyNtmPjpaAawuarKUtr-aXUGJ45zPEq4/edit) (`nicht Aktuell`) | Diese Liste enthält alle NPCs in einer Excel Tabelle. Hier enthalten sind unteranderem location, Skinabfrage, Beschreibung und mehr.|
+|[Forum](https://faldoria.de/board/index.php?thread/390-00-ankanor-ankanor-event-aktuell/)| Link zum Forenthema Questgebiet `[00] Ankanor/Ankanor Event`|
