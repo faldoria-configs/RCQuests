@@ -82,8 +82,10 @@ Spieler: Wie? Was? Jetzt schon? Ich dachte ich werde noch weiter ausgebildet.
 Jamos: Dies ist Teil deiner Ausbildung und nun verliere keine Zeit, lauf ins Dorf versuche dann zum Schiff zu kommen. Ich komme nach!
 ```
 
-> 1. Ok, pass auf dich auf Alterchen.  
-**Teleport:
+> 1. Ok, pass auf dich auf Alterchen.   
+> **Achtung:** Ab hier passiert alles auf Ankanor Event!
+
+**Teleport:**
 ```yml
 x: -62
 y: 80
@@ -101,7 +103,7 @@ Spieler hat zwei Möglichkeiten nun zur Eisenküste zu kommen, je nachdem wie er
 Der Spieler tötet unzählige [NPC Agnatus Scherge](#agnatus-scherge) bis er auf dem Schiff im Dorf ankommt und Kapitän Mafei anspricht.
 
 ```yml
-MAfei: Ihr habt es geschafft, fast alle sind an Bord, wir müssen auch los.
+Mafei: Ihr habt es geschafft, fast alle sind an Bord, wir müssen auch los.
 Spieler: Aber, was ist mit unserer Heimat?
 Mafei: Wir müssen sie aufgeben, vielleicht kehren wir eines Tages zurück.
 Spieler: Wo segeln wir nun hin? 
@@ -110,7 +112,7 @@ Mafei: In den Westen.
 
 > **Achievement:** Unversehrter Kaishi - *Erreiche die Eisenküste ohne von Agnatus Schergen ausgeknockt worden zu sein.*
 
-**Teleport:
+**Teleport:**
 ```yml
 x: 3663
 y: 64
@@ -124,7 +126,7 @@ world: Faldoria
 
 Der Spieler tötet unzählige [NPC Agnatus Scherge](#agnatus-scherge) wird aber von den Monstern ausgeknockt(getötet).
 
-**Teleport:
+**Teleport:**
 ```yml
 x: 3667
 y: 64
@@ -231,6 +233,7 @@ world: Ankanor-Event
 ### Abgetragene Hose
 
 ```yml
+ID: 120
 name: Schwarzer Barsch
 type: RÜSTUNG
 quality: COMMON
