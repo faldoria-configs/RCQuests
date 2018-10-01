@@ -2,6 +2,7 @@
 
 
 - [Story](#story)
+- [Fakten](#fakten)
 - [NPCs](#npcs)
     - [NonQuestNPCs](#nonquestnpcs)
 - [Quests](#quests)
@@ -12,8 +13,18 @@
     - [Verteilte Kisten](#verteilte-kisten)
 - [Achievements](#achievements)
 - [Referenzen](#referenzen)
+    - [Gebietskarte](#gebietskarte)
 
 ## Story
+
+## Fakten
+
+|Faktenname| Beschreibung|
+|---|---|
+|**Gebietsnummer:**|0  |
+|**Gebietslevel:**|0-3  |
+|**Questzahl:**|5 Hauptquest / 5 Nebenquest  |
+|**Spielzeit:**|Circa 2 Stunden|
 
 ## NPCs
 
@@ -77,6 +88,7 @@
 |Kistenart | Ort/Beschreibung|
 | --- | --- |
 
+
 ## Achievements
 
 |Name | Beschreibung/erhalten durch|
@@ -89,3 +101,11 @@
 | ---------------- | ---| 
 |[GDoc - NPC Ankanor](https://docs.google.com/spreadsheets/d/1mz25MB9RLFfWyNtmPjpaAawuarKUtr-aXUGJ45zPEq4/edit) (`nicht Aktuell`) | Diese Liste enthält alle NPCs in einer Excel Tabelle. Hier enthalten sind unteranderem location, Skinabfrage, Beschreibung und mehr.|
 |[Forum](https://faldoria.de/board/index.php?thread/390-00-ankanor-ankanor-event-aktuell/)| Link zum Forenthema Questgebiet `[00] Ankanor/Ankanor Event`|
+|
+
+### Gebietskarte
+
+Ist veraltet, sobald was neues vorhanden ist wird aktualisiert.
+
+
+![](gebietskarte.png)
