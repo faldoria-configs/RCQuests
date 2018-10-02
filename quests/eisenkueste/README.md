@@ -88,4 +88,4 @@
 
 ### Gebietskarte
 
-![](gebietskarte_eisenkueste.png)
+[![](gebietskarte_eisenkueste.png)](https://www2.pic-upload.de/img/35126571/Eisenkste.png)
