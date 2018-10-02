@@ -3,8 +3,9 @@
 
 - [Story](#story)
 - [Fakten](#fakten)
-- [NPCs](#npcs)
+- [NPCs / Monster](#npcs--monster)
     - [NonQuestNPCs](#nonquestnpcs)
+    - [Mobs](#mobs)
 - [Quests](#quests)
     - [Hauptquest](#hauptquest)
     - [Nebenquest](#nebenquest)
@@ -26,7 +27,7 @@
 |**Questzahl:**|4 Hauptquest / 11 Nebenquest  |
 |**Spielzeit:**|Circa 2 Stunden|
 
-## NPCs
+## NPCs / Monster
 
 > Gesamtliste aller NPCs - [siehe Referenzen](#referenzen)
 
@@ -34,8 +35,12 @@
 
 |Name         | Beschreibung| README|
 | ---------------- | ---| ---|
-||  | |
+|Mairi|  | |
 
+### Mobs
+
+|Name         | Beschreibung| Ort|
+| ---------------- | ---| ---|
 
 ## Quests
 
@@ -77,6 +82,7 @@
 | Link           | Beschreibung|
 | ---------------- | ---| 
 |[GDoc - Ordner](https://drive.google.com/drive/folders/0B-4wSu3oC_hnfkF3Z2d1RjktOGxGMGVIZjNjY29NSDk1cE4tNVBCbHdMUWRERHBKLVBhNzQ) | Dies ist der GoogleDoc Ordner|
+|[GDoc - NPC Eisenküste](https://docs.google.com/spreadsheets/d/1CPzWnv-ctPoIfWIPTYSVD8u0v45-Pg5osyw9VEzgqQg/edit) (`nicht Aktuell`) | Diese Liste enthält alle NPCs in einer Excel Tabelle. Hier enthalten sind unteranderem location, Skinabfrage, Beschreibung und mehr.|
 |[Forum](https://faldoria.de/board/index.php?thread/391-01-eisenk%C3%BCste-aktuell/)| Link zum Forenthema Questgebiet `[01] Eisenküste`|
 |
 

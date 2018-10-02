@@ -3,8 +3,9 @@
 
 - [Story](#story)
 - [Fakten](#fakten)
-- [NPCs](#npcs)
+- [NPCs / Monster](#npcs--monster)
     - [NonQuestNPCs](#nonquestnpcs)
+    - [Mobs](#mobs)
 - [Quests](#quests)
     - [Hauptquest](#hauptquest)
     - [Nebenquest](#nebenquest)
@@ -26,7 +27,7 @@
 |**Questzahl:**|5 Hauptquest / 5 Nebenquest  |
 |**Spielzeit:**|Circa 2 Stunden|
 
-## NPCs
+## NPCs / Monster
 
 > Gesamtliste aller NPCs - [siehe Referenzen](#referenzen)
 
@@ -46,6 +47,11 @@
 |Syjin| | |
 |Yoshni| | |
 |Klisur| Der Bootsmann Klisur ist nicht mehr vorhanden, Dialog übernimmt Mafei| |
+
+### Mobs
+
+|Name         | Beschreibung| Ort|
+| ---------------- | ---| ---|
 
 ## Quests
 
