@@ -37,7 +37,7 @@ objectives:
         name: 'Melke eine Kuh'
         trigger:
           flow:
-            - '@player.milk item:this.items.eimer-milch'
+            - '@player.milk return:this.items.eimer-milch'
   '2':
     name: "Bringe die Vorräte zu Kansa"
     desc: "Kansa befindet sich im Lager neben der Haupthalle."
