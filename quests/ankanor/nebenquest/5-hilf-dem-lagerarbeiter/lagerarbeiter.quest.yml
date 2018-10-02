@@ -18,7 +18,7 @@ objectives:
         trigger:
           flow:
             - '?player.has-item item:this.items.apfel amount:10'
-            - '@item.pickup this.items.apfel'
+            - '@item.pickup item:this.items.apfel'
       '2':
         name: 'Angel drei Schwarze Barsche'
         text: '%inventory.count(this.items.schwarzer-barsch)%/3 Schwarze Barsche geangelt'
@@ -37,7 +37,7 @@ objectives:
         name: 'Melke eine Kuh'
         trigger:
           flow:
-            - '@player.milk this.items.eimer-milch'
+            - '@player.milk item:this.items.eimer-milch'
   '2':
     name: "Bringe die Vorräte zu Kansa"
     desc: "Kansa befindet sich im Lager neben der Haupthalle."
