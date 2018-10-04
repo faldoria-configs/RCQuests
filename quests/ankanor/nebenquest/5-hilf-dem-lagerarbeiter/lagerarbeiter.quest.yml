@@ -40,6 +40,7 @@ objectives:
         trigger:
           flow:
             - '?player.has-item item:this.items.geschorene-wolle amount:5'
+            - '!text "test"'
             - '@player.shear item:this.items.geschorene-wolle'
       '4':
         name: 'Melke eine Kuh'
