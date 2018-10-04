@@ -36,5 +36,5 @@ objectives:
 
 complete-actions:
   flow:
-    - '!player.money.add 8h Quest'
+    - '!player.money.add 8 Quest'
     - '!rcskills.hero.addxp 5'

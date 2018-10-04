@@ -18,11 +18,13 @@ stages:
         - '!stage choose'
   choose:
     answers:
+      groups:
+        start-quest:
+          - '!text "Viel Glück!", this.angunt'
+          - '!quest.start this.sandflohplage'
+          - '!end'
       flow:
         - ':"Sandflöhe? Kein Problem!"'
-        - '!text "Viel Glück!", this.angunt'
-        - '!quest.start this.sandflohplage'
-        - '!end'
-        #########################################
+        - '!start-quest'
         - ':"Darauf hab ich keine Lust."'
         - '!end'
