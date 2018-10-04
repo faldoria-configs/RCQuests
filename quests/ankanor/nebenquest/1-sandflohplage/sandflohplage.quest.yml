@@ -32,7 +32,7 @@ objectives:
         - '?dummy(count:15,count-text:"%current%/%count% Sandflöhe getötet.",persistent:true)'
         - '@rcmobs.mob.kill this.sandfloh'
         - '~2s'
-        - '!text.info Ich sollte besser zu Angunt zurückkehren und ihm berichten.'
+        - '!text.info "Ich sollte besser zu Angunt zurückkehren und ihm berichten.""'
   '2':
     name: 'Gehe zurück und sprich mit Angunt'
     trigger:

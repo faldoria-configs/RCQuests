@@ -22,6 +22,7 @@ stages:
         - ':"Sandflöhe? Kein Problem!"'
         - '!text "Viel Glück!"'
         - '!quest.start this.sandflohplage'
+        - '!end'
         #########################################
         - ':"Darauf hab ich keine Lust."'
         - '!end'
