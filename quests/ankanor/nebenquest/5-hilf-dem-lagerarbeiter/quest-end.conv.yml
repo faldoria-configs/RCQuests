@@ -1,5 +1,6 @@
 stages:
   start:
+    text: "Hast du die Sachen?"
     answers:
       groups:
         end-quest:
@@ -9,7 +10,6 @@ stages:
           - '~1s'
           - '!text.player "Hab ich doch gern gemacht."'
       flow:
-        - '!text "Hast du die Sachen?", this.kansa'
         - ':"Ja habe ich."'
         - '!end-quest'
         - ':"Nein, du musst dich noch gedulden."'

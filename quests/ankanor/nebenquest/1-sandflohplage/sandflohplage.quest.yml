@@ -15,6 +15,10 @@ silent: true
 cooldown: 0
 repeatable: false
 
+requirements:
+  flow:
+    - '?rcskills.hero.path class'
+
 start-trigger:
   flow:
     - '@host.interact this.angunt'
