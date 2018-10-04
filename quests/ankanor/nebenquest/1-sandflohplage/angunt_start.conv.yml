@@ -4,15 +4,15 @@ stages:
   start:
     actions:
       flow:
-        - '!text "Hat dich der Bürgermeister geschickt ? Wenn ja dann bist du zur passenden Zeit gekommen. Wir haben ein Sandfloh Problem."'
+        - '!text "Hat dich der Bürgermeister geschickt ? Wenn ja dann bist du zur passenden Zeit gekommen. Wir haben ein Sandfloh Problem.", this.angunt'
         - '~2s'
         - '!text.player "Sandflöhe? Das hört sich ekelhaft an."'
         - '~2s'
-        - '!text "Wahrscheinlich hat sich am Strand eine Königin eingenistet. Deswegen sind sie so aggressiv."'
+        - '!text "Wahrscheinlich hat sich am Strand eine Königin eingenistet. Deswegen sind sie so aggressiv.", this.angunt'
         - '~2s'
         - '!text.player "Wie kann ich helfen?"'
         - '~2s'
-        - '!text "Als erstes könntest du 15 von diesen verdammten Sandflöhen töten."'
+        - '!text "Als erstes könntest du 15 von diesen verdammten Sandflöhen töten.", this.angunt'
         - '~1s'
         - '!text.info "Du kannst mit einem NPC sprechen in dem du die Nachrichten im Chat anklickst."'
         - '!stage choose'
@@ -20,7 +20,7 @@ stages:
     answers:
       flow:
         - ':"Sandflöhe? Kein Problem!"'
-        - '!text "Viel Glück!"'
+        - '!text "Viel Glück!", this.angunt'
         - '!quest.start this.sandflohplage'
         - '!end'
         #########################################

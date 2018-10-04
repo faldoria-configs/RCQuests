@@ -2,12 +2,12 @@ settings:
   show-npc-name: true
 stages:
   start:
+    text: "Hast du die 15 Sandflöhe getötet?"
     answers:
       flow:
-        - '!text "Hast du die 15 Sandflöhe getötet?"'
         - ':"Ja, es war wie ich schon sagte, kein Problem"'
-        - '!text "Gute Leistung, das hast du schnell hinbekommen"'
+        - '!text "Gute Leistung, das hast du schnell hinbekommen", this.angunt'
         - '~2s'
         - '!quest.complete this.sandflohplage'
         - ':"Nein ich bin noch dabei, die sind zäher als gedacht."'
-        - '!text "Beeil dich mit der Aufgabe!"'
+        - '!text "Beeil dich mit der Aufgabe!", this.angunt'
