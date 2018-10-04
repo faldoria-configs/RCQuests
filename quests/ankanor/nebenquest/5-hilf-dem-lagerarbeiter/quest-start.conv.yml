@@ -9,7 +9,6 @@ stages:
       flow:
         - ':"Was soll ich denn tun?"'
         - '!stage quest'
-        # 2
         - ':"Tut mir leid, Agnatus ist auf dem Weg. Ich habe keine Zeit!"'
         - '!deny-quest'
   quest:
@@ -20,9 +19,7 @@ stages:
           - '!quest.start this.lagerarbeiter'
           - '!end'
       flow:
-        # 1
         - ':"Na klar! Du kannst auf mich zählen."'
         - '!start-quest'
-        # 2
         - ':"Nein, ich habe besseres zu tun…"'
         - '!end'

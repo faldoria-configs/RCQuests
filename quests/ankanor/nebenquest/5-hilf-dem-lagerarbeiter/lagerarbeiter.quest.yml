@@ -18,7 +18,7 @@ objectives:
           - '!player.give.item bucket'
           - '!player.give.item fishing_rod'
       flow:
-        - '!quest-items(execute-once:true)'
+        - t'!quest-items(execute-once:true)'
     tasks:
       '1':
         name: 'Sammle zehn Äpfel'
