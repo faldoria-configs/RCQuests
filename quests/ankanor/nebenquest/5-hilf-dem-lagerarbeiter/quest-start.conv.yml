@@ -10,7 +10,7 @@ stages:
         - '!text "Nun gut, vielleicht hast du danach etwas Zeit für mich.", this.kansa'
         - '!end'
   quest:
-    text: "Nun, die Lager sind so gut wie leer und ich brauche Hilfe beim einholen der Rohstoffe. Könntest du für mich die Schafe im westen scheren und eine Kuh melken? Außerdem brauche ich noch ein paar [this.items.schwarzer-barsch] und Äpfel."
+    text: "Nun, die Lager sind so gut wie leer und ich brauche Hilfe beim einholen der Rohstoffe. Könntest du für mich die Schafe im westen scheren und eine Kuh melken? Außerdem brauche ich noch ein paar schwarze Barsche und Äpfel."
     answers:
       flow:
         # 1
