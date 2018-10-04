@@ -139,7 +139,7 @@ name: Schwarzer Barsch
 type: ROHSTOFF
 quality: COMMON
 item: RAW SALMON
-lore: Ein gewöhnlicher Fisch der fast überall in zu fangen ist.
+lore: Ein gewöhnlicher Fisch der fast überall in Ankanor zu fangen ist.
 max-stack-size: 64
 ```
 
