@@ -13,9 +13,9 @@ objectives:
     desc: "Schafe und Kühe findest du auf der Weide im Westen.|Äpfel sind überall auf der Insel zu finden.|Barsche findest du hier in allen Gewässern."
     start-actions:
       flow:
-        - '!player.give.item minecraft:shears'
-        - '!player.give.item minecraft:bucket'
-        - '!player.give.item minecraft:fishing_rod'
+        - '!player.give.item "minecraft:shears"'
+        - '!player.give.item item:"minecraft:bucket"'
+        - '!player.give.item fishing_rod'
     tasks:
       '1':
         name: 'Sammle zehn Äpfel'
