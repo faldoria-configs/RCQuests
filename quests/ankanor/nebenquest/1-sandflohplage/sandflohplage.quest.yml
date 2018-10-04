@@ -38,10 +38,8 @@ objectives:
     name: 'Gehe zurück und sprich mit Angunt'
     trigger:
       flow:
-        #- '@host.interact this.angunt'
-        #- '!conversation.start conv:this.angunt_end host:this.angunt'
         - '@host.interact this.angunt'
-        - '!conversation.start conv:this.angunt_start host:this.angunt'
+        - '!conversation.start conv:this.angunt_end host:this.angunt'
 
 complete-actions:
   flow:
