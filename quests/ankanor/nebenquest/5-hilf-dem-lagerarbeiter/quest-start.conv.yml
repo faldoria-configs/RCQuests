@@ -16,6 +16,7 @@ stages:
         # 1
         - ':"Na klar! Du kannst auf mich zählen."'
         - '!quest.start this.lagerarbeiter'
+        - '!end'
         # 2
         - ':"Nein, ich habe besseres zu tun…"'
         - '!end'
