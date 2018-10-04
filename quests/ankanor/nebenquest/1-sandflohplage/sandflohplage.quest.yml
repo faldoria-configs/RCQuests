@@ -41,6 +41,7 @@ objectives:
         #- '@host.interact this.angunt'
         #- '!conversation.start conv:this.angunt_end host:this.angunt'
         - '@host.interact this.angunt'
+        - '!text "Hallo"'
         - '!conversation.start conv:this.angunt_start host:this.angunt'
 
 complete-actions:
