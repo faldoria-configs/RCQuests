@@ -11,6 +11,14 @@ objectives:
   '1':
     name: "Hilf dem Lagerarbeiter"
     desc: "Schafe und Kühe findest du auf der Weide im Westen.|Äpfel sind überall auf der Insel zu finden.|Barsche findest du hier in allen Gewässern."
+    start-actions:
+      groups:
+        quest-items:
+          - '!player.give.item shears'
+          - '!player.give.item bucket'
+          - '!player.give.item fishing_rod'
+      flow:
+        - '!quest-items(execute-once:true)'
     tasks:
       '1':
         name: 'Sammle zehn Äpfel'
@@ -32,6 +40,7 @@ objectives:
         trigger:
           flow:
             - '?player.has-item item:this.items.geschorene-wolle amount:5'
+            - '!text "test"'
             - '@player.shear item:this.items.geschorene-wolle'
       '4':
         name: 'Melke eine Kuh'

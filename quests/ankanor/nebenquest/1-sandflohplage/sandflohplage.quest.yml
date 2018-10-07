@@ -6,14 +6,7 @@ authors:
   - Luki (QD)
 worlds:
   - ankanor
-
 level: 1
-auto-complete: false
-ordered: true
-required: 0
-silent: true
-cooldown: 0
-repeatable: false
 
 requirements:
   flow:
@@ -32,9 +25,10 @@ objectives:
         - '?dummy(count:15,count-text:"%current%/%count% Sandflöhe getötet.",persistent:true)'
         - '@rcmobs.mob.kill this.sandfloh'
         - '~2s'
-        - '!text.info Ich sollte besser zu Angunt zurückkehren und ihm berichten.'
+        - '!text.info "Ich sollte besser zu Angunt zurückkehren und ihm berichten."'
   '2':
     name: 'Gehe zurück und sprich mit Angunt'
+    auto-complete: false
     trigger:
       flow:
         - '@host.interact this.angunt'
@@ -42,5 +36,5 @@ objectives:
 
 complete-actions:
   flow:
-    - '!player.money.add 8h Quest'
+    - '!player.money.add 8 Quest'
     - '!rcskills.hero.addxp 5'
