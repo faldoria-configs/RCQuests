@@ -104,9 +104,9 @@ Jede Quest kann beliebig viele Start Bedingungen enthalten. Sind die Bedingungen
 
 ```yml
 # Alle Bedingungen in einem Requirement Block werden automatisch in einer UND Bedingung zusammengefasst.
-start-requirements:
+requirements:
   flow:
-    - '?player.tag quest.completed-der_anfang' 
+    - '?player.tag quest.completed-der_anfang'
 ```
 
 ### Start Trigger
