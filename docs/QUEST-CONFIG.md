@@ -111,11 +111,17 @@ Jede Quest hat die Möglichkeit je nach Phase spezielle Default Conversations pr
 default-convs:
   # Unterhalb der Phase können beliebig viele NPCs mit der jeweiligen Unterhaltung angegeben werden.
   not-started:
+    # Die ID des Hosts MUSS unbedingt in Anführungszeichen ' ' stehen.
     'this.my-host': 'this.foobar-conv'
   active:
     'this.my-host': 'this.foobar-conv'
     'this.my-other-host': 'this.fooconv'
   objectives-completed:
+    # Beim Wechsel der Phasen gibt es die Möglichkeit alle in den anderen Phasen gesetzten
+    # Default Conversations zu löschen.
+    # Um das zu unterbinden clear: false (default: true) angeben.
+    # Wenn nichts angegeben wird werden alle Conversations in einer neuen Phase gelöscht.
+    clear: true
     'this.my-host': 'this.foobar-conv'
   completed:
     'this.my-host': 'this.foobar-conv'
@@ -289,3 +295,7 @@ objectives:
             flow:
               - '!text "Gut gemacht!"'
 ```
+
+### Objective Default Conversations
+
+Auch in Objectives können für jede Phase [Default Conversations](#default-conversations) definiert werden. Dabei kann analog die Konfiguration wie bei der Quest Konfiguration verwendet werden. Der einzige Unterschied ist die `objectives-completed` Phase. Diese bezieht sich bei Objectives auf alle abgeschlossenen Tasks.
