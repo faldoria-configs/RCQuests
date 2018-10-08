@@ -13,19 +13,20 @@ Die gesamte Config der Beispiel Quest befindet sich im [example-quest/](./exampl
 
 > Bei allen folgenden Beispielen sind immer, bis auf wenige Ausnahmen, die Default Werte gesetzt.
 
-- [Referenzen](#referenzen)
-- [Quest Beschreibung](#quest-beschreibung)
-- [Allgemeine Config](#allgemeine-config)
-  - [Default Conversations](#default-conversations)
-- [Quest Core](#quest-core)
-  - [Start Requirements](#start-requirements)
-  - [Start Trigger](#start-trigger)
-  - [Start Actions](#start-actions)
-  - [Active Trigger](#active-trigger)
-  - [Complete Actions](#complete-actions)
-  - [Complete Trigger](#complete-trigger)
-- [Objectives](#objectives)
-  - [Tasks](#tasks)
+* [Referenzen](#referenzen)
+* [Quest Beschreibung](#quest-beschreibung)
+* [Allgemeine Config](#allgemeine-config)
+  * [Default Conversations](#default-conversations)
+* [Quest Core](#quest-core)
+  * [Start Requirements](#start-requirements)
+  * [Start Trigger](#start-trigger)
+  * [Start Actions](#start-actions)
+  * [Active Trigger](#active-trigger)
+  * [Complete Actions](#complete-actions)
+  * [Complete Trigger](#complete-trigger)
+* [Objectives](#objectives)
+  * [Tasks](#tasks)
+  * [Objective Default Conversations](#objective-default-conversations)
 
 ## Referenzen
 
@@ -128,7 +129,6 @@ default-convs:
   aborted:
     'this.my-host': 'this.foobar-conv'
 ```
-
 
 ## Quest Core
 
