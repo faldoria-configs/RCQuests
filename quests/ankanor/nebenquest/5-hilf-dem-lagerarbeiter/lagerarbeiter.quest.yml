@@ -5,43 +5,48 @@ worlds:
   - ankanor
 start-trigger:
   flow:
-    - '@host.proximity this.kansa,3'
+    - '@host.interact this.kansa'
     - '!conversation.start conv:this.quest-start host:this.kansa'
 objectives:
   '1':
     name: "Hilf dem Lagerarbeiter"
     desc: "Schafe und Kühe findest du auf der Weide im Westen.|Äpfel sind überall auf der Insel zu finden.|Barsche findest du hier in allen Gewässern."
+    start-actions:
+      groups:
+        quest-items:
+          - '!player.give.item shears'
+          - '!player.give.item bucket'
+          - '!player.give.item fishing_rod'
+      flow:
+        - '!quest-items(execute-once:true)'
     tasks:
       '1':
         name: 'Sammle zehn Äpfel'
-        text: '%inventory.count(this.apfel)%/10 Äpfel gesammelt'
+        text: '%inventory.count(this.items.apfel)%/10 Äpfel gesammelt'
         trigger:
           flow:
-            - '?player.has-item item:this.apfel amount:10'
-            - '@item.pickup this.apfel'
+            - '?player.has-item item:this.items.apfel amount:10'
+            - '@item.pickup item:this.items.apfel'
       '2':
         name: 'Angel drei Schwarze Barsche'
-        text: '%requirement.count(ankanor-lagerarbeiter-fische)%/3 Schwarze Barsche geangelt'
+        text: '%inventory.count(this.items.schwarzer-barsch)%/3 Schwarze Barsche geangelt'
         trigger:
           flow:
-            - '?dummy(id:ankanor-lagerarbeiter-fische,count:3)'
-            - '@player.fish this.schwarzer-barsch'
+            - '?player.has-item item:this.items.schwarzer-barsch amount:3'
+            - '@player.fish item:this.items.schwarzer-barsch'
       '3':
         name: 'Schere fünf Schafe'
-        text: '%inventory.count(this.geschorene-wolle)%/5 Geschorene Wolle'
-        requirements:
-          flow:
-            - '?player.has-item item:this.geschorene-wolle amount:5'
+        text: '%inventory.count(this.items.geschorene-wolle)%/5 Geschorene Wolle'
         trigger:
           flow:
-            - '?dummy(count:5)'
-            - '@player.shear'
+            - '?player.has-item item:this.items.geschorene-wolle amount:5'
+            - '!text "test"'
+            - '@player.shear item:this.items.geschorene-wolle'
       '4':
         name: 'Melke eine Kuh'
         trigger:
           flow:
-            - '@player.milk.cow(cancel:true)'
-            - '!player.hand.set this.eimer-milch'
+            - '@player.milk return:this.items.eimer-milch'
   '2':
     name: "Bringe die Vorräte zu Kansa"
     desc: "Kansa befindet sich im Lager neben der Haupthalle."
@@ -52,10 +57,10 @@ objectives:
 complete-actions:
   groups:
     remove-items:
-      - '!player.remove.item this.apfel,10'
-      - '!player.remove.item this.schwarzer-barsch,3'
-      - '!player.remove.item this.geschorene-wolle,5'
-      - '!player.remove.item this.eimer-milch,1'
+      - '!player.remove.item this.items.apfel,10'
+      - '!player.remove.item this.items.schwarzer-barsch,3'
+      - '!player.remove.item this.items.geschorene-wolle,5'
+      - '!player.remove.item this.items.eimer-milch,1'
   flow:
     - '!remove-items'
     - '!rcskills.hero.addxp 5'

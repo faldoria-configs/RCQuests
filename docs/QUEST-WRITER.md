@@ -1,6 +1,6 @@
 # Story und Quest Entwickler/Schreiber
 
-Der Story und Quest Entwickler auch Questschreiber genannt, entwirft Storys und Quest für das Projekt. Hierbei nutzt er seine eigene Fantasie und Kreativität um vorhandene Handlungsstränge fortzuführen oder neue hinzuzufügen. Um den [Quest-Skripter](./QUEST-DEVELOPER.md) bei ihrer Arbeit, die fertig entworfenen Quest zu implemetieren, sollten Questschreiber die Quest in einem bestimmten Format, in einer Markdown Datei **(.md)** in den jeweiligen Questordner einfügen. Wie das vonstatten geht erklären wir euch in diesem Dokument.
+Der Story und Quest Entwickler, auch Questschreiber genannt, entwirft Storys und Quest für das Projekt. Hierbei nutzt er seine eigene Fantasie und Kreativität um vorhandene Handlungsstränge fortzuführen oder neue hinzuzufügen. Um den [Quest-Skriptern](./QUEST-DEVELOPER.md) ihre Arbeit zu erleichtern, die fertig entworfenen Quest zu implemetieren, sollten Questschreiber die Quest in einem bestimmten Format, in einer Markdown Datei **(.md)** in den jeweiligen Questordner einfügen. Wie das vonstatten geht erklären wir euch in diesem Dokument.
 
 - [Story und Quest Entwickler/Schreiber](#story-und-quest-entwicklerschreiber)
   - [Getting Started](#getting-started)
@@ -34,18 +34,18 @@ Der Story und Quest Entwickler auch Questschreiber genannt, entwirft Storys und 
 
 Um die `README.md` anlegen und bearbeiten zu können wird ein Account im [Gitlab von Faldoria](https://git.faldoria.de/) benötigt. Für einen Zugang bitte an `xanily` wenden.
 
-Dort liegen auch die Ordner für die Questbearbeitung, bzw. dort werden sie abgelegt. Meist reicht es aus dort im Browser seine Datein zu bearbeiten, für alle die aber außerhalb des Browsers arbeiten wollen gibt es Editoren die das bearbeiten der Datein auch einfacher machen können. Wir empfehlen [Visual Studio Code](https://code.visualstudio.com/). Weiteres dazu auch hier unter [Tales of Faldoria Quests](../README.md).
+Dort liegen auch die Ordner für die Questbearbeitung, bzw. dort werden sie abgelegt. Meist reicht es aus, dort im Browser seine Datein zu bearbeiten. Für alle, die aber außerhalb des Browsers arbeiten wollen gibt es Editoren, die das Bearbeiten der Dateien vereinfachen. Wir empfehlen [Visual Studio Code](https://code.visualstudio.com/). Weiteres dazu auch hier unter [Tales of Faldoria Quests](../README.md).
 
-Nun braucht es nur noch eine Idee, kreativität und motivation und schon kann man loslegen die Quest zu entwickeln.
+Nun braucht es nur noch eine Idee, Kreativität und Motivation und schon kann man loslegen um die Quest zu entwickeln.
 
 ## Der erste Schritt - Ordnerstruktur
 
-Zunächst ist wichtig das überprüft wird ob es für das jeweilige Questgebiet schon die Ordnerstruktur vorhanden ist.  
+Zunächst ist wichtig, dass man überprüft, ob es für das jeweilige Questgebietdie Ordnerstruktur schon gibt.  
 
 ![](img/example_ordnerstruktur_1.png)
 
 
-Dies ist die Ordnerstruktur der Insel Anakanor. Sie ist aufgespalten in zwei Hauptordner `/ankanor` und `/ankanor-event`, dann gibt es noch die drei Unterordner welche für uns wichtig sind. `/einfache-npcs`, `/hauptquest` und `/nebenquest` 
+Dies ist die Ordnerstruktur der Insel Anakanor. Sie ist aufgespalten in zwei Hauptordner `/ankanor` und `/ankanor-event`, dann gibt es noch drei für uns wichtige Unterordner: `/einfache-npcs`, `/hauptquest` und `/nebenquest` 
 
 | Ordner           | Beschreibung                                                                                                                                                                                                                               |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

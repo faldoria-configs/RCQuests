@@ -1,22 +1,25 @@
 stages:
   start:
+    text: "Hey, %player, Hast du mal nen Moment? Könntest du nicht zufällig etwas für mich erledigen?"
     answers:
+      groups:
+        deny-quest:
+          - '!text "Nun gut, vielleicht hast du danach etwas Zeit für mich.", this.kansa'
+          - '!end'
       flow:
-        - '!text "Hey, %player%, Hast du mal nen Moment? Könntest du nicht zufällig etwas für mich erledigen?", this.kansa'
-        # 1
         - ':"Was soll ich denn tun?"'
         - '!stage quest'
-        # 2
         - ':"Tut mir leid, Agnatus ist auf dem Weg. Ich habe keine Zeit!"'
-        - '!text "Nun gut, vielleicht hast du danach etwas Zeit für mich.", this.kansa'
-        - '!end'
+        - '!deny-quest'
   quest:
+    text: "Nun, die Lager sind so gut wie leer und ich brauche Hilfe beim einholen der Rohstoffe. Könntest du für mich die Schafe im westen scheren und eine Kuh melken? Außerdem brauche ich noch ein paar schwarze Barsche und Äpfel."
     answers:
+      groups:
+        start-quest:
+          - '!quest.start this.lagerarbeiter'
+          - '!end'
       flow:
-        - '!text "Nun, die Lager sind so gut wie leer und ich brauche Hilfe beim einholen der Rohstoffe.|Könntest du für mich die Schafe im westen scheren und eine Kuh melken?|Außerdem brauche ich noch ein paar Schwarze Barsche und Äpfel.", this.kansa'
-        # 1
         - ':"Na klar! Du kannst auf mich zählen."'
-        - '!quest.start this.lagerarbeiter'
-        # 2
+        - '!start-quest'
         - ':"Nein, ich habe besseres zu tun…"'
         - '!end'

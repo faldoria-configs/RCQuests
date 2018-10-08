@@ -13,18 +13,19 @@ Die gesamte Config der Beispiel Quest befindet sich im [example-quest/](./exampl
 
 > Bei allen folgenden Beispielen sind immer, bis auf wenige Ausnahmen, die Default Werte gesetzt.
 
-* [Referenzen](#referenzen)
-* [Quest Beschreibung](#quest-beschreibung)
-* [Allgemeine Config](#allgemeine-config)
-* [Quest Core](#quest-core)
-  * [Start Requirements](#start-requirements)
-  * [Start Trigger](#start-trigger)
-  * [Start Actions](#start-actions)
-  * [Active Trigger](#active-trigger)
-  * [Complete Actions](#complete-actions)
-  * [Complete Trigger](#complete-trigger)
-* [Objectives](#objectives)
-  * [Tasks](#tasks)
+- [Referenzen](#referenzen)
+- [Quest Beschreibung](#quest-beschreibung)
+- [Allgemeine Config](#allgemeine-config)
+  - [Default Conversations](#default-conversations)
+- [Quest Core](#quest-core)
+  - [Start Requirements](#start-requirements)
+  - [Start Trigger](#start-trigger)
+  - [Start Actions](#start-actions)
+  - [Active Trigger](#active-trigger)
+  - [Complete Actions](#complete-actions)
+  - [Complete Trigger](#complete-trigger)
+- [Objectives](#objectives)
+  - [Tasks](#tasks)
 
 ## Referenzen
 
@@ -93,6 +94,41 @@ cooldown: 0
 # Wenn repeatable: true ist und cooldown: 0 kann eine Quest sofort nach Abschluss wieder angenommen werden.
 repeatable: false
 ```
+
+### Default Conversations
+
+Jede Quest hat die Möglichkeit je nach Phase spezielle Default Conversations pro Conversation Host festzulegen. Diese Conversations werden dann automatisch dem Host zugewiesen sobald sich der Spieler in der entsprechenden Quest Phase befindet.
+
+| Phase                  | Beschreibung                                                                                                       |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| `not-started`          | Die Quest wurde noch nicht begonnen. Hierfür kann auch die `default-conv` im Host verwendet werden.                |
+| `active`               | Die Quest wurde angenommen und ist aktiv.                                                                          |
+| `objectives-completed` | Alle nicht optionalen Aufgaben in der Quest wurden abgeschlossen.                                                  |
+| `completed`            | Die Quest wurde abgeschlossen. Kann gut dazu verwendet werden NPCs nach Ende der Quest anders reagieren zu lassen. |
+| `aborted`              | Die Quest wurde abgebrochen.                                                                                       |
+
+```yml
+default-convs:
+  # Unterhalb der Phase können beliebig viele NPCs mit der jeweiligen Unterhaltung angegeben werden.
+  not-started:
+    # Die ID des Hosts MUSS unbedingt in Anführungszeichen ' ' stehen.
+    'this.my-host': 'this.foobar-conv'
+  active:
+    'this.my-host': 'this.foobar-conv'
+    'this.my-other-host': 'this.fooconv'
+  objectives-completed:
+    # Beim Wechsel der Phasen gibt es die Möglichkeit alle in den anderen Phasen gesetzten
+    # Default Conversations zu löschen.
+    # Um das zu unterbinden clear: false (default: true) angeben.
+    # Wenn nichts angegeben wird werden alle Conversations in einer neuen Phase gelöscht.
+    clear: true
+    'this.my-host': 'this.foobar-conv'
+  completed:
+    'this.my-host': 'this.foobar-conv'
+  aborted:
+    'this.my-host': 'this.foobar-conv'
+```
+
 
 ## Quest Core
 
@@ -259,3 +295,7 @@ objectives:
             flow:
               - '!text "Gut gemacht!"'
 ```
+
+### Objective Default Conversations
+
+Auch in Objectives können für jede Phase [Default Conversations](#default-conversations) definiert werden. Dabei kann analog die Konfiguration wie bei der Quest Konfiguration verwendet werden. Der einzige Unterschied ist die `objectives-completed` Phase. Diese bezieht sich bei Objectives auf alle abgeschlossenen Tasks.
