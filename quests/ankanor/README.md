@@ -9,6 +9,7 @@
 - [Quests](#quests)
     - [Hauptquest](#hauptquest)
     - [Nebenquest](#nebenquest)
+    - [Quest Tags Liste](#quest-tags-liste)
 - [Vergebene Belohnungen](#vergebene-belohnungen)
     - [Quest Belohnungen](#quest-belohnungen)
     - [Verteilte Kisten](#verteilte-kisten)
@@ -74,6 +75,11 @@
 |3. [Skelette in der Höhle](./nebenquest/3-skelette-in-der-hoehle/README.md)|Die Höhle bei Genam beherbergt Skelette, diese soll der Spieler töten | Vorraussetzung: Angenommen `NQ Material für die Schmiede`|
 |4. [Hilf in der Schmiede](./nebenquest/4-hilf-in-der-schmiede/README.md)|Zum Schmieden soll der Spieler Knöpfe und Hebel drücken |Vorraussetzung: Erledigt `NQ Material für die Schmiede` |
 |5. [Hilf dem Lagerarbeiter](./nebenquest/5-hilf-dem-lagerarbeiter/README.md)| Das Lager an der Versammlungshalle ist fast leer, der Spieler soll sie für Kansa wieder füllen| |
+
+### Quest Tags Liste
+|Tag | Auslöser/Beschreibung|
+| --- | --- |
+| ankanor.event.survivor  |[Weitere Ausbildung](./hauptquest/5-weitere-ausbildung/README.md) Überleben, nicht ausgeknockt werden.  |
 
 ## Vergebene Belohnungen
 

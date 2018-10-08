@@ -9,6 +9,7 @@
 - [Quests](#quests)
     - [Hauptquest](#hauptquest)
     - [Nebenquest](#nebenquest)
+    - [Quest Tags Liste](#quest-tags-liste)
 - [Vergebene Belohnungen](#vergebene-belohnungen)
     - [Quest Belohnungen](#quest-belohnungen)
     - [Verteilte Kisten](#verteilte-kisten)
@@ -48,13 +49,19 @@
 
 |Name/Git-Link         | Beschreibung| Sonstiges|
 | ---------------- | ---|---|
-| | |
+|1. [Was ist passiert](./hauptquest/1-was-ist-passiert/README.md) | Erwachen an der Eisenküste, Marduk schickt Spieler auf Erkundung |  |
+|2. [Reparaturarbeiten](./hauptquest/2-reparaturarbeiten/README.md)
 
 ### Nebenquest
 
 |Name/Git-Link         | Beschreibung| Sonstiges|
 | ---------------- | ---|---|
-|  |   |
+|  |   |  |
+
+### Quest Tags Liste
+|Tag | Auslöser/Beschreibung|
+| --- | --- |
+|   |   |
 
 ## Vergebene Belohnungen
 
@@ -62,8 +69,8 @@
 
 |Belohnung (Insgesamt)       | erhalten durch| 
 | ---------------- | ---|
-|  |  |
-
+|8 Heller  |diverse Quest  |
+|10 EXP    |diverse Quest
 
 ### Verteilte Kisten
 

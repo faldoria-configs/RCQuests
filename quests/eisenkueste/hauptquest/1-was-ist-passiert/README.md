@@ -1,40 +1,49 @@
-# Was ist passiert?
+# Was ist passiert? <!-- omit in toc -->
 
 Der Spieler kommt auf die ein oder andere Weise an und bekommt nach einem inneren Monolog die Quest [Was ist passiert?](#1.-was-ist-passiert?). Hierbei soll der Spieler Hauptmann Marduk ansprechen um mehr zu erfahren.
 Nachdem der Spieler das erste Mal mit Marduk in der HQ - Was ist passiert gesprochen hat, bekommt er von ihm den Auftrag die Gegend zu erkunden insbesondere das Licht was Marduk sah. Er findet Elius und spricht mit ihm.
 
-* [Ablauf](#ablauf)
-* [Vorrausetzungen](#vorrausetzungen)
-* [Aufgaben](#aufgaben)
-    * [1. Hilf dem Lagerarbeiter](#1-hilf-dem-lagerarbeiter)
-    * [2. Bringe die Vorräte zu Kansa](#2-bringe-die-vorräte-zu-kansa)
-* [NPCs](#npcs)
-    * [Kansa](#kansa)
-        * [Standartsätze](#standartsätze)
-            * [Vor der Quest](#vor-der-quest)
-            * [Während der Quest](#während-der-quest)
-            * [Nach der Quest](#nach-der-quest)
-        * [Ausrüstung](#ausrüstung)
-        * [Standort](#standort)
-* [Items](#items)
-    * [Schwarzer Barsch](#schwarzer-barsch)
-    * [Geschorene Wolle](#geschorene-wolle)
-    * [Frischer Eimer Milch](#frischer-eimer-milch)
-    * [Roter Apfel](#roter-apfel)
-* [Mobs](#mobs)
-    * [Skelett](#skelett)
-* [Belohnung](#belohnung)
-* [Referenzen](#referenzen)
+- [Vorrausetzungen](#vorrausetzungen)
+    - [Tags](#tags)
+- [Aufgaben](#aufgaben)
+    - [1. Was ist passiert?](#1-was-ist-passiert)
+        - [Möglichkeit 1 aus HQ Weitere Ausbildung](#m%C3%B6glichkeit-1-aus-hq-weitere-ausbildung)
+        - [Möglichkeit 2 aus HQ Weitere Ausbildung](#m%C3%B6glichkeit-2-aus-hq-weitere-ausbildung)
+    - [2. Erkunde die Umgebung](#2-erkunde-die-umgebung)
+- [NPCs](#npcs)
+    - [Hauptmann Marduk](#hauptmann-marduk)
+        - [Standartsätze](#standarts%C3%A4tze)
+            - [Vor der Quest](#vor-der-quest)
+            - [Während der Quest](#w%C3%A4hrend-der-quest)
+            - [Nach der Quest](#nach-der-quest)
+        - [Ausrüstung](#ausr%C3%BCstung)
+        - [Standort](#standort)
+    - [Elius](#elius)
+        - [Standartsätze](#standarts%C3%A4tze)
+            - [Vor der Quest](#vor-der-quest)
+            - [Während der Quest](#w%C3%A4hrend-der-quest)
+            - [Nach der Quest](#nach-der-quest)
+        - [Ausrüstung](#ausr%C3%BCstung)
+        - [Standort](#standort)
+- [Items](#items)
+- [Mobs](#mobs)
+- [Belohnung](#belohnung)
+- [Referenzen](#referenzen)
 
 ## Vorrausetzungen
 
 [HQ Weitere Ausbildung](../../ankanor/hauptquest/5-weitere-ausbildung/README.md) Abgeschlossen
+
+### Tags
+
+> TAG-1: ankanor.event.survivor
 
 ## Aufgaben
 
 ### 1. Was ist passiert?
 
 #### Möglichkeit 1 aus [HQ Weitere Ausbildung](../../ankanor/hauptquest/5-weitere-ausbildung/README.md)
+> Abfrage true *TAG-1*
 
 Sobald Spieler an der Eisenküste auftaucht nach dem Schiffsbruch, folgt ein innerer Monolog.
 
@@ -52,13 +61,14 @@ Marduk spricht den Spieler direkt an (5 Blöcke)
 ```yml
 Marduk: [Name des Spielers], bist du auch endlich wach, ja?
 Spieler: Hauptmann Marduk hat uns dieser Aknetun erwischt oder warum sind wir plötzlich an einer Küste?
-Marduk: Du scheinst einen sehr festen Schlaf zu haben, letzte Nacht tobte ein übler Sturm der das Schiff zerstörte und uns hier angespült. Wir hatten dich einfach aus dem Schiffwrack geholt und dachten du wärst Ohnmächtig.
-Spieler: Ist das dein ernst? Hmm... und was machen wir nun?
+Marduk: Du scheinst einen sehr festen Schlaf zu haben, letzte Nacht tobte ein übler Sturm, der das Schiff zerstörte und uns hier angespült. Wir hatten dich einfach aus dem Schiffwrack geholt und dachten du wärst ohnmächtig.
+Spieler: Ist das dein Ernst? Hmm... und was machen wir nun?
 ```
 
 `[QUEST ENDE]` [Was ist passiert](#1.-was-ist-passiert?)
 
 #### Möglichkeit 2 aus [HQ Weitere Ausbildung](../../ankanor/hauptquest/5-weitere-ausbildung/README.md)
+> Abfrage false *TAG-1*
 
 Sobald Spieler an der Eisenküste auftaucht nach dem Schiffsbruch, folgt ein innerer Monolog.
 
@@ -79,7 +89,7 @@ Spieler: Hauptmann Marduk hat uns dieser Aknetun erwischt? Sind wir alle Tod?
 Marduk: Nein, du wurdest ausgeknockt als du Agnatus Schergen bekämpft hast, man hat dich dann zum Schiff gebracht. Dort wurdest du versorgt.
 Spieler: Und wo sind wir hier? Das sieht mir nicht nach Ankanor aus.
 Marduk: Wo genau wir sind weiß keiner, aber nein es ist nicht mehr Ankanor. Der Sturm letzte Nacht hat unser Schiff zerstört und wir wurden hier angespült.
-Spieler: Ist das dein ernst? Hmm... und was machen wir nun?
+Spieler: Ist das dein Ernst? Hmm... und was machen wir nun?
 ```
 
 `[QUEST ENDE]` [Was ist passiert](#1.-was-ist-passiert?)
@@ -98,11 +108,11 @@ Spieler findet [Elius](#elius) und spricht ihn an.
 
 ```yml
 Spieler: Hallo du, ich bin [Spielername], wer bist du?
-Elius: Oh ein Fremder, was macht ihr denn hier in der Wildnis? Ich bin Elius und ich bin hier Notgelandet.
-Spieler: Notgelandet? Ach seid ihr auch Schiffbrüchig so wie ich und meine Leute?
+Elius: Oh ein Fremder, was macht ihr denn hier in der Wildnis? Ich bin Elius und ich bin hier notgelandet.
+Spieler: Notgelandet? Ach, seid ihr auch schiffbrüchig so wie ich und meine Leute?
 Elius: Kann man so sagen. Mein Ballon hat einen Riss, aber vielleicht könntet ihr mir helfen. Ich bin alt und nicht mehr so Fit. 
 Spieler: Wie kann ich euch denn helfen?
-Elius: Ich brauche ein paar Materlien, ich erkläre euch genau was ich brauche und wo ihr es wahrscheinlich finden könnt.
+Elius: Ich brauche ein paar Materialien, ich erkläre euch genau was ich brauche und wo ihr es wahrscheinlich finden könnt.
 ```
 
 > 1. Ok, ich helfe gerne.
@@ -125,7 +135,7 @@ Marduk: Da bist du ja wieder! Hast du die Quelle des Lichts gefunden?
 Spieler: Das habe ich. Es handelte sich dabei um einen abgestürzten Ballon. Der Pilot und ich haben ihn wieder repariert. 
 Marduk: Was ist ein Ballon? 
 Spieler: Ein Schiff was in der Luft fährt. Er hat mir auch Angeboten, da wir ja mehr über dieses Land herausfinden wollen, das er mich mitnimmt. Das wäre super, bitte lasst mich mit.
-Marduk: Ein Schiff das in der Luft fährt, das klingt so als würden wir echt mehr erfahren müssen. Es ist ein großzügiges Angebot dich mitzunehmen. 
+Marduk: Ein Schiff, das in der Luft fährt, das klingt so als würden wir echt mehr erfahren müssen. Es ist ein großzügiges Angebot dich mitzunehmen. 
 Spieler: Also kann ich mit ihm mit?
 Marduk: Nun denn, du hast meine Erlaubnis. Ziehe als Botschafter unseres Volkes los und finde mehr über dieses Land heraus. 
 Spieler: Danke, Hauptmann!
@@ -143,11 +153,10 @@ Marduk: Was ist ein Ballon?
 Spieler: Ein Schiff was in der Luft fährt.
 Marduk: Ah, wir müssen viel mehr über dieses Land herausfinden. Weißt du denn noch mehr?
 Spieler: Nein, aber dieser Elius möchte das ich ihm helfe, vielleicht erfahre ich dann mehr.
-Marduk: Das klingt garnicht so dumm, also hilf ihm.
+Marduk: Das klingt gar nicht so dumm, also hilf ihm.
 ```
 
 > 1. Ok ich mache mich auf den Weg und erzähle später mehr.
-
 
 `[QUEST ENDE]` [Was ist passiert](#1.-was-ist-passiert?)
 Weiter bei [HQ Reparaturarbeiten](../2-reparaturarbeiten/README.md)
@@ -156,7 +165,7 @@ Weiter bei [HQ Reparaturarbeiten](../2-reparaturarbeiten/README.md)
 
 ### Hauptmann Marduk
 
-Er schimpft sich zwar Hauptmann, es gibt aber eigentlich keine richtigen Truppen bei den Kaishi. Marduk ist ein sehr entspannter Typ, hat keine Kampferfahrungen, soll sich aber um die Verteidigung kümmern.
+Er schimpft sich zwar Hauptmann, es gibt aber eigentlich keine richtigen Truppen bei den Kaishi. Marduk ist ein sehr entspannter Typ, er hat keine Kampferfahrungen, soll sich aber um die Verteidigung kümmern.
 
 #### Standartsätze
 
@@ -188,13 +197,14 @@ world: faldoria
 
 ### Elius
 
-Er ist älterer Jorgendder und der eigentliche Großmeister der Gamos Historia. Mehr zu ihm im Lore Dokument.
+Er ist älterer Jorgendder und der eigentliche Großmeister der Gamos Historia. Mehr zu ihm im [Lore Dokument](https://onedrive.live.com/view.aspx?resid=D0C59DCD5578741F!1923&ithint=file%2cdocx&app=Word&authkey=!AAKBdECuqapbsOM).
 
 #### Standartsätze
 
 ##### Vor der Quest
 
-1. Nicht vorhanden bzw. siehe Quest
+1. Ihr solltet nicht hier sein, dies ist ein verlassener Ort.
+2. Im Moment kann ich nichts für euch tun, vielleicht später.
 
 ##### Während der Quest
 
@@ -227,8 +237,10 @@ Keine
 
 ## Belohnung
 
-[Hilf Was ist passiert](#was-ist-passiert)
+[Was ist passiert](#was-ist-passiert)
 > 8 Heller  
 > 10 exp  
 
 ## Referenzen
+
+
