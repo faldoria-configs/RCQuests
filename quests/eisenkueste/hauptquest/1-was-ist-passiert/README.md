@@ -7,23 +7,23 @@ Nachdem der Spieler das erste Mal mit Marduk in der HQ - Was ist passiert gespro
     - [Tags](#tags)
 - [Aufgaben](#aufgaben)
     - [1. Was ist passiert?](#1-was-ist-passiert)
-        - [Möglichkeit 1 aus HQ Weitere Ausbildung](#m%C3%B6glichkeit-1-aus-hq-weitere-ausbildung)
-        - [Möglichkeit 2 aus HQ Weitere Ausbildung](#m%C3%B6glichkeit-2-aus-hq-weitere-ausbildung)
+        - [Möglichkeit 1 aus HQ Weitere Ausbildung](#möglichkeit-1-aus-hq-weitere-ausbildung)
+        - [Möglichkeit 2 aus HQ Weitere Ausbildung](#möglichkeit-2-aus-hq-weitere-ausbildung)
     - [2. Erkunde die Umgebung](#2-erkunde-die-umgebung)
 - [NPCs](#npcs)
     - [Hauptmann Marduk](#hauptmann-marduk)
-        - [Standartsätze](#standarts%C3%A4tze)
+        - [Standartsätze](#standartsätze)
             - [Vor der Quest](#vor-der-quest)
-            - [Während der Quest](#w%C3%A4hrend-der-quest)
+            - [Während der Quest](#während-der-quest)
             - [Nach der Quest](#nach-der-quest)
-        - [Ausrüstung](#ausr%C3%BCstung)
+        - [Ausrüstung](#ausrüstung)
         - [Standort](#standort)
     - [Elius](#elius)
-        - [Standartsätze](#standarts%C3%A4tze)
+        - [Standartsätze](#standartsätze)
             - [Vor der Quest](#vor-der-quest)
-            - [Während der Quest](#w%C3%A4hrend-der-quest)
+            - [Während der Quest](#während-der-quest)
             - [Nach der Quest](#nach-der-quest)
-        - [Ausrüstung](#ausr%C3%BCstung)
+        - [Ausrüstung](#ausrüstung)
         - [Standort](#standort)
 - [Items](#items)
 - [Mobs](#mobs)
@@ -36,7 +36,8 @@ Nachdem der Spieler das erste Mal mit Marduk in der HQ - Was ist passiert gespro
 
 ### Tags
 
-> TAG-1: ankanor.event.survivor
+> TAG-1: ankanor.event.survivor  
+> TAG-2: eisenkueste.duty
 
 ## Aufgaben
 
@@ -121,6 +122,7 @@ Elius: Ich brauche ein paar Materialien, ich erkläre euch genau was ich brauche
 ```yml
 Elius: Ok, dann hoffe ich das ihr bald wieder hier seid.
 ```
+> Vergabe *TAG-2: eisenkueste.duty*
 
 **Weiter nach #1:**
 
