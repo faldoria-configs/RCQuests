@@ -1,5 +1,5 @@
 name: Ein neuer Start
-desc: "Sobald der Spieler auf den Server kommt landet er in einem Haus mitten im Dorf, wenn er das Gebäude verlässt hält ihn Shicho auf und teilt dem Spieler mit sich in der Versammlungshalle beim Bürgermeister Roshik zu melden."
+desc: "Begib dich zur Versammlungshalle und sprich mit Roschik"
 locked: false
 authors:
   - TheFum (QS)
@@ -23,8 +23,8 @@ objectives:
     auto-complete: false
     trigger:
       flow:
-        - '@host.interact this.roschik'
-        - '!conversation.start conv:this.roschik-willkommen host:this.roschik'
+        - '@host.interact ../roschik'
+        - '!conversation.start conv:this.roschik-willkommen host:../roschik'
 
 complete-actions:
   flow:
