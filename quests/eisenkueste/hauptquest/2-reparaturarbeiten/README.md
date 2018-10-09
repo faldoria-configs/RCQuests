@@ -161,7 +161,7 @@ world: faldoria
 Gewöhnlicher Klebstoff der aus unterschiedlichen Quellen gewonnen werden kann.
 
 ```yml
-ID: 
+ID: 5
 name: Klebstoff
 type: ROHSTOFF
 quality: COMMON
@@ -175,7 +175,7 @@ max-stack-size: 64
 Dieses Holzbrett ist verarbeitet, aber gewöhnlich und überall zu finden.
 
 ```yml
-ID: 
+ID: 6
 name: Holzbrett
 type: Rohstoff
 quality: COMMON
@@ -189,7 +189,7 @@ max-stack-size: 64
 Diese Spinnenseide ist bei jeder Spinnenart zu finden, meist droppt es beim töten dieser.
 
 ```yml
-ID: 
+ID: 7
 name: Spinnenseide
 type: Rohstoff
 quality: COMMON
@@ -203,7 +203,7 @@ max-stack-size: 64
 Aus diversen unterschiedlich gewonnenen Fasern kann dieser Stoff bestehen. Die Farbgebung wird meist durch die Faserart bestimmt, ist meist eher gräulich, kann aber gefärbt werden.
 
 ```yml
-ID: 
+ID: 8
 name: Stoff
 type: Rohstoff
 quality: COMMON
@@ -217,7 +217,7 @@ max-stack-size: 64
 Mit diesem Feuerstein können leicht Feuer entzündet werden.
 
 ```yml
-ID: 
+ID: 9
 name: Feuerstein
 type: QUEST
 quality: COMMON
@@ -239,6 +239,7 @@ quality: COMMON
 item: CHAINMAIL CHESTPLATE
 lore: Das Kettenhemd scheint seine besten Zeiten hinter sich zu haben, aber besser als nichts.
 max-stack-size: 1
+attributes: +1 ausdauer / +1 Stärke
 ```
 
 ### Zerrissener Lederwams
@@ -254,6 +255,7 @@ quality: COMMON
 item: LEATHER TUNIC
 lore: Dieser Lederwams scheint seine besten Zeiten hinter sich zu haben, aber besser als nichts.
 max-stack-size: 1
+attributes: +1 ausdauer / +1 Geschick
 ```
 
 ### Zerschlissene Robe
@@ -269,6 +271,7 @@ quality: COMMON
 item: LEATHER TUNIC
 lore: Diese Robe scheint seine besten Zeiten hinter sich zu haben, aber besser als nichts.
 max-stack-size: 1
+attributes: +1 ausdauer / +1 Int
 ```
 
 ## Mobs
