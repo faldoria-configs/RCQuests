@@ -19,7 +19,8 @@ start-trigger:
 
 objectives:
   '1':
-    name: 'Begib dich zur Versammlungshalle und sprich mit Roschik'
+    name: 'Sprich mit Roschik'
+    hidden: true
     auto-complete: false
     trigger:
       flow:
