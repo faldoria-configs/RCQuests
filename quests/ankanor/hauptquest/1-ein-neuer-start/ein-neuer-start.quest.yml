@@ -31,4 +31,3 @@ complete-actions:
   flow:
     - '!player.give.item this.steak amount:10'
     - '!player.money.add 2 Quest'
-    #- '!quest.start ../2-vorraete-fuer-das-schiff/vorraete-fuer-das-schiff'
