@@ -9,7 +9,7 @@
 - [Quests](#quests)
     - [Hauptquest](#hauptquest)
     - [Nebenquest](#nebenquest)
-    - [Quest Tags Liste](#quest-tags-liste)
+    - [Verwendete Quest Tags](#verwendete-quest-tags)
 - [Vergebene Belohnungen](#vergebene-belohnungen)
     - [Quest Belohnungen](#quest-belohnungen)
     - [Verteilte Kisten](#verteilte-kisten)
@@ -26,7 +26,7 @@
 |**Gebietsnummer:**|1  |
 |**Gebietslevel:**|2-5  |
 |**Questzahl:**|4 Hauptquest / 11 Nebenquest  |
-|**Spielzeit:**|Circa 2 Stunden|
+|**Spielzeit:**|Circa 3 Stunden|
 
 ## NPCs / Monster
 
@@ -58,10 +58,11 @@
 | ---------------- | ---|---|
 |  |   |  |
 
-### Quest Tags Liste
+### Verwendete Quest Tags 
 |Tag | Auslöser/Beschreibung|
 | --- | --- |
-|   |   |
+|ankanor.event.survivor| Bekommt der Spieler wenn er den [Ankanor Event](../ankanor/hauptquest/5-weitere-ausbildung/README.md) ohne zu sterben überlebt.|
+|eisenkueste.duty |Bekommt der Spieler wenn er anstatt `Elius` zu helfen nochmal zum Camp zurückkehrt und dort aushilft. |
 
 ## Vergebene Belohnungen
 
@@ -69,8 +70,11 @@
 
 |Belohnung (Insgesamt)       | erhalten durch| 
 | ---------------- | ---|
-|8 Heller  |diverse Quest  |
-|10 EXP    |diverse Quest
+|28 Heller  |diverse Quest  |
+|40 EXP    |diverse Quest |
+|Angerostetes Kettenhemd| [Reparaturarbeiten](.\hauptquest\2-reparaturarbeiten\README.md)|
+|Zerrissener Lederwams |[Reparaturarbeiten](.\hauptquest\2-reparaturarbeiten\README.md)|
+|Zerschlissene Robe|[Reparaturarbeiten](.\hauptquest\2-reparaturarbeiten\README.md)|
 
 ### Verteilte Kisten
 

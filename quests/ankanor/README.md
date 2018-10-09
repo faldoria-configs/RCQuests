@@ -9,7 +9,7 @@
 - [Quests](#quests)
     - [Hauptquest](#hauptquest)
     - [Nebenquest](#nebenquest)
-    - [Quest Tags Liste](#quest-tags-liste)
+    - [Verwendete Quest Tags](#verwendete-quest-tags)
 - [Vergebene Belohnungen](#vergebene-belohnungen)
     - [Quest Belohnungen](#quest-belohnungen)
     - [Verteilte Kisten](#verteilte-kisten)
@@ -76,10 +76,10 @@
 |4. [Hilf in der Schmiede](./nebenquest/4-hilf-in-der-schmiede/README.md)|Zum Schmieden soll der Spieler Knöpfe und Hebel drücken |Vorraussetzung: Erledigt `NQ Material für die Schmiede` |
 |5. [Hilf dem Lagerarbeiter](./nebenquest/5-hilf-dem-lagerarbeiter/README.md)| Das Lager an der Versammlungshalle ist fast leer, der Spieler soll sie für Kansa wieder füllen| |
 
-### Quest Tags Liste
+### Verwendete Quest Tags 
 |Tag | Auslöser/Beschreibung|
 | --- | --- |
-| ankanor.event.survivor  |[Weitere Ausbildung](./hauptquest/5-weitere-ausbildung/README.md) Überleben, nicht ausgeknockt werden.  |
+|ankanor.event.survivor| Bekommt der Spieler wenn er den [Ankanor Event](../ankanor/hauptquest/5-weitere-ausbildung/README.md) ohne zu sterben überlebt.|
 
 ## Vergebene Belohnungen
 

@@ -192,14 +192,14 @@ max-stack-size: 1
 
 ### Holzbrett
 
-Dieses Holzbrett ist verarbeitet, aber gewöhnlich und überall zu finden.
+Dieses Holzbrett ist verarbeitet und fast nur auf Ankanor zu finden.
 
 ```yml
-name: Holzbrett
-type: Rohstoff
+name: Tian Holzbrett
+type: QUEST
 quality: COMMON
 item: SPRUCE WOOD PLANK
-lore: Ein gewöhnliches Holzbrett.
+lore: Ein gewöhnliches Holzbrett aus dem Tianbaum.
 max-stack-size: 64
 ```
 
