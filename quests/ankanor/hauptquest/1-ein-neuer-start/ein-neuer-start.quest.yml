@@ -1,5 +1,5 @@
 name: Ein neuer Start
-desc: "Begib dich zur Versammlungshalle und sprich mit Roschik"
+desc: "Sobald der Spieler auf den Server kommt landet er in einem Haus mitten im Dorf, wenn er das Gebäude verlässt hält ihn Shicho auf und teilt dem Spieler mit sich in der Versammlungshalle beim Bürgermeister Roshik zu melden."
 locked: false
 authors:
   - TheFum (QS)
@@ -19,8 +19,7 @@ start-trigger:
 
 objectives:
   '1':
-    name: 'Ein neuer Start'
-    desc: 'Begib dich zur Versammlungshalle und sprich mit Roschik'
+    name: 'Begib dich zur Versammlungshalle und sprich mit Roschik'
     auto-complete: false
     trigger:
       flow:

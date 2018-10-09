@@ -9,4 +9,4 @@ location:
   y: 83
   z: -40
 default-conv: this.shicho.default
-talk-close: true
+talk-close: false
