@@ -4,5 +4,6 @@ min-amount: 3
 max-amount: 7
 respawn-treshhold: 2
 mobs:    
-    '[this.sandfloh]':
+    sandfloh:
+        mob: 'this.sandfloh'
         chance: 1.0
