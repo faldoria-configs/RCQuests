@@ -1,4 +1,4 @@
-name: Schicho
+name: Shicho
 type: NPC
 health: 100
 attackable: false
@@ -8,5 +8,5 @@ location:
   x: 52
   y: 83
   z: -40
-default-conv: this.schicho.default
+default-conv: this.shicho.default
 talk-close: true

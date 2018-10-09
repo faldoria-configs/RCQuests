@@ -1,3 +1,6 @@
 stages:
   start:
-    text: 'Ein schöner tag heute nicht?'
+    random-actions:
+      flow:
+        - '!text "Es ist sehr wichtig, dass du im Moment keinen Unsinn machst, wir brauchen jetzt jeden um uns vorzubereiten.", this.roschik'
+        - '!text "Ich hoffe du verstehst, dass ich gerade keine Zeit für dich habe.", this.roschik'
