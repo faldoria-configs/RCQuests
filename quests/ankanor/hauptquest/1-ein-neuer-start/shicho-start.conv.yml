@@ -1,6 +1,3 @@
-settings:
-  show-npc-name: true
-auto-end: false
 stages:
   start:
     actions:
