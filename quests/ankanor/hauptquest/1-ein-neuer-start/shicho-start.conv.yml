@@ -6,7 +6,7 @@ stages:
     actions:
       flow:
         - '!player.freeze'
-        - '!text "Hey, was machst du noch hier, der Bürgermeister hat zu einer Versammlung gerufen.", this.shicho'
+        - '!text "Hey %player, was machst du noch hier, der Bürgermeister hat zu einer Versammlung gerufen.", this.shicho'
         - '~5s'
         - '!text.player "Wieso, was ist los? Gab es wieder Ärger im Lager?"'
         - '~3s'
