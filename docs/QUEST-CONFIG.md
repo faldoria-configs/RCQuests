@@ -13,20 +13,20 @@ Die gesamte Config der Beispiel Quest befindet sich im [example-quest/](./exampl
 
 > Bei allen folgenden Beispielen sind immer, bis auf wenige Ausnahmen, die Default Werte gesetzt.
 
-* [Referenzen](#referenzen)
-* [Quest Beschreibung](#quest-beschreibung)
-* [Allgemeine Config](#allgemeine-config)
-  * [Default Conversations](#default-conversations)
-* [Quest Core](#quest-core)
-  * [Start Requirements](#start-requirements)
-  * [Start Trigger](#start-trigger)
-  * [Start Actions](#start-actions)
-  * [Active Trigger](#active-trigger)
-  * [Complete Actions](#complete-actions)
-  * [Complete Trigger](#complete-trigger)
-* [Objectives](#objectives)
-  * [Tasks](#tasks)
-  * [Objective Default Conversations](#objective-default-conversations)
+- [Referenzen](#referenzen)
+- [Quest Beschreibung](#quest-beschreibung)
+- [Allgemeine Config](#allgemeine-config)
+  - [Default Conversations](#default-conversations)
+- [Quest Core](#quest-core)
+  - [Start Requirements](#start-requirements)
+  - [Start Trigger](#start-trigger)
+  - [Start Actions](#start-actions)
+  - [Active Trigger](#active-trigger)
+  - [Complete Actions](#complete-actions)
+  - [Complete Trigger](#complete-trigger)
+- [Objectives](#objectives)
+  - [Tasks](#tasks)
+  - [Objective Default Conversations](#objective-default-conversations)
 
 ## Referenzen
 
@@ -112,22 +112,27 @@ Jede Quest hat die Möglichkeit je nach Phase spezielle Default Conversations pr
 default-convs:
   # Unterhalb der Phase können beliebig viele NPCs mit der jeweiligen Unterhaltung angegeben werden.
   not-started:
-    # Die ID des Hosts MUSS unbedingt in Anführungszeichen ' ' stehen.
-    'this.my-host': 'this.foobar-conv'
+    convs:
+      # Die ID des Hosts MUSS unbedingt mit einem : von der Conversation getrennt werden.
+      - 'this.my-host:this.foobar-conv'
   active:
-    'this.my-host': 'this.foobar-conv'
-    'this.my-other-host': 'this.fooconv'
+    convs:
+      - 'this.my-host:this.foobar-conv'
+      - 'this.my-other-host:this.fooconv'
   objectives-completed:
     # Beim Wechsel der Phasen gibt es die Möglichkeit alle in den anderen Phasen gesetzten
     # Default Conversations zu löschen.
     # Um das zu unterbinden clear: false (default: true) angeben.
     # Wenn nichts angegeben wird werden alle Conversations in einer neuen Phase gelöscht.
     clear: true
-    'this.my-host': 'this.foobar-conv'
+    convs:
+      - 'this.my-host:this.foobar-conv'
   completed:
-    'this.my-host': 'this.foobar-conv'
+    convs:
+      - 'this.my-host:this.foobar-conv'
   aborted:
-    'this.my-host': 'this.foobar-conv'
+    convs:
+      - 'this.my-host:this.foobar-conv'
 ```
 
 ## Quest Core
