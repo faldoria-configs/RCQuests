@@ -1,5 +1,6 @@
 settings:
   show-npc-name: true
+auto-end: false
 stages:
   start:
     actions:
@@ -22,3 +23,4 @@ stages:
         - '~2s'
         - '!player.unfreeze'
         - '!quest.start this.ein-neuer-start'
+        - '!end'

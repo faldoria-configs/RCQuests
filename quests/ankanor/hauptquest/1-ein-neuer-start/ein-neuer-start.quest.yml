@@ -8,10 +8,6 @@ worlds:
   - ankanor
 level: 1
 
-#default-convs:
-#  active:
-#    'this.shicho':
-
 start-trigger:
   flow:
     - '@player.move x:49 y:83 z:-41'
