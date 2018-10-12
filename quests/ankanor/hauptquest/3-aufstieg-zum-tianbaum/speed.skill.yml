@@ -4,6 +4,9 @@ skill: buff
 custom:
   type: haste
   group: false
+  self: true
+range:
+  base: 5
 effects:
   haste-buff:
     name: Segen des Tianbaum
