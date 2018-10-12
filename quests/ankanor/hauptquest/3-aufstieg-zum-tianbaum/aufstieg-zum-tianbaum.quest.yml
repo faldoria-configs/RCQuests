@@ -8,6 +8,16 @@ worlds:
   - ankanor
 level: 1
 
+start-trigger:
+  flow:
+    - '@host.proximity this.waechter,5'
+    - '!player.freeze'
+    - '!text "Halt! Niemand darf das Heiligtum ohne Erlaubnis betreten.", this.waechter'
+    - '~1s'
+    - '!teleport 1,94,84,118,0'
+    - '~1s'
+    - '!player.unfreeze'
+
 objectives:
   '1':
     name: 'Triff den Wächter des Heiligtums'
