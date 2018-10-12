@@ -36,6 +36,7 @@ objectives:
     trigger:
       flow:
         - '@host.interact ../lious this.lious-willkommen'
+        - '!effect.remove haste-buff'
 
 complete-actions:
   flow:
