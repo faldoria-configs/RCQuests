@@ -40,7 +40,7 @@ objectives:
         trigger:
           flow:
             - '?player.has-item this.holzbrett, 10'
-            - '@item.pickup this.holzbrett'
+            - '@item.pickup this.items.holzbrett'
       '4':
         name: 'Fass Wasser'
         trigger:

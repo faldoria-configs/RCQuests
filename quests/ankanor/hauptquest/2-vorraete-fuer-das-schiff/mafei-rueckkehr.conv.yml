@@ -6,7 +6,7 @@ stages:
         complete:
           - '!player.remove.item this.items.getreide 10' # getreide
           - '!player.remove.item this.items.wassereimer' # wassereimer
-          - '!player.remove.item this.holzbrett 10' # holzbretter
+          - '!player.remove.item this.items.holzbrett 10' # holzbretter
           - '!player.remove.item this.items.wolle 10' # wolle
           - '!player.remove.item this.vorrats-liste' # liste
           - '~1s'
