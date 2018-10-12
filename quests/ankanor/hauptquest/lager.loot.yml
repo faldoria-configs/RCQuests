@@ -1,0 +1,9 @@
+count: 2
+entries:
+  vorraete-quest:
+    type: table
+    name: this.2-vorraete-fuer-das-schiff.vorraete
+    probability: 100
+    requirements:
+      flow:
+        - '?quest.active this.2-vorraete-fuer-das-schiff.vorraete'

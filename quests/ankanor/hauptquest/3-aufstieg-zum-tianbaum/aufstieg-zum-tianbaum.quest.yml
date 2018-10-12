@@ -13,10 +13,9 @@ start-trigger:
     - '@host.proximity this.waechter,5'
     - '!player.freeze'
     - '!text "Halt! Niemand darf das Heiligtum ohne Erlaubnis betreten.", Wächter'
-    - '~1s'
-    - '!teleport.location x:1 y:94 z:84 world:Ankanor pitch:-122 yaw:0'
     - '~3s'
     - '!player.unfreeze'
+    - '!teleport.location x:1 y:94 z:84 world:Ankanor pitch:-122 yaw:0'
 
 objectives:
   '1':
@@ -37,9 +36,3 @@ objectives:
       flow:
         - '@host.interact ../lious this.lious-willkommen'
         - '!effect.remove haste-buff'
-
-complete-actions:
-  flow:
-    - '!player.give.item this.steak amount:10'
-    - '!player.money.add 2 Quest'
-    - '!quest.start ../2-vorraete-fuer-das-schiff/vorraete'
