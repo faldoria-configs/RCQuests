@@ -14,7 +14,7 @@ start-trigger:
     - '!player.freeze'
     - '!text "Halt! Niemand darf das Heiligtum ohne Erlaubnis betreten.", Wächter'
     - '~1s'
-    - '!teleport.location x:1 y:94 z:84 world:Ankanor pitch:118 yaw:0'
+    - '!teleport.location x:1 y:94 z:84 world:Ankanor pitch:-122 yaw:0'
     - '~1s'
     - '!player.unfreeze'
 
