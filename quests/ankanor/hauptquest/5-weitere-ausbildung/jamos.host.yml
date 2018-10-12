@@ -5,8 +5,8 @@ attackable: false
 friendly: true
 location:
   world: ankanor
-  x: 12
+  x: 7
   y: 95
-  z: 79
+  z: 84
 default-conv: this.jamos.default
 talk-close: true
