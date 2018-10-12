@@ -1,4 +1,4 @@
-name: Wächter des Heiligtums
+name: Wächter
 type: NPC
 health: 100
 attackable: false
