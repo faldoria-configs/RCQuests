@@ -12,9 +12,9 @@ start-trigger:
   flow:
     - '@host.proximity this.waechter,5'
     - '!player.freeze'
-    - '!text "Halt! Niemand darf das Heiligtum ohne Erlaubnis betreten.", this.waechter'
+    - '!text "Halt! Niemand darf das Heiligtum ohne Erlaubnis betreten.", "Wächter"'
     - '~1s'
-    - '!teleport.location x:1 y:94 z:84 yaw:118 pitch:0'
+    - '!teleport.location x:1 y:94 z:84 world:Ankanor yaw:118 pitch:0'
     - '~1s'
     - '!player.unfreeze'
 
