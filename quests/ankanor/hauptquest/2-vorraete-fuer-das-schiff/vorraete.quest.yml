@@ -1,0 +1,75 @@
+name: Vorräte für das Schiff
+desc: "Begib dich zur Versammlungshalle und sprich mit Roschik"
+locked: false
+authors:
+  - TheFum (QS)
+  - Silthus (QD)
+worlds:
+  - ankanor
+level: 1
+
+objectives:
+  '1':
+    name: 'Finde Kapitän Mafei'
+    desc: 'Normalerweise hält er sich unten am Steg bei seinem Schiff auf.'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../mafei'
+        - '!conversation.start conv:this.mafei-willkommen host:../mafei'
+
+  '2':
+    name: 'Hole die Vorräte für das Schiff'
+    desc: 'Die Vorräte findest du im Lager neben der Versammlungshalle.'
+    hidden: true
+    tasks:
+      '1':
+        name: "10 Getreide"
+        trigger:
+          flow:
+            - '?player.has-item this.items.getreide, 10'
+            - '@item.pickup this.items.getreide'
+      '2':
+        name: '10 Wolle'
+        trigger:
+          flow:
+            - '?player.has-item this.items.wolle, 10'
+            - '@item.pickup this.items.wolle'
+      '3':
+        name: '10 Holzbretter'
+        trigger:
+          flow:
+            - '?player.has-item this.holzbrett, 10'
+            - '@item.pickup this.holzbrett'
+      '4':
+        name: 'Fass Wasser'
+        trigger:
+          flow:
+            - '@item.pickup this.items.wassereimer'
+    complete-actions:
+      flow:
+        - '!text.think "Ich glaube das waren alle Vorräte. Ich sollte zum Kapitän zurückkehren."'
+
+  '3':
+    name: 'Bringe die Vorräte zu Mafei'
+    auto-complete: false
+    hidden: true
+    trigger:
+      flow:
+        - '@host.interact ../mafei'
+        - '!conversation.start this.mafei-rueckkehr,../mafei'
+
+  '4':
+    name: 'Kehre zurück zu Bürgermeister Roschik'
+    desc: 'Er wartet in der großen Versammlungshalle auf dich.'
+    hidden: true
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../roschik this.roschik-weiterer-weg'
+
+complete-actions:
+  flow:
+    - '!player.money.add 2 Quest'
+    - '~1s'
+    - '!quest.start ../3-aufstieg-zum-tianbaum/aufstieg-zum-tianbaum'

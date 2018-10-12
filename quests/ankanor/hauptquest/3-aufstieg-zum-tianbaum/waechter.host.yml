@@ -8,5 +8,5 @@ location:
   x: 12
   y: 95
   z: 79
-default-conv: this.waechter-des-heiligtums.default
+default-conv: this.waechter.default
 talk-close: true

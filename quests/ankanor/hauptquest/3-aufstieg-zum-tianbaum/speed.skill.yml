@@ -1,0 +1,11 @@
+name: Segen des Tianbaum
+description: 'Erhöht die Bewegungsgeschwindigkeit innerhalb des Tianbaum.'
+skill: buff
+custom:
+  type: haste
+  group: false
+effects:
+  haste-buff:
+    name: Segen des Tianbaum
+    duration:
+      base: 180
