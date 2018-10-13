@@ -46,7 +46,7 @@ objectives:
         desc: 'Berühre den braunen Ritualstein.'
         trigger:
           flow:
-            - '@player.interact x:19 y:187 z:30'
+            - '@player.interact x:19 y:188 z:30'
             - '!text.think "Waldläufer leben im Einklang mit der Natur, ihre Angriffe mit dem Bogen sind meist tödlich. In Wäldern fühlen sie sich heimisch und ihre Kraft ist dort um ein vielfaches erhöht."'
   '2':
     name: 'Wähle deinen Pfad'
@@ -65,7 +65,7 @@ objectives:
       flow:
         - '@playermenu.open skills'
         - '~1s'
-        - '!text.info "Verzauberte Skills sind aktiv und können in deine Aktionsleiste gezogen werden. Lege dann deine Waffe in den ersten Hotbarslot und drücke die Tasten-Nummer für den Slot auf dem der Skill liegt."'
+        - '!text.info "Freigeschaltete Skills werden verzaubert angezeigt und können in deine Aktionsleiste gezogen werden. Lege dann deine Waffe in den ersten Hotbarslot und drücke die Tasten-Nummer für den Slot auf dem der Skill liegt."'
 
 complete-actions:
   flow:
