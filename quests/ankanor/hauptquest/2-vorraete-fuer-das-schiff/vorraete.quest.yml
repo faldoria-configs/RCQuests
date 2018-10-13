@@ -73,4 +73,4 @@ complete-actions:
   flow:
     - '!player.money.add 2 Quest'
     - '~1s'
-    - '!quest.start ../3-aufstieg-zum-tianbaum/aufstieg-zum-tianbaum'
+    - '!quest.start ../3-aufstieg-zum-tianbaum.aufstieg-zum-tianbaum'
