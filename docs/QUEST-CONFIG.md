@@ -227,8 +227,11 @@ objectives:
     desc: "Mache einen Handstand mit einer Rolle rückwärts."
     # Markiert die Aufgabe als optional, d.h. sie muss nicht erfüllt werden um die Quest abzuschließen.
     optional: false
-    # Zeigt die Aufgabe nicht im Questlog an.
+    # Zeigt die Aufgabe erst im Questlog an sobald sie aktiv ist.
+    # Wird auch angezeigt wenn sie abgeschlossen wurde.
     hidden: false
+    # Versteckt die Aufgabe dauerhaft vor dem Spieler.
+    secret: false
     # Zeigt keine Benachrichtigungen zur Aufgabe im Chat an.
     # Zusammen mit hidden: true kann so eine Aufgabe komplett vom Spieler verborgen bleiben.
     silent: false
