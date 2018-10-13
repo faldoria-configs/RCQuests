@@ -8,5 +8,3 @@ location:
   x: 101
   y: 83
   z: -85
-default-conv: this.roschik.default
-talk-close: false

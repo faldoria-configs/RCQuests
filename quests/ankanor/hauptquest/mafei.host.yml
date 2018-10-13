@@ -8,5 +8,3 @@ location:
   x: 5
   y: 71
   z: -85
-default-conv: this.mafei.default
-talk-close: false

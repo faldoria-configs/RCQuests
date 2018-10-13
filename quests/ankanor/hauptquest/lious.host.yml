@@ -8,5 +8,3 @@ location:
   x: 8
   y: 183
   z: 21
-default-conv: this.lious.default
-talk-close: true
