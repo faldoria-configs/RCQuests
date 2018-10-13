@@ -12,7 +12,7 @@ stages:
           - '~1s'
           - '!text "Vielen Dank. Nun geh zurück zum Bürgermeister, er hat bestimmt noch mehr Aufgaben für dich.", ../mafei"'
           - '~2s'
-          - '!quest.complete this.vorraete'
+          - '!objective.complete this.vorraete 3'
       flow:
         # Antwort 1
         - ':"Ja, hier hast du sie."'
