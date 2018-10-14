@@ -4,7 +4,6 @@ Elius bittet den Spieler ihm dabei zu helfen den Ballon zu reparieren mit dem El
 
 - [Vorrausetzungen](#vorrausetzungen)
     - [TAG-1](#tag-1)
-    - [TAG-2](#tag-2)
 - [Aufgaben](#aufgaben)
     - [1.1 Materialien sammeln](#11-materialien-sammeln)
     - [1.2 Materialien sammeln](#12-materialien-sammeln)
@@ -33,18 +32,12 @@ Elius bittet den Spieler ihm dabei zu helfen den Ballon zu reparieren mit dem El
 
 [HQ Was ist passiert?](../1-was-ist-passiert/README.md) - Angenommen/Abgeschlossen
 
-
-
 ### TAG-1
-ankanor.event.survivor - 
-Bekommt der Spieler wenn er den [Ankanor Event](../../../ankanor/hauptquest/5-weitere-ausbildung#2-verteidige-ankanor) ohne zu sterben überlebt.
-
-### TAG-2
 eisenkueste.duty - Bekommt der Spieler wenn er anstatt `Elius` zu helfen nochmal zum Camp zurückkehrt und dort aushilft.
 
 ## Aufgaben
 
-> Abrfrage true *TAG-2: eisenkueste.duty*
+> Abrfrage true [TAG-1](#tag-1)
 ### 1.1 Materialien sammeln
 
 Spieler spricht NPC an.
@@ -69,7 +62,7 @@ Elius: Das ist sehr gut möglich.
 `[QUEST START]` [Reparaturarbeiten](#1.1-Materialien-sammeln)  
 > **QuestLog:** *Sammle [1 Klebstoff], [5 Holzbretter], [5 Spinnenseide], [1 Feuerstein] und [5 Stoffe] für Elius*
 
-> Abrfrage false *TAG-2: eisenkueste.duty*
+> Abrfrage false [TAG-1](#tag-1)
 ### 1.2 Materialien sammeln
 
 Spieler spricht NPC an.
@@ -98,15 +91,22 @@ Elius: Seid ihr schon zurück? Das ging aber schnell.
 Spieler: Ich habe mein Bestes gegeben, es war nicht einfach, aber ich habe es geschafft.
 Elius: Dann gebt mir die Sachen und ich werde mich dran machen den Ballon zu reparieren. Kommt später einfach wieder wenn Ihr mitfliegen wollt.
 Spieler: Das werde ich machen, ich glaube das könnte ein spannendes Abenteuer werden!
+Elius: Sprich doch nochmal mit deinen Leuten in der Zwischenzeit.
 ```
 
-`[QUEST ENDE]` [Reparaturarbeiten](#reparaturarbeiten) und erhält [Belohnung](#belohunung) 
+> Spieler: Ich werden Hauptmann Marduk von meinem Erfolg hier berichten.
 
-Elius ist dann erst wieder 30 Minuten später ansprechbar in der Zwischenzeit
+`[QUEST UPDATE]` [Reparaturarbeiten](#reparaturarbeiten)
+> **QuestLog:** *Gehe zurück ins Camp am Strand und sprich mit Marduk.*
 
 ```yml
-Elius: Ich bin noch nicht soweit, komm bitte später wieder.
+Spieler: Hauptmann ich habe es geschafft, Elius ist gerade dabei den Ballon zu reparieren. Das dauert aber ein bisschen. 
+Marduk: Das erfreut mich, wenn er fertig ist gehst du also mit ihm.
 ```
+
+> Ja, das wird aufregend.
+
+`[QUEST ENDE]` [Reparaturarbeiten](#reparaturarbeiten) und erhält [Belohnung](#belohunung) 
 
 Weiter bei [HQ Die Erlaubnis](../3-die-erlaubnis/README.md)
 
@@ -139,7 +139,7 @@ Er ist ein älterer Jorgendder und der eigentliche Großmeister der Gamos Histor
 
 ##### Nach der Quest
 
-1. Nicht vorhanden bzw. siehe Folgequest
+1. Ich bin noch nicht soweit, komm bitte später wieder. 
 
 #### Ausrüstung
 
@@ -151,7 +151,7 @@ Buch in der Hand
 x: 3381
 y: 125
 z: -2664
-world: faldoria
+world: faldoria.eisenküste
 ```
 
 ## Items
