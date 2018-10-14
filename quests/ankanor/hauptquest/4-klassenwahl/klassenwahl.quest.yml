@@ -66,6 +66,13 @@ objectives:
         - '@playermenu.open skills'
         - '~1s'
         - '!text.info "Freigeschaltete Skills werden verzaubert angezeigt und können in deine Aktionsleiste gezogen werden. Lege dann deine Waffe in den ersten Hotbarslot und drücke die Tasten-Nummer für den Slot auf dem der Skill liegt."'
+  '4':
+    name: 'Test der Fähigkeiten'
+    desc: 'Rede mit Lious um deine neuen Fähigkeiten unter Beweis zu stellen.'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../lious this.faehigkeiten-test'
 
 complete-actions:
   flow:

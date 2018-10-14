@@ -94,6 +94,9 @@ cooldown: 0
 # Wenn Cooldown > 0 wird repeatable automatisch true gesetzt.
 # Wenn repeatable: true ist und cooldown: 0 kann eine Quest sofort nach Abschluss wieder angenommen werden.
 repeatable: false
+# Verhindert das Abbrechen der Quest durch Nicht-Admin Spieler.
+# Benötigt die Permission rcquests.admin.abort um Quests mit abortable:false abzubrechen.
+abortable: true
 ```
 
 ### Default Conversations
