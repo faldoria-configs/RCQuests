@@ -1,0 +1,6 @@
+name: Unversehrter Kaishi
+description: "Erreiche die Eisenküste ohne von Agnatus Schergen ausgeknockt worden zu sein."
+secret: true
+enabled: true
+broadcasting: true
+points: 50

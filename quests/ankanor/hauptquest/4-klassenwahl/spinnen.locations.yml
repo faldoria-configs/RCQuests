@@ -7,6 +7,6 @@ player:
   pitch: 2
 mobs:
   x: 15
-  y: 195
-  z: 43
+  y: 194
+  z: 41
   world: Ankanor

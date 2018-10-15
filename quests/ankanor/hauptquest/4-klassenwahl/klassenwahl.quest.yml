@@ -96,8 +96,6 @@ objectives:
             - '!text "Sehr gut! Ich glaube du bist nun bereit.", Lious'
             - '~2s'
             - '!teleport this.lious'
-            - '~2s'
-            - '!objective.complete this.klassenwahl 4'
   '5':
     name: 'Rede mit Lious über deine weitere Ausbildung'
     auto-complete: false

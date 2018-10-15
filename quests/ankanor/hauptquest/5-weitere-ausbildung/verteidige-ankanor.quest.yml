@@ -1,0 +1,28 @@
+name: "Die Verteidigung von Ankanor"
+locked: false
+abortable: false
+authors:
+  - TheFum (QS)
+  - Silthus (QD)
+worlds:
+  - ankanor
+level: 1
+
+objectives:
+  '1':
+    name: 'Kämpfe dich zum Schiff durch'
+    desc: 'Laufe zum Dorf, schlage die Angreifer zurück und triff Kapitän Mafei auf dem Schiff.'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@location this.schiff(execute-once:true)'
+        - '!text "Schnell %player, zu mir!", Mafei'
+        - '@host.interact ../mafei this.schiff'
+    complete-actions:
+      flow:
+        - '!achievement ../../unversehrter-kaishi'
+
+complete-actions:
+  flow:
+    - '!quest.start faldoria.eisenkueste.hauptquest.1-was-ist-passiert.was-ist-passiert'
+    - '!teleport eisenkueste'

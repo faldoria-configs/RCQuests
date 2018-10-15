@@ -4,8 +4,8 @@ health: 100
 attackable: false
 friendly: true
 location:
-  world: ankanor
-  x: 8
-  y: 95
-  z: 87
+  x: 60
+  y: 80
+  z: 72
+  world: Ankanor
 default-conv: this.jamos.default

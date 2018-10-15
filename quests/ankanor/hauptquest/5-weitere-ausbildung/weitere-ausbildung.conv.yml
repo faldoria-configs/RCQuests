@@ -1,0 +1,46 @@
+stages:
+  start:
+    actions:
+      groups:
+        tasks:
+          - '?task.complete this.weitere-ausbildung 2 1'
+          - '?task.complete this.weitere-ausbildung 2 2'
+      flow:
+        - '?tasks'
+        - '!stage complete'
+        - '?tasks(negate:true)'
+        - '!stage hilfe'
+  hilfe:
+    text: 'Die Bewohner Ankanors brauchen deine Hilfe. Worauf wartest du also noch?'
+    answers:
+      flow:
+        - ':"Wem soll ich nochmal helfen?"'
+        - '!stage bewohner'
+        - ':"Ja, ja schon gut..."'
+        - '!end'
+  bewohner:
+    text: 'Der Schmied Kansa benötigt dich in der Schmiede und Angunt braucht dringend Hilfe mit den Sandflöhen.'
+    answers:
+      flow:
+        - ':"Wo finde ich die Schmiede?"'
+        - '!text "Die Schmiede steht am Rand des Dorfes. Suche einfach nach dem Rauch der aus dem Schmiedeofen aufsteigt."'
+        - ':"Wer ist Angunt und wo finde ich ihn?"'
+        - '!text "Angunt ist unser Botaniker, allerdings wurde er am Strand von den Sandflöhen aufgehalten."'
+  complete:
+    actions:
+      flow:
+        - '!text "Ich hörte du hast den Bewohnern gut geholfen, gerade zur rechten Zeit."'
+        - '~2s'
+        - '!text.player "Warum was ist nun schon wieder?"'
+        - '~1s'
+        - '!text "Agnatus Truppen wurden gesichtet. Wir brauchen dich sofort am Rand des Dorfes."'
+        - '~3s'
+        - '!text.player "Wie? Was? Jetzt schon? Ich dachte ich werde noch weiter ausgebildet."'
+        - '~3s'
+        - '!stage complete-answer'
+  complete-answer:
+    text: "Dies ist Teil deiner Ausbildung und nun verliere keine Zeit, lauf ins Dorf versuche dann zum Schiff zu kommen. Ich komme nach!"
+    answers:
+      flow:
+        - ':"Ok, pass auf dich auf Alterchen."'
+        - '!quest.complete this.weitere-ausbildung'

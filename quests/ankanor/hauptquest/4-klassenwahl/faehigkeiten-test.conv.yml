@@ -1,5 +1,3 @@
-settings:
-  show-npc-name: true
 stages:
   start:
     actions:
@@ -13,7 +11,7 @@ stages:
         - '!text.player "Iih nein, alles nur nicht das."'
         - ~2s
         - '!text "Du hast keine Wahl!"'
+        - '!rcmobs.mob.spawn this.schwache-spinne location:this.spinnen.mobs'
         - ~2s
         - '!teleport.location this.spinnen.player'
-        - ~5s
-        - '!rcmobs.mob.spawn this.schwache-spinne location:this.spinnen.mobs'
+        
