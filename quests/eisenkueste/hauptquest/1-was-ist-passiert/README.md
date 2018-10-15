@@ -4,7 +4,8 @@ Der Spieler kommt auf die ein oder andere Weise an und bekommt nach einem innere
 Nachdem der Spieler das erste Mal mit Marduk in der HQ - Was ist passiert gesprochen hat, bekommt er von ihm den Auftrag die Gegend zu erkunden insbesondere das Licht was Marduk sah. Er findet Elius und spricht mit ihm.
 
 - [Vorrausetzungen](#vorrausetzungen)
-    - [Tags](#tags)
+    - [TAG-1](#tag-1)
+    - [TAG-2](#tag-2)
 - [Aufgaben](#aufgaben)
     - [1. Was ist passiert?](#1-was-ist-passiert)
         - [Möglichkeit 1 aus HQ Weitere Ausbildung](#möglichkeit-1-aus-hq-weitere-ausbildung)
@@ -34,17 +35,20 @@ Nachdem der Spieler das erste Mal mit Marduk in der HQ - Was ist passiert gespro
 
 [HQ Weitere Ausbildung](../../ankanor/hauptquest/5-weitere-ausbildung/README.md) Abgeschlossen
 
-### Tags
+### TAG-1
+ankanor.event.survivor - 
+Bekommt der Spieler wenn er den [Ankanor Event](../../../ankanor/hauptquest/5-weitere-ausbildung#2-verteidige-ankanor) ohne zu sterben überlebt.
 
-> TAG-1: ankanor.event.survivor  
-> TAG-2: eisenkueste.duty
+### TAG-2
+eisenkueste.duty - Bekommt der Spieler wenn er anstatt `Elius` zu helfen nochmal zum Camp zurückkehrt und dort aushilft.
+
 
 ## Aufgaben
 
 ### 1. Was ist passiert?
 
 #### Möglichkeit 1 aus [HQ Weitere Ausbildung](../../ankanor/hauptquest/5-weitere-ausbildung/README.md)
-> Abfrage true *TAG-1*
+> Abfrage true [TAG-1](#tag-1)
 
 Sobald Spieler an der Eisenküste auftaucht nach dem Schiffsbruch, folgt ein innerer Monolog.
 
@@ -69,7 +73,7 @@ Spieler: Ist das dein Ernst? Hmm... und was machen wir nun?
 `[QUEST ENDE]` [Was ist passiert](#1.-was-ist-passiert?)
 
 #### Möglichkeit 2 aus [HQ Weitere Ausbildung](../../ankanor/hauptquest/5-weitere-ausbildung/README.md)
-> Abfrage false *TAG-1*
+> Abfrage false [TAG-1](#tag-1)
 
 Sobald Spieler an der Eisenküste auftaucht nach dem Schiffsbruch, folgt ein innerer Monolog.
 
@@ -122,7 +126,7 @@ Elius: Ich brauche ein paar Materialien, ich erkläre euch genau was ich brauche
 ```yml
 Elius: Ok, dann hoffe ich das ihr bald wieder hier seid.
 ```
-> Vergabe *TAG-2: eisenkueste.duty*
+> Vergabe [TAG-2:](#tag-2) eisenkueste.duty
 
 **Weiter nach #1:**
 
@@ -226,7 +230,7 @@ Buch in der Hand
 x: 3381
 y: 125
 z: -2664
-world: faldoria
+world: faldoria.eisenküste
 ```
 
 ## Items
