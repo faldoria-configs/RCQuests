@@ -66,9 +66,11 @@ objectives:
       flow:
         - '@playermenu.open skills'
         - '~1s'
-        - '!text.info "Freigeschaltete Skills werden verzaubert angezeigt und können in deine Aktionsleiste gezogen werden. Lege dann deine Waffe in den ersten Hotbarslot und drücke die Tasten-Nummer für den Slot auf dem der Skill liegt."'
+        - '!text.info "Freigeschaltete Skills werden verzaubert angezeigt und können in deine Aktionsleiste gezogen werden. Lege dann deine Waffe in den ersten Hotbarslot und drücke die Tasten-Nummer für den Slot auf dem der Skill liegt, um den Skill zu benutzen.."'
         - '~10s'
         - '!objective.complete this.klassenwahl 3'
+        - '~3s'
+        - '!text "Komm her, dann gebe ich dir etwas woran du deine neuen Fähigkeiten beweisen kannst.", Lious'
   '4':
     name: 'Test der Fähigkeiten'
     desc: 'Rede mit Lious um deine neuen Fähigkeiten unter Beweis zu stellen.'
@@ -98,6 +100,8 @@ objectives:
         auto-complete: false
         trigger:
           flow:
+            - '?task.complete this.klassenwahl 4 1'
+            - '?task.complete this.klassenwahl 4 2'
             - '@host.interact ../lious this.weitere-ausbildung'
 
 complete-actions:
