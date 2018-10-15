@@ -1,5 +1,6 @@
 name: "Klassenwahl"
 locked: false
+abortable: false
 authors:
   - TheFum (QS)
   - Silthus (QD)
@@ -86,7 +87,7 @@ objectives:
             - '@rcmobs.mob.kill this.schwache-spinne'
             - '!text "Gut gemacht! Achtung hier kommen noch zwei...", Lious'
             - '~5s'
-            - '!rcmobs.group.spawn this.spinnen'
+            - '!rcmobs.group.spawn this.spinnen location:this.spinnen.mobs'
       '2':
         name: 'Besiege die Spinnen'
         trigger:

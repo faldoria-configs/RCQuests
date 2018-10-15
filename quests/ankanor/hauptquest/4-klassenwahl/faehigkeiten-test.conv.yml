@@ -14,6 +14,6 @@ stages:
         - ~2s
         - '!text "Du hast keine Wahl!"'
         - ~2s
-        - '!teleport.location this.spinnen'
+        - '!teleport.location this.spinnen.player'
         - ~5s
-        - '!rcmobs.mob.spawn this.schwache-spinne location:this.spinnen'
+        - '!rcmobs.mob.spawn this.schwache-spinne location:this.spinnen.mobs'
