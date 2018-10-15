@@ -1,7 +1,8 @@
 min-amount: 2
 max-amount: 2
 mobs:
-  schwache-spinne:
+  spinne:
+    mob: 'this.swache-spinne'
     chance: 1.0
 interval: 300.0
 spawn-radius: 2
