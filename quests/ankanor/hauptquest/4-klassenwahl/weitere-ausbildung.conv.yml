@@ -1,5 +1,3 @@
-settings:
-  show-npc-name: true
 stages:
   start:
     actions:
@@ -15,4 +13,4 @@ stages:
         - '!text "Ich glaube dir fehlt eine Tracht Prügel. Nein, er wird deine weitere Ausbildung überwachen."'
         - ~1s
         - '!text "Ok ich werde ihn aufsuchen."'
-        - '!objective.complete this.faehigkeiten-test 4'
+        - '!objective.complete this.klassenwahl 4'

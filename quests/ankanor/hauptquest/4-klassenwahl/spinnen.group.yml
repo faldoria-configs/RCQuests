@@ -1,5 +1,5 @@
-min-amount: 3
-max-amount: 3
+min-amount: 2
+max-amount: 2
 mobs:
   schwache-spinne:
     chance: 1.0

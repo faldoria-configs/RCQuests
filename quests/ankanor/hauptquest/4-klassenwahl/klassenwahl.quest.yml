@@ -58,6 +58,7 @@ objectives:
   '3':
     name: 'Öffne dein Fähigkeiten Menü'
     desc: 'Dein Fähigkeiten Menü findest du im Craftingfeld deines Inventars.'
+    auto-complete: false
     start-actions:
       flow:
         - '!text.info "Dein Fähigkeiten Menü findest du im Craftingfeld deines Inventars."'
@@ -66,6 +67,8 @@ objectives:
         - '@playermenu.open skills'
         - '~1s'
         - '!text.info "Freigeschaltete Skills werden verzaubert angezeigt und können in deine Aktionsleiste gezogen werden. Lege dann deine Waffe in den ersten Hotbarslot und drücke die Tasten-Nummer für den Slot auf dem der Skill liegt."'
+        - '~10s'
+        - '!objective.complete this.klassenwahl 3'
   '4':
     name: 'Test der Fähigkeiten'
     desc: 'Rede mit Lious um deine neuen Fähigkeiten unter Beweis zu stellen.'
@@ -73,7 +76,30 @@ objectives:
     trigger:
       flow:
         - '@host.interact ../lious this.faehigkeiten-test'
+    tasks:
+      '1':
+        name: 'Töte die erste Spinne'
+        trigger:
+          flow:
+            - '@rcmobs.mob.kill this.schwache-spinne'
+            - '!text "Gut gemacht! Achtung hier kommen noch zwei...", Lious'
+            - '~5s'
+            - '!rcmobs.group.spawn this.spinnen'
+      '2':
+        name: 'Besiege die Spinnen'
+        trigger:
+          flow:
+            - '@rcmobs.group.kill this.spinnen'
+            - '!text "Sehr gut! Ich glaube du bist nun bereit.", Lious'
+            - '~2s'
+            - '!teleport this.lious'
+      '3':
+        name: 'Rede mit Lious über deine weitere Ausbildung'
+        auto-complete: false
+        trigger:
+          flow:
+            - '@host.interact ../lious this.weitere-ausbildung'
 
 complete-actions:
   flow:
-    - '!quest.start ../4-klassenwahl.klassenwahl'
+    - '!quest.start ../5-weitere-ausbildung.weitere-ausbildung'
