@@ -39,6 +39,7 @@ Eine Quest besteht aus mehreren YAML Dateien (Endung `.yml`) die alle verschiede
 | [Locations](https://git.faldoria.de/tof/plugins/raidcraft/rclocations/blob/master/README.md)                              | `.location.yml` & `.locations.yml` | Ermöglicht es Order der Welt in Dateien zu speichern und dann in Actions auf den Namen anstatt die Koordinaten zu referenzieren.   |
 | [Trigger Groups](https://git.faldoria.de/tof/plugins/raidcraft/raidcraft-api/blob/master/docs/ART-API.md#trigger-gruppen) | `.trigger.yml`                     | Ermöglicht es mehere Trigger (und deren Bedingungen) zu einem Trigger zusammen zu fassen.                                          |
 | [Skills](https://git.faldoria.de/tof/plugins/raidcraft/rcskills/blob/master/docs/Skills.md#skills-in-quests)              | `.skill.yml`                       | Ermöglicht es Skills die nicht Spieler gebunden sind für Quests zu erstellen.                                                      |
+| [Events](https://git.faldoria.de/tof/plugins/raidcraft/rcevents/blob/master/README.md)                                    | `.event.yml`                       | Ermöglicht es von Quests unabhängige Events zu erstellen, die auf die Ereignise in der Welt reagieren.                             |
 
 > Klicke auf den Namen der Quest Komponente in der Tabelle um Details zur Konfiguration des jeweiligen Bestandteils zu erhalten.
 

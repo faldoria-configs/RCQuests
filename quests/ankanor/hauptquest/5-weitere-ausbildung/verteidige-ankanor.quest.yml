@@ -15,7 +15,7 @@ objectives:
     auto-complete: false
     trigger:
       flow:
-        - '@location this.schiff(execute-once:true)'
+        - '@player.move this.schiff(execute-once:true)'
         - '!text "Schnell %player, zu mir!", Mafei'
         - '@host.interact ../mafei this.schiff'
     complete-actions:
