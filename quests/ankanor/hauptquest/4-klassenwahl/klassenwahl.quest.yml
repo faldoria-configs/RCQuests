@@ -75,7 +75,7 @@ objectives:
   '4':
     name: 'Test der Fähigkeiten'
     desc: 'Rede mit Lious um deine neuen Fähigkeiten unter Beweis zu stellen.'
-    auto-complete: false
+    auto-complete: true
     trigger:
       flow:
         - '@host.interact ../lious this.faehigkeiten-test'

@@ -1,12 +1,12 @@
 player:
-  x: 12
-  y: 193
-  z: 38
+  x: 17
+  y: 155
+  z: 12
   world: Ankanor
-  yaw: 0
-  pitch: 2
+  yaw: -43
+  pitch: 0
 mobs:
-  x: 15
-  y: 194
-  z: 41
+  x: 28
+  y: 156
+  z: 20
   world: Ankanor
