@@ -75,7 +75,7 @@ objectives:
   '4':
     name: 'Test der Fähigkeiten'
     desc: 'Rede mit Lious um deine neuen Fähigkeiten unter Beweis zu stellen.'
-    auto-complete: true
+    auto-complete: false
     trigger:
       flow:
         - '@host.interact ../lious this.faehigkeiten-test'
@@ -95,6 +95,7 @@ objectives:
             - '@rcmobs.group.kill this.spinnen'
             - '!text "Sehr gut! Ich glaube du bist nun bereit.", Lious'
             - '~2s'
+            - '!objective.complete this.klassenwahl 4'
             - '!teleport this.lious'
   '5':
     name: 'Rede mit Lious über deine weitere Ausbildung'
