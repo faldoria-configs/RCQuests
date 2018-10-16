@@ -4,7 +4,6 @@ stages:
     answers:
       groups:
         end-quest:
-          - '~1s'
           - '!text "Danke vielmals für die Hilfe!", this.kansa'
           - '!quest.complete this.lagerarbeiter'
           - '~1s'
