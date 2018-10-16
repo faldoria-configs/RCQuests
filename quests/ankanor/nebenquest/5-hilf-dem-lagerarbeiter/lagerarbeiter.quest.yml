@@ -50,10 +50,10 @@ objectives:
   '2':
     name: "Bringe die Vorräte zu Kansa"
     desc: "Kansa befindet sich im Lager neben der Haupthalle."
+    auto-complete: false
     trigger:
       flow:
-        - '@host.interact this.kansa'
-        - '!conversation.start this.quest-end,this.kansa'
+        - '@host.interact this.kansa this.quest-end'
 complete-actions:
   groups:
     remove-items:
