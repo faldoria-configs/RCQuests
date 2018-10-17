@@ -70,8 +70,8 @@
 
 |Belohnung (Insgesamt)       | erhalten durch| 
 | ---------------- | ---|
-|28 Heller  |diverse Quest  |
-|40 EXP    |diverse Quest |
+|78 Heller  |diverse Quest  |
+|90 EXP    |diverse Quest |
 |Angerostetes Kettenhemd| [Reparaturarbeiten](.\hauptquest\2-reparaturarbeiten\README.md)|
 |Zerrissener Lederwams |[Reparaturarbeiten](.\hauptquest\2-reparaturarbeiten\README.md)|
 |Zerschlissene Robe|[Reparaturarbeiten](.\hauptquest\2-reparaturarbeiten\README.md)|
