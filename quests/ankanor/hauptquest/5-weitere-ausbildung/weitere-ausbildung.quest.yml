@@ -20,7 +20,14 @@ objectives:
     name: 'Hilf den Bewohnern von Ankanor'
     auto-complete: false
     trigger:
+      groups:
+        tasks:
+          - '?task.complete this.weitere-ausbildung 2 1'
+          - '?task.complete this.weitere-ausbildung 2 2'
       flow:
+        - '?tasks'
+        - '@host.interact this.jamos this.weitere-ausbildung-complete'
+        - '?tasks(negate:true)'
         - '@host.interact this.jamos this.weitere-ausbildung'
     tasks:
       '1':

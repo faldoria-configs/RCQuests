@@ -1,0 +1,19 @@
+stages:
+  complete:
+    actions:
+      flow:
+        - '!text "Ich hörte du hast den Bewohnern gut geholfen, gerade zur rechten Zeit."'
+        - '~2s'
+        - '!text.player "Warum was ist nun schon wieder?"'
+        - '~1s'
+        - '!text "Agnatus Truppen wurden gesichtet. Wir brauchen dich sofort am Rand des Dorfes."'
+        - '~3s'
+        - '!text.player "Wie? Was? Jetzt schon? Ich dachte ich werde noch weiter ausgebildet."'
+        - '~3s'
+        - '!stage complete-answer'
+  complete-answer:
+    text: "Dies ist Teil deiner Ausbildung und nun verliere keine Zeit, lauf ins Dorf versuche dann zum Schiff zu kommen. Ich komme nach!"
+    answers:
+      flow:
+        - ':"Ok, pass auf dich auf Alterchen."'
+        - '!quest.complete this.weitere-ausbildung'
