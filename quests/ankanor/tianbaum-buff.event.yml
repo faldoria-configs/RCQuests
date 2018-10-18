@@ -1,0 +1,10 @@
+enabled: true
+cooldown: 0
+global: false
+execution-count: 0
+trigger:
+  flow:
+    - '@player.move this.tianbaum.eingang-unten'
+    - '!cast.override this.tianbaum-segen'
+    - '@player.move this.tianbaum.ausgang-unten'
+    - '!effect.remove "Segen des Tianbaum"'
