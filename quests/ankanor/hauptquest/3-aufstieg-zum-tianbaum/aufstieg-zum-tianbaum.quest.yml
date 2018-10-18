@@ -24,9 +24,6 @@ objectives:
     trigger:
       flow:
         - '@host.proximity this.waechter,5,this.waechter-willkommen'
-    complete-actions:
-      flow:
-        - '!cast.override this.speed'
   '2':
     name: 'Steige den Tianbaum hinauf'
     desc: 'Folge dem Weg im Inneren des Tianbaum bis du die Krone erreichst.'
@@ -35,7 +32,6 @@ objectives:
     trigger:
       flow:
         - '@host.interact ../lious this.lious-willkommen'
-        - '!effect.remove haste-buff'
 
 complete-actions:
   flow:
