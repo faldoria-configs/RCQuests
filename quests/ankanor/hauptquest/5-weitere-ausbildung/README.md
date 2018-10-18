@@ -2,39 +2,38 @@
 
 Lious schickt den Spieler nach der Klassenwahl wieder hinunter zum ältesten Jamos, dieser erklärt dem Spieler er solle den Bewohnern der Insel helfen. Nachdem er das getan hat, sind Agnatus Schergen auf der Insel angekommen und der Spieler soll zum Schiff welches am Dorf liegt und mit Kapitän Mafei reden.
 
-- [Weitere Ausbildung](#weitere-ausbildung)
-    - [Vorrausetzungen](#vorrausetzungen)
-    - [Aufgaben](#aufgaben)
-        - [1. Weitere Ausbildung](#1-weitere-ausbildung)
-        - [2. Verteidige Ankanor](#2-verteidige-ankanor)
-            - [Möglichkeit 1](#m%C3%B6glichkeit-1)
-            - [Möglichkeit 2](#m%C3%B6glichkeit-2)
-    - [NPCs](#npcs)
-        - [Lious](#lious)
-            - [Standartsätze](#standarts%C3%A4tze)
-                - [Vor der Quest](#vor-der-quest)
-                - [Während der Quest](#w%C3%A4hrend-der-quest)
-                - [Nach der Quest](#nach-der-quest)
-            - [Ausrüstung](#ausr%C3%BCstung)
-            - [Standort](#standort)
-        - [Ältester Jamos](#%C3%A4ltester-jamos)
-            - [Standartsätze](#standarts%C3%A4tze)
-                - [Vor der Quest](#vor-der-quest)
-                - [Während der Quest](#w%C3%A4hrend-der-quest)
-                - [Nach der Quest](#nach-der-quest)
-            - [Ausrüstung](#ausr%C3%BCstung)
-            - [Standort](#standort)
-        - [Kapitän Mafei](#kapit%C3%A4n-mafei)
-        - [Dialoge](#dialoge)
-            - [Standartsätze](#standarts%C3%A4tze)
-            - [Ausrüstung](#ausr%C3%BCstung)
-            - [Standort](#standort)
-    - [Items](#items)
-        - [Abgetragene Hose](#abgetragene-hose)
-    - [Mobs](#mobs)
-        - [Agnatus Schergen](#agnatus-schergen)
-    - [Belohnung](#belohnung)
-    - [Referenzen](#referenzen)
+- [Vorrausetzungen](#vorrausetzungen)
+- [Aufgaben](#aufgaben)
+    - [1. Weitere Ausbildung](#1-weitere-ausbildung)
+    - [2. Verteidige Ankanor](#2-verteidige-ankanor)
+        - [Möglichkeit 1](#möglichkeit-1)
+        - [Möglichkeit 2](#möglichkeit-2)
+- [NPCs](#npcs)
+    - [Lious](#lious)
+        - [Standartsätze](#standartsätze)
+            - [Vor der Quest](#vor-der-quest)
+            - [Während der Quest](#während-der-quest)
+            - [Nach der Quest](#nach-der-quest)
+        - [Ausrüstung](#ausrüstung)
+        - [Standort](#standort)
+    - [Ältester Jamos](#Ältester-jamos)
+        - [Standartsätze](#standartsätze)
+            - [Vor der Quest](#vor-der-quest)
+            - [Während der Quest](#während-der-quest)
+            - [Nach der Quest](#nach-der-quest)
+        - [Ausrüstung](#ausrüstung)
+        - [Standort](#standort)
+    - [Kapitän Mafei](#kapitän-mafei)
+    - [Dialoge](#dialoge)
+        - [Standartsätze](#standartsätze)
+        - [Ausrüstung](#ausrüstung)
+        - [Standort](#standort)
+- [Items](#items)
+    - [Abgetragene Hose](#abgetragene-hose)
+- [Mobs](#mobs)
+    - [Agnatus Schergen](#agnatus-schergen)
+- [Belohnung](#belohnung)
+- [Referenzen](#referenzen)
 
 ## Vorrausetzungen
 
@@ -192,7 +191,7 @@ Der Jamos ist der älteste Kaishi, er fungiert als Berater für jeden Bewohner. 
 #### Standort
 
 ```yml
-x: 60
+x: -61
 y: 80
 z: 72
 world: Ankanor

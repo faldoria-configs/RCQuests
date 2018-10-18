@@ -4,7 +4,7 @@ health: 100
 attackable: false
 friendly: true
 location:
-  x: 60
+  x: -61
   y: 80
   z: 72
   world: Ankanor
