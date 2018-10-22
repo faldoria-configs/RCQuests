@@ -5,7 +5,7 @@ stages:
       groups:
         end-quest:
           - '!text "Danke vielmals für die Hilfe!", this.kansa'
-          - '!quest.completed this.lagerarbeiter'
+          - '!quest.complete this.lagerarbeiter'
           - '~1s'
           - '!text.player "Hab ich doch gern gemacht."'
         delay-quest:
