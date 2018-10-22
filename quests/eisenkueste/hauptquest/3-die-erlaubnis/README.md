@@ -17,7 +17,9 @@ Während Elius den Ballon repariert soll der Spieler nochmal ins Camp und mit se
         - [Ausrüstung](#ausrüstung)
         - [Standort](#standort)
 - [Items](#items)
-    - [Zerschlissene Robe](#zerschlissene-robe)
+    - [Kleiner Zauber Almanach](#kleiner-zauber-almanach)
+    - [Anfänger Zwergenschild](#anfänger-zwergenschild)
+    - [Jäger Talisman](#jäger-talisman)
 - [Mobs](#mobs)
 - [Belohnung](#belohnung)
 - [Referenzen](#referenzen)
@@ -90,19 +92,16 @@ Marduk: Du siehst auch bereiter aus als vorher.
 Spieler: Kann ich nun los zu Elius und ihm sagen das ich mit ihm mitfliegen werde?
 Marduk: Ja, ich gebe dir die Erlaubnis nun los zu ziehen, finde mehr über dieses Land heraus. Wir werden uns hier erstmal weiter aufhalten. Komm aber bald wieder und melde dich bei uns.
 Spieler: Ich bin ganz aufgeregt, keiner von uns war jemals wo ich hingehen werde. Ich werde aber so schnell es geht wieder hier her zurück kommen. 
-Marduk: Pass auf dich auf und ich habe noch etwas von uns allen für dich.
+Marduk: Pass auf dich auf und ich habe noch etwas von uns allen für dich. Es ist eines unserer kostbarsten besitze, noch aus der alten Zeit bevor wir auf Ankanor lebten.
 Spieler: Vielen dank, aber ich sollte mich nun auf den Weg machen. Haltet durch.
 ```
 
 `[QUEST ENDE]` [Die Erlaubnis](#1.-die-erlaubnis) und erhält [Belohnung](#belohunung) 
 
-Elius ist dann erst wieder 30 Minuten später ansprechbar in der Zwischenzeit
+`[QUEST START]` [Die Reise beginnt](../4-die-reise-beginnt/README.md)   
+**QuestLog:** *Gehe zu Elius an seinem Ballon und reise mit ihm ins Landesinnere. Sofern du schon bereit dafür bist.*
 
-```yml
-Elius: Ich bin noch nicht soweit, komm bitte später wieder.
-```
-
-Weiter bei [HQ Die Erlaubnis](../3-die-erlaubnis/README.md)
+Weiter bei [HQ Die Reise beginnt](../4-die-reise-beginnt/README.md)
 
 ## NPCs
 
@@ -142,22 +141,22 @@ world: faldoria
 
 ## Items
 
-TurmLootliste
-
-### Zerschlissene Robe
-
-Ein gewöhnliches Brustteil, das seine besten Tage schon hinter sich hat.  
-Belohnung für Kleriker und Magier.
+### Kleiner Zauber Almanach
 
 ```yml
-ID: 
-name: Zerschlissene Robe
-type: Rüstung
-quality: COMMON
-item: LEATHER TUNIC
-lore: Diese Robe scheint ihre besten Zeiten hinter sich zu haben, aber besser als nichts.
-max-stack-size: 1
-attributes: +1 ausdauer / +1 Int
+ID: 40
+```
+
+### Anfänger Zwergenschild
+
+```yml
+ID: 41
+```
+
+### Jäger Talisman
+
+```yml
+ID: 42
 ```
 
 ## Mobs
@@ -168,7 +167,10 @@ Keine
 
 [Reparaturarbeiten](#1.-die-erlaubnis)
 > 50 Heller  
-> 50 exp  
+> 50 exp 
+> [Jäger Talisman](#jäger_talisman) - für Assassine/Waldläufer
+> [Anfänger Zwergenschild](#anfänger_zwergenschild) - für Krieger
+> [Kleiner Zauber Almanach](#kleiner_zauber_almanach) - für Elementarist/Kleriker
 
 ## Referenzen
 
