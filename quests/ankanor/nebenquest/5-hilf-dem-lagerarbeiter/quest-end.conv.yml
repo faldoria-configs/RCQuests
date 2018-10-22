@@ -5,14 +5,14 @@ stages:
       groups:
         end-quest:
           - '!text "Danke vielmals für die Hilfe!", this.kansa'
-          - '!quest.complete this.lagerarbeiter'
+          - '!quest.completed this.lagerarbeiter'
           - '~1s'
           - '!text.player "Hab ich doch gern gemacht."'
         delay-quest:
           - '!text "Wir haben Zeit.", this.kansa'
           - '!end'
       flow:
-        - '?objective.complete this.lagerarbeiter 1'
+        - '?objective.completed this.lagerarbeiter 1'
         - ':"Ja habe ich."'
         - '!end-quest'
         - ':"Nein, du musst dich noch gedulden."'

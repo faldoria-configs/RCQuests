@@ -6,7 +6,7 @@ worlds:
 default-convs:
   active:
     convs:
-      - 'this.genam:quest-active'
+      - 'this.genam:this.quest-active'
   complete:
     clear: true
     convs:
