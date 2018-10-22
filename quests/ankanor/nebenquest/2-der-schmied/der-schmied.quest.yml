@@ -19,6 +19,7 @@ default-convs:
   active:
     convs:
       - 'this.sakros:this.quest-active'
+      - '../3-skelette-in-der-hoehle/genam:../3-skelette-in-der-hoehle/quest-start'
   completed:
     clear: true
 
