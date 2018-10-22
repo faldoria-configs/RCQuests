@@ -9,4 +9,4 @@ location:
   y: 83
   z: -2
 default-conv: this.sakros.default
-talk-close: true
+talk-close: false

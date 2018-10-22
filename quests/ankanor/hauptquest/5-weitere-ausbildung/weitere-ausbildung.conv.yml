@@ -4,20 +4,18 @@ stages:
     answers:
       flow:
         - ':"Wem soll ich nochmal helfen?"'
+        - '!text "Der Schmied Kansa benötigt dich in der Schmiede und Angunt braucht dringend Hilfe mit den Sandflöhen."'
         - '!stage bewohner'
         - ':"Ja, ja schon gut..."'
         - '!end'
   bewohner:
-    text: 'Der Schmied Kansa benötigt dich in der Schmiede und Angunt braucht dringend Hilfe mit den Sandflöhen.'
     answers:
       flow:
         - ':"Wo finde ich die Schmiede?"'
         - '!text "Die Schmiede steht am Rand des Dorfes. Suche einfach nach dem Rauch der aus dem Schmiedeofen aufsteigt."'
-        - '~3s'
         - '!stage bewohner'
         - ':"Wer ist Angunt und wo finde ich ihn?"'
         - '!text "Angunt ist unser Botaniker, allerdings wurde er am Strand von den Sandflöhen aufgehalten."'
-        - '~3s'
         - '!stage bewohner'
         - ':"Ok, danke dir Alter."'
         - '!end'

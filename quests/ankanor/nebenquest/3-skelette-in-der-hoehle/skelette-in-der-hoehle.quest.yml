@@ -3,32 +3,33 @@ locked: false
 auto-complete: false
 worlds:
   - ankanor
+default-convs:
+  active:
+    convs:
+      - 'this.genam:quest-active'
+  complete:
+    clear: true
+    convs:
+      - 'this.genam:this.quest-end'
+
 start-trigger:
   flow:
     - '?quest.active ../2-der-schmied/der-schmied'
-    - '@host.proximity this.genam'
-    - '!player.freeze'
-    - '!conversation.start this.quest-start,this.genam'
-start-actions:
-  flow:
-    - '!player.unfreeze'
-    - '!conversation.set this.quest-active,this.genam'
+    - '@host.proximity this.genam this.quest-start'
+
 objectives:
   '1':
     name: 'Töte in der Höhle für die Wache Genam 10 Skelette.'
     trigger:
       flow:
-        - '?dummy(count:10,count-text:"%current%/%count% Skelette getötet.",persistent:true)'
-        - '@rcmobs.mob.kill ../2-der-schmied/skelett'
+        - '@rcmobs.mob.kill(count:10,count-text:"%current%/%count% Skelette getötet.",persistent:true) ../2-der-schmied/skelett'
   '2':
     name: "Sprich mit Genam"
     auto-complete: false
     trigger:
       flow:
-        - '@host.interact this.genam'
-        - '!conversation.start this.quest-end,this.genam'
+        - '@host.interact this.genam this.quest-end'
 complete-actions:
   flow:
-    - '!conversation.set this.quest-complete,this.genam'
     - '!rcskills.hero.addxp 5'
     - '!player.give.money 5h'

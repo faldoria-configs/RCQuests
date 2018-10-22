@@ -1,8 +1,7 @@
-settings:
-  show-npc-name: true
 stages:
   start:
-    actions:
+    answers:
+      flow:
         - '!text "Guten Tag! Könntest du vielleicht etwas für mich erledigen?"'
         - '~2s'
         - '!text.player "Ja, was denn?"'
@@ -22,5 +21,4 @@ stages:
         - '!text "Ja und jetzt los, sonst setzt´s was!"'
         - ':"Ok, ich habe ja sonst nichts zu tun."'
         - '!quest.start this.der-schmied'
-        #Default-conv von Sakros ändern!
         - ':"Nein vergiss es!"'

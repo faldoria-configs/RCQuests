@@ -1,0 +1,20 @@
+# der Name des Items wie ihn der Spieler zu sehen bekommt
+displayName: Rostiges Schwert
+# der Item Type (siehe unten)
+type: QUEST
+# die Qualität des Items (siehe unten)
+quality: COMMON
+# die ID des Minecraft Items welches benutzt werden soll
+item: iron_sword
+# eine in goldener Schrift angezeigte Beschreibung
+lore: Ein vom Meersalz angerostetes Schwert.
+# extra Item Data die von manchen Minecraft Items verwendet werden kann
+item-data: 0
+# die maximale Stack Größe für dieses item
+max-stack-size: 64
+# die Bindung des Items (siehe unten)
+bind-type: QUEST
+# blockiert die Ausführung der Standard Vanilla Aktionen
+block-usage: false
+# lässt das Item verzaubert ausschauen
+enchantment-effect: false

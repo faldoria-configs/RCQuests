@@ -2,6 +2,7 @@ stages:
   start:
     actions:
       flow:
+        - '!player.freeze'
         - '!text "Halt, kein Zutritt!", this.genam'
         - '~1s'
         - '!text.player "Aber ich habe die Genehmigung des Schmiedes."'
@@ -14,3 +15,4 @@ stages:
         - '~3s'
         - '!text.player "Muss ich ja wohl, wenn ich da runter muss..."'
         - '!quest.start this.skelette-in-der-hoehle'
+        - '!player.unfreeze'

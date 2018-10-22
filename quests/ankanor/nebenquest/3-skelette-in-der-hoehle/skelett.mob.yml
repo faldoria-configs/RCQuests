@@ -17,3 +17,4 @@ rare: false
 spawn-radius: 50
 spawning-naturally: false
 aggro: true
+loot-table: 'this.skelette'

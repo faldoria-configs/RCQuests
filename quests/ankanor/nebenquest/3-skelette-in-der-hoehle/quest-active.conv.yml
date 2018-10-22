@@ -2,4 +2,4 @@ stages:
   start:
     random-actions:
       flow:
-        - '!text "Diese Skelette solltet ihr schnell vernichten, dieses geklapper nervt langsam.", this.genam'
+        - '!text "Diese Skelette solltet ihr schnell vernichten, dieses geklapper nervt langsam."'
