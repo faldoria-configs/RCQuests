@@ -4,7 +4,7 @@ default-conv: this.genam.default
 talk-close: 3
 look-close: 7
 location:
-  x: 90
-  y: 83
-  z: -2
+  x: -22
+  y: 92
+  z: 60
   world: Ankanor
