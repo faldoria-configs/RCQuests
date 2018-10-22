@@ -26,6 +26,10 @@ start-trigger:
   flow:
     - '@host.interact this.sakros this.sakros-start'
 
+start-actions:
+  flow:
+    - '!conversation.set ../3-skelette-in-der-hoehle/genam ../3-skelette-in-der-hoehle/quest-start'
+
 objectives:
   '1':
     name: 'Besorge für den Schmied Eisen und 10 rostige Schwerter'

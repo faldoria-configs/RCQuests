@@ -3,5 +3,7 @@ stages:
     text: "Halt, in dieser Höhle lauern böse Skelette du solltest dort nicht hinein!"
     actions:
       flow:
+        - '!player.freeze'
         - '~2s'
-        - '!teleport.location -16,91,54'
+        - '!teleport this.hoehle'
+        - '!player.unfreeze'
