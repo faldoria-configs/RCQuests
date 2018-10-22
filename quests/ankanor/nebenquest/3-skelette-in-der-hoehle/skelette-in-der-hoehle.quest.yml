@@ -15,7 +15,7 @@ default-convs:
 start-trigger:
   flow:
     - '?quest.active ../2-der-schmied/der-schmied'
-    - '@host.proximity this.genam this.quest-start radius:10'
+    - '@host.proximity this.genam this.quest-start'
 
 objectives:
   '1':
