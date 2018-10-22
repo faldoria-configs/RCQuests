@@ -44,7 +44,7 @@ Spieler spricht NPC an.
 
 ```yml
 Spieler: Ich bin zurück, Elius, nun kann ich Euch helfen.
-Elius: Schön das Ihr zurückgekommen seid. Seid gewarnt, es sind einige Dinge die ich brauche.
+Elius: Schön, dass Ihr zurückgekommen seid. Seid gewarnt, es sind einige Dinge die ich brauche.
 Spieler: Dann sollten wir keine Zeit verlieren.
 Elius: Wunderbar! Ich brauche [1 Klebstoff], [5 Holzbretter], [5 Spinnenseide], [1 Feuerstein] und [5 Stoffe]. 
 Spieler: Und wo finde ich das alles?
