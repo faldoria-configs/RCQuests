@@ -1,6 +1,6 @@
 stages:
   start:
-    answers:
+    actions:
       flow:
         - '!text "Guten Tag! Könntest du vielleicht etwas für mich erledigen?"'
         - '~2s'
@@ -18,7 +18,12 @@ stages:
         - '~2s'
         - '!text.player "Was? Ich muss so weit laufen?"'
         - '~2s'
-        - '!text "Ja und jetzt los, sonst setzt´s was!"'
+        - '!stage quest'
+        
+  quest:
+    text: "Ja und jetzt los, sonst setzt´s was!"
+    answers:
+      flow:
         - ':"Ok, ich habe ja sonst nichts zu tun."'
         - '!quest.start this.der-schmied'
         - ':"Nein vergiss es!"'
