@@ -1,10 +1,8 @@
 name: Genam
 type: npc
 default-conv: this.genam.default
-talk-close:
-  radius: 5
-look-close:
-  radius: 7
+talk-close: true
+look-close: true
 location:
   x: -22
   y: 92
