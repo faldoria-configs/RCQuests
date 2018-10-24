@@ -15,7 +15,7 @@ requirements:
 start-trigger:
   flow:
     - '@host.interact this.angunt'
-    - '!conversation.start conv:this.angunt_start host:this.angunt'
+    - '!conversation.start conv:this.angunt-start host:this.angunt'
 
 objectives:
   '1':
@@ -32,7 +32,7 @@ objectives:
     trigger:
       flow:
         - '@host.interact this.angunt'
-        - '!conversation.start conv:this.angunt_end host:this.angunt'
+        - '!conversation.start conv:this.angunt-end host:this.angunt'
 
 complete-actions:
   flow:
