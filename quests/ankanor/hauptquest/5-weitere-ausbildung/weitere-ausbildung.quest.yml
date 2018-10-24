@@ -35,7 +35,7 @@ objectives:
         desc: 'Den Schmied findest du am äußeren Rand des Dorfes an seiner Schmiede.'
         trigger:
           flow:
-            - '@quest.complete ../../nebenquest/2-der-schmied/der-schmied'
+            - '@quest.complete ../../nebenquest/4-hilf-in-der-schmiede/hilf-in-der-schmiede'
       '2':
         name: 'Hilf beim Ausmerzen der Sandflohplage'
         desc: 'Sprich mit Angunt am Strand, er kann dir genaueres sagen.'

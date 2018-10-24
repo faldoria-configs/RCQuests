@@ -1,0 +1,24 @@
+name: Hilf in der Schmiede
+locked: true
+authors:
+  - TheFum (QS)
+  - Silthus (QD)
+worlds:
+  - ankanor
+
+level: 1
+
+objectives:
+  '1':
+    name: 'Stelle 3 Schwerter her'
+    desc: 'Ziehe den Hebel, drücke den Knopf und ziehe wieder den Hebel um Schwerter herzustellen.'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@this.schmiede(count:3)'
+        - '!conversation.start this.hilf-in-der-schmiede ../2-der-schmied/sakros'
+
+complete-actions:
+  flow:
+    - '!player.money.add 8h Quest'
+    - '!rcskills.hero.addxp 5'

@@ -1,0 +1,17 @@
+desc: Ziehe den Schmiede Hebel, drücke den Knopf und ziehe den Hebel.
+# Ermöglicht es eine Anzahl an Triggern festzulegen die ausgelöst werden müssen.
+required: -1
+# Wenn true werden die Trigger nacheinander aktiviert und erst wenn der letzte Trigger
+# aktiviert wurde wird dieser Trigger ausgelöst.
+# Wenn false dann werden alle Trigger parallel ausgeführt.
+# Wenn dann required nicht gesetzt ist wird der Trigger bei jedem Auslösen eines anderen Triggers ausgelöst.
+# Ansonsten wird mitgezählt welche der Trigger bereits ausgelöst haben.
+ordered: true
+trigger:
+  flow:
+    - '@player.interact this.schmiede.hebel'
+    - '~10s'
+    - '@player.interact this.schmiede.knopf'
+    - '~10s'
+    - '@player.interact this.schmiede.hebel'
+    - '!text.info "Schwert hergestellt."'
