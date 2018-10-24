@@ -50,7 +50,10 @@
 |Name/Git-Link         | Beschreibung| Sonstiges|
 | ---------------- | ---|---|
 |1. [Was ist passiert](./hauptquest/1-was-ist-passiert/README.md) | Erwachen an der Eisenküste, Marduk schickt Spieler auf Erkundung |  |
-|2. [Reparaturarbeiten](./hauptquest/2-reparaturarbeiten/README.md)
+|2. [Reparaturarbeiten](./hauptquest/2-reparaturarbeiten/README.md) |Der Spieler soll einige Materialien zum reparieren des Ballons von Elius sammeln | |
+|3. [Die Erlaubnis](./hauptquest/3-die-erlaubnis/README.md) |Nun soll er sich noch ein wenig mehr vorbereiten, erkunden der 3 Türme am Strand | |
+|4. [Die Reise beginnt](./hauptquest/4-die-reise-beginnt/README.md) |Elius nimmt ihn nun mit nach Jarmundshain | |
+
 
 ### Nebenquest
 
@@ -70,11 +73,14 @@
 
 |Belohnung (Insgesamt)       | erhalten durch| 
 | ---------------- | ---|
-|78 Heller  |diverse Quest  |
-|90 EXP    |diverse Quest |
+|108 Heller  |diverse Quest  |
+|110 EXP    |diverse Quest |
 |Angerostetes Kettenhemd| [Reparaturarbeiten](.\hauptquest\2-reparaturarbeiten\README.md)|
 |Zerrissener Lederwams |[Reparaturarbeiten](.\hauptquest\2-reparaturarbeiten\README.md)|
 |Zerschlissene Robe|[Reparaturarbeiten](.\hauptquest\2-reparaturarbeiten\README.md)|
+|Jäger Talisman |[Die Erlaubnis](./hauptquest/3-die-erlaubnis/README.md)|
+|Anfänger Zwergenschild |[Die Erlaubnis](./hauptquest/3-die-erlaubnis/README.md)|
+|Kleiner Zauber Almanach |[Die Erlaubnis](./hauptquest/3-die-erlaubnis/README.md)|
 
 ### Verteilte Kisten
 
@@ -99,4 +105,4 @@
 
 ### Gebietskarte
 
-[![](gebietskarte_eisenkueste.png)](https://www2.pic-upload.de/img/35126571/Eisenkste.png)
+[![](gebietskarte_eisenkueste.png)](.\gebietskarte_eisenkueste.png)
