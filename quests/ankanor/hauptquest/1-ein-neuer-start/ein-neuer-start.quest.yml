@@ -1,6 +1,7 @@
 name: Ein neuer Start
 desc: "Begib dich zur Versammlungshalle und sprich mit Roschik"
 locked: false
+abortable: false
 authors:
   - TheFum (QS)
   - xanily (QD)

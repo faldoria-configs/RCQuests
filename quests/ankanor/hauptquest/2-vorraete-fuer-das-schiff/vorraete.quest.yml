@@ -1,6 +1,7 @@
 name: Vorräte für das Schiff
 desc: "Begib dich zur Versammlungshalle und sprich mit Roschik"
 locked: false
+abortable: false
 authors:
   - TheFum (QS)
   - Silthus (QD)
