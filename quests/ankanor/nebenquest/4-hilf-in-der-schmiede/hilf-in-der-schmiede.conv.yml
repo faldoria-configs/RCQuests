@@ -10,5 +10,5 @@ stages:
         - '~2s'
         - '!text.player "Und warum konntest du das selbst nicht machen?"'
         - '~2s'
-        - '!text "Hab mir 'nen Nagel eingerissen. Und jetzt hau ab!"'
+        - '!text "Hab mir nen Nagel eingerissen. Und jetzt hau ab!"'
         - '!quest.complete this.hilf-in-der-schmiede'
