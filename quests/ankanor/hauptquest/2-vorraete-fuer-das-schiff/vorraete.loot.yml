@@ -1,4 +1,7 @@
 count: 2
+requirements:
+  flow:
+    - '?quest.complete(negate:true) this.voerraete'
 entries:
   wolle:
     type: item
