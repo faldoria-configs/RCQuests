@@ -9,9 +9,9 @@ required: -1
 ordered: true
 trigger:
   flow:
-    - '@player.interact this.schmiede.hebel'
+    - '@player.interact this.schmiede.hebel block:lever'
     - '~10s'
-    - '@player.interact this.schmiede.knopf'
+    - '@player.interact this.schmiede.knopf block:stone_button'
     - '~10s'
-    - '@player.interact this.schmiede.hebel'
+    - '@player.interact this.schmiede.hebel block:lever'
     - '!text.info "Schwert hergestellt."'
