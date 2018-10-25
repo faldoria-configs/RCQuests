@@ -1,5 +1,5 @@
 # der Name des Items wie ihn der Spieler zu sehen bekommt
-displayName: Rostiges Schwert
+name: Rostiges Schwert
 # der Item Type (siehe unten)
 type: QUEST
 # die Qualität des Items (siehe unten)

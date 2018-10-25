@@ -7,10 +7,10 @@ entries:
     requirements:
       flow:
         - '?quest.active ../2-der-schmied/der-schmied'
-  default:
-    type: table
-    name: ankanor.mobs.default
-    probability: 40
+  # default:
+  #   type: table
+  #   name: ankanor.mobs.default
+  #   probability: 40
   nichts:
     type: 'null'
     probability: 30
