@@ -35,13 +35,13 @@ objectives:
         name: Sammle 10 rostige Schwerter
         trigger:
           flow:
-            - '?player.has.item this.rostiges-schwert 10'
+            - '?player.has-item this.rostiges-schwert 10'
             - '@inventory.update'
       '2':
         name: Sammle Eisen
         trigger:
           flow:
-            - '?player.has.item this.eisen'
+            - '?player.has-item this.eisen'
             - '@inventory.update'
   '2':
     name: 'Gehe zurück und sprich mit Sakros'

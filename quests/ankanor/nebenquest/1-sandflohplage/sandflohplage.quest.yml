@@ -22,8 +22,7 @@ objectives:
     name: 'Töte 15 Sandflöhe'
     trigger:
       flow:
-        - '?dummy(persistent:true,count:15,count-text:"%current%/%count% Sandflöhe getötet.")'
-        - '@rcmobs.mob.kill this.sandfloh'
+        - '@rcmobs.mob.kill(count:15,count-text:"%current% von %count% Sandflöhe getötet.") this.sandfloh'
         - '~2s'
         - '!text.info "Ich sollte besser zu Angunt zurückkehren und ihm berichten."'
   '2':
