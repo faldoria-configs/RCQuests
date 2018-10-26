@@ -1,6 +1,6 @@
 # Die Reise beginnt <!-- omit in toc -->
 
-Nun hat der Spieler die Erlaubnis und den Segen seiner Leute und geht zu Elius der ihn mitnimmt nach Jarmundshain.
+Nun hat der Spieler die Erlaubnis und den Segen seiner Leute und geht zu Elius, der ihn mitnimmt nach Jarmundshain.
 
 - [Vorrausetzungen](#vorrausetzungen)
 - [Aufgaben](#aufgaben)
@@ -32,13 +32,13 @@ Spieler spricht NPC Elius an.
 Spieler: Meister Elius ich bin nun bereit mit euch zu kommen, wie weit seid Ihr mit dem Ballon?
 Elius: Da seid Ihr ja wieder, gerade rechtzeitig. Wir können gleich los. Zunächst aber...
 Spieler: Was denn? Was denn nun noch?
-Elius: Es ist wichtig das Ihr versteht das wir nicht so schnell zurück kommen. Habt Ihr euch ausgerüstet? Habt ihr Proviant eingepackt?
+Elius: Es ist wichtig das Ihr versteht, dass wir nicht so schnell zurück kommen. Habt Ihr Euch ausgerüstet? Habt Ihr Proviant eingepackt?
 Spieler: Ja ich denke ich habe alles.
 Elius: Habt Ihr hier alle Aufgaben erledigt? 
 ```
 
 > 1. Vielleicht sollte ich doch nochmal ein wenig herum schauen ob ich noch etwas zu tun finde.
-> 2. Ja Meister Elius, ich bin Bereit nun mit euch zu kommen. Lasst uns los.
+> 2. Ja Meister Elius, ich bin bereit, nun mit euch zu kommen. Lasst uns losfahren.
 
 **Weiter nach #1:**
 
@@ -46,7 +46,7 @@ Elius: Habt Ihr hier alle Aufgaben erledigt?
 Elius: Dann komme zu mir zurück sobald du bereit bist.
 ```
 
-Spieler erledigt was er erledigen möchte und spricht Elius wieder an.
+Spieler erledigt, was er erledigen möchte und spricht Elius wieder an.
 
 ```yml
 Spieler: Nun sollte ich entgültig alles erledigt haben.
