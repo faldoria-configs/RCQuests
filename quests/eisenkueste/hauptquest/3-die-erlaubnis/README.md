@@ -33,17 +33,17 @@ Während Elius den Ballon repariert soll der Spieler nochmal ins Camp und mit se
 ### 1. Die Erlaubnis
 
 ```yml
-Marduk: Ich hoffe du weißt was du tust, aber du bist der einzige der gerade auf diese Reise gehen kann.
-Spieler: Das ist etwas sehr wichtiges, oder?
-Marduk: Ja, du wirst es großartig machen. Nun Gut, aber du solltest dich noch etwas besser vorbereiten bevor ich dir die Erlaubnis geben von hier fort zu gehen.
+Marduk: Ich hoffe, du weißt was du tust, aber du bist der Einzige, der gerade auf diese Reise gehen kann.
+Spieler: Das ist etwas sehr Wichtiges, oder?
+Marduk: Ja, du wirst es großartig machen. Nun gut, aber du solltest dich noch etwas besser vorbereiten bevor ich dir die Erlaubnis geben kann, von hier fort zu gehen.
 Marduk: Außerdem hilf doch den anderen hier im Camp auch noch bitte.
 Spieler: Das mache ich. Welche Aufgabe hast du für mich denn noch?
-Marduk: Am Strand sind anscheinend einige Ruinen von Türmen, die einst wohl mal die Küste sichern sollten. Gehe doch dorthin und schaue ob du etwas brauchbares findest.
+Marduk: Am Strand sind anscheinend einige Ruinen von Türmen, die einst wohl mal die Küste sichern sollten. Gehe doch dorthin und schaue ob du etwas Brauchbares findest.
 ```
 
 > Ich mache mich direkt auf den Weg.
 `[QUEST START]` [Die Erlaubnis](#1.-die-erlaubnis)  
-> **QuestLog:** *Erkunde die drei Turmruinen und finde etwas nützliches dort.*
+> **QuestLog:** *Erkunde die drei Turmruinen und finde dort etwas Nützliches .*
 
 ### Türme
 
@@ -64,7 +64,7 @@ y: 8101
 z: -2898
 world: faldoria.eisenküste
 ```
-> Chat ausgabe: Weiter Komme ich wohl nicht mehr hoch, oder doch?
+> Chat ausgabe: Weiter komme ich wohl nicht mehr hoch, oder doch?
 
 Mittlerer Turm
 ```yml
@@ -84,16 +84,16 @@ world: faldoria.eisenküste
 ```
 > Chat ausgabe: Dieser Turm ist sehr klein, hier finde ich sicher nicht viel.
 
-Nachdem erledigen aller Aufgaben, spricht Spieler Marduk an.
+Nachdem Erledigen aller Aufgaben spricht Spieler Marduk an.
 
 ```yml
 Spieler: Hauptmann Marduk, die Türme waren sehr zerfallen, aber das ein oder andere konnte ich finden.
 Marduk: Du siehst auch bereiter aus als vorher.
-Spieler: Kann ich nun los zu Elius und ihm sagen das ich mit ihm mitfliegen werde?
-Marduk: Ja, ich gebe dir die Erlaubnis nun los zu ziehen, finde mehr über dieses Land heraus. Wir werden uns hier erstmal weiter aufhalten. Komm aber bald wieder und melde dich bei uns.
-Spieler: Ich bin ganz aufgeregt, keiner von uns war jemals wo ich hingehen werde. Ich werde aber so schnell es geht wieder hier her zurück kommen. 
-Marduk: Pass auf dich auf und ich habe noch etwas von uns allen für dich. Es ist eines unserer kostbarsten besitze, noch aus der alten Zeit bevor wir auf Ankanor lebten.
-Spieler: Vielen dank, aber ich sollte mich nun auf den Weg machen. Haltet durch.
+Spieler: Kann ich nun los zu Elius und ihm sagen, dass ich mit ihm mitfliegen werde?
+Marduk: Ja, ich gebe dir die Erlaubnis nun loszuziehen, finde mehr über dieses Land heraus. Wir werden uns hier erstmal weiter aufhalten. Komm aber bald wieder und melde dich bei uns.
+Spieler: Ich bin ganz aufgeregt, keiner von uns war jemals wo ich hingehen werde. Ich werde aber so schnell es geht wieder hierher zurück kommen. 
+Marduk: Pass auf dich auf und  - ich habe noch etwas von uns allen für dich. Es ist eines unserer kostbarsten Besitztümer, noch aus der alten Zeit bevor wir auf Ankanor lebten.
+Spieler: Vielen Dank, aber ich sollte mich nun auf den Weg machen. Haltet durch.
 ```
 
 `[QUEST ENDE]` [Die Erlaubnis](#1.-die-erlaubnis) und erhält [Belohnung](#belohunung) 
@@ -117,7 +117,7 @@ Er schimpft sich zwar Hauptmann, es gibt aber eigentlich keine richtigen Truppen
 
 ##### Während der Quest 
 
-1. Geh und erkunde die drei Türme am Strand. Einer ist im Norden die anderen beiden sind südlich von hier. 
+1. Geh und erkunde die drei Türme am Strand. Einer ist im Norden, die anderen beiden sind südlich von hier. 
 2. Wir zählen alle auf dich.
 
 ##### Nach der Quest
