@@ -8,7 +8,7 @@ stages:
           - '!player.remove.item this.items.wassereimer' # wassereimer
           - '!player.remove.item this.items.holzbrett 10' # holzbretter
           - '!player.remove.item this.items.wolle 10' # wolle
-          - '!player.remove.item this.vorrats-liste' # liste
+          - '!player.remove.item this.liste' # liste
           - '~1s'
           - '!text "Vielen Dank. Nun geh zurück zum Bürgermeister, er hat bestimmt noch mehr Aufgaben für dich.", ../mafei"'
           - '~2s'

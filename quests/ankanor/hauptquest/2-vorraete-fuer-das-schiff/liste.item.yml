@@ -1,0 +1,20 @@
+# der Name des Items wie ihn der Spieler zu sehen bekommt
+name: Vorratsliste für das Schiff
+# der Item Type (siehe unten)
+type: QUEST
+# die Qualität des Items (siehe unten)
+quality: UNCOMMON
+# die ID des Minecraft Items welches benutzt werden soll
+item: paper
+# eine in goldener Schrift angezeigte Beschreibung
+lore: "Als Vorräte für das Schiff benötige ich 10 Getreide, 1 Fass Wasser, 10 Holzbretter und 10 Wolle.\n\nGezeichnet Kapitän Mafei"
+# extra Item Data die von manchen Minecraft Items verwendet werden kann
+item-data: 0
+# die maximale Stack Größe für dieses item
+max-stack-size: 1
+# die Bindung des Items (siehe unten)
+bind-type: QUEST
+# blockiert die Ausführung der Standard Vanilla Aktionen
+block-usage: false
+# lässt das Item verzaubert ausschauen
+enchantment-effect: false
