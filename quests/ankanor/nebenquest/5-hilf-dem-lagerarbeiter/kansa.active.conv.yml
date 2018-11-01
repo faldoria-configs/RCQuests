@@ -2,4 +2,4 @@ stages:
   start:
     random-actions:
       flow:
-        - '!text "Lasst euch Zeit mit dem beschaffen der geforderten Materialien, Agnatus ist sicher noch weit entfernt.", this.kansa'
+        - '!text "Lasst euch Zeit mit dem Beschaffen der geforderten Materialien, Agnatus ist sicher noch weit entfernt.", this.kansa'
