@@ -14,3 +14,4 @@ stages:
         - ':"Na klar! Du kannst auf mich zählen."'
         - '!quest.start this.lagerarbeiter'
         - ':"Nein, ich habe besseres zu tun…"'
+        - '!text "Ich finde es gibt nichts besseres als zu Sammeln, aber wie du meinst."'
