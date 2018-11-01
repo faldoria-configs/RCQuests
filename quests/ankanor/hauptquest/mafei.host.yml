@@ -4,6 +4,7 @@ health: 100
 attackable: false
 friendly: true
 skin: Mumonk
+disguise: Mafei
 location:
   world: Ankanor
   x: 5
