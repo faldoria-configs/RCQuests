@@ -101,8 +101,9 @@
 |[GDoc - Ordner](https://drive.google.com/drive/folders/0B-4wSu3oC_hnfkF3Z2d1RjktOGxGMGVIZjNjY29NSDk1cE4tNVBCbHdMUWRERHBKLVBhNzQ) | Dies ist der GoogleDoc Ordner|
 |[GDoc - NPC Eisenküste](https://docs.google.com/spreadsheets/d/1CPzWnv-ctPoIfWIPTYSVD8u0v45-Pg5osyw9VEzgqQg/edit) (`nicht Aktuell`) | Diese Liste enthält alle NPCs in einer Excel Tabelle. Hier enthalten sind unteranderem location, Skinabfrage, Beschreibung und mehr.|
 |[Forum](https://faldoria.de/board/index.php?thread/391-01-eisenk%C3%BCste-aktuell/)| Link zum Forenthema Questgebiet `[01] Eisenküste`|
-|
+
 
 ### Gebietskarte
 
 [![](gebietskarte_eisenkueste.png)](.\gebietskarte_eisenkueste.png)
+[![](eisenkueste_mobs.png)](./eisenkueste_mobs.png)
