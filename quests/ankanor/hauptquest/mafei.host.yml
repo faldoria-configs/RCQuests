@@ -3,10 +3,12 @@ type: NPC
 health: 100
 attackable: false
 friendly: true
-skin: Mumonk
-disguise: Mafei
+disguise: mafei
+look-close: true
+traits:
+  - 'fishing'
 location:
   world: Ankanor
   x: 5
-  y: 71
-  z: -85
+  y: 65
+  z: -92
