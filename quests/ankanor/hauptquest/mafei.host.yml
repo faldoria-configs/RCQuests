@@ -3,12 +3,12 @@ type: NPC
 health: 100
 attackable: false
 friendly: true
-disguise: mafei
+disguise: 3
 look-close: true
 traits:
   - 'fishing'
 location:
   world: Ankanor
   x: 5
-  y: 65
+  y: 66
   z: -92
