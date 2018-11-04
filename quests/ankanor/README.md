@@ -40,7 +40,7 @@
 |Junzo | | |
 |Kazui | | |
 |Kozas | | |
-|Lewis| | |
+|Lewis| Ängstlicher Kaishi Feldarbeiter | [Lewis Readme](./einfache-npcs/lewis/lewis.md) |
 |Lutz| | | |
 |Noromi| | |
 |Patient| | |
