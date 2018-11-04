@@ -1,13 +1,34 @@
 # Items-Guide <!-- omit in toc -->
 
+- [Allgemein](#allgemein)
+- [Das Webinterface](#das-webinterface)
 - [Item Kategorien](#item-kategorien)
     - [Waffen/Rüstungen](#waffenr%C3%BCstungen)
-    - [Rüstungen](#r%C3%BCstungen)
+        - [Waffen](#waffen)
+        - [Rüstungen](#r%C3%BCstungen)
+    - [Benutzbar](#benutzbar)
+    - [Ausrüstung](#ausr%C3%BCstung)
+    - [Quest Item](#quest-item)
+    - [Verzauberung](#verzauberung)
+    - [Edelstein](#edelstein)
+    - [Verbesserung](#verbesserung)
+    - [Handwerkswaren](#handwerkswaren)
+    - [Verbrauchbar](#verbrauchbar)
+    - [Müll](#m%C3%BCll)
+    - [Spezial](#spezial)
+    - [Beruf](#beruf)
+    - [Klasse](#klasse)
+    - [Undefiniert](#undefiniert)
+- [Legende](#legende)
 
 # Allgemein
 
 Ein RPG wie wir es hier gestalten lebt von Items, aus diesem Grund ist es wichtig diese sorgfältig zu behandeln. Grundsätzlich soll dieser Guide hilfestellung zum erstellen von Items geben, sowie auch klare Regeln definieren sodass jeder weiß in welcher Weise sich Items auswirken bzw. verhalten. Items kann und darf grundsätzlich jedes Teammitglied erstellen. Es bedarf nur die Anmeldung im [Webinterface](https://app.faldoria.de/home).  Dennoch bedarf es Kontrolle, Sortierung und Listen damit wir nicht auf einmal drei mal das selbe Item haben. 
 
+# Das Webinterface
+
+Bei uns werden Items hauptsächlich im Webinterface, also auf einer Webseite erstellt. Die Webinterface Seite findet ihr [hier](https://app.faldoria.de/home). 
+Einen Guide ist als [Readme](./WEBINTERFACE.md) auch im Git zu finden. 
 
 # Item Kategorien
 Unsere Items sind in diverese Kategorien eingeteilt, da sie auch unterschiedliche zwecke erfüllen.
@@ -40,6 +61,8 @@ Es gibt folgende Rüstungstypen
 
 ## Benutzbar
 
+*Alles was der Spieler irgendwie benutzen kann, z.B. Schriftrollen für einmalige Teleports, Runensteine (die an einen Ort gebunden sind), Skillbücher (die spezielle Skills erlernen), Items die z.B. einen Effekt in Quests ausführen, etc.* 
+
 ## Ausrüstung
 
 | Art | Ausrüstungsslot | Klassen | Sonstiges |
@@ -51,11 +74,20 @@ Es gibt folgende Rüstungstypen
 
 ## Quest Item
 
+Quest Items sind wohl mit die wichtigsten Items im Spiel. Sie helfen dem Spieler ihre Quest zu visualisieren, etwas in der Hand zu halten. Diese Items können alles sein. Sie werden vom SuQ-Team erdacht für die einzelnen Quest. 
+Eine Besonderheit ist das diese Items, sofern man sie als Quest-Item auch kennzeichnet im Webinterface, sie ins Quest Inventar kommen. 
+
 ## Verzauberung
+
+> Noch irrelevant, in Planung.
 
 ## Edelstein
 
+> Noch irrelevant, in Planung.
+
 ## Verbesserung
+
+> Noch irrelevant, in Planung.
 
 ## Handwerkswaren
 
@@ -65,11 +97,19 @@ Es gibt folgende Rüstungstypen
 
 ## Spezial
 
+> Keine Bedeutung
+
 ## Beruf 
+
+> Rezepte, spezielle Materialien, etc.
 
 ## Klasse 
 
+> Keine Bedeutung
+
 ## Undefiniert
+
+> Keine Bedeutung
 
 # Legende
 
