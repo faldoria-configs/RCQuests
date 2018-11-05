@@ -5,7 +5,7 @@ Um die ganzen [Issues](https://git.faldoria.de/groups/tof/-/issues) besser zu ve
 Jedes Issue sollte mindestens eins der folgenden Labels haben:
 
 * Typ: ~"feature-proposal", ~"feature", ~"bug", ~"config", ~"docs", etc.
-* Projekt: ~"quest", ~"conversation", ~"server", ~"loot", ~"mobs", ~"items", ~"docker", ~"admin-web", etc.
+* Projekt: ~"quest", ~"conversations", ~"server", ~"loot", ~"mobs", ~"items", ~"docker", ~"admin-web", etc.
 * Team: ~"SuQ", ~"Developer", ~"Quest Scripter", ~Builder, ~Web, ~CM, ~Admin
 * Priorität: ~P1, ~P2, ~P3, ~P4
 * Auswirkung: ~A1, ~A2, ~A3, ~A4
@@ -24,7 +24,7 @@ Typ Labels sind immer in Kleinbuchstaben angegeben.
 
 Wenn möglich sollte ein Issue einem Projekt, bzw. Gebiet zugeordnet werden. Das macht es leichter passende Issues im eigenen Experten Gebiet zu finden.
 
-Beispiele für Projekt Labels sind: ~"quest", ~"conversation", ~"server", ~"loot", ~"mobs", ~"items", ~"docker", ~"admin-web", etc.
+Beispiele für Projekt Labels sind: ~"quest", ~"conversations", ~"server", ~"loot", ~"mobs", ~"items", ~"docker", ~"admin-web", etc.
 
 Projekt Labels sollen immer die Farbe blau haben und klei geschrieben werden.
 
