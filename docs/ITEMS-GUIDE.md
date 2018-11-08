@@ -47,7 +47,7 @@ Es gibt folgende Waffentypen
 |Zweihand Axt | Zweihändig | Krieger |  |
 |Streitkolben | Einhändig| Krieger, Assassine, Kleriker| |
 |Zweihand Streitkolben| Zweihändig | Krieger | |
-|Stangenwaffe | | | |
+|Stangenwaffe | | |derzeit keine Relevanz |
 |Dolch | Einhändig, Schildhand | Assassine, Kleriker, *Waldläufer*| |
 |Stab | Zweihändig | Kleriker, Elementarist | |
 |Zauberstab | Einhändig, Schildhand| Kleriker, Elementarist| |
@@ -55,9 +55,13 @@ Es gibt folgende Waffentypen
 
 ### Rüstungen
 Es gibt folgende Rüstungstypen
-| Waffenart | Ausrüstungsslot | Klassen | Sonstiges |
+| Rüstungsart | Ausrüstungsslot | Klassen | Sonstiges |
 | --- | --- | ---| --- |
 | Schild | Schildhand | Krieger, *Kleriker*| |
+|Stoffrüstungen | Kopf, Brust, Hand, Bein| Elementarist, Kleriker | Dargestellt duch Leder und *Gold* Rüstungsteile |
+|Lederrüstungen | Kopf, Brust, Hand, Bein| Assassine, Waldläufer| Dargestellt duch Leder Rüstungsteile|
+|Kettenrüstungen | Kopf, Brust, Hand, Bein| Waldläufer, Krieger| Dargestellt duch Ketten Rüstungsteile|
+|Plattenrüstungen| Kopf, Brust, Hand, Bein| Krieger| Dargestellt duch Eisen und Diamant Rüstungsteile|
 
 ## Benutzbar
 
@@ -91,9 +95,15 @@ Eine Besonderheit ist das diese Items, sofern man sie als Quest-Item auch kennze
 
 ## Handwerkswaren
 
+Handwerkswaren sind hauptsächlich alle Items die in Berufen benötigt werden, also Zutaten, Materialien etc. 
+
 ## Verbrauchbar
 
+Verbrauchbare Items dienen den Zweck das der Spieler diese nutzten kann um sich dadurch zu verstärken und erholen. Hierzu zählen Nahrungsmittel, Tränke und Stärkungsitems. 
+
 ## Müll
+
+Alle Items in dieser Kategorie dienen lediglich dazu sie zu verkaufen und Geld zu machen. Was nicht bedeutet das diese nicht auch anderweitigen Wert haben können, wie Informationen, vermeindliche Verkaufsobjekte welche aber Questrelevant sein können und vieles mehr. Diese Items sind von der Qualität grundsätzlich Schlecht(Grau), können aber auch in gewissen fällen verbreitet(weiß) sein.
 
 ## Spezial
 
