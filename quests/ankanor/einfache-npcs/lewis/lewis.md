@@ -50,3 +50,5 @@ Wenn der Spieler nicht mit Lutz vorher gesprochen hat tritt folgender Dialog ein
 1. Lewis: Hast du Lutz gesehen? Roschick hat ihm gesagt er solle mir heute helfen. Wenn du ihn siehst sag ihm das ich auf ihn warte.
     1. Spieler: Nein ich habe ihn nicht gesehen. Soll ich ihm sagen das du nach ihm suchst wenn ich ihn sehe?
         1. Lewis: Das wäre sehr nett von dir. Danke.
+
+> TAG: Ankanor.lewis-bitte - *Bekommt der Spieler wenn er mit Lewis gesprochen hat bevor er mit Lutz sprach.*
