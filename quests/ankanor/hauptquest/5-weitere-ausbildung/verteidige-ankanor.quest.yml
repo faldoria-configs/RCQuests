@@ -1,4 +1,5 @@
 name: "Die Verteidigung von Ankanor"
+region: ankanor
 locked: false
 abortable: false
 authors:

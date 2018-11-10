@@ -1,5 +1,6 @@
 name: Vorräte für das Schiff
 desc: "Begib dich zur Versammlungshalle und sprich mit Roschik"
+region: ankanor
 locked: false
 abortable: false
 authors:

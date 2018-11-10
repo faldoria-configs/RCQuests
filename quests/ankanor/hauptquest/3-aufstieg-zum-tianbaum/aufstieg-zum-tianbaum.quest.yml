@@ -1,5 +1,6 @@
 name: "Aufstieg zum Tianbaum"
 desc: "Folge den Weg um den Tianbaum herum auf die andere Seite, triff den Wächter des Heiligtums und steige den Tianbaum hinauf um deinen Pfad des Kampfes zu wählen."
+region: ankanor
 locked: false
 abortable: false
 authors:

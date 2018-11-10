@@ -1,5 +1,6 @@
 name: Ein neuer Start
 desc: "Begib dich zur Versammlungshalle und sprich mit Roschik"
+region: ankanor
 locked: false
 abortable: false
 authors:

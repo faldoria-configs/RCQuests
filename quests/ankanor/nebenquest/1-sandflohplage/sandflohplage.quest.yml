@@ -1,5 +1,6 @@
 name: Sandflohplage
 desc: "An der südlichen Küste der Insel hat sich eine Königin von Sandflöhen|eingenistet und diese sind nun sehr Aggressiv.|Der Spieler soll sie für Angunt töten."
+region: ankanor
 locked: false
 authors:
   - TheFum (QS)
