@@ -3,7 +3,7 @@ type: NPC
 health: 100
 attackable: false
 friendly: true
-disguise: 3
+disguise: Mafei
 look-close: true
 traits:
   - 'fishing'
