@@ -42,7 +42,7 @@ objectives:
         name: Sammle Eisen
         trigger:
           flow:
-            - '?player.has-item this.eisen'
+            - '?player.has-item this.eisenbarren'
             - '@inventory.update'
   '2':
     name: 'Gehe zurück und sprich mit Sakros'

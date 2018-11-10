@@ -6,7 +6,7 @@ entries:
     probability: 30
   eisen:
     type: item
-    item: this.eisen
+    item: this.eisenbarren
     probability: 10
   nichts:
     type: 'null'
