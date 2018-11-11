@@ -2,7 +2,7 @@ stages:
   start:
     actions:
       groups:
-        swords: '?player.has-item(persistant:true) ../2-der-schmied/schwert,10'
+        swords: '?player.has-item(persistant:true) ../2-der-schmied/rostiges-schwert,10'
         end-both:
           - '!text "Vielen Dank, dass du dich darum gekümmert hast.", this.genam'
           - '~1s'

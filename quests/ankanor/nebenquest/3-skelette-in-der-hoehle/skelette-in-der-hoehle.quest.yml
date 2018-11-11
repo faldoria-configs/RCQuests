@@ -27,7 +27,7 @@ objectives:
     name: 'Töte in der Höhle für die Wache Genam 10 Skelette.'
     trigger:
       flow:
-        - '@rcmobs.mob.kill(count:10,count-text:"%current%/%count% Skelette getötet.",persistent:true) this.skelett'
+        - '@rcmobs.mob.kill(count:10,count-text:"&7%current% von %count% Skeletten getötet.",persistent:true) this.skelett'
   '2':
     name: "Sprich mit Genam"
     auto-complete: false
