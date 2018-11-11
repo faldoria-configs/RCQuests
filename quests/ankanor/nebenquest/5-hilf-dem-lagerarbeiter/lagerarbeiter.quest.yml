@@ -23,35 +23,35 @@ objectives:
     tasks:
       '1':
         name: 'Sammle zehn Äpfel'
-        text: '%inventory.count(this.items.apfel)%/10 Äpfel gesammelt'
+        text: '%inventory.count(ankanor.items.apfel)%/10 Äpfel gesammelt'
         trigger:
           flow:
-            - '?player.has-item item:this.items.apfel amount:10'
-            - '@inventory.change item:this.items.apfel'
+            - '?player.has-item item:ankanor.items.apfel amount:10'
+            - '@inventory.change item:ankanor.items.apfel'
       '2':
         name: 'Angel drei Schwarze Barsche'
-        text: '%inventory.count(this.items.schwarzer-barsch)%/3 Schwarze Barsche geangelt'
+        text: '%inventory.count(ankanor.items.schwarzer-barsch)%/3 Schwarze Barsche geangelt'
         trigger:
           flow:
-            - '@player.fish(count:3) item:this.items.schwarzer-barsch'
+            - '@player.fish(count:3,cancel:true) item:ankanor.items.schwarzer-barsch'
       '3':
         name: 'Schere fünf Schafe'
-        text: '%inventory.count(this.items.geschorene-wolle)%/5 Geschorene Wolle'
+        text: '%inventory.count(ankanor.items.geschorene-wolle)%/5 Geschorene Wolle'
         trigger:
           flow:
-            - '@player.shear(count:5) item:this.items.geschorene-wolle'
+            - '@player.shear(count:5,cancel:true) item:ankanor.items.geschorene-wolle'
       '4':
         name: 'Melke eine Kuh'
         trigger:
           flow:
-            - '@player.milk return:this.items.eimer-milch'
+            - '@player.milk(cancel:true) return:ankanor.items.eimer-milch'
     trigger:
       groups:
         all-items:
-          - '?player.has-item this.items.apfel,10'
-          - '?player.has-item this.items.eimer-milch'
-          - '?player.has-item this.items.geschorene-wolle,5'
-          - '?player.has-item this.items.schwarzer-barsch,3'
+          - '?player.has-item ankanor.items.apfel,10'
+          - '?player.has-item ankanor.items.eimer-milch'
+          - '?player.has-item ankanor.items.geschorene-wolle,5'
+          - '?player.has-item ankanor.items.schwarzer-barsch,3'
       flow:
         - '?all-items'
         - '@inventory.update'
@@ -65,10 +65,10 @@ objectives:
 complete-actions:
   groups:
     remove-items:
-      - '!player.remove.item this.items.apfel,10'
-      - '!player.remove.item this.items.schwarzer-barsch,3'
-      - '!player.remove.item this.items.geschorene-wolle,5'
-      - '!player.remove.item this.items.eimer-milch,1'
+      - '!player.remove.item ankanor.items.apfel,10'
+      - '!player.remove.item ankanor.items.schwarzer-barsch,3'
+      - '!player.remove.item ankanor.items.geschorene-wolle,5'
+      - '!player.remove.item ankanor.items.eimer-milch,1'
   flow:
     - '!remove-items'
     - '!rcskills.hero.addxp 5'
