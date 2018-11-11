@@ -73,4 +73,4 @@ complete-actions:
     - '!remove-items'
     - '!rcskills.hero.addxp 5'
     - '!player.give.money 5h'
-    - '!player.give.item this.apfel,2'
+    - '!player.give.item ankanor.items.apfel,2'
