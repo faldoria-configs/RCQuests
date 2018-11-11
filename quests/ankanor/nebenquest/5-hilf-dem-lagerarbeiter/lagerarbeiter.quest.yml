@@ -27,7 +27,7 @@ objectives:
         trigger:
           flow:
             - '?player.has-item item:ankanor.items.apfel amount:10'
-            - '@inventory.change item:ankanor.items.apfel'
+            - '@inventory.update item:ankanor.items.apfel'
       '2':
         name: 'Angel drei Schwarze Barsche'
         text: '%inventory.count(ankanor.items.schwarzer-barsch)%/3 Schwarze Barsche geangelt'
