@@ -13,6 +13,10 @@ default-convs:
     convs:
       - 'this.genam:this.quest-end'
 
+requirements:
+  flow:
+    - '?rcskills.hero.path class'
+
 start-trigger:
   flow:
     - '?quest.active ../2-der-schmied.der-schmied'
