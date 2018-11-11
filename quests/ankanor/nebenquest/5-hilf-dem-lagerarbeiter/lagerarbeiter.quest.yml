@@ -27,27 +27,34 @@ objectives:
         trigger:
           flow:
             - '?player.has-item item:this.items.apfel amount:10'
-            - '@item.pickup item:this.items.apfel'
+            - '@inventory.change item:this.items.apfel'
       '2':
         name: 'Angel drei Schwarze Barsche'
         text: '%inventory.count(this.items.schwarzer-barsch)%/3 Schwarze Barsche geangelt'
         trigger:
           flow:
-            - '?player.has-item item:this.items.schwarzer-barsch amount:3'
-            - '@player.fish item:this.items.schwarzer-barsch'
+            - '@player.fish(count:3) item:this.items.schwarzer-barsch'
       '3':
         name: 'Schere fünf Schafe'
         text: '%inventory.count(this.items.geschorene-wolle)%/5 Geschorene Wolle'
         trigger:
           flow:
-            - '?player.has-item item:this.items.geschorene-wolle amount:5'
-            - '!text "test"'
-            - '@player.shear item:this.items.geschorene-wolle'
+            - '@player.shear(count:5) item:this.items.geschorene-wolle'
       '4':
         name: 'Melke eine Kuh'
         trigger:
           flow:
             - '@player.milk return:this.items.eimer-milch'
+    trigger:
+      groups:
+        all-items:
+          - '?player.has-item this.items.apfel,10'
+          - '?player.has-item this.items.eimer-milch'
+          - '?player.has-item this.items.geschorene-wolle,5'
+          - '?player.has-item this.items.schwarzer-barsch,3'
+      flow:
+        - '?all-items'
+        - '@inventory.update'
   '2':
     name: "Bringe die Vorräte zu Kansa"
     desc: "Kansa befindet sich im Lager neben der Haupthalle."
