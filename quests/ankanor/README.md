@@ -41,7 +41,7 @@
 |Kazui | | |
 |Kozas | | |
 |Lewis| Ängstlicher Kaishi Feldarbeiter | [Lewis Readme](./einfache-npcs/lewis/lewis.md) |
-|Lutz| | | |
+|Lutz| Fauler Kaishi| [Lutz Readme](./einfache-npcs/lutz/lutz.md) |
 |Noromi| | |
 |Patient| | |
 |Sokensos| | |
@@ -80,6 +80,7 @@
 |Tag | Auslöser/Beschreibung|
 | --- | --- |
 |ankanor.event.survivor| Bekommt der Spieler wenn er den [Ankanor Event](../ankanor/hauptquest/5-weitere-ausbildung/README.md) ohne zu sterben überlebt.|
+|ankanor.lewis-bitte| Bekommt der Spieler wenn er mit Lewis gesprochen hat bevor er mit Lutz sprach.|
 
 ## Vergebene Belohnungen
 
