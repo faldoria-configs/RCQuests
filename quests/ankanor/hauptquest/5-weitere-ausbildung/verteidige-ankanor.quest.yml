@@ -22,7 +22,7 @@ objectives:
         - '@host.interact ../mafei-event this.schiff'
     complete-actions:
       flow:
-        - '!achievement ../../unversehrter-kaishi'
+        - '!achievement ankanor.unversehrter-kaishi'
 
 complete-actions:
   flow:
