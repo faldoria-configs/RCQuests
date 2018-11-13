@@ -22,8 +22,8 @@ objectives:
     trigger:
       groups:
         tasks:
-          - '?task.complete this.weitere-ausbildung 2 1'
-          - '?task.complete this.weitere-ausbildung 2 2'
+          - '?quest.completed ../../nebenquest/4-hilf-in-der-schmiede/hilf-in-der-schmiede'
+          - '?quest.completed ../../nebenquest/1-sandflohplage/sandflohplage'
       flow:
         - '?tasks'
         - '@host.interact this.jamos this.weitere-ausbildung-complete'
@@ -35,13 +35,13 @@ objectives:
         desc: 'Den Schmied findest du am äußeren Rand des Dorfes an seiner Schmiede.'
         trigger:
           flow:
-            - '@quest.complete ../../nebenquest/4-hilf-in-der-schmiede/hilf-in-der-schmiede'
+            - '@quest.completed ../../nebenquest/4-hilf-in-der-schmiede/hilf-in-der-schmiede'
       '2':
         name: 'Hilf beim Ausmerzen der Sandflohplage'
         desc: 'Sprich mit Angunt am Strand, er kann dir genaueres sagen.'
         trigger:
           flow:
-            - '@quest.complete ../../nebenquest/1-sandflohplage/sandflohplage'
+            - '@quest.completed ../../nebenquest/1-sandflohplage/sandflohplage'
 
 complete-actions:
   flow:
