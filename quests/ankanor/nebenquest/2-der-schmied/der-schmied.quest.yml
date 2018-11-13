@@ -34,7 +34,7 @@ start-trigger:
 
 objectives:
   '1':
-    name: 'Besorge für den Schmied Eisen und 10 rostige Schwerter'
+    name: 'Besorge für den Schmied 5 Eisenbarren und 10 rostige Schwerter'
     tasks:
       '1':
         name: Sammle 10 rostige Schwerter
@@ -43,10 +43,10 @@ objectives:
             - '?player.has-item this.rostiges-schwert 10'
             - '@inventory.update'
       '2':
-        name: Sammle Eisen
+        name: Sammle Eisenbarren
         trigger:
           flow:
-            - '?player.has-item this.eisenbarren'
+            - '?player.has-item this.eisenbarren 5'
             - '@inventory.update'
   '2':
     name: 'Gehe zurück und sprich mit Sakros'

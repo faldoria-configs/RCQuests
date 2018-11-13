@@ -14,7 +14,7 @@ stages:
         - '~2s'
         - '!text.player "Na gut, was brauchst du?"'
         - '~2s'
-        - '!text "Eisen und rostige Schwerter aus der Höhle auf der anderen Seite des Dorfes."'
+        - '!text "Mindestens fünf Eisenbaren und zehn rostige Schwerter aus der Höhle auf der anderen Seite des Dorfes."'
         - '~2s'
         - '!text.player "Was? Ich muss so weit laufen?"'
         - '~2s'
