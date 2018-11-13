@@ -17,3 +17,4 @@ stages:
       flow:
         - ':"Ok, pass auf dich auf Alterchen."'
         - '!quest.complete this.weitere-ausbildung'
+        - '!end'

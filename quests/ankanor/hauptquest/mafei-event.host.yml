@@ -5,10 +5,10 @@ attackable: false
 friendly: true
 disguise: Mafei
 look-close: true
-traits:
-  - 'fishing'
 location:
-  world: Ankanor
-  x: 5
-  y: 66
-  z: -93
+  world: Ankanor_Event
+  x: -6
+  y: 68
+  z: -103
+  yaw: 0
+  pitch: 8

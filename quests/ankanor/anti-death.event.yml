@@ -1,6 +1,7 @@
 trigger:
-  worls:
-    - 'Ankanor'
+  options:
+    worlds:
+      - ankanor
   flow:
     - '@rcskills.hero.death heal:0.2'
     - '!text "Deine Zeit ist noch nicht gekommen, Held der Kaishi!", Lious'

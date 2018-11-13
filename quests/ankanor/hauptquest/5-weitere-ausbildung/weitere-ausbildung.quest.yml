@@ -46,4 +46,5 @@ objectives:
 complete-actions:
   flow:
     - '!quest.start this.verteidige-ankanor'
+    - '~2s'
     - '!teleport world:ankanor_event'
