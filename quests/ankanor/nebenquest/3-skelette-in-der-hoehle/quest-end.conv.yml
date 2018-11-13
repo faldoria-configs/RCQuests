@@ -3,26 +3,26 @@ stages:
     actions:
       groups:
         swords: '?player.has-item(persistant:true) ../2-der-schmied/rostiges-schwert,10'
-        end-both:
-          - '!text "Vielen Dank, dass du dich darum gekümmert hast.", this.genam'
-          - '~1s'
-          - '!text.player "Musste ich ja wohl..."'
-          - '!end'
-        open-eisen:
-          - '!text "Vielen Dank dafür, aber vielleicht solltest du noch die restlichen Schwerter für Sakros sammeln.", this.genam'
-          - '~2s'
-          - '!text.player "Jaja, schon gut..."'
-          - '!end'
       flow:
         - '?swords'
-        - '!text "Aus der Tatsache, dass du noch lebst, und aus der, dass du die Schwerter hast, nehme ich an, dass die Skelette Tot sind?", this.genam'
+        - '!stage end-both'
         - '?swords(negate:true)'
-        - '!text "Und sind die Skelette tot?", this.genam'
-        - '~3s'
-        - '!text.player "Ja, sie sind tot… oder was auch immer."'
-        - '!quest.complete this.skelette-in-der-hoehle'
+        - '!stage open-eisen'
+  end-both:
+    text: "Aus der Tatsache, dass du noch lebst, und aus der, dass du die Schwerter hast, nehme ich an, dass die Skelette Tot sind?"
+    answers:
+      flow:
+        - ':"Ja, sie sind tot… oder was auch immer."'
+        - '!text "Vielen Dank, dass du dich darum gekümmert hast."'
+        - '~1s'
+        - '!text.player "Musste ich ja wohl..."'
+        - '!end'
+  open-eisen:
+    text: "Und sind die Skelette tot?"
+    answers:
+      flow:
+        - ':"Ja, sie sind tot… oder was auch immer."'
+        - '!text "Vielen Dank dafür, aber vielleicht solltest du noch die restlichen Schwerter für Sakros sammeln."'
         - '~2s'
-        - '?swords'
-        - '!end-both'
-        - '?swords(negate:true)'
-        - '!open-eisen'
+        - '!text.player "Jaja, schon gut..."'
+        - '!end'
