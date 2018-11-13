@@ -1,5 +1,5 @@
 stages:
-  complete:
+  start:
     actions:
       flow:
         - '!text "Ich hörte du hast den Bewohnern gut geholfen, gerade zur rechten Zeit."'
