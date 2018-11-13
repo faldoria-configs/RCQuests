@@ -34,7 +34,7 @@ stages:
         - ':"Nein, ich möchte doch einen anderen Pfad wählen."'
         - '!stage choose'
   priest:
-    text: "Bist du dir sicher, dass du den Pfad des Priesters wählen willst?"
+    text: "Bist du dir sicher, dass du den Pfad des Klerikers wählen willst?"
     answers:
       flow:
         - ':"Ja ich will den Pfad des Priesters beschreiten."'
@@ -54,7 +54,7 @@ stages:
         - ':"Nein, ich möchte doch einen anderen Pfad wählen."'
         - '!stage choose'
   rogue:
-    text: "Bist du dir sicher, dass du den Pfad des Kriegers wählen willst?"
+    text: "Bist du dir sicher, dass du den Pfad des Assassinen wählen willst?"
     answers:
       flow:
         - ':"Ja ich will den Pfad des Assassinen beschreiten."'
@@ -64,7 +64,7 @@ stages:
         - ':"Nein, ich möchte doch einen anderen Pfad wählen."'
         - '!stage choose'
   hunter:
-    text: "Bist du dir sicher, dass du den Pfad des Kriegers wählen willst?"
+    text: "Bist du dir sicher, dass du den Pfad des Waldläufers wählen willst?"
     answers:
       flow:
         - ':"Ja ich will den Pfad des Waldläufers beschreiten."'

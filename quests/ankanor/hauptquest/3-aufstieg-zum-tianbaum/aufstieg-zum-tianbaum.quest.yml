@@ -12,7 +12,7 @@ level: 1
 
 start-trigger:
   flow:
-    - '@host.proximity this.waechter,5'
+    - '@host.proximity this.waechter,7'
     - '!player.freeze'
     - '!text "Halt! Niemand darf das Heiligtum ohne Erlaubnis betreten.", Wächter'
     - '~3s'
@@ -25,7 +25,7 @@ objectives:
     auto-complete: false
     trigger:
       flow:
-        - '@host.proximity this.waechter,5,this.waechter-willkommen'
+        - '@host.proximity this.waechter,7,this.waechter-willkommen'
   '2':
     name: 'Steige den Tianbaum hinauf'
     desc: 'Folge dem Weg im Inneren des Tianbaum bis du die Krone erreichst.'
