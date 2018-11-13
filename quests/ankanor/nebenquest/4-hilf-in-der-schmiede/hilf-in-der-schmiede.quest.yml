@@ -16,7 +16,8 @@ objectives:
     auto-complete: false
     trigger:
       flow:
-        - '@this.schmiede(count:3)'
+        - '?dummy(count:3,count-text:"%current% von %count% Schwerter hergestellt.")'
+        - '@this.schmiede'
         - '!conversation.start this.hilf-in-der-schmiede ../2-der-schmied/sakros'
 
 complete-actions:

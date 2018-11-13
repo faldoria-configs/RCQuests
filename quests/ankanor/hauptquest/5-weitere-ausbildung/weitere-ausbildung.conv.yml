@@ -1,3 +1,4 @@
+auto-end: false
 stages:
   start:
     text: 'Die Bewohner Ankanors brauchen deine Hilfe. Worauf wartest du also noch?'
