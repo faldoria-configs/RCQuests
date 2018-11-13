@@ -1,0 +1,11 @@
+name: Jamos
+type: NPC
+health: 100
+attackable: false
+friendly: true
+location:
+  x: -61
+  y: 80
+  z: 72
+  world: Ankanor_Event
+default-conv: this.jamos.default
