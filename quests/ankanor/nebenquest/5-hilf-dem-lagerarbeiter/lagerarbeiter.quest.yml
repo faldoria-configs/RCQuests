@@ -44,7 +44,7 @@ objectives:
         name: 'Melke eine Kuh'
         trigger:
           flow:
-            - '@player.milk(cancel:true) return:ankanor.items.eimer-milch'
+            - '@player.milk return:ankanor.items.eimer-milch'
     trigger:
       groups:
         all-items:
