@@ -24,3 +24,7 @@ mit TAG: [Ankanor.lewis-bitte](../lewis/lewis.md) kommt punkt 1.3.- hinzu sonst 
     2. Spieler: Meinst du ich kann hier auch etwas mit dir faulenzen?
     3. Spieler: Lewis wartet auf dich, er bat mich dir zu sagen das er dich sucht und ich glaube wenn du nicht zu ihm gehst wird er es Roschik sagen.
         1. Lutz: Dieser Verräter ich hasse Lewis, er ist ein verdammter Angsthase, wenn es aber darum geht jemanden zu verpetzen ist er der erste.
+            1. Spieler: Wenn Roschik aber sagt solltest du ihm helfen.
+                1. Lutz: Jaja, geh mir aus den Augen, du bist genauso wie alle anderen arbeit, arbeit!
+            2. Spieler: Lass doch Lewis reden und Roschik was will der schon machen? Hausarrest?
+                1. Lutz: Du hast Recht, ich werde weiter hier faulenzen.
