@@ -19,7 +19,7 @@ objectives:
       flow:
         - '@player.move(execute-once:true) this.schiff'
         - '!text "Schnell %player, zu mir!", Mafei'
-        - '@host.interact ../mafei this.schiff'
+        - '@host.interact ../mafei-event this.schiff'
     complete-actions:
       flow:
         - '!achievement ../../unversehrter-kaishi'
