@@ -1,5 +1,3 @@
-settings:
-  show-npc-name: true
 stages:
   start:
     text: "Hast du dich entschieden welchem Pfad du folgen möchtest?"
@@ -81,3 +79,4 @@ stages:
         - '!text "Mache dich nun mit deiner neuen Fähigkeit vertraut und kehre dann zu mir zurück, damit du sie testen kannst."'
         - '~2s'
         - '!objective.complete this.klassenwahl 2'
+        - '!end'
