@@ -4,13 +4,12 @@ stages:
     answers:
       groups:
         complete:
+          - '!text "Vielen Dank. Nun geh zurück zum Bürgermeister, er hat bestimmt noch mehr Aufgaben für dich."'
           - '!player.remove.item this.items.getreide 10' # getreide
           - '!player.remove.item this.items.wassereimer' # wassereimer
           - '!player.remove.item this.items.holzbrett 10' # holzbretter
           - '!player.remove.item this.items.wolle 10' # wolle
-          - '!player.remove.item this.liste' # liste
-          - '~1s'
-          - '!text "Vielen Dank. Nun geh zurück zum Bürgermeister, er hat bestimmt noch mehr Aufgaben für dich.", ../mafei"'
+          - '!player.remove.item this.liste' # liste          
           - '~2s'
           - '!objective.complete this.vorraete 3'
       flow:
