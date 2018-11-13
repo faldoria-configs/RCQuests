@@ -22,8 +22,8 @@ objectives:
     trigger:
       groups:
         tasks:
-          - '?quest.completed ../../nebenquest/4-hilf-in-der-schmiede/hilf-in-der-schmiede'
-          - '?quest.completed ../../nebenquest/1-sandflohplage/sandflohplage'
+          - '?quest.completed ankanor.nebenquest.4-hilf-in-der-schmiede.hilf-in-der-schmiede'
+          - '?quest.completed ankanor.nebenquest.1-sandflohplage.sandflohplage'
       flow:
         - '?tasks'
         - '@host.interact this.jamos this.weitere-ausbildung-complete'
