@@ -5,21 +5,21 @@ Während Elius den Ballon repariert soll der Spieler nochmal ins Camp und mit se
 - [Vorrausetzungen](#vorrausetzungen)
 - [Aufgaben](#aufgaben)
     - [1. Die Erlaubnis](#1-die-erlaubnis)
-    - [Türme](#türme)
-        - [Aufgabenübersicht](#aufgabenübersicht)
+    - [Türme](#t%C3%BCrme)
+        - [Aufgabenübersicht](#aufgaben%C3%BCbersicht)
             - [Erkundungspunkte](#erkundungspunkte)
 - [NPCs](#npcs)
     - [Hauptmann Marduk](#hauptmann-marduk)
-        - [Standartsätze](#standartsätze)
+        - [Standartsätze](#standarts%C3%A4tze)
             - [Vor der Quest](#vor-der-quest)
-            - [Während der Quest](#während-der-quest)
+            - [Während der Quest](#w%C3%A4hrend-der-quest)
             - [Nach der Quest](#nach-der-quest)
-        - [Ausrüstung](#ausrüstung)
+        - [Ausrüstung](#ausr%C3%BCstung)
         - [Standort](#standort)
 - [Items](#items)
     - [Kleiner Zauber Almanach](#kleiner-zauber-almanach)
-    - [Anfänger Zwergenschild](#anfänger-zwergenschild)
-    - [Jäger Talisman](#jäger-talisman)
+    - [Anfänger Zwergenschild](#anf%C3%A4nger-zwergenschild)
+    - [Jäger Talisman](#j%C3%A4ger-talisman)
 - [Mobs](#mobs)
 - [Belohnung](#belohnung)
 - [Referenzen](#referenzen)
@@ -167,9 +167,9 @@ Keine
 
 [Reparaturarbeiten](#1.-die-erlaubnis)
 > 50 Heller  
-> 50 exp 
-> [Jäger Talisman](#jäger_talisman) - für Assassine/Waldläufer
-> [Anfänger Zwergenschild](#anfänger_zwergenschild) - für Krieger
+> 50 exp   
+> [Jäger Talisman](#jäger_talisman) - für Assassine/Waldläufer  
+> [Anfänger Zwergenschild](#anfänger_zwergenschild) - für Krieger  
 > [Kleiner Zauber Almanach](#kleiner_zauber_almanach) - für Elementarist/Kleriker
 
 ## Referenzen
