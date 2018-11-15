@@ -15,7 +15,7 @@ mobs:
     # Liste von beliebigen Namen, die ID der Mobs wird unten definiert
     zombie:
         # Pfade werden mit Punkten getrennt
-        mob: 'this.zombie-7-12'
+        mob: 'this.zombie-20-30'
         # Die Spawn Chance des Mobs in %
         # 1.0 == 100%
         chance: 1.0

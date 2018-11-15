@@ -87,3 +87,32 @@ sound:
 # Für die Konfiguration der Abilities bitte in der extra Dokumentation dafür nachsehen.
 #abilities:
 #    ...
+abilities:
+  wutanfall:
+    name: Wutanfall
+    ability: enrage
+    custom:
+      treshhold: 0.5
+      attack-increase:
+        base: 1.0
+    effects:
+      enrage:
+        name: Wutanfall
+        duration:
+          base: 30
+        interval:
+          base: 1
+        # Fähigkeiten und Effekte können wir Skills mit Visuellen Effekten verstärkt werden.
+        # Siehe dazu die Erklärung im Skills Tutorial.
+        visual-effects:
+          APPLY:
+            '1':
+              type: bukkit
+              effect: MOBSPAWNER_FLAMES
+            '2':
+              type: sound
+              effect: WOLF_GROWL
+          TICK:
+            '1':
+              type: bukkit
+              effect: MOBSPAWNER_FLAMES

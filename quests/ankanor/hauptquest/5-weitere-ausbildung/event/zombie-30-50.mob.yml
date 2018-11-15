@@ -9,7 +9,7 @@ baby: false
 # Zählt nur für Wölfe und PigZombies
 aggro: true
 # Gibt an ab welcher Entfernung der Mob den Spieler angreift.
-aggro-range: 12.0
+aggro-range: 30.0
 # Die Loot-Tabelle bestimmt was für Items der Mob mit welcher Wahrscheinlichkeit droppt.
 # Eine Standard Tabelle ist im Mob Plugin in der config.yml hinterlegt und kann hier
 # für jeden Mob überschrieben werden.
@@ -50,14 +50,14 @@ item-pickup: false
 reset-health: true
 # Bei jedem Schlag/Angriff macht der Mob zufällig in diesem Bereich Schaden.
 # Für Kritische Treffer, oder die Chance auszuweichen müssen Custom Skills hinzugefügt werden.
-min-damage: 25
+min-damage: 400
 # Wenn nicht definiert: == min-damage
-max-damage: 40
+max-damage: 890
 # Wie bei den Leben wird bei jedem Spawn zufällig ein Level gewählt.
 # Das Level hat einen Einfluss darauf wie viel Erfahrung der Mob bringt.
-min-level: 7
+min-level: 30
 # Wenn nicht definiert: == min-level
-max-level: 12
+max-level: 50
 # Alle Item IDs findet man auf: https://minecraft-ids.grahamedgecombe.com/
 equipment:
     # Hier können auch Custom Items equiped werden.
@@ -88,14 +88,31 @@ sound:
 #abilities:
 #    ...
 abilities:
-  slow:
-    name: Mächtige Präsenz
+  stun:
+    # Der Name wird dem Spieler im CombatLog angezeigt.
+    name: Schmetternder Schlag
+    # Der eindeutige Name der Fähigkeit, siehe Fähigkeiten Liste
     ability: strike
+    # Alles in der Custom Sektion wird von der Fähigkeit direkt konfiguriert.
     custom:
-      slow: true
+      stun: true
+    # Siehe dazu die Erklärung im Skills Plugin zu der "Basis Config" (Link oben)
+    damage:
+      base: 255
+    cooldown:
+      base: 20
+      level-modifier: 2.5
+    # Wie bei den Skills können Fähigkeiten Effekte auslösen.
+    # Deren Details werden dann in diesem Bereich konfiguriert.
     effects:
-      slow:
-        name: Mächtige Präsenz
+      # Hier muss der eindeutige Name des Effects stehen.
+      stun:
+        # Dieser Name wird in der Seitenleiste des Spielers angezeigt.
+        name: Zerschmettert
+        # Die Dauer in Sekunden, siehe Basis Config
         duration:
-          base: 7
-          level-modifier: 1
+          base: 10
+  knockback-resistance:
+    custom:
+      chance:
+        base: 1
