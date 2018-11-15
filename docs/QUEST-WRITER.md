@@ -40,7 +40,7 @@ Nun braucht es nur noch eine Idee, Kreativität und Motivation und schon kann ma
 
 ## Der erste Schritt - Ordnerstruktur
 
-Zunächst ist wichtig, dass man überprüft, ob es für das jeweilige Questgebietdie Ordnerstruktur schon gibt.  
+Zunächst ist wichtig, dass man überprüft, ob es für das jeweilige Questgebiet die Ordnerstruktur schon gibt.  
 
 ![](img/example_ordnerstruktur_1.png)
 
@@ -50,7 +50,7 @@ Dies ist die Ordnerstruktur der Insel Anakanor. Sie ist aufgespalten in zwei Hau
 | Ordner           | Beschreibung                                                                                                                                                                                                                               |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `/einfache-npcs` | In diesem Ordner finden sich die Dokumente wieder, die für einzelne NPCs mit simplen Konversationen gedacht sind. [Beispiel NonQuestNPC](`noch einfügen`).                                                                                 |
-| `/hauptquest`    | Hier finden sich alle Dokumente wieder die zum Hauptstrang also der Hauptquest gehören. Dies sind die wichtigsten Quest, da sie den roten Faden darstellen. [Beispiel Quest README.md](.\example-quest\README.md)                          |
+| `/hauptquest`    | Hier finden sich alle Dokumente wieder die zum Hauptstrang also der Hauptquest gehören. Dies sind die wichtigsten Quests, da sie den roten Faden darstellen. [Beispiel Quest README.md](.\example-quest\README.md)                          |
 | `/nebenquests`   | Dieser Ordner enthält alle Dateien die für Nebenquests benötigt werden, er ist wie `/hauptquest` angeordnet.                                                                                                                               |
 | `README.md`      | Hier finden wir die erste Datein im Markdown-Format welches ein Story und Quest-Entwickler geschrieben hat oder schreiben sollte. Es enthält diverse Informationen zum Questgebiet. [Beispiel Questgebiet.md](../quests/ankanor/README.md) |
 
@@ -66,7 +66,7 @@ Wie hier zu sehen haben die Ordner eine fortlaufende Nummer folgend des Questnam
 
 ## Zweiter Schritt - Markdown Datei schreiben
 
-Grundsätzlich sollen alle Markdown Dateien die entworfene Quest enthalten den selben aufbau haben. 
+Grundsätzlich sollen alle Markdown Dateien die entworfene Quest enthalten den selben Aufbau haben. 
 
 Nachfolgend nun die einzelnen Punkte mit einer kurzen Beschreibung über den Inhalt des Punktes und teilweise mit Beispielen.
 
@@ -80,23 +80,23 @@ Dem Titel der Quest folgt eine kurze Inhaltsangabe der Quest. Außerdem wird noc
 
 
 ## Ablauf
-Dieser Punkt ist Optional, da die kurze Inhaltsangabe beim Titel der Quest und die Aufgaben schon viel infos geben ist es nicht von Nöten den Ablauf noch mit einzufügen.
+Dieser Punkt ist optional, da die kurze Inhaltsangabe beim Titel der Quest und die Aufgaben schon viel Infos geben ist es nicht von Nöten, den Ablauf noch mit einzufügen.
 
-1. Der Ablauf sollte in Aufzählungspunkten schritt für schritt erklären was passiert.
+1. Der Ablauf sollte in Aufzählungspunkten Schritt für Schritt erklären was passiert.
 2. Auch ist es möglich gleich die einzelnen [NPCs](#npcs) und [Mobs](#mobs) zu verlinken.
-3. Das ganze soll vom annähern am NPC bis hin zum erhalten der Belohnung in kurzen Sätzen beschrieben werden. 
+3. Das ganze soll vom Annähern am NPC bis hin zum Erhalten der Belohnung in kurzen Sätzen beschrieben werden. 
 
 ## Vorraussetzungen
 
-Dieser Punkt ist sehr wichtig! Hier sollen alle Vorraussetzungen, also alle Quest die vorher gemacht werden sollen, Level die erreicht werden sollten, Items die bei sich geführt werden sollten oder sonst jegliche Vorraussetzung die von nöten ist, aufgeführt werden. Auch mit Querverlinkungen zu Quest und der gleichen.
+Dieser Punkt ist sehr wichtig! Hier sollen alle Vorraussetzungen, also alle Quest die vorher gemacht werden sollen, Level die erreicht werden sollten, Items die bei sich geführt werden sollten oder sonst jegliche Vorraussetzung die vonnöten ist, aufgeführt werden. Auch mit Querverlinkungen zu Quest und dergleichen.
 
 ## Aufgaben
 
 ### 1. Aufgabentitel
 
-Der Questdialog ist wohl wohl der Teil der am kompliziertesten und unübersichtlichsten der ganzen Markdown sein kann. Dies hängt aber auch davon ab wie kompliziert und ausführlich der Questentwurf selbst ist.
+Der Questdialog ist wohl der Teil, der am kompliziertesten und unübersichtlichsten der ganzen Markdown sein kann. Dies hängt aber auch davon ab wie kompliziert und ausführlich der Questentwurf selbst ist.
 
-Nachfolgend des Questnamens ist meistens ein kurzer Dialog zu finden welcher in der Questannahme beziehungsweise ablehnung endet. 
+Nach dem Questnamen ist meistens ein kurzer Dialog zu finden welcher in der Questannahme beziehungsweise -ablehnung endet. 
 
 ![](img/example_quest_dialog_1.png)
 
@@ -105,9 +105,9 @@ Sobald eine Entscheidung getroffen werden kann sind diese wie folgt darzustellen
 ![](img/example_quest-dialog_2.png)
 
 1. Lässt den Spieler die Quest annehmen und bekommt noch ein "Viel Glück" vom NPC hinterher.
-2. Lässt wiedrunm das Gespräch ohne Questannahme beenden.
+2. Lässt wiederum das Gespräch ohne Questannahme beenden.
 
-Das selbe Prinzip gilt auch wenn der Spieler zurück zum NPC kommt und die Quest abgibt. Dies kann wie gesagt kompliziert werden wenn mehrere NPCs involviert sind, da diese ja auch getrennt sind, wenn man aber gut verlinkt etc. kann das viel Spaß machen so eine Komplizierte Quest zu schreiben.
+Das selbe Prinzip gilt auch wenn der Spieler zurück zum NPC kommt und die Quest abgibt. Dies kann wie gesagt kompliziert werden wenn mehrere NPCs involviert sind, da diese ja auch getrennt sind, wenn man aber gut verlinkt etc. kann das viel Spaß machen so eine komplizierte Quest zu schreiben.
 
 ## NPCs
 
@@ -115,11 +115,11 @@ Unter NPCs finden sich alle NonPlayerCharaktere wieder die für die Quest releva
 
 ### Angunt
 
-Dem NPC Namen folgt eine Beschreibung des Charakters, hier können auch Fähigkeiten, Eigenschaften und Charakterzüge auftauchen. Umso mehr er beschrieben ist, umso besser auch für die Questgestaltung und die spätere implementierung ins Story Wiki etc.
+Dem NPC Namen folgt eine Beschreibung des Charakters, hier können auch Fähigkeiten, Eigenschaften und Charakterzüge auftauchen. Umso mehr er beschrieben ist, umso besser auch für die Questgestaltung und die spätere Implementierung ins Story Wiki etc.
 
 #### Standartsätze  
 
-Standartsätze sind sind einfache Sätze die der NPC von sich gibt wenn man ihn anspricht. Diese Sätze sollten im Regelfall einen Teil der Geschichte der Welt, seine Story, Questhinweise oder sonstige interessanten Dinge beinhalten. 
+Standartsätze sind sind einfache Sätze die der NPC von sich gibt wenn man ihn anspricht. Diese Sätze sollten im Regelfall einen Teil der Geschichte der Welt, seine Story, Questhinweise oder sonstige interessante Dinge beinhalten. 
 Diese Dialoge können zu drei unterschiedlichen Zeiten passieren.
 
 ##### Vor der Quest
@@ -129,8 +129,8 @@ Diese Dialoge können zu drei unterschiedlichen Zeiten passieren.
 1. Zu diesem Zeitpunkt ist es meist interessant wenn man dem Spieler Informationen oder Hinweise zur vom NPC gegebenen Quest gibt.
 
 ##### Nach der Quest
-1. Das erfolgreiche Abschließen der Quest kann ihn Sätze führen die den Spieler an dieser erinnern wenn er den NPC noch mal anspricht.
-2. Aber es kann auch unterschiedliche Dialoge geben, je nachdem wie der Spieler die Quest abgeschlossen hat, wenn es mehrere möglichkeiten gab bei den Entscheidungen.
+1. Das erfolgreiche Abschließen der Quest kann zu Sätzen führen, die den Spieler an diese erinnern, wenn er den NPC noch mal anspricht.
+2. Aber es kann auch unterschiedliche Dialoge geben, je nachdem wie der Spieler die Quest abgeschlossen hat, wenn es bei den Entscheidungen mehrere Möglichkeiten gab.
     
 #### Ausrüstung
 
@@ -148,7 +148,7 @@ Unter Items finden sich alle Items wieder die verwendet werden. Neue Items werde
 
 ### Itemname
 
-Nach dem exakten namen des Items folgt eine kurze Beschreibung des Items, ob es dropt oder verkauft wird, bzw. die relation zur Quest und wenn das Item schon vorhanden ist folgt die ID des Items. Des Weiteren folgt bei neuen Items eine Auflistung von Parametern in einem bestimmten Format.
+Nach dem exakten Namen des Items folgt eine kurze Beschreibung des Items, ob es dropt oder verkauft wird, bzw. die Relation zur Quest und wenn das Item schon vorhanden ist folgt die ID des Items. Des Weiteren folgt bei neuen Items eine Auflistung von Parametern in einem bestimmten Format.
 
 ![](img/example_itemname.png)
 
@@ -156,11 +156,11 @@ Sollte es mehr als ein Item geben wird jedes einzelne getrennt angegeben.
 
 ## Mobs
 
-Wie schon bei den Items finden sich hier alle in der Quest vorkommenden Mobs wieder. Ist der Mob schon vorhanden ist der Name und eine Referenz anzugeben wo der Mob schon mal verwendet worden ist.
+Wie schon bei den Items finden sich hier alle in der Quest vorkommenden Mobs wieder. Ist der Mob schon vorhanden ist der Name und eine Referenz anzugeben, wo der Mob schon mal verwendet worden ist.
 
 ### Mobname
 
-Dem Mobnamen folgt in einem bestimmten Format einige Parameter. Zu beginn sind diese noch spekulativ einzutragen, mit der Zeit allerdings wird es gewisse Vorgaben bzw. Vorlagen geben zu welchem Zeitpunkt welche Parameter nicht über bzw. unterschritten werden sollten.
+Dem Mobnamen folgen in einem bestimmten Format einige Parameter. Zu Beginn sind diese noch spekulativ einzutragen, mit der Zeit allerdings wird es gewisse Vorgaben bzw. Vorlagen geben zu welchem Zeitpunkt welche Parameter nicht über bzw. unterschritten werden sollten.
 
 ![](img/example_mobparameter.png)
 
@@ -170,7 +170,7 @@ Unter diesem Punkt kann angegeben werden, sofern dieser Art von Anpassung mögli
 
 ## Belohnung
 
-In den Belohungen finden sich alle dinge wieder die der Spieler erhält wenn er die Quest abschließt. Hier ist alles möglich was die kreativität hergibt, doch es sollte im Regelfall einen Zweck dienen. Hinweis: Wenn hier Items vorkommen auch diese bitte hier mit ID angeben oder sollten sie hier angelegt worden sein zum jeweiligen Item verlinken.
+In den Belohungen finden sich alle Dinge wieder, die der Spieler erhält wenn er die Quest abschließt. Hier ist alles möglich was die Kreativität hergibt, doch es sollte im Regelfall einen Zweck dienen. Hinweis: Wenn hier Items vorkommen auch diese bitte hier mit ID angeben oder sollten sie hier angelegt worden sein zum jeweiligen Item verlinken.
 
 Und hey, für das Lesen dieses Markdowns erhälst auch du was.
 > 250 Ruf bei `Gott TheFum`  
@@ -179,7 +179,7 @@ Und hey, für das Lesen dieses Markdowns erhälst auch du was.
 
 ## Referenzen
 
-Unter den Referenzen können diverse dinge angegeben werden. Verlinkungen zu wichtigen Quests die hiermit zu tun haben, Forenbeiträge, die IssueID im Git, Karten, etc.  
+Unter den Referenzen können diverse Dinge angegeben werden. Verlinkungen zu wichtigen Quests die hiermit zu tun haben, Forenbeiträge, die IssueID im Git, Karten, etc.  
 Ich werde ein paar Links da lassen.
 
 * [Beispiel Quest](../quests/ankanor/nebenquest/5-hilf-dem-lagerarbeiter/README.md) - Die von mir verwendete Quest für die Beispiele.
@@ -192,12 +192,12 @@ Ich werde ein paar Links da lassen.
 
 ## Issues
 
-Dieses Wort ist dir vielleicht schon das ein oder andere mal untergekommen, hier oder auch in anderen Dokumenten. Wir nutzen die Issues zur Dokumentation des Prozesses der gesamten Quest-Entwicklung, von der Idee bis zum aufspielen auf den Live-Server.  
+Dieses Wort ist dir vielleicht schon das ein oder andere mal untergekommen, hier oder auch in anderen Dokumenten. Wir nutzen die Issues zur Dokumentation des Prozesses der gesamten Quest-Entwicklung, von der Idee bis zum Aufspielen auf den Live-Server.  
 Unter den Issues gibt es eine Kommentarfunktion sodass man auch direkt darüber kommunizieren kann wenn Fragen, Hinweise oder dergleichen auftauchen.
 
 ### Erstellen eines Issues
 
-Wichtig ist das sollte es beim erstellen der Ordnerstruktur, bzw. des ersten Entwurfes kein Eintrag im Issue-Board zu der Quest geben, ist dieser anzulegen.
+Wichtig ist das sollte es beim Erstellen der Ordnerstruktur, bzw. des ersten Entwurfes kein Eintrag im Issue-Board zu der Quest geben, ist dieser anzulegen.
 
 1. Hierzu einfach auf `New Issue` klicken.
 2. Bei `Choose Template` Quest auswählen, dies gibt euch schon die die angelegte Vorlage für die Issues welche ihr nur noch ausfüllen müsst.
