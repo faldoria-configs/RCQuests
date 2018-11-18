@@ -138,9 +138,18 @@ world: faldoria
 
 ## Mobs
 ### Mobname
+Wolf
 #### Ausrüstung
 
 ## Belohnung
+
+[Besessene Wölfe](#besessene-woelfe)
+
+> 10 Heller
+> 10 XP
+> Item: Schwarze Lederjacke, Itemname: Umhang aus Wolfspelz
+
+
 
 ## Referenzen
 
