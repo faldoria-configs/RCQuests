@@ -110,7 +110,7 @@ Spieler: Ja, nun sag mir schnell noch mal, wo ich die Puppe finde.
 
  - Skin eines kleinen Mädchens, 
  - hält in der Hand:  ein Plätzchen
- ----> vor der Questabgabe : Plätzchen, danach Puppe? dazu bräuchte es aber Phasing, oder?)
+ ----> vor der Questabgabe : Plätzchen, danach Puppe? Dazu bräuchte es aber Phasing, oder?)
 
 
  #### Standort
