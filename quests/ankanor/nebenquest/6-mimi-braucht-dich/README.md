@@ -3,7 +3,7 @@
 
 ## Ablauf
 
-1. Der Spieler trifft auf Mimi, ein 10-jhriges Waisenkind, das ihn anspricht und um Hilfe bittet
+1. Der Spieler trifft auf Mimi, ein 10-jähriges Waisenkind, das ihn anspricht und um Hilfe bittet.
 2. Er soll Mimis Puppe aus dem höchsten Haus auf Ankanor holen.
 3. Der Spieler tut das und erfährt als Belohnung ein 'Geheimnis'
 
@@ -70,7 +70,7 @@ Mimi looks like a nice, though dirty little girl, just as you would imagine any 
 
 --> Übersetzung folgt noch. 
 
-Nur zum Ansehen: https://i.imgur.com/KRhnMRN.jpg
+Nur zur Visualisierung: https://i.imgur.com/KRhnMRN.jpg
 
 
 
@@ -79,19 +79,17 @@ Nur zum Ansehen: https://i.imgur.com/KRhnMRN.jpg
 #### Während der Quest
 
 
----> falls die Quest angenommen wurde:
-
 1. Hast du meine Puppe schon?
 2. Hey, wo bleibt meine Puppe!
-3. <Name des Spielers>, du schaffst das!
-4. <Name des Spielers>, du wirst doch nicht ein kleines Mädchen enttäuschen!
+3. < Name des Spielers >, du schaffst das!
+4. < Name des Spielers >, du wirst doch nicht ein kleines Mädchen enttäuschen!
 
 
 
 #### Nach der Quest
 
 1. Na, was macht mein Held? 
-2. Hey <Name des Spielers> Keine Angst, ich gehe schon rechtzeitig zum Schiff, du bist ja auch noch da. 
+2. Hey < Name des Spielers > Keine Angst, ich gehe schon rechtzeitig zum Schiff, du bist ja auch noch da. 
 
 
 +++++
