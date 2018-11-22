@@ -1,7 +1,0 @@
-objective:
-  start: '%s: %s'
-action:
-  quest:
-    start:
-      no-permission: Du hast nicht das Recht Quests zu starten!
-quest-item-pickup: Du hast ein Quest Item aufgenommen (%s). Öffne dein Quest Inventar mit /qi.
