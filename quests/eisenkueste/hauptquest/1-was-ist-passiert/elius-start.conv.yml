@@ -1,0 +1,25 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text.player "Hallo du, ich bin %player, wer bist du?"'
+        - '~2s'
+        - '!text "Oh ein Fremder, was macht ihr denn hier in der Wildnis? Ich bin Elius und ich bin hier notgelandet."'
+        - '~4s'
+        - '!text.player "Notgelandet? Ach, seid ihr auch schiffbrüchig so wie ich und meine Leute?"'
+        - '~3s'
+        - '!text "Kann man so sagen. Mein Ballon hat einen Riss, aber vielleicht könntet ihr mir helfen. Ich bin alt und nicht mehr so fit."'
+        - '!objective.complete this.was-ist-passiert 2'
+        - '~5s'
+        - '!text.player "Wie kann ich euch denn helfen?"'
+        - '~2s'
+        - '!stage help'
+  elius:
+    text: 'Ich brauche ein paar Materialien, ich erkläre Euch genau was ich brauche und wo Ihr es wahrscheinlich finden könnt.'
+    answers:
+      flow:
+        - ':"Ok, ich helfe gerne."'
+        - '!conversation.start ../2-reparaturarbeiten ../elius'
+        - ':"Ich muss aber erst mal Hauptmann Marduk Bericht erstatten."'
+        - '!text "Ok, dann hoffe ich, dass ihr bald wieder hier seid."'
+        - '!tag eisenkueste.duty-start'

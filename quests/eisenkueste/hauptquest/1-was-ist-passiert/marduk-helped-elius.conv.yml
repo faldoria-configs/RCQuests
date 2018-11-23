@@ -1,0 +1,12 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Da bist du ja wieder! Hast du die Quelle des Lichts gefunden?"'
+        - '!text.player "Das habe ich. Es handelte sich dabei um einen abgestürzten Ballon. Der Pilot und ich haben ihn wieder repariert."'
+        - '!text "Was ist ein Ballon?"'
+        - '!text.player "Ein Schiff, das in der Luft fährt. Er hat mir auch angeboten, da wir ja mehr über dieses Land herausfinden wollen, dass er mich mitnimmt. Das wäre phantastisch, bitte lasst mich mit."'
+        - '!text "Ein Schiff, das in der Luft fährt, das klingt so als würden wir echt mehr erfahren müssen. Es ist ein großzügiges Angebot, dich mitzunehmen."'
+        - '!text.player "Also kann ich mit ihm mit?"'
+        - '!text "Nun denn, du hast meine Erlaubnis. Ziehe als Botschafter unseres Volkes los und finde mehr über dieses Land heraus."'
+        - '!text.player "Danke, Hauptmann!"'

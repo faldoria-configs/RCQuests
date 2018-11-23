@@ -1,0 +1,6 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Ihr solltet nicht hier sein, dies ist ein verlassener Ort."'
+        - '!text "Im Moment kann ich nichts für Euch tun, vielleicht später."'
