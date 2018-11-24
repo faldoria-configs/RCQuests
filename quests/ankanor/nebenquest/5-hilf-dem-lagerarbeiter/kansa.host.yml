@@ -1,5 +1,6 @@
 name: Kansa
 default-conv: this.kansa.default
+disguise: Kansa
 location:
   x: 85
   y: 84

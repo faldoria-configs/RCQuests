@@ -3,6 +3,7 @@ type: NPC
 health: 100
 attackable: false
 friendly: true
+disguise: Lious
 location:
   world: ankanor
   x: 8

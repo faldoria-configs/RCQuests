@@ -1,8 +1,9 @@
-name: Syjin
+name: Sijin
 type: NPC
 health: 100
 attackable: false
 friendly: true
+disguise: Sijin
 equipment:
   hand: SHOVEL
 location:
@@ -10,5 +11,5 @@ location:
   x: -22
   y: 81
   z: 101
-default-conv: faldoria.ankanor.einfache-npcs.syjin.syjin.default
+default-conv: this.sijin.default
 talk-close: false

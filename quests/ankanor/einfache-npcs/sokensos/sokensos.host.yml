@@ -3,6 +3,7 @@ type: NPC
 health: 100
 attackable: false
 friendly: true
+disguise: Sokensos
 equipment:
   hand: SHEARS
 location:
@@ -10,5 +11,5 @@ location:
   x: 72
   y: 82
   z: -26
-default-conv: faldoria.ankanor.einfache-npcs.sokensos.sokensos.default
+default-conv: this.sokensos.default
 talk-close: false

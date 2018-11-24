@@ -3,11 +3,11 @@ type: NPC
 health: 100
 attackable: false
 friendly: true
-equipment:
+disguise: Lutz
 location:
   world: ankanor
   x: 92
   y: 82
   z: -24
-default-conv: faldoria.ankanor.einfache-npcs.lutz.lutz.default
+default-conv: this.lutz.default
 talk-close: false
