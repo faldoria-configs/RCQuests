@@ -1,0 +1,16 @@
+name: Hauptmann Marduk
+desc: Er schimpft sich zwar Hauptmann, es gibt aber eigentlich keine richtigen Truppen bei den Kaishi. Marduk ist ein sehr entspannter Typ, er hat keine Kampferfahrungen, soll sich aber um die Verteidigung kümmern.
+look-close: true
+disguise: Marduk
+equipment:
+    # Hier können auch Custom Items equiped werden.
+    # Der Schaden von Custom Waffen wird verwendet!
+    hand: minecraft:stone_axe
+    chest: minecraft:leather_chestplate
+    legs: minecraft:leather_leggings
+    boots: minecraft:leather_boots
+location:
+  x: 3645
+  y: 63
+  z: -2829
+  world: faldoria

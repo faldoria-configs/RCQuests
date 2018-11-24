@@ -1,0 +1,63 @@
+name: Was ist passiert?
+region: eisenkueste
+locked: false
+abortable: false
+authors:
+  - TheFum (QS)
+  - Silthus (QD)
+worlds:
+  - faldoria
+level: 3
+
+default-convs:
+  not-started:
+    convs:
+      - '../elius:this.elius-quest-notstarted'
+  active:
+    convs:
+      - '../marduk:this.marduk-quest-active'
+  completed:
+    convs:
+      - '../marduk:this.marduk-quest-completed'
+      
+start-trigger:
+  flow:
+    - '@world.enter eisenkueste' # eisenkueste bezieht sich hier auf die location
+    - '!blind 5s'
+    - '?tag ankanor.event.survivor'
+    - '+!conversation.start this.survivor-start-quest'
+    - '-!conversation.start this.start-quest'
+
+objectives:
+  '1':
+    name: 'Sprich mit Hauptmann Marduk'
+    desc: 'Gehe zu Hauptmann Marduk und frage ihn was passiert ist, warum ihr nun an einer Küste seid.'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.proximity host:../marduk radius:5 conv:this.marduk-was-ist-passiert'
+  '2':
+    name: 'Erkunde die Umgebung'
+    desc: 'Erkunde die Gegend und schau dir das Licht am Berg im Westen an. Finde heraus ob dort jemand lebt.'
+    hidden: true
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../elius this.elius-start'
+  '3':
+    name: 'Erstatte Hauptmann Marduk Bericht'
+    desc: 'Kehre zum Lager der Kaishi an der Küste zurück und erstatte Hauptmann Marduk Bericht.'
+    hidden: true
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../marduk'
+        - '?tag eisenkueste.duty-start'
+        - '+!conversation.start this.marduk-duty ../marduk'
+        - '-!conversation.start this.marduk-helped-elius ../marduk'
+
+complete-actions:
+  flow:
+    - '!player.give.item this.steak amount:10'
+    - '!player.money.add 2 Quest'
+    - '!quest.start ../2-vorraete-fuer-das-schiff.vorraete'

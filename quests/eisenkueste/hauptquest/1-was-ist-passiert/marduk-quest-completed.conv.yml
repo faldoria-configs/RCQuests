@@ -1,0 +1,5 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Ich hoffe, dass man diesem Elius vertrauen kann."'

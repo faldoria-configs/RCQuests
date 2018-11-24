@@ -3,33 +3,33 @@
 Der Spieler kommt auf die ein oder andere Weise an und bekommt nach einem inneren Monolog die Quest [Was ist passiert?](#1.-was-ist-passiert?). Hierbei soll der Spieler Hauptmann Marduk ansprechen um mehr zu erfahren.
 Nachdem der Spieler das erste Mal mit Marduk in der HQ - Was ist passiert gesprochen hat, bekommt er von ihm den Auftrag die Gegend zu erkunden insbesondere das Licht was Marduk sah. Er findet Elius und spricht mit ihm.
 
-- [Vorrausetzungen](#vorrausetzungen)
-    - [TAG-1](#tag-1)
-    - [TAG-2](#tag-2)
-- [Aufgaben](#aufgaben)
-    - [1. Was ist passiert?](#1-was-ist-passiert)
-        - [Möglichkeit 1 aus HQ Weitere Ausbildung](#möglichkeit-1-aus-hq-weitere-ausbildung)
-        - [Möglichkeit 2 aus HQ Weitere Ausbildung](#möglichkeit-2-aus-hq-weitere-ausbildung)
-    - [2. Erkunde die Umgebung](#2-erkunde-die-umgebung)
-- [NPCs](#npcs)
-    - [Hauptmann Marduk](#hauptmann-marduk)
-        - [Standartsätze](#standartsätze)
-            - [Vor der Quest](#vor-der-quest)
-            - [Während der Quest](#während-der-quest)
-            - [Nach der Quest](#nach-der-quest)
-        - [Ausrüstung](#ausrüstung)
-        - [Standort](#standort)
-    - [Elius](#elius)
-        - [Standartsätze](#standartsätze)
-            - [Vor der Quest](#vor-der-quest)
-            - [Während der Quest](#während-der-quest)
-            - [Nach der Quest](#nach-der-quest)
-        - [Ausrüstung](#ausrüstung)
-        - [Standort](#standort)
-- [Items](#items)
-- [Mobs](#mobs)
-- [Belohnung](#belohnung)
-- [Referenzen](#referenzen)
+* [Vorrausetzungen](#vorrausetzungen)
+    * [TAG-1](#tag-1)
+    * [TAG-2](#tag-2)
+* [Aufgaben](#aufgaben)
+    * [1. Was ist passiert?](#1-was-ist-passiert)
+        * [Möglichkeit 1 aus HQ Weitere Ausbildung](#möglichkeit-1-aus-hq-weitere-ausbildung)
+        * [Möglichkeit 2 aus HQ Weitere Ausbildung](#möglichkeit-2-aus-hq-weitere-ausbildung)
+    * [2. Erkunde die Umgebung](#2-erkunde-die-umgebung)
+* [NPCs](#npcs)
+    * [Hauptmann Marduk](#hauptmann-marduk)
+        * [Standartsätze](#standartsätze)
+            * [Vor der Quest](#vor-der-quest)
+            * [Während der Quest](#während-der-quest)
+            * [Nach der Quest](#nach-der-quest)
+        * [Ausrüstung](#ausrüstung)
+        * [Standort](#standort)
+    * [Elius](#elius)
+        * [Standartsätze](#standartsätze-1)
+            * [Vor der Quest](#vor-der-quest-1)
+            * [Während der Quest](#während-der-quest-1)
+            * [Nach der Quest](#nach-der-quest-1)
+        * [Ausrüstung](#ausrüstung-1)
+        * [Standort](#standort-1)
+* [Items](#items)
+* [Mobs](#mobs)
+* [Belohnung](#belohnung)
+* [Referenzen](#referenzen)
 
 ## Vorrausetzungen
 
@@ -40,8 +40,8 @@ ankanor.event.survivor -
 Bekommt der Spieler wenn er den [Ankanor Event](../../../ankanor/hauptquest/5-weitere-ausbildung#2-verteidige-ankanor) ohne zu sterben überlebt.
 
 ### TAG-2
-eisenkueste.duty - Bekommt der Spieler wenn er anstatt `Elius` zu helfen nochmal zum Camp zurückkehrt und dort aushilft.
-
+eisenkueste.duty-start - Bekommt der Spieler wenn er `Elius` sagt er will nochmal zum Camp zurückkehrt und dort aushelfen.
+eisenkueste.duty - Bekommt der Spieler wenn er anstatt `Elius` zu helfen tatsächlich nochmal zum Camp zurückkehrt und dort aushilft.
 
 ## Aufgaben
 
@@ -126,7 +126,8 @@ Elius: Ich brauche ein paar Materialien, ich erkläre Euch genau was ich brauche
 ```yml
 Elius: Ok, dann hoffe ich, dass ihr bald wieder hier seid.
 ```
-> Vergabe [TAG-2:](#tag-2) eisenkueste.duty
+
+> Vergabe [TAG-2:](#tag-2) eisenkueste.duty-start
 
 **Weiter nach #1:**
 
@@ -151,6 +152,8 @@ Spieler: Danke, Hauptmann!
 Weiter bei [HQ Die Erlaubnis](../3-die-erlaubnis/README.md)
 
 **Weiter nach #2:**
+
+> Vergabe [TAG-2:](#tag-2) eisenkueste.duty
 
 ```yml
 Marduk: Da bist du ja wieder! Hast du die Quelle des Lichts gefunden?

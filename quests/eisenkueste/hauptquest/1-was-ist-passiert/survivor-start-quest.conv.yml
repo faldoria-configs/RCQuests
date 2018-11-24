@@ -1,0 +1,11 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text.player "Warum sind wir an Land? Was ist passiert? Bin ich tot?"'
+        - '~5s'
+        - '!text.player "Nein, es muss was anderes sein. Das ist ein Camp. Was ist nur auf dem Meer passiert? Eben lag ich noch in meiner Koje und nun bin ich hier irgendwo an Land."'
+        - '~5s'
+        - '!text.player "Ist das da hinten Hauptmann Marduk? Der weiß sicher was passiert ist."'
+        - '~2s'
+        - '!quest.start this.was-ist-passiert'
