@@ -5,9 +5,11 @@ attackable: false
 friendly: true
 disguise: Lewis
 location:
-  world: ankanor
   x: -57
   y: 83
   z: -22
+  world: Ankanor
 default-conv: this.lewis.default
 talk-close: false
+equipment:
+  hand: minecraft:stone_hoe

@@ -1,0 +1,7 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Arbeit, Arbeit!"'
+        - '!text "Hau ab und lass mich in Ruhe!"'
+        - '!text "Geh arbeiten du fleißiges Bienchen..."'
