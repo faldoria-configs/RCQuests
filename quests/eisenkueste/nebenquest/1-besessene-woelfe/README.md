@@ -41,15 +41,8 @@ Hauptmann Marduk: Wenn du nicht auch noch beinahe gefressen werden willst, hörs
 **Weiter nach #1, #3, #4:**
 
 ```yml
-Hauptmann Marduk: Hörzu:Ich habe kein Problem mit Tieren, aber wenn sie eins mit mir haben, ist das sehr wohl ein Problem! 
-```
-```yml
-Hauptmann Marduk: Pass auf, normalerweise halten sich fast alle Viecher von uns fern. Aber hier gibt es Wölfe, die nicht zögern jeden anzugreifen, der ihnen zu nahe kommt. Wer weiß ob da nicht Magie im Spiel ist.
-```
-
-> Und ich soll die Wölfe jetzt töten, natürlich. Wo finde ich sie?
-
-```yml
+Hauptmann Marduk: Hörzu:Ich habe kein Problem mit Tieren, aber wenn sie eins mit mir haben, ist das sehr wohl ein Problem! Normalerweise halten sich fast alle Viecher von uns fern. Aber hier gibt es Wölfe, die nicht zögern jeden anzugreifen, der ihnen zu nahe kommt. Wer weiß ob da nicht Magie im Spiel ist.
+Spieler: Und ich soll die Wölfe jetzt töten, natürlich. Wo finde ich sie?
 Hauptmann Marduk: Ein Stück südwestlich von hier im Wald ist ein alter Schrein an einer eingestürzten Brücke. Dort in der Nähe haben sie mich schon einmal angegriffen. Schau am besten dort. 
 ```
 
@@ -116,7 +109,7 @@ Er nennt sich zwar Hauptmann, es gibt aber eigentlich keine richtigen Truppen be
        Marduk: Ein Stück südwestlich von hier im Wald ist ein alter Schrein an einer eingestürzten Brücke. Dort in der Nähe.
 
 **Nach der Quest**  
-1. Noch nicht genug vom Wölfe jagen? Wie kann man Emotes hinzufügen wie - lacht laut?
+1. Noch nicht genug vom Wölfe jagen? - lacht laut -
 2. Ah, sieh da, unser Wolfsjäger! 
 
 #### Ausrüstung
