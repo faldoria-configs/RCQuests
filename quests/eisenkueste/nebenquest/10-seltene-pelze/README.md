@@ -1,12 +1,5 @@
 # Seltene Pelze
 
-
-
-
-
-
-
-
 QuestreihenAuslöser: Svein (x= 3525, y= 103, z= -2946)
 QuestName: Seltene Pelze
 
@@ -22,6 +15,7 @@ NPC: Es gibt hier Wölfe deren Pelz bei Mondschein schimmert und der Pelz der Ei
 Spieler: Das klingt interessant. 
 NPC: Könntet ihr für mich ein paar Pelze sammeln gehen?
 Spieler: Ich werde es versuchen. / Ich denke das schafft ihr alleine, ich habe anderes zu tun.
+
 
 
 Quest Angenommen: Seltene Pelze

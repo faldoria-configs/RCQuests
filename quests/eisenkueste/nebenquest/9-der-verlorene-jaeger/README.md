@@ -55,19 +55,18 @@ Spieler: Aber?
 Svein: Ich kann gut schießen! Sehr gut! Aber keine Eisen Bergkatzen, auch keine Schimmerwölfe, ich finde sie viel zu schön... ich mag ihre Pelze auch nicht tragen..
 Spieler: Da hast du ein Problem. Und was willst du nun tun?
 *Sven schaut bittend zu dir hin*
-Svein: Du könntest die Bergkatzen für mich töten, das ist zwar auch nicht viel besser, aber - ich bring's nicht über's Herz.
+Svein: Du könntest die Bergkatzen und Schimmerwölfe für mich töten und die Pelze besorgen? Das ist zwar auch nicht viel besser, aber - ich bring's nicht über's Herz und ohne traue ich mich nicht zu meinem Vater zurück. Ich belohne dich auch dafür!
 ```
 
-> 1.
+> 1. Spieler: Nein, diese Aufgabe kann ich dir nicht abnehmen. Da musst du durch. Entweder töte sie, oder gestehe deinem Vater, dass du es nicht tun kannst.
 ```yml
- Spieler: Nein, diese Aufgabe kann ich dir nicht abnehmen. Da musst du durch. Entweder töte sie, oder gestehe deinem Vater, dass du es nicht tun kannst. 
      Svein: Würdest du mich zu meinem Vater begleiten? Dann fällt es mir vielleicht leichter, mit ihm darüber zu sprechen. 
          1.1 Spieler: Nein, da musst du alleine durch. Ich gehe jetzt zu deinem Vater zurück und sage ihm, dass ich dich gefunden habe und du bald kommst. `[Ende]`
          1.2 Ja, komm, wir gehen zusammen hin. 
          
 ```
 
-Weiter mit 1.1:
+**Weiter mit 1.1:**
 
 Spieler geht alleine zu Kalbert und berichtet:
 ```yml
@@ -84,7 +83,7 @@ Kalbert: Vielen Dank.
 ``` 
 `[Ende]` 
 
-Weiter mit 1.2. 
+**Weiter mit 1.2.** 
 
 Spieler geht mit Svein mit um mit dem Vater zu reden.
 
@@ -104,7 +103,31 @@ Svein: Ja Vater, deine Erwartungen in mich waren so hoch und ich wollte dich nic
 Kalbert: Nun gut, ich werde damit leben müssen, dass...  ach was ... ich sollte Euch eine Belohnung dafür geben, dass Ihr Svein gesucht habt. Nehmt dies, er wird es nicht haben wollen. 
 Spieler: Habt Dank!
 ```
-[Ende]`
+`[Ende]`
+
+> 2.  Spieler: Du machst es dir leicht, aber ich will dir die Pelze besorgen. Warte hier, bis ich wieder komme. 
+
+`[QUESTSTART]`[Seltene Pelze](#seltene-pelze)
+
+> **Questlog** *Töte Schimmerwölfe und Bergkatzen und bringe Svein jeweils 7 ihrer Pelze. Die Bergkatzen sind an den westlichen Berghängen oder Plateaus, bis zur Höhe des Ballons. Die Wölfe tummeln sich im Wald.*
+
+Spieler sammelt alle Pelze und geht zu Svein zurück. 
+
+```yml
+Spieler: Svein, ich bin zurück.
+Svein: Hast du die Pelze?
+Spieler: Ja, obwohl es mir auch schwer gefallen ist, die Eisen-Bergkatzen haben eine wunderbare Zeichnung. Was tust du jetzt, gehst du zurück zu deinem Vater und tust so, als ob du die Pelze gesammelt hast, die Tiere getötet?
+Svein: Was bleibt mir anderes übrig? Ich will seinen Respekt und seine Zuneigung nicht verlieren. DankIch bin sehr froh, dass du mir geholfen hast, hier, nimm das als Dank.
+Spieler: Willst du dir es nicht nochmals überlegen?
+```
+> 1. Svein: Nein, geh du zu meinem Vater und sage ihm, dass ich gleich komme. 
+
+`[Ende]`
+
+
+
+
+
 
 
 
