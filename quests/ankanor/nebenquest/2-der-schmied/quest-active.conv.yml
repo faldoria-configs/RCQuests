@@ -1,0 +1,5 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Du bist ja noch immer hier, beeil dich und hol mir die Materialien für die Schmiede."'

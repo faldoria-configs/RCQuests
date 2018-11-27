@@ -1,0 +1,12 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text.player "Ältester Jamos ich soll mich bei dir melden für die weitere Ausbildung."'
+        - '~2s'
+        - '!text "Waaas? Du willst etwas hören über die Helden der Graupilzburg? Was ist das denn?"'
+        - '~2s'
+        - '!text.player "Oh mann."'
+        - '~2s'
+        - '!text "Junger Mann, das war ein Scherz! Deine weitere Ausbildung besteht nun darin den Bewohnern der Insel zu helfen. Du bist nun ein Kaishi mit besonderen Fähigkeiten, nutze sie!"'
+        - '!objective.complete this.weitere-ausbildung 1'

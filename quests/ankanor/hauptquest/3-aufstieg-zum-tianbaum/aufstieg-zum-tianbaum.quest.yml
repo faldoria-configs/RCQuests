@@ -1,0 +1,40 @@
+name: "Aufstieg zum Tianbaum"
+desc: "Folge den Weg um den Tianbaum herum auf die andere Seite, triff den Wächter des Heiligtums und steige den Tianbaum hinauf um deinen Pfad des Kampfes zu wählen."
+region: ankanor
+locked: false
+abortable: false
+authors:
+  - TheFum (QS)
+  - Silthus (QD)
+worlds:
+  - ankanor
+level: 1
+
+start-trigger:
+  flow:
+    - '@host.proximity this.waechter,7'
+    - '!player.freeze'
+    - '!text "Halt! Niemand darf das Heiligtum ohne Erlaubnis betreten.", Wächter'
+    - '~3s'
+    - '!player.unfreeze'
+    - '!teleport.location x:1 y:94 z:84 world:Ankanor pitch:-122 yaw:0'
+
+objectives:
+  '1':
+    name: 'Triff den Wächter des Heiligtums'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.proximity this.waechter,7,this.waechter-willkommen'
+  '2':
+    name: 'Steige den Tianbaum hinauf'
+    desc: 'Folge dem Weg im Inneren des Tianbaum bis du die Krone erreichst.'
+    hidden: true
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../lious this.lious-willkommen'
+
+complete-actions:
+  flow:
+    - '!quest.start ../4-klassenwahl.klassenwahl'

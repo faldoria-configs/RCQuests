@@ -1,0 +1,11 @@
+stages:
+  start:
+    random-actions:
+      groups:
+        bier:
+          - '!text "Einen Schluck Bier gefällig?"'
+          - '!drunk 5s'
+      flow:
+        - '!text "Das Leben ist so schön wenn man nichts zu tun hat!"'
+        - '!bier'
+        - '!text "Halt dich von Lewis fern. Der Typ bedeutet nur Ärger - und Arbeit..."'

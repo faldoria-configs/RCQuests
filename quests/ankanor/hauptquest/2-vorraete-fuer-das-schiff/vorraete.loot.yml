@@ -1,0 +1,44 @@
+count: 2
+requirements:
+  flow:
+    - '?quest.complete(negate:true) this.voerraete'
+entries:
+  wolle:
+    type: item
+    item: this.items.wolle
+    min-amount: 1
+    max-amount: 3
+    probability: 10
+    requirements:
+      flow:
+        - '?player.has-item(negate:true) this.items.wolle 10'
+  holzbrett:
+    type: item
+    item: this.items.holzbrett
+    min-amount: 1
+    max-amount: 3
+    probability: 10
+    requirements:
+      flow:
+        - '?player.has-item(negate:true) this.items.holzbrett 10'
+  getreide:
+    type: item
+    item: this.items.getreide
+    min-amount: 1
+    max-amount: 3
+    probability: 10
+    requirements:
+      flow:
+        - '?player.has-item(negate:true) this.items.getreide 10'
+  wassereimer:
+    type: item
+    item: this.items.wassereimer
+    amount: 1
+    probability: 5
+    unique: true
+    requirements:
+      flow:
+        - '?player.has-item(negate:true) this.items.wassereimer'
+  nichts:
+    type: 'null'
+    probability: 1

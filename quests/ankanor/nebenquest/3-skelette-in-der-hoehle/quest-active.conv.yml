@@ -1,0 +1,5 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Diese Skelette solltet ihr schnell vernichten, dieses geklapper nervt langsam."'

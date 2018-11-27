@@ -1,0 +1,9 @@
+count: 1
+entries:
+  sheep:
+    type: item
+    item: ankanor.items.geschorene-wolle
+    probability: 30
+  nichts:
+    type: 'null'
+    probability: 10

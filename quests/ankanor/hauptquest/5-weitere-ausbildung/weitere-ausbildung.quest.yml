@@ -1,0 +1,50 @@
+name: "Weitere Ausbildung"
+locked: false
+abortable: false
+authors:
+  - TheFum (QS)
+  - Silthus (QD)
+worlds:
+  - ankanor
+level: 1
+
+objectives:
+  '1':
+    name: 'Sprich mit dem Ältesten Jamos'
+    desc: 'Jamos steht unten am Weg nahe des Zugangs zum Tianbaum.'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact this.jamos this.jamos-willkommen'
+  '2':
+    name: 'Hilf den Bewohnern von Ankanor'
+    auto-complete: false
+    trigger:
+      groups:
+        tasks:
+          - '?quest.completed ankanor.nebenquest.4-hilf-in-der-schmiede.hilf-in-der-schmiede'
+          - '?quest.completed ankanor.nebenquest.1-sandflohplage.sandflohplage'
+      flow:
+        - '?tasks'
+        - '@host.interact this.jamos this.weitere-ausbildung-complete'
+        - '?tasks(negate:true)'
+        - '@host.interact this.jamos this.weitere-ausbildung'
+    tasks:
+      '1':
+        name: 'Hilf dem Schmied'
+        desc: 'Den Schmied findest du am äußeren Rand des Dorfes an seiner Schmiede.'
+        trigger:
+          flow:
+            - '@quest.completed ../../nebenquest/4-hilf-in-der-schmiede/hilf-in-der-schmiede'
+      '2':
+        name: 'Hilf beim Ausmerzen der Sandflohplage'
+        desc: 'Sprich mit Angunt am Strand, er kann dir genaueres sagen.'
+        trigger:
+          flow:
+            - '@quest.completed ../../nebenquest/1-sandflohplage/sandflohplage'
+
+complete-actions:
+  flow:
+    - '!quest.start this.verteidige-ankanor'
+    - '~2s'
+    - '!teleport world:ankanor_event'

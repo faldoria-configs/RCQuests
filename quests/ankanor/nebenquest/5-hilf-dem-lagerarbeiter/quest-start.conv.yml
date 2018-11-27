@@ -1,0 +1,17 @@
+stages:
+  start:
+    text: "Hey, %player, Hast du mal nen Moment? Könntest du nicht zufällig etwas für mich erledigen?"
+    answers:
+      flow:
+        - ':"Was soll ich denn tun?"'
+        - '!stage quest'
+        - ':"Tut mir leid, Agnatus ist auf dem Weg. Ich habe keine Zeit!"'
+        - '!text "Nun gut, vielleicht hast du danach etwas Zeit für mich."'
+  quest:
+    text: "Nun, die Lager sind so gut wie leer und ich brauche Hilfe beim einholen der Rohstoffe. Könntest du für mich die Schafe im westen scheren und eine Kuh melken? Außerdem brauche ich noch ein paar schwarze Barsche und Äpfel."
+    answers:
+      flow:
+        - ':"Na klar! Du kannst auf mich zählen."'
+        - '!quest.start this.lagerarbeiter'
+        - ':"Nein, ich habe besseres zu tun…"'
+        - '!text "Ich finde es gibt nichts besseres als zu Sammeln, aber wie du meinst."'

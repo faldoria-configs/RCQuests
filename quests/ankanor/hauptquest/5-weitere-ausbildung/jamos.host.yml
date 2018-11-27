@@ -1,0 +1,12 @@
+name: Jamos
+type: NPC
+health: 100
+attackable: false
+friendly: true
+disguise: Jamos
+location:
+  x: -61
+  y: 80
+  z: 72
+  world: Ankanor
+default-conv: this.jamos.default

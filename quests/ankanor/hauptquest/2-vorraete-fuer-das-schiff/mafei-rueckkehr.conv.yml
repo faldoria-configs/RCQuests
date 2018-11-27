@@ -1,24 +1,21 @@
-settings:
-  show-npc-name: true
 stages:
   start:
     text: "Hast du die Vorräte?"
-    actions:
-      success:
-        - '?object.completed this.vorraete-fuer-das-schiff 1'
-        - '!text.player "Ja, hier hast du sie."'
-        - '!player.remove.item rci91025 10' # getreide
-        - '!player.remove.item rci91026' # wassereimer
-        - '!player.remove.item rci91027 10' # holzbretter
-        - '!player.remove.item rci91028 10' # wolle
-        - '~2s'
-        - '!objective.complete this.vorraete-fuer-das-schiff 2'
-        - '~2s'
-        - '!text "Vielen dank. Nun geh zurück zum Bürgermeister, er hat bestimmt noch mehr Aufgaben für dich."'
-        - '~2s'
-        - '!text.player "Dann werde ich zurück zum Bürgermeister gehen."'
-      fail:
-        - '?object.completed(negate: true) this.vorraete-fuer-das-schiff 1'
-        - '!text.player "Mir fehlen noch ein paar Vorräte."'
-        - '~2s'
-        - '!text "Dann solltest du dich beeilen."'
+    answers:
+      groups:
+        complete:
+          - '!text "Vielen Dank. Nun geh zurück zum Bürgermeister, er hat bestimmt noch mehr Aufgaben für dich."'
+          - '!player.remove.item this.items.getreide 10' # getreide
+          - '!player.remove.item this.items.wassereimer' # wassereimer
+          - '!player.remove.item this.items.holzbrett 10' # holzbretter
+          - '!player.remove.item this.items.wolle 10' # wolle
+          - '!player.remove.item this.liste' # liste          
+          - '~2s'
+          - '!objective.complete this.vorraete 3'
+      flow:
+        # Antwort 1
+        - ':"Ja, hier hast du sie."'
+        - '!complete'
+        # Antwort 2
+        - ':"Mir fehlen noch ein paar Vorräte."'
+        - '!text "Dann solltest du dich beeilen.", ../mafei'

@@ -1,0 +1,17 @@
+stages:
+  start:
+    text: 'Da bist du ja wieder! Hast du die Quelle des Lichts gefunden?'
+    answers:
+      flow:
+        - ':"Das habe ich. Es handelte sich dabei um einen abgestürzten Ballon und jemand namens Elius."'
+        - '!text "Was ist ein Ballon?"'
+        - '!text.player "Ein Schiff, das in der Luft fährt."'
+        - '!text "Ah, wir müssen viel mehr über dieses Land herausfinden. Weißt du denn noch mehr?"'
+        - '!text.player "Nein, aber dieser Elius möchte das ich ihm helfe, vielleicht erfahre ich dann mehr."'
+        - '!stage help'
+  help:
+    text: 'Das klingt gar nicht so dumm, also hilf ihm.'
+      answers:
+        flow:
+          - ':"Ok ich mache mich auf den Weg und erzähle später mehr."'
+          - '!quest.complete this.was-ist-passiert'

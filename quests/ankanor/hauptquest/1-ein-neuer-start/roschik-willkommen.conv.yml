@@ -1,27 +1,25 @@
-settings:
-  show-npc-name: true
 stages:
   start:
     actions:
       flow:
-        - '!text "Endlich hast du es auch geschafft."'
+        - '!text "Endlich hast du es auch geschafft.", ../roschik'
         - '~2s'
         - '!text.player "Was ist los? Warum sind alle so aufgeregt? Hat Kozas wieder einmal einen Riesenfisch gefangen? Wenn ja, lasst mich damit in Ruhe."'
-        - '~2s'
-        - '!text "Nein! Wir haben erfahren, dass Agnatus auf dem Weg hier her sein könnte. Berichten zufolge hat er Schiffe in unsere Richtung entsandt."'
-        - '~2s'
+        - '~3s'
+        - '!text "Nein! Wir haben erfahren, dass Agnatus auf dem Weg hierher sein könnte. Berichten zufolge hat er Schiffe in unsere Richtung entsandt.", ../roschik'
+        - '~3s'
         - '!text.player "Agnatus? Wer ist das nun wieder?"'
         - '~2s'
-        - '!text "Hast du die letzten Monate geschlafen? Agnatus der Nekromant, er terrorisiert das Festland mit seinen Untoten und Schergen."'
-        - '~2s'
+        - '!text "Hast du die letzten Monate geschlafen? Agnatus der Nekromant, er terrorisiert das Festland mit seinen Untoten und Schergen.", ../roschik'
+        - '~3s'
         - '!text.player "Ach der, und was machen wir jetzt?"'
         - '~2s'
-        - '!text "Wir werden Vorbereitungen treffen müssen und du musst dabei helfen."'
+        - '!text "Wir werden Vorbereitungen treffen müssen und du musst dabei helfen.", ../roschik'
         - '~2s'
         - '!text.player "Was soll ich tun?"'
         - '~2s'
-        - '!text "Zu erst müssen wir das Schiff klar machen. Geh und suche den Kapitän, er ist bestimmt an der Küste und Angelt."'
-        - '~2s'
+        - '!text "Zuerst müssen wir das Schiff klar machen. Geh und suche den Kapitän, er ist bestimmt an der Küste und angelt.", ../roschik'
+        - '~3s'
         - '!text.player "Ich mache mich sofort auf den Weg."'
         - '~2s'
         - '!objective.complete this.ein-neuer-start 1'

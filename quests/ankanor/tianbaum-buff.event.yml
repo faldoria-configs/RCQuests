@@ -1,0 +1,16 @@
+enabled: true
+cooldown: 0
+global: false
+execution-count: 0
+trigger:
+  flow:
+    - '?rcskills.effect(negate:true) "Segen des Tianbaum"'
+    - '@player.move(cooldown:10s) this.tianbaum.eingang-unten'
+    - '!cast.override this.tianbaum-segen'
+    - '@player.move(cooldown:10s) this.tianbaum.ausgang-unten'
+    - '!effect.remove "Segen des Tianbaum"'
+    - '?rcskills.effect(negate:true) "Segen des Tianbaum"'
+    - '@player.move(cooldown:10s) this.tianbaum.eingang-oben'
+    - '!cast.override this.tianbaum-segen'
+    - '@player.move(cooldown:10s) this.tianbaum.ausgang-oben'
+    - '!effect.remove "Segen des Tianbaum"'

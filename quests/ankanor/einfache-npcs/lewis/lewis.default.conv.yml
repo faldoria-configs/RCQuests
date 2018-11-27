@@ -1,7 +1,36 @@
 ﻿stages:
   start:
-    random-actions:
+    text: "Hallo %player, was machst du hier bei den Feldern? Willst du wieder Erdäpfel klauen?"
+    answers:
       flow:
-        - '!text "Dieser Brunnen macht mir Angst!"'
-        - '!text "Ein sch<&ouml>ner Tag für die Feldarbeit, findest du nicht?"'
-        - '!text "Lutz sollte bald kommen und mir helfen."'
+        - ':"Ich klaue nicht, ich hole nur meinen Anteil. Du gehst wie immer deiner Arbeit nach?"'
+        - '!text "Ja, und... ich bin wieder so nah an dem Brunnen."'
+        - '~3s'
+        - '!text.player "Was ist mit dem Brunnen? Immer noch Angst davor?"'
+        - '~2s'
+        - '!stage angst'
+        - ':"Pssst, nicht so Laut, das darf keiner wissen."'
+  angst:
+    text: "Er ist gruselig, ich höre immer ein Grollen in seiner nähe, hörst du es nicht?"
+    answers:
+      flow:
+        - ':"Moment... Irgendwas ist da, aber das ist sicher nur das Wasser was da Geräusche macht."'
+        - '!text "Danke das du mich versuchst zu beruhigen, aber ganz beruhigt bin ich noch immer nicht."'
+        - '~4s'
+        - '!text.player "Mach dir nicht so viele Gedanken."'
+        - '~2s'
+        - '!stage lutz'
+        - ':"Moment... Nein ich höre nichts, du bildest dir das nur ein."'
+        - '!text "Du glaubst mir also auch nicht."'
+  lutz:
+    text: "Hast du Lutz gesehen? Roschick hat ihm gesagt er solle mir heute helfen. Wenn du ihn siehst sag ihm das ich auf ihn warte."
+    answers:
+      flow:
+        - '?tag ankanor.lutz'
+        - '-:"Nein ich habe ihn nicht gesehen. Soll ich ihm sagen das du nach ihm suchst wenn ich ihn sehe?"'
+        - '!text "Das wäre sehr nett von dir. Danke."'
+        - '!tag ankanor.lewis-bitte'
+        - '+:"[Lügen] Ja ich habe ihn gesehen. Er ist Krank und kann nicht helfen kommen. Er sagte du musst alleine klarkommen."'
+        - '!text "Oh nein, ich hoffe es geht ihm bald besser."'
+        - '+:"[Verraten] Er hatte mich gebeten dir zu sagen das er Krank sei, er möchte lieber faulenzen."'
+        - '!text "Dieser Faulpelz soll seinen Arsch hier her bewegen. Ich werde Roschik davon erzählen. Danke das du ehrlich zu mir warst."'

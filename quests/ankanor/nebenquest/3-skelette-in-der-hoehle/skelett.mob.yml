@@ -1,0 +1,20 @@
+#An dieser Stelle wirklich notwendig?
+name: Verwittertes Skelett
+type: skeleton
+min-level: 1
+max-level: 2
+min-health: 80
+max-health: 88
+min-damage: 3
+max-damage: 5
+elite: false
+spawn-chance: 1.0
+passive: false
+baby: false
+reset-health: true
+ranged: false
+rare: false
+spawn-radius: 0
+spawning-naturally: false
+aggro: true
+loot-table: 'this.skelette'

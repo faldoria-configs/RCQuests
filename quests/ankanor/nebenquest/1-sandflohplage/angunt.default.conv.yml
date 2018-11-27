@@ -1,0 +1,6 @@
+stages:
+  start:
+    random-actions:
+      flow:
+       - '!text "Seid vorsichtig und tretet mir die Pflanzen nicht kaputt."'
+       - '!text "Sandflöhe sind sehr selten aggressiv. Irgendwas muss sie verärgert haben."'

@@ -1,0 +1,20 @@
+eingang-unten:
+  x: 25
+  y: 95
+  z: 76
+  radius: 5
+ausgang-unten:
+  x: 14
+  y: 95
+  z: 79
+  radius: 5
+ausgang-oben:
+  x: 12
+  y: 195
+  z: 0
+  radius: 5
+eingang-oben:
+  x: 21
+  y: 184
+  z: 1
+  radius: 5

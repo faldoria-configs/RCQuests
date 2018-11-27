@@ -8,7 +8,7 @@ Quests:
 * [Vorräte für das Schiff](./2-vorraete-fuer-das-schiff)
 * [Aufstieg zum Tianbaum](./3-aufstieg-zum-tianbaum)
 * [Klassenwahl](./4-klassenwahl)
-* [Fähigkeitentest](./5-faehigkeiten-test)
+* [Weitere Ausbildung](./5-weitere-ausbildung)
 
 ## Referenzen
 

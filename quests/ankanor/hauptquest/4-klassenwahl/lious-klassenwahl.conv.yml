@@ -1,39 +1,82 @@
-settings:
-  show-npc-name: true
 stages:
   start:
-    text: "Hast du dich entschieden welchen Pfad du folgen möchtest?"
-    actions:
-      flow:
-        - '!text.info "Du kannst mit einem NPC sprechen in dem du die Nachrichten im Chat anklickst."'
+    text: "Hast du dich entschieden welchem Pfad du folgen möchtest?"
     answers:
       flow:
         - ':"Nein, ich bin mir noch unsicher."'
-        - '!text "Dies ist eine wichtige Entscheidung, also lass dir zeit...aber nicht zu viel."'
+        - '!text "Dies ist eine wichtige Entscheidung, also lass dir Zeit...aber nicht zu viel."'
         - ':"Ja das habe ich!"'
-        - '!stage pre-choose'
-  pre-choose:
-    text: "Bist du dir ganz sicher?"
-    answers:
-      flow:
-        - ':"Ja ich bin mir ganz sicher."'
         - '!stage choose'
-        - ':"Vielleicht sollte ich nochmal überlegen."'
   choose:
-    text: "Dann sage mir welchen Pfad du wählst: Den des mutigen Kriegers, des listigen Schurken, des selbstlosen Priesters oder gar den Pfad des wissbegierigen Magiers."
+    text: "Dann sage mir, welchen Pfad du wählst. Den des mutigen Kriegers, des listigen Assassinen, des selbstlosen Klerikers, des naturverbundenen Waldläufers oder gar den Pfad des wissbegierigen Elementaristen."
     answers:
       flow:
-        - ':"Ich wähle den Pfad des Priester"'
-        - '!rcskills.profession.choose priest force:true'
-        - '!player.item.give rci90905'
+        - ':"Ich wähle den Pfad des Klerikers"'
+        - '!stage priest'
         - ':"Ich wähle den Pfad des Kriegers"'
+        - '!stage warrior'
+        - ':"Ich wähle den Pfad des Elementaristen"'
+        - '!stage mage'
+        - ':"Ich wähle den Pfad des Assassinen"'
+        - '!stage rogue'
+        - ':"Ich wähle den Pfad des Waldläufers"'
+        - '!stage hunter'
+  warrior:
+    text: "Bist du dir sicher, dass du den Pfad des Kriegers wählen willst?"
+    answers:
+      flow:
+        - ':"Ja ich will den Pfad des Kriegers beschreiten."'
         - '!rcskills.profession.choose warrior force:true'
-        - '!player.item.give rci90904'
-        - ':"Ich wähle den Pfad des Magier"'
+        - '!player.item.give this.items.warrior'
+        - '!stage complete'
+        - ':"Nein, ich möchte doch einen anderen Pfad wählen."'
+        - '!stage choose'
+  priest:
+    text: "Bist du dir sicher, dass du den Pfad des Klerikers wählen willst?"
+    answers:
+      flow:
+        - ':"Ja ich will den Pfad des Priesters beschreiten."'
+        - '!rcskills.profession.choose priest force:true'
+        - '!player.item.give this.items.priest'
+        - '!stage complete'
+        - ':"Nein, ich möchte doch einen anderen Pfad wählen."'
+        - '!stage choose'
+  mage:
+    text: "Bist du dir sicher, dass du den Pfad des Elementaristen wählen willst?"
+    answers:
+      flow:
+        - ':"Ja ich will den Pfad des Elementaristen beschreiten."'
         - '!rcskills.profession.choose mage force:true'
-        - '!player.item.give rci90905'
-        - ':"Ich wähle den Pfad des Schurke"'
+        - '!player.item.give this.items.mage'
+        - '!stage complete'
+        - ':"Nein, ich möchte doch einen anderen Pfad wählen."'
+        - '!stage choose'
+  rogue:
+    text: "Bist du dir sicher, dass du den Pfad des Assassinen wählen willst?"
+    answers:
+      flow:
+        - ':"Ja ich will den Pfad des Assassinen beschreiten."'
         - '!rcskills.profession.choose rogue force:true'
-        - '!player.item.give rci90906'
-        - ~2s
-        - '!objective.complete this.klassenwahl 5'
+        - '!player.item.give this.items.rogue'
+        - '!stage complete'
+        - ':"Nein, ich möchte doch einen anderen Pfad wählen."'
+        - '!stage choose'
+  hunter:
+    text: "Bist du dir sicher, dass du den Pfad des Waldläufers wählen willst?"
+    answers:
+      flow:
+        - ':"Ja ich will den Pfad des Waldläufers beschreiten."'
+        - '!rcskills.profession.choose hunter force:true'
+        - '!player.item.give this.items.hunter'
+        - '!stage complete'
+        - ':"Nein, ich möchte doch einen anderen Pfad wählen."'
+        - '!stage choose'
+  complete:
+    text: "So sei es!"
+    actions:
+      flow:
+        - '~1s'
+        - '!text "Mache dich nun mit deiner neuen Fähigkeit vertraut und kehre dann zu mir zurück, damit du sie testen kannst."'
+        - '~2s'
+        - '!objective.complete this.klassenwahl 2'
+        - '!end'

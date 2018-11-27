@@ -1,0 +1,9 @@
+count: 1
+entries:
+  milk:
+    type: item
+    item: ankanor.items.eimer-milch
+    probability: 30
+  nichts:
+    type: 'null'
+    probability: 10

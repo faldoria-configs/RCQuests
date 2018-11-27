@@ -3,10 +3,12 @@ type: NPC
 health: 100
 attackable: false
 friendly: true
+disguise: Mafei
+look-close: true
+traits:
+  - 'fishing'
 location:
-  world: ankanor
-  x: 115
-  y: 64
-  z: -15
-default-conv: this.mafei.default
-talk-close: true
+  world: Ankanor
+  x: 5
+  y: 72
+  z: -85

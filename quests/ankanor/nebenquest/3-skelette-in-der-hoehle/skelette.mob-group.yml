@@ -1,0 +1,10 @@
+min-interval: 70
+max-interval: 140
+min-amount: 1
+max-amount: 3
+respawn-treshhold: 1
+spawn-radius: 0
+mobs:    
+    skelett:
+        mob: 'this.skelett'
+        chance: 1.0

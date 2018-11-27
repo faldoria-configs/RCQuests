@@ -5,6 +5,7 @@ stages:
     actions:
       flow:
         - '!text "Halt! Was ist dein Begehr?"'
+        - '!player.freeze'
         - ~2s
         - '!text.player "Ich soll den Tianbaum hinauf steigen und dort mit jemanden reden."'
         - ~2s
@@ -19,5 +20,6 @@ stages:
         - '!text "In diesem Fall darfst du passieren. Sei vorsichtig, das du nicht herunterfällst!"'
         - ~2s
         - '!text.player "Hab Dank!"'
+        - '!player.unfreeze'
         - ~1s
-        - '!objective.complete this.aufstieg-zum-tianbaum 2'
+        - '!objective.complete this.aufstieg-zum-tianbaum 1'

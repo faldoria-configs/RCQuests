@@ -1,0 +1,9 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Halt, in dieser Höhle lauern böse Skelette du solltest dort nicht hinein!"'
+        - '!player.freeze'
+        - '~2s'
+        - '!teleport this.hoehle'
+        - '!player.unfreeze'

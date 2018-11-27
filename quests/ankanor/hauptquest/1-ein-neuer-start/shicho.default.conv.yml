@@ -1,3 +1,6 @@
 stages:
   start:
-    text: 'Viel Glück auf deiner Reise.'
+    random-actions:
+      flow:
+        - '!text "Enttäusche uns nicht, jetzt muss jeder anpacken bevor die Katastrophe beginnt. Auch du!", this.shicho'
+        - '!text "Wenn ich mich nicht irre, hast du was zu tun!", this.shicho'

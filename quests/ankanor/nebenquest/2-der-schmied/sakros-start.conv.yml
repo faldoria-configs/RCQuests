@@ -1,0 +1,29 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Guten Tag! Könntest du vielleicht etwas für mich erledigen?"'
+        - '~2s'
+        - '!text.player "Ja, was denn?"'
+        - '~2s'
+        - '!text "Ich würde gerne neue Schwerter machen. Könntest du mir die Materialien bringen?"'
+        - '~2s'
+        - '!text.player "Warum das denn?"'
+        - '~2s'
+        - '!text "Weil ich keine Lust habe. Außerdem habe ich ein gutes Argument: Eine Faust."'
+        - '~2s'
+        - '!text.player "Na gut, was brauchst du?"'
+        - '~2s'
+        - '!text "Mindestens fünf Eisenbaren und zehn rostige Schwerter aus der Höhle auf der anderen Seite des Dorfes."'
+        - '~2s'
+        - '!text.player "Was? Ich muss so weit laufen?"'
+        - '~2s'
+        - '!stage quest'
+        
+  quest:
+    text: "Ja und jetzt los, sonst setzt´s was!"
+    answers:
+      flow:
+        - ':"Ok, ich habe ja sonst nichts zu tun."'
+        - '!quest.start this.der-schmied'
+        - ':"Nein vergiss es!"'

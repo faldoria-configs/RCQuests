@@ -1,0 +1,32 @@
+name: Ein neuer Start
+desc: "Begib dich zur Versammlungshalle und sprich mit Roschik"
+region: ankanor
+locked: false
+abortable: false
+authors:
+  - TheFum (QS)
+  - xanily (QD)
+worlds:
+  - ankanor
+level: 1
+
+start-trigger:
+  flow:
+    - '@player.move x:49 y:83 z:-41'
+    - '!conversation.start conv:this.shicho-start host:this.shicho'
+
+objectives:
+  '1':
+    name: 'Sprich mit Roschik'
+    hidden: true
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../roschik'
+        - '!conversation.start conv:this.roschik-willkommen host:../roschik'
+
+complete-actions:
+  flow:
+    - '!player.give.item this.steak amount:10'
+    - '!player.money.add 2 Quest'
+    - '!quest.start ../2-vorraete-fuer-das-schiff.vorraete'

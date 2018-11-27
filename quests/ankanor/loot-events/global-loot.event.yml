@@ -1,0 +1,5 @@
+trigger:
+  flow:
+    - '@player.fish(priority:1000,cancel:true) loot-table:this.fishing'
+    - '@player.shear(priority:1000,cancel:true) loot-table:this.shearing'
+    - '@player.milk return:ankanor.items.eimer-milch'

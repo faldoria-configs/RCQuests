@@ -1,0 +1,13 @@
+name: Schwache Spinne
+type: spider
+min-level: 1
+max-level: 2
+min-health: 120
+max-health: 150
+min-damage: 2
+max-damage: 7
+spawn-chance: 1.0
+passive: true
+reset-health: true
+ranged: false
+spawn-radius: 5

@@ -1,0 +1,5 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Wir sind hier erstmal gestrandet und müssen so viel wie möglich erfahren, also finde alles heraus was du kannst."'

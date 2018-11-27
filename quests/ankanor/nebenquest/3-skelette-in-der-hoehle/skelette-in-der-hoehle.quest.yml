@@ -1,0 +1,42 @@
+name: "Skelette in der Höhle"
+region: ankanor
+locked: false
+auto-complete: false
+worlds:
+  - ankanor
+default-convs:
+  active:
+    convs:
+      - 'this.genam:this.quest-active'
+  complete:
+    clear: true
+    convs:
+      - 'this.genam:this.quest-end'
+
+requirements:
+  flow:
+    - '?rcskills.hero.path class'
+
+start-trigger:
+  flow:
+    - '?quest.active ../2-der-schmied.der-schmied'
+    - '@host.proximity this.genam this.quest-start'
+    - '?quest.active(negate:true) ../2-der-schmied.der-schmied'
+    - '@host.proximity this.genam this.genam.default'
+
+objectives:
+  '1':
+    name: 'Töte in der Höhle für die Wache Genam 10 Skelette.'
+    trigger:
+      flow:
+        - '@rcmobs.mob.kill(count:10,count-text:"&7%current% von %count% Skeletten getötet.",persistent:true) this.skelett'
+  '2':
+    name: "Sprich mit Genam"
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact this.genam this.quest-end'
+complete-actions:
+  flow:
+    - '!rcskills.hero.addxp 5'
+    - '!player.give.money 5h'

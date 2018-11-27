@@ -1,0 +1,14 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Gut, das soll reichen."'
+        - '~2s'
+        - '!text.player "Und? Bist du zufrieden mit der Arbeit?"'
+        - '~2s'
+        - '!text "Hab schon besseres gesehen, aber für den ersten Versuch ist das schon recht gut."'
+        - '~2s'
+        - '!text.player "Und warum konntest du das selbst nicht machen?"'
+        - '~2s'
+        - '!text "Hab mir nen Nagel eingerissen. Und jetzt hau ab!"'
+        - '!quest.complete this.hilf-in-der-schmiede'

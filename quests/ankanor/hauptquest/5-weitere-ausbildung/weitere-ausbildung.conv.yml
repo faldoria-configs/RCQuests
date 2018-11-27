@@ -1,0 +1,22 @@
+auto-end: false
+stages:
+  start:
+    text: 'Die Bewohner Ankanors brauchen deine Hilfe. Worauf wartest du also noch?'
+    answers:
+      flow:
+        - ':"Wem soll ich nochmal helfen?"'
+        - '!text "Der Schmied Kansa benötigt dich in der Schmiede und Angunt braucht dringend Hilfe mit den Sandflöhen."'
+        - '!stage bewohner'
+        - ':"Ja, ja schon gut..."'
+        - '!end'
+  bewohner:
+    answers:
+      flow:
+        - ':"Wo finde ich die Schmiede?"'
+        - '!text "Die Schmiede steht am Rand des Dorfes. Suche einfach nach dem Rauch der aus dem Schmiedeofen aufsteigt."'
+        - '!stage bewohner'
+        - ':"Wer ist Angunt und wo finde ich ihn?"'
+        - '!text "Angunt ist unser Botaniker, allerdings wurde er am Strand von den Sandflöhen aufgehalten."'
+        - '!stage bewohner'
+        - ':"Ok, danke dir Alter."'
+        - '!end'

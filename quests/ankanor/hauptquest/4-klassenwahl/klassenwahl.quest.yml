@@ -1,0 +1,110 @@
+name: "Klassenwahl"
+region: ankanor
+locked: false
+abortable: false
+authors:
+  - TheFum (QS)
+  - Silthus (QD)
+worlds:
+  - ankanor
+level: 1
+
+objectives:
+  '1':
+    name: 'Berühre die 5 Ritualsteine'
+    auto-complete: true
+    optional: true
+    tasks:
+      '1':
+        name: 'Ritualstein des Kriegers'
+        desc: 'Berühre den roten Ritualstein.'
+        trigger:
+          flow:
+            - '@player.interact x:26 y:190 z:27'
+            - '!text.think "Krieger sind Bollwerke aus Muskeln und Stahl, ihre wuchtigen Schwerthiebe lehren Gegnern das Fürchten. Sie stellen sich oft zwischen den Feind und die eigene Gruppe."'
+      '2':
+        name: 'Ritualstein des Klerikers'
+        desc: 'Berühre den weißen Ritualstein.'
+        trigger:
+          flow:
+            - '@player.interact x:5 y:186 z:18'
+            - '!text.think "Kleriker sind die gute Seele einer Gruppe, sie achten auf das Wohlbefinden jedes Einzelnen. Die Stärkung und Segnung der Gruppe gehören ebenso zu ihren Aufgaben, wie das Versorgen von Wunden während des Gefechts."'
+      '3':
+        name: 'Ritualstein des Elementaristen'
+        desc: 'Berühre den lila Ritualstein.'
+        trigger:
+          flow:
+            - '@player.interact x:7 y:187 z:32'
+            - '!text.think "Elementaristen gebieten, wie ihr Name schon sagt, über die Magie. Ihre Fernkampfangriffe sind stark und sie verfügen über Fähigkeiten, andere in ihrem Tun zu kontrollieren."'
+      '4':
+        name: 'Ritualstein des Assassinen'
+        desc: 'Berühre den gelben Ritualstein.'
+        trigger:
+          flow:
+            - '@player.interact x:22 y:188 z:15'
+            - '!text.think "Assassinen nutzen den Schatten, um ihrem Gegner ihre Waffen im Nahkampf in den Körper zu schlagen. Gifte und Tarnung sind ihr Spezialgebiet."'
+      '5':
+        name: 'Ritualstein des Waldläufers'
+        desc: 'Berühre den braunen Ritualstein.'
+        trigger:
+          flow:
+            - '@player.interact x:19 y:188 z:30'
+            - '!text.think "Waldläufer leben im Einklang mit der Natur, ihre Angriffe mit dem Bogen sind meist tödlich. In Wäldern fühlen sie sich heimisch und ihre Kraft ist dort um ein vielfaches erhöht."'
+  '2':
+    name: 'Wähle deinen Pfad'
+    desc: 'Sprich mit Lious um deine Klasse zu wählen.'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../lious this.lious-klassenwahl'
+  '3':
+    name: 'Öffne dein Fähigkeiten Menü'
+    desc: 'Dein Fähigkeiten Menü findest du im Craftingfeld deines Inventars.'
+    auto-complete: false
+    start-actions:
+      flow:
+        - '!text.info "Dein Fähigkeiten Menü findest du im Craftingfeld deines Inventars."'
+    trigger:
+      flow:
+        - '@playermenu.open skills'
+        - '~1s'
+        - '!text.info "Freigeschaltete Skills werden verzaubert angezeigt und können in deine Aktionsleiste gezogen werden. Lege dann deine Waffe in den ersten Hotbarslot und drücke die Tasten-Nummer für den Slot auf dem der Skill liegt, um den Skill zu benutzen.."'
+        - '~10s'
+        - '!objective.complete this.klassenwahl 3'
+        - '~3s'
+        - '!text "Komm her, dann gebe ich dir etwas woran du deine neuen Fähigkeiten beweisen kannst.", Lious'
+  '4':
+    name: 'Test der Fähigkeiten'
+    desc: 'Rede mit Lious um deine neuen Fähigkeiten unter Beweis zu stellen.'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../lious this.faehigkeiten-test'
+    tasks:
+      '1':
+        name: 'Töte die erste Spinne'
+        trigger:
+          flow:
+            - '@rcmobs.mob.kill this.schwache-spinne'
+            - '!text "Gut gemacht! Achtung hier kommen noch zwei...", Lious'
+            - '~5s'
+            - '!rcmobs.group.spawn this.spinnen location:this.spinnen.mobs'
+      '2':
+        name: 'Besiege die Spinnen'
+        trigger:
+          flow:
+            - '@rcmobs.group.kill this.spinnen'
+            - '!text "Sehr gut! Ich glaube du bist nun bereit.", Lious'
+            - '~2s'
+            - '!objective.complete this.klassenwahl 4'
+            - '!teleport this.lious'
+  '5':
+    name: 'Rede mit Lious über deine weitere Ausbildung'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../lious this.weitere-ausbildung'
+
+complete-actions:
+  flow:
+    - '!quest.start ../5-weitere-ausbildung.weitere-ausbildung'

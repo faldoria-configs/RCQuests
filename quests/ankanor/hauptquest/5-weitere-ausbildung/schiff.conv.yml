@@ -1,0 +1,17 @@
+stages:
+  start:
+    text: "Ihr habt es geschafft, fast alle sind an Bord, wir müssen auch los."
+    actions:
+      flow:
+        - '!objective.complete this.verteidige-ankanor 1'
+    answers:
+      flow:
+        - ':"Aber, was ist mit unserer Heimat?"'
+        - '!text "Wir müssen sie aufgeben, vielleicht kehren wir eines Tages zurück.", Mafei'
+  segeln:
+    text: "Wir müssen sie aufgeben, vielleicht kehren wir eines Tages zurück."
+    answers:
+      flow:
+        - ':"Wo segeln wir nun hin?"'
+        - '!text "In den Westen.", Mafei'
+        - '!quest.complete this.verteidige-ankanor'

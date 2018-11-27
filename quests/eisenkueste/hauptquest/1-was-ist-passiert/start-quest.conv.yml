@@ -1,0 +1,11 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text.player "Wo bin ich? Der Angriff, was ist passiert?"'
+        - '~5s'
+        - '!text.player "Moment mal, sind wir noch auf Ankanor? Sieht mir nicht so aus."'
+        - '~3s'
+        - '!text.player "Ist das dahinten Hauptmann Marduk? Der weiß sicher was passiert ist."'
+        - '~2s'
+        - '!quest.start this.was-ist-passiert'

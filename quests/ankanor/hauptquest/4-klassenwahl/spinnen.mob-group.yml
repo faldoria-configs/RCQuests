@@ -1,0 +1,11 @@
+min-amount: 2
+max-amount: 2
+mobs:
+  spinne:
+    mob: 'this.schwache-spinne'
+    chance: 1.0
+interval: 300.0
+spawn-radius: 2
+respawn-treshhold: 2
+min-interval: 300
+max-interval: 300

@@ -1,7 +1,28 @@
 stages:
   start:
-    random-actions:
+    text: Ist das Leben hier nicht Klasse? Ich liebe es hier einfach zu sitzen und das Leben zu genießen.
+    actions:
       flow:
-        - '!text "Ist das nicht ein sch<&ouml>nes pl<&auml>tzchen hier?"'
-        - '!text "Ich werde heute den ganzen Tag hier faulenzen."'
-        - '!text "Mein Bruder Syjin ist draußen bei der Kohlengewinnung."'
+        - '!tag ankanor.lutz'
+    answers:
+      flow:
+        - ':"Hast du nichts zu tun? Alle sind auf den Beinen und tun ihr bestes, insbesondere da dieser Nekrotyp unterwegs ist."'
+        - '!text "Pah, ich muss nichts machen."'
+        - ':"Meinst du ich kann hier auch etwas mit dir faulenzen?"'
+        - '!text "Klar doch, aber sag nichts zu Lewis. Der stresst eh nur wieder rum..."'
+        - '!tag ankanor.lutz-faulenzen'
+        - '!conversation.set this.lutz this.faulenzen'
+        - '?tag ankanor.lewis-bitte'
+        - ':"Lewis wartet auf dich, er bat mich dir zu sagen das er dich sucht und ich glaube wenn du nicht zu ihm gehst wird er es Roschik sagen."'
+        - '!stage lewis-bitte'
+  lewis-bitte:
+    text: "Dieser Verräter ich hasse Lewis, er ist ein verdammter Angsthase, wenn es aber darum geht jemanden zu verpetzen ist er der erste."
+    answers:
+      flow:
+        - ':"Wenn Roschik aber sagt solltest du ihm helfen."'
+        - '!text "Jaja, geh mir aus den Augen, du bist genauso wie alle anderen Arbeit, Arbeit!"'
+        - '!conversation.set this.lutz this.arbeit-arbeit'
+        - ':"Lass doch Lewis reden - und Roschik was will der schon machen? Haus-Arrest?"'
+        - '!text "Du hast Recht, ich werde hier weiter faulenzen."'
+        - '!tag ankanor.lutz-faulenzen'
+        - '!conversation.set this.lutz this.faulenzen'

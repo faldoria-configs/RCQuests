@@ -1,0 +1,6 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Das Lager ist dank dir nun wieder etwas voller, doch ob wir dieses Lager noch lange nutzen ist fraglich.", this.kansa'
+        - '!text "Sag, bist du auch so ein begeisterter Angler wie Kaptiän Mafei, denn du hattest die Fische ziemlich schnell gefangen.", this.kansa'

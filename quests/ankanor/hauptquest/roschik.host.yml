@@ -3,10 +3,9 @@ type: NPC
 health: 100
 attackable: false
 friendly: true
+disguise: Roschik
 location:
   world: ankanor
   x: 101
   y: 83
   z: -85
-default-conv: this.roschik.default
-talk-close: false

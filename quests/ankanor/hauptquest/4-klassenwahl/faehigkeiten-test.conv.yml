@@ -1,0 +1,17 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Ich freue mich für dich, nun testen wir deine neuen Fähigkeiten."'
+        - ~2s
+        - '!text.player "Soll ich dich jetzt verprügeln?"'
+        - ~2s
+        - '!text "Wie kommst du da drauf? Nein, ich hetze dir Spinnen auf den Hals."'
+        - ~2s
+        - '!text.player "Iih nein, alles nur nicht das."'
+        - ~2s
+        - '!text "Du hast keine Wahl!"'
+        - '!rcmobs.mob.spawn this.schwache-spinne location:this.spinnen.mobs'
+        - ~2s
+        - '!teleport.location this.spinnen.player'
+        

@@ -1,0 +1,15 @@
+name: Sijin
+type: NPC
+health: 100
+attackable: false
+friendly: true
+disguise: Sijin
+equipment:
+  hand: SHOVEL
+location:
+  world: ankanor
+  x: -22
+  y: 81
+  z: 101
+default-conv: this.sijin.default
+talk-close: false
