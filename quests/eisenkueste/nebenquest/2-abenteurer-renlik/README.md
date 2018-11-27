@@ -13,8 +13,8 @@
 
 ## Vorraussetzungen
 
- - lvl 3
- - Waffe???
+ - lvl 5
+ - Waffe???  Ausrüstung?
 
 ## Aufgaben
 
@@ -37,6 +37,7 @@ Renlik: Siehst du die hölzerne Ruine oben auf dem Berg Richtung Westen? Von dor
 ```
 
 > 1. Ich hab genug von deinem wirren Geschwätz. Adieu. [Ende]
+
 > 2. Ganz von vorn bitte, ich verstehe kein Wort. 
 
 ```yml
@@ -53,18 +54,19 @@ NPC: Wenn ich das wüsste… sicher ist nur, dass meine langen Beine mich davor 
 
 `[Quest START]` [Die Quelle allen Übels](#die-quelle-allen-uebels)
 
-**QuestLog:** *Finde die Quelle des Flusses und gehe dem Tod der Expeditionsmitglieder auf den Grund.*
+`**QuestLog:**` *Finde die Quelle des Flusses und gehe dem Tod der Expeditionsmitglieder auf den Grund.*
 
 
 Der Spieler folgt dem Flusslauf bis zur Quelle und tötet das dortige Monster. Sobald dies erledigt ist, kehrt er zum Abenteurer Renlik zurück. 
 
+`[Ende]`
 
 
 ### 1. Kehre zu Renlik zurück
 
 `[Quest START]` [Kehre zu Renlik zurück](#kehre-zu-renlik-zurueck)
 
-**QuestLog:** *Kehre zu Renlik zurück und erzähle ihm, was du gefunden hast.*
+`**QuestLog:**` *Kehre zu Renlik zurück und erzähle ihm, was du gefunden hast.*
 
 
 ```yml
@@ -75,7 +77,7 @@ Spieler: Wer waren denn nun deine Auftraggeber?
 Renlik: Auch wenn die jetzt tot sind, denke ich nicht, dass ich dir das sagen werde… manchmal ist Wissen eben nicht nur Macht. Naja, du sollst jedenfalls nicht leer ausgehen. Etwas mehr als einen Gefallen, das wär schon was. Hmmm… Hier, das hab ich mir von einem der Expeditionsleiter.. ähm … ausgeliehen. Brauchen tut er’s jetzt wohl nicht mehr, hihihi...
 ```
 
-[Ende]
+`[Ende]`
 
 ## NPC 
 
@@ -85,6 +87,12 @@ Renlik ist ein seltsamer Vogel, einziger Überlebender einer Expedition, die nac
 
 
 #### Standartsätze
+
+##### Vor der Quest:
+
+> 1. Haha, hahaha, was willst du hier?
+> 2. Geh weg, du schaust noch so grün aus, dir kann ich nichts erzählen.
+> 3. Weg mit dir, stör mich nicht. 
 
 ##### Während der Quest/Aufgabe #1
 
@@ -192,7 +200,7 @@ max-stack-size: 1
 
 ```yml
 name: Die Quelle allen Übels
-type: ?
+type: blaze
 min-level: 3
 max-level: 5
 min-health: 100
