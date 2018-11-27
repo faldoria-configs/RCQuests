@@ -1,0 +1,11 @@
+name: Elius
+desc: Er ist ein älterer Jorgendder und der eigentliche Großmeister der Gamos Historia.
+look-close: true
+disguise: Elius
+equipment:
+  hand: minecraft:book
+location:
+  x: 3381
+  y: 125
+  z: -2664
+  world: faldoria

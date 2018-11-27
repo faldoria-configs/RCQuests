@@ -3,6 +3,7 @@ type: npc
 default-conv: this.genam.default
 talk-close: true
 look-close: true
+disguise: Genam
 location:
   x: -11
   y: 92

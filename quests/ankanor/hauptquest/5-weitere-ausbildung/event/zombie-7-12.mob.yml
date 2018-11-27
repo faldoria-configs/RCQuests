@@ -93,6 +93,9 @@ abilities:
     ability: strike
     custom:
       slow: true
+    damage:
+      base: 25
+      level-modifier: 5
     effects:
       slow:
         name: Mächtige Präsenz

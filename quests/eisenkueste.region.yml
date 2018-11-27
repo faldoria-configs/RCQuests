@@ -1,0 +1,5 @@
+name: Eisenküste
+description: Die Kaishi sind nach einem schlimmen Schiffsunglück an der Eisenküste angespült worden.
+min-level: 3
+max-level: 7
+location: this.eisenkueste

@@ -3,6 +3,7 @@ type: NPC
 health: 100
 attackable: false
 friendly: true
+disguise: Shicho
 location:
   world: ankanor
   x: 52

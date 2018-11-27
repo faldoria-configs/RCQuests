@@ -3,11 +3,13 @@ type: NPC
 health: 100
 attackable: false
 friendly: true
-equipment:
+disguise: Lewis
 location:
-  world: ankanor
   x: -57
   y: 83
   z: -22
-default-conv: faldoria.ankanor.einfache-npcs.lewis.lewis.default
+  world: Ankanor
+default-conv: this.lewis.default
 talk-close: false
+equipment:
+  hand: minecraft:stone_hoe
