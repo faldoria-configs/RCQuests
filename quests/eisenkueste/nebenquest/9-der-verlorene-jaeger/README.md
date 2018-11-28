@@ -5,7 +5,7 @@
 
 
 
-> Vorschlag: ein anderer NPC, vlltch Marduk, fragt, on der Spieler Kalbert oder Svein gesehen hat. Ohne , nur um den spieler darauf hinzuweisen, dass es da noch jemanden gibt. 
+> Vorschlag: ein anderer NPC, vlltch Marduk, fragt, on der Spieler Kalbert oder Svein gesehen hat. Ohne , nur um den Spieler darauf hinzuweisen, dass es da noch jemanden gibt. 
 
 >  Kalbert (Vater), Svein (Sohn)
 
@@ -15,12 +15,12 @@ Etwas erweitert, der Sohn Svein ist jetzt nicht nur verloren gegangen, sondern h
 
 ## Ablauf
 
-Der Spieler trifft erst aud Kalbert, dann auf den Sohn Svein
+Der Spieler trifft erst auf Kalbert, dann auf den Sohn Svein
 
 
 ## Questdialoge
 
-Der Spieler trifft (mehr oder weniger) zufällig auf Kalbert (den er noch nicht kennt). Er sieht ihn stehen, wenn der Spieler sich Kalbert auf 5 Block genähert hat, hört er ihn murmeln.
+Der Spieler trifft (mehr oder weniger) zufällig auf Kalbert (den er schon kennt). Er sieht ihn stehen, wenn der Spieler sich Kalbert auf 5 Block genähert hat, hört er ihn murmeln.
 ```yml
 Kalbert: Hmmm… Wo ist er nur hin?
 Spieler: Von wem redet ihr?
@@ -28,12 +28,12 @@ Kalbert: Großer Tianbaum! Erschreck mich doch nicht so!
 Spieler: Tut mit Leid. Also, wen sucht Ihr?
 Kalbert: Meinen Sohn Svein. Wir waren zusammen auf der Jagd. Hier gibt es ausgesprochen seltene Pelze, wisst ihr? Besonders die Eisen Bergkatzen haben es mir angetan. Wir trennten uns, damit Svein sein Geschick beweisen kann, aber er sollte schon längst zurück sein. Wir wollten uns hier wieder treffen. 
 Spieler: Und was nun?
-NPC: Könntet ihr vielleicht nach meinem Sohn schauen? Ich warte hier auf ihn, wenn ich weggehe und er kommt zurück, dann verpassen wir uns erst recht.
+Kalbert: Kannst du vielleicht nach Svein schauen? Ich warte hier auf ihn, wenn ich weggehe und er kommt zurück, dann verpassen wir uns erst recht.
 ````
 > 1. Spieler: Ich habe grade keine Zeit, tut mir leid. Ich hoffe, er kommt bald! ```[Ende]```
 
-> 2. Spieler. Ich sehe, was ich tun kann. In welche Richtung ist er denn gegangen? Und wer seid Ihr, wenn ich fragen darf?
-     Kalbert: Kalbert heiß ich. Und Svein ist nach Norden gegangen, da hinter. *deutet mir dem Arm zur Bergwand*
+> 2. Spieler. Ich sehe, was ich tun kann. In welche Richtung ist er denn gegangen? 
+     Kalbert: Svein ist nach Norden gegangen, da hinter. *deutet mir dem Arm zur Bergwand*
 
 `[QUESTSTART]`[Der verlorene Jäger](#der-verlorene-jaeger)
 
@@ -44,15 +44,15 @@ Der Spieler findet nach etwas Suchen [Svein](#svein).
 
 Der Spieler nähert sich Svein, der ihn bemerkt und anspricht (5 Blöcke):
 ```yml
-*Du siehst eine jungen Mann, der in dicke Felle gehüllt ist und sich gedankenverloren auf einen Bogen stützt. Er schaut auf, als du dich ihm näherst* 
+*Du siehst n jungen Mann, der in dicke Felle gehüllt ist und sich gedankenverloren auf einen Bogen stützt. Er schaut auf, als du dich ihm näherst* 
 
-Svein: Hallo, habt Ihr vielleicht meinen Vater getroffen?
-Spieler: Seid Ihr Svein? Euer Vater sucht Euch! Was ist denn passiert?
+Svein: Hallo, hast du vielleicht meinen Vater getroffen?
+Spieler: Dein Vater sucht dich! Was ist denn passiert?
 Svein: Nun, nichts eigentlich.
 Spieler: Eigentlich?
 Svein: Naja, mein Vater und ich haben uns getrennt, da er sagte, ich muss jetzt endlich mal mein Geschick auf der Jagd beweisen und soll ihm Felle der Eisen Bergkatze bringen. Ich habe es ja auch versucht, aber..
 Spieler: Aber?
-Svein: Ich kann gut schießen! Sehr gut! Aber keine Eisen Bergkatzen, auch keine Schimmerwölfe, ich finde sie viel zu schön... ich mag ihre Pelze auch nicht tragen..
+Svein: Ich kann gut schießen! Sehr gut! Aber keine Eisen-Bergkatzen, auch keine Schimmerwölfe, ich finde sie viel zu schön... ich mag ihre Pelze auch nicht tragen..
 Spieler: Da hast du ein Problem. Und was willst du nun tun?
 *Sven schaut bittend zu dir hin*
 Svein: Du könntest die Bergkatzen und Schimmerwölfe für mich töten und die Pelze besorgen? Das ist zwar auch nicht viel besser, aber - ich bring's nicht über's Herz und ohne traue ich mich nicht zu meinem Vater zurück. Ich belohne dich auch dafür!
@@ -70,15 +70,15 @@ Svein: Du könntest die Bergkatzen und Schimmerwölfe für mich töten und die P
 
 Spieler geht alleine zu Kalbert und berichtet:
 ```yml
-Spieler: Ich habe eueren Sohn gefunden!
+Spieler: Ich habe Eueren Sohn gefunden!
 Kalbert: Wirklich? Großartig! Wo ist er?
 Spieler: Er befindet sich im Norden, gar nicht weit von hier.
 Kalbert: Hat er sich wieder verlaufen? Ich hab ihm gesagt, er soll bei mir bleiben!
-Spieler: Nein, das war nicht die Ursache, aber kommt bald und will mit ech reden.
+Spieler: Nein, das war nicht die Ursache, aber kommt bald und will mit Euch reden - vielleicht.
 Kalbert: Mit mir reden? Na sowas. 
 *Kalbert kratzt sich verdutzt am Kopf, wirkt wie in Gedanken*
 Kalbert: Hier ist eine Kleine Belohnung für eure Mühen.
-Spieler: Habt Dank! Und viel Glück bei der Jagd - und versucht, euren Sohn zu verstehen!
+Spieler: Habt Dank! Und viel Glück bei der Jagd - und versucht, euren Sohn zu verstehen, falls er mit Euch etwas besprechen will!
 Kalbert: Vielen Dank.
 ``` 
 `[Ende]` 
