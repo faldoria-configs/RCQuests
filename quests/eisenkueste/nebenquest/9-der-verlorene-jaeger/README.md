@@ -290,7 +290,50 @@ max-stack-size: 64
 
 ## Mobs
 
-##Belohnung
+### Eisen-Bergkatze
+
+```yml
+name: Eisen-Bergkatze
+type: ocelot
+min-level: 
+max-level: 
+min-health: 
+max-health: 
+min-damage: 
+max-damage: 
+spawn-chance: 
+spawning-naturally: 
+loot-table: yellow_wool
+aggro: false
+```
+### Schimmerwolf
+
+```yml
+name: Schimmerwolf
+type: wolf
+min-level: 
+max-level: 
+min-health: 
+max-health: 
+min-damage: 
+max-damage: 
+spawn-chance: 
+spawning-naturally: 
+loot-table: light_grey_wool
+aggro: true
+```
+
+## Belohnung
+
+**Der verlorene Jäger**:
+
+Möglichkeit 1.1: [Gebratenes Fleisch(#gebratenes-fleisch)
+Möglichkeit 1.2: [Umhang aus Schimmerwolf Pelz](#umhang-aus-schimmerwolfpelz)
+
+**Seltene Pelze**
+
+Glänzende Pfeile
+
 
 ## Referenzen
 
