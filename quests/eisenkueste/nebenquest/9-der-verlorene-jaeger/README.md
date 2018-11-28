@@ -12,7 +12,11 @@
 
 ## Veränderungen
 
-Etwas erweitert, der Sohn Svein ist jetzt nicht nur verloren gegangen, sondern hat Angst, die Erwartungen des Vaters nicht zu erfüllen. 
+Etwas erweitert, der Sohn Svein ist jetzt nicht nur verloren gegangen, sondern hat Angst, die Erwartungen des Vaters nicht zu erfüllen.
+
+## Voraussetzungen
+
+Quest Was ist passiert abgeschlossen  (oder mehr vom Hauptstrang?)
 
 ## Ablauf
 
@@ -112,7 +116,7 @@ Kalbert: Ein Jäger, der nicht jagen will, und das soll mein Sohn sein?
 Spieler: Ein Jäger mit Sinn für Schönheit, und ein Jäger, der für seine Überzeugung einsteht, auch wenn es ihm schwer gefallen ist. Ihr solltet stolz auf Euren Sohn sein. Er hat den Mut aufgebracht, es Euch zu sagen ... und vertraut darauf, dass Ihr es akzeptieren werdet. 
 Kalbert: Soso, braucht es soviel Mut, dem eigenen Vater etwas zu sagen?
 Svein: Ja Vater, deine Erwartungen in mich waren so hoch und ich wollte dich nicht enttäuschen. 
-Kalbert: Nun gut, ich werde damit leben müssen, dass...  ach was ... ich sollte Euch eine Belohnung dafür geben, dass Ihr Svein gesucht habt. Nehmt dies, er wird es nicht haben wollen. 
+Kalbert: Nun gut, ich werde damit leben müssen, dass...  ach was ... ich sollte deinem Helfer eine Belohnung dafür geben, dass er dich gesucht habt. * er wendet sich zu dir* Nehmt dies, Sven wird es nicht haben wollen. 
 Spieler: Habt Dank!
 ```
 `[Ende]`
@@ -148,6 +152,76 @@ Svein: Gut, probieren wir es, du hast recht, ich kann so nicht weiter machen. Ab
 `[Ende 2]` Seltene Pelze
  
 [Weiter mit 1.2](#weiter-mit-1.2)
+
+## NPCS
+
+### Kalbert
+
+Kalbert ist ein passionierte Jäger, der hofft, dass sein Sohn Svein in seine Fußstapfen tritt. So schickt er Svein aus, um alleine Eisen-Bergkatzen und Schimmerwölfe zu jagen. Als Svein zurückkehrt und gesteht, dass er diese Tiere nicht töten kann, ist er enttäuscht und frustiert, wird aber durch die Gegenwart des Spielers gezwungen, sich zurückzuhalten und sieht ein, dass er damit leben muss. 
+
+#### Standartsätze
+
+##### Während der Quest:
+
+Kalbert: Hast du Svein schon gefunden? 
+    Spieler: Nein, leider noch nicht, aber lange wird es nicht mehr dauern, ich habe fast schon alle Ecken hier herum ausgesucht.
+        Kalbert: Gut, ich hoffe auf dich! 
+
+##### Nach der Quest: 
+
+Kalbert: Schön dich zu sehen, [Name des Spielers], noch nicht auf großer Fahrt?
+     Spieler: Nein, aber bald!
+
+
+
+####Ausrüstung
+
+Feiner Jägerskin, Bogen
+
+#### Standort   ---> habe ihn nicht mehr gefunden, hatte ihn schon mal.. :(
+
+```yml
+x: 
+y: 
+z: 
+world: faldoria.eisenküste
+```
+
+### Svein
+
+Svein ist ein junger, geschickter Bogenschütze, hat aber Hemmungen, wenn er 'schöne' Tiere wie Schimmerwölfe und Eisen-Bergkatzen schießen soll um deren Pelze zu bekommen. Er traut sich nicht recht, dies seinem Vater, Kalbert, einem alten Jäger, zu gestehen. 
+
+#### Standartsätze
+
+##### Während der Quest:
+
+Svein: Du hast schon alle Pelze zusammen?
+    Spieler: Nein, noch nicht, aber bald!
+
+
+##### Nach der Quest: 
+
+
+Svein: Hallo, [Name des Spielers], es geht mir jetzt viel besser, nachdem ich mich mit Vater ausgesprochen habe, ich bin dir sehr dankbar dafür!
+    Spieler: Das ist gut, ich freue mich für dich.
+
+####Ausrüstung
+
+Jägerskin, Bogen
+
+#### Standort   nachprüfen
+
+```yml
+x: 
+y: 
+z: 
+world: faldoria.eisenküste
+```
+
+## Items
+
+
+
 
 
 
