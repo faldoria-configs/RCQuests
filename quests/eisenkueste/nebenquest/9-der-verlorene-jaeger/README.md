@@ -66,11 +66,11 @@ Svein: Du könntest die Bergkatzen und Schimmerwölfe für mich töten und die P
          
 ```
 
-**Weiter mit 1.1:**
+[**Weiter mit 1.1:**](#weiter-mit-1.1)
 
 Spieler geht alleine zu Kalbert und berichtet:
 ```yml
-Spieler: Ich habe Eueren Sohn gefunden!
+Spieler: Ich habe Svein gefunden!
 Kalbert: Wirklich? Großartig! Wo ist er?
 Spieler: Er befindet sich im Norden, gar nicht weit von hier.
 Kalbert: Hat er sich wieder verlaufen? Ich hab ihm gesagt, er soll bei mir bleiben!
@@ -83,12 +83,12 @@ Kalbert: Vielen Dank.
 ``` 
 `[Ende]` 
 
-**Weiter mit 1.2.** 
+[**Weiter mit 1.2.**](#weiter-mit-1.2)
 
 Spieler geht mit Svein mit um mit dem Vater zu reden.
 
 ```yml
-Spieler: Kalbert, ich habe Euren Sohn gefunden und ihn auch gleich mitgebracht.
+Spieler: Kalbert, ich habe Svein gefunden und ihn auch gleich mitgebracht.
 Kalbert: Svein, da bist du ja, was hast du denn die ganze Zeit gemacht! Hast du die Pelze?
 Svein: Nein, ich.... ich muss mit dir reden, Vater.
 Kalbert: Reden? Wozu? Wir sind hier zum Jagen, nicht zum Reden. 
@@ -117,12 +117,25 @@ Spieler sammelt alle Pelze und geht zu Svein zurück.
 Spieler: Svein, ich bin zurück.
 Svein: Hast du die Pelze?
 Spieler: Ja, obwohl es mir auch schwer gefallen ist, die Eisen-Bergkatzen haben eine wunderbare Zeichnung. Was tust du jetzt, gehst du zurück zu deinem Vater und tust so, als ob du die Pelze gesammelt hast, die Tiere getötet?
-Svein: Was bleibt mir anderes übrig? Ich will seinen Respekt und seine Zuneigung nicht verlieren. DankIch bin sehr froh, dass du mir geholfen hast, hier, nimm das als Dank.
+Svein: Was bleibt mir anderes übrig? Ich will seinen Respekt und seine Zuneigung nicht verlieren. Ich bin sehr froh, dass du mir geholfen hast, hier, nimm das als Dank.
 Spieler: Willst du dir es nicht nochmals überlegen?
 ```
 > 1. Svein: Nein, geh du zu meinem Vater und sage ihm, dass ich gleich komme. 
 
-`[Ende]`
+`[Ende 1:]`  Seltene Pelze
+
+[**Weiter mit Dialog nach 1.1:**](#weiter-mit-1.1)
+
+> 2. Svein: Was soll ich mir denn überlegen! 
+
+```yml
+Spieler: Du sollst den Mut fassen und deinem Vater sagen, dass du diese Tiere nicht töten kannst. Oder willst du ewig weiter mit der Lüge leben?
+Pass auf, ich gehe mit dir mit und unterstütze dich. In meiner Anwesenheit wird er sich zurückhalten.
+Svein: Gut, probieren wir es, du hast recht, ich kann so nicht weiter machen. Aber nimm hier erst etwas dafür, dass du mir die Pelze besorgt hast.
+```
+`[Ende 2]` Seltene Pelze
+ 
+[**Weiter mit Dialog nach 1.2.**](#weiter-mit-1.2)
 
 
 
@@ -140,8 +153,8 @@ Spieler: Willst du dir es nicht nochmals überlegen?
 
 
 
-Z.B.
-# Wenn Quest der-verlorene-jaeger
+
+
           
 
 
