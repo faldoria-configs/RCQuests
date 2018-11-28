@@ -2,21 +2,42 @@
 # Seltene Pelze
 
 > Achtung - verwoben mit Quest: Seltene Pelze
-1. Der Spieler trifft als Erstes auf Kalbert, dann erst auf Svein - Quest Der verlorenen Jäger. Während der Quest kann die Quest: Seltene Pelze angenommen werden. 
 
-
+>  Der Spieler trifft als Erstes auf Kalbert, dann erst auf Svein - Quest: Der verlorenen Jäger. Während der Quest kann die Quest: Seltene Pelze angenommen werden. 
 
 > Vorschlag: ein anderer NPC, vielleicht Marduk, fragt, ob der Spieler Kalbert oder Svein gesehen hat. Ohne Quest, nur um den Spieler darauf hinzuweisen, dass es da noch jemanden gibt. 
 
->  Kalbert (Vater), Svein (Sohn)
-
+NPCS: [Kalbert](#kalbert) (Vater), [Svein](#svein) (Sohn)
+ 
 ## Veränderungen
 
 Etwas erweitert, der Sohn Svein ist jetzt nicht nur verloren gegangen, sondern hat Angst, die Erwartungen des Vaters nicht zu erfüllen.
 
+## Übersicht  
+
+- [Voraussetzungen](#voraussetzungen)
+- [Ablauf](#ablauf)
+- [Questdialoge](#questdialoge)
+   - [Dialog 1](#dialog-1)
+         Erstes Gespräch des Spielers mit Kalbert
+   - [Dialog 2](#dialog-2) Gespräch mit Svein
+   - [Dialog 3](#dialog-3)  Abschlußgespräch Kalbert/Spieler nach Opt.1.1 im Dialog 2
+   - [Dialog 4](#dialog-4)  Gespräch Spieler/Kalbert/Svein nach Opt 1.2 im Dialog 2
+   - [Dialog 5](#dialog-5)  Gespräch mit Svein nach Abschluß der Quest Seltene Pelze
+   - [Dialog 6](#dialog-6)
+- [NPCs](#npcs)
+     - [Kalbert](#kalbert)
+     - [Svein](#svein)
+-  [Mobs](#mobs)
+         
+
+
 ## Voraussetzungen
 
-Quest Was ist passiert abgeschlossen  (oder mehr vom Hauptstrang?)
+[HQ Was ist passiert?](../1-was-ist-passiert/README.md) - Abgeschlossen
+
+[HQ Reparaturarbeiten](../2-reparaturarbeiten/README.md) - Abgeschlossen
+
 
 ## Ablauf
 
@@ -35,6 +56,9 @@ Quest Was ist passiert abgeschlossen  (oder mehr vom Hauptstrang?)
 ## Questdialoge
 
 Der Spieler trifft (mehr oder weniger) zufällig auf Kalbert (den er schon kennt). Er sieht ihn stehen, wenn der Spieler sich Kalbert auf 5 Block genähert hat, hört er ihn murmeln.
+
+### **Dialog 1**
+
 ```yml
 Kalbert: Hmmm… Wo ist er nur hin?
 Spieler: Von wem redet Ihr?
@@ -43,8 +67,15 @@ Spieler: Tut mit Leid. Also, wen sucht Ihr?
 Kalbert: Meinen Sohn Svein. Wir waren zusammen auf der Jagd. Hier gibt es ausgesprochen seltene Pelze, weißt du? Besonders die Eisen Bergkatzen haben es mir angetan. Wir trennten uns, damit Svein sein Geschick beweisen kann, aber er sollte schon längst zurück sein. Wir wollten uns hier wieder treffen. 
 Spieler: Und was nun?
 Kalbert: Kannst du vielleicht nach Svein schauen? Ich warte hier auf ihn, wenn ich weggehe und er kommt zurück, dann verpassen wir uns erst recht.
-````
-> 1. Spieler: Ich habe grade keine Zeit, tut mir leid. Ich hoffe, er kommt bald! ```[Ende]```
+```
+
+
+> 1. Spieler: Ich habe grade keine Zeit, tut mir leid. Ich hoffe, er kommt bald! 
+ 
+`[Ende]`
+
+
+*****
 
 > 2. Spieler. Ich sehe, was ich tun kann. In welche Richtung ist er denn gegangen? 
      Kalbert: Svein ist nach Norden gegangen, da hinter. *deutet mir dem Arm zur Bergwand*
@@ -53,12 +84,15 @@ Kalbert: Kannst du vielleicht nach Svein schauen? Ich warte hier auf ihn, wenn i
 
 > **QuestLog:** *Suche nach Svein, der irgendwo nördlich von Kalbert sein muss.*
 
-Der Spieler findet nach etwas Suchen [Svein](#svein).
+*Der Spieler findet nach etwas Suchen* [Svein](#svein).
 
 
-Der Spieler nähert sich Svein, der ihn bemerkt und anspricht (5 Blöcke):
+*Der Spieler nähert sich Svein, der ihn bemerkt und anspricht (5 Blöcke):*
+
+### **Dialog 2**  
+
 ```yml
-*Du siehst n jungen Mann, der in dicke Felle gehüllt ist und sich gedankenverloren auf einen Bogen stützt. Er schaut auf, als du dich ihm näherst* 
+*Du siehst einen jungen Mann, der in dicke Felle gehüllt ist und sich gedankenverloren auf einen Bogen stützt. Er schaut auf, als du dich ihm näherst* 
 
 Svein: Hallo, hast du vielleicht meinen Vater getroffen?
 Spieler: Dein Vater sucht dich! Was ist denn passiert?
@@ -68,25 +102,29 @@ Svein: Naja, mein Vater und ich haben uns getrennt, da er sagte, ich muss jetzt 
 Spieler: Aber?
 Svein: Ich kann gut schießen! Sehr gut! Aber keine Eisen-Bergkatzen, auch keine Schimmerwölfe, ich finde sie viel zu schön... ich mag ihre Pelze auch nicht tragen..
 Spieler: Da hast du ein Problem. Und was willst du nun tun?
-*Sven schaut bittend zu dir hin*
+*Svein schaut bittend zu dir hin*
 Svein: Du könntest die Bergkatzen und Schimmerwölfe für mich töten und die Pelze besorgen? Das ist zwar auch nicht viel besser, aber - ich bring's nicht über's Herz und ohne traue ich mich nicht zu meinem Vater zurück. Ich belohne dich auch dafür!
 ```
-
+****
+****
 > 1. Spieler: Nein, diese Aufgabe kann ich dir nicht abnehmen. Da musst du durch. Entweder töte sie, oder gestehe deinem Vater, dass du es nicht tun kannst.
+
 ```yml
-     Svein: Würdest du mich zu meinem Vater begleiten? Dann fällt es mir vielleicht leichter, mit ihm darüber zu sprechen.
-      
-         1.1 Spieler: Nein, da musst du alleine durch. Ich gehe jetzt zu deinem Vater zurück und sage ihm, dass ich dich gefunden habe und du bald kommst.
-         
-         `[Ende]`
-
-         1.2 Ja, komm, wir gehen zusammen hin. 
-         
+Svein: Würdest du mich zu meinem Vater begleiten? Dann fällt es mir vielleicht leichter, mit ihm darüber zu sprechen.
 ```
+      
+> **1.1** Spieler: Nein, da musst du alleine durch. Ich gehe jetzt zu deinem Vater zurück und sage ihm, dass ich dich gefunden habe und du bald kommst.
+         
+`[Ende]`
 
-[**Weiter mit 1.1:**](#1.1)
+>  **1.2** Ja, komm, wir gehen zusammen hin. 
+     
 
-Spieler geht alleine zu Kalbert und berichtet:
+**Weiter nach 1.1:**
+
+### **Dialog 3**
+
+*Spieler geht alleine zu Kalbert und berichtet:*
 ```yml
 Spieler: Ich habe Svein gefunden!
 Kalbert: Wirklich? Großartig! Wo ist er?
@@ -95,18 +133,19 @@ Kalbert: Hat er sich wieder verlaufen? Ich hab ihm gesagt, er soll bei mir bleib
 Spieler: Nein, das war nicht die Ursache, aber kommt bald und will mit Euch reden - vielleicht.
 Kalbert: Mit mir reden? Na sowas. 
 *Kalbert kratzt sich verdutzt am Kopf, wirkt wie in Gedanken*
-Kalbert: Hier ist eine Kleine Belohnung für eure Mühen.
+Kalbert: Hier ist eine kleine Belohnung für eure Mühen.
 Spieler: Habt Dank! Und viel Glück bei der Jagd - und versucht, euren Sohn zu verstehen, falls er mit Euch etwas besprechen will!
 Kalbert: Vielen Dank.
 ``` 
-
-Belohnung: Frisches Wolfsfleisch
+**Belohnung**: [Frisches Wolfsfleisch](#frisches-wolfsfleisch)
 
 `[Ende]` 
 
-[Weiter mit 1.2](#1.2)
+**Weiter nach 1.2**
 
-Spieler geht mit Svein mit um mit dem Vater zu reden.
+### **Dialog 4**
+
+*Spieler geht mit Svein mit um mit dem Vater zu reden.*
 
 ```yml
 Spieler: Kalbert, ich habe Svein gefunden und ihn auch gleich mitgebracht.
@@ -128,15 +167,17 @@ Svein: Ich muss nochmals zurück, ich danke dir auch, <Name des Spielers>.
 Belohnung:  [Umhang aus Schimmerwolfpelz](#umhang-aus-schimmerwolfpelz)
 
 `[Ende]`
-
+****
+*****
 > 2.  Spieler: Du machst es dir leicht, aber ich will dir die Pelze besorgen. Warte hier, bis ich wieder komme. 
 
 `[QUESTSTART]`[Seltene Pelze](#seltene-pelze)
 
 > **Questlog** *Töte Schimmerwölfe und Bergkatzen und bringe Svein jeweils 7 ihrer Pelze. Die Bergkatzen sind an den westlichen Berghängen oder Plateaus, bis zur Höhe des Ballons. Die Wölfe tummeln sich im Wald.*
 
-Spieler sammelt alle Pelze und geht zu Svein zurück. 
+*Spieler sammelt alle Pelze und geht zu Svein zurück.* 
 
+### **Dialog 5**
 ```yml
 Spieler: Svein, ich bin zurück.
 Svein: Hast du die Pelze?
@@ -144,20 +185,23 @@ Spieler: Ja, obwohl es mir auch schwer gefallen ist, die Eisen-Bergkatzen haben 
 Svein: Was bleibt mir anderes übrig? Ich will seinen Respekt und seine Zuneigung nicht verlieren. Ich bin sehr froh, dass du mir geholfen hast, hier, nimm das als Dank.
 Spieler: Willst du dir es nicht nochmals überlegen?
 ```
-> 1. Svein: Nein, geh du zu meinem Vater und sage ihm, dass ich gleich komme. 
+> 1. Svein: Nein, geh du zu meinem Vater und sage ihm, dass ich gleich komme. Aber nimm hier erst etwas dafür, dass du mir die Pelze besorgt hast, du kannst sie sicherlich brauchen.
+
+**Belohnung** [Glänzende Pfeile](#glaenzende-pfeile)
 
 `[Ende 1:]`  Seltene Pelze
 
-Weiter mit 1.1
+**Weiter mit 1.1**
 
 > 2. Svein: Was soll ich mir denn überlegen! 
 
+### **Dialog 6**
 ```yml
 Spieler: Du sollst den Mut fassen und deinem Vater sagen, dass du diese Tiere nicht töten kannst. Oder willst du ewig weiter mit der Lüge leben?
 Pass auf, ich gehe mit dir mit und unterstütze dich. In meiner Anwesenheit wird er sich zurückhalten.
 Svein: Gut, probieren wir es, du hast recht, ich kann so nicht weiter machen. Aber nimm hier erst etwas dafür, dass du mir die Pelze besorgt hast, du kannst sie sicherlich brauchen.
 ```
-Belohnung: Stack Pfeile
+**Belohnung** [Glänzende Pfeile](#glaenzende-pfeile)
 
 `[Ende 2]` Seltene Pelze
  
@@ -254,7 +298,7 @@ lore: Ein langhaariger, silbrig schimmernder Pelz
 max-stack-size: 
 ```
 
-### Umhang aus Schimmerwolf Pelz
+### Umhang aus Schimmerwolfpelz
 Belohnung für 1.2
 ```yml
 ID: 
