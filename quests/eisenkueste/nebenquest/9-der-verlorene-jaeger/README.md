@@ -37,10 +37,10 @@ Quest Was ist passiert abgeschlossen  (oder mehr vom Hauptstrang?)
 Der Spieler trifft (mehr oder weniger) zufällig auf Kalbert (den er schon kennt). Er sieht ihn stehen, wenn der Spieler sich Kalbert auf 5 Block genähert hat, hört er ihn murmeln.
 ```yml
 Kalbert: Hmmm… Wo ist er nur hin?
-Spieler: Von wem redet ihr?
+Spieler: Von wem redet Ihr?
 Kalbert: Großer Tianbaum! Erschreck mich doch nicht so!
 Spieler: Tut mit Leid. Also, wen sucht Ihr?
-Kalbert: Meinen Sohn Svein. Wir waren zusammen auf der Jagd. Hier gibt es ausgesprochen seltene Pelze, wisst ihr? Besonders die Eisen Bergkatzen haben es mir angetan. Wir trennten uns, damit Svein sein Geschick beweisen kann, aber er sollte schon längst zurück sein. Wir wollten uns hier wieder treffen. 
+Kalbert: Meinen Sohn Svein. Wir waren zusammen auf der Jagd. Hier gibt es ausgesprochen seltene Pelze, weißt du? Besonders die Eisen Bergkatzen haben es mir angetan. Wir trennten uns, damit Svein sein Geschick beweisen kann, aber er sollte schon längst zurück sein. Wir wollten uns hier wieder treffen. 
 Spieler: Und was nun?
 Kalbert: Kannst du vielleicht nach Svein schauen? Ich warte hier auf ihn, wenn ich weggehe und er kommt zurück, dann verpassen wir uns erst recht.
 ````
@@ -97,6 +97,9 @@ Kalbert: Hier ist eine Kleine Belohnung für eure Mühen.
 Spieler: Habt Dank! Und viel Glück bei der Jagd - und versucht, euren Sohn zu verstehen, falls er mit Euch etwas besprechen will!
 Kalbert: Vielen Dank.
 ``` 
+
+Belohnung: Frisches Wolfsfleisch
+
 `[Ende]` 
 
 [Weiter mit 1.2](#weiter-mit-1.2)
@@ -116,9 +119,12 @@ Kalbert: Ein Jäger, der nicht jagen will, und das soll mein Sohn sein?
 Spieler: Ein Jäger mit Sinn für Schönheit, und ein Jäger, der für seine Überzeugung einsteht, auch wenn es ihm schwer gefallen ist. Ihr solltet stolz auf Euren Sohn sein. Er hat den Mut aufgebracht, es Euch zu sagen ... und vertraut darauf, dass Ihr es akzeptieren werdet. 
 Kalbert: Soso, braucht es soviel Mut, dem eigenen Vater etwas zu sagen?
 Svein: Ja Vater, deine Erwartungen in mich waren so hoch und ich wollte dich nicht enttäuschen. 
-Kalbert: Nun gut, ich werde damit leben müssen, dass...  ach was ... ich sollte deinem Helfer eine Belohnung dafür geben, dass er dich gesucht habt. * er wendet sich zu dir* Nehmt dies, Sven wird es nicht haben wollen. 
+Kalbert: Nun gut, ich werde damit leben müssen, dass...  ach was ... ich sollte deinem Helfer eine Belohnung dafür geben, dass er dich gesucht habt. * er wendet sich zu dir* Nehmt dies, Svein wird es nicht haben wollen. 
 Spieler: Habt Dank!
+Svein: Ich muss nochmals zurück, ich danke dir auch, <Name des Spielers>.
 ```
+Belohnung:  [Umhang aus Schimmerwolfpelz](#umhang-aus-schimmerwolfpelz)
+
 `[Ende]`
 
 > 2.  Spieler: Du machst es dir leicht, aber ich will dir die Pelze besorgen. Warte hier, bis ich wieder komme. 
@@ -147,8 +153,10 @@ Weiter mit 1.1
 ```yml
 Spieler: Du sollst den Mut fassen und deinem Vater sagen, dass du diese Tiere nicht töten kannst. Oder willst du ewig weiter mit der Lüge leben?
 Pass auf, ich gehe mit dir mit und unterstütze dich. In meiner Anwesenheit wird er sich zurückhalten.
-Svein: Gut, probieren wir es, du hast recht, ich kann so nicht weiter machen. Aber nimm hier erst etwas dafür, dass du mir die Pelze besorgt hast.
+Svein: Gut, probieren wir es, du hast recht, ich kann so nicht weiter machen. Aber nimm hier erst etwas dafür, dass du mir die Pelze besorgt hast, du kannst sie sicherlich brauchen.
 ```
+Belohnung: Stack Pfeile
+
 `[Ende 2]` Seltene Pelze
  
 [Weiter mit 1.2](#weiter-mit-1.2)
@@ -220,6 +228,75 @@ world: faldoria.eisenküste
 
 ## Items
 
+### Eisen-Bergkatze Fell
+
+```yml
+ID: 
+name: Eisen-Bergkatze Fell
+type: QUEST
+quality: COMMON
+item: yellow_wool
+lore: Ein wunderbar gemusteter, weicher, honigfarbener Pelz
+max-stack-size: 64
+```
+
+### Schimmerwolf Fell
+
+```yml
+ID: 
+name: Schimmerwolf Fell
+type: QUEST
+quality: COMMON
+item: light_gray_wool
+lore: Ein langhaariger, silbrig schimmernder Pelz
+max-stack-size: 
+```
+
+### [Umhang aus Schimmerwolf Pelz](#umhang-aus-schimmerwolfpelz)
+Belohnung für 1.2
+```yml
+ID: 
+name: Umhang aus Schimmerwolf Pelz
+type: QUEST
+quality: common
+item: chainmail_chestplate
+lore: Der Umhang ist weich und warm, hält Regen und Schnee ab und schimmert dazu noch silbrig
+max-stack-size: 1
+```
+
+### Frisches Wolfsfleisch
+Belohnung für 1.1
+```yml
+ID: 
+name: Frisches Wolfsfleisch
+type: QUEST
+quality: COMMON
+item: mutton
+lore: Wolfsfleisch, etwas zäh und streng schmeckend
+max-stack-size: 64
+```
+
+### Glänzende Pfeile
+Belohnung für seltene Pelze
+```yml
+ID: 
+name: Glänzende Pfeile
+type: QUEST
+quality: COMMON
+item: spectral_arrow
+lore: Diese Pfeile sind etwas Besonderes
+max-stack-size: 64
+```
+
+## Mobs
+
+##Belohnung
+
+## Referenzen
+
+
+
+
 
 
 
@@ -244,4 +321,4 @@ world: faldoria.eisenküste
           
 
 
-Belohnung: Robuste Lederweste + 2 Dukaten
+
