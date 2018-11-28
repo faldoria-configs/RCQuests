@@ -60,8 +60,10 @@ Svein: Du könntest die Bergkatzen und Schimmerwölfe für mich töten und die P
 
 > 1. Spieler: Nein, diese Aufgabe kann ich dir nicht abnehmen. Da musst du durch. Entweder töte sie, oder gestehe deinem Vater, dass du es nicht tun kannst.
 ```yml
-     Svein: Würdest du mich zu meinem Vater begleiten? Dann fällt es mir vielleicht leichter, mit ihm darüber zu sprechen. 
+     Svein: Würdest du mich zu meinem Vater begleiten? Dann fällt es mir vielleicht leichter, mit ihm darüber zu sprechen.
+      
          1.1 Spieler: Nein, da musst du alleine durch. Ich gehe jetzt zu deinem Vater zurück und sage ihm, dass ich dich gefunden habe und du bald kommst. `[Ende]`
+
          1.2 Ja, komm, wir gehen zusammen hin. 
          
 ```
@@ -83,7 +85,7 @@ Kalbert: Vielen Dank.
 ``` 
 `[Ende]` 
 
-[**Weiter mit 1.2.**](#weiter-mit-1.2)
+[Weiter mit 1.2](#weiter-mit-1.2)
 
 Spieler geht mit Svein mit um mit dem Vater zu reden.
 
@@ -124,7 +126,7 @@ Spieler: Willst du dir es nicht nochmals überlegen?
 
 `[Ende 1:]`  Seltene Pelze
 
-[**Weiter mit Dialog nach 1.1:**](#weiter-mit-1.1)
+Weiter mit 1.1
 
 > 2. Svein: Was soll ich mir denn überlegen! 
 
@@ -135,7 +137,7 @@ Svein: Gut, probieren wir es, du hast recht, ich kann so nicht weiter machen. Ab
 ```
 `[Ende 2]` Seltene Pelze
  
-[**Weiter mit Dialog nach 1.2.**](#weiter-mit-1.2)
+[Weiter mit 1.2](#weiter-mit-1.2)
 
 
 
