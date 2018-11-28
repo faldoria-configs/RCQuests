@@ -1,11 +1,12 @@
-# Der verlorene Jäger
+# Der verlorene Jäger 
+# Seltene Pelze
 
 > Achtung - verwoben mit Quest: Seltene Pelze
 1. Der Spieler trifft als Erstes auf Kalbert, dann erst auf Svein - Quest Der verlorenen Jäger. Während der Quest kann die Quest: Seltene Pelze angenommen werden. 
 
 
 
-> Vorschlag: ein anderer NPC, vlltch Marduk, fragt, on der Spieler Kalbert oder Svein gesehen hat. Ohne , nur um den Spieler darauf hinzuweisen, dass es da noch jemanden gibt. 
+> Vorschlag: ein anderer NPC, vielleicht Marduk, fragt, ob der Spieler Kalbert oder Svein gesehen hat. Ohne Quest, nur um den Spieler darauf hinzuweisen, dass es da noch jemanden gibt. 
 
 >  Kalbert (Vater), Svein (Sohn)
 
@@ -15,7 +16,16 @@ Etwas erweitert, der Sohn Svein ist jetzt nicht nur verloren gegangen, sondern h
 
 ## Ablauf
 
-Der Spieler trifft erst auf Kalbert, dann auf den Sohn Svein
+1. Der Spieler trifft auf Kalbert, der auf seinen Sohn wartet. Dieser sollte schon längst da sein.
+2. Kalbert bittet den Spieler, Svein zu suchen.
+3. Der Spieler findet Svein, der sich nicht zu seinem Vater zurücktraut, weil er die Pelze, die er erjagen soll, nicht hat. 
+4. Svein bittet den Spieler, die Katzen und Wölfe für ihn zu töten.
+     4.1 Der Spieler lehnt ab
+         4.1.1 Der Spieler geht alleine zurück zu Kalbert
+         4.1.2 Der Spieler geht mit Svein zurück.  
+     4.2  Der Spieler stimmt zu und holt die Pelze (Quest Seltene Pelze)
+         4.2.1 Der Spieler geht alleine zurück zu Kalbert (wie 4.1.1)
+         4.2.2 Der Spieler geht mit Svein zurück (wie 4.1.2)
 
 
 ## Questdialoge
