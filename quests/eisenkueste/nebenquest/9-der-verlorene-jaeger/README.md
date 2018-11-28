@@ -76,13 +76,15 @@ Svein: Du könntest die Bergkatzen und Schimmerwölfe für mich töten und die P
 ```yml
      Svein: Würdest du mich zu meinem Vater begleiten? Dann fällt es mir vielleicht leichter, mit ihm darüber zu sprechen.
       
-         1.1 Spieler: Nein, da musst du alleine durch. Ich gehe jetzt zu deinem Vater zurück und sage ihm, dass ich dich gefunden habe und du bald kommst. `[Ende]`
+         1.1 Spieler: Nein, da musst du alleine durch. Ich gehe jetzt zu deinem Vater zurück und sage ihm, dass ich dich gefunden habe und du bald kommst.
+         
+         `[Ende]`
 
          1.2 Ja, komm, wir gehen zusammen hin. 
          
 ```
 
-[**Weiter mit 1.1:**](#weiter-mit-1.1)
+[**Weiter mit 1.1:**](#1.1)
 
 Spieler geht alleine zu Kalbert und berichtet:
 ```yml
@@ -102,7 +104,7 @@ Belohnung: Frisches Wolfsfleisch
 
 `[Ende]` 
 
-[Weiter mit 1.2](#weiter-mit-1.2)
+[Weiter mit 1.2](#1.2)
 
 Spieler geht mit Svein mit um mit dem Vater zu reden.
 
@@ -213,7 +215,7 @@ Svein: Du hast schon alle Pelze zusammen?
 Svein: Hallo, [Name des Spielers], es geht mir jetzt viel besser, nachdem ich mich mit Vater ausgesprochen habe, ich bin dir sehr dankbar dafür!
     Spieler: Das ist gut, ich freue mich für dich.
 
-####Ausrüstung
+#### Ausrüstung
 
 Jägerskin, Bogen
 
@@ -252,7 +254,7 @@ lore: Ein langhaariger, silbrig schimmernder Pelz
 max-stack-size: 
 ```
 
-### [Umhang aus Schimmerwolf Pelz](#umhang-aus-schimmerwolfpelz)
+### Umhang aus Schimmerwolf Pelz
 Belohnung für 1.2
 ```yml
 ID: 
@@ -327,12 +329,13 @@ aggro: true
 
 **Der verlorene Jäger**:
 
-Möglichkeit 1.1: [Gebratenes Fleisch(#gebratenes-fleisch)
+Möglichkeit 1.1: [Gebratenes Fleisch](#gebratenes-fleisch)
+
 Möglichkeit 1.2: [Umhang aus Schimmerwolf Pelz](#umhang-aus-schimmerwolfpelz)
 
 **Seltene Pelze**
 
-Glänzende Pfeile
+[Glänzende Pfeile](#glaenzende-pfeile)
 
 
 ## Referenzen
