@@ -1,6 +1,7 @@
 # Der verlorene Jäger 
 # Seltene Pelze
 
+
 > Achtung - verwoben mit Quest: Seltene Pelze
 
 >  Der Spieler trifft als Erstes auf Kalbert, dann erst auf Svein - Quest: Der verlorenen Jäger. Während der Quest kann die Quest: Seltene Pelze angenommen werden. 
@@ -8,6 +9,14 @@
 > Vorschlag: ein anderer NPC, vielleicht Marduk, fragt, ob der Spieler Kalbert oder Svein gesehen hat. Ohne Quest, nur um den Spieler darauf hinzuweisen, dass es da noch jemanden gibt. 
 
 NPCS: [Kalbert](#kalbert) (Vater), [Svein](#svein) (Sohn)
+
+## **Was noch fehlt:**
+
+Fähigkeiten/Stärke der Mobs
+
+[Belohnung](#belohnung) /Rüstung verzaubern? --> [Umhang aus Schimmerwolfpelz](#umhang-aus-schimmerwolfpelz)
+
+
  
 ## Veränderungen
 
@@ -50,6 +59,7 @@ Etwas erweitert, der Sohn Svein ist jetzt nicht nur verloren gegangen, sondern h
     - [Frisches Wolfsfleisch](#frisches-wolfsfleisch)
     - [Umhang aus Schimmerwolfpelz](#umhang-aus-schimmerwolfpelz)
     - [Glänzende Pfeile](#glaenzende-pfeile)
+- [Belohnung](#belohnung)
          
 
 
