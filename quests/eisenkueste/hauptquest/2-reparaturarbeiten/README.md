@@ -109,7 +109,7 @@ Marduk: Das erfreut mich, wenn er fertig ist gehst du also mit ihm.
 `[QUEST ENDE]` [Reparaturarbeiten](#reparaturarbeiten) und erhält [Belohnung](#belohunung) 
 
 ```yml
-In der Zwischenzeit könntest du noch einige der wildgewordenen Wölfe plattmachen. 
+In der Zwischenzeit könntest du noch im Camp aushelfen, frag doch die anderen mal - oder z.B. noch einige der wildgewordenen Wölfe plattmachen. 
 ```
 Weiter mit Nebenquest [Besessene Wölfe](../../nebenquest\1-besessene-woelfe\README.md)
 
