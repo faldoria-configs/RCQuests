@@ -1,7 +1,6 @@
 # Der verlorene Jäger 
 # Seltene Pelze
 
-
 > Achtung - verwoben mit Quest: Seltene Pelze
 
 >  Der Spieler trifft als Erstes auf Kalbert, dann erst auf Svein - Quest: Der verlorenen Jäger. Während der Quest kann die Quest: Seltene Pelze von Svein angenommen werden. 
@@ -64,6 +63,8 @@ Etwas erweitert, der Sohn Svein ist jetzt nicht nur verloren gegangen, sondern h
     - [Frisches Wolfsfleisch](#frisches-wolfsfleisch)
     - [Umhang aus Schimmerwolfpelz](#umhang-aus-schimmerwolfpelz)
     - [Glänzende Pfeile](#glaenzende-pfeile)
+    - [Eisen-Bergkatze Fell](#eisen-bergkatze-fell)
+    - [Schimmerwolf Fell](#schimmerwolf-fell)
 - [Belohnung](#belohnung)
          
 
@@ -275,12 +276,12 @@ Kalbert: Schön dich zu sehen, [Name des Spielers], noch nicht auf großer Fahrt
 
 Feiner Jägerskin, Bogen
 
-#### Standort   ---> habe ihn nicht mehr gefunden, hatte ihn schon mal.. :(
+#### Standort   
 
 ```yml
-x: 
-y: 
-z: 
+x: 3562
+y: 86
+z: -2563
 world: faldoria.eisenküste
 ```
 
@@ -315,9 +316,9 @@ Jägerskin, Bogen
 #### Standort  
 
 ```yml
-x: 3562
-y: 86
-z: -2563
+x: 3524
+y: 103
+z: -2947
 world: faldoria.eisenküste
 ```
 
