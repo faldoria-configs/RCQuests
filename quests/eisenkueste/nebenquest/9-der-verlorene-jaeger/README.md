@@ -246,6 +246,11 @@ Kalbert ist ein passionierte Jäger, der hofft, dass sein Sohn Svein in seine Fu
 
 #### Standartsätze
 
+##### Vor der Quest:
+
+*Wenn die Vorraussetzungen noch nicht erfüllt sind*
+Kalbert: Grünschnabel, geh zurück ins Camp!
+
 ##### Während der Quest:
 
 Kalbert: Hast du Svein schon gefunden? 
@@ -277,6 +282,12 @@ world: faldoria.eisenküste
 Svein ist ein junger, geschickter Bogenschütze, hat aber Hemmungen, wenn er 'schöne' Tiere wie Schimmerwölfe und Eisen-Bergkatzen schießen soll um deren Pelze zu bekommen. Er traut sich nicht recht, dies seinem Vater, Kalbert, einem alten Jäger, zu gestehen. 
 
 #### Standartsätze
+
+##### Vor der Quest:
+
+*Wenn die Voraussetzungen noch nicht erfüllt sind:*
+
+Svein: Ich glaube nicht, dass du mir jetzt helfen kannst, geh lieber deinen Angelegenheiten nach.
 
 ##### Während der Quest:
 
