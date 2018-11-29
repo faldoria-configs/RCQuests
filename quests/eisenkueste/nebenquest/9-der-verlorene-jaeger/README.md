@@ -119,7 +119,7 @@ Kalbert: Kannst du vielleicht nach Svein schauen? Ich warte hier auf ihn, wenn i
 
 **Alternativ wenn der Spieler Svein schon getroffen hat:** 
 
-> 2.2 Spieler: Ich habe ihn da oben getroffen, abe er war nicht sehr gesprächig. Aber ich gehe gerne nochmal hinauf und sage ihm, dass Ihr ihn sucht. 
+> 2.2 Spieler: Ich habe ihn da oben getroffen, aber er war nicht sehr gesprächig. Aber ich gehe gerne nochmal hinauf und sage ihm, dass Ihr ihn sucht. 
 
 `[QUESTSTART]`[Der verlorene Jäger](#der-verlorene-jaeger)
 
