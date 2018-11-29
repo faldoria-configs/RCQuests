@@ -4,11 +4,16 @@
 
 > Achtung - verwoben mit Quest: Seltene Pelze
 
->  Der Spieler trifft als Erstes auf Kalbert, dann erst auf Svein - Quest: Der verlorenen Jäger. Während der Quest kann die Quest: Seltene Pelze angenommen werden. 
+>  Der Spieler trifft als Erstes auf Kalbert, dann erst auf Svein - Quest: Der verlorenen Jäger. Während der Quest kann die Quest: Seltene Pelze von Svein angenommen werden. 
 
 > Vorschlag: ein anderer NPC, vielleicht Marduk, fragt, ob der Spieler Kalbert oder Svein gesehen hat. Ohne Quest, nur um den Spieler darauf hinzuweisen, dass es da noch jemanden gibt. 
 
 NPCS: [Kalbert](#kalbert) (Vater), [Svein](#svein) (Sohn)
+
+>  Kalberts momentaner Standort ist zu weit von Svein entfernt. Da geht kein Steig oder Weg hin und der Spieler würde sehr lange herumirren. Ich schlage vor:
+ Bei Livas Schrein (3526/116/ -2729) oder besser noch näher, wo Kalbert vielleicht von der Küste aus gesehen werden kann, von da aus ist es schwer genug, Svein zu finden
+ (3579/91/-2827)
+
 
 ## **Was noch fehlt:**
 
@@ -86,7 +91,7 @@ Etwas erweitert, der Sohn Svein ist jetzt nicht nur verloren gegangen, sondern h
 
 ## Questdialoge
 
-Der Spieler trifft (mehr oder weniger) zufällig auf Kalbert (den er schon kennt). Er sieht ihn stehen, wenn der Spieler sich Kalbert auf 5 Block genähert hat, hört er ihn murmeln.
+Der Spieler trifft (mehr oder weniger) zufällig auf Kalbert (den er schon kennt). Wenn der Spieler sich Kalbert auf 5 Block genähert hat, hört er ihn murmeln.
 
 ### **Dialog 1**
 
@@ -95,7 +100,7 @@ Kalbert: Hmmm… Wo ist er nur hin?
 Spieler: Von wem redet Ihr?
 Kalbert: Großer Tianbaum! Erschreck mich doch nicht so!
 Spieler: Tut mit Leid. Also, wen sucht Ihr?
-Kalbert: Meinen Sohn Svein. Wir waren zusammen auf der Jagd. Hier gibt es ausgesprochen seltene Pelze, weißt du? Besonders die Eisen Bergkatzen haben es mir angetan. Wir trennten uns, damit Svein sein Geschick beweisen kann, aber er sollte schon längst zurück sein. Wir wollten uns hier wieder treffen. 
+Kalbert: Meinen Sohn Svein. Wir waren zusammen auf der Jagd. Hier gibt es ausgesprochen seltene Pelze, weißt du? Besonders die Eisen-Bergkatzen haben es mir angetan. Wir trennten uns, damit Svein sein Geschick beweisen kann, aber er sollte schon längst zurück sein. Wir wollten uns hier wieder treffen. 
 Spieler: Und was nun?
 Kalbert: Kannst du vielleicht nach Svein schauen? Ich warte hier auf ihn, wenn ich weggehe und er kommt zurück, dann verpassen wir uns erst recht.
 ```
@@ -129,7 +134,7 @@ Svein: Hallo, hast du vielleicht meinen Vater getroffen?
 Spieler: Dein Vater sucht dich! Was ist denn passiert?
 Svein: Nun, nichts eigentlich.
 Spieler: Eigentlich?
-Svein: Naja, mein Vater und ich haben uns getrennt, da er sagte, ich muss jetzt endlich mal mein Geschick auf der Jagd beweisen und soll ihm Felle der Eisen Bergkatze bringen. Ich habe es ja auch versucht, aber..
+Svein: Naja, mein Vater und ich haben uns getrennt, da er sagte, ich muss jetzt endlich mal mein Geschick auf der Jagd beweisen und soll ihm Felle der Eisen-Bergkatze bringen. Ich habe es ja auch versucht, aber..
 Spieler: Aber?
 Svein: Ich kann gut schießen! Sehr gut! Aber keine Eisen-Bergkatzen, auch keine Schimmerwölfe, ich finde sie viel zu schön... ich mag ihre Pelze auch nicht tragen..
 Spieler: Da hast du ein Problem. Und was willst du nun tun?
@@ -236,7 +241,8 @@ Svein: Gut, probieren wir es, du hast recht, ich kann so nicht weiter machen. Ab
 
 `[Ende 2]` Seltene Pelze
  
-[Weiter mit 1.2](#weiter-mit-1.2)
+
+Weiter mit [**Dialog 4**](#dialog-4)  [1.2]
 
 ## NPCS
 
@@ -249,6 +255,7 @@ Kalbert ist ein passionierte Jäger, der hofft, dass sein Sohn Svein in seine Fu
 ##### Vor der Quest:
 
 *Wenn die Vorraussetzungen noch nicht erfüllt sind*
+
 Kalbert: Grünschnabel, geh zurück ins Camp!
 
 ##### Während der Quest:
@@ -264,7 +271,7 @@ Kalbert: Schön dich zu sehen, [Name des Spielers], noch nicht auf großer Fahrt
 
 
 
-####Ausrüstung
+#### Ausrüstung
 
 Feiner Jägerskin, Bogen
 
@@ -305,12 +312,12 @@ Svein: Hallo, [Name des Spielers], es geht mir jetzt viel besser, nachdem ich mi
 
 Jägerskin, Bogen
 
-#### Standort   nachprüfen
+#### Standort  
 
 ```yml
-x: 
-y: 
-z: 
+x: 3562
+y: 86
+z: -2563
 world: faldoria.eisenküste
 ```
 
