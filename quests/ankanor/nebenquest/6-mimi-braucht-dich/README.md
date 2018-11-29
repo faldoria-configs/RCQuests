@@ -142,9 +142,9 @@ Puppe aus Stoff und anderen natürlichen Materialien.
 Zu finden in Kiste bei --> kann ich grad nicht nachsehen
 
 ``yml
-x: 
-y: 
-z: 
+x: 18
+y: 115
+z: -19
 world: Ankanor
 ``` 
 
