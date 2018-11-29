@@ -111,7 +111,7 @@ Marduk: Das erfreut mich, wenn er fertig ist gehst du also mit ihm.
 ```yml
 In der Zwischenzeit könntest du noch im Camp aushelfen, frag doch die anderen mal - oder z.B. noch einige der wildgewordenen Wölfe plattmachen. 
 ```
-Weiter mit Nebenquest [Besessene Wölfe](../1-besessene-woelfe/README.md)
+Weiter mit Nebenquest [Besessene Wölfe](../../nebenquest\1-besessene-woelfe\README.md)
 
 Weiter bei [HQ Die Erlaubnis](../3-die-erlaubnis/README.md)
 
