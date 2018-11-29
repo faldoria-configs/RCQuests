@@ -114,8 +114,12 @@ Kalbert: Kannst du vielleicht nach Svein schauen? Ich warte hier auf ihn, wenn i
 
 *****
 
-> 2. Spieler. Ich sehe, was ich tun kann. In welche Richtung ist er denn gegangen? 
+> 2.1 Spieler: Ich sehe, was ich tun kann. In welche Richtung ist er denn gegangen? 
      Kalbert: Svein ist nach Norden gegangen, da hinter. *deutet mir dem Arm zur Bergwand*
+
+**Alternativ wenn der Spieler Svein schon getroffen hat:** 
+
+> 2.2 Spieler: Ich habe ihn da oben getroffen, abe er war nicht sehr gesprächig. Aber ich gehe gerne nochmal hinauf und sage ihm, dass Ihr ihn sucht. 
 
 `[QUESTSTART]`[Der verlorene Jäger](#der-verlorene-jaeger)
 
@@ -293,7 +297,7 @@ Svein ist ein junger, geschickter Bogenschütze, hat aber Hemmungen, wenn er 'sc
 
 ##### Vor der Quest:
 
-*Wenn die Voraussetzungen noch nicht erfüllt sind:*
+*Wenn die Voraussetzungen noch nicht erfüllt sind oder der Spieler Kalbert noch nicht getroffen hat:*
 
 Svein: Ich glaube nicht, dass du mir jetzt helfen kannst, geh lieber deinen Angelegenheiten nach.
 
@@ -433,6 +437,8 @@ Möglichkeit 1.2: [Umhang aus Schimmerwolf Pelz](#umhang-aus-schimmerwolfpelz)
 
 
 ## Referenzen
+
+Da kommt noch ein Bild hin, wo die NPCs stehen
 
 
 
