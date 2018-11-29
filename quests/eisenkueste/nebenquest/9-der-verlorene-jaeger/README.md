@@ -19,16 +19,37 @@ Etwas erweitert, der Sohn Svein ist jetzt nicht nur verloren gegangen, sondern h
 - [Ablauf](#ablauf)
 - [Questdialoge](#questdialoge)
    - [Dialog 1](#dialog-1)
-         Erstes Gespräch des Spielers mit Kalbert
+         Erstes Gespräch des Spielers mit Kalbert; 
+        Start der Quest: Verlorener Jäger
    - [Dialog 2](#dialog-2) Gespräch mit Svein
    - [Dialog 3](#dialog-3)  Abschlußgespräch Kalbert/Spieler nach Opt.1.1 im Dialog 2
-   - [Dialog 4](#dialog-4)  Gespräch Spieler/Kalbert/Svein nach Opt 1.2 im Dialog 2
+   - [Dialog 4](#dialog-4)  Gespräch Spieler/Kalbert/Svein nach Opt 1.2 im Dialog 2; Start der Quest : Seltene Pelze
    - [Dialog 5](#dialog-5)  Gespräch mit Svein nach Abschluß der Quest Seltene Pelze
-   - [Dialog 6](#dialog-6)
+   - [Dialog 6](#dialog-6) Variation von 1.2/Dialog 2, nachdem der Spieler die Pelze geholt hat. 
 - [NPCs](#npcs)
      - [Kalbert](#kalbert)
+         - [Standartsätze](#standartsaetze)
+             - [Vor der Quest](#vor-der-quest)
+            - [Während der Quest](#waehrend-der-quest)
+            - [Nach der Quest](#nach-der-quest)
+         - [Ausrüstung](#ausruestung)
+         - [Standort](#standort)
      - [Svein](#svein)
+       - [Standartsätze](#standartsaetze)
+            - [Vor der Quest](#vor-der-quest)
+            - [Während der Quest](#waehrend-der-quest)
+            - [Nach der Quest](#nach-der-quest)
+        - [Ausrüstung](#ausruestung)
+         - [Standort](#standort)
+  
 -  [Mobs](#mobs)
+    - [Eisen-Bergkatze](#eisen-bergkatze)
+    - [Schimmerwolf](#schimmerwolf)
+  
+-  [Items](#items)
+    - [Frisches Wolfsfleisch](#frisches-wolfsfleisch)
+    - [Umhang aus Schimmerwolfpelz](#umhang-aus-schimmerwolfpelz)
+    - [Glänzende Pfeile](#glaenzende-pfeile)
          
 
 
