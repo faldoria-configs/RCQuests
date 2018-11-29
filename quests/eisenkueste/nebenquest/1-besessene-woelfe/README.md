@@ -1,6 +1,6 @@
-# Besessene Woelfe
+# Besessene Wölfe
 
-Im Camp steht [NPC Hauptmann Marduk](#hauptmann-marduk). Er möchte, dass der Spieler aggressive Woelfe für ihn tötet. 
+Im Camp steht [NPC Hauptmann Marduk](#hauptmann-marduk). Er möchte, dass der Spieler aggressive Wölfe für ihn tötet. 
 
 ## Ablauf
 
@@ -12,40 +12,42 @@ Im Camp steht [NPC Hauptmann Marduk](#hauptmann-marduk). Er möchte, dass der Sp
 
 ## Vorraussetzungen
 
->keine Vorraussetzungen
->keine Folgequest  - noch nicht
+[HQ Was ist passiert?](../1-was-ist-passiert/README.md) - Abgeschlossen
 
-## Aufgaben
+[HQ Reparaturarbeiten](../2-reparaturarbeiten/README.md) - Abgeschlossen
 
-### 1. Besessene Woelfe
+## Dialoge
 
-Spieler wird von Hauptmann Marduk angesprochen sobald er in der Nähe (3 Blocks) vorbei läuft.
+
+Der Spieler hat soeben mit Marduk geredet, die [HQ Reparaturarbeiten](../2-reparaturarbeiten/README.md) abgeschlossen und muss noch darauf warten, dass Elius den Ballon fertig repariert. 
 
 ```yml
-Hauptmann Marduk: Hey du! Du siehst aus, als könntest du ein wenig Arbeit vertragen!
+Hauptmann Marduk: Was meinst du? 
 ```
 
-> 1. Wie kann ich dir helfen?  
-> 2. Was? Was geht denn dich das an!?
-
-** Weiter nach #2: **
+> 1. Ach nein, Schimmerwölfe jagen ist nicht so meins, die sind doch schön anzusehen.
 
 ```yml
 Hauptmann Marduk: Wenn du nicht auch noch beinahe gefressen werden willst, hörst du mir besser zu.
 ```
 
-> 3. Worauf willst du hinaus?
-> 4. Na gut, was willst du?
-> 5. Ich komme schon klar, such dir wen anders. `[Ende]`
+> 2.1. Worauf willst du hinaus?
+> 2.2. Na gut, was willst du?
+> 2.3 Ich komme schon klar, such dir wen anders. `[Ende]`
 
-**Weiter nach #1, #3, #4:**
+
+>3. Schimmerwölfe? Ich tu es für dich, aber warum, sie sind doch schön anzusehen. 
+
+
+
+
+**Weiter nach #1., 2.1., 2.2. und 3.:**
 
 ```yml
 Hauptmann Marduk: Hörzu:Ich habe kein Problem mit Tieren, aber wenn sie eins mit mir haben, ist das sehr wohl ein Problem! Normalerweise halten sich fast alle Viecher von uns fern. Aber hier gibt es Wölfe, die nicht zögern jeden anzugreifen, der ihnen zu nahe kommt. Wer weiß ob da nicht Magie im Spiel ist.
 Spieler: Und ich soll die Wölfe jetzt töten, natürlich. Wo finde ich sie?
 Hauptmann Marduk: Ein Stück südwestlich von hier im Wald ist ein alter Schrein an einer eingestürzten Brücke. Dort in der Nähe haben sie mich schon einmal angegriffen. Schau am besten dort. 
 ```
-
 > Na schön, ich werde mich um diese Biester kümmern.
 
 ```yml
@@ -67,23 +69,10 @@ Spieler geht zurück zu Hauptmann Marduk.
 
 ```yml
 Hauptmann Marduk: Sind die Biester tot?
-```
-
-> 1. Ja, sie hatten keine Chance.
-> 2. NEIN, das muss ich noch erledigen.
-
-
-**Weiter nach #1:**
-
-```yml
+Spieler: Ja, sie hatten keine Chance.
 Hauptmann Marduk: Gut gemacht! Hoffen wir, dass das die einzigen waren.... Nimm dies als Dank. [ENDE]
 ```
 
-**Weiter nach #2:**
-
-```yml
-Hauptmann Marduk: Dann verschwende nicht meine Zeit und mach dich an die Arbeit! 
-```
 
 
 ## NPCs
