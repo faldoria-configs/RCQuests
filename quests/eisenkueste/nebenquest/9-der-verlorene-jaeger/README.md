@@ -440,6 +440,8 @@ Möglichkeit 1.2: [Umhang aus Schimmerwolf Pelz](#umhang-aus-schimmerwolfpelz)
 
 ## Referenzen
 
+Lore https://faldoria.de/wiki/index.php?lexicon/27-bekannte-personen/
+
 Da kommt noch ein Bild hin, wo die NPCs stehen
 
 
