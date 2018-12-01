@@ -1,22 +1,47 @@
 # Besessene Wölfe
 
+Issue #21
+
 Im Camp steht [NPC Hauptmann Marduk](#hauptmann-marduk). Er möchte, dass der Spieler aggressive Wölfe für ihn tötet. 
 
 ## Übersicht
 
-## Ablauf
+- [Voraussetzungen](#voraussetzungen)
+- [Ablauf](#ablauf)
+- [Questdialoge](#questdialoge)
+   
+- [NPCs](#npcs)
+     - [Marduk](#marduk)
+         - [Standartsätze](#standartsaetze)
+            - [Vor der Quest](#vor-der-quest)
+            - [Während der Quest](#waehrend-der-quest)
+            - [Nach der Quest](#nach-der-quest)
+         - [Ausrüstung](#ausruestung)
+         - [Standort](#standort)
+-  [Mobs](#mobs)
+    - [Schimmerwolf](#schimmerwolf)
+  
+-  [Items](#items)
+    - [Hose aus Schimmerwolfspelz](#hose-aus-schimmerwolfspelz)
+    
+- [Belohnung](#belohnung)
 
-1. Start: Spieler nähert sich Hauptmann Marduk und wird von ihm angesprochen und gefragt, ob er Arbeit benötige.
-2. Der Spieler ist hilfsbereit/unwillig.
-3. Hauptmann Marduk versucht, den Spieler zu gewinnen, ihm zu helfen.
-4. Der Spieler stimmt zu/lehnt ab. 
-5. Hauptmann Marduk schickt den Spieler in den Wald, um die Wölfe zu töten. 
 
 ## Vorraussetzungen
 
 [HQ Was ist passiert?](../1-was-ist-passiert/README.md) - Abgeschlossen
 
 [HQ Reparaturarbeiten](../2-reparaturarbeiten/README.md) - Abgeschlossen
+
+
+## Ablauf
+
+1. Start: Spieler steht schon bei Hauptmann Marduk nach der [HQ Reparaturarbeiten](../2-reparaturarbeiten/README.md)
+2. Der Spieler ist hilfsbereit/unwillig.
+3. Hauptmann Marduk versucht, den Spieler zu gewinnen, ihm zu helfen.
+4. Der Spieler stimmt zu/lehnt ab. 
+5. Hauptmann Marduk schickt den Spieler in den Wald, um die Wölfe zu töten. 
+
 
 ## Dialoge
 
