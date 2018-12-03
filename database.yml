@@ -1,9 +1,7 @@
-logging: false
-driver: MYSQL
-host: ${DB_HOST:localhost}
-port: ${DB_PORT:3306}
-database: ${DB_NAME:minecraft}
-username: ${DB_USERNAME:minecraft}
-password: ${DB_PASSWORD:minecraft}
-isolation: SERIALIZABLE
+logging: true
+host: db
+port: 3306
+database: minecraft
+username: minecraft
+password: 1rkB0aIgg_rVpJUFOJQuq4XYjfkIW4LS
 rebuild: false
