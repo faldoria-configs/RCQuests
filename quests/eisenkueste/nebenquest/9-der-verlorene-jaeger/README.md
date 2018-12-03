@@ -97,6 +97,7 @@ Der Spieler trifft (mehr oder weniger) zufällig auf Kalbert (den er schon kennt
 ### **Dialog 1**
 
 ```yml
+*Du siehst einen Jäger bei dem Rastplatz stehen, du erkennst beim Näherkommen, dass es Kalbert ist, der Jorgendder, den du schon im Camp gesehen hast*
 Kalbert: Hmmm… Wo ist er nur hin?
 Spieler: Von wem redet Ihr?
 Kalbert: Großer Tianbaum! Erschreck mich doch nicht so!
@@ -253,7 +254,8 @@ Weiter mit [**Dialog 4**](#dialog-4)  [1.2]
 
 ### Kalbert
 
-Kalbert ist ein passionierte Jäger, der hofft, dass sein Sohn Svein in seine Fußstapfen tritt. So schickt er Svein aus, um alleine Eisen-Bergkatzen und Schimmerwölfe zu jagen. Als Svein zurückkehrt und gesteht, dass er diese Tiere nicht töten kann, ist er enttäuscht und frustiert, wird aber durch die Gegenwart des Spielers gezwungen, sich zurückzuhalten und sieht ein, dass er damit leben muss. 
+Kalbert ist für einen Jorgendder sehr klein und schlank. Sein Haar ist grau, er hat einen Vollbart, der eine tiefe Narbe an der rechten Wange teilweise verdeckt. Sein Jägergewand typisch grün und prunkvoll, er erhielt es von dem Jarl aus Skallswik für seine Jahre langen Dienste. 
+Er ist ein passionierter Jäger, der immer noch hofft, dass sein etwas tollpatschiger Sohn Svein in seine Fußstapfen tritt. So schickt er Svein aus, um alleine Eisen-Bergkatzen und Schimmerwölfe zu jagen. Als Svein zurückkehrt und gesteht, dass er diese Tiere nicht töten kann, ist er enttäuscht und frustiert, wird aber durch die Gegenwart des Spielers gezwungen, sich zurückzuhalten und sieht ein, dass er damit leben muss. 
 
 #### Standartsätze
 
@@ -291,7 +293,7 @@ world: faldoria.eisenküste
 
 ### Svein
 
-Svein ist ein junger, geschickter Bogenschütze, hat aber Hemmungen, wenn er 'schöne' Tiere wie Schimmerwölfe und Eisen-Bergkatzen schießen soll um deren Pelze zu bekommen. Er traut sich nicht recht, dies seinem Vater, Kalbert, einem alten Jäger, zu gestehen. 
+Svein ist ein junger, kräftiger Jorgendder, nicht allzu geschickt als Bogenschütz. Er versucht dies zu verbergen, indem er sagt, dass er Hemmungen hat, wenn er 'schöne' Tiere wie Schimmerwölfe und Eisen-Bergkatzen schießen soll um deren Pelze zu bekommen. Er traut sich nicht recht, dies seinem Vater, Kalbert, einem alten Jäger, zu gestehen. 
 
 #### Standartsätze
 
@@ -437,6 +439,8 @@ Möglichkeit 1.2: [Umhang aus Schimmerwolf Pelz](#umhang-aus-schimmerwolfpelz)
 
 
 ## Referenzen
+
+Lore https://faldoria.de/wiki/index.php?lexicon/27-bekannte-personen/
 
 Da kommt noch ein Bild hin, wo die NPCs stehen
 

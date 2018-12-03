@@ -9,11 +9,11 @@ Elius bittet den Spieler ihm dabei zu helfen den Ballon zu reparieren mit dem El
     - [1.2 Materialien sammeln](#12-materialien-sammeln)
 - [NPCs](#npcs)
     - [Elius](#elius)
-        - [Standartsätze](#standartsätze)
+        - [Standartsätze](#standarts%C3%A4tze)
             - [Vor der Quest](#vor-der-quest)
-            - [Während der Quest](#während-der-quest)
+            - [Während der Quest](#w%C3%A4hrend-der-quest)
             - [Nach der Quest](#nach-der-quest)
-        - [Ausrüstung](#ausrüstung)
+        - [Ausrüstung](#ausr%C3%BCstung)
         - [Standort](#standort)
 - [Items](#items)
     - [Klebstoff](#klebstoff)
@@ -107,6 +107,11 @@ Marduk: Das erfreut mich, wenn er fertig ist gehst du also mit ihm.
 > Ja, das wird aufregend.
 
 `[QUEST ENDE]` [Reparaturarbeiten](#reparaturarbeiten) und erhält [Belohnung](#belohunung) 
+
+```yml
+In der Zwischenzeit könntest du noch im Camp aushelfen, frag doch die anderen mal - oder z.B. noch einige der wildgewordenen Wölfe plattmachen. 
+```
+Weiter mit Nebenquest [Besessene Wölfe](../../nebenquest\1-besessene-woelfe\README.md)
 
 Weiter bei [HQ Die Erlaubnis](../3-die-erlaubnis/README.md)
 
