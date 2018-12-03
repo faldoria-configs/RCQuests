@@ -24,7 +24,7 @@ Mimi sitzt auf der Treppe, die zu den oberen Häusern Ankanors führt und ruft d
 Mimi: Hey, <Name des Spielers>, du willst doch sicherlich einem armen kleinen Mädchen helfen? 
 - du drehst dich um und siehst auf der Treppe Mimi sitzen, ein etwa 10-jähriges Mädchen, das du vom Sehen her kennst -
 Spieler: Was will denn das arme kleine Mädchen von mir? 
-Mimi: Ich habe oben im Haus bei Tante Hilde meine Puppe vergessen und ich brauche sie wirklich dringend!
+Mimi: Ich habe oben im Haus bei Tante Mairi meine Puppe vergessen und ich brauche sie wirklich dringend!
 Spieler: Mimi, wieso gehst du denn nicht selber hinauf und holst sie?
 Mimi: Aber siehst du denn nicht, dass ich einen wehen Fuß habe?  - Mimi hält dir ihr Bein hin, das mit ein paar losen Stoffstreifen umwickelt ist - 
 Spieler: Nein, Mimi, wirklich nicht, ich lass mich von dir nicht auf den Arm nehmen. Geh und hold dir deine Puppe selbst und dann schau, dass du zum Schiff kommst. Weißt du nicht, dass wir alle weg müssen, weil Agnatus und seine bösen Männer kommen? Ich habe jetzt Wichtigeres zu tun. 
@@ -37,24 +37,24 @@ Mimi: Ich verrate dir auch ein Geheimnis, wenn du mir hilfst!
 **Weiter nach #2**
 
 ```yml
-Mimi: In der einzelnen Kiste, direkt neben der Treppe, die wieder nach unten zum Schlafzimmer führt. In dem obersten Haus, nicht dort, wo Onkel Fred wohnt. Danke, <Name des Spielers>, du bist einfach großartig! 
+Mimi: In der einzelnen Kiste, direkt neben der Treppe, die wieder nach unten zum Schlafzimmer führt. In dem Haus rechts, nicht oben, wo {NPC von Eiseküste einsetzten} wohnt. Danke, <Name des Spielers>, du bist einfach großartig! 
 ```
----> VLLt Schild am Haus anbringen mit einem Namen - z.B. Fred Schreiner, am anderen Hilde Ohnesorg
+---> VLLt Schild am Haus anbringen mit einem Namen - z.B. {Name NPC Eisenküste}, am anderen Mairi
 
 `[Quest START]` [Mimi braucht dich](#mimi-braucht-dich)
 
-**QuestLog:** *Laufe ins oberste Haus von Ankanor, das Hilde Ohnesorg gehört, hole die Puppe und kehre zu Mimi zurück.*
+**QuestLog:** *Laufe ins oberste Haus von Ankanor, das Mairi gehört, hole die Puppe und kehre zu Mimi zurück.*
 
 Spieler läuft hoch und findet die Puppe in der Kiste, nimmt sie an sich und kehrt zu Mimi zurück. 
 
 ```yml
-Spieler: Hier hast du deine Puppe, kleines armes Mädchen, aber jetzt mach dich auf zum Schiff! Wer weiß, wo Tante Hilde ist. 
-Mimi: Sie ist schon dort, sie musste mit helfen und hat gesagt, ich soll nachkommen, aber ich brauchte doch meine Puppe! Da, du kannst die Hälfte meines Plätzchens haben. 
+Spieler: Hier hast du deine Puppe, aber jetzt mach dich auf zum Schiff!  
+Mimi: Ja, ich lauf' doch schon, aber ich brauchte doch meine Puppe! Da, du kannst die Hälfte meines Plätzchens haben. 
 ```
-----> Mimi gibt dem Spieler ein angebissenes Plätzchen - Spieler hat im Inventar einen Keks der "angebissener Keks " heißt.
+----> Mimi gibt dem Spieler ein angebissenes Plätzchen - Spieler hat im Inventar einen Keks der [Angebissenes Plätzchen](#angebissenes-plaetzchen) heißt.
 
 ```yml
-Spieler: Was, Tante Hilde ist schon weg? Na dann los! Aber schnell!
+Spieler: Was, du kannst doch laufen? Na dann los! Aber schnell!
 Mimi: Willst du nicht mein Geheimniss wissen?
 Spieler: Nun sag schon!!! - du wirkst sehr ungeduldig - 
 Mimi:  - Mimi zieht dich zu sich herunter und flüstert in dein Ohr - Junnar nmag dich! 
@@ -66,12 +66,11 @@ Spieler: Shichos Schwester? - du wirst rot und sagst sehr unwirsch - Verschwinde
 
 ### Mimi
 
-Mimi looks like a nice, though dirty little girl, just as you would imagine any other little girl. Red curly hair frames a little pretty looking round face, which seems to need a cleaning almost every time. Especially around her mouth traces of the meals of today can be seen which melt easily with the freckles on her nose and cheeks. But her huge green eyes let you forget the dirt in her face. She wears her worn out dress, which might have been green once, like the daughter of the King himself and her lack of shoes comes in handy when she gets up and climbs up into the Tian tree. She is about a half a meter tall,  her small stature   often fools people who think she is much younger than she actual is. Her skin colour is  of a healthy tan, but what is really sunburned or dirt is not to be judged easily. She loves all yellow flowers and often carries a blossom in her hair or fixed to her bandana.
+Mimi ist ein Kind, das im Alter von ca 3 Jahren auf der Insel Ankanor in einem kleinen Boot angespült wurde, das eigentlich nicht seetauglich war. Sie besaß nichts außer zerissene Kleidung, eine Puppe, ein Amulet um den Hals und etwas Verpflegung. Mairi nahm sie in ihre Familie auf.
 
---> Übersetzung folgt noch. 
+Mimi ist inzwischen ein hübsches, rothaariges Mädchen mit einem rundlichen Gesicht und grünen Augen. Meist kleben einige Krümel in ihrem Gesicht, da sie sich trotz Mairies Bemühungen, sie gesund zu ernähren, von Kiakeksen zu leben scheint. Sie ist vom vielen spielen im Freien braungebrannt und liebt es, sich bunte Blumen ins Haar zu flechten.
 
-Nur zur Visualisierung: https://i.imgur.com/KRhnMRN.jpg
-
+Gerne trägt sie grüne oder blaue Kleidchen, Schuhe jedoch mag sie nicht, da sie hinderlich beim Klettern im Tianbaum sind. Sie ist für ihr Alter von 10 Jahren ziemlich klein, und erscheint manchen viel jünger als sie wirklich ist. 
 
 
 ### Standartsätze
