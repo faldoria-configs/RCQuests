@@ -11,7 +11,7 @@ stages:
         - '!stage help'
   help:
     text: 'Das klingt gar nicht so dumm, also hilf ihm.'
-      answers:
-        flow:
-          - ':"Ok ich mache mich auf den Weg und erzähle später mehr."'
-          - '!quest.complete this.was-ist-passiert'
+    answers:
+      flow:
+        - ':"Ok ich mache mich auf den Weg und erzähle später mehr."'
+        - '!quest.complete this.was-ist-passiert'
