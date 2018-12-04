@@ -1,11 +1,13 @@
 # Gespräch mit Mairi
 
+Issue 54
+
 [Mairi](#mairi) ist eine Kaishi von Ankanor, die ihr Haus hoch oben im Tianbaum hat. 
 
 
 ## Was noch fehlt:
 
-Fast alles
+Überprüfung
 
 
 ## Übersicht 
@@ -128,92 +130,75 @@ Nur XP
 
 ## NPCS
 
-### Mimi
-
-Beschreibung des NPCs, wenn möglich Verlinkung zum Wiki 
+### Mairi
 
 #### Standartsätze
 
-    ##### Vor der Quest:
+##### Während der Quest
+```yml
+Mairi: hast du Mimi schon Bescheid gesagt?
+Spieler: Noch nicht, mache ich aber gleich!
+Mairi: Beeil dich bitte!
+```
+##### Nach der Quest:
 
-*Wenn z.B. die Vorraussetzungen noch nicht erfüllt sind*
+Mairi: Was, du bist immer noch hier? Hast du nichts Besseres zu tun?
+
+#### Ausrüstung
+
+  > normalen Skin
+
+#### Standort
+
+```yml
+x: 44
+y: 88116
+z: -7
+world: Ankanor
+``` 
 
 
+### Mimi
 
-    ##### Während der Quest:
+> siehe [Mimi braucht dich](#mimi-braucht dich)
 
-Wenn die Quest noch nicht erfüllt ist und der Spieler trotzdem zurück kommt
+#### Standartsätze
 
-    ##### Nach der Quest: 
-
-Wenn der Spieler nach Abschluss der Quest den NPC anklickt
-
+   > siehe [Mimi braucht dich](#mimi-braucht dich)
 
 
 #### Ausrüstung
 
-Welchen Skin hat der NPC? Was hält er in der Hand?
+   siehe [Mimi braucht dich](#mimi-braucht dich)
 
-#### Standort   
+#### Standort
 
 ```yml
-x: 
-y: 
-z: 
-world: faldoria.eisenküste
-```
+x: 38
+y: 88
+z: -32
+world: Ankanor
+``` 
 
 
 ## Items
 
-Item: engl. Bezeichnung hier: https://minecraft-ids.grahamedgecombe.com/
-
-
-### Name des Items
-
-```yml
-ID: 
-name: 
-type: QUEST (z.B.)
-quality: COMMON (z.B.)
-item: (engl. Bezeichnung aus dem MC-Wiki)
-lore: 
-max-stack-size: 
-```
-
-
-## Mobs
-
-### Name des Mobs
-
-```yml
-name: 
-type: engl. Bezeichnung aus dem MC Wiki
-min-level: 
-max-level: 
-min-health: 
-max-health: 
-min-damage: 
-max-damage: 
-spawn-chance: 
-spawning-naturally: 
-loot-table: was droppt es?
-aggro: false/true
-```
+ - 
 
 
 ## Belohnung
 
 [Name des Items](##name-des-items)
 
+XP
+
 
 
 ## Referenzen
 
-Links!
--  zur Lore
-- Zur Mobkarte
-- Oder was auch immer nützlich erscheint 
+Hängt zusammen mit:  
+
+[NQ Mimi braucht dich](#6-mimi-braucht-dich)
 
 
 

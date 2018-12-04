@@ -1,9 +1,11 @@
 # Mimi braucht dich
 
+Issue 51
+
 
 ## Ablauf
 
-1. Der Spieler trifft auf Mimi, ein 10-jähriges Waisenkind, das ihn anspricht und um Hilfe bittet.
+1. Der Spieler trifft auf Mimi, ein 11-jähriges Waisenkind, das ihn anspricht und um Hilfe bittet.
 2. Er soll Mimis Puppe aus dem höchsten Haus auf Ankanor holen.
 3. Der Spieler tut das und erfährt als Belohnung ein 'Geheimnis'
 
@@ -37,7 +39,7 @@ Mimi: Ich verrate dir auch ein Geheimnis, wenn du mir hilfst!
 **Weiter nach #2**
 
 ```yml
-Mimi: In der einzelnen Kiste, direkt neben der Treppe, die wieder nach unten zum Schlafzimmer führt. In dem Haus rechts, nicht oben, wo {NPC von Eiseküste einsetzten} wohnt. Danke, <Name des Spielers>, du bist einfach großartig! 
+Mimi: In der Kiste unter der Treppe, die nach oben führt. In dem Haus ganz oben, nicht dort, wo Bürgermeister Roschick wohnt. Danke, <Name des Spielers>, du bist einfach großartig! 
 ```
 ---> VLLt Schild am Haus anbringen mit einem Namen - z.B. {Name NPC Eisenküste}, am anderen Mairi
 
