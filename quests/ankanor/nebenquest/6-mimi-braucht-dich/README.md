@@ -2,6 +2,8 @@
 
 Issue 51
 
+NPC muss noch plaziert werden, wenn möglich auf Stufe sitzend
+
 
 ## Ablauf
 
