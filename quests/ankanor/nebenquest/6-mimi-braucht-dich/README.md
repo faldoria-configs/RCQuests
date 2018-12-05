@@ -24,7 +24,7 @@ Mimi sitzt auf der Treppe, die zu den oberen Häusern Ankanors führt und ruft d
 
 ```yml
 Mimi: Hey, <Name des Spielers>, du willst doch sicherlich einem armen kleinen Mädchen helfen? 
-- du drehst dich um und siehst auf der Treppe Mimi sitzen, ein etwa 10-jähriges Mädchen, das du vom Sehen her kennst -
+*du drehst dich um und siehst auf der Treppe Mimi sitzen, ein etwa 10-jähriges Mädchen, das du vom Sehen her kennst*
 Spieler: Was will denn das arme kleine Mädchen von mir? 
 Mimi: Ich habe oben im Haus bei Tante Mairi meine Puppe vergessen und ich brauche sie wirklich dringend!
 Spieler: Mimi, wieso gehst du denn nicht selber hinauf und holst sie?
@@ -45,7 +45,7 @@ Mimi: In der Kiste unter der Treppe, die nach oben führt. In dem Haus ganz oben
 
 `[Quest START]` [Mimi braucht dich](#mimi-braucht-dich)
 
-**QuestLog:** *Laufe ins oberste Haus von Ankanor, das Mairi gehört, hole die Puppe und kehre zu Mimi zurück.*
+**QuestLog:** *Laufe ins oberste Haus von Ankanor, das Mairi gehört, hole die Puppe aus der Kiste unter der Treppe und kehre zu Mimi zurück.*
 
 Spieler läuft hoch und findet die Puppe in der Kiste, nimmt sie an sich und kehrt zu Mimi zurück. 
 
@@ -58,9 +58,9 @@ Mimi: Ja, ich lauf' doch schon, aber ich brauchte doch meine Puppe! Da, du kanns
 ```yml
 Spieler: Was, du kannst doch laufen? Na dann los! Aber schnell!
 Mimi: Willst du nicht mein Geheimniss wissen?
-Spieler: Nun sag schon!!! - du wirkst sehr ungeduldig - 
-Mimi:  - Mimi zieht dich zu sich herunter und flüstert in dein Ohr - Junnar nmag dich! 
-Spieler: Shichos Schwester? - du wirst rot und sagst sehr unwirsch - Verschwinde! Auf zum Schiff!
+Spieler: Nun sag schon!!! * du wirkst sehr ungeduldig* 
+Mimi:  - Mimi zieht dich zu sich herunter und flüstert in dein Ohr - Junnar mag dich! 
+Spieler: Shichos Schwester? *du wirst rot und sagst sehr unwirsch - Verschwinde! Auf zum Schiff!*
  ```
 [Ende]
 
@@ -70,9 +70,9 @@ Spieler: Shichos Schwester? - du wirst rot und sagst sehr unwirsch - Verschwinde
 
 Mimi ist ein Kind, das im Alter von ca 3 Jahren auf der Insel Ankanor in einem kleinen Boot angespült wurde, das eigentlich nicht seetauglich war. Sie besaß nichts außer zerissene Kleidung, eine Puppe, ein Amulet um den Hals und etwas Verpflegung. Mairi nahm sie in ihre Familie auf.
 
-Mimi ist inzwischen ein hübsches, rothaariges Mädchen mit einem rundlichen Gesicht und grünen Augen. Meist kleben einige Krümel in ihrem Gesicht, da sie sich trotz Mairies Bemühungen, sie gesund zu ernähren, von Kiakeksen zu leben scheint. Sie ist vom vielen spielen im Freien braungebrannt und liebt es, sich bunte Blumen ins Haar zu flechten.
+Mimi ist inzwischen ein hübsches, rothaariges Mädchen mit einem rundlichen Gesicht und grünen Augen. Meist kleben einige Krümel in ihrem Gesicht, da sie trotz Mairies Bemühungen, sie gesund zu ernähren, von Kiakeksen zu leben scheint. Sie ist vom vielen Spielen im Freien braungebrannt und liebt es, sich bunte Blumen ins Haar zu flechten.
 
-Gerne trägt sie grüne oder blaue Kleidchen, Schuhe jedoch mag sie nicht, da sie hinderlich beim Klettern im Tianbaum sind. Sie ist für ihr Alter von 10 Jahren ziemlich klein, und erscheint manchen viel jünger als sie wirklich ist. 
+Gerne trägt sie grüne oder blaue Kleidchen, Schuhe jedoch mag sie nicht, da sie hinderlich beim Klettern im Tianbaum sind. Sie ist für ihr Alter von 11 Jahren ziemlich klein und erscheint manchen viel jünger als sie wirklich ist. 
 
 
 ### Standartsätze
@@ -103,7 +103,7 @@ Gerne trägt sie grüne oder blaue Kleidchen, Schuhe jedoch mag sie nicht, da si
 Spieler: Ja, nun sag mir schnell noch mal, wo ich die Puppe finde. 
 ```
 
-**Weiter nach #2**  --->Interner Link nach oben
+**Weiter nach #2**  s.o.
 
 ### Ausrüstung
 
@@ -143,9 +143,9 @@ Puppe aus Stoff und anderen natürlichen Materialien.
 Zu finden in Kiste bei --> kann ich grad nicht nachsehen
 
 ``yml
-x: 18
-y: 115
-z: -19
+x: 1867
+y: 129
+z: 9
 world: Ankanor
 ``` 
 
