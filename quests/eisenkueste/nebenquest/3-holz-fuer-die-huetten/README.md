@@ -1,9 +1,41 @@
 # Holz für die Hütten
 
+Issue 13
 
-> **Anmerkung:** Items überprüfen, Holz/Wolle Farbe? Kiesflohfleisch?
+## Noch zu tun
 
-Zimmermann Akisk steht im Lager, das die schiffbrüchigen Ankanorer aufgebaut haben. 
+> **Anmerkung:** Items überprüfen, Holz/Wolle Farbe? 
+>  Kiesflohfleisch?  - rotten_flesh?
+>  Skin holzfällerartiger machen
+>  Belohnung mit anderen Quests abstimmen
+
+Zimmermann [Akisk](#akisk) steht im Lager, das die schiffbrüchigen Ankanorer aufgebaut haben. 
+
+
+## Übersicht
+
+- [Voraussetzungen](#voraussetzungen)
+- [Ablauf](#ablauf)
+- [Questdialoge](#questdialoge)
+   
+- [NPCs](#npcs)
+     - [Akisk](#akisk)
+         - [Standartsätze](#standartsaetze)
+            - [Vor der Quest](#vor-der-quest)
+            - [Während der Quest](#waehrend-der-quest)
+            - [Nach der Quest](#nach-der-quest)
+         - [Ausrüstung](#ausruestung)
+         - [Standort](#standort)
+-  [Mobs](#mobs)
+   
+   keine
+  
+-  [Items](#items)
+  
+     - [Schiffsplanken](#schiffsplanken)
+     - [Rotes Segeltuch](#rotes-segeltuch)
+     - [Kiesflohfleisch](#kiesflohfleisch)
+- [Belohnung](#belohnung)
 
 ## Ablauf
 
@@ -38,9 +70,10 @@ Akisk: Ist aber ganz einfach, am Strand findest du angeschwemmte Teile des Schif
 ```
 
 > 1. Vielleicht später. [Ende]
+
 > 2. Ok, ich werde das Material besorgen.
 
-Weiter mit #2
+**Weiter mit #2**
 
 `[Quest START]` [1. Holz für die Hütten](#holz-fuer-die-huetten)
 
@@ -85,12 +118,14 @@ Akisk: Dann beeil dich bitte.
 ```
 
 > 2. Schon fertig? Nein, das reicht nicht, such noch weiter!
+
 > 3. Kannst du nicht zählen? Du hast viel zu wenig!
 
 ##### Nach der Quest (#2)
 
-1. Brauchst du was von mir? Ich habe nichts übrig.
-2. Wie gut, dass du soviel Holz gebracht hast, jetzt wird uns bald nicht mehr frieren. 
+> 1. Brauchst du was von mir? Ich habe nichts übrig.
+   
+> 2. Wie gut, dass du soviel Holz gebracht hast, jetzt wird uns bald nicht mehr frieren. 
 
 #### Ausrüstung
 
@@ -109,28 +144,27 @@ world: Faldoria, Eisenküste
 
 ## Items
 
-### Ausgebleichte Wolle
+### Rotes Segeltuch
 
 Wolle, die vielleicht einmal Teil des Segels war.
 
 ```yml
-name: Ausgebleichte Wolle
+name: Rotes Segeltuch
 type: QUEST
 quality: COMMON
-item: light_gray_wool
-lore: Ausgebleichte Wollfetzen.
+item: red_wool
+lore: Dieser rote Wollstoff gehörte mal zu einem Segel
 max-stack-size: 64
 ```
 
-### Treibholz
+### Schiffsplanken
 
-Angeschwemmt und weiß, trotzdem kann man's brauchen!
 
 ```yml
-name: Treibholz
+name: Schiffsplanken
 type: ROHSTOFF
 quality: COMMON
-item: birch_planks, stripped_birch_wood (1.13)
+item: spruce_wood
 lore: Dieses Holz ist etwas feucht.
 max-stack-size: 64
 ```
@@ -141,8 +175,8 @@ max-stack-size: 64
 name: Gebratenes Kiesflohfleisch
 type: ROHSTOFF
 quality: COMMON
-item: rotten_flesh   <----- Checken, ob das nicht schon was anderes ist
-lore: Man kann es essen.
+item: rotten_flesh   
+lore: Man kann es essen, wenn es sein muss.
 max-stack-size: 64
 ```
 
