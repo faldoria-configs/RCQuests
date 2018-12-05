@@ -1,4 +1,39 @@
-# Abenteuerer Renlik
+# Die Quelle allen Übels
+
+Issue 14
+
+## Noch zu tun
+
+Lagerfeuer bauen (Rüstungsständer, noch keine Rechte)
+Belohnung ändern, falls Klassen vorerst abgeschafft werden
+Vorraussetzung Waffe festlegen
+Renlik 
+Werte Monster festlegen
+
+## Überblick
+
+- [Voraussetzungen](#voraussetzungen)
+- [Ablauf](#ablauf)
+- [Questdialoge](#questdialoge)
+   
+- [NPCs](#npcs)
+     - [Renlik](#renlik)
+         - [Standartsätze](#standartsaetze)
+            - [Vor der Quest](#vor-der-quest)
+            - [Während der Quest](#waehrend-der-quest)
+            - [Nach der Quest](#nach-der-quest)
+         - [Ausrüstung](#ausruestung)
+         - [Standort](#standort)
+-  [Mobs](#mobs)
+    - [Die Quelle allen Übels](#die-quelle-allen-uebels)
+  
+-  [Items](#items)
+
+     [Magische Asche](#magische-asche)
+
+-  > mehrere Belohnungen für verschiedene Klassen? Gegebenenfalls abändern
+    
+- [Belohnung](#belohnung)
 
 
 ## Ablauf
@@ -8,7 +43,7 @@
 2. Dieser redet wirres Zeug, von einer Expedition zur Quelle des Flusses und dem Tod der Gruppe. 
 3. Der Spieler geht zur Quelle und sucht nach der Ursache.
 4. Er findet ein Ungeheur, welches er tötet.
-4. Er kehrt dann zu Renlik zurück. 
+5. Er kehrt dann zu Renlik zurück. 
 
 
 ## Vorraussetzungen
@@ -16,7 +51,7 @@
  - lvl 5
  - Waffe???  Ausrüstung?
 
-## Aufgaben
+## Aufgaben/Quests
 
 1. Die Quelle allen Übels
 2. Kehre zu Renlik zurück
@@ -57,7 +92,7 @@ NPC: Wenn ich das wüsste… sicher ist nur, dass meine langen Beine mich davor 
 `**QuestLog:**` *Finde die Quelle des Flusses und gehe dem Tod der Expeditionsmitglieder auf den Grund.*
 
 
-Der Spieler folgt dem Flusslauf bis zur Quelle und tötet das dortige Monster. Sobald dies erledigt ist, kehrt er zum Abenteurer Renlik zurück. 
+Der Spieler folgt dem Flusslauf bis zur Quelle und tötet das dortige Monster (blaze). Sobald dies erledigt ist, kehrt er zum Abenteurer Renlik zurück. 
 
 `[Ende]`
 

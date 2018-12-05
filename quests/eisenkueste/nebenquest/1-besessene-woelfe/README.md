@@ -2,6 +2,11 @@
 
 Issue #21
 
+## Noch zu tun
+
+> Wölfe Werte geben
+> Belohnung XP und Gold festsetzen
+
 Im Camp steht [NPC Hauptmann Marduk](#hauptmann-marduk). Er möchte, dass der Spieler aggressive Wölfe für ihn tötet. 
 
 ## Übersicht

@@ -1,8 +1,41 @@
 # Frische Zutaten
 
+Issue 15
 
-Adanion, der Koch der Eiseküste steht im Camp in der provisorischen Küche.
 
+[Adanion](#adanion), der Koch der Eiseküste steht im Camp in der provisorischen Küche.
+## Noch zu tun.
+
+Weiße Beeren, Magus Beeren? Wie werden wir das handhaben? Blaue Orchideen und Porzellansternchen umbenennen? 
+(Schimmerwölfe, normale Mobs, droppen was?)
+
+## Übersicht
+
+- [Voraussetzungen](#voraussetzungen)
+- [Ablauf](#ablauf)
+- [Questdialoge](#questdialoge)
+   
+- [NPCs](#npcs)
+     - [Adanion](#adanion)
+         - [Standartsätze](#standartsaetze)
+            - [Vor der Quest](#vor-der-quest)
+            - [Während der Quest](#waehrend-der-quest)
+            - [Nach der Quest](#nach-der-quest)
+         - [Ausrüstung](#ausruestung)
+         - [Standort](#standort)
+-  [Mobs](#mobs)
+   
+-  [Items](#items)
+      -  [Weiße Beere](#weisse-beere)
+      -  [Magus-Beere](#magus-beere)
+      -  [Kießflohfleisch](#kiesflohfleisch)
+      -  [Pilze](#pilze)
+      -  [Roher Fisch](#roher-fisch)
+      -  [Roher Lachs](#roher-lachs)
+      -  [Adanions Eintopf](#adanions-eintopf)
+   
+
+- [Belohnung](#belohnung)
 
 ## Ablauf
 
@@ -14,7 +47,7 @@ Adanion, der Koch der Eiseküste steht im Camp in der provisorischen Küche.
 
 ## Vorraussetzungen
 
-lvl ?
+lvl 2  
 Waffe von Ankanor?
 Rüstung?
 
@@ -58,7 +91,7 @@ Adanion: Wir brauchen aber bessere Nahrung. Vor allem die Alten und die Kinder b
 Weiter mit #2:
 
 ```yml
-Adanion: Mein Eintopf benötigt einige weiße Beeren, aber auch einige Magus-Beeren. Ich hoffe sie wachsen hier überhaupt. Im Wald wirst du wohl am ehesten fündig. 
+Adanion: Mein Eintopf benötigt einige [Weiße Beeren](#weisse-beeren), aber auch einige [Magus-Beeren](#magus-beeren). Ich hoffe sie wachsen hier überhaupt. Im Wald wirst du wohl am ehesten fündig. 
 ```
 
 `[Quest START]` [1. Frische Zutaten](#frische-zutaten)
@@ -69,6 +102,8 @@ Adanion: Mein Eintopf benötigt einige weiße Beeren, aber auch einige Magus-Bee
 
 Der Spieler geht in den Wald und sammelt die Beeren. 
 `[Ende]`
+
+
 
 `[Quest START]` [2. Kehre mit den Beeren zu Adanion zurück.](#kehre-mit-den-Beeren-zu-Adanion-zurueck)
 
@@ -82,7 +117,7 @@ Adanion: Warte etwas, dann kannst du gleich mal probieren....  Oh nein!.....  Ic
 Spieler: Wieso, was ist los? 
 Adanion: Das Aroma stimmt nicht! So etwas kann ich nicht servieren! Das geht nicht. Du musst mir noch ein paar andere Dinge besorgen. 
 Spieler: Was brauchst du denn noch? 
-Adanion: Ich glaube, ein wenig Fleisch würde dem ganzen eine würzige Note geben. Besorg mir doch ein wenig  Fisch und etwas Kiesfloh Fleisch.
+Adanion: Ich glaube, ein wenig Fleisch würde dem ganzen eine würzige Note geben. Besorg mir doch ein wenig  Fisch und etwas [Kiesflohfleisch](#kiesflohfleisch).
 ```
 `[Ende]`
 
@@ -94,11 +129,11 @@ Adanion: Ich glaube, ein wenig Fleisch würde dem ganzen eine würzige Note gebe
      Adanion: Ausgezeichnet!
 
 
-Weiter nach Antwort #2
+**Weiter nach Antwort #2**
 
 `[Quest START]` [3. Fleisch macht es besser.](#fleisch-macht-es-besser)
 
-**QuestLog:**  *Gehe zum Strand, besorge 10x Kiesfloh-Fleisch, 3x rohen Lachs und 7x rohen Fisch.*
+**QuestLog:**  *Gehe zum Strand, besorge 10x Kiesflohfleisch, 3x rohen Lachs und 7x rohen Fisch.*
 
 Spieler besorgt das Gewünschte.
 
@@ -115,9 +150,14 @@ Spieler: JA, kannst du jetzt endlich deinen Eintopf kochen?
 Adianon: Hhmmh, nun ja… ich muss zugeben, ich habe noch eine Kleinigkeit vergessen.  
 Spieler: WAS BRAUCHST DU DENN JETZT NOCH? 
 Adianon: Ich brauche noch eine kleine Ration meiner Spezialzutat. Ich würze meinen Eintopf immer noch mit einigen Pilzen. Wenn du mir die noch beschaffst, bekommst du für deine Mühen auch etwas! 
-Spieler: Na gut, ich bin ja eine geduldige Person...
 ```
 `[Ende]`
+
+> 1. Jetzt reicht es aber wirklich, ich habe jetzt was anderes zu tun. `[Ende]` --> Keine Belohnung!
+
+> 2. Spieler: Na gut, ich bin ja eine geduldige Person...
+
+**Weiter nach #2.**
 
 `[Quest START]` [5. Es fehlt noch was.](#es-fehlt-noch-was)
 
@@ -134,7 +174,7 @@ Adanion: Gott sei Dank. Bist du mit den Pilzen zurück?
 Spieler: JA. Lass mich raten, du hast noch etwas vergessen...?
 Adanion: FABELHAFT. Wovon redest du? Warte kurz, schnell die Pilze schneiden, anrösten und rein damit. Dreimal nach rechts rühren, kurz warten, dreimal nach links rühren und - es ist fertig! Und es schmeckt absolut köstlich! 
 Spieler: Wurde auch Zeit… 
-Adanion: Ich danke dir! Jetzt gibt es auch mal wieder etwas Anständiges zum Essen! Hier ist deine Belohnung. - Adanion reicht dir eine Schüssel dampfenden Eintopf - 
+Adanion: Ich danke dir! Jetzt gibt es auch mal wieder etwas Anständiges zum Essen! Hier ist deine Belohnung. *Adanion reicht dir eine Schüssel dampfenden Eintopf* 
 ```
 `[Ende]`
 
@@ -159,16 +199,17 @@ keine
   Spieler: Leider habe ich noch nicht alle, aber ich suche nochmals. Ich kann sie im Wald finden, sagtest du?
   Adanion: Ja klar, im Wasser wachsen sie nicht.
 
-######  Teil 3: Fleisch macht es besser
+######  Teil 2: Fleisch macht es besser
 
 > Adanion: Und, waren die Kiesflöhe lästig? Hast du die Fische auch?
   Spieler: Leider habe ich noch nicht alle Zutaten. 
-  Adanion: Na, dann aber fix!
+  Adanion: Na, dann aber fix! Die Leute haben schon schrecklichen Hunger!
 
-######  Teil 5: Es fehlt noch was
+######  Teil 3: Es fehlt noch was
 
 > Adanion: Hast du genügend Pilze?
-  Spieler: Reichen die veilleicht schon? 
+
+  Spieler: Reichen die vielleicht schon? 
   Adanion: Nein, das ist nichts, da brauche ich schon mehr, das Aroma, denk an das Aroma!
   Spieler: Nagut, ich mach mich nochmals auf die Socken.
 
@@ -197,10 +238,10 @@ world: Faldoria, Eisenküste
 
 ## Items
 
-### Magus Beeren
+### Magus Beere
 
 ```yml
-name: Magus-Beere
+name: Magus Beere
 type: ROHSTOFF
 quality: rare
 item: 
@@ -208,7 +249,7 @@ lore:
 max-stack-size: 16
 ```
 
-### Weiße Beeren
+### Weiße Beere
 
 Weiße Beeren, die..
 
@@ -227,7 +268,7 @@ max-stack-size: 64
 name: Kiesflohfleisch
 type: ROHSTOFF
 quality: COMMON
-item: ?
+item: rotten_flesh
 lore: Wenn's sein muss, kann man's essen. 
 max-stack-size: 64
 ```
@@ -266,10 +307,10 @@ lore: Auch roh genießbar.
 max-stack-size: 64
 ```
 
-### Eintopf
+### Adanions Eintopf
 
 ```yml
-name: Adanions Bester
+name: Adanions Eintopf
 type: ?
 quality: COMMON
 item: rabbit_stew
@@ -281,7 +322,7 @@ max-stack-size: 64
 
 ## Belohnung: 
 
-Adanions Eintopf 
+[Adanions Eintopf](#adanions-eintopf)
 Weitere Belohnung überprüfen (Vervollständigen einer Rüstung)
 
 
@@ -299,7 +340,3 @@ Quest Abgeschlossen: Es fehlt noch was
 
 
 
-> 1. Spieler: NEIN, leider noch nicht
-     Adanion: Na los, die Leute hungern ja schon!
-
-> 2. 

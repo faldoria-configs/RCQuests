@@ -25,7 +25,7 @@
 |---|---|
 |**Gebietsnummer:**|0  |
 |**Gebietslevel:**|0-3  |
-|**Questzahl:**|5 Hauptquest / 5 Nebenquest  |
+|**Questzahl:**|5 Hauptquest / 7 Nebenquest  |
 |**Spielzeit:**|Circa 2 Stunden|
 
 ## NPCs / Monster
@@ -75,6 +75,7 @@
 |3. [Skelette in der Höhle](./nebenquest/3-skelette-in-der-hoehle/README.md)|Die Höhle bei Genam beherbergt Skelette, diese soll der Spieler töten | Vorraussetzung: Angenommen `NQ Material für die Schmiede`|
 |4. [Hilf in der Schmiede](./nebenquest/4-hilf-in-der-schmiede/README.md)|Zum Schmieden soll der Spieler Knöpfe und Hebel drücken |Vorraussetzung: Erledigt `NQ Material für die Schmiede` |
 |5. [Hilf dem Lagerarbeiter](./nebenquest/5-hilf-dem-lagerarbeiter/README.md)| Das Lager an der Versammlungshalle ist fast leer, der Spieler soll sie für Kansa wieder füllen| |
+|6. [Mimi braucht dich](./nebenquest/6-mimi-braucht-dich/README.md)| Der Spieler soll Mimis Puppe aus dem obersten Haus holen.|
 
 ### Verwendete Quest Tags 
 |Tag | Auslöser/Beschreibung|
@@ -93,7 +94,8 @@
 |55 EXP |diverse Quest |
 |Abgetragene Hose|Hauptquest `Weitere Ausbildung` |
 |10 verbrannte Steaks|Nebenquest `Hilf in der Schmiede`|
-|2 Rote Äpfel|Nebenquest `Hilf dem Lagerarbeiter`
+|2 Rote Äpfel|Nebenquest `Hilf dem Lagerarbeiter`|
+|1 angebissenen Keks| Nebenquest ``MMimi braucht dich``||
 
 
 ### Verteilte Kisten

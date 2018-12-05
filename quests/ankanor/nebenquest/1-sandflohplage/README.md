@@ -1,6 +1,6 @@
 # Sandfloh Plage
 
-An der südlichen Küste der Insel hat sich eine Königin von [Mobs Sandflöhen](#Sandflöhe) eingenistet und diese sind nun sehr Aggressiv, der Spieler soll die Sandflöhe für Angunt töten.
+An der südlichen Küste der Insel hat sich eine Königin von [Mobs Sandflöhen](#Sandflöhe) eingenistet und diese sind nun sehr aggressiv, der Spieler soll die Sandflöhe für Angunt töten.
 
 ## Ablauf
 
@@ -24,14 +24,14 @@ Er ist ein neugieriger Kaishi welcher sehr viel über die Pflanzen und Tiere wei
 
 **Vor der Quest**
 1. Seid vorsichtig und tretet mir die Pflanzen nicht kaputt.
-2. Sandflöhe sind sehr selten Aggressiv, irgendwas muss sie verärgert haben.
+2. Sandflöhe sind sehr selten aggressiv, irgendwas muss sie verärgert haben.
 
 **Während der Quest**  
 1. Verletzt mir ja nicht die Sandfloh Königin während ihr die Sandflöhe tötet.
 
 **Nach der Quest**
 1. Ich hoffe eines Tages nistet sich die Sandflohkönigin woanders ein, es ist ein Graus das wir die Sandflöhe sonst komplett vernichten müssten.
-2. Wusstet ihr das Sandflöhe viele Verwandte Arten haben? Zum Beispiel gibt es noch Kiesflöhe, die sind noch zäher als die Sandflöhe, aber sonst sind sie fast gleich.
+2. Wusstet ihr das Sandflöhe viele verwandte Arten haben? Zum Beispiel gibt es noch Kiesflöhe, die sind noch zäher als die Sandflöhe, aber sonst sind sie fast gleich.
     
 #### Quest Dialog
 

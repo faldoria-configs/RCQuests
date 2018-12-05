@@ -1,11 +1,13 @@
 # Gespräch mit Mairi
 
+Issue 54
+
 [Mairi](#mairi) ist eine Kaishi von Ankanor, die ihr Haus hoch oben im Tianbaum hat. 
 
 
 ## Was noch fehlt:
 
-Fast alles
+NPC Mairi muss noch plaziert werden
 
 
 ## Übersicht 
@@ -15,8 +17,7 @@ Fast alles
 - [Questdialoge](#questdialoge)
    - [Dialog 1](#dialog-1)
    - [Dialog 2](#dialog-2) 
-   - [Dialog 3](#dialog-3)  - 
-- [NPCs](#npcs)
+   - [NPCs](#npcs)
      - [Name des NPCs](#name-des-npcs)
          - [Standartsätze](#standartsaetze)
             - [Vor der Quest](#vor-der-quest)
@@ -25,11 +26,6 @@ Fast alles
          - [Ausrüstung](#ausruestung)
          - [Standort](#standort)
        
--  [Mobs](#mobs)
-    - [Name des Mobs](#name-des-mobs)
-    
--  [Items](#items)
-    - [Name des Items](#name-des-items)
    
 - [Belohnung](#belohnung)
          
@@ -43,9 +39,9 @@ Keine
 ## Ablauf
 
 1. Mairi spricht den Spieler an (5 Blocks?), wenn er die Treppe zu den zwei oberen Häusern hochläuft. 
-   Variationen im Gespräch, je nachdem ob er die Quest von Mimi weiter unten angenommen hat.
+   Variationen im Gespräch, je nachdem ob er die Quest von Mimi weiter unten an der Treppe angenommen hat.
 2. Der Spieler unterhält sich mit Mairi über Mimi.
-3. Mairi gibt dem Spieler den auftrag, Mimi zu sagen, dass sie zum Schiff gehen soll.  
+3. Mairi gibt dem Spieler den Auftrag, Mimi zu sagen, dass sie zum Schiff gehen soll.  
 4. Mairi verabschiedet sich vom Spieler.
 
 
@@ -54,13 +50,12 @@ Keine
 
 Spieler läuft die Treppe zu den oberen Häusern hoch. Mairi spricht Spieler an, wenn er 5 Blöcke weg ist
 
-
-
 ```yml
 Mairi: Hey, <Name des Spielers>, wart mal einen Augenblick bitte.
 ```
 Möglichkeit 1:  Geht er auf sie zu und klickt sie an, startet der Dialog
 Möglichkeit 2: Geht er weiter, sagt Mairi:
+
 ```yml
 Mairi: Na , dann eben nicht, dann muss ich selber suchen. 
 ```
@@ -73,9 +68,10 @@ Mairi: Hast du vielleicht Mimi gesehen?
    Mairi: Gut, danke, ich sehe nach ihr.
 
 2.  Spieler: Ja, sie sitzt da unten auf der Treppe und wollte, dass ich ihre Puppe hole.
+
 Mairi: Und du hast dich breitschlagen lassen?
 
-      2.1 der Spieler [NQ Mimi brauch dich](#6-mimi-braucht-dich) angenommen hat:
+      2.1 wenn der Spieler [NQ Mimi brauch dich](#6-mimi-braucht-dich) angenommen hat:
 
      > Spieler: Ja, natürlich, wer kann ihrem Charm widerstehen?
 
@@ -108,7 +104,10 @@ Spieler:
 
 Sobald der Spieler Mimi wieder trifft, spricht er sie erst darauf an. 
 ```Yml
-Spieler: Mimi, ich habe Mairi getroffen und sie lässt dir ausrichten, du sollst sofort zum Schiff rennen. 
+Spieler: Mimi, ich habe Mairi getroffen und sie lässt dir ausrichten, du sollst sofort zum Schiff rennen.
+```
+`[Ende]`
+```yml
 Mimi: Aber ich brauche doch meine Puppe!
 ```
 1. Falls [NQ Mimi braucht dich](#6-mimi-braucht-dich) angenommen wurde und der Spieler sie schon hat:
@@ -117,6 +116,19 @@ Mimi: Aber ich brauche doch meine Puppe!
     > Weiter mit Zeile 51 der [NQ Mimi braucht dich](#6-mimi-braucht-dich) 
 
 2. Falls [NQ Mimi braucht dich](#6-mimi-braucht-dich) NICHT angenommen wurde und der Spieler die Puppe nicht hat.
+
+   2.1: Spieler: Hau ab, oder die bösen Männer holen dich!
+        Mimi: *Mimi schaut dich böse an*
+
+   2.2: Ich hole sie ja schon! Wo sagtest du ist sie? Im obersten Haus unter der Kiste in der Treppe?
+        Mimi: *lacht* Ja genau!
+
+**Nach Möglichkeit 2.2 :**
+      
+`[Quest START]` [Mimi braucht dich](#mimi-braucht-dich)
+
+Issue 51
+
 
 
 ## Belohnung : [XP](#xp)
@@ -128,92 +140,75 @@ Nur XP
 
 ## NPCS
 
-### Mimi
-
-Beschreibung des NPCs, wenn möglich Verlinkung zum Wiki 
+### Mairi
 
 #### Standartsätze
 
-    ##### Vor der Quest:
+##### Während der Quest
+```yml
+Mairi: hast du Mimi schon Bescheid gesagt?
+Spieler: Noch nicht, mache ich aber gleich!
+Mairi: Beeil dich bitte!
+```
+##### Nach der Quest:
 
-*Wenn z.B. die Vorraussetzungen noch nicht erfüllt sind*
+Mairi: Was, du bist immer noch hier? Hast du nichts Besseres zu tun?
+
+#### Ausrüstung
+
+  > normalen Skin
+
+#### Standort
+
+```yml
+x: 44
+y: 88116
+z: -7
+world: Ankanor
+``` 
 
 
+### Mimi
 
-    ##### Während der Quest:
+> siehe [Mimi braucht dich](#mimi-braucht dich)
 
-Wenn die Quest noch nicht erfüllt ist und der Spieler trotzdem zurück kommt
+#### Standartsätze
 
-    ##### Nach der Quest: 
-
-Wenn der Spieler nach Abschluss der Quest den NPC anklickt
-
+   > siehe [Mimi braucht dich](#mimi-braucht dich)
 
 
 #### Ausrüstung
 
-Welchen Skin hat der NPC? Was hält er in der Hand?
+   siehe [Mimi braucht dich](#mimi-braucht dich)
 
-#### Standort   
+#### Standort
 
 ```yml
-x: 
-y: 
-z: 
-world: faldoria.eisenküste
-```
+x: 38
+y: 88
+z: -32
+world: Ankanor
+``` 
 
 
 ## Items
 
-Item: engl. Bezeichnung hier: https://minecraft-ids.grahamedgecombe.com/
-
-
-### Name des Items
-
-```yml
-ID: 
-name: 
-type: QUEST (z.B.)
-quality: COMMON (z.B.)
-item: (engl. Bezeichnung aus dem MC-Wiki)
-lore: 
-max-stack-size: 
-```
-
-
-## Mobs
-
-### Name des Mobs
-
-```yml
-name: 
-type: engl. Bezeichnung aus dem MC Wiki
-min-level: 
-max-level: 
-min-health: 
-max-health: 
-min-damage: 
-max-damage: 
-spawn-chance: 
-spawning-naturally: 
-loot-table: was droppt es?
-aggro: false/true
-```
+ - 
 
 
 ## Belohnung
 
 [Name des Items](##name-des-items)
 
+XP
+
 
 
 ## Referenzen
 
-Links!
--  zur Lore
-- Zur Mobkarte
-- Oder was auch immer nützlich erscheint 
+Hängt zusammen mit:  
+
+[NQ Mimi braucht dich](#6-mimi-braucht-dich)
 
 
 
