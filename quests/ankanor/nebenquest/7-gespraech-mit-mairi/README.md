@@ -41,7 +41,7 @@ Keine
 1. Mairi spricht den Spieler an (5 Blocks?), wenn er die Treppe zu den zwei oberen Häusern hochläuft. 
    Variationen im Gespräch, je nachdem ob er die Quest von Mimi weiter unten an der Treppe angenommen hat.
 2. Der Spieler unterhält sich mit Mairi über Mimi.
-3. Mairi gibt dem Spieler den auftrag, Mimi zu sagen, dass sie zum Schiff gehen soll.  
+3. Mairi gibt dem Spieler den Auftrag, Mimi zu sagen, dass sie zum Schiff gehen soll.  
 4. Mairi verabschiedet sich vom Spieler.
 
 
