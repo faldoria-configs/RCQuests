@@ -6,7 +6,7 @@ Issue 15
 [Adanion](#adanion), der Koch der Eiseküste steht im Camp in der provisorischen Küche.
 ## Noch zu tun.
 
-Weiße Beeren, Magus Beeren? Was soll das sein, Blumen, wenn ja, welche? Oder stehen da kleine Kistchen rum wie die Äpfel auf Ankanor? Was ist dann drin? 
+Weiße Beeren, Magus Beeren? Wie werden wir das handhaben? Blaue Orchideen und Porzellansternchen umbenennen? 
 (Schimmerwölfe, normale Mobs, droppen was?)
 
 ## Übersicht
@@ -26,8 +26,8 @@ Weiße Beeren, Magus Beeren? Was soll das sein, Blumen, wenn ja, welche? Oder st
 -  [Mobs](#mobs)
    
 -  [Items](#items)
-      -  [Weiße Beeren](#weisse-beeren)
-      -  [Magus-Beeren](#magus-beeren)
+      -  [Weiße Beere](#weisse-beere)
+      -  [Magus-Beere](#magus-beere)
       -  [Kießflohfleisch](#kiesflohfleisch)
       -  [Pilze](#pilze)
       -  [Roher Fisch](#roher-fisch)
@@ -238,10 +238,10 @@ world: Faldoria, Eisenküste
 
 ## Items
 
-### Magus Beeren
+### Magus Beere
 
 ```yml
-name: Magus-Beere
+name: Magus Beere
 type: ROHSTOFF
 quality: rare
 item: 
@@ -249,7 +249,7 @@ lore:
 max-stack-size: 16
 ```
 
-### Weiße Beeren
+### Weiße Beere
 
 Weiße Beeren, die..
 
