@@ -4,6 +4,31 @@ Issue 51
 
 NPC muss noch plaziert werden, wenn möglich auf Stufe sitzend
 
+## Übersicht 
+
+- [Voraussetzungen](#voraussetzungen)
+- [Ablauf](#ablauf)
+- [Questdialoge](#questdialoge)
+   - [Dialog 1](#dialog-1)
+   - [Dialog 2](#dialog-2) 
+- [NPCs](#npcs)
+     - [Name des NPCs](#name-des-npcs)
+         - [Standartsätze](#standartsaetze)
+            - [Vor der Quest](#vor-der-quest)
+            - [Während der Quest](#waehrend-der-quest)
+            - [Nach der Quest](#nach-der-quest)
+         - [Ausrüstung](#ausruestung)
+         - [Standort](#standort)
+       
+-  [Items](#items)
+    - [Puppe Aneli](#puppe-aneli)
+    - [Angebissenes Plätzchen](#angebissenes-plaetzchen)
+  
+- [Belohnung](#belohnung)
+
+## Vorraussetzungen
+
+Keine
 
 ## Ablauf
 
@@ -12,15 +37,11 @@ NPC muss noch plaziert werden, wenn möglich auf Stufe sitzend
 3. Der Spieler tut das und erfährt als Belohnung ein 'Geheimnis'
 
 
-## Vorraussetzungen
-
-Keine
-
 ## Aufgaben
 
 Der Spieler soll Mimis Puppe aus dem höchstgelegenen Haus von Ankanor holen.
 
-### 1.  Mimi braucht dich (#mimi-braucht-dich)
+### **Dialog 1**
 
 Mimi sitzt auf der Treppe, die zu den oberen Häusern Ankanors führt und ruft dem Spieler zu, sobald er vorbeikommt: (5 Block oder mehr?)
 
@@ -38,7 +59,7 @@ Mimi: Ich verrate dir auch ein Geheimnis, wenn du mir hilfst!
 
 > 2. Du nervst. Aber sag mir, wo deine Puppe ist, ich laufe schnell hoch. 
 
-**Weiter nach #2**
+**Weiter nach Option #2**
 
 ```yml
 Mimi: In der Kiste unter der Treppe, die nach oben führt. In dem Haus ganz oben, nicht dort, wo Bürgermeister Roschick wohnt. Danke, <Name des Spielers>, du bist einfach großartig! 
@@ -49,8 +70,9 @@ Mimi: In der Kiste unter der Treppe, die nach oben führt. In dem Haus ganz oben
 
 **QuestLog:** *Laufe ins oberste Haus von Ankanor, das Mairi gehört, hole die Puppe aus der Kiste unter der Treppe und kehre zu Mimi zurück.*
 
-Spieler läuft hoch und findet die Puppe in der Kiste, nimmt sie an sich und kehrt zu Mimi zurück. 
 
+Spieler läuft hoch und findet die Puppe in der Kiste, nimmt sie an sich und kehrt zu Mimi zurück. 
+### **Dialog 2**
 ```yml
 Spieler: Hier hast du deine Puppe, aber jetzt mach dich auf zum Schiff!  
 Mimi: Ja, ich lauf' doch schon, aber ich brauchte doch meine Puppe! Da, du kannst die Hälfte meines Plätzchens haben. 
@@ -138,7 +160,7 @@ lore: Dieser Keks ist etwas zerkrümelt.
 max-stack-size: 1
 ```
 
-### Puppe
+### Puppe Aneli
 
 Puppe aus Stoff und anderen natürlichen Materialien.
 

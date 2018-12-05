@@ -17,8 +17,7 @@ Issue 54
 - [Questdialoge](#questdialoge)
    - [Dialog 1](#dialog-1)
    - [Dialog 2](#dialog-2) 
-   - [Dialog 3](#dialog-3)  - 
-- [NPCs](#npcs)
+   - [NPCs](#npcs)
      - [Name des NPCs](#name-des-npcs)
          - [Standartsätze](#standartsaetze)
             - [Vor der Quest](#vor-der-quest)
@@ -27,11 +26,6 @@ Issue 54
          - [Ausrüstung](#ausruestung)
          - [Standort](#standort)
        
--  [Mobs](#mobs)
-    - [Name des Mobs](#name-des-mobs)
-    
--  [Items](#items)
-    - [Name des Items](#name-des-items)
    
 - [Belohnung](#belohnung)
          
