@@ -1,11 +1,11 @@
 # Der Schmied
 
-Am südöstlichen Rand des Dorfes steht [NPC Sakros](#Sakros) der Schmied. Er benötigt Materialien für Schwerter, er erklärt dem Spieler das er Eisen und rostige Schwerter aus einer Höhle auf der anderen Seite holen soll.
+Am südöstlichen Rand des Dorfes steht [NPC Sakros](#Sakros) der Schmied. Er benötigt Materialien für Schwerter, er erklärt dem Spieler, dass er Eisen und rostige Schwerter aus einer Höhle auf der anderen Seite holen soll.
 
 ## Ablauf
 
 1. Start: Spieler nähert sich Sakros
-2. Spieler spricht [NPC Sakros](#Sakros) an welcher ihm die Aufgabe gibt 1 Eisen und 10 rostige Schwerter zu holen. `Questbeginn:`[Material für die Schmiede](#Material-für-die-Schmiede)
+2. Spieler spricht [NPC Sakros](#Sakros) an welcher ihm die Aufgabe gibt 5 Eisen und 10 rostige Schwerter zu holen. `Questbeginn:`[Material für die Schmiede](#Material-für-die-Schmiede)
 3. Auf der anderen Seite der Insel in der Höhle findet der Spieler einen Genam vor der ihn nur hineinlässt wenn der Spieler die Quest hat.
 4. In der Höhle selbst findet der Spieler Skelette welche die geforderten Items droppen, diese sind aber auch in den Kisten dort zu finden.
 5. Spieler kehrt zurück und erhält eine [Belohnung](#Belohnung) `Questende:`[Material für die Schmiede](#Material-für-die-Schmiede)
@@ -50,7 +50,7 @@ Sakros: : Ich würde gerne neue Schwerter machen. Könntest du mir die Materiali
 Spieler: Warum das denn?
 Sakros: Weil ich keine Lust habe. Außerdem habe ich ein gutes Argument: Eine Faust. 
 Spieler: Na gut, Was brauchst du?
-Sakros: Eisen und Rostige Schwerter aus der Höhle auf der anderen Seite des Dorfes.
+Sakros: Eisen und rostige Schwerter aus der Höhle auf der anderen Seite des Dorfes.
 Spieler: Was? Ich muss so weit laufen??
 Sakros: Ja, und jetzt los, sonst setzt´s was!
 ```
@@ -69,7 +69,7 @@ Sakros: Ja, und jetzt los, sonst setzt´s was!
 Sakros: Wieso hat das so lange gedauert??
 Spieler: Ich musste einmal um die ganze Insel rum, also beschwer dich nicht!
 Sakros: Dann los, mach mir die Schwerter!
-Spieler: Äh, Was?!?
+Spieler: Äh, was?!?
 Sakros: Irgendwann musst du es schließlich lernen. Also los, es ist einfach. Zieh den Hebel, drück den Knopf und betätige den Hebel erneut.
 Spieler: Na gut.
 ```
