@@ -131,7 +131,7 @@ Spieler: Ja, nun sag mir schnell noch mal, wo ich die Puppe finde.
 
 ### Ausrüstung
 
- - Skin eines kleinen Mädchens, 
+ - Skin eines kleinen Mädchens, s. Referenzen
  - hält in der Hand:  ein Plätzchen
  ----> vor der Questabgabe : Plätzchen, danach Puppe? Dazu bräuchte es aber Phasing, oder?)
 
@@ -192,7 +192,11 @@ xxx Ruf bei den Kaishi
 
 ## Referenzen
 
-Link zur ersten Quest, in der Junnar erwähnt wird
+Quest, in der Junnar erwähnt wird: Faldoria/quests/quests/ankanor/hauptquest/1-ein-neuer-start/README.md
+
+
+Skin: 
+https://faldoria.de/board/index.php?thread/528-skins-f%C3%BCr-npcs/&postID=3772#post3772
 
 
 
