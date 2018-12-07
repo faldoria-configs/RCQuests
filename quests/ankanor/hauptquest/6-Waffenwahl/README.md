@@ -155,7 +155,7 @@ Lious: Hast du dich entschieden, welche Waffe du nehmen willst?
    Lious: Gut, welche Waffe möchtest du?
 
 
-   1.1 Ich möchte Schert und Schild.
+   1.1 Ich möchte Schwert und Schild.
 
    1.2 Ich möchte die Zweihandaxt
 
@@ -220,6 +220,303 @@ MICHAEL! Hilfe!
 > `[QUEST UPDATE]` [Waffenwahl](#waffenwahl)  
 
 **Questlog**: *?????????, kehre dann zu Lious zurück*
+
+
+> Nachdem der Spieler die Waffe erprobt hat.    <-------  **oder was auch immer**
+
+```yml
+Lious: Ich freue mich für dich, nun testen wir deine neuen Fähigkeiten.
+Spieler: Und wie wollt Ihr das machen?
+Lious: Ganz einfach, ich hetze dir Spinnen auf den Hals.
+Spieler: Iih nein, alles nur nicht das.
+Lious: Du hast keine Wahl!
+```
+> `[QUEST UPDATE]` [Waffenwahl](#waffenwahl)  
+**Questlog**: *Töte 3 freundliche Spinnen.*
+
+> Spieler wird nach folgenden Koordinaten teleportiert.
+
+```yml
+x: 17
+y: 155
+z: 13
+world: Ankanor
+```
+
+> Dort tötet er die 3 [Mob Freundliche Spinne](#freundliche-spinne) und wird zurück zu Lious geportet.
+
+```yml
+x: 8
+y: 183
+z: 23
+world: Ankanor
+```
+
+> Spieler muss Lious ansprechen
+
+```yml
+NPC: Sehr schön hast du das gemacht.
+Spieler: Danke, ich fühle mich nun viel besser gerüstet, Agna...  ich meine, jeglicher Gefahr zu trotzen.  
+```
+
+`[QUEST ENDE]` [Klassenwahl](#klassenwahl)  
+
+> Weiter bei [HQ Weitere Ausbildung](../5-weitere-ausbildung/README.md)
+
+
+## NPC
+
+### Lious
+
+Lious ist Wesen in Kaishi-Gestalt, das hoch im Tianbaum wohnt. Die Kaish glauben, dass er sie beschützt und in Zeiten der Not das Kämpfen lehrt. 
+
+#### Standart-Sätze
+
+##### Vor der Quest: 
+
+```yml
+Lious: Was führt dich zu mir, junger Kaishi? Bit du schon bereit für das, was ich dich lehren kann?
+Spieler: Wovon sprichtst du?
+Lious: Also nein. Komme bitte wieder, wenn dir deine Ältesten schicken. 
+Spieler: Erzähl mir doch bitte mehr von denGeschichten über die Helden früherer Zeiten.
+Lious: Dafür ist jetzt leider keine Zeit. 
+Spieler: Schade
+```
+*du zuckst mit den Schultern und gehst wieder*
+
+##### Während der Quest des Waffenwählens: 
+
+>> **siehe oben!**
+
+[Dialog 4](#dialog-4)
+
+
+##### Nach der Quest: 
+
+> Lious: Was tust du hier, junger Kaishi, hast du nicht Aufgaben zu erledigen und zu lernen, deine Waffe zu beherrschen?
+
+#### Ausrüstung
+
+Skin: 
+
+#### Standort
+
+```yml
+x: 9
+y: 183
+z: 21
+world: Ankanor
+```
+
+
+## Items
+
+### Schwert des Schutzes
+
+
+
+```yml
+name: Schwert des Schutzes
+type: WEAPON
+quality: COMMON
+item: iron_sword
+lore: Ein einfaches, aber solides Schwert
+max-stack-size: 1
+```
+```yml
+binding: Bind on pickup
+slot: onehanded
+durability: 100
+weeapon-type: Sword
+damage: 1-2
+attributes: none
+```
+
+### Schild des Schutzes
+```yml
+name: Schild des Schutzes
+type: WEAPON
+quality: COMMON
+item: shield
+lore: Ein einfaches, aber solides Schild, das mit dem Tianbaum bemahlt ist.
+max-stack-size: 1
+```
+```yml
+binding: Bind on pickup
+slot: onehanded
+durability: 100
+weeapon-type: shield
+damage: 1-2
+attributes: none
+```
+
+### Flinker Dolch
+
+
+```yml
+name: Flinker Dolch
+type: WEAPON
+quality: COMMON
+item: iron_sword
+lore: Leicht und ausgewogen liegt er in deiner Hand.
+max-stack-size: 1
+```
+```yml
+binding: Bind on pickup
+slot: onehanded
+durability: 100
+weapon-type: dagger
+damage: 1-2
+attributes: none
+```
+
+### Scharfer Dolch
+
+```yml
+name: Scharfer Dolch
+type: WEAPON
+quality: COMMON
+item: iron_sword
+lore: Dieser Dolch hat eine sehr dünne Klinge.
+max-stack-size: 1
+```
+```yml
+binding: Bind on pickup
+slot: onehanded
+durability: 100
+weapon-type: dagger
+damage: 1-2
+attributes: none
+```
+
+### Schwert des Verteidigers
+
+```yml
+name: Schwert des Verteidigers
+type: WEAPON
+quality: COMMON
+item: iron_sword
+lore: Dieses Schwert liegt gut in deinen Händen.
+max-stack-size: 1
+```
+```yml
+binding: Bind on pickup
+slot: twohanded
+durability: 100
+weeapon-type: Sword
+damage: 2-4
+attributes: none
+```
+
+### Axt des Zorns
+
+```yml
+name: Axt des Zorns
+type: WEAPON
+quality: COMMON
+item: iron_axe
+lore: Eine einfache, aber solides Axt mit rötlich schimmernder Klinge.
+max-stack-size: 1
+```
+```yml
+binding: Bind on pickup
+slot: twohanded
+durability: 100
+weeapon-type: Axe
+damage: 2-4
+attributes: none
+```
+
+### Stab des Tianbaums
+
+```yml
+name: Stab des Tianbaums
+type: WEAPON
+quality: COMMON
+item: STICK
+lore: Ein leichter, aber solider Stab aus dem Holz des Tianbaums
+max-stack-size: 1
+```
+```yml
+binding: Bind on pickup
+slot: twohanded
+durability: 100
+weapon-type: Staff
+damage: 2-4
+attributes: none
+```
+
+### Bogen des Tianbaums
+
+```yml
+name: Bogen des Tianbaums
+type: WEAPON
+quality: COMMON
+item: bow
+lore: Ein einfacher, aber solider Bogen aus dem Holz des Tianbaums
+max-stack-size: 1
+```
+```yml
+binding: Bind on pickup
+slot: twohanded
+durability: 100
+weapon-type: Bow
+damage: 2-4
+attributes: none
+```
+
+## Mobs
+
+### Freundliche Spinne (Worldspawn)
+
+```yml
+name: Freundliche Spinne
+type: spider
+min-level: 1
+max-level: 2
+min-health: 80
+max-health: 88
+min-damage: 3
+max-damage: 5
+spawn-chance: 1.0
+spawning-naturally: false
+loot-table: 
+aggro: false
+```
+
+## Belohnung
+
+[Waffenwahl](#waffenwahl)  
+> 10 EXP  
+
+
+
+## Referenzen
+
+Vorquest: [Ein neuer Start](../3-aufstieg-zum-tianbaum/README.md)  
+Folgequest: [Weitere Ausbildung](../5-weitere-ausbildung)
+
+## Änderungen an der nächsten Quest [Weitere Ausbildung](../5-weitere-ausbildung)
+
+>>> Ich habe das Verprügeln bei Lious rausgenommen, weil mir das dann doch zu unpassend gegenüber dem verehrten Helden Lious erschien, genauso wenig passt es, das in Hinblick auf den Bürgermeister zu sagen. Selbst wenn der Spieler nicht der Schlauste ist, macht seine Sozialisation das unwahrscheinlich. 
+
+**************************
+### 1. Weitere Ausbildung
+
+> Konversation angeknüpft an Vorquest [HQ Klassenwahl](../4-klassenwahl/README.md)
+
+
+Lious: Gehe nun zum Ältesten Jamos.
+
+**Spieler: Der alte, tattrige Mann kann mir doch nichts beibringen!?**
+
+**Lious: Glaub das nicht, zum Kämpfen gehört mehr als nur etwas Schmalz in den Armen. Da muss man auch etwas mehr als Stroh da oben haben. *Lious schaut dich zweifelnd an*  Er wird deine weitere Ausbildung überwachen.**
+
+**Spieler: Nun gut,ich werde ihn aufsuchen.**
+
+
+`[QUEST START]` [Weitere Ausbildung](#weitere-ausbildung))
+> **QuestLog:** *Gehe zum Ältesten Jamos und sprich mit ihm, er steht unten am Weg nahe des Zugangs zum Tianbaum.*
 
 
 
