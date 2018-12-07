@@ -115,17 +115,23 @@ Lious: Komm, lass uns einen Blick auf sie werfen. Geh voran.
 
 >> Lious folgt dem Spieler - oder kann er auch vorangehen? Steht dann irgendwo in der Mitte und dreht sich? Dialog kann noch angepasst werden.
 
+### Dialog 2
+
 ```yml
 
 Lious: Hier zur Linken siehst du Schwert und Schild, die klassischen Waffen eines Kriegers, der seine Leute schützt.
 
-Lious: Als nächstes die Waffen eines Mannes - oder auch einer Frau - der stark genug ist, einen Beidhänder oder auch eine Zweihandaxt zu schwingen und Tod und Verderben auf seine Gegner regnen lässt. 
+Lious: Als nächstes die Waffen eines Mannes - oder auch einer Frau - der stark genug ist, einen Beidhänder oder auch eine Zweihandaxt zu schwingen und damit Tod und Verderben auf seine Gegner regnen lässt. 
 
 Lious: Wenn du schnell bist und sehr geschickt im Anschleichen sind vielleicht diese beiden Dolche besser geeignet. 
 
 Lious: Das ist ein Zauberstab. Selbst wenn du noch keine magischen Kräfte in dir schlummern spürtest, er mag die Waffe deiner Wahl sein, höre aud das, was dir dein Herz sagt. 
 
 Lious: Und zum Schluß die Waffe aller Waldläufer, der Bogen. Fürchte nicht deine Ungeschicklichkeit, wenn der Bogen dich anspricht, wähle ihn. 
+```
+
+### Dialog 3
+```yml
 
 Lious: Sei nicht bange. Wenn du die nächsten Tage damit überstehst und du mit deiner Wahl nicht zurecht kommst, kannst du durchaus Ausschau halten nach einer anderen Möglichkeit, dich zu verteidigen. Aber jetzt wirf auf einen Blick auf die Waffen und nimm dir genug Zeit, um dich zu entscheiden. Hast du deine Wahl getroffen, komme zu mir zurück. 
 ```
@@ -133,6 +139,102 @@ Lious: Sei nicht bange. Wenn du die nächsten Tage damit überstehst und du mit 
 `[QUEST START]` [Waffenwahl](#waffenwahl)
 
 **Questlog:** *Entscheide dich, welche Waffe du benutzen möchtest und kehre dann zu Lious zurück.*
+
+Spieler schaut die Waffen an und kehrt dann zu Lious zurück.
+Lious spricht ihn an, sobald er sich auf 2 Blocks genähert hat. 
+
+
+### Dialog 4
+```yml
+Lious: Hast du dich entschieden, welche Waffe du nehmen willst?
+```
+
+1. 
+   
+   Spieler: Ja, das habe ich.
+   Lious: Gut, welche Waffe möchtest du?
+
+
+   1.1 Ich möchte Schert und Schild.
+
+   1.2 Ich möchte die Zweihandaxt
+
+   1.3 Ich möchte den Beidhänder
+
+   1.4 Ich hätte gerne die beiden Dolche.
+
+   1.5 Der Zauberstab wäre mir am liebsten. 
+
+   1.6 Ich will den Bogen, bitte. 
+
+**Weiter mit** [Dialog 6](#dialog-6)
+
+2. 
+   Spieler: Nein, ich bin mir noch unsicher, ich komme später wieder. 
+   
+   2.1   Lious: Gut, aber lass dir nicht zuviel Zeit. Das Übel wartet nicht.
+   2.2   Lious: Ich sehe, du machst dir sehr viele Gedanken. Aber bedenke, Agnatus kommt näher!
+
+3. Spieler: Nein, könntest du mir die Waffen noch einmal erklären.
+   Lious: Gerne, aber bedenke, die Zeit drängt.
+    
+> > **Hier** weiter mit [Dialog 2](#dialog-2), 
+anstelle [Dialog 3](#dialog-3) aber 
+
+### Dialog 5
+```yml
+Lious: Erinnere dich - du bist nicht an diese Waffe gebunden, du kannst später eine andere wählen. Wenn du soweit bist, komme zu mir zurück. 
+```
+**Weiter mit**  [Dialog ](#dialog-4)
+
+********
+### Dialog 6
+
+`Lious: So sei es!`
+
+Der Spieler erhält nun die Waffe seiner Wahl:
+
+[Schwert des Schutzes](#schwert-des-schutzes) und [Schild des Schutzes](#schild-des-schutzes)
+
+[Schwert des Verteidigers](#schwert-des-verteidigers)
+
+[Axt des Zorns](#axt-des-zorns)
+
+[Flinker Dolch](#flinker-dolch) und [Scharfer Dolch](#scharfer-dolch)
+
+[Stab des Tianbaums](#stab-des-tianbaums)
+
+[Bogen des Tianbaums](#bogen-des-tianbaums)
+
+
+```yml
+Lious: Mache dich nun mit deiner neuen Waffe vertraut und kehre dann zu mir zurück, damit du sie testen kannst.
+``` 
+
+
+TIPS-Plugin:
+
+MICHAEL! Hilfe!
+
+
+> `[QUEST UPDATE]` [Waffenwahl](#waffenwahl)  
+
+**Questlog**: *?????????, kehre dann zu Lious zurück*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
