@@ -141,7 +141,11 @@ Spieler: Danke, war einfach.
 
 > Weiter bei [HQ Weitere Ausbildung](../5-weitere-ausbildung/README.md)
 
+<<<<<<< HEAD
 ## NPC
+=======
+## NPCs
+>>>>>>> 7171580ff272d8c93e9b9a8101fc3f2547d6bf81
 
 ### Lious
 
