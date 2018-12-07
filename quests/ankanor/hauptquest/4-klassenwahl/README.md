@@ -141,6 +141,10 @@ Spieler: Danke, war einfach.
 
 > Weiter bei [HQ Weitere Ausbildung](../5-weitere-ausbildung/README.md)
 
+## NPCs
+
+### Lious
+
 #### Ausrüstung
 
 #### Standort
