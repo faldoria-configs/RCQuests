@@ -14,7 +14,7 @@
     text: "Er ist gruselig, ich höre immer ein Grollen in seiner nähe, hörst du es nicht?"
     answers:
       flow:
-        - ':"Moment... Irgendwas ist da, aber das ist sicher nur das Wasser was da Geräusche macht."'
+        - ':"Moment... Irgendwas ist da, aber das ist sicher nur das Wasser, das da Geräusche macht."'
         - '!text "Danke das du mich versuchst zu beruhigen, aber ganz beruhigt bin ich noch immer nicht."'
         - '~4s'
         - '!text.player "Mach dir nicht so viele Gedanken."'
@@ -30,7 +30,7 @@
         - '-:"Nein ich habe ihn nicht gesehen. Soll ich ihm sagen das du nach ihm suchst wenn ich ihn sehe?"'
         - '!text "Das wäre sehr nett von dir. Danke."'
         - '!tag ankanor.lewis-bitte'
-        - '+:"[Lügen] Ja ich habe ihn gesehen. Er ist Krank und kann nicht helfen kommen. Er sagte du musst alleine klarkommen."'
+        - '+:"[Lügen] Ja ich habe ihn gesehen. Er ist Krank und kann nicht helfen kommen. Er sagte, du musst alleine klarkommen."'
         - '!text "Oh nein, ich hoffe es geht ihm bald besser."'
-        - '+:"[Verraten] Er hatte mich gebeten dir zu sagen das er Krank sei, er möchte lieber faulenzen."'
-        - '!text "Dieser Faulpelz soll seinen Arsch hier her bewegen. Ich werde Roschik davon erzählen. Danke das du ehrlich zu mir warst."'
+        - '+:"[Verraten] Er hatte mich gebeten dir zu sagen, dass er krank sei, er möchte lieber faulenzen."'
+        - '!text "Dieser Faulpelz soll seinen Arsch hier her bewegen. Ich werde Roschik davon erzählen. Danke, dass du ehrlich zu mir warst."'

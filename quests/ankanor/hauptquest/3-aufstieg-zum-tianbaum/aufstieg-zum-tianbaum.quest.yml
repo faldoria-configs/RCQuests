@@ -1,5 +1,5 @@
 name: "Aufstieg zum Tianbaum"
-desc: "Folge den Weg um den Tianbaum herum auf die andere Seite, triff den Wächter des Heiligtums und steige den Tianbaum hinauf um deinen Pfad des Kampfes zu wählen."
+desc: "Folge den Weg um den Tianbaum herum auf die andere Seite, triff den Wächter des Heiligtums und steige den Tianbaum hinauf, um deinen Pfad des Kampfes zu wählen."
 region: ankanor
 locked: false
 abortable: false
@@ -28,7 +28,7 @@ objectives:
         - '@host.proximity this.waechter,7,this.waechter-willkommen'
   '2':
     name: 'Steige den Tianbaum hinauf'
-    desc: 'Folge dem Weg im Inneren des Tianbaum bis du die Krone erreichst.'
+    desc: 'Folge dem Weg im Inneren des Tianbaums, bis du die Krone erreicht hast.'
     hidden: true
     auto-complete: false
     trigger:

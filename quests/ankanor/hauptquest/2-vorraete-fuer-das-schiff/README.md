@@ -18,7 +18,7 @@ Nachdem der Spieler mit Shicho und Roschik gesprochen hat soll er nun den Kapit�
 
 ### Roschik
 
-Er ist der Bürgermeister des Dorfes in dem die Kaishi wohnen. Roschik ist ein sehr gütiger Kaishi und wird von allen Respektiert.
+Er ist der Bürgermeister des Dorfes in dem die Kaishi wohnen. Roschik ist ein sehr gütiger Kaishi und wird von allen respektiert.
 
 ### Dialoge
 
@@ -31,8 +31,8 @@ Er ist der Bürgermeister des Dorfes in dem die Kaishi wohnen. Roschik ist ein s
 1. Hast du Mafei gefunden? Er ist sicher am Steg beim Schiff.
 
 **Nach der Quest**
-1. Es ist sehr wichtig das du keinen Unsinn machst im Moment, wir brauchen jeden jetzt um uns vorzubereiten.
-2. Ich hoffe du verstehst das ich gerade keine Zeit habe für dich.
+1. Es ist sehr wichtig, dass du keinen Unsinn machst im Moment, wir brauchen jeden jetzt um uns vorzubereiten.
+2. Ich hoffe du verstehst, dass ich gerade keine Zeit habe für dich.
     
 #### Quest Dialog
 
@@ -72,21 +72,21 @@ world: Ankanor
 
 ### Kapitän Mafei
 
-Der Kapitän ist ein ambitionierter Angler der ziemlich schnell genervt ist.
+Der Kapitän ist ein ambitionierter Angler, der ziemlich schnell genervt ist.
 
 ### Dialoge
 
 #### Standartsätze  
 
 **Vor der Quest**
-1. Stör mich nicht, siehst du nicht das ich angel. Dafür benötige ich absolute Ruhe, vorallem vor dir.
+1. Stör mich nicht, siehst du nicht das ich angle. Dafür benötige ich absolute Ruhe, vor allem vor dir.
 
 **Während der Quest**  
 1. siehe Quest Dialog
 
 **Nach der Quest**
 1. Auch wenn du mir geholfen hast, LASS MICH IN RUHE!
-2. Verdammt nochmal nerv wen anders!
+2. Verdammt nochmal, nerv' wen anders!
     
 #### Quest Dialog 
 
@@ -98,10 +98,10 @@ Spieler: Was hast du gesagt Mafei?
 Mafei: Nichts, sag mir schnell was du willst und geh dann wieder. 
 Spieler: Der Bürgermeister schickt mich, du sollst das Schiff klar machen. Irgendwas von Weltuntergang oder so.
 Mafei: Wie bitte? Verarsch mich nicht. 
-Spieler: Nein, nein ehrlich, Agmagnum der Nekromant, hat Schiffe in unsere Richtung geschickt.
+Spieler: Nein, nein ehrlich, Agmagnum, der Nekromant, hat Schiffe in unsere Richtung geschickt.
 Mafei: Du meinst Agnatus? Wenn das einer deiner Späße wird, werde ich dich verprügeln.
 Spieler: So glaub mir doch, du sollst das Schiff klar machen.
-Mafei: Ok, dann kannst du mir behilflich sein. Du musst ein paar Vorräte für das Schiff zusammen suchen. Hier ist die Liste
+Mafei: Ok, dann kannst du mir behilflich sein. Du musst ein paar Vorräte für das Schiff zusammen suchen. Hier ist die Liste.
 ```
 
 > 1. Ok werde ich machen. `[QUEST UPDATE]`  

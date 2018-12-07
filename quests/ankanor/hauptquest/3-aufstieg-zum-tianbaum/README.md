@@ -27,10 +27,10 @@ Er ist der Bürgermeister des Dorfes in dem die Kaishi wohnen. Roschik ist ein s
 1. Nicht vorhanden
 
 **Während der Quest**  
-1. Du solltest dich Sputen und den Tianbaum hinauf gehen. Dort ist deine nächste Aufgabe.
+1. Du solltest dich sputen und den Tianbaum hinauf gehen. Dort ist deine nächste Aufgabe.
 
 **Nach der Quest**
-1. Du hast also deinen Pfad gewählt, ich bin Stolz auf dich und bin sicher du wirst eines Tages diese Welt zu einer besseren machen.
+1. Du hast also deinen Pfad gewählt, ich bin stolz auf dich und bin sicher, du wirst eines Tages diese Welt zu einer besseren machen.
     
 #### Quest Dialog
 

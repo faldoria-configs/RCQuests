@@ -1,7 +1,0 @@
-logging: true
-host: db
-port: 3306
-database: minecraft
-username: minecraft
-password: 1rkB0aIgg_rVpJUFOJQuq4XYjfkIW4LS
-rebuild: false
