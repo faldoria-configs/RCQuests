@@ -80,7 +80,7 @@ Er ist der Bürgermeister des Dorfes in dem die Kaishi wohnen. Roschik ist ein s
 
 **Nach der Quest**
 1. Es ist sehr wichtig das du keinen Unsinn machst im Moment, wir brauchen jeden jetzt um uns vorzubereiten.
-2. Ich hoffe du verstehst das ich gerade keine Zeit habe für dich.
+2. Ich hoffe du verstehst, dass ich gerade keine Zeit habe für dich.
     
 #### Quest Dialog
 
