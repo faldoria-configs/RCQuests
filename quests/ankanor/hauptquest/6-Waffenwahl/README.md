@@ -106,10 +106,40 @@ Lious: Auch das weiß ich, und auch da kann ich dir helfen, zumindest für die n
 ```yml
 Spieler: An was für eine Waffe hast du denn gedacht? 
 
-Lious: Schau da drüben, da kannst du dir eine Waffe aussuchen. Nimm, was dich anspricht. Ich werde dir die Fähigkeit geben, damit umzugehen, bis zu einem bestimmten Grad - so dass du dir nicht den Fuß abhackst. *lacht etwas belustigt*
+Lious: Schau da drüben, da kannst du dir eine Waffe aussuchen. Nimm, was dich anspricht. Ich werde dir die Fähigkeit geben, damit umzugehen - bis zu einem bestimmten Grad - so dass du dir nicht den Fuß abhackst. *lacht etwas belustigt*
 
-Lious: Wenn du die nächsten Tage damit überstehst und du mit deiner Wahl nicht zurecht kommst, kannst du durchaus Ausschau halten nach einer anderen Möglichkeit, dich zu verteidigen. Aber jetzt wirf auf einen Blick auf die Waffen und nimm dir genug Zeit, um dich zu entscheiden. 
+Lious: Komm, lass uns einen Blick auf sie werfen. Geh voran.
 ```
+
+>> Da hängen/liegen nun irgendwie die Waffen herum.
+
+>> Lious folgt dem Spieler - oder kann er auch vorangehen? Steht dann irgendwo in der Mitte und dreht sich? Dialog kann noch angepasst werden.
+
+```yml
+
+Lious: Hier zur Linken siehst du Schwert und Schild, die klassischen Waffen eines Kriegers, der seine Leute schützt.
+
+Lious: Als nächstes die Waffen eines Mannes - oder auch einer Frau - der stark genug ist, einen Beidhänder oder auch eine Zweihandaxt zu schwingen und Tod und Verderben auf seine Gegner regnen lässt. 
+
+Lious: Wenn du schnell bist und sehr geschickt im Anschleichen sind vielleicht diese beiden Dolche besser geeignet. 
+
+Lious: Das ist ein Zauberstab. Selbst wenn du noch keine magischen Kräfte in dir schlummern spürtest, er mag die Waffe deiner Wahl sein, höre aud das, was dir dein Herz sagt. 
+
+Lious: Und zum Schluß die Waffe aller Waldläufer, der Bogen. Fürchte nicht deine Ungeschicklichkeit, wenn der Bogen dich anspricht, wähle ihn. 
+
+Lious: Sei nicht bange. Wenn du die nächsten Tage damit überstehst und du mit deiner Wahl nicht zurecht kommst, kannst du durchaus Ausschau halten nach einer anderen Möglichkeit, dich zu verteidigen. Aber jetzt wirf auf einen Blick auf die Waffen und nimm dir genug Zeit, um dich zu entscheiden. Hast du deine Wahl getroffen, komme zu mir zurück. 
+```
+
+`[QUEST START]` [Waffenwahl](#waffenwahl)
+
+**Questlog:** *Entscheide dich, welche Waffe du benutzen möchtest und kehre dann zu Lious zurück.*
+
+
+
+
+
+
+
 
 
 
