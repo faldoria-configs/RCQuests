@@ -14,7 +14,7 @@
     text: "Er ist gruselig, ich höre immer ein Grollen in seiner nähe, hörst du es nicht?"
     answers:
       flow:
-        - ':"Moment... Irgendwas ist da, aber das ist sicher nur das Wasser was da Geräusche macht."'
+        - ':"Moment... Irgendwas ist da, aber das ist sicher nur das Wasser, das da Geräusche macht."'
         - '!text "Danke das du mich versuchst zu beruhigen, aber ganz beruhigt bin ich noch immer nicht."'
         - '~4s'
         - '!text.player "Mach dir nicht so viele Gedanken."'
