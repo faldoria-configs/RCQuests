@@ -1,0 +1,17 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text.player "Ja, ich weiß, dieser Nekromant kommt, aber ich kann doch nicht kämpfen, kaum jemand von uns Kaishi kann kämpfen, wir sind ein sehr friedliches Volk. Mit meinen Fäusten werde ich wohl nichts ausrichten."'
+        - '~7s'
+        - '!text "Das ist mir durchaus bewußt und ich finde es bedauerlich, dass ich Euch, insbesondere jetzt dir, eine Waffe in die Hand geben muss."'
+        - '~5s'
+        - '!text.player "Eine Waffe? Ich kann doch gar nicht damit umgehen. Ich haue mir wahrscheinlich eher in den Fuß als dass ich einen Feind verletze."'
+        - '~5s'
+        - '!text "Auch das weiß ich, und auch da kann ich dir helfen, zumindest für die nächsten Tage, wenn du in besondere Gefahr gerätst."'
+        - '~4s'
+        - '!text.player "An was für eine Waffe hast du denn gedacht?"'
+        - '~2s'
+        - '!text "Schau da drüben, da kannst du dir eine Waffe aussuchen. Nimm, was dich anspricht. Ich werde dir die Fähigkeit geben, damit umzugehen - bis zu einem bestimmten Grad - so dass du dir nicht den Fuß abhackst. *lacht etwas belustigt*"'
+        - '~7s'
+        - '!text "Wirf einen Blick auf die Waffen und komme zu mir wenn du Fragen oder dich entschieden hast."'

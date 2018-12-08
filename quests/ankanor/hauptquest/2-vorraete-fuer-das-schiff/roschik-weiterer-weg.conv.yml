@@ -14,8 +14,8 @@ stages:
         - ~2s
         - '!text.player "Was muss ich tun?"'
         - ~2s
-        - '!text "Steige den Tianbaum hinauf, dort wirst du jemanden treffen der dich unterrichtet.", ../roschik'
+        - '!text "Steige den Tianbaum hinauf, dort wirst du jemanden treffen der dir dabei helfen wird.", ../roschik'
         - ~2s
-        - '!text.player "Wie ihr wollt, ich werde zur Krone des Baumes hinauf steigen."'
+        - '!text.player "Wie Ihr wollt, ich werde zur Krone des Baumes hinauf steigen."'
         - ~1s
         - '!quest.complete this.vorraete'

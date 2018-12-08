@@ -1,5 +1,5 @@
 name: "Aufstieg zum Tianbaum"
-desc: "Folge den Weg um den Tianbaum herum auf die andere Seite, triff den Wächter des Heiligtums und steige den Tianbaum hinauf, um deinen Pfad des Kampfes zu wählen."
+desc: "Folge den Weg um den Tianbaum herum auf die andere Seite, triff den Wächter des Heiligtums und steige den Tianbaum hinauf. Dort wird dir Lious weiterhelfen."
 region: ankanor
 locked: false
 abortable: false
@@ -37,4 +37,4 @@ objectives:
 
 complete-actions:
   flow:
-    - '!quest.start ../4-klassenwahl.klassenwahl'
+    - '!quest.start ../4-1-waffenwahl.waffenwahl'
