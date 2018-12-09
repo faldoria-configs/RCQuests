@@ -2,7 +2,10 @@
 
 Issue 59
 
-[Mairi](#mairi) ist ein NPC, dem der spieler schon in einer Nebenquest auf Ankanor begenet ist. Sie ist Kräuterkundige und Heilerin und kann den Skill 'Bandagieren' lehren. 
+[Mairi](#mairi) ist ein NPC, dem der Spieler schon in einer Nebenquest auf Ankanor begenet ist. Sie ist Kräuterkundige und Heilerin und kann den Skill 'Bandagieren' lehren. 
+
+
+> Sollte vielleicht Marduk den Spieler zu Mairi schicken?
 
 ## Was noch fehlt:
 
@@ -81,71 +84,40 @@ Spieler: Ist doch klar, warum sollte ich das nicht tun?
 >>> Quest kann auf unbestimmte Zeit nicht abgeschlossen werden!
 
 
-### Dialog 2
+Nächste Quest: [Heilpflanzen für Mairi](../12-heilpflanzen-fuer-mairi/README.md)
 
-
-
-
-> 1. Spieler: Antwort 1, etc 
-`[Ende]`
-
-
-*****
-
-> 2.1 Spieler: Antwort 2.1   …
-
-**Alternativ wenn der Spieler ….:** 
-
-> 2.2 Spieler: ……
-
-`[QUESTSTART]`[Name der Quest](#name-der-quest)
-
-> **QuestLog:** *Was soll der Spieler tun?*
-
-*Der Spieler.. Erfüllt seine Aufgabe* 
-
-
-
-### **Dialog 2**  
-
-```Yml
-
-```
-
-Der Spieler kehrt zum Questgeber zurück(eventuell extra Quest für das Zurückgehen)
-
-**Belohnung**: [Name der Belohnung](#name-der-belohnung)
-
-`[Ende]` 
 
 
 ## NPCS
 
-### Name des NPCs
+### Mairi
 
-Beschreibung des NPCs, wenn möglich Verlinkung zum Wiki 
+Mairi ist Kräuterkundige und Heilerin und kann den Skill 'Bandagieren' lehren. Sie hat den Kontakt zu ihrer Familie verloren, seit Agnatus Schergen auf Ankanor einfielen und befürchtet, dass sie tot sein könnten. Ihre Kinder heißen Antosh und Irgrid, ihr Mann Arim. Auch Mimi hat sie auf Ankanor in ihre Familie aufgenommen. 
 
 #### Standartsätze
 
-    ##### Vor der Quest:
+     ##### Vor der Quest --> bevor die Vorraussetzungen noch nicht erfüllt sind
 
-*Wenn z.B. die Vorraussetzungen noch nicht erfüllt sind*
+*Mairi schluchzt nur und will sich nicht mit dir unterhalten*
 
 
 
-    ##### Während der Quest:
+     ##### Wenn der Spieler während des Dialoges wegläuft
 
-Wenn die Quest noch nicht erfüllt ist und der Spieler trotzdem zurück kommt
+---> Wieder von vorne anfangen???
 
-    ##### Nach der Quest: 
+     ##### Während der Quest: 
 
-Wenn der Spieler nach Abschluss der Quest den NPC anklickt
+Hast du etwa schon etwas erfahren?
 
+     ##### Nach der Quest:
+
+     Der Spieler wird die Familie nicht finden, solange er an der Eisenküste ist, also die Quest nicht abschließen könne. . 
 
 
 #### Ausrüstung
 
-Welchen Skin hat der NPC? Was hält er in der Hand?
+Skin..
 
 #### Standort   
 
@@ -157,56 +129,13 @@ world: faldoria.eisenküste
 ```
 
 
-## Items
-
-Item: engl. Bezeichnung hier: https://minecraft-ids.grahamedgecombe.com/
-
-
-### Name des Items
-
-```yml
-ID: 
-name: 
-type: QUEST (z.B.)
-quality: COMMON (z.B.)
-item: (engl. Bezeichnung aus dem MC-Wiki)
-lore: 
-max-stack-size: 
-```
-
-
-## Mobs
-
-### Name des Mobs
-
-```yml
-name: 
-type: engl. Bezeichnung aus dem MC Wiki
-min-level: 
-max-level: 
-min-health: 
-max-health: 
-min-damage: 
-max-damage: 
-spawn-chance: 
-spawning-naturally: 
-loot-table: was droppt es?
-aggro: false/true
-```
-
-
-## Belohnung
-
-[Name des Items](##name-des-items)
-
 
 
 ## Referenzen
 
-Links!
--  zur Lore
-- Zur Mobkarte
-- Oder was auch immer nützlich erscheint 
+Nächste Quest, Mairi redet sofort im Anschluß an obige Quest weiter!: [Heilpflanzen für Mairi](../12-heilpflanzen-fuer-mairi/README.md)
+
+[Heilpflanzen für Mairi](#heilpflanzen-fuer-mairi)
 
 
 
