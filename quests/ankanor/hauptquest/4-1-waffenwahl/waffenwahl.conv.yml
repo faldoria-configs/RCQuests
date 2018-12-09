@@ -1,0 +1,68 @@
+stages:
+  start:
+    text: 'Hast du dich für eine Waffe entschieden, oder willst du noch etwas über die verschiedenen Waffenarten wissen?'
+    answers:
+      flow:
+        - ':"Ich bin mir noch unsicher. Was sind die Unterschiede der Waffen?"'
+        - '!stage weapons'
+        - ':"Ja ich habe mich entschieden."'
+        - '!stage choose'
+        - ':"Ich brauche noch etwas Zeit..."'
+        - '!text "Lass dir nicht zu viel Zeit. Agnatus ist auf dem Weg!"'
+  weapons:
+    text: 'Über welche Waffe möchtest du mehr Wissen?'
+    answers:
+      flow:
+        - ':"Erzähl mir mehr zu Schwert und Schild."'
+        - '!stage sword-shield'
+        - ':"Wer in **hier krieger gott name** Namen soll in der Lage sein diese Zweihandwaffe zu schwingen?"'
+        - '!stage two-hand'
+        - ':"Was soll ich mit den Zahnstochern dort anfangen?"'
+        - '!stage dagger'
+        - ':"Ich glaube da ist ein morscher Ast heruntergefallen und liegt nun zwischen den Waffen. Soll ich den wegräumen?"'
+        - '!stage wand'
+        - ':"Wozu brauche ich einen Bogen?"'
+        - '!stage bow'
+        - ':"Mehr wollte ich gar nicht wissen."'
+        - '!end'
+  choose:
+    text: 'Hast du dich entschieden, welche Waffe du nehmen willst?'
+    answers:
+      flow:
+        - ':"Ja, das habe ich."'
+        - '!stage choose-weapons'
+        - ':"Nein, ich bin mir noch unsicher, ich komme später wieder."'
+        - '!text "Gut, aber lass dir nicht zuviel Zeit. Das Übel wartet nicht. 2.2 Lious: Ich sehe, du machst dir sehr viele Gedanken. Aber bedenke, Agnatus kommt näher!"'
+        - ':"Nein, könntest du mir die Waffen noch einmal erklären. Lious: Gerne, aber bedenke, die Zeit drängt."'
+        - '!stage weapons'
+  choose-weapons:
+    text: 'Gut, welche Waffe möchtest du?'
+    answers:
+      flow:
+        - ':"Ich möchte Schwert und Schild."'
+        - '!player.give.item this.items.schwert'
+        - '!player.give.item this.items.schild'
+        - '!stage training'
+        - ':"Ich möchte die Zweihandaxt."'
+        - '!player.give.item this.items.zweihandaxt'
+        - '!stage training'
+        - ':"Ich möchte den Beidhänder."'
+        - '!player.give.item this.items.zweihandschwert'
+        - '!stage training'
+        - ':"Ich hätte gerne die beiden Dolche."'
+        - '!player.give.item this.items.dolch1'
+        - '!player.give.item this.items.dolch2'
+        - '!stage training'
+        - ':"Der Zauberstab wäre mir am liebsten."'
+        - '!player.give.item this.items.zauberstab'
+        - '!stage training'
+        - ':"Ich will den Bogen, bitte."'
+        - '!player.give.item this.items.bogen'
+        - '!stage training'
+  training:
+    actions:
+      flow:
+        - '!text "So sei es!"'
+        - '~1s'
+        - '!text "Mache dich nun mit deiner neuen Waffe vertraut und kehre dann zu mir zurück, damit du sie testen kannst."'
+        - '!objective.complete this.waffenwahl 1'
