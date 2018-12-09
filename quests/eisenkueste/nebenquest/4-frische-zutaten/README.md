@@ -244,8 +244,8 @@ world: Faldoria, Eisenküste
 name: Magus Beere
 type: ROHSTOFF
 quality: rare
-item: 
-lore: 
+item: allium
+lore: Eine Beere, der man magische Eigenschaften nachsagt
 max-stack-size: 16
 ```
 
@@ -257,8 +257,8 @@ Weiße Beeren, die..
 name: Weiße Beere
 type: ROHSTOFF
 quality: COMMON
-item: 
-lore: Dieses Beere wächst gerne...
+item: azure_bluet
+lore: Tarnt sich gerne im Schnee
 max-stack-size: 64
 ```
 
