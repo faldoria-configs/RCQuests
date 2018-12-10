@@ -9,12 +9,7 @@ Issue 59
 
 ## Was noch fehlt:
 
-Ziemlich alles
-
- 
-## Veränderungen
-
-Reines NPC Gespräch aus dem Doc fast völlig ignoriert... 
+Skin
 
 ## Übersicht  
 
@@ -33,15 +28,9 @@ Reines NPC Gespräch aus dem Doc fast völlig ignoriert...
          - [Ausrüstung](#ausruestung)
          - [Standort](#standort)
        
--  [Mobs](#mobs)
-    - [Name des Mobs](#name-des-mobs)
-    
-  -  [Items](#items)
-    - [Name des Items](#name-des-items)
-   
-- [Belohnung](#belohnung)
-         
 
+
+   
 
 ## Voraussetzungen
 
@@ -64,14 +53,14 @@ Mairi steht am Strand und schaut auf das Meer hinaus, sobald der Spieler sie ans
 
 ```yml
 *Du siehst Mairi auf's Meer hinausblicken, ihre Haltung zeigt dir, dass sie Kummer hat*
-Spieler: Mairi, wie geht es dir?
+Spieler: Mairi, was ist los mit dir?
 Mairi: *versucht ein Schluchzen zu unterdrücken*
 Mairi: Meine Kinder, mein Mann, sie sind nicht hier… sie sind bestimmt tot. Wir waren alle auf dem Schiff, aber nun sind sie… nicht da. 
 Spieler: Aber du hast sie nicht gefunden, ich meine, hast du ihre Leichen gesehen?
 Mairi: Nein…
 Spieler: Nun, siehst du, vielleicht sind sie woanders angespült worden, du darfst die Hoffnung nicht aufgeben. 
-Mairi: Meinst du? Glaubst du das wirklich? Kannst du nach ihnen Ausschau halten? 
-Spieler: Ja klar, ich komme ja etwas rum. Ich halte die Augen offen. Wenn ich sie hier nicht finde, dann vielleicht anderswo. 
+Mairi: Meinst du? Glaubst du das wirklich? Ich bin schon die Eisenküste rauf und runtergelaufen, soweit ich konnte, aber da habe ich sie nicht gesehen. Kannst du nach ihnen Ausschau halten? 
+Spieler: Ja klar, ich komme ja etwas weiter rum. Ich halte die Augen offen. Wenn ich sie hier an der Eisenküste nicht finde, dann vielleicht anderswo. 
 Mairi: Du weiß noch, wie sie heißen? Antosh und Irgrid sind meine Kinder, Arim heißt mein Mann. Nur, wie und wo treffe ich dich wieder?
 Spieler: Das weiß ich auch nicht, aber wenn ich sie sehe, dann kann ich ihnen sagen, dass du lebst. Irgendwann komme ich zurück - oder ihr fahrt alle mit dem Ballon ins Landesinnere wie ich. 
 *Mairi  sieht jetzt etwas zuversichtlicher aus.*
@@ -85,6 +74,8 @@ Spieler: Ist doch klar, warum sollte ich das nicht tun?
 
 
 Nächste Quest: [Heilpflanzen für Mairi](../12-heilpflanzen-fuer-mairi/README.md)
+
+> Mairi spricht sofort weiter!
 
 
 
@@ -101,7 +92,6 @@ Mairi ist Kräuterkundige und Heilerin und kann den Skill 'Bandagieren' lehren. 
 *Mairi schluchzt nur und will sich nicht mit dir unterhalten*
 
 
-
      ##### Wenn der Spieler während des Dialoges wegläuft
 
 ---> Wieder von vorne anfangen???
@@ -112,7 +102,7 @@ Hast du etwa schon etwas erfahren?
 
      ##### Nach der Quest:
 
-     Der Spieler wird die Familie nicht finden, solange er an der Eisenküste ist, also die Quest nicht abschließen könne. . 
+     Der Spieler wird die Familie nicht finden, solange er an der Eisenküste ist, also die Quest nicht abschließen können.  
 
 
 #### Ausrüstung
@@ -122,9 +112,9 @@ Skin..
 #### Standort   
 
 ```yml
-x: 
-y: 
-z: 
+x: 3666
+y: 64
+z: -2804
 world: faldoria.eisenküste
 ```
 
