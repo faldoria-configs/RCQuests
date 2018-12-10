@@ -5,7 +5,7 @@ mobs:
     mob: 'this.schwache-spinne'
     chance: 1.0
 interval: 300.0
-spawn-radius: 2
+spawn-radius: 4
 respawn-treshhold: 2
 min-interval: 300
 max-interval: 300
