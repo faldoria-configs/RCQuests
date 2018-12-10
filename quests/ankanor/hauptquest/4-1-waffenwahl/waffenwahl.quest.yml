@@ -10,10 +10,6 @@ worlds:
   - ankanor
 level: 1
 
-start-actions:
-  flow:
-    - '!conversation.start this.waffenwahl-start ../lious'
-
 objectives:
   '1':
     name: 'Wähle deine Waffe'
@@ -28,32 +24,32 @@ objectives:
     auto-complete: false
     trigger:
       flow:
-        - '@host.interact ../lious ../4-klassenwahl/faehigkeiten-test'
+        - '@host.interact ../lious ../4-klassenwahl.faehigkeiten-test'
     tasks:
       '1':
         name: 'Töte die erste Spinne'
         trigger:
           flow:
-            - '@rcmobs.mob.kill ../4-klassenwahl/schwache-spinne'
+            - '@rcmobs.mob.kill ../4-klassenwahl.schwache-spinne'
             - '!text "Gut gemacht! Achtung hier kommen noch zwei...", Lious'
             - '~5s'
-            - '!rcmobs.group.spawn ../4-klassenwahl/spinnen location:../4-klassenwahl/spinnen.mobs'
+            - '!rcmobs.group.spawn ../4-klassenwahl.spinnen location:../4-klassenwahl.spinnen.mobs'
       '2':
         name: 'Besiege die Spinnen'
         trigger:
           flow:
-            - '@rcmobs.group.kill ../4-klassenwahl/spinnen'
+            - '@rcmobs.group.kill ../4-klassenwahl.spinnen'
             - '!text "Sehr gut! Ich glaube du bist nun bereit.", Lious'
             - '~2s'
             - '!objective.complete this.waffenwahl 2'
-            - '!teleport ../4-klassenwahl/lious'
+            - '!teleport ../4-klassenwahl.lious'
   '3':
     name: 'Rede mit Lious über deine weitere Ausbildung'
     auto-complete: false
     trigger:
       flow:
-        - '@host.interact ../lious ../4-klassenwahl/weitere-ausbildung'
+        - '@host.interact ../lious ../4-klassenwahl.weitere-ausbildung'
 
 complete-actions:
   flow:
-    - '!quest.start ../5-weitere-ausbildung.weitere-ausbildung'
+    - '!quest.start(delay:1) ../5-weitere-ausbildung.weitere-ausbildung'

@@ -37,4 +37,4 @@ objectives:
 
 complete-actions:
   flow:
-    - '!quest.start ../4-1-waffenwahl.waffenwahl'
+    - '!quest.start(delay:1) ../4-1-waffenwahl.waffenwahl'

@@ -6,7 +6,7 @@ stages:
         - ':"Ich bin mir noch unsicher. Was sind die Unterschiede der Waffen?"'
         - '!stage weapons'
         - ':"Ja ich habe mich entschieden."'
-        - '!stage choose'
+        - '!stage choose-weapons'
         - ':"Ich brauche noch etwas Zeit..."'
         - '!text "Lass dir nicht zu viel Zeit. Agnatus ist auf dem Weg!"'
   weapons:
@@ -25,16 +25,6 @@ stages:
         - '!stage bow'
         - ':"Mehr wollte ich gar nicht wissen."'
         - '!end'
-  choose:
-    text: 'Hast du dich entschieden, welche Waffe du nehmen willst?'
-    answers:
-      flow:
-        - ':"Ja, das habe ich."'
-        - '!stage choose-weapons'
-        - ':"Nein, ich bin mir noch unsicher, ich komme später wieder."'
-        - '!text "Gut, aber lass dir nicht zuviel Zeit. Das Übel wartet nicht. 2.2 Lious: Ich sehe, du machst dir sehr viele Gedanken. Aber bedenke, Agnatus kommt näher!"'
-        - ':"Nein, könntest du mir die Waffen noch einmal erklären. Lious: Gerne, aber bedenke, die Zeit drängt."'
-        - '!stage weapons'
   choose-weapons:
     text: 'Gut, welche Waffe möchtest du?'
     answers:
@@ -59,6 +49,8 @@ stages:
         - ':"Ich will den Bogen, bitte."'
         - '!player.give.item this.items.bogen'
         - '!stage training'
+        - ':"Ich bin mir doch noch unsicher. Kannst du mir die Waffen nochmal erklären?"'
+        - '!stage weapons'
   training:
     actions:
       flow:
