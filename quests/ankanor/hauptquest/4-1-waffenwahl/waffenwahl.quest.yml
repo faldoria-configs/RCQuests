@@ -48,7 +48,7 @@ objectives:
     auto-complete: false
     trigger:
       flow:
-        - '@host.interact ../lious ../4-klassenwahl.weitere-ausbildung'
+        - '@host.interact ../lious this.weitere-ausbildung'
 
 complete-actions:
   flow:
