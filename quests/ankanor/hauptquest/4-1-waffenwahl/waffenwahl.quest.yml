@@ -18,6 +18,9 @@ objectives:
     trigger:
       flow:
         - '@host.interact ../lious this.waffenwahl'
+    complete-actions:
+      flow:
+        - '!rcskills.profession.choose kaishi force:true'
   '2':
     name: 'Test der Fähigkeiten'
     desc: 'Rede mit Lious um deine neuen Fähigkeiten unter Beweis zu stellen.'
