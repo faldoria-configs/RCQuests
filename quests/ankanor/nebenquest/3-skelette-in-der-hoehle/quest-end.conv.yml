@@ -16,6 +16,7 @@ stages:
         - '!text "Vielen Dank, dass du dich darum gekümmert hast."'
         - '~1s'
         - '!text.player "Musste ich ja wohl..."'
+        - '!quest.complete this.skelette-in-der-hoehle'
   open-eisen:
     text: "Und sind die Skelette tot?"
     answers:
@@ -24,3 +25,4 @@ stages:
         - '!text "Vielen Dank dafür, aber vielleicht solltest du noch die restlichen Schwerter für Sakros sammeln."'
         - '~2s'
         - '!text.player "Jaja, schon gut..."'
+        - '!quest.complete this.skelette-in-der-hoehle'
