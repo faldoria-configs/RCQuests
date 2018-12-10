@@ -8,30 +8,28 @@ Issue 60
 
 Die benötigten Blumen müssen im Wald gesetzt werden
 
-## Übersicht  
-
-- [Voraussetzungen](#voraussetzungen)
-- [Ablauf](#ablauf)
-- [Questdialoge](#questdialoge)
-   - [Dialog 1](#dialog-1)
-   - [Dialog 2](#dialog-2) 
-   - [Dialog 3](#dialog-3)  - 
-[NPCs](#npcs)
-     - [Name des NPCs](#name-des-npcs)
-         - [Standartsätze](#standartsaetze)
-            - [Vor der Quest](#vor-der-quest)
-            - [Während der Quest](#waehrend-der-quest)
-            - [Nach der Quest](#nach-der-quest)
-         - [Ausrüstung](#ausruestung)
-         - [Standort](#standort)
-       
--  [Mobs](#mobs)
-    - [Name des Mobs](#name-des-mobs)
-    
-  -  [Items](#items)
+## Übersicht
+- [Heilpflanzen für Mairi](#heilpflanzen-f%C3%BCr-mairi)
+  - [Was noch fehlt:](#was-noch-fehlt)
+  - [Übersicht](#%C3%BCbersicht)
+  - [Voraussetzungen](#voraussetzungen)
+  - [Ablauf](#ablauf)
+  - [Questdialoge](#questdialoge)
+    - [Dialog 1](#dialog-1)
+    - [Dialog 2](#dialog-2)
+  - [NPCS](#npcs)
+    - [Name des NPCs](#name-des-npcs)
+      - [Standartsätze](#standarts%C3%A4tze)
+      - [Ausrüstung](#ausr%C3%BCstung)
+      - [Standort](#standort)
+  - [Items](#items)
     - [Name des Items](#name-des-items)
-   
-- [Belohnung](#belohnung)
+  - [Mobs](#mobs)
+    - [Name des Mobs](#name-des-mobs)
+  - [Belohnung](#belohnung)
+  - [Referenzen](#referenzen)
+
+
          
 
 
