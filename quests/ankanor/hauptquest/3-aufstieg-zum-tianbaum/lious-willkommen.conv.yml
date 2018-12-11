@@ -11,6 +11,10 @@ stages:
         - '!text.player "Ich glaube wir haben aber keine Zeit für langanhaltende Geduld."'
         - ~2s
         - '!text "Wir haben alle Zeit die wir benötigen, um dich auf die kommenden, schweren Tage und Wochen vorzubereiten."'
+        - ~1s
+        - '!quest.complete this.aufstieg-zum-tianbaum'
+        - '~1s'
+        - '!conversation.start ../4-1-waffenwahl.waffenwahl-start ../lious'
 #        - ~2s
 #        - '!text.player "Denn du wirst die Wahl zwischen fünf Pfaden des Kampfes haben. Jeder Pfad bestimmt eine Klasse. Eine Lebensweise!"'
 #        - ~2s

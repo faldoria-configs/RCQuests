@@ -1,12 +1,12 @@
 name: "Klassenwahl"
 region: ankanor
-locked: false
+locked: true
+enabled: false
 abortable: false
 authors:
   - TheFum (QS)
   - Silthus (QD)
-worlds:
-  - ankanor
+worlds: []
 level: 1
 
 objectives:

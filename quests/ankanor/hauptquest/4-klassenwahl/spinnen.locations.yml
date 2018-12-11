@@ -6,7 +6,7 @@ player:
   yaw: -43
   pitch: 0
 mobs:
-  x: 28
-  y: 156
-  z: 20
+  x: 23
+  y: 157
+  z: 18
   world: Ankanor
