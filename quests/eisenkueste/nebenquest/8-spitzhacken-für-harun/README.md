@@ -9,7 +9,10 @@ Issue 18
  
 ## Veränderungen
 
-Viele?
+Google Doc:
+https://docs.google.com/document/d/1M2QfHDNB8vB3BLgaS0qX0tLFawQeyMduP8s1IUYLwTc/edit
+
+Schlußpart gefällt mir nicht, ist unlogisch, ganze Quest ist langweilig
 
 Aus dem google doc:
 QuestName: Spitzhacken für Harun 
@@ -21,6 +24,16 @@ Quest Items: Spitzhacken: Drop  10 % Skelette / Kisten zu 15 %
 QuestBelohnung: 15 Kupfer
 
 ## Übersicht  
+
+- [Spitzhacken für Harun](#spitzhacken-f%C3%BCr-harun)
+  - [Was noch fehlt:](#was-noch-fehlt)
+  - [Veränderungen](#ver%C3%A4nderungen)
+  - [Übersicht](#%C3%BCbersicht)
+  - [Voraussetzungen](#voraussetzungen)
+  - [Ablauf](#ablauf)
+  - [Questdialoge](#questdialoge)
+    - [Dialog 1](#dialog-1)
+    - [Dialog 2](#dialog-2)
 
 
 
@@ -106,10 +119,15 @@ Harun: Gut dann macht euch auf den Weg ich werde euch dann entlohnen.
 
 >> **Der Spieler kehrt zu Harun zurück**
 
-Harun spricht den Spiler an, wenn er 5 Blocks entfernt ist:
+Harun spricht den Spieler an, sobald er 5 Blocks entfernt ist:
 
 ```yml
 Harun: Da seid Ihr ja wieder, an einem Stück, wie erfreulich. Habt ihr die Spitzhacken?
+Spieler: Ja, aber ich hoffe, Eure Belohnung fällt hoch genug aus - Ihr habt mich belogen. 
+Harun: Ach was, ich habe dir nur nicht alle Gründe gesagt, warum ich da nicht runter will. 
+Spieler: Und wozu braucht Ihr die Spitzhacken?
+Harun: Na, für die Mine
+
 ```
 
 
