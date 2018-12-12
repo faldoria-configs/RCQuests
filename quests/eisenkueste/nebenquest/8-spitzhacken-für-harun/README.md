@@ -12,7 +12,7 @@ Issue 18
 Google Doc:
 https://docs.google.com/document/d/1M2QfHDNB8vB3BLgaS0qX0tLFawQeyMduP8s1IUYLwTc/edit
 
-Schlußpart gefällt mir nicht, ist unlogisch, ganze Quest ist langweilig
+Schlußpart gefällt mir nicht, ist unlogisch, 
 
 Aus dem google doc:
 QuestName: Spitzhacken für Harun 
