@@ -3,6 +3,9 @@
 Issue 51
 
 NPC muss noch plaziert werden, wenn möglich auf Stufe sitzend
+Skin hochgeladen!
+
+
 
 ## Übersicht 
 
