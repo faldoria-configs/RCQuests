@@ -55,15 +55,17 @@ Yoshni: Ich weiß, dass es eilig und wichtig ist, dass <Name des Spielers> zum T
 Roschik: Von mir aus, vielleicht kann <Name des Spielers> sie ja nebenbei suchen, ihr Haus liegt ja am Weg. 
 Yoshni: Ja, aber ich glaube, ich habe sie beim Aussichtsplatz oben auf der Klippe gesehen, vielleicht schaust du da erst nach, <Name des Spielers>.
 ```
-Spieler:
+**Spieler:**
 
-1. Ich suche Großmutter später, ich möchte erst zum Tianbaum hinauf.  `[Ende]`
+> 1. Ich suche Großmutter später, ich möchte erst zum Tianbaum hinauf.  `[Ende]`
 
 Fortsetzung der Quest: [Aufstieg zum Tianbaum](../3-aufstieg-zum-tianbaum/README.md)
 
->  Fortsetzung Quest [Abschied von Amari](#abschied-von-amari)
+ 
 
 >> Wenn der Spieler später wiederkommt, nach dem Abschluß anderer Quests, aber bevor er zu Jamos geht:
+
+> Fortsetzung Quest [Abschied von Amari](#abschied-von-amari)
 
 ```yml
 Yoshni: Hast du jetzt Zeit, nach Amari zu suchen?
@@ -72,20 +74,29 @@ Yoshni: Na, dann muss ich es wohl selber machen, schade, dass du so wenig für d
 ``` 
 
 
-1.1 Es geht jetzt wirklich nicht, wenn dieser Ananani unterwegs ist, Großmutter schafft das schon alleine.
+1.1
+```yml
+ Spieler: Es geht jetzt wirklich nicht, wenn dieser Ananani unterwegs ist, Großmutter schafft das schon alleine.
 
-Yoshni: *kalt* Wie du meinst.  `[Ende]`
+Yoshni: *kalt* Wie du meinst.
+```
+
+`[Ende]`
 
 >>> Spieler kann die Quest hinterher nicht mehr annehmen!!!
 
-1.2 Spieler: Nagut, ich geh ja schon und such sie. 
+1.2
 
-Weiter wie mit Antwort 2. 
+```yml
+Spieler: Nagut, ich geh ja schon und suche sie. 
+```
+
+>**Weiter wie mit Antwort 2.** 
 
 
-Spieler:
+**Spieler:**
 
-2. Ja, ich hole sie gleich, sie wird nicht weg wollen, wie ich sie kenne!
+> 2. Ja, ich hole sie gleich, sie wird nicht weg wollen, wie ich sie kenne!
 
 `[QUESTSTART]`[Abschied von Amari](#abschied-von-amari)
 
