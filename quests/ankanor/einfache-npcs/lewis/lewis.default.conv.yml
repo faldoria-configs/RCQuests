@@ -11,11 +11,11 @@
         - '!stage angst'
         - ':"Pssst, nicht so Laut, das darf keiner wissen."'
   angst:
-    text: "Er ist gruselig, ich höre immer ein Grollen in seiner nähe, hörst du es nicht?"
+    text: "Er ist gruselig, ich höre immer ein Grollen in seiner Nähe, hörst du es nicht?"
     answers:
       flow:
-        - ':"Moment... Irgendwas ist da, aber das ist sicher nur das Wasser, das da Geräusche macht."'
-        - '!text "Danke das du mich versuchst zu beruhigen, aber ganz beruhigt bin ich noch immer nicht."'
+        - ':"Moment... irgendwas ist da, aber das ist sicher nur das Wasser, das da Geräusche macht."'
+        - '!text "Danke, dass du versuchst mich zu beruhigen, aber ganz beruhigt bin ich noch immer nicht."'
         - '~4s'
         - '!text.player "Mach dir nicht so viele Gedanken."'
         - '~2s'
@@ -23,14 +23,14 @@
         - ':"Moment... Nein ich höre nichts, du bildest dir das nur ein."'
         - '!text "Du glaubst mir also auch nicht."'
   lutz:
-    text: "Hast du Lutz gesehen? Roschick hat ihm gesagt er solle mir heute helfen. Wenn du ihn siehst sag ihm das ich auf ihn warte."
+    text: "Hast du Lutz gesehen? Roschick hat ihm gesagt, er solle mir heute helfen. Wenn du ihn siehst sag ihm, dass ich auf ihn warte."
     answers:
       flow:
         - '?tag ankanor.lutz'
-        - '-:"Nein ich habe ihn nicht gesehen. Soll ich ihm sagen das du nach ihm suchst wenn ich ihn sehe?"'
+        - '-:"Nein ich habe ihn nicht gesehen. Soll ich ihm sagen, dass du nach ihm suchst, wenn ich ihn sehe?"'
         - '!text "Das wäre sehr nett von dir. Danke."'
         - '!tag ankanor.lewis-bitte'
-        - '+:"[Lügen] Ja ich habe ihn gesehen. Er ist Krank und kann nicht helfen kommen. Er sagte, du musst alleine klarkommen."'
+        - '+:"[Lügen] Ja ich habe ihn gesehen. Er ist krank und kann nicht helfen kommen. Er sagte, du musst alleine klarkommen."'
         - '!text "Oh nein, ich hoffe es geht ihm bald besser."'
         - '+:"[Verraten] Er hatte mich gebeten dir zu sagen, dass er krank sei, er möchte lieber faulenzen."'
         - '!text "Dieser Faulpelz soll seinen Arsch hier her bewegen. Ich werde Roschik davon erzählen. Danke, dass du ehrlich zu mir warst."'
