@@ -123,7 +123,7 @@ Spieler: Aber...
 Ariani: Komm her zu mir, setz dich neben mich.
 
 *Du setzt dich neben deine Urgroßmutter, sie nimmt deine Hand*
-Ariani: <Name des Spielers>, sei nicht traurig wegen mir. Ich bin alt und habe ein glückliches Leben geführt. Und nun ist meine Zeit gekommen, zu gehen. Aber ihr Jungen, ihr müsst fliehen, denn Agnatus ist zu böse und stark, als dass ihr ihm hier wiederstehen könntet. 
+Ariani: <Name des Spielers>, sei nicht traurig wegen mir. Ich bin alt und habe ein glückliches Leben geführt. Und nun ist meine Zeit gekommen, zu gehen. Aber ihr Jungen, ihr müsst fliehen, denn Agnatus ist zu böse und stark, als dass ihr ihm hier widerstehen könntet. 
 Ariani: Aber ich bin fest davon überzeugt, dass ihr jüngeren Kaishi das Unglück, die erneute Flucht gut überleben werdet. Wir sind hier mit dem Segen des Tianbaumes in den letzten vierhundert Jahren ein starkes Volk geworden, auch wenn wir friedlich sind. Das heißt nicht, dass wir uns nicht zu wehren wissen. Aber manchmal heißt klug zu sein, auszuweichen, auch wenn andere Völker das als feige Flucht bezeichnen würden. Glaube das nicht! Und nun geh. Der Segen des Tianbaumes sei mit dir. 
 
 *Ariani streicht dir mit ihren knochigen Fingern über das Haar*
