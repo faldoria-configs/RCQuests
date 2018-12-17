@@ -140,6 +140,30 @@ Spieler: *Du umarmst deine Großmutter das letzte Mal fest und rennst weg. Unten
 
 **Questlog** *Finde Mirunis Tagebuch und nimm es an dich.*
 
+Der Spieler sucht Mirunis Tagebuch, schließt damit die Quest ab 
+
+`[Ende]`
+
+> Es erscheint im Chat:
+
+>>> Du hast dein erstes Buch gefunden
+
+Und er erhält das **Achievement: "Ein Buch gefunden"**   (oder auch was anderes)
+
+Er erhält sofort die nächste Quest: 
+
+`[QUESTSTART]` [Rette Mirunis Buch](#rette-mirunis-buch)
+
+**Questlog**  *Nimm Mirunis Tagebuch an dich und bewahre es sicher auf, bis du einen Ort gefunden hast, an dem es gut aufgehoben ist.*
+
+> Die Quest kann erst irgendwo auf Faldoria, Kaltenstrom oder wo auch immer abgeschlossen werden. 
+
+
+
+
+
+
+
 
 
 
