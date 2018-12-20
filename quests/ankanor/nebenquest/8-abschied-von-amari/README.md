@@ -21,10 +21,12 @@ Das Buch!
   - [NPCS](#npcs)
     - [Ariani](#ariani)
       - [Standartsätze](#standarts%C3%A4tze)
+        - [Während den Quests:](#w%C3%A4hrend-den-quests)
+        - [Nach der Quest:](#nach-der-quest)
       - [Ausrüstung](#ausr%C3%BCstung)
       - [Standort](#standort)
   - [Items](#items)
-    - [Name des Items](#name-des-items)
+    - [Mirunis Tagebuch](#mirunis-tagebuch)
 
 ## Ablauf
 
@@ -58,51 +60,43 @@ Yoshni: <Name der Spielerin>, wart mal kurz.
 
 ```yml
 *Yoshni wendet sich zu Roschik*
-Yoshni: Ich weiß, dass es eilig und wichtig ist, dass <Name der Spielerin> zum Tianbaum hinaufsteigt, aber ich mache mir Sorgen um Ariani. Könnte <Name der Spielerin> sie nicht vorher suchen, sie braucht doch länger als wir, bis sie zum Schiff kommt und sie ist schießlich ihre Urgroßmutter. 
+Yoshni: Ich weiß, dass es eilig und wichtig ist, dass <Name der Spielerin> zum Tianbaum hinaufsteigt, aber ich mache mir Sorgen um Ariani. Könnte <Name der Spielerin> Ariani nicht vorher suchen, sie braucht doch länger als wir, bis sie zum Schiff kommt und sie ist schießlich <Name der Spielerin>s Urgroßmutter. 
 Roschik: Von mir aus, vielleicht kann <Name der Spielerin> sie ja nebenbei suchen, ihr Haus liegt ja am Weg. 
-Yoshni: Ja, aber ich glaube, ich habe sie beim Aussichtsplatz oben auf der Klippe gesehen, vielleicht schaust du da erst nach, <Name der Spielerin>.
+Yoshni: Ja, aber ich glaube, ich habe Ariani beim Aussichtsplatz oben auf der Klippe gesehen, vielleicht schaust du da erst nach, <Name der Spielerin>.
 ```
-**Spieler:**
+**Spielerin:**
 
-> 1. Ich suche Großmutter später, ich möchte erst zum Tianbaum hinauf. 
+> 1. Ich suche Großmutter später, ich möchte erst zum Tianbaum hinauf. `[Ende]`
 
 Fortsetzung der Quest: [Aufstieg zum Tianbaum](../3-aufstieg-zum-tianbaum/README.md)
 
  
-
 >> Wenn die Spielerin später wiederkommt, nach dem Abschluß anderer Quests, aber bevor sie das letzte Mal zu Jamos geht und das Event anfängt:
 
 NQ [Abschied von Ariani](#abschied-von-ariani)
 
-1.1.1
+1.1
 ```yml
 Yoshni: Hast du jetzt Zeit, nach Ariani zu suchen?
-Spieler/in: Nein, ich bin immer noch beschäftigt.
+SpielerIn: Nein, ich bin immer noch beschäftigt.
 Yoshni: Na, dann muss ich es wohl selber machen, schade, dass du so wenig für deine Großmutter übrig hast.
-``` 
-Wenn die Spielerin erneut wiederkommt und erneut ablehnt:
-
-1.1.2
+SpielerIn: Nagut, ich geh ja schon und suche sie. 
+```
+> **Weiter wie mit Antwort 2.** 
+ 
+1.2
 ```yml
- Spieler/in: Es geht jetzt wirklich nicht, wenn dieser Ananani unterwegs ist, Großmutter schafft das schon alleine.
+SpielerIn: Es geht jetzt wirklich nicht, wenn dieser Ananani unterwegs ist, Großmutter schafft das schon alleine.
 
 Yoshni: *kalt* Wie du meinst.
 ```
 
 `[Ende]`
 
->>> Spieler/in kann die Quest hinterher nicht mehr annehmen!!!
-
-1.2
-
-```yml
-Spieler/in: Nagut, ich geh ja schon und suche sie. 
-```
-
->**Weiter wie mit Antwort 2.** 
+>>> SpielerIn kann die Quest hinterher nicht mehr annehmen!!!
 
 
-**Spieler/in:**
+**SpielerIn:**
 
 > 2. Ja, ich hole sie gleich, sie wird nicht weg wollen, wie ich sie kenne!
 
@@ -119,18 +113,18 @@ Sobald die Spielerin oben auf dem Aussichtpunkt ist, etwas 10 Blocks entfernt vo
 *Du siehst deine Urgroßmutter Ariani auf der Bank sitzen, sie schaut auf den Tianbaum*
 
 ```yml
-Spieler/in: Ariani, warum sitzt du hier rum und machst dich nicht fertig, warum bist du noch nicht auf dem Schiff? Soll ich dir helfen, dorthin zu kommen?
-Ariani: Nein, <Name des Spielers>, ich bleibe da, ich gehe nicht auf das Schiff.
-Spieler/in: Aber Agmanus Schergen kommen doch, du musst weg, sonst wirst du sterben.
+SpielerIn: Ariani, warum sitzt du hier rum und machst dich nicht fertig, warum bist du noch nicht auf dem Schiff? Soll ich dir helfen, dorthin zu kommen?
+Ariani: Nein, <Name der Spielerin>, ich bleibe da, ich gehe nicht auf das Schiff.
+SpielerIn: Aber Agmanus Schergen kommen doch, du musst weg, sonst wirst du sterben.
 Ariani: Ich bin alt, ich fürchte mich nicht vor dem Tod. Ich glaube kaum, dass ich die Schiffsreise überleben würde. Und noch weniger die Strapazen eines Lebens in einem fremden Land.
-Spieler/in: Aber... wir können dich doch nicht einfach zurücklassen.
+SpielerIn: Aber... wir können dich doch nicht einfach zurücklassen.
 Ariani: Doch, doch, schau, ich genieße die letzten Stunden hier auf dem Aussichtspunkt und dann gehe ich ein letztes Mal hinauf in den Tianbaum. Ich habe mein ganzes, langes Leben hier verbracht, ich will auch hier sterben.
-Spieler/in: Aber...
+SpielerIn: Aber...
 ```
 
 > 1. *Du bist ganz verstört und weißt nicht, was du tun sollst, die Tränen stehen dir in den Augen*
 
-> 2. Spieler/in: *Du schüttelsts energisch den Kopf.* Nein, Großmutter, das geht gar nicht, du musst mitkommen. Und wenn du nicht willst, trage ich dich dich zum Schiff. 
+> 2. SpielerIn: *Du schüttelsts energisch den Kopf.* Nein, Großmutter, das geht gar nicht, du musst mitkommen. Und wenn du nicht willst, trage ich dich zum Schiff. 
  
 ```yml
 Ariani: Komm her zu mir, setz dich neben mich.
@@ -146,10 +140,10 @@ Ariani: Aber ich bin fest davon überzeugt, dass ihr jüngeren Kaishi das Unglü
 > 2. Spieler: Aber Großmutter, ich kann dich hier nicht zurücklassen! 
 
 ```yml
-Ariani: Kein 'Aber', <Name des Spielers>, doch du könntest mir noch einen Gefallen tun. In meinem Haus - du weißt doch, wo ich jetzt wohne - gleich links hoch nach dem Aufgang zu Mairis und Roschiks Haus, da liegt das Tagebuch meiner Ur-Urgroßmutter Miruni. Sie lebte noch auf [Name des Kontinents] und hat die letzten Tage beschrieben, bis sie weggezogen sind, dann die Seereise und die Ankunft hier auf Ankanor vor 400 Jahren. Es wäre schade, wenn das Tagebuch den Kaishi verloren gehen würde. Hole es und nimm es mit, für dich und deine Kinder. Und dann lebe wohl!
+Ariani: Kein 'Aber', <Name der Spielerin>, doch du könntest mir noch einen Gefallen tun. In meinem Haus - du weißt doch, wo ich jetzt wohne - in dem Haus nach dem Aufgang zu Mairis und Roschiks Haus,  gleich links hoch, da liegt das Tagebuch meiner Ur-Urgroßmutter Miruni. Sie lebte noch auf [Name des Kontinents] und hat die letzten Tage beschrieben, bis sie weggezogen sind, dann die Seereise und die Ankunft hier auf Ankanor vor 400 Jahren. Es wäre schade, wenn das Tagebuch den Kaishi verloren gehen würde. Hole es und nimm es mit, für dich und deine Kinder. Und dann lebe wohl!
 
-*Ariani steht auf schiebt dich sanft Richtung Versammlunshalle*
-Spieler/in: *Du umarmst deine Großmutter das letzte Mal fest und rennst weg. Unten angekommen schaust du zurück und siehst sie fröhlich winken. Dieses Bild wird dir ewig in Erinnerung bleiben*
+*Ariani steht auf schiebt dich sanft Richtung Versammlungshalle*
+SpielerIn: *Du umarmst deine Großmutter das letzte Mal fest und rennst weg. Unten angekommen schaust du zurück und siehst sie fröhlich winken. Dieses Bild wird dir ewig in Erinnerung bleiben*
 ```
 
 `[Ende]` [Abschied von Ariani](#abschied-von-ariani)
@@ -170,9 +164,9 @@ Die Spielerin sucht Mirunis Tagebuch, schließt damit die Quest ab.
 
 >>> Du hast dein erstes Buch gefunden
 
-Und er erhält das **Achievement: "Ein Buch gefunden"**   (oder auch was anderes)
+Und die Spielerin erhält das **Achievement: "Ein Buch gefunden"**   (oder auch was anderes)
 
-Er erhält sofort die nächste Quest: 
+Sie erhält sofort die nächste Quest: 
 
 `[QUESTSTART]` [Rette Mirunis Buch](#rette-mirunis-buch)
 
@@ -180,7 +174,7 @@ Er erhält sofort die nächste Quest:
 
 > Die Quest kann erst irgendwo auf Faldoria, Kaltenstrom oder wo auch immer abgeschlossen werden. 
 
-Spieler/in sucht und findet das Buch und erledigt dann weitere Quests. 
+SpielerIn sucht und findet das Buch und erledigt dann weitere Quests. 
 
 
 ## NPCS
@@ -195,15 +189,29 @@ Ariani ist mit ihren 144 Jahren die älteste Frau, die auf Ankanor lebt und die 
 
 Stör mich bitte nicht, <Name der Spielerin>, ich genieße hier die Aussicht.
 
-    ##### Während den Quests:
-     [Abschied von Amari](#abschied-von-amari)
-     Bei Abbruch der Quest Questtext ab [Dialog 2](#dialog-2) wieder neu starten.
+##### Während den Quests:
+
+[Abschied von Amari](#abschied-von-amari)
+
+    Bei Abbruch der Quest mittendrin Questtext ab [Dialog 2](#dialog-2) wieder neu starten.
+
+[Mirunis Tagebuch](#mirunis-tagebuch)
+
+    Ariani: Warum bist du noch da, Enkelkind?
+
+    SpielerIn: Ich finde das Buch nicht, kannst du mir den Weg nochmals beschreiben?
+
+    Ariani: Geh in die Richtung des Schiffes. Geh an dem Faulenzer Schicho vorbei, wende dich nach rechts. Auf der lonken Seite kommt ein haus, geh dran vorbei und dann links hoch, dort ist der Eingang. In der einzelnen Kiste hinten am Fesnter müsste das Buch sein.
+
+##### Nach der Quest:
+
+> [Rette Mirunis Buch](#rette-mirunis-buch) ist noch offen
+
+1. Ariani: Geh, geh und eile zum Schiff, oder erledige was du noch tun musst!
 
 
+2. Ariani: Lauf zum Schiff, Kind, lauf!
 
-
-    ##### Nach der Quest:
-    Ariani: Geh, geh und eile zum Schiff, oder erledige was du noch tun musst!
 
 
 
@@ -212,33 +220,32 @@ Stör mich bitte nicht, <Name der Spielerin>, ich genieße hier die Aussicht.
 
 #### Ausrüstung
 
-Welchen Skin hat der NPC? Was hält er in der Hand?
+Weiße Haare, ein langer zopf hängt den Rücken hinab. Ein grünes Umhängetuch schützt sie vor Kälte, ihr brauner Rock ist but bestickt, die Bluse weiß.
+
+Skin: 
 
 #### Standort   
 
 ```yml
-x: 
-y: 
-z: 
-world: faldoria.eisenküste
+x: 118
+y: 105
+z: -104
+world: ankanor
 ```
 
 
 ## Items
 
-Item: engl. Bezeichnung hier: https://minecraft-ids.grahamedgecombe.com/
-
-
-### Name des Items
+### Mirunis Tagebuch
 
 ```yml
 ID: 
-name: 
-type: QUEST (z.B.)
-quality: COMMON (z.B.)
-item: (engl. Bezeichnung aus dem MC-Wiki)
-lore: 
-max-stack-size: 
+name: Mirunis Tagebuch
+type: QUEST 
+quality: 
+item: written_book ??
+lore: Ein sehr wertvolles Buch der Kaishi
+max-stack-size: 1
 ```
 
 
