@@ -118,16 +118,25 @@ Ariani: Ich bin alt, ich fürchte mich nicht vor dem Tod. Ich glaube kaum, dass 
 Spieler: Aber... wir können dich doch nicht einfach zurücklassen.
 Ariani: Doch, doch, schau, ich genieße die letzten Stunden hier auf dem Aussichtspunkt und dann gehe ich ein letztes Mal hinauf in den Tianbaum. Ich habe mein ganzes, langes Leben hier verbracht, ich will auch hier sterben.
 Spieler: Aber...
+```
 
-*Du bist ganz verstört und weißt nicht, was du tun sollst, die Tränen stehen dir in den Augen*
+> 1. *Du bist ganz verstört und weißt nicht, was du tun sollst, die Tränen stehen dir in den Augen*
+> 2. Spieler: *Du schüttelsts energisch den Kopf.* Nein, Großmutter, das geht gar nicht, du musst mitkommen. Und wenn du nicht willst, trage ich dich dich zum Schiff. 
+ 
+```yml
 Ariani: Komm her zu mir, setz dich neben mich.
-
 *Du setzt dich neben deine Urgroßmutter, sie nimmt deine Hand*
 Ariani: <Name des Spielers>, sei nicht traurig wegen mir. Ich bin alt und habe ein glückliches Leben geführt. Und nun ist meine Zeit gekommen, zu gehen. Aber ihr Jungen, ihr müsst fliehen, denn Agnatus ist zu böse und stark, als dass ihr ihm hier widerstehen könntet. 
 Ariani: Aber ich bin fest davon überzeugt, dass ihr jüngeren Kaishi das Unglück, die erneute Flucht gut überleben werdet. Wir sind hier mit dem Segen des Tianbaumes in den letzten vierhundert Jahren ein starkes Volk geworden, auch wenn wir friedlich sind. Das heißt nicht, dass wir uns nicht zu wehren wissen. Aber manchmal heißt klug zu sein, auszuweichen, auch wenn andere Völker das als feige Flucht bezeichnen würden. Glaube das nicht! Und nun geh. Der Segen des Tianbaumes sei mit dir. 
 
 *Ariani streicht dir mit ihren knochigen Fingern über das Haar*
-Spieler: Aber Großmutter.. *deine Worte ersticken in deinem Schluchzen*
+```
+
+> 1. Spieler: Aber Großmutter.. *deine Worte ersticken in deinem Schluchzen*
+
+> 2. Spieler: Aber Großmutter, ich kann dich hier nicht zurücklassen! 
+
+```yml
 Ariani: Kein 'Aber', <Name des Spielers>, doch du könntest mir noch einen Gefallen tun. In meinem Haus - du weißt doch, wo ich jetzt wohne - gleich links hoch nach dem Aufgang zu Mairis und Roschiks Haus, da liegt das Tagebuch meiner Ur-Urgroßmutter Miruni. Sie lebte noch auf [Name des Kontinents] und hat die letzten Tage beschrieben, bis sie weggezogen sind, dann die Seereise und die Ankunft hier auf Ankanor vor 400 Jahren. Es wäre schade, wenn das Tagebuch den Kaishi verloren gehen würde. Hole es und nimm es mit, für dich und deine Kinder. Und dann lebe wohl!
 
 *Ariani steht auf schiebt dich sanft Richtung Versammlunshalle*
