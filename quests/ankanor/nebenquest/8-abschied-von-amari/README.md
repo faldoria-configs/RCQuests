@@ -25,8 +25,10 @@ Das Buch!
         - [Nach der Quest:](#nach-der-quest)
       - [Ausrüstung](#ausr%C3%BCstung)
       - [Standort](#standort)
+    - [Yoshni](#yoshni)
   - [Items](#items)
     - [Mirunis Tagebuch](#mirunis-tagebuch)
+      - [Standort](#standort-1)
 
 ## Ablauf
 
@@ -212,15 +214,9 @@ Stör mich bitte nicht, <Name der Spielerin>, ich genieße hier die Aussicht.
 
 2. Ariani: Lauf zum Schiff, Kind, lauf!
 
-
-
-
-
-
-
 #### Ausrüstung
 
-Weiße Haare, ein langer zopf hängt den Rücken hinab. Ein grünes Umhängetuch schützt sie vor Kälte, ihr brauner Rock ist but bestickt, die Bluse weiß.
+Arianis weiße Haare sind zu einem langen Zopf geflochten, der den Rücken hinabhängt. Ein grünes Umhängetuch schützt Ariani sie vor Kälte, ihr brauner Rock ist bunt bestickt, die Bluse weiß.
 
 Skin: 
 
@@ -233,6 +229,8 @@ z: -104
 world: ankanor
 ```
 
+### Yoshni
+
 
 ## Items
 
@@ -242,10 +240,18 @@ world: ankanor
 ID: 
 name: Mirunis Tagebuch
 type: QUEST 
-quality: 
+quality: einzigartig
 item: written_book ??
 lore: Ein sehr wertvolles Buch der Kaishi
 max-stack-size: 1
+```
+#### Standort   
+
+```yml
+x: 1
+y: 85
+z: -43
+world: ankanor
 ```
 
 
