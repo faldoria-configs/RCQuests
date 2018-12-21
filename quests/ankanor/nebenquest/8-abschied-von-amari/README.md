@@ -26,9 +26,13 @@ Das Buch!
       - [Ausrüstung](#ausr%C3%BCstung)
       - [Standort](#standort)
     - [Yoshni](#yoshni)
+      - [Standort](#standort-1)
+    - [Roschik](#roschik)
+      - [Standort](#standort-2)
   - [Items](#items)
     - [Mirunis Tagebuch](#mirunis-tagebuch)
-      - [Standort](#standort-1)
+      - [Standort](#standort-3)
+  - [Referenzen](#referenzen)
 
 ## Ablauf
 
@@ -233,6 +237,41 @@ world: ankanor
 
 ### Yoshni
 
+Steht neben Roschik in der Versammlungshalle
+
+#### Standort
+
+name: Yoshni
+type: NPC
+health: 100
+attackable: false
+friendly: true
+disguise: Yoshni
+location:
+  world: ankanor
+  x: 101
+  y: 83
+  z: -82
+default-conv: this.yoshni.default
+talk-close: false
+
+>> Stimmt das?
+
+### Roschik
+
+Er ist der Bürgermeister des Dorfes in dem die Kaishi wohnen. Roschik ist ein sehr gütiger Kaishi und wird von allen Respektiert.
+
+siehe Hauptquests Ankanor
+
+#### Standort
+
+```yml
+x: 100
+y: 82
+z: -85
+world: Ankanor
+```
+
 
 ## Items
 
@@ -255,6 +294,9 @@ y: 85
 z: -43
 world: ankanor
 ```
+
+## Referenzen
+
 
 
 
