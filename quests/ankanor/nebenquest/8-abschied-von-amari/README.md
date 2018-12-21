@@ -218,7 +218,9 @@ Stör mich bitte nicht, <Name der Spielerin>, ich genieße hier die Aussicht.
 
 Arianis weiße Haare sind zu einem langen Zopf geflochten, der den Rücken hinabhängt. Ein grünes Umhängetuch schützt Ariani sie vor Kälte, ihr brauner Rock ist bunt bestickt, die Bluse weiß.
 
-Skin: 
+Skin: http://lh3.googleusercontent.com/3F1bjixpzhuGUU1E2EX8TxNAPOI6mwYEV4PLwxn3Ks3-l8KFhFwFkvIfurDG14QMz0yQ3uhnWuYnFLCbTSKgOQ
+
+https://faldoria.de/board/index.php?thread/528-skins-f%C3%BCr-npcs/&postID=3866#post3866
 
 #### Standort   
 
