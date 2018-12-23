@@ -6,7 +6,7 @@ Die Quest beginnt bei NPC [Yoshni](#yoshni), die neben Bürgermeister [Roschik](
 
 ## Was noch fehlt:
 
-Das Buch!
+Das Buch! Ist in Arbeit.
 
 ## Übersicht 
 
