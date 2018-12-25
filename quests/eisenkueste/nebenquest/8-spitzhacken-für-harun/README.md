@@ -1,15 +1,20 @@
 # Spitzhacken für Harun
 
+Issue 18
+
+## Was noch fehlt:
 
 
 
+ 
+## Veränderungen
 
+Google Doc:
+https://docs.google.com/document/d/1M2QfHDNB8vB3BLgaS0qX0tLFawQeyMduP8s1IUYLwTc/edit
 
+Schlußpart gefällt mir nicht, ist unlogisch, 
 
-
-
-Vorraussetzung Banditenquest?
-
+Aus dem google doc:
 QuestName: Spitzhacken für Harun 
 QuestNPCAuslöser: Harun (nähe des Steinbruchs)
 Level: 2
@@ -18,21 +23,117 @@ Monster: Toter Steinmetz (Skelette mit Spitzhacken, Schwerter, Bögen)
 Quest Items: Spitzhacken: Drop  10 % Skelette / Kisten zu 15 %
 QuestBelohnung: 15 Kupfer
 
-NPC spricht Spieler an sobald er 15 Blöcke entfernt ist
-NPC: Heh ihr, kommt her.   
+## Übersicht  
 
+- [Spitzhacken für Harun](#spitzhacken-f%C3%BCr-harun)
+  - [Was noch fehlt:](#was-noch-fehlt)
+  - [Veränderungen](#ver%C3%A4nderungen)
+  - [Übersicht](#%C3%BCbersicht)
+  - [Voraussetzungen](#voraussetzungen)
+  - [Ablauf](#ablauf)
+  - [Questdialoge](#questdialoge)
+    - [Dialog 1](#dialog-1)
+    - [Dialog 2](#dialog-2)
+
+
+
+## Voraussetzungen
+
+HQ [Was ist passiert](#was-ist-passiert)
+
+HQ [Reparaturarbeiten](#reparaturarbeiten)
+
+Vorraussetzung Banditenquest?  -> wäre logisch, hmm
+
+
+## Ablauf
+
+Grobe Beschreibung was in der Quest basiert.
+
+1.
+2.
+3.
+……
+
+## Questdialoge
+
+### Dialog 1
+
+[Harun](#harun) spricht den Spieler an, sobald er 15 Blöcke entfernt ist
+
+```yml
+NPC: Heh Ihr, kommt mal her. 
+```  
 Wenn Spieler den NPC anspricht beginnt folgende Konversation
-NPC: Ihr seht kräftig aus, wollt ihr euch ein paar Kupferlinge verdienen?
-Spieler: Ich weiß nicht recht, ihr seht mir nicht vertrauenswürdig aus. / Sicher was kann ich für euch tun?
-NPC: Die Aufgabe ist ganz einfach, seht ihr da unten den Steinbruch? Ihr müsst dort nur 5 Spitzhacken aus den Kisten holen.
-Spieler: Klingt ganz einfach, ich mache es. / Warum machst du es nicht, das klingt doch recht einfach.
-NPC: Gut dann macht euch auf den Weg ich werde euch dann entlohnen. / Dann lasst es sein! 
 
-QuestAngenommen: Spitzhacken für Harun 
-Questlog: Finde und sammle 5 Spitzhacken in den Ruinen des Steinbruches
+```yml
+Harun: Ihr seht kräftig aus, wollt Ihr euch ein paar Münzen verdienen?
+```
+> 1. Spieler: Ich weiß nicht recht, Ihr seht mir nicht vertrauenswürdig aus. 
 
-Zurück bei Harun geht die Quest wie folgt weiter
-NPC: Da seid ihr ja wieder, an einem Stück, wie erfreulich. Habt ihr die Spitzhacken?
+Harun: Was, wie kommst du denn darauf? Nur weil ich etwas älter bin und einen        Bart habe? Du wirst doch keine Vorurteile gegenüber Bartträgern haben?
+
+Spieler: Nein das nicht, aber...
+
+Harun: Papperlapap, willst du jetzt einen Heller haben oder nicht?
+
+    1.1 Spieler: Nein, mein Bauchgefühl sagt mir, dass mich lieber fern halten sollte.
+        Harun: Wie du meinst, du Hasenpfote.
+ `[Ende]`
+
+    1.2 Na gut, was soll ich tun?
+
+> 2. Ein paar Münzen in der Geldkatze wären nicht schlecht, was soll ich denn für Euch tun?
+
+Nach 1.2 und 2 weiter mit 
+
+
+### Dialog 2
+```yml
+Harun: Die Aufgabe ist ganz einfach, seht Ihr da unten den Steinbruch? Ihr müsst dort nur 5 Spitzhacken aus den Kisten holen.
+Spieler: Warum machst Ihr es nicht selbst, das klingt doch recht einfach.
+Harun: Ach, Ihr seht doch, ich bin nicht mehr der Jüngste, mir tun die Gelenke weh und der Pfad da runter ist steil, aber für Euch ist das sicherlich ein Kinderspiel.
+```
+
+> 1.  *Du schaust den Mann kritisch an und glaubst ihm nicht, da ist etwas faul!*
+
+Spieler: Tut mir leid, ich muss wieder zum Lager zurück, Ihr schafft das bestimmt alleine. 
+
+Harun: Faulpelz! Die Kiesflöhe sollen dich in den Arsch beißen!
+
+`[Ende]`
+
+> 2. Spieler: Na gut, das leuchtet mir ein und klingt auch ganz einfach, ich mache es.
+
+Harun: Gut dann macht euch auf den Weg ich werde euch dann entlohnen. 
+
+`[Queststart]` [Spitzhacken für Harun](#spitzhacken-fuer-harun)
+
+**QuestLog:** *Finde und sammle 5 Spitzhacken in den Ruinen des Steinbruchs*
+
+>> **Spieler erledigt die Quest**
+
+`[Ende]`
+
+`[Queststart]` [Kehre mit den Spitzhacken zu Harun zurück](#kehre-mit-spitzhacken-zu-harun-zurueck)
+
+>> **Der Spieler kehrt zu Harun zurück**
+
+Harun spricht den Spieler an, sobald er 5 Blocks entfernt ist:
+
+```yml
+Harun: Da seid Ihr ja wieder, an einem Stück, wie erfreulich. Habt ihr die Spitzhacken?
+Spieler: Ja, aber ich hoffe, Eure Belohnung fällt hoch genug aus - Ihr habt mich belogen. 
+Harun: Ach was, ich habe dir nur nicht alle Gründe gesagt, warum ich da nicht runter will. 
+Spieler: Und wozu braucht Ihr die Spitzhacken?
+Harun: Na, für die Mine
+
+```
+
+
+
+
+
 Spieler: 
 S1 - Nun verstehe ich warum ihr das nicht gemacht habt! Aber ja hier.
 S2 -  War wirklich einfach, aber ihr seid ein Feigling. Hier sind die Spitzhacken
