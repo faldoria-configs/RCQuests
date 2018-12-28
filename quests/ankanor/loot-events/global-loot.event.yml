@@ -1,3 +1,5 @@
+worlds:
+  - ankanor
 trigger:
   flow:
     - '@player.fish(priority:1000,cancel:true) loot-table:this.fishing'

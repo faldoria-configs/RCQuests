@@ -1,7 +1,7 @@
 enabled: true
-cooldown: 0
 global: false
-execution-count: 0
+worlds:
+  - ankanor
 trigger:
   flow:
     - '?rcskills.effect(negate:true) "Segen des Tianbaum"'
