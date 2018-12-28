@@ -6,6 +6,7 @@ Issue #21
 
 > Wölfe Werte geben
 > Belohnung XP und Gold festsetzen
+> Hose verzaubern?
 
 Im Camp steht [NPC Hauptmann Marduk](#hauptmann-marduk). Er möchte, dass der Spieler aggressive Wölfe für ihn tötet. 
 
@@ -53,8 +54,10 @@ Im Camp steht [NPC Hauptmann Marduk](#hauptmann-marduk). Er möchte, dass der Sp
 
 Der Spieler hat soeben mit Marduk geredet, die [HQ Reparaturarbeiten](../2-reparaturarbeiten/README.md) abgeschlossen und muss noch darauf warten, dass Elius den Ballon fertig repariert. 
 
+siehe [HQ Reparaturarbeiten](../2-reparaturarbeiten/README.md)   Zeile 114
+
 ```yml
-Hauptmann Marduk: Was meinst du? 
+Hauptmann Marduk:  Was meinst du? 
 ```
 
 > 1. Spieler: Ach nein, Schimmerwölfe jagen ist nicht so meins, die sind doch schön anzusehen.
@@ -118,7 +121,7 @@ Hauptmann Marduk: Gut gemacht! Hoffen wir, dass das die einzigen waren.... Nimm 
 
 `[ENDE]`
 
-
+>> **Belohnung** [Hose aus Schimmerwolfspelz](#hose-aus-schimmerwolfspelz)
 
 ## NPCs
 
@@ -172,7 +175,7 @@ world: faldoria
 ID: 
 name: Hose aus Schimmerwolfspelz
 type: QUEST
-quality: COMMON
+quality: COMMON --> verzaubert?
 item: light-grey leather_leggings
 lore: Diese Hose ist warm und wasserdicht
 max-stack-size: 1
