@@ -1,4 +1,4 @@
-# Die Quelle allen Übels
+# Abenteurer Renlik
 
 Issue 14
 
@@ -7,7 +7,7 @@ Issue 14
 Lagerfeuer bauen (Rüstungsständer, noch keine Rechte)
 Belohnung ändern, falls Klassen vorerst abgeschafft werden
 Vorraussetzung Waffe festlegen
-Renlik 
+Renlik versetzen
 Werte Monster festlegen
 
 ## Überblick
@@ -71,7 +71,7 @@ Spieler: Wovon redest du?
 Renlik: Siehst du die hölzerne Ruine oben auf dem Berg Richtung Westen? Von dort aus ging es los, dort fing es an. Nicht, dass es einfach gewesen wäre überhaupt bis dorthin zu kommen, nein! Doch von da an fing es an wirklich schlimm zu werden! 
 ```
 
-> 1. Ich hab genug von deinem wirren Geschwätz. Adieu. [Ende]
+> 1. Ich hab genug von deinem wirren Geschwätz. Adieu. `[Ende]`
 
 > 2. Ganz von vorn bitte, ich verstehe kein Wort. 
 
@@ -83,7 +83,7 @@ Spieler: Was?? Was ist denn an dieser Quelle?
 NPC: Wenn ich das wüsste… sicher ist nur, dass meine langen Beine mich davor gerettet haben. Im Gegensatz zu all den anderen. 
 ```
 
-> 1. Das klingt ja sehr gefährlich, ich denke ich halte mich da lieber raus.[Ende]
+> 1. Das klingt ja sehr gefährlich, ich denke ich halte mich da lieber raus.`[Ende]`
 
 > 2. Na gut. Was immer an der Quelle haust, ich werde es unschädlich machen. 
 
@@ -95,6 +95,8 @@ NPC: Wenn ich das wüsste… sicher ist nur, dass meine langen Beine mich davor 
 Der Spieler folgt dem Flusslauf bis zur Quelle und tötet das dortige Monster (blaze). Sobald dies erledigt ist, kehrt er zum Abenteurer Renlik zurück. 
 
 `[Ende]`
+
+> > **Belohnung**  Drop?
 
 
 ### 1. Kehre zu Renlik zurück
@@ -118,7 +120,7 @@ Renlik: Auch wenn die jetzt tot sind, denke ich nicht, dass ich dir das sagen we
 
 ### Renlik 
 
-Renlik ist ein seltsamer Vogel, einziger Überlebender einer Expedition, die nach etwas suchte, das dem Spieler nicht verraten wird. Er redet wohl oft mit sich selbst, so der Eindruck, als er dem Spieler Auskunft gibt. Renlik erscheint gewitzt, etwas zweideutig in seiner Ausdrucksweise und voller Wissen,doch auch etwas wirr im Kopf. 
+Renlik ist ein seltsamer Vogel, einziger Überlebender einer Expedition, die nach etwas suchte, das dem Spieler nicht verraten wird. Er redet wohl oft mit sich selbst, so der Eindruck, als er dem Spieler Auskunft gibt. Renlik erscheint gewitzt, etwas zweideutig in seiner Ausdrucksweise und voller Wissen, doch auch etwas wirr im Kopf. 
 
 
 #### Standartsätze
@@ -231,7 +233,6 @@ max-stack-size: 1
 ## Mobs
 
 ### Die Quelle allen Übels
-
 
 ```yml
 name: Die Quelle allen Übels
