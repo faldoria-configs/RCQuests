@@ -4,8 +4,6 @@ Issue 13
 
 ## Noch zu tun
 
-> **Anmerkung:** Items überprüfen, Holz/Wolle Farbe? 
->  Kiesflohfleisch?  - rotten_flesh?
 >  Skin holzfällerartiger machen
 >  Belohnung mit anderen Quests abstimmen
 
@@ -45,8 +43,12 @@ Zimmermann [Akisk](#akisk) steht im Lager, das die schiffbrüchigen Ankanorer au
 
 ## Vorraussetzungen
 
- - lvl 2
- - Waffe aus Ankanor
+HQ [Was ist passiert](#1.-was-ist-passiert?)  abgeschlossen
+HQ `[QUEST UPDATE]` [Was ist passiert](#1.-was-ist-passiert?)
+> **QuestLog:** *Erkunde die Gegend und schau dir das Licht am Berg im Westen an. Finde heraus ob dort jemand lebt.*  angenommen
+
+- lvl ?
+- Waffe aus Ankanor
 
 ## Aufgaben
 
@@ -59,7 +61,7 @@ Zimmermann [Akisk](#akisk) steht im Lager, das die schiffbrüchigen Ankanorer au
 ### 1.Sammle Holz für die Hütten
 
 ```yml
-Spieler: Wo sind wir hier, was machen wir hier?
+Spieler: Hey Akisk, schön, dich zu sehen.
 Akisk: Du hast also auch überlebt. Freu dich aber nicht zu früh darüber.
 Spieler: Warum sollte ich das nicht tun, Najtiss sei Dank, dass ich dem Meer entkommen bin. 
 Akisk: Najtiss, als wenn der irgendetwas damit zu tun hat. Aber wie dem auch sei, der Hauptmann hat mir etwas befohlen und dafür brauche ich deine Hilfe.
@@ -69,7 +71,7 @@ Spieler: Klingt als könnte das etwas Abwechslung in meinen Tag bringen.
 Akisk: Ist aber ganz einfach, am Strand findest du angeschwemmte Teile des Schiffes, die können wir brauchen. Suche nach Holz, aber auch anderen Materialien, Wolle vom Segel oder sowas. 
 ```
 
-> 1. Vielleicht später. [Ende]
+> 1. Vielleicht später. `[Ende]`
 
 > 2. Ok, ich werde das Material besorgen.
 
@@ -80,6 +82,9 @@ Akisk: Ist aber ganz einfach, am Strand findest du angeschwemmte Teile des Schif
 `**QuestLog:**`  *Sammle am Strand 10 Holzbretter und 10 Wolle.*
 
 Der Spieler sammelt die erforderlichen Materialien.
+
+`[Ende]`
+
 
 
 `[Quest START]` [2. Kehre zu Zimmermann Akisk zurück](#kehre-zu-zimmerman-akisk-zurueck)
@@ -107,6 +112,10 @@ Spieler: War kaum der Rede wert. Dank dir!
 Beschreibung: Akisk ist ein einfacher Mann, der gut mit einer Axt umgehen kann und geschickt ist im Bauen von Hütten und groben Möbeln. 
 
 #### Standartsätze
+
+##### Vor der Quest
+
+Akisk: Solltest du nicht erst mit dem Hauptmann reden?
 
 ##### Während der Quest/Aufgabe #1
 
