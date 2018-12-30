@@ -4,9 +4,10 @@ Issue 15
 
 
 [Adanion](#adanion), der Koch der Eiseküste steht im Camp in der provisorischen Küche.
+
 ## Noch zu tun.
 
-Weiße Beeren, Magus Beeren? Wie werden wir das handhaben? Blaue Orchideen und Porzellansternchen umbenennen? 
+Weiße Beeren, Magus Beeren?  
 (Schimmerwölfe, normale Mobs, droppen was?)
 
 ## Übersicht
@@ -47,6 +48,11 @@ Weiße Beeren, Magus Beeren? Wie werden wir das handhaben? Blaue Orchideen und P
 
 ## Vorraussetzungen
 
+HQ [Was ist passiert](#1.-was-ist-passiert?)  abgeschlossen
+HQ `[QUEST UPDATE]` [Was ist passiert](#1.-was-ist-passiert?)
+> **QuestLog:** *Erkunde die Gegend und schau dir das Licht am Berg im Westen an. Finde heraus ob dort jemand lebt.*  angenommen
+
+
 lvl 2  
 Waffe von Ankanor?
 Rüstung?
@@ -66,7 +72,7 @@ Rüstung?
 
 ### 1. Frische Zutaten
 
-Adanion spricht Spieler an, wenn er in 5 Block Reichweite ist
+Adanion spricht Spieler an, wenn er in 7 Block Reichweite ist
 
 ```yml
 Adanion: Hallo, du da, kannst du kurz mal herkommen?
@@ -80,7 +86,7 @@ Spieler: Dann genüge dich doch mit dem was da ist.
 Adanion: Wir brauchen aber bessere Nahrung. Vor allem die Alten und die Kinder brauchen frische Nahrung.
 ```
 
-> 1. Spieler: Vielleicht kann euch jemand anderes helfen
+> 1. Spieler: Vielleicht kann dir jemand anderes helfen
      Adanion: Schade 
 
 `[Ende]`
@@ -125,6 +131,8 @@ Adanion: Ich glaube, ein wenig Fleisch würde dem ganzen eine würzige Note gebe
 > 1. Spieler: NEIN, besorg dir deinen Kram selbst! 
      Adanion: Ich hätte mehr von jemandem wie dir erwartet!
 
+`[Ende]`
+
 > 2. Spieler: Na gut, ich bringe dir das auch noch…
      Adanion: Ausgezeichnet!
 
@@ -159,7 +167,7 @@ Adianon: Ich brauche noch eine kleine Ration meiner Spezialzutat. Ich würze mei
 
 **Weiter nach #2.**
 
-`[Quest START]` [5. Es fehlt noch was.](#es-fehlt-noch-was)
+`[Quest START]` [5. Es fehlt noch was](#es-fehlt-noch-was)
 
 **QuestLog:**  *Suche 10 Pilze für Adanion.*
 
@@ -189,7 +197,8 @@ Ein genialer, etwas zerstreuter Koch
 #### Standartsätze
 
 ##### Vor der Quest
-keine
+
+*der Koch murmelt abwesend vor sich hin, du verstehst nicht, was er sagt*
 
 ##### Während der Quest
 
@@ -251,7 +260,6 @@ max-stack-size: 16
 
 ### Weiße Beere
 
-Weiße Beeren, die..
 
 ```yml
 name: Weiße Beere
