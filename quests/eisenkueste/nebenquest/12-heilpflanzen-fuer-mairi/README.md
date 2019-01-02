@@ -6,7 +6,7 @@ Issue 60
 
 ## Was noch fehlt:
 
-Blumen (blaue Orchidee) in der nordwestlichen Hochebenen gefunden
+Blumen (blaue Orchidee) in der nordwestlichen Hochebene gefunden
 
 ## Übersicht
 - [Heilpflanzen für Mairi](#heilpflanzen-f%C3%BCr-mairi)
@@ -43,7 +43,7 @@ NQ [Suche Mairis Familie](#suche-mairis-familie)
 2. Der Spieler antwortet, je nach dem, ob er die Errungenschaft "Hat es zum Schiff geschafft" hat oder nicht. Er erwähnt eine Platzwunde am Kopf. 
 3. Mairi schaut sie an und sagt, dass es gut wäre, sie mit bestimmten Kräutern zu behandeln.
 4. Sie hat ein verletztes Bein und schickt deshalb den Spieler zum Heilpflanzen suchen.
-5. Sie verspricht, ihm zu zeigen, wie man einen Wunde verbindet.
+5. Sie verspricht vorher, ihm zu zeigen, wie man einen Wunde verbindet.
 6. Der Spieler besorgt die benötigten Heilkräuter.
 7. Mairi zeigt ihm das Bandagieren.
 8. Spieler erhält den Skill "Bandagieren 1" 
@@ -77,7 +77,8 @@ Mairi: Ja, das wäre sehr gut, ich kann nämlich nicht gut laufen, ich habe eine
 *Mairi hebt ihren Rock etwas und zeigt dir ihr übel zugerichtetes Bein.*
 
 Spieler: Oh, das sieht ja schrecklich aus. Sag mir schnell, was ich suchen soll. 
-Mairi: Die grüne, farnähnliche Pflanze, die zwischen den Bäumen wächst. Was ich aber genauso dringend bräuchte wäre ein Heilmittel gegen Lungenentzündung. Über Husten und Halsweh klagen schon so viele und ich habe Angst, dass es bei einigen zu einer Lungenentzündung kommen könnte. Das wäre sehr schlimm, sie kann zum Tod führen. Wir sind das kalte Wetter hier einfach nicht gewohnt. *schaut resigniert* Schau mal, ob du die blaue Heilorchidee findest, die wäre eine mächtige Verbündete gegen viel Krankheiten. Allerdings wächst sie sicherlich nicht an der Küste, du müsstest sie schon in höher gelegenen Gebieten suchen. Könntest du das tun?
+
+Mairi: Die grüne, farnähnliche Pflanze, die zwischen den Bäumen wächst. Was ich aber genauso dringend bräuchte wäre ein Heilmittel gegen etwas viel Gefährlicheres. Über Husten und Halsweh klagen schon so viele und ich habe Angst, dass es bei einigen zu einer Lungenentzündung kommen könnte. Das wäre sehr schlimm, sie kann zum Tod führen. Wir sind das kalte Wetter hier einfach nicht gewohnt. *schaut resigniert* Schau mal, ob du die blaue Heilorchidee findest, die wäre eine mächtige Verbündete gegen viel Krankheiten. Allerdings wächst sie sicherlich nicht an der Küste, du müsstest sie schon in höher gelegenen Gebieten suchen. Könntest du das tun?
 ```
 
 1. 
@@ -160,13 +161,18 @@ Mairi ist Kräuterkundige und Heilerin und kann den Skill 'Bandagieren' lehren. 
 
 ##### Während der Quest:
 
-Mairi: Oh, du bist schn zurück, hast du schon alle Pflanzen gefunden?
+Mairi: Oh, du bist schon zurück, hast du schon alle Pflanzen gefunden?
+
 Spieler: Leider nicht, die Wölfe kamen mir in die Quere, aber ich suche den Rest auch noch. 
 
 ##### Nach der Quest: 
 
-1. Mairi: Schön dich zu sehen, <Name des Spielers>, *Mairi lächelt dich freundlich an*
-   *Du grinst freundlich zurück*
+Mairi: Schön dich zu sehen, [Name des Spielers]
+
+*Mairi lächelt dich freundlich an*
+
+*Du grinst freundlich zurück*
+
 
 #### Ausrüstung
 
