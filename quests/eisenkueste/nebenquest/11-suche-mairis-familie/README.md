@@ -35,7 +35,10 @@ Skin
 ## Voraussetzungen
 
 [HQ Was ist passiert?](../1-was-ist-passiert/README.md) - Abgeschlossen
+
 [HQ Reparaturarbeiten](../2-reparaturarbeiten/README.md) - Abgeschlossen
+
+Lvl hoch genug, um gegen mehrere Schimmerwölfe anzukommen
 
 
 ## Ablauf
