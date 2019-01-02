@@ -77,7 +77,7 @@ Mairi: Ja, das wäre sehr gut, ich kann nämlich nicht gut laufen, ich habe eine
 *Mairi hebt ihren Rock etwas und zeigt dir ihr übel zugerichtetes Bein.*
 
 Spieler: Oh, das sieht ja schrecklich aus. Sag mir schnell, was ich suchen soll. 
-Mairi: Die grüne, farnähnliche Pflanze, die zwischen den Bäumen wächst. Und wenn du schon mal unterwegs bist, dann könntest du auch gleich etwas gegen  Husten und Halsweh mitbringen, da klagen schon viele darüber. Wir sind das kalte Wetter hier nicht gewohnt. Schau mal, ob du die blaue Heilorchidee findest oder die weiße Sternblume, die wären beide gut. Könntest du das tun?
+Mairi: Die grüne, farnähnliche Pflanze, die zwischen den Bäumen wächst. Was ich aber genauso dringend bräuchte wäre ein Heilmittel gegen Lungenentzündung. Über Husten und Halsweh klagen schon so viele und ich habe Angst, dass es bei einigen zu einer Lungenentzündung kommen könnte. Das wäre sehr schlimm, sie kann zum Tod führen. Wir sind das kalte Wetter hier einfach nicht gewohnt. *schaut resigniert* Schau mal, ob du die blaue Heilorchidee findest, die wäre eine mächtige Verbündete gegen viel Krankheiten. Allerdings wächst sie sicherlich nicht an der Küste, du müsstest sie schon in höher gelegenen Gebieten suchen. Könntest du das tun?
 ```
 
 1. 
@@ -93,10 +93,11 @@ Spieler: Gerne, ich komme aber später wieder.
 ```yml
 Mairi: Ja, du könntest mir mein Bein verbinden, ich leite dich an. 
 Spieler: Das wäre großartig, wenn du mir das zeigen könntest! Ich hole schnell die Arzneiblumen. 
+Mairi: Ja, aber pass auf die Schimmerwölfe auf, die verbergen sich gut im Schnee!
 ```
 
 
-**QuestLog:** *Hole für Mairi im Wald die benötigten Arzneiblumen, 7 grüne Farne, 7 blaue Heilorchideen und 7 Sternblumen*
+**QuestLog:** *Hole für Mairi im Wald die benötigten Arzneiblumen, 7 grüne Farne und 7 blaue Heilorchideen*
 
 *Der Spieler.. erfüllt seine Aufgabe* 
 
