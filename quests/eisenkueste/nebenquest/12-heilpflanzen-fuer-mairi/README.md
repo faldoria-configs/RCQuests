@@ -6,7 +6,7 @@ Issue 60
 
 ## Was noch fehlt:
 
-Die benötigten Blumen müssen im Wald gesetzt werden
+Blumen (blaue Orchidee) in der nordwestlichen Hochebenen gefunden
 
 ## Übersicht
 - [Heilpflanzen für Mairi](#heilpflanzen-f%C3%BCr-mairi)
