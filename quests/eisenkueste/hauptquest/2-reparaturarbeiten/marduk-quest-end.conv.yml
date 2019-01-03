@@ -1,0 +1,10 @@
+stages:
+  start:
+    trigger:
+      flow:
+        - '!text.player "Hauptmann ich habe es geschafft, Elius ist gerade dabei den Ballon zu reparieren. Das dauert aber ein bisschen."'
+        - '~6s'
+        - '!text "Das erfreut mich, wenn er fertig ist gehst du also mit ihm?"'
+        - '~3s'
+        - '!text.player "Ja, das wird aufregend."'
+        - '!quest.complete this.reparaturarbeiten'

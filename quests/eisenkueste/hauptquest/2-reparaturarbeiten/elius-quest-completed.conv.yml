@@ -1,0 +1,5 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Ich bin noch nicht soweit, komm bitte später wieder."'

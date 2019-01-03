@@ -9,11 +9,21 @@ worlds:
   - faldoria
 level: 3
 
+
+default-convs:
+  completed:
+    convs:
+      - '../elius:this.elius-quest-completed'
+
 objectives:
   '1':
     name: 'Materalien für den Ballon'
     desc: 'Sammle [1 Klebstoff], [5 Holzbretter], [5 Spinnenseide], [1 Feuerstein] und [5 Stoffe] für Elius'
     auto-complete: true
+    default-convs:
+        active:
+          convs:
+            - '../elius:this.elius-quest-active'
     tasks:
       '1':
         name: 'Sammle [1 Klebstoff]'
@@ -49,3 +59,20 @@ objectives:
         trigger:
           flow:
             - '@item.pickup this.items.stoff'
+  '2':
+    name: 'Bringe die Materalien zu Elius'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../elius this.elius-quest-end'
+  '3':
+    name: 'Sprich mit Marduk'
+    desc: 'Gehe zurück ins Camp am Strand und sprich mit Marduk.'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../marduk this.marduk-quest-end'
+
+complete-actions:
+  flow:
+    - '!player.money.add 2 Quest'
