@@ -1,0 +1,36 @@
+stages:
+  start:
+    actions:
+      groups:
+        duty:
+          - '!text.player "Ich bin zurück, Elius, nun kann ich Euch helfen."'
+          - '~2s'
+          - '!text "Schön, dass Ihr zurückgekommen seid. Seid gewarnt, es sind einige Dinge die ich brauche."'
+          - '~3s'
+          - '!text.player "Dann sollten wir keine Zeit verlieren."'
+      flow:
+        - '?tag eisenkueste.duty-start'
+        - '!duty'
+        - '~2s'
+        - '!text "Wunderbar! Ich brauche [1 Klebstoff], [5 Holzbretter], [5 Spinnenseide], [1 Feuerstein] und [5 Stoffe]."'
+        - '~4s'
+        - '!text.player "Und wo finde ich das alles?"'
+        - '~1s10'
+        - '!text "Auf alles weiß ich auch keine Antwort, aber einige Tipps kann ich Euch geben."'
+        - '~3s'
+        - '!text "Hinter dem Hügel im Süden gibt es eine Mine, ich bin mir sicher da sind Spinnen, gut für Spinnenseide."'
+        - '~4s'
+        - '!text.player "Ok und weiter?"'
+        - '~1s'
+        - '!text "Ich schätze, dass sich hier irgendwo Schmuggler niedergelassen haben, vielleicht am Strand, die haben sicher Stoffe und Holzbretter."'
+        - '~5s'
+        - '!text.player "Und das geben die mir einfach?"'
+        - '~2s'
+        - '!text "Ich schätze nicht, ihr müsst sie überzeugen. Klebstoff ist schwierig, es kann aus bestimmten Monstern gewonnen werden. Aber in der Schifffahrt hat man auch oft welches dabei."'
+        - '~6s'
+        - '!text.player "Ich werde schon einen Weg finden. Feuerstein kann ich sicher irgendwo am Strand finden."'
+        - '~3s'
+        - '!text "Das ist sehr gut möglich."'
+        - '~2s'
+        - '!text.player "Ich werde loslegen und versuchen so schnell wie möglich alles zu besorgen."'
+        - '!quest.start this.reparaturarbeiten'

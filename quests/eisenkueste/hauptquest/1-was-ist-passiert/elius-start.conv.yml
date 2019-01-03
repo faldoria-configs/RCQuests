@@ -1,3 +1,4 @@
+persistant: true
 stages:
   start:
     actions:
@@ -9,7 +10,6 @@ stages:
         - '!text.player "Notgelandet? Ach, seid ihr auch schiffbrüchig so wie ich und meine Leute?"'
         - '~3s'
         - '!text "Kann man so sagen. Mein Ballon hat einen Riss, aber vielleicht könntet ihr mir helfen. Ich bin alt und nicht mehr so fit."'
-        - '!objective.complete this.was-ist-passiert 2'
         - '~5s'
         - '!text.player "Wie kann ich euch denn helfen?"'
         - '~2s'
@@ -19,7 +19,9 @@ stages:
     answers:
       flow:
         - ':"Ok, ich helfe gerne."'
-        - '!conversation.start ../2-reparaturarbeiten ../elius'
+        - '!objective.complete this.was-ist-passiert 2'
+        - '!conversation.start ../2-reparaturarbeiten/elius-quest-start ../elius'
         - ':"Ich muss aber erst mal Hauptmann Marduk Bericht erstatten."'
+        - '!objective.complete this.was-ist-passiert 2'
         - '!text "Ok, dann hoffe ich, dass ihr bald wieder hier seid."'
         - '!tag eisenkueste.duty-start'

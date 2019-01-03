@@ -44,6 +44,9 @@ objectives:
     trigger:
       flow:
         - '@host.interact ../elius this.elius-start'
+    complete-actions:
+      flow:
+        - '!conv.set ../2-reparaturarbeiten/elius-quest-start ../elius'
   '3':
     name: 'Erstatte Hauptmann Marduk Bericht'
     desc: 'Kehre zum Lager der Kaishi an der Küste zurück und erstatte Hauptmann Marduk Bericht.'
@@ -60,4 +63,3 @@ complete-actions:
   flow:
     - '!player.give.item this.steak amount:10'
     - '!player.money.add 2 Quest'
-    - '!quest.start ../2-vorraete-fuer-das-schiff.vorraete'
