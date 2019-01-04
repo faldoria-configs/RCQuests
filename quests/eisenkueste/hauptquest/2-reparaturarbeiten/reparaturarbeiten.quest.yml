@@ -71,8 +71,9 @@ objectives:
     auto-complete: false
     trigger:
       flow:
-        - '@host.interact ../marduk this.marduk-quest-end'
+        - '@host.interact eisenkueste.npcs.marduk this.marduk-quest-end'
 
 complete-actions:
   flow:
     - '!player.money.add 2 Quest'
+    - '!conv.start eisenkueste.nebenquest.1-besessene-woelfe.quest-start eisenkueste.npcs.marduk stage:from-reparaturarbeiten'

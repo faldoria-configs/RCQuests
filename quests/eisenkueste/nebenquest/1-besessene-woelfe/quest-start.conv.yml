@@ -1,0 +1,11 @@
+stages:
+  start:
+
+  from-reparaturarbeiten:
+    text: 'In der Zwischenzeit könntest du noch im Camp aushelfen, frag doch die anderen mal - oder z.B. noch einige der wildgewordenen Wölfe plattmachen.'
+    actions:
+      flow:
+        - '!text "Was meinst du?"'
+    answers:
+      flow:
+        - ':"Ach nein, Schimmerwölfe jagen ist nicht so meins, die sind doch schön anzusehen."'
