@@ -1,6 +1,6 @@
 # Angriff ist die beste Verteidigung
 
-Issue 16
+Issue #16
 
 NPC: 'Rechte Hand' Marduks: Bari, steht neben Marduk
 
