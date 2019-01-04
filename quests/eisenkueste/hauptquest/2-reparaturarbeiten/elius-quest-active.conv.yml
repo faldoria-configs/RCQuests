@@ -1,0 +1,13 @@
+stages:
+  start:
+    text: 'Soll ich Euch noch einmal sagen, wo ihr die benötigten Sachen vielleicht finden könnt?'
+    answers:
+      flow:
+        - ':"Wo finde ich die Holzbretter und die Stoffe."'
+        - '!text "Irgendwo haben sich Schmuggler eingenistet, wahrscheinlich am Strand. Die haben so etwas bestimmt. Aber es gibt sicher noch andere Möglichkeiten."'
+        - ':"Die Spinnen für die Seide waren nochmal wo?"'
+        - '!text "Hinter dem südlichen Hügel ist eine Mine, da sind sicher auch Spinnen zu finden."'
+        - ':"Der Klebstoff macht mir Probleme, wo kann ich den finden?"'
+        - '!text "Der ist von einigen Monstern zu bekommen oder frag deine Leute, die mit dir den Schiffbruch überlebten, ob sie noch etwas haben."'
+        - ':"Ich finde keinen Feuerstein."'
+        - '!text "Hast du es im Steinbruch im Süden versucht? Ich hörte aber, dass dort die Untoten wandeln."'

@@ -1,0 +1,25 @@
+stages:
+  start:
+    actions:
+      groups:
+        remove-items:
+          - '!item.remove this.items.klebstoff 1'
+          - '!item.remove this.items.feuerstein 1'
+          - '!item.remove this.items.holzbrett 5'
+          - '!item.remove this.items.spinnenseide 5'
+          - '!item.remove this.items.stoff 5'
+      flow:
+        - '!text "Seid ihr schon zurück? Das ging aber schnell."'
+        - '~2s'
+        - '!text.player "Ich habe mein Bestes gegeben, es war nicht einfach, aber ich habe es geschafft."'
+        - '~3s'
+        - '!text "Dann gebt mir die Sachen und ich werde mich dran machen den Ballon zu reparieren. Kommt später einfach wieder wenn Ihr mitfliegen wollt."'
+        - '!remove-items'
+        - '~5s'
+        - '!text.player "Das werde ich machen, ich glaube das könnte ein spannendes Abenteuer werden!"'
+        - '~3s'
+        - '!text "Sprich doch nochmal mit deinen Leuten in der Zwischenzeit."'
+        - '~3s'
+        - '!text.player "Ich werden Hauptmann Marduk von meinem Erfolg hier berichten."'
+        - '~2s'
+        - '!objective.complete this.reparaturarbeiten 2'
