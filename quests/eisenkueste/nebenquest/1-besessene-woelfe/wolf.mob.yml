@@ -1,4 +1,8 @@
 name: Schimmerwolf
 type: wolf
+aggro: true
+passive: false
 min-level: 3
 max-level: 5
+min-damage: 24
+max-damage: 38
