@@ -3,7 +3,7 @@ stages:
     random-actions:
       flow:
         - '!text "Nun, sind schon alle Wölfe tot?"'
-        - '!text "Das ging aber schnell, gibt's heute Abend Wolfsbraten?"'
+        - '!text "Das ging aber schnell, gibt`s heute Abend Wolfsbraten?"'
     answers:
       flow:
         - ':"Eh..., noch nicht"'
