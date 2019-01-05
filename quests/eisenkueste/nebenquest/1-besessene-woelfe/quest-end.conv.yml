@@ -1,0 +1,8 @@
+stages:
+  start:
+    text: 'Sind die Biester tot?'
+    answers:
+      flow:
+        - ':"Ja, sie hatten keine Chance."'
+        - '!text "Gut gemacht! Hoffen wir, dass das die einzigen waren.... Nimm dies als Dank."'
+        - '!quest.complete this.woelfe'

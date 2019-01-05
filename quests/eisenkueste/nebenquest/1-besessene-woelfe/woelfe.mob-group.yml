@@ -1,0 +1,9 @@
+min-interval: 70
+max-interval: 250
+min-amount: 2
+max-amount: 5
+respawn-treshhold: 1
+mobs:    
+    wolf:
+        mob: 'this.wolf'
+        chance: 1.0

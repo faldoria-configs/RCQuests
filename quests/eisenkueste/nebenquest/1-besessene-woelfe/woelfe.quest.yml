@@ -1,0 +1,35 @@
+name: Besessene Wölfe
+region: eisenkueste
+locked: false
+abortable: false
+authors:
+  - TheFum (QS)
+  - Silthus (QD)
+worlds:
+  - faldoria
+level: 4
+
+default-convs:
+  active:
+    convs:
+      - 'eisenkueste.npcs.marduk:this.quest-active'
+  completed:
+    convs:
+      - 'eisenkueste.npcs.marduk:this.quest-completed'
+
+requirements:
+  flow:
+    - '?quest eisenkueste.hauptquest.2-reparaturarbeiten'
+
+objectives:
+  '1':
+    name: 'Töte 20 Wölfe'
+    desc: 'Suche die Wölfe südwestlich des Lagers, die sich an der alten Brücke beim Schrein breitmachen und töte sie.'
+    trigger:
+      flow:
+        - '@rcmobs.mob.kill(count:20,count-text:"%current% von %count% Wölfen getötet.") this.wolf'
+  '2':
+    name: 'Erstatte Hauptmann Marduk Bericht'
+    trigger:
+      flow:
+        - '@host.interact eisenkueste.npcs.marduk this.quest-end'

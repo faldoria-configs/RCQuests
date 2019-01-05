@@ -1,0 +1,6 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Noch nicht genug vom Wölfe jagen? *lacht laut*"'
+        - '!text "Ah, sieh da, unser Wolfsjäger!"'
