@@ -1,0 +1,12 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Nun, sind schon alle Wölfe tot?"'
+        - '!text "Das ging aber schnell, gibt's heute Abend Wolfsbraten?"'
+    answers:
+      flow:
+        - ':"Eh..., noch nicht"'
+        - '!end'
+        - ':"Nein, leider nicht, wo finde ich die Wölfe?"'
+        - '!text "Ein Stück südwestlich von hier im Wald ist ein alter Schrein an einer eingestürzten Brücke. Dort in der Nähe."'
