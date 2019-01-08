@@ -1,0 +1,7 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Oh, so schnell hab ich Euch nicht zurück erwartet."'
+        - '>"Ich bin auch noch nicht fertig, habt Ihr Ideen wer Hilfe brauchen könnte?"'
+        - '!text "Eigentlich muss ich doch noch kochen, fragt bitte Ingeborg wenn Ihr Informationen über Bewohner haben möchtet. Sie ist die Zweitälteste und sollte irgendwo im Dorf unterwegs sein."'

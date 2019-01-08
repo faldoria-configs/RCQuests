@@ -1,0 +1,27 @@
+name: Den Verkohlten helfen
+region: frostak-hochebene
+locked: false
+abortable: false
+authors:
+  - LilianaVess (SuQ)
+  - Silthus (QS)
+worlds:
+  - faldoria
+level: 8
+
+default-convs:
+  active:
+    convs:
+      - '../../npcs/vinnan:this.vinnan-quest-active'
+
+objectives:
+  '1':
+    name: 'Sprich mit Bras Hohlstein in den Verkohlten Lande'
+    auto-complete: true
+    trigger:
+      flow:
+        - '@host.interact verkohlte-lande.npcs.bras-holstein'
+
+complete-actions:
+  flow:
+    - '!money.add 1h'

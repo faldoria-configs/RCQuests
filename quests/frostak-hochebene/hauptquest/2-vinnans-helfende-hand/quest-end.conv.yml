@@ -1,0 +1,57 @@
+stages:
+  start:
+    text: '%player%?'
+    actions:
+      flow:
+        - '?tag frostak-hochebene.vinnans-hilfe.nachweise =3'
+        - '>"Schau mal, ich hab schon 3 Leuten geholfen."'
+        - '!stage mehr-nachweise'
+        - '?tag frostak-hochebene.vinnans-hilfe.nachweise =4'
+        - '>"Schau mal, ich hab schon 4 Leuten geholfen."'
+        - '!stage mehr-nachweise'
+        - '?tag frostak-hochebene.vinnans-hilfe.nachweise >=5'
+        - '>"Hab ich jetzt genug Leuten geholfen? *zeigt die Zettel*"'
+        - '!stage alle-nachweise'
+
+
+  mehr-nachweise:
+    text: 'Sehr fleißig, möchtet Ihr noch weiteren helfen? Ich könnte die Belohnung erhöhen.'
+    answers:
+      flow:
+        - ':"Was ist denn die Belohnung?"'
+        - '!stage was-ist-die-belohnung'
+        - ':"Ich kann noch mehr Leuten helfen? Dann mach ich das."'
+        - '!end'
+        - ':"Ne, so langsam wird das langweilig."'
+        - '!stage end-quest'
+  
+
+  was-ist-die-belohnung:
+    text: 'Ein hübsches Fell und Münzen, wenn Ihr mehr Leuten helft gibt es auch mehr Münzen.'
+    answers:
+      flow:
+        - ':"Ich kann noch mehr Leuten helfen? Dann mach ich das."'
+        - '!end'
+        - ':"Ne, so langsam wird das langweilig."'
+        - '!stage end-quest'
+
+  alle-nachweise:
+    text: 'Nunja, ich denke sehr viel mehr wird es hier vermutlich auch nicht zu tun geben, danke Ihr habt mir wirklich sehr viel Arbeit abgenommen.'
+    answers:
+      flow:
+        - ':"Wie lange hätte es denn gebraucht wenn du das alles selbst erledigt hättest?"'
+        - '!text "Manche von den Dingen die Ihr erledigt habt sind schon eine ganze Weile ein Problem, alleine hätte ich das sicherlich nie wirklich lösen können."'
+        - '>"Helfen scheint eine neue Gewohnheit zu werden."'
+        - '!quest.complete this.helfende-hand'
+        - ':"Helfen scheint eine neue Gewohnheit zu werden."'
+        - '!quest.complete this.helfende-hand'
+  
+
+  end-quest:
+    text: 'Ihr möchtet also aufhören und Eure Belohnung sofort?'
+    answers:
+      flow:
+        - ':"Ja, ich habe genug geholfen."'
+        - '!quest.complete this.helfende-hand'
+        - ':"Ne, ich schau erstmal ob ich noch eine leichte Aufgabe finde."'
+        - '!end'

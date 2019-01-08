@@ -1,0 +1,35 @@
+name: Vinnans helfende Hand
+region: frostak-hochebene
+locked: false
+abortable: false
+authors:
+  - LilianaVess (SuQ)
+  - Silthus (QS)
+worlds:
+  - faldoria
+level: 6
+
+objectives:
+  '1':
+    name: 'Hilfe für Jarmundshain'
+    desc: 'Sprecht mit den Bewohnen vom Jarmundshain und helft ihnen. Sammelt mindestens 3 schriftliche Nachweise über die Hilfe.'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../../npcs/vinnan'
+        - '?tag frostak-hochebene.vinnans-hilfe.nachweise >=3'
+        - '+!conv.start ../../npcs/vinnan this.quest-end'
+        - '-!conv.start ../../npcs/vinnan this.quest-active'
+
+complete-actions:
+  flow:
+    - '!conv.start ../../npcs/vinnan ../3-die-verkohlten/quest-start'
+    - '?tag frostak-hochebene.vinnans-hilfe.nachweise =3'
+    - '!money.add 1d'
+    - '!item.add frostak-hochebene.brot 2'
+    - '?tag frostak-hochebene.vinnans-hilfe.nachweise =4'
+    - '!money.add 1d50h'
+    - '!item.add frostak-hochebene.brot 6'
+    - '?tag frostak-hochebene.vinnans-hilfe.nachweise >=5'
+    - '!money.add 2d50h'
+    - '!item.add frostak-hochebene.brot 18'

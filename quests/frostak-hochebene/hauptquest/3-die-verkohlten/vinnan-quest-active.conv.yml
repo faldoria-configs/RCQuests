@@ -1,0 +1,19 @@
+stages:
+  start:
+    text: 'Wart Ihr schon bei Bras Hohlstein?'
+    answers:
+      flow:
+        - ':"Nein, wo muss ich genau hin?"'
+        - '!text "Ihr müsst runter ins Reldos Tal, also in Richtung Süden. Wenn Ihr am Holzfällerlager vorbei seid führt ein kleiner Trampelpfad in das Armeelager im ehemaligen Wald von Myrtos."'
+        - '!end'
+        - ':"Was genau sind das für Kreaturen?"'
+        - '!text "Manche scheinen aus Lava zu bestehen, andere werfen mit Feuer um sich. Seid bitte vorsichtig wenn Ihr dorthin geht."'
+        - '!end'
+        - ':"Warum ist der Wald von Mürte nur noch eine Aschelandschaft?"'
+        - '!text "Der Wald von Myrtos war ein prächtiger Wald, bis jetzt ist noch nicht klar was genau passiert ist. Es müssen große Mächte gewirkt haben, meine Söhne erzählen dass immer mehr seltsame Kreaturen von dort kommen."'
+        - '>"Was genau sind das für Kreaturen?"'
+        - '!text "Manche scheinen aus Lava zu bestehen, andere werfen mit Feuer um sich. Seid bitte vorsichtig wenn Ihr dorthin geht."'
+        - '!end'
+        - ':"Bekomm ich noch etwas Brot?"'
+        - '!text "Ich hab selbst nicht mehr so viel Brot, Bjane verkauft Euch sicherlich etwas von seinem Brot."'
+        - '!end'

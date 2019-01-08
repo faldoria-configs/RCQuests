@@ -9,7 +9,7 @@ stages:
     answers:
       flow:
         - ':"Ohja gerne."'
-        - '!player.give.item this.brot 3'
+        - '!player.give.item this.items.brot 3'
         - '~1s'
         - '!text.player "Danke, kann ich vielleicht auch etwas helfen?"'
         - '!stage pre-help'
