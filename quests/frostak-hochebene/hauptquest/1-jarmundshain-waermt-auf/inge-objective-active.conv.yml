@@ -1,0 +1,6 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "..."'
+        - '>"Oh ich seh gerade, mir fehlt doch noch was. Ich komm später nochmal wieder."'

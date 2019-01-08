@@ -1,0 +1,58 @@
+stages:
+  start:
+    actions:
+      - '!text "Grüße Fremder, habt Ihr Hunger?"'
+      - '>"Ähm Grüße, mein Name ist %player. So ein wenig Hunger hab ich schon."'
+      - '!stage bread'
+  bread:
+    text: "Schön Euch kennenzulernen %player, ich heiße Vinnan und kümmere mich um die meisten Belange hier im Jarmundshain. Ich kann Euch Brot anbieten wenn Ihr Hunger habt."
+    answers:
+      flow:
+        - ':"Ohja gerne."'
+        - '!player.give.item this.brot 3'
+        - '~1s'
+        - '!text.player "Danke, kann ich vielleicht auch etwas helfen?"'
+        - '!stage pre-help'
+        - ':"Nein danke, kann ich irgendwo helfen?"'
+        - '!stage pre-help'
+  pre-help:
+    actions:
+      - '!text "Oh Ihr möchtet helfen? Das trifft sich gut hier ist es gerade sehr chaotisch."'
+      - '~4s'
+      - '!text.player "Räumt hier denn keiner auf?"'
+      - '~1s'
+      - '!stage help'
+  help:
+    text: 'So meinte ich das nicht, seid Ihr kampferprobt? Gunnar, unser einziger Kämpfer im Dorf und Schmied, ist vor einer Weile aufgebrochen um seine verschwundene Tochter zu suchen. Nun fehlt es uns an Fleisch und Fellen, der Weizen wird dieses Jahr sicher nicht reichen.'
+    answers:
+      flow:
+        - ':"Ich kann auch helfen nach der Tochter vom Schmied zu suchen."'
+        - '!stage tochter'
+        - ':"Warum wird der Weizen denn nicht reichen?"'
+        - '!stage weizen'
+        - ':"Joar das dürfte kein Problem werden, ich bin schon gut in Übung was sowas angeht."'
+        - '!stage noproblem'
+  tochter:
+    actions:
+      flow:
+        - '!text "Nein, das werde ich nicht verantworten."'
+        - '>"Warum darf ich denn nicht helfen?"'
+        - '!text "Ihr dürft helfen, das Dorf braucht Fleisch und Felle. Geht jagen und bringt die Sachen dann zur Frau vom Schmied."'
+        - '>"Naja gut, ich schau was sich machen lässt."'
+        - '!objective.complete this.jarmundshain 1'
+  weizen:
+    actions:
+      flow:
+        - '!text "Ich habe gerade keine Zeit es zu erklären, Ihr werdet es aber gewiss unweigerlich selbst bald erfahren."'
+        - '>"Ähm okay, ich lass mich überraschen. Dann mach ich mich wohl mal auf die Jagd."'
+        - '!text "Gut danke, meldet Euch bei seiner Frau wenn ihr ein Bären getötet habt, sie verarbeitet die Felle."'
+        - '>"Bären? Ähm... ich hab es mir anders überlegt!"'
+        - '!text "Achwas, Ihr schafft das schon."'
+        - '!objective.complete this.jarmundshain 1'
+  noproblem:
+    actions:
+      flow:
+        - '!text "Gut danke, meldet Euch bei seiner Frau wenn ihr ein Bären getötet habt, sie verarbeitet die Felle."'
+        - '>"Bären? Ähm... ich hab es mir anders überlegt!"'
+        - '!text "Achwas, Ihr schafft das schon."'
+        - '!objective.complete this.jarmundshain 1'

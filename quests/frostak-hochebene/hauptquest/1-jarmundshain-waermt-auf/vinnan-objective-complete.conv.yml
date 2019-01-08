@@ -1,0 +1,9 @@
+stages:
+  start:
+    text: 'Braucht Ihr noch was?'
+    answers:
+      flow:
+        - ':"Auftrag erledigt, hier sind die Felle und das Fleisch."'
+        - '!text "Bitte bring es zu Inge, der Frau des Schmieds, ich kann das nicht verarbeiten."'
+        - '>"Dein Ernst? Wo finde ich denn diese Frau der Schmiede?"'
+        - '!text "Sie wohnt am Hang, dort wo das Wasser vom Berg ins grüne Land fließt. Es ist das einzige Haus mit Wasserrad hier im Dorf."'

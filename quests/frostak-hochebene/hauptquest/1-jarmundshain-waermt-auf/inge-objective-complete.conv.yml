@@ -1,0 +1,6 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Wolltet Ihr noch etwas?"'
+        - '>"Ähm ne, bin schon weg."'

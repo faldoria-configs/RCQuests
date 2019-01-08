@@ -1,0 +1,9 @@
+stages:
+  start:
+    text: 'Braucht Ihr noch was?'
+    answers:
+      flow:
+        - ':"Ja ähm... was sollte ich nochmal tun?"'
+        - '!text "Bären töten um danach das Fleisch und die Felle zu der Frau des Schmieds zu bringen."'
+        - '>"Wo finde ich denn die Bären?"'
+        - '!text "Sehr nah an und auf den Bergen, sie leben größtenteils in schneebedeckten Regionen."'

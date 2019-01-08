@@ -13,9 +13,59 @@ default-convs:
   active:
     convs:
       - '../../npcs/elius:this.elius-quest-active'
+      - '../../npcs/vinnan:this.vinnan-quest-active'
+  completed:
+    convs:
+      - '../../npcs/inge:this.inge-quest-completed'
 
 objectives:
   '1':
     name: 'Finde und Sprich mit Vinnan'
     desc: 'Sprecht mit dem Ältesten im Jarmundshain, sein Name ist Vinnan.'
-    
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../../npcs/vinnan this.vinnan-quest-start'
+  '2':
+    name: 'Töte Bären und sammle Vorräte'
+    desc: 'Tötet Bären rund um den Jarmundshain und erbeutet 10 mal Sehniges Bärenfleisch und 10 mal Zerschundenes Bärenfell. Bringt diese danach zur Frau des Schmieds.'
+    default-convs:
+      complete:
+        convs:
+          - '../../npcs/vinnan:this.vinnan-objective-complete'
+          - '../../npcs/inge:this.inge-objective-active'
+    tasks:
+      '1':
+        name: '10 Sehniges Bärenfleisch'
+        trigger:
+          flow:
+            - '@item.pickup(count:10,count-text:"%current% von %count% Sehniges Bärenfleisch gesammelt.") this.items.fleisch'
+      '2':
+        name: '10 Zerschundenes Bärenfell'
+        trigger:
+          flow:
+            - '@item.pickup(count:10,count-text:"%current% von %count% Sehniges Bärenfleisch gesammelt.") this.items.fell'
+  '3':
+    name: 'Bringt die Felle zur Frau des Schmieds'
+    auto-complete: false
+    default-convs:
+      complete:
+        convs:
+          - '../../npcs/inge:this.inge-objective-complete'
+    trigger:
+      flow:
+        - '@host.interact ../../npcs/inge this.inge-quest-end'
+  
+  '4':
+    name: 'Sprecht mit Vinnan für die Belohnung'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.proximity(execute-once:true) ../../npcs/vestrak conv:this.vestrak-quest-end'
+        - '@host.interact ../../npcs/vinnan this.vinnan-quest-end'
+
+complete-actions:
+  flow:
+    - '!item.give this.items.fellueberwurf'
+    - '!item.give this.items.papier 10'
+    - '!quest.start ../2-vinnans-helfende-hand'

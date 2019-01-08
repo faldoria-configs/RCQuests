@@ -1,0 +1,8 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Sie hat mich Euch gesprochen?"'
+        - '>"Ähm huch?"'
+        - '!text "Meine Mutter... sie ist immer zurückgezogener geworden seit dem Arula und danach noch Papa weg sind."'
+        - '>"Oh das wusst ich nicht. Ich muss weiter zu Vinnan."'

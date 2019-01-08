@@ -1,0 +1,6 @@
+name: Bär
+type: polar_bear
+aggro: true
+passive: false
+min-level: 5
+max-level: 8

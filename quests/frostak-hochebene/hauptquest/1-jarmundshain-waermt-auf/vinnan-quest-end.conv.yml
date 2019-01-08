@@ -1,0 +1,12 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Braucht Ihr noch was?"'
+        - '>"Alles erledigt."'
+        - '!text "Das ging schneller als erwartet, hört Euch doch bitte auch noch etwas im Dorf um ob Ihr dort Hilfe anbieten könnt, das würde mir auch sehr helfen."'
+        - '>"Okay, hab ich denn auch etwas davon wenn ich helfe?"'
+        - '!text "Ohja entschuldigt, natürlich werd ich Euch diesen Aufwand entlohnen. Sobald Ihr einem Dorfbewohner geholfen habt kann ich Euch diese Tat auch entlohnen."'
+        - '>"Das hört sich gut an, ich werde schauen was ich machen kann."'
+        - '!text "Nehmt diesen Fellüberwurf als dank und dieses Papier um Euch aufschreiben zu lassen wem Ihr geholfen habt."'
+        - '!quest.complete this.jarmundshain'
