@@ -1,0 +1,5 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Raus aus meiner Küche!"'

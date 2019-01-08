@@ -1,0 +1,7 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Wo isht mein Bier?"'
+        - '>"Tut mir leid, der Wirt wollte mir kein Bier geben weil du Schulden hast."'
+        - '!conv.start ../../tjorben this.quest-suppe-start'

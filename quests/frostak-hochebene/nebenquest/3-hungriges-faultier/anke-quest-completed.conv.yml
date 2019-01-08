@@ -1,0 +1,5 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Was mach ich nur mit diesem Mann?"'

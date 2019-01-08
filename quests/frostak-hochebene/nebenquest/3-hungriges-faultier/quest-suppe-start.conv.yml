@@ -1,0 +1,13 @@
+stages:
+  start:
+    text: 'Hrmf... die Fleischbrühe meiner Frau wär’ nu auch wash, könnt Ihr ein bischen Knochenmark besor’n und zu ihr bring’n?'
+    answers:
+      flow:
+        - ':"Ja, sowas kann ich."'
+        - '!text "Gut, unser Haus ist hier raus..  danach rechts.. über die Brücke, da rechts den Weg weiter. Dann geht man gerade drauf zu, da findet Ihr meine Frau."'
+        - '>"Gut, da bring ich dann Knochenmark hin."'
+        - '!quest.start this.faultier 2'
+        - '!end'
+        - ':"Nein, werd erstmal wieder nüchtern."'
+        - '!quest.abort this.faultier'
+        - '!end'

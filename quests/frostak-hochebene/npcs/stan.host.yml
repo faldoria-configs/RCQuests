@@ -1,0 +1,9 @@
+name: Stan
+disguise: Stan
+location:
+  x: 435
+  y: 117
+  z: -1865
+  world: faldoria
+traits:
+  - sit

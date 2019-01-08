@@ -1,0 +1,5 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Der Duft dieser Suppe, himmlisch."'

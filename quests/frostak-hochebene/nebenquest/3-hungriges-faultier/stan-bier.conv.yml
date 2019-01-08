@@ -1,0 +1,17 @@
+stages:
+  start:
+    text: 'Na Fremder, ne warme Suppe zum aufwärmen?'
+    answers:
+      flow:
+        - ':"Ja gerne."'
+        - '!trade ../../npcs/stan'
+        - ':"Nein, ich möchte ein Bier."'
+        - '!text "Ein Bier..  für Euch? *betrachtet euch argwöhnisch*"'
+        - '>"Für den Herrn da drüben."'
+        - '!text "Tjorben? Der bekommt nichts mehr bis er nicht endlich seine Schulden bezahlt."'
+        - '!task.complete this.faultier 1 1'
+        - '!end'
+        - ':"Nein, ich soll für den Herrn dort drüben ein Bier besorgen."'
+        - '!text "Tjorben? Der bekommt nichts mehr bis er nicht endlich seine Schulden bezahlt."'
+        - '!task.complete this.faultier 1 1'
+        - '!end'

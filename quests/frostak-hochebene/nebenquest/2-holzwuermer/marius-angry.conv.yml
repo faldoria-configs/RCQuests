@@ -4,4 +4,4 @@ stages:
       flow:
         - '!text "...grummel…"'
         - '!text "Verzieht euch!"'
-        - '!text "'spielt ihr den Hilflosen?' hat er gefragt… pah, so ein verzogener Bengel."'
+        - '!text "spielt ihr den Hilflosen? hat er gefragt… pah, so ein verzogener Bengel."'

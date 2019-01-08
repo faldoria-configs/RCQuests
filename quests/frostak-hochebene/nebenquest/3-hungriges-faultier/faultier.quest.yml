@@ -1,0 +1,58 @@
+name: Hungriges Faultier
+region: frostak-hochebene
+locked: false
+abortable: true
+authors:
+  - LilianaVess (SuQ)
+  - Silthus (QS)
+worlds:
+  - faldoria
+level: 6
+
+default-convs:
+  completed:
+    convs:
+      - '../../npcs/anke:this.anke-quest-completed'
+      - '../../npcs/tjorben:this.tjorben-quest-completed'
+
+requirements:
+  flow:
+    - '?quest.active ../../hauptquest.2-vinnans-helfende.hand'
+
+trigger:
+  flow:
+    - '@host.interact ../../npcs/tjorben this.quest-start'
+
+objectives:
+  '1':
+    name: 'Besorge Tjorben ein Bier beim Wirt.'
+    auto-complete: false
+    hidden: true
+    optional: true
+    trigger:
+      flow:
+        - '@host.interact ../../npcs/stan this.stan-bier'
+    tasks:
+      '1':
+        name: 'Besorge ein Bier beim Wirt.'
+        hidden: true
+        auto-complete: false
+      '2':
+        name: 'Erklärt Tjorben das er kein Bier mehr bekommt.'
+        hidden: true
+        auto-complete: false
+        trigger:
+          flow:
+            - '@host.interact ../../npcs/tjorben this.tjorben-kein-bier'
+  '2':
+    name: 'Überbringe Rolf die gute Nachricht'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../../npcs/rolf this.quest-end'
+
+complete-actions:
+  flow:
+    - '!item.remove "Leeres Papier" 1'
+    - '!item.add this.zettel'
+    - '!tag.increase frostak-hochebene.vinnans-hilfe.nachweise'
