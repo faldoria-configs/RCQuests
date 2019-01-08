@@ -67,5 +67,5 @@ objectives:
 complete-actions:
   flow:
     - '!item.give this.items.fellueberwurf'
-    - '!item.give this.items.papier 10'
+    - '!item.give this.papier 10'
     - '!quest.start ../2-vinnans-helfende-hand'
