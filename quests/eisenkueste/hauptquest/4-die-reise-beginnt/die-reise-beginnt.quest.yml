@@ -1,0 +1,27 @@
+name: Die Reise beginnt
+region: eisenkueste
+locked: false
+abortable: false
+auto-complete: false
+authors:
+  - TheFum (QS)
+  - Silthus (QD)
+worlds:
+  - faldoria
+level: 5
+
+objectives:
+  '1':
+    name: Sprich mit Elius
+    desc: Sprich mit Elius um mit dem Ballon zu reisen.
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../elius'
+        - '?tag eisenkueste.elius.not-ready'
+        - '-!conv.start ../elius this.quest-start'
+        - '+!conv.start ../elius this.quest-start stage:return'
+
+complete-actions:
+  flow:
+    - '!quest.start frostak-hochebene.hauptquest.1-jarmundshain-waermt-auf'

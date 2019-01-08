@@ -1,0 +1,11 @@
+name: Jarmundshain wärmt auf
+region: frostak-hochebene
+locked: false
+abortable: false
+authors:
+  - LilianaVess (SuQ)
+  - Silthus (QS)
+worlds:
+  - faldoria
+level: 5
+

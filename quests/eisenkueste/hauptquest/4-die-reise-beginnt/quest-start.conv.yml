@@ -1,0 +1,63 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text.player "Meister Elius ich bin nun bereit mit euch zu kommen, wie weit seid Ihr mit dem Ballon?"'
+        - '~5s'
+        - '!text "Da seid Ihr ja wieder, gerade rechtzeitig. Wir können gleich los. Zunächst aber..."'
+        - '~4s'
+        - '!text.player "Was denn? Was denn nun noch?"'
+        - '~2s'
+        - '!text "Es ist wichtig das Ihr versteht, dass wir nicht so schnell zurück kommen. Habt Ihr Euch ausgerüstet? Habt Ihr Proviant eingepackt?"'
+        - '~6s'
+        - '!text.player "Ja ich denke ich habe alles."'
+        - '!stage ready'
+  ready:
+    text: 'Habt Ihr hier alle Aufgaben erledigt?'
+    answers:
+      flow:
+        - ':"Vielleicht sollte ich doch nochmal ein wenig herum schauen ob ich noch etwas zu tun finde."'
+        - '!text "Dann komme zu mir zurück sobald du bereit bist."'
+        - '!tag eisenkueste.elius.not-ready'
+        - '!end'
+        - ':"Ja Meister Elius, ich bin bereit, nun mit euch zu kommen. Lasst uns losfahren."'
+        - '!stage abflug'
+  return:
+    actions:
+      flow:
+        - '!text.player "Nun sollte ich entgültig alles erledigt haben."'
+        - '!stage ready-again'
+  ready-again:
+    text: "Seid ihr euch sicher? Wir können auch noch ein bisschen warten."
+    answers:
+      flow:
+        - ':"Ja, ich bin mir sicher!"'
+        - '!stage abflug'
+        - ':"Nein, ich bin mir noch immer nicht sicher."'
+        - '!end'
+  abflug:
+    actions:
+      flow:
+        - '!text "Na dann auf geht die Reise, ich hoffe ich muss nicht wieder notlanden und wir kommen heil in Jarmundshain an."'
+        - '!objective.complete this.die-reise-beginnt 1'
+        - '~5s'
+        - '!text.player "Das hoffe ich doch auch."'
+        - '~5s'
+        - '!teleport jarmundshain'
+        - '~5s'
+        - '!text "Noch rechtzeitig sicher gelandet."'
+        - '~2s'
+        - '!text.player "Wollten wir wirklich hier hin? Hier ist es ja noch kälter."'
+        - '~4s'
+        - '!text "Ja hier wollten wir hin, ich hab den Brennstoff gerade noch so richtig eingeschätzt, weiter kommen wir nun nicht mehr."'
+        - '~5s'
+        - '!text.player "Und wo sind wir hier?"'
+        - '~1s'
+        - '!text "Mitten in den Frostak Hochebenen, im Jarmundshain."'
+        - '~2s'
+        - '!text.player "Der Name klingt seltsam."'
+        - '~1s'
+        - '!text "Die Bewohner sind auch seltsame Jorgendder, recht zurückgezogen und etwas mürrisch. Du könntest mit dem Ältesten sprechen, er kann sicher helfen wenn du in die Stadt Kaltenstrom möchtest."'
+        - '!quest.complete this.die-reise-beginnt'
+        - '~8s'
+        - '!text.player "Okay, danke für die Ballonfahrt."'
