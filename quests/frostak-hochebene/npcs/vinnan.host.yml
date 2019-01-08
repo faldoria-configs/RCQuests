@@ -1,0 +1,9 @@
+name: Vinnan
+disguise: Vinnan
+equipment:
+  hand: bread
+location:
+  x: 505
+  y: 111
+  z: -1851
+  world: faldoria

@@ -1,0 +1,9 @@
+name: Elius
+disguise: Elius
+equipment:
+  hand: compass
+location:
+  x: 497
+  y: 117
+  z: -1973
+  world: faldoria

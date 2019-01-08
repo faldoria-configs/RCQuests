@@ -9,3 +9,13 @@ worlds:
   - faldoria
 level: 5
 
+default-convs:
+  active:
+    convs:
+      - '../../npcs/elius:this.elius-quest-active'
+
+objectives:
+  '1':
+    name: 'Finde und Sprich mit Vinnan'
+    desc: 'Sprecht mit dem Ältesten im Jarmundshain, sein Name ist Vinnan.'
+    
