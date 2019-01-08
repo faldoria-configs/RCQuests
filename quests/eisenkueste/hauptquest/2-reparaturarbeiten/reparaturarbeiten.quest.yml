@@ -76,4 +76,4 @@ objectives:
 complete-actions:
   flow:
     - '!player.money.add 2 Quest'
-    - '!conv.start eisenkueste.nebenquest.1-besessene-woelfe.quest-start eisenkueste.npcs.marduk stage:from-reparaturarbeiten'
+    - '!conv.start ../3-die-erlaubnis eisenkueste.npcs.marduk stage:from-reparaturarbeiten'

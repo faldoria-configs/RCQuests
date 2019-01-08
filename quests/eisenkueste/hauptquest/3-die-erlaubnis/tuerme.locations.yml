@@ -1,0 +1,18 @@
+nord:
+  x: 3738
+  y: 8101
+  z: -2898
+  world: faldoria
+  radius: 5
+mitte:
+  x: 3619
+  y: 85
+  z: -2578
+  world: faldoria
+  radius: 5
+sued:
+  x: 3711
+  y: 68
+  z: -2547
+  world: faldoria
+  radius: 5

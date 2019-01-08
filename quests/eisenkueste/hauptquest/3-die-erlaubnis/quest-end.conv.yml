@@ -1,0 +1,18 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text.player "Hauptmann Marduk, die Türme waren sehr zerfallen, aber das ein oder andere konnte ich finden."'
+        - '~5s'
+        - '!text "Du siehst auch bereiter aus als vorher."'
+        - '~3s'
+        - '!text.player "Kann ich nun los zu Elius und ihm sagen, dass ich mit ihm mitfliegen werde?"'
+        - '~4s'
+        - '!text "Ja, ich gebe dir die Erlaubnis nun loszuziehen, finde mehr über dieses Land heraus. Wir werden uns hier erstmal weiter aufhalten. Komm aber bald wieder und melde dich bei uns."'
+        - '~8s'
+        - '!text.player "Ich bin ganz aufgeregt, keiner von uns war jemals wo ich hingehen werde. Ich werde aber so schnell es geht wieder hierher zurück kommen."'
+        - '~6s'
+        - '!text "Pass auf dich auf und - ich habe noch etwas von uns allen für dich. Es ist eines unserer kostbarsten Besitztümer, noch aus der alten Zeit bevor wir auf Ankanor lebten."'
+        - '~7s'
+        - '!text.player "Vielen Dank, aber ich sollte mich nun auf den Weg machen. Haltet durch."'
+        - '!quest.complete this.die-erlaubnis'

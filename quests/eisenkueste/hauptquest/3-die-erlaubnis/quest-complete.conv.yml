@@ -1,0 +1,6 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Ich hoffe wir sehen dich bald wieder, nachdem du mehr über dieses Land erfahren hast."'
+        - '!text "Du bist gut vorbereitet auf deine Reise, das gibt uns allen Hoffnung."'

@@ -1,0 +1,53 @@
+name: Die Erlaubnis
+region: eisenkueste
+locked: false
+abortable: false
+authors:
+  - TheFum (QS)
+  - Silthus (QD)
+worlds:
+  - faldoria
+level: 5
+
+default-convs:
+  active:
+    convs:
+      - 'eisenkueste.npcs.marduk:this.quest-active'
+  completed:
+    convs:
+      - 'eisenkueste.npcs.marduk:this.quest-complete'
+
+objectives:
+  '1':
+    name: Erkunde die Turmruinen
+    desc: Erkunde die drei Turmruinen und finde dort etwas Nützliches.
+    tasks:
+      '1':
+        name: 'Nördlicher Turm erkundet'
+        trigger:
+          flow:
+            - '@loc this.tuerme.nord'
+            - '!text.think "Weiter komme ich wohl nicht mehr hoch, oder doch?"'
+      '2':
+        name: 'Mittlerer Turm erkundet'
+        trigger:
+          flow:
+            - '@loc this.tuerme.mitte'
+            - '!text.think "Diesen Turm sollte ich nun erkundet haben."'
+      '3':
+        name: 'Südlichster Turm erkundet'
+        trigger:
+          flow:
+            - '@loc this.tuerme.sued'
+            - '!text.think "Dieser Turm ist sehr klein, hier finde ich sicher nicht viel."'
+  '2':
+    name: Erstatte Hauptmann Marduk Bericht
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact eisenkueste.npcs.marduk this.quest-complete'
+
+complete-actions:
+  flow:
+    - '!player.give.item this.belohnung'
+    - '!quest.start ../4-die-reise-beginnt'

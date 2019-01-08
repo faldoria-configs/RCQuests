@@ -5,9 +5,13 @@ stages:
       flow:
         - ':"Das habe ich. Es handelte sich dabei um einen abgestürzten Ballon und jemand namens Elius."'
         - '!text "Was ist ein Ballon?"'
+        - '~1s'
         - '!text.player "Ein Schiff, das in der Luft fährt."'
+        - '~2s'
         - '!text "Ah, wir müssen viel mehr über dieses Land herausfinden. Weißt du denn noch mehr?"'
+        - '~4s'
         - '!text.player "Nein, aber dieser Elius möchte das ich ihm helfe, vielleicht erfahre ich dann mehr."'
+        - '~4s'
         - '!stage help'
   help:
     text: 'Das klingt gar nicht so dumm, also hilf ihm.'

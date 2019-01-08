@@ -1,0 +1,6 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Geh und erkunde die drei Türme am Strand. Einer ist im Norden, die anderen beiden sind südlich von hier."'
+        - '!text "Wir zählen alle auf dich."'
