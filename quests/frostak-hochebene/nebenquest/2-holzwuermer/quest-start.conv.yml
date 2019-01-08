@@ -1,0 +1,20 @@
+persistent: true
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Guten Tag, was führt euch hier in diesen Winkel Jarmundshains?"'
+        - '>"Vinnan schickt mich, ihr könnt wohl etwas Hilfe gebrauchen?"'
+        - '!text "Das ist richtig. Ich habe ein Problem mit dem Holz, es ist von Holzwürmern befallen und die Bäume in der Umgebung sind ungeeignet für Bauholz."'
+        - '>"Was kann ich da tun?"'
+        - '!stage quest'
+
+  quest:
+    text: 'Am anderen Ende des Dorfes leben die Holzfällerbrüder Jarko, Joan und Kester, sie haben bestimmt noch geeignetes Holz. Könnt ihr sie bitten mir etwas davon zu liefern?'
+    answers:
+      flow:
+        - ':"Natürlich, wie viel Holz benötigt ihr denn?"'
+        - '!text "Ich danke euch, hier habt ihr einen Brief mit den Hölzern die ich benötige."'
+        - '!quest.start this.holzwuermer'
+        - ':"Ich habe leider im Augenblick keine Zeit, fragt mich später noch einmal."'
+        - '!text "Schade, dann ein anderes Mal."'

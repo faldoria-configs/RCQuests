@@ -1,0 +1,13 @@
+name: Liste mit Hölzern
+type: QUEST
+item: written_book
+book:
+  name: Liste mit Hölzern
+  author: Marius
+  pages:
+    '1':
+      - Benötigte Hölzer
+      - 
+      - 7 Stämme Eiche, gute Qualität
+      - 4 Stämme, 6 Bretter Fichte, gute Qualität
+      - 3 Stämme Fichte, mäßige Qualität

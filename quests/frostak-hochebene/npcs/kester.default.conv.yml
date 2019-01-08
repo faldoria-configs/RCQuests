@@ -1,0 +1,7 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "...zwei, drei… da der vierte…"'
+        - '!text "...Eiche, Fichte… jetzt fehlt noch etwas Birke…"'
+        - '!text "JOAN! WIR BRAUCHEN NOCH BIRKE!"'

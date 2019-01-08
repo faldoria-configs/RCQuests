@@ -1,0 +1,60 @@
+name: Holzwürmer
+region: frostak-hochebene
+locked: false
+abortable: true
+authors:
+  - LilianaVess (SuQ)
+  - Silthus (QS)
+worlds:
+  - faldoria
+level: 6
+
+default-convs:
+  active:
+    convs:
+      - '../../npcs/joan:this.joan'
+
+requirements:
+  flow:
+    - '?quest.active ../../hauptquest.2-vinnans-helfende.hand'
+
+trigger:
+  flow:
+    - '@host.interact ../../npcs/marius this.quest-start'
+
+start-actions:
+  flow:
+    - '!item.add this.liste'
+
+objectives:
+  '1':
+    name: 'Bring die Liste zu den Holzfällern'
+    desc: Bringt die Liste von Marius zu den Holzfällern an der Straße nach Kaltenstrom.
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../../npcs/kester this.kester'
+  
+  '2':
+    name: 'Sprich mit Jarko im Haus.'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../../npcs/jarko this.jarko'
+
+  '3':
+    name: 'Kehre zu Marius zurück'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../../npcs/marius this.quest-end'
+
+complete-actions:
+  flow:
+    - '?tag frostak-hochebene.holzwuermer.liar'
+    - '+!text.quest "Ihr habt Marius gegen euch aufgebracht, dem solltet ihr so schnell nicht zu nahe kommen."'
+    - '+!conv.set ../../npcs/marius this.marius-angry'
+    - '-!text.quest "Ihr habt Marius einen großen Gefallen getan."'
+    - '-!item.remove "Leeres Papier" 1'
+    - '-!item.add this.zettel'
+    - '-!tag.increase frostak-hochebene.vinnans-hilfe.nachweise'

@@ -1,0 +1,7 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "...ganz ruhig mein Alter…"'
+        - '!text "Oh, einen schönen Tag euch, Reisender!"'
+        - '!text "...na komm! Der Sattel muss doch passen…"'

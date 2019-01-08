@@ -1,0 +1,10 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Braucht ihr etwas Holz?"'
+        - '>"Ja, ich brauche Holz für Marius, seine Stämme sind von Holzwürmern befallen."'
+        - '!text "Marius? Der hat doch genug Holz was er fällen kann."'
+        - '>"Er sagt es sei krank und er bräuchte eine Ladung von Euch."'
+        - '!text "Na dann sprecht mit Jarko im Haus, er kann euch sagen was wir da haben."'
+        - '!objective.complete this.holzwuermer 1'

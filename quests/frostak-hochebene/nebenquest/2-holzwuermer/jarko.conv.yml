@@ -1,0 +1,52 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Hallo, was kann ich für euch tun?"'
+        - '>"Marius schickt mich etwas Holz zu kaufen."'
+        - '!stage quest'
+
+  quest:
+    text: 'Marius, hm, das ist ja ein Zufall.'
+    answers:
+      flow:
+        - ':"Sein Holz ist von Holzwürmern befallen, daher braucht er neues."'
+        - '!stage option1'
+        - ':"Sagt, habt ihr etwas gegen Marius? Ihr scheint ihn nicht zu mögen."'
+        - '!stage option2'
+
+  option1:
+    actions:
+      flow:
+        - '!text "Hat er euch gesagt, was er benötigt?"'
+        - '>"Ja, diese Liste hat er mir gegeben."'
+        - '!item.remove this.liste'
+        - '!text "Na, mal sehen. Ah, das müssten wir alles noch haben. Ich werde sofort eine Lieferung zusammenstellen."'
+        - '>"ich danke euch."'
+        - '!text "Richtet Marius aus, dass wir ihm einen Wagen vorbeischicken um ihm sein Holz zu liefern."'
+        - '>"Ich mache mich sofort auf den Weg. Auf Wiedersehen!"'
+        - '!tag frostak-hochebene.holzwuermer.option1'
+        - '!objective.complete this.holzwuermer 2'
+
+  option2:
+    text: 'Nun, er behauptet unser Holz sei von schlechter Qualität, daher schlägt er seine Stämme meist selbst. Doch andauernd gibt es Probleme mit seinen Stämmen und immer öfter müssen wir ihm aushelfen. Das wundert uns schon.'
+    answers:
+      flow:
+        - ':"Vielleicht ist euer Holz nicht so schlecht wie er behauptet."'
+        - '!text "Wenn das stimmt, dann braucht er doch nur bei uns zu fragen und er kann so viel kaufen wie er möchte."'
+        - '>"Das hat er ja getan, hier ist die Liste der Hölzer die er benötigt."'
+        - '!item.remove this.liste'
+        - '!text "Na, mal sehen. Ah, das müssten wir alles noch haben. Ich werde sofort eine Lieferung zusammenstellen."'
+        - '!>"Ich danke euch, ich werde es Marius ausrichten."'
+        - '!tag frostak-hochebene.holzwuermer.option1'
+        - '!objective.complete this.holzwuermer 2'
+        - ':"Meint ihr er belügt euch?"'
+        - '!text "Das würde ich ihm zutrauen. Er scheint einfach faul zu sein und sucht sich immer Ausreden um nicht selbst arbeiten zu müssen."'
+        - '>"Deshalb hat er also mich geschickt anstatt selbst zu laufen."'
+        - '!text "Dann lasst mich diese Liste doch mal sehen."'
+        - '!item.remove this.liste'
+        - '~3s'
+        - '!text "...Na diese Paar Stämme werden wir wohl noch haben, ich werde sofort eine Lieferung schicken."'
+        - '>"Ich danke euch, ich werde es Marius ausrichten."'
+        - '!tag frostak-hochebene.holzwuermer.option2'
+        - '!objective.complete this.holzwuermer 2'

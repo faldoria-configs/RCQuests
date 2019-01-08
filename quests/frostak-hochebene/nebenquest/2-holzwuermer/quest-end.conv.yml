@@ -1,0 +1,36 @@
+stages:
+  start:
+    text: 'Das ging aber schnell, habt ihr alles bekommen?'
+    answers:
+      flow:
+        - ':"Nein, ich habe es noch nicht geschafft. Wo finde ich nochmal die Holzfäller?"'
+        - '!text "Folgt dem Weg der aus dem Dorf hinaus führt den Berg hinab und biegt immer links ab. Sobald ihr die Schneegrenze passiert, dann könnt ihr sie nicht verfehlen. Nun geht schon!"'
+        - '>"Ich eile!"'
+        - '!end'
+        - '?objective.complete this.holzwuermer 2'
+        - ':"Ja, sie schicken einen Wagen mit den Stämmen."'
+        - '!stage complete-quest'
+
+  complete-quest:
+    text: 'Wunderbar, ich danke euch, jetzt kann ich endlich weitermachen.'
+    answers:
+      flow:
+        - ':"Keine Ursache ich helfe gerne."'
+        - '!quest.complete this.holzwuermer'
+        - '!end'
+        - '?tag frostak-hochebene.holzwuermer.option2'
+        - ':"Das freut mich, doch ich hätte da noch eine Frage…"'
+        - '!stage liar'
+
+  liar:
+    text: 'Stellt sie schnell ich muss weiterarbeiten.'
+    answers:
+      flow:
+        - ':"Ist euer Holz wirklich von Würmern befallen? Oder spielt ihr nur den Hilflosen?"'
+        - '!tag frostak-hochebene.holzwuermer.liar'
+        - '!text "Sagt mal meint ihr ich bin ein Lügner? Und spiele euch alles nur vor? Verschwindet!"'
+        - '!quest.complete this.holzwuermer'
+        - '!end'
+        - ':"Achso ähm… ich wollte nur fragen ob ich noch etwas tun kann?"'
+        - '!text "Im Augenblick nicht, nein… doch nehmt dies für eure Mühen."'
+        - '!quest.complete this.holzwuermer'

@@ -1,0 +1,8 @@
+stages:
+  start:
+    text: 'Sucht ihr gutes Holz? Wir haben das Beste!'
+    answers:
+      - ':"Ja, Holz brauche ich unbedingt!"'
+      - '!trade.open this.jarko'
+      - ':"Das ist mir viel zu schwer..."'
+      - '!end'

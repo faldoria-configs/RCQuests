@@ -1,0 +1,9 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "...Zwei Birken, eine Fichte, … Oh hallo. Sucht ihr etwas?"'
+        - '>"Ich bin hier um etwas Holz für Marius zu kaufen."'
+        - '!text "Ah, der gute Marius. Ist er wieder zu faul sein Holz selbst zu fällen?"'
+        - '>"Sein Holz ist von Holzwürmern befallen."'
+        - '!text "Na wenn er meint. Sprich mit Jarko im Haus, er wird eine Lieferung zusammenstellen."'

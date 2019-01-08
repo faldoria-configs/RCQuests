@@ -1,0 +1,7 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Hört ihr auch manchmal so ein Donnern?"'
+        - '!text "Wenn nur diese Würmer nicht wären…"'
+        - '!text "So Klar war es schon lange nicht mehr."'

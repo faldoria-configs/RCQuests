@@ -1,0 +1,10 @@
+name: Kester
+disguise: Kester
+location:
+  x: 693
+  y: 82
+  z: -1663
+  world: faldoria
+equipment:
+  hand: paper
+  offhand: feather

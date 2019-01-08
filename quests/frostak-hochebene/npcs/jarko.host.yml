@@ -1,0 +1,11 @@
+name: Jarko
+disguise: Jarko
+location:
+  x: 671
+  y: 83
+  z: -1667
+  world: faldoria
+equipment:
+  hand: book
+traits:
+  - sit
