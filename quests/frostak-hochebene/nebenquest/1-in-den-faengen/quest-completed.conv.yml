@@ -1,0 +1,7 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Ich danke euch… und Lise und Frida und Lotte…"'
+        - '!text "...ist es nicht ein wundervoller Tag?..."'
+        - '!text "GISELA, FRIDA! HIERHER!"'

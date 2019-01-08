@@ -1,0 +1,69 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Das kann doch nicht wahr sein… so ein Mist, jetzt hat es die gute Lise auch erwischt…"'
+        - '>"Seid ihr der Hirte? Vinnan schickt mich euch zu helfen."'
+        - '!stage quest'
+
+  quest:
+    text: 'Ja, ich bin Rolf. Und ich kann eure Hilfe sehr gut gebrauchen. Seht ihr dies? Das ist Lise, mein bestes Schaf, getötet von einem Wolf der sich hier herumtreibt.'
+    answers:
+      flow:
+        - ':"Ein Wolf? Ein wirklicher großer Wolf?"'
+        - '!text "Ja, ein Wolf. Er kommt des Nachts und reißt meine Schafe. Würdet ihr mir helfen ihn zu töten?"'
+        - '!stage start'
+        - ':"Und ich soll euch helfen ihn zu… zu töten?"'
+        - '!text "Würdet ihr das tun?"'
+        - '!stage start'
+
+  start:
+    answers:
+      flow:
+        - ':"Natürlich, deshalb bin ich ja hier!"'
+        - '!stage details'
+        - ':"Ich… ich denke ein Wolf ist mir zu gefährlich, ich suche lieber eine leichtere Aufgabe."'
+        - '!text "Schade, kommt zu mir wenn ihr euch umentscheiden solltet… wenn ich dann noch Schafe habe."'
+        - '!end'
+
+  details:
+    text: 'Sehr gut… endlich jemand der sich dieser Plage annimmt.'
+    answers:
+      flow:
+        - ':"Wo finde ich dieses Biest denn?"'
+        - '!stage details1'
+        - ':"Ist er… Ist er groß?"'
+        - '!stage details2'
+
+  details1:
+    text: 'Ich habe mich nie getraut ihm zu folgen, doch seine Spuren führen dort in den Wald...'
+    answers:
+      flow:
+        - ':"Ich werde mich sofort auf den Weg machen!"'
+        - '!quest.start this.faenge'
+        - '!end'
+        - ':"Ist er… ist er groß?"'
+        - '!stage details1-1'
+  details1-1:
+    text: 'Ich weiß es nicht genau, gesehen hat ihn noch niemand. Leider…'
+    answers:
+      flow:
+        - ':"Egal, ich werde ihn trotzdem suchen!"'
+        - '!quest.start this.faenge'
+        - '!end'
+
+
+  details2:
+    text: 'Er muss riesig sein, wenn er meine wackeren Schafe tötet, ihr müsst wissen, dass auch sie manchmal beißen.'
+    answers:
+      flow:
+        - ':"Meint ihr das ernst? Habt ihr ihn denn schonmal gesehen?"'
+        - '!text "Leider nicht, niemand aus dem Dorf hat ihn bisher gesehen… doch wenn ihr ihn sehen wollt folgt einfach seinen Spuren in diesen Wald."'
+        - '>"Dann werde ich ihn mal suchen!"'
+        - '!quest.start this.faenge'
+        - '!end'
+        - ':"Wo finde ich ihn denn?"'
+        - '!text "Seine Spuren führen dort hinten in den Wald, doch gefolgt ist ihnen noch niemand…"'
+        - '>"Dann bin ich der Erste, auch gut…"'
+        - '!quest.start this.faenge'
+        - '!end'

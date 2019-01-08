@@ -1,0 +1,47 @@
+name: In den Fängen des Wolfes
+region: frostak-hochebene
+locked: false
+abortable: true
+authors:
+  - LilianaVess (SuQ)
+  - Silthus (QS)
+worlds:
+  - faldoria
+level: 6
+
+default-convs:
+  completed:
+    convs:
+      - '../../npcs/rolf:this.quest-completed'
+
+requirements:
+  flow:
+    - '?quest.active ../../hauptquest.2-vinnans-helfende.hand'
+
+trigger:
+  flow:
+    - '@host.interact ../../npcs/rolf this.quest-start'
+
+objectives:
+  '1':
+    name: 'Suche den Wolf'
+    desc: Sucht in dem nahen Wald nach den Spuren des Wolfes und folgt ihnen.
+    auto-complete: false
+    trigger:
+      flow:
+        - '@loc(cooldown:5m) this.wolf'
+        - '!rcmobs.mob.spawn this.wolf'
+        - '@rcmobs.mob.kill this.wolf'
+        - '!objective.complete this.faenge 1'
+  '2':
+    name: 'Überbringe Rolf die gute Nachricht'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../../npcs/rolf this.quest-end'
+
+complete-actions:
+  flow:
+    - '!item.remove "Leeres Papier" 1'
+    - '!item.add this.zettel'
+    - '!tag.increase frostak-hochebene.vinnans-hilfe.nachweise'

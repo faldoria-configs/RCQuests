@@ -1,0 +1,10 @@
+stages:
+  start:
+    text: 'Und, und? Habt ihr ihn erlegt?'
+    answers:
+      flow:
+        - ':"Nein, ich konnte ihn noch nicht finden…"'
+        - '!text "Er hinterlässt überall Blut und Knochen, ihr könnt es gar nicht verfehlen…"'
+        - ':"Ja, hier ist sein Kopf…"'
+        - '!text "Ihh… behaltet ihn. Aber ich danke euch für eure Hilfe, jetzt können meine Schafe wieder in Ruhe grasen, Berta und Frida und Nelli und Gustaf und Bella und…"'
+        - '!quest.complete this.faenge'

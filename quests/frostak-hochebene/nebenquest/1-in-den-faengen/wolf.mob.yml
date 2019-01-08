@@ -1,0 +1,7 @@
+name: Hungriger Wolf
+type: wolf
+aggro: true
+passive: false
+elite: true
+min-level: 8
+max-level: 8
