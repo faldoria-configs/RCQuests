@@ -57,4 +57,4 @@ complete-actions:
     - '-!text.quest "Ihr habt Marius einen großen Gefallen getan."'
     - '-!item.remove "Leeres Papier" 1'
     - '-!item.add this.zettel'
-    - '-!tag.increase frostak-hochebene.vinnans-hilfe.nachweise'
+    - '-!tag frostak-hochebene.vinnans-hilfe.nachweise'
