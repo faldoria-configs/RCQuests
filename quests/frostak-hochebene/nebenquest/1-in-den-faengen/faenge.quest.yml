@@ -13,6 +13,8 @@ default-convs:
   completed:
     convs:
       - '../../npcs/rolf:this.quest-completed'
+      - '../../npcs/wanderer:this.wanderer-quest-completed'
+      - '../../npcs/reisender:this.reisender-quest-completed'
 
 requirements:
   flow:

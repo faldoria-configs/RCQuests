@@ -1,0 +1,7 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Ihr glaubt nicht was ich im Wald gefunden habe… ein verlassenes Lager, voller Blut!"'
+        - '!text "Etwas treibt sich im Wald herum… Ich habe überall Blut gefunden!"'
+        - '!text "Seid vorsichtig! Im Wald lebt ein Menschenfressendes Ungeheuer!"'
