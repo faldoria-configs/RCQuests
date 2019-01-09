@@ -1,0 +1,24 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "*hicks*"'
+        - '>"Tjorben?"'
+        - '!stage suppe'
+
+  suppe:
+    text: 'Hier isch eina?'
+    answers:
+      flow:
+        - ':"*nimmt die Suppenschüssel und kippt die Suppe über Tjorben*"'
+        - '!text "Bah, was soll denn das?"'
+        - '>"War im Auftrag deiner Frau."'
+        - '!quest.complete this.faultier'
+        - ':"Deine Frau bat mich dir diese Suppe zu bringen, sie kann sie nicht mehr riechen."'
+        - '!text "Ohja, her damit."'
+        - '>"Ich wäre vorsichtig, sie scheint sauer auf dich zu sein."'
+        - '!text "Okay, vielleicht sollte ich mal mit ihr reden."'
+        - '!quest.complete this.faultier'
+        - ':"*stellt wortlos die Suppe vor Tjorben auf den Tisch*"'
+        - '!text "Danke *schlürf*"'
+        - '!quest.complete this.faultier'
