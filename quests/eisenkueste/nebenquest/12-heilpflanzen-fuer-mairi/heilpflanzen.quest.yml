@@ -1,0 +1,48 @@
+name: Heilpflanzen für Mairi
+region: eisenkueste
+locked: false
+abortable: true
+authors:
+  - Kirilit (QS)
+  - Silthus (QD)
+worlds:
+  - faldoria
+level: 6
+
+requirements:
+  flow:
+    - '?quest.active ../11-suche-mairis-familie'
+
+default-convs:
+  active:
+    convs:
+      - 'eisenkueste.npcs.mairi:this.quest-active'
+
+trigger:
+  flow:
+    - '@host.interact eisenkueste.npcs.mairi this.quest-start'
+
+objectives:
+  '1':
+    name: 'Sammle Arzneiblumen für Mairi'
+    desc: 'Hole für Mairi im Wald die benötigten Arzneiblumen, 7 grüne Farne und 7 blaue Heilorchideen'
+    tasks:
+      '1':
+        name: '7 grüne Farne'
+        trigger:
+          flow:
+            - '?item this.items.farn 7'
+            - '@item.pickup this.items.farn'
+      '2':
+        name: '7 blaue Heilorchideen'
+        trigger:
+          flow:
+            - '?item this.items.orchidee 7'
+            - '@item.pickup this.items.orchidee'
+
+  '2':
+    name: 'Bringe die Pflanzen zu Mairi'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact eisenkueste.npcs.mairi this.quest-end'

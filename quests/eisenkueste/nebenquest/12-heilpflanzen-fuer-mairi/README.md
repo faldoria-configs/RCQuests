@@ -1,6 +1,6 @@
 # Heilpflanzen für Mairi
 
-Issue 60
+Issue #60
 
 >>> Skill Bandagieren 1 (= Bandagen benutzen) wird erlernt!
 
@@ -9,26 +9,25 @@ Issue 60
 Blumen (blaue Orchidee) in der nordwestlichen Hochebene gefunden
 
 ## Übersicht
-- [Heilpflanzen für Mairi](#heilpflanzen-f%C3%BCr-mairi)
-  - [Was noch fehlt:](#was-noch-fehlt)
-  - [Übersicht](#%C3%BCbersicht)
-  - [Voraussetzungen](#voraussetzungen)
-  - [Ablauf](#ablauf)
-  - [Questdialoge](#questdialoge)
-    - [Dialog 1](#dialog-1)
-    - [Dialog 2](#dialog-2)
-  - [NPCS](#npcs)
-    - [Mairi](#mairi)
-      - [Standartsätze](#standarts%C3%A4tze)
-        - [Vor der Quest](#vor-der-quest)
-        - [Während der Quest:](#w%C3%A4hrend-der-quest)
-        - [Nach der Quest:](#nach-der-quest)
-      - [Ausrüstung](#ausr%C3%BCstung)
-      - [Standort](#standort)
-  - [Items](#items)
-    - [Einfache Bandage](#einfache-bandage)
-  - [Belohnung](#belohnung)
-  - [Referenzen](#referenzen)
+* [Was noch fehlt:](#was-noch-fehlt)
+* [Übersicht](#Übersicht)
+* [Voraussetzungen](#voraussetzungen)
+* [Ablauf](#ablauf)
+* [Questdialoge](#questdialoge)
+  * [Dialog 1](#dialog-1)
+  * [Dialog 2](#dialog-2)
+* [NPCS](#npcs)
+  * [Mairi](#mairi)
+    * [Standartsätze](#standartsätze)
+      * [Vor der Quest](#vor-der-quest)
+      * [Während der Quest:](#während-der-quest)
+      * [Nach der Quest:](#nach-der-quest)
+    * [Ausrüstung](#ausrüstung)
+    * [Standort](#standort)
+* [Items](#items)
+  * [Einfache Bandage](#einfache-bandage)
+* [Belohnung](#belohnung)
+* [Referenzen](#referenzen)
 
 
         

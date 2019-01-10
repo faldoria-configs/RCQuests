@@ -1,0 +1,6 @@
+stages:
+  start:
+    actions:
+      flow:
+        - 'Oh, du bist schon zurück, hast du schon alle Pflanzen gefunden?'
+        - '>"Leider nicht, die Wölfe kamen mir in die Quere, aber ich suche den Rest auch noch."'
