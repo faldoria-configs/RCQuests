@@ -1,0 +1,10 @@
+stages:
+  start:
+    actions:
+      flow:
+        - 'Gott sei Dank. Bist du mit den Pilzen zurück?'
+        - '>"JA. Lass mich raten, du hast noch etwas vergessen...?"'
+        - 'FABELHAFT. Wovon redest du? Warte kurz, schnell die Pilze schneiden, anrösten und rein damit. Dreimal nach rechts rühren, kurz warten, dreimal nach links rühren und - es ist fertig! Und es schmeckt absolut köstlich!'
+        - '>"Wurde auch Zeit…"'
+        - 'Ich danke dir! Jetzt gibt es auch mal wieder etwas Anständiges zum Essen! Hier ist deine Belohnung. *Adanion reicht dir eine Schüssel dampfenden Eintopf*'
+        - '!quest.complete this.pilze'

@@ -1,0 +1,5 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!npc.emote "der Koch murmelt abwesend vor sich hin, du verstehst nicht, was er sagt"'

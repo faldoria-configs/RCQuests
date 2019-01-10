@@ -1,0 +1,49 @@
+name: Fleisch macht es besser
+region: eisenkueste
+locked: false
+abortable: true
+authors:
+  - TheFum (QS)
+  - Silthus (QD)
+worlds:
+  - faldoria
+level: 5
+
+requirements:
+  flow:
+    - '?quest.complete ../1-frische-zutaten'
+
+trigger:
+  flow:
+    - '@host.interact ../adanion this.quest-start'
+
+objectives:
+  '1':
+    name: 'Besorge Fleisch für den Eintopf'
+    desc: 'Gehe zum Strand, besorge 10x [Kiesflohfleisch], 3x rohen Lachs und 7x rohen Fisch.'
+    tasks:
+      '1':
+        name: '10 Kiesflohfleisch'
+        trigger:
+          flow:
+            - '?item this.items.kiesflohfleisch 10'
+            - '@item.pickup this.items.kiesflohfleisch'
+      '2':
+        name: '3 rohe Lachse'
+        trigger:
+          flow:
+            - '?item this.items.lachs 3'
+            - '@item.pickup this.items.lachs'
+      '3':
+        name: '7 rohe Fische'
+        trigger:
+          flow:
+            - '?item this.items.fisch 7'
+            - '@item.pickup this.items.fisch'
+    
+  '2':
+    name: 'Bringe das Fleisch zu Adanion.'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../adanion this.quest-end'

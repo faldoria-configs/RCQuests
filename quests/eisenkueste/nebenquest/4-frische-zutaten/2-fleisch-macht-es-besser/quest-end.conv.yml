@@ -1,0 +1,15 @@
+stages:
+  start:
+    actions:
+      flow:
+        - 'Hast du mir das Fleisch besorgt?'
+        - '>"JA, kannst du jetzt endlich deinen Eintopf kochen?"'
+        - '!item.remove this.items.kiesflohfleisch 10'
+        - '!item.remove this.items.lachs 3'
+        - '!item.remove this.items.fisch 7'
+        - '~4s'
+        - '!quest.complete this.fleisch'
+        - '~2s'
+        - 'Hhmmh, nun ja… ich muss zugeben, ich habe noch eine Kleinigkeit vergessen.'
+        - '>"WAS BRAUCHST DU DENN JETZT NOCH?"'
+        - '!conv.start ../adanion ../3-es-fehlt-noch-was/quest-start'

@@ -1,0 +1,33 @@
+name: Es fehlt noch was
+region: eisenkueste
+locked: false
+abortable: true
+authors:
+  - TheFum (QS)
+  - Silthus (QD)
+worlds:
+  - faldoria
+level: 5
+
+requirements:
+  flow:
+    - '?quest.complete ../2-fleisch-macht-es-besser'
+
+trigger:
+  flow:
+    - '@host.interact ../adanion this.quest-start'
+
+objectives:
+  '1':
+    name: 'Suche 10 Pilze für Adanion'
+    trigger:
+      flow:
+        - '?item this.items.pilz 10'
+        - '@item.pickup this.items.pilz'
+    
+  '2':
+    name: 'Bringe die Pilze zu Adanion'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../adanion this.quest-end'
