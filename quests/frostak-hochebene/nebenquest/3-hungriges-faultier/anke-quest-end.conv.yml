@@ -11,13 +11,9 @@ stages:
   drunk:
     text: '*seufzt* Nicht schon wieder. Ist er schon wieder betrunken?'
     answers:
-      groups:
-        liar:
-          - '50%!text "Na wenigstens etwas."'
-          - '50%!text "Wusst ichs doch, na der soll mir nach hause kommen."'
       flow:
         - ':"Nein, ich glaube nicht."'
-        - '!liar'
+        - 'Na wenigstens etwas.'
         - '!stage suppe'
         - ':"Ja, er war etwas angetrunken."'
         - '!text "Wusst ichs doch, na der soll mir nach hause kommen."'
