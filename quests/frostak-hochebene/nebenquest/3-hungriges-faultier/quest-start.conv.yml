@@ -9,5 +9,5 @@ stages:
         - '!text "Daran solls nisch ‘eitern."'
         - '>"Okay, ich frag mal den Wirt."'
         - '!tag frostak-hochebene.hungriges-faultier.bier'
-        - '!quest.start this.faultier 1'
+        - '!quest.start this.faultier'
         - '!end'

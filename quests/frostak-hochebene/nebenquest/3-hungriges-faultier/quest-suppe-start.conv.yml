@@ -6,7 +6,7 @@ stages:
         - ':"Ja, sowas kann ich."'
         - '!text "Gut, unser Haus ist hier raus..  danach rechts.. über die Brücke, da rechts den Weg weiter. Dann geht man gerade drauf zu, da findet Ihr meine Frau."'
         - '>"Gut, da bring ich dann Knochenmark hin."'
-        - '!quest.start this.faultier 2'
+        - '!quest.start this.faultier'
         - '!end'
         - ':"Nein, werd erstmal wieder nüchtern."'
         - '!quest.abort this.faultier'
