@@ -1,0 +1,46 @@
+name: Der verrückte Alchemist
+region: verkohlte-lande
+locked: false
+abortable: false
+authors:
+  - LilianaVess (SuQ)
+  - Silthus (QS)
+worlds:
+  - faldoria
+level: 8
+
+default-convs:
+  active:
+    convs:
+      - '../../npcs/bras-holstein:this.quest-end'
+
+objectives:
+  '1':
+    name: 'Ein paar Utensilien'
+    desc: 'Bringt dem verrückten Alchemisten Bras Holstein am Jorgendder Lager 6 [Feuerpflanzen] und 4 [Magmasplitter].'
+    tasks:
+      '1':
+        name: 'Sammle 6 Feuerpflanzen'
+        trigger:
+          flow:
+            - '?item this.items.feuerpflanze 6'
+            - '@item.pickup this.items.feuerpflanze'
+      '2':
+        name: 'Sammle 4 Magmasplitter'
+        trigger:
+          flow:
+            - '?item this.items.magmasplitter 4'
+            - '@item.pickup this.items.magmasplitter'
+
+  '2':
+    name: 'Bringe die Utensilien zu Bras'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../../npcs/bras-holstein this.quest-end'
+
+complete-actions:
+  flow:
+    - '!item.add this.bericht'
+    - '!item.add this.items.flaeschchen'
+    - '!quest.start ../2-ein-seltsamer-bericht'

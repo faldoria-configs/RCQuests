@@ -1,0 +1,34 @@
+name: Trophäen
+region: verkohlte-lande
+locked: false
+abortable: false
+authors:
+  - LilianaVess (SuQ)
+  - Silthus (QS)
+worlds:
+  - faldoria
+level: 8
+
+trigger:
+  flow:
+    - '@host.interact ../../npcs/famir this.quest-start'
+
+objectives:
+  '1':
+    name: 'Töte den südlichen Anführer'
+    desc: 'Tötet den Häuptling im Lager etwas südlich der kleinen Brücke und bringt seine Waffen zu Famir.'
+    trigger:
+      flow:
+        - '@mob.kill anfuehrer'
+
+  '2':
+    name: 'Bringe Famir die Waffen'
+    desc: 'Bringe die fünf gestohlenen Waffen zurück zu Famir.'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../../npcs/famir this.quest-end'
+
+complete-actions:
+  flow:
+    - '!conv.start ../../npcs/famir ../6-konvoi-mit-verspaetung/quest-start'

@@ -1,0 +1,38 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '...so ein Mist… ...wie konnte ich nur…'
+        - '!emote "*räusper*"'
+        - '!stage quest'
+
+  quest:
+    text: 'Endlich, da seid ihr ja. Habt ihr gefunden was ich brauchte?'
+    answers:
+      flow:
+        - '?objective.complete this.utensilien 1'
+        - ':"Ja, hier sind die gesuchten Materialien!"'
+        - '!stage quest-end'
+        - ':"Nein, ich brauche noch etwas Zeit."'
+        - 'Dann beeilt euch! … noch etwas davon… …immer diese Jünglinge…'
+        - '!end'
+        - ':"Wo finde ich was du suchst?"'
+        - 'Die Blumen sprießen hier überall aus dem Boden und die Splitter scheinen diese Kreaturen bei sich zu tragen.'
+        - '!end'
+
+  quest-end:
+    actions:
+      flow:
+        - 'Wunderbar! Gebt sie in diesen Kolben.'
+        - '>"Wirf die Materalien in den Kolben."'
+        - 'Jaa! Es klappt, ich habe...'
+        - '~5s'
+        - '!explosion this.alchemie-kolben'
+        - '!text "...neeiin, was ist nur schiefgelaufen? Die ganze Arbeit… alles umsonst!"'
+        - '~2s'
+        - '>"Was ist passiert? Geht es euch gut?"'
+        - 'Nein, es geht mir nicht gut! So ein Fehler passiert sonst nur den Novizen, nicht aber einem erfahrenen Alchemisten wie mir. ...ich habe wohl… …ach nein… Könntet ihr noch etwas für mich tun? Dieser Bericht muss zum Armeeführer des Lagers gebracht werden, am besten so schnell es geht.'
+        - '~5s'
+        - '>"Natürlich, ich mache mich sofort auf den Weg."'
+        - 'Ich danke euch und nun eilt, es ist wichtig! ...alles nochmal…'
+        - '!quest.complete this.utensilien'

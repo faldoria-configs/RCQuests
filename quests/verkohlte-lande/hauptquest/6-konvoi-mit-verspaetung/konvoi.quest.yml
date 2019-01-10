@@ -1,0 +1,58 @@
+name: Konvoi mit Verspätung
+region: verkohlte-lande
+locked: false
+abortable: false
+authors:
+  - LilianaVess (SuQ)
+  - Silthus (QS)
+worlds:
+  - faldoria
+level: 8
+
+trigger:
+  flow:
+    - '@host.interact ../../npcs/famir this.quest-start'
+
+objectives:
+  '1':
+    name: 'Finde den vermissten Konvoi'
+    desc: 'Findet den Konvoi mit Famirs Männern auf der Straße Richtung Osten.'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../../npcs/ramar this.ramar-quest-active'
+
+  '2':
+    name: 'Redet mit Marik'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../../npcs/marik this.marik-quest-active'
+
+  '3':
+    name: 'Tötet den feindlichen Magier in der Nähe.'
+    trigger:
+      flow:
+        - '@mob.kill this.ork-magier'
+
+  '4':
+    name: 'Bringt das Herz zu Marik'
+    auto-complete: false
+    default-convs:
+      active:
+        convs:
+          - '../../npcs/marik:this.marik-panik'
+    trigger:
+      flow:
+        - '@host.interact ../../npcs/marik this.marik-quest-end'
+
+  '5':
+    name: 'Sprecht mit Famir'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../../npcs/famir this.famir-quest-end'
+
+complete-actions:
+  flow:
+    - '!conv.start ../../npcs/famir ../3-hilfe-fuer-hauptmann-famir/quest-end'

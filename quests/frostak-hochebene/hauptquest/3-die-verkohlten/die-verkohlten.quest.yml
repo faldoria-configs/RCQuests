@@ -20,8 +20,9 @@ objectives:
     auto-complete: true
     trigger:
       flow:
-        - '@host.interact verkohlte-lande.npcs.bras-holstein'
+        - '@host.interact verkohlte-lande.npcs.bras-holstein this.quest-end'
 
 complete-actions:
   flow:
     - '!money.add 1h'
+    - '!quest.start verkohlte-lande.hauptquest.1-der-verrueckte-alchemist'

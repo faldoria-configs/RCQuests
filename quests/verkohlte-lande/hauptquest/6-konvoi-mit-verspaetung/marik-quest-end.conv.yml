@@ -1,0 +1,6 @@
+stages:
+  start:
+    actions:
+      flow:
+        - 'Ihr habt es geschafft, ohne euch wäre ich jetzt tot oder würde mich gegen meine eigenen Leute stellen. Jetzt können wir weiter. Sagt Famir, dass wir auf dem Weg sind.'
+        - '!objective.complete this.konvoi 4'

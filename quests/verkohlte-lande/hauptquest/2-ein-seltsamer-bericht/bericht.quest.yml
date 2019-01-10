@@ -1,0 +1,23 @@
+name: Ein seltsamer Bericht
+region: verkohlte-lande
+locked: false
+abortable: false
+authors:
+  - LilianaVess (SuQ)
+  - Silthus (QS)
+worlds:
+  - faldoria
+level: 8
+
+objectives:
+  '1':
+    name: 'Überbringe dem Armeeführer den Bericht'
+    desc: 'Bringt den Bericht des Alten zum Armeeführer des Jorgendder Lagers.'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../../npcs/armeefuehrer this.quest-start'
+
+complete-actions:
+  flow:
+    - '!quest.start ../3-hilfe-fuer-hauptmann-famir'
