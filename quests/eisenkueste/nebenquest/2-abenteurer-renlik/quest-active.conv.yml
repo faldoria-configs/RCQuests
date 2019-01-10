@@ -1,0 +1,7 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - 'Du lebst noch? War wohl der Weg zu steil oder der Schnee zu tief?'
+        - 'Sag bloß, da oben ist gar nichts mehr los?'
+        - 'Ist nicht so einfach mit der Orientierung, was?'

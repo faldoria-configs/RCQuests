@@ -1,0 +1,7 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - 'Haha, hahaha, was willst du hier?'
+        - 'Geh weg, du schaust noch so grün aus, dir kann ich nichts erzählen.'
+        - 'Weg mit dir, stör mich nicht.'

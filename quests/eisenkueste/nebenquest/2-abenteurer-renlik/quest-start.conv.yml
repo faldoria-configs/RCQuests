@@ -1,0 +1,35 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text.player "Was suchst du denn hier draußen in der Wildnis?"'
+        - 'Was ich hier suche? Das habe ich längst gefunden! Aber keine Lösung… keine Lösung…'
+        - '>"Wovon redest du?"'
+        - '!stage quest1'
+  
+  quest1:
+    text: 'Siehst du die hölzerne Ruine oben auf dem Berg Richtung Westen? Von dort aus ging es los, dort fing es an. Nicht, dass es einfach gewesen wäre überhaupt bis dorthin zu kommen, nein! Doch von da an fing es an wirklich schlimm zu werden!'
+    answers:
+      flow:
+        - ':"Ich hab genug von deinem wirren Geschwätz. Adieu."'
+        - '!end'
+        - ':"Ganz von vorn bitte, ich verstehe kein Wort."'
+        - '!stage details'
+
+  details:
+    actions:
+      flow:
+        - 'Als eine einfache Erkundungstour, eine gemütliche Expedition hatten sie es angepriesen! Nur bis zur Quelle und zurück. Nur die Götter wissen, was sie dort wollten, aber jedem wurde eine großzügige Belohnung versprochen… '
+        - '>"Eine Expedition zur Quelle des Flusses? Wer hat das denn veranlasst?"'
+        - 'Unwichtig, vollkommen unwichtig! Viel wichtiger ist, was jetzt dort ist, und dass alle außer mir das Zeitliche gesegnet haben!'
+        - '>"Was?? Was ist denn an dieser Quelle?"'
+        - '!stage quest-start'
+
+  quest-start:
+    text: 'Wenn ich das wüsste… sicher ist nur, dass meine langen Beine mich davor gerettet haben. Im Gegensatz zu all den anderen.'
+    answers:
+      flow:
+        - ':"Das klingt ja sehr gefährlich, ich denke ich halte mich da lieber raus."'
+        - '!end'
+        - ':"Na gut. Was immer an der Quelle haust, ich werde es unschädlich machen."'
+        - '!quest.start this.die-quelle'

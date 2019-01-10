@@ -1,0 +1,7 @@
+name: Die Quelle allen Übels
+type: blaze
+min-level: 5
+max-level: 7
+aggro: true
+passive: false
+elite: true

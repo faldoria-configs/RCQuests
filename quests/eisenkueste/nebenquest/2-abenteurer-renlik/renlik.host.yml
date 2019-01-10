@@ -1,0 +1,11 @@
+name: Abtenteurer Renlik
+disguise: Renlik
+location:
+  x: 3440
+  y: 125
+  z: -2816
+  world: faldoria
+equipment:
+  hand: fishing_rod
+traits:
+  - fishing
