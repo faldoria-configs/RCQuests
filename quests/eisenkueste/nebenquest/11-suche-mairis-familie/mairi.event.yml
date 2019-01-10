@@ -5,7 +5,7 @@ execution-count: 4
 
 actions:
   flow:
-    - '!text.think "*Du siehst Mairi auf's Meer hinausblicken, ihre Haltung zeigt dir, dass sie Kummer hat*"'
+    - '!text.think "*Du siehst Mairi aufs Meer hinausblicken, ihre Haltung zeigt dir, dass sie Kummer hat*"'
 
 requirements:
   flow:
