@@ -1,0 +1,8 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Einst hauste hier ganz in der Nähe ein Menschenfressender Wolf, doch ein tapferer Abenteurer soll ihn getötet haben…"'
+        - '!text "Endlich ist es hier wieder sicher…"'
+        - '!text "Ist der Tag nicht herrlich?"'
+        - '!text "Hallo Reisender! Ist es nicht ein wundervoller Tag?"'

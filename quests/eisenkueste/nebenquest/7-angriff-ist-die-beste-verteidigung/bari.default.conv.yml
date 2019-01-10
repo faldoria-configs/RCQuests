@@ -1,0 +1,5 @@
+stages:
+  start:
+    actions:
+      flow:
+        - 'Kümmere dich um deinen Kram!'

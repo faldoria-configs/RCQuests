@@ -1,0 +1,27 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '*mürrisch*  Bevor du auf Abenteuerreise gehst und in die schöne neue Welt aufbrichst, gäbe es eigentlich noch mehr Aufgaben, die du erledigen könntest. Es würde uns, die wir vorerst im Lager zurückbleiben müssen, das Leben etwas erleichtern. *Bari schielt etwas zu Marduk hinüber*'
+        - '>"*du schaust etwas erschrocken ob des Ausbruchs*  Aber gerne, was soll ich tun?"'
+        - 'Es gibt hier eine Höhle mit ein paar zwielichtigen Gestalten. Sie scheinen sich auf einen Kampf vorzubereiten.'
+        - '>"Einen Kampf?"'
+        - '*unwirsch*  Ja, einen Kampf! Und wir werden das Angriffsziel sein!'
+        - '>"Woher wollt Ihr das wissen?"'
+        - 'Das weiß ich aus Erfahrung! Wen bitteschön sollten sie wohl sonst als Ziel haben?Die Schimmerwölfe und Bergeisenkatzen? Es ist sonst niemand da, den sie angreifen könnten, außer wir! Außerdem habe ich gehört, dass ein gewisser junger Mann sie auf uns aufmerksam gemacht hat, als er sie bestohlen hat.'
+        - '>"Aber, aber.. *du schaust betroffen*  bringe ich sie da nicht noch mehr gegen usn auf? Wieso bereiten wir uns nicht darauf vor und verteidigen uns, wenn sie wirklich kommen? Dann müssen wir sie vielleicht nicht töten."'
+        - 'Weil wir nicht stark genug sind. Kaum einer kann hier kämpfen. Nur durch den Überraschungeffekt können wir die Schmuggler kriegen. Du musst dich anschleichen und einen nach dem anderen erledigen.'
+        - '>"Aus dem Hinterhalt"'
+        - '!stage quest'
+
+  quest:
+    text: 'Angriff ist die beste Verteidigung.'
+    answers:
+      flow:
+        - ':"Ich kann das nicht machen, ich wäre schon fast abgekratzt, als ich ur etwas von ihrem Stoff...ausleihen wollte. Du must jemand anderes fragen."'
+        - '!end'
+        - ':"Ich tu es, ich habe sie auf uns aufmerksam gemacht , jetzt muss ich auch helfen, das Camp sicherer zu machen, auch wenn es mir schwer fällt."'
+        - 'Nimm dir aus der Truhe die Waffe, um gegen sie gewappnet zu sein. Wo sie sic aufhalten, weißt du ja.'
+        - '>"Ja, ich muss in Richtung Südwesten gehen, dort im Fels ist eine Höhle, dort halten sich die Schmuggler auf."'
+        - 'Versuche den Anführer zu töten. Er trägt einen roten Hut. Den will ich sehen.'
+        - '!quest.start this.angriff'

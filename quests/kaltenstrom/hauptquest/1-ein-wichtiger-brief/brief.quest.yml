@@ -1,0 +1,15 @@
+name: Ein wichtiger Brief
+region: kaltenstrom
+locked: false
+abortable: false
+authors:
+  - LilianaVess (SuQ)
+  - Silthus (QS)
+worlds:
+  - faldoria
+level: 10
+
+objectives:
+  '1':
+    name: 'Bringt Famirs Brief nach Kaltenstrom'
+    auto-complete: false

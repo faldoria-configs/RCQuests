@@ -1,0 +1,7 @@
+name: Schmuggler
+type: skeleton
+disguise: Eisenschmuggler
+aggro: true
+passive: false
+min-level: 5
+max-level: 7

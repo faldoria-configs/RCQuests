@@ -1,0 +1,17 @@
+stages:
+  start:
+    text: 'Was macht ihr hier in den verkohlten Landen?'
+    answers:
+      flow:
+        - ':"Ich bin nur auf der Durchreise."'
+        - 'Dann nehmt euch in Acht, diese Lande sind gefährlich!'
+        - '!end'
+        - '?quest.active this.famir'
+        - ':"Der Armeeführer hat mich geschickt euch zu helfen."'
+        - 'Ihr kommt mir sehr gelegen, wir könnten eure Hilfe gut gebrauchen.'
+        - '>"Was kann ich tun?"'
+        - 'Ein Stück die Straße entlang werdet ihr auf eine alte Ruine treffen, dort haben sich einige widerliche Kreaturen versteckt, sie haben schon drei meiner Männer getötet. Bringt mir den Kopf ihres Anführers und ich spieße ihn auf diese Mauer.'
+        - '~5s'
+        - '>"Ich bringe euch seinen Kopf!"'
+        - '!objective.complete this.famir 1'
+        - '!quest.start ../4-um-kopf-und-kragen'

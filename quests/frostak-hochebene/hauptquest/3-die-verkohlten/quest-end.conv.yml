@@ -1,0 +1,25 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "...noch etwas hiervon… …oh, interessant… ...wenn ich jetzt… ...nein..."'
+        - '>"Ähm, hallo? Was tut ihr da?"'
+        - '!stage quest'
+
+  quest:
+    text: 'Ich untersuche den Boden auf seine Zusammensetzung. ...ein winziges bisschen davon… Doch viel wichtiger ist, was macht ihr hier in diesem Tal?'
+    answers:
+      flow:
+        - ':"Ich bin auf der Jagd nach Monstern!"'
+        - 'Ah, also wieder so ein übereifriger Krieger auf der Suche nach Ehre. Ihr habt doch bestimmt Zeit einem alten Mann zu helfen, oder?'
+        - '!stage quest-start'
+        - ':"Ich sammle Informationen über dieses Gebiet!"'
+        - 'Oh, endlich mal jemand, der seinen Wissensdurst auch nicht stillen kann. Könnet ihr mir bei etwas helfen?'
+        - '!stage quest-start'
+
+  quest-start:
+    answers:
+      flow:
+        - ':"Ich helfe wo ich kann!"'
+        - 'Ich benötige ein paar dieser roten Pflanzen, die überall wachsen und etwas Lavagestein. Doch passt auf die Monster auf! ...wenn das hierhin… '
+        - '!quest.complete this.die-verkohlten'

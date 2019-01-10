@@ -1,0 +1,12 @@
+stages:
+  start:
+    text: 'Habt ihr den Gegner bezwungen?'
+    answers:
+      flow:
+        - ':"Nein, ich muss mich noch vorbereiten."'
+        - 'Dann beeilt euch! Ich möchte nicht noch mehr Männer verlieren.'
+        - '?item this.kopf'
+        - ':"Ja, hier habt ihr seinen Kopf!"'
+        - '!item.remove this.kopf'
+        - 'Ich danke euch vielmals! Dies wird sie hoffentlich erst einmal abschrecken.'
+        - '!quest.complete this.kopf'

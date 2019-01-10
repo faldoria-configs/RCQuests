@@ -1,0 +1,34 @@
+persistant: true
+stages:
+  start:
+    actions:
+      flow:
+        - 'Was wünscht ihr?'
+        - '>"Ich soll euch einen Brief von dem verwirrten Alten vor dem Lager überbringen."'
+        - '!item.remove ../1-der-verrueckte-alchemist/bericht'
+        - '!item.remove ../1-der-verrueckte-alchemist/items.flaeschchen'
+        - 'Ich danke euch, braucht der Alte Alchemist wieder etwas von seinen berauschenden Kräutern?'
+        - '>"Berauschende Kräuter?"'
+        - 'Ja, er nimmt haufenweise davon zu sich, anscheinend bringen sie ihn manchmal etwas durcheinander. Aber das scheint ihr ja schon selbst erlebt zu haben, dem Knall nach zu urteilen.'
+        - '!stage dialoge'
+
+  dialoge:
+    answers:
+      flow:
+        - ':"Wer ist dieser Alte?"'
+        - 'Ein Magister der Alchemie und ein sehr guter noch dazu. Wenn er nicht so viele Kräuter kauen würde.'
+        - '!stage dialoge'
+        - ':"Warum lagert die Armee hier am Rand des Tals?"'
+        - 'Wie ihr vielleicht bemerkt habt geht es hier nicht mit rechten Dingen zu. Die Magier, die in der Zitadelle im Osten lebten haben sich wieder einmal mit Mächten auseinandergesetzt, die sie nicht kontrollieren konnten. Und nun seht ihr was daraus hervorgegangen ist. Nichts als Leid und Elend.'
+        - '!stage dialoge'
+        - ':"Woher kommen diese ekelhaften Kreaturen?"'
+        - 'Sie kommen  aus einem Portal nicht weit von hier, doch niemand weiß wo dieses Portal hinführt.'
+        - '!stage dialoge'
+        - ':"Wie geht es jetzt weiter?"'
+        - '!stage next-quest'
+
+  next-quest:
+    actions:
+      flow:
+        - 'Nun muss ich aber weitermachen, meldet euch beim gehen nochmal bei dem Alten. Und wenn ihr schon auf dem Weg seid, schaut auch mal bei Hauptmann Famir vorbei, er kann bestimmt eure Hilfe gebrauchen.'
+        - '!quest.complete this.bericht'

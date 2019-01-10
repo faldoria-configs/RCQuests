@@ -1,0 +1,12 @@
+stages:
+  start:
+    actions:
+      flow:
+        - 'Da bist du ja wieder! Hast du die Beeren?'
+        - '>"Ja, sie wachsen tatsächlich oben im Wald."'
+        - '!item.remove this.items.magus-beere 4'
+        - '!item.remove this.items.weisse-beere 6'
+        - '!quest.complete this.beeren'
+        - 'Warte etwas, dann kannst du gleich mal probieren....  Oh nein!.....  Ich fürchte das geht so nicht.'
+        - '>"Wieso, was ist los?"'
+        - '!conv.start ../adanion ../2-fleisch-macht-es-besser/quest-start'

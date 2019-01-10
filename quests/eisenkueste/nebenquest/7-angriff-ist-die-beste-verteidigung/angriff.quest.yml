@@ -1,0 +1,52 @@
+name: Angriff ist die beste Verteidigung
+region: eisenkueste
+locked: false
+abortable: true
+authors:
+  - TheFum (QS)
+  - Silthus (QD)
+worlds:
+  - faldoria
+level: 6
+
+requirements:
+  flow:
+    - '?quest.complete eisenkueste.hauptquest.1-was-ist-passiert'
+    - '?quest.complete eisenkueste.hauptquest.2-reparaturarbeiten'
+
+default-convs:
+  active:
+    convs:
+      - 'this.bari:this.quest-active'
+  completed:
+    convs:
+      - 'this.bari:this.quest-completed'
+
+trigger:
+  flow:
+    - '@quest.completed eisenkueste.hauptquest.2-reparaturarbeiten'
+    - '!conv.start this.bari this.quest-start'
+    - '@host.interact this.bari this.quest-start'
+
+objectives:
+  '1':
+    name: 'Verteidige das Lager gegen die Schmuggler'
+    desc: 'Geh in Richtung Südwesten, dort im Fels ist eine Höhle, dort sollten sich die Schmuggler aufhalten.'
+    tasks:
+      '1':
+        name: 'Töte 15 Eisen Schmuggler'
+        trigger:
+          flow:
+            - '@mob.kill(count:15,count-text:"%current% von %count% Schmuggler getötet.") this.schmuggler'
+      '2':
+        name: 'Erbeute den roten Hut des Anführers'
+        trigger:
+          flow:
+            - '@item.pickup this.roter-hut'
+    
+  '2':
+    name: 'Bringe den roten Hut des Anführers zu Bari'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact this.bari this.quest-end'

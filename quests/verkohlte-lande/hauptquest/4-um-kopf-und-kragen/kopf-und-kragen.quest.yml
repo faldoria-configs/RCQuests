@@ -1,0 +1,35 @@
+name: Um Kopf und Kragen
+region: verkohlte-lande
+locked: false
+abortable: false
+authors:
+  - LilianaVess (SuQ)
+  - Silthus (QS)
+worlds:
+  - faldoria
+level: 8
+
+default-convs:
+  active:
+    convs:
+      - '../../npcs/famir:this.quest-end'
+
+objectives:
+  '1':
+    name: 'Töte den Anführer der Monster'
+    desc: 'Töte soviele Monster bis der Anführer erscheint und bringe den Kopf des Anführers zu Hauptmann Famir.'
+    trigger:
+      flow:
+        - '@item.pickup this.kopf'
+
+  '2':
+    name: 'Überbringe Famir den Kopf'
+    desc: 'Bringt den Kopf des Monster Anführers zu Hauptmann Famir.'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../../npcs/famir this.quest-end'
+
+complete-actions:
+  flow:
+    - '!conv.start ../../npcs/famir ../5-trophaeen/quest-start'

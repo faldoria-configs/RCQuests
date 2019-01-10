@@ -1,0 +1,12 @@
+stages:
+  start:
+    actions:
+      flow:
+        - 'Hast du die Bande getötet und den Hut?'
+        - '>"Hier ist der rote Hut. Ich habe alle getötet, die sich mir in den Weg gestellt haben."'
+        - '!item.remove this.roter-hut'
+        - 'In den Weg gestellt?'
+        - '>"Alle, die ich gesehen habe."'
+        - 'Nun gut, nimm dies als Belohnung, dass du über deinen Schatten gesprungen bist. Die Leute werden dir dankbar sein, dass sie wieder friedlich schlafen können und sich keine Gedanken mehr machen müssen.'
+        - '!quest.complete this.angriff'
+        - '>"Dankeschön"'

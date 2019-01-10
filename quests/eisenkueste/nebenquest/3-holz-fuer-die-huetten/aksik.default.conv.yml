@@ -1,0 +1,5 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - 'Solltest du nicht erst mit dem Hauptmann reden?'

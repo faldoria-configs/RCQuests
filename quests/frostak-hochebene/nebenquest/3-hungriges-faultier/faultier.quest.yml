@@ -44,15 +44,44 @@ objectives:
         trigger:
           flow:
             - '@host.interact ../../npcs/tjorben this.tjorben-kein-bier'
+
   '2':
-    name: 'Überbringe Rolf die gute Nachricht'
-    auto-complete: false
+    name: 'Sammle 7 Knochenmark'
+    desc: Besorgt von den Tieren im Umkreis von Jarmundshain 7 Knochenmark und bringt es zur Frau von Tjorben.
+    auto-complete: true
+    default-convs:
+      completed:
+        convs:
+          - '../../npcs/anke:this.anke-quest-active'
+          - '../../npcs/tjorben:this.tjorben-quest-active'
     trigger:
       flow:
-        - '@host.interact ../../npcs/rolf this.quest-end'
+        - '@item.pickup(count:7,count-text:"%current% von %count% Knochenmark gesammelt.") this.knochenmark'
+
+  '3':
+    name: 'Bringe das Knochenmark zur Frau von Tjorben'
+    auto-complete: false
+    default-convs:
+      completed:
+        convs:
+          - '../../npcs/tjorben:this.tjorben-quest-active'
+    trigger:
+      flow:
+        - '@host.interact ../../npcs/anke this.anke-quest-end'
+
+  '4':
+    name: 'Bringe Tjorben die Suppe.'
+    auto-complete: false
+    default-convs:
+      completed:
+        convs:
+          - '../../npcs/anke:this.anke-suppe-active'
+    trigger:
+      flow:
+        - '@host.interact ../../npcs/tjorben this.tjorben-quest-end'
 
 complete-actions:
   flow:
     - '!item.remove "Leeres Papier" 1'
     - '!item.add this.zettel'
-    - '!tag.increase frostak-hochebene.vinnans-hilfe.nachweise'
+    - '!tag frostak-hochebene.vinnans-hilfe.nachweise'

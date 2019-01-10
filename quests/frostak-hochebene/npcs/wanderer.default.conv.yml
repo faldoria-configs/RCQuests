@@ -1,0 +1,7 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Habt ihr schon gehört? In diesen Wäldern lebt ein riesiger Wolf, der die Schafe aus Jarmundshain tötet…"'
+        - '!text "Seid vorsichtig! Hier treibt sich ein wilder Wolf herum!"'
+        - '!text "Seid auf der Hut, diese Wälder sind nicht mehr sicher… hier treibt sich ein Wolf herum!"'

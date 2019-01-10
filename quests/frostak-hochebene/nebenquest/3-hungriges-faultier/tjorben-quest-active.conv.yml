@@ -1,0 +1,9 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Uh dasch ging nu schnell..  wo iss denn de Suppe?"'
+        - '>"Welche Suppe?"'
+        - '!text "Wollest du nich Knochenmark zu meiner Frau bringen? Die macht herrliche Suppe."'
+        - '>"Achja..  rechte Brücken und so."'
+        - '!text "Ja, nach der Brücke rechts, bis später."'

@@ -1,0 +1,48 @@
+name: Holz für die Hütten
+region: eisenkueste
+locked: false
+abortable: true
+authors:
+  - TheFum (QS)
+  - Silthus (QD)
+worlds:
+  - faldoria
+level: 5
+
+requirements:
+  flow:
+    - '?quest.complete eisenkueste.hauptquest.1-was-ist-passiert'
+
+default-convs:
+  active:
+    convs:
+      - 'this.aksik:this.quest-active'
+  completed:
+    convs:
+      - 'this.aksik:this.quest-completed'
+
+trigger:
+  flow:
+    - '@host.interact this.akisk this.quest-start'
+
+objectives:
+  '1':
+    name: 'Sammle am Strand 10 Holzbretter und 10 Wolle.'
+    tasks:
+      '1':
+        name: '10 Holzbretter'
+        trigger:
+          flow:
+            - '@item.pickup(count:10,count-text:"%current% von %count% Holzbretter gesammelt.") this.items.holzbrett'
+      '2':
+        name: '10 Wolle'
+        trigger:
+          flow:
+            - '@item.pickup(count:10,count-text:"%current% von %count% Wolle gesammelt.") this.items.wolle'
+    
+  '2':
+    name: 'Kehre zu Zimmermann Akisk zurück.'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact this.aksik this.quest-end'

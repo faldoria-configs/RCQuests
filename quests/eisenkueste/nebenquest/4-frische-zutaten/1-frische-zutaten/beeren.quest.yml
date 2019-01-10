@@ -1,0 +1,44 @@
+name: Frische Zutaten
+region: eisenkueste
+locked: false
+abortable: true
+authors:
+  - TheFum (QS)
+  - Silthus (QD)
+worlds:
+  - faldoria
+level: 5
+
+requirements:
+  flow:
+    - '?quest.complete eisenkueste.hauptquest.1-was-ist-passiert'
+
+trigger:
+  flow:
+    - '@host.proximity(cooldown:5m) ../adanion'
+    - '!text "Hallo, du da, kannst du kurz mal herkommen?" Adanion'
+    - '@host.interact ../adanion this.quest-start'
+
+objectives:
+  '1':
+    name: 'Sammle im Wald 4 Magus-Beeren und 6 weiße Beeren.'
+    tasks:
+      '1':
+        name: '4 Magus-Beeren'
+        trigger:
+          flow:
+            - '?item this.items.magus-beere 4'
+            - '@item.pickup this.items.magus-beere'
+      '2':
+        name: '6 weiße Beeren'
+        trigger:
+          flow:
+            - '?item this.items.weisse-beere 6'
+            - '@item.pickup this.items.weisse-beere'
+    
+  '2':
+    name: 'Bringe die Beeren zu Adanion.'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../adanion this.quest-end'

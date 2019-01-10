@@ -1,0 +1,14 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!stage dialog'
+        - 'Schon fertig? Nein, das reicht nicht, such noch weiter!'
+        - 'Kannst du nicht zählen? Du hast viel zu wenig!'
+
+  dialog:
+    actions:
+      flow:
+        - 'Hast du schon alles zusammen?'
+        - '>"Ich hoffe der Hauptmann wird nicht noch zorniger, denn ich habe das Material noch nicht."'
+        - 'Dann beeil dich bitte.'

@@ -1,0 +1,23 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text.player "Ja? Brauchst du Hilfe bei etwas?"'
+        - 'Ja, denn ich habe viel zu tun, weil ich ein kleines Mahl herrichten soll.'
+        - '>"Und wo liegt das Problem?"'
+        - 'Mir sind die frischen Zutaten ausgegangen und nun kann ich nichts Gutes kochen.'
+        - '>"Wieso besorgst du nicht einfach einige Zutaten?"'
+        - 'Ich kenne mich hier noch nicht allzu gut aus und ich muss ja mit dem was wir haben, schon mal anfangen.'
+        - '>"Dann genüge dich doch mit dem was da ist."'
+        - '!stage quest'
+
+  quest:
+    text: 'Wir brauchen aber bessere Nahrung. Vor allem die Alten und die Kinder brauchen frische Nahrung.'
+    answers:
+      flow:
+        - ':"Vielleicht kann dir jemand anderes helfen."'
+        - 'Schade.'
+        - '!end'
+        - ':"Was brauchst du genau?"'
+        - 'Mein Eintopf benötigt einige [Weiße Beeren], aber auch einige [Magus-Beeren]. Ich hoffe sie wachsen hier überhaupt. Im Wald wirst du wohl am ehesten fündig.'
+        - '!quest.start this.beeren'

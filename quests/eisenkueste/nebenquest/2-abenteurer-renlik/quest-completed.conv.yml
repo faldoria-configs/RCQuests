@@ -1,0 +1,6 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - 'Ist die Gegend so schön, dass du wiederkommst, oder hast du mich vermisst?'
+        - 'Ah, der Monsterkiller! Auf der Sche nach neuen Opfern?'

@@ -1,0 +1,19 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '>"Mairi, was ist los mit dir?"'
+        - '!npc.emote *versucht ein Schluchzen zu unterdrücken*'
+        - 'Meine Kinder, mein Mann, sie sind nicht hier… sie sind bestimmt tot. Wir waren alle auf dem Schiff, aber nun sind sie… nicht da.'
+        - '>"Aber du hast sie nicht gefunden, ich meine, hast du ihre Leichen gesehen?"'
+        - 'Nein…'
+        - '>"Nun, siehst du, vielleicht sind sie woanders angespült worden, du darfst die Hoffnung nicht aufgeben."'
+        - 'Meinst du? Glaubst du das wirklich? Ich bin schon die Eisenküste rauf und runtergelaufen, soweit ich konnte, aber da habe ich sie nicht gesehen. Kannst du nach ihnen Ausschau halten?'
+        - '>"Ja klar, ich komme ja etwas weiter rum. Ich halte die Augen offen. Wenn ich sie hier an der Eisenküste nicht finde, dann vielleicht anderswo."'
+        - 'Du weiß noch, wie sie heißen? Antosh und Irgrid sind meine Kinder, Arim heißt mein Mann. Nur, wie und wo treffe ich dich wieder?'
+        - '>"Das weiß ich auch nicht, aber wenn ich sie sehe, dann kann ich ihnen sagen, dass du lebst. Irgendwann komme ich zurück - oder ihr fahrt alle mit dem Ballon ins Landesinnere wie ich."'
+        - '!quest.start this.mairis-familie'
+        - '!npc.emote "*sieht jetzt etwas zuversichtlicher aus*"'
+        - 'Ich bin so froh, dass du mir hilfst. Ich danke dir!'
+        - '>"Ist doch klar, warum sollte ich das nicht tun?"'
+        - '!conv.start eisenkueste.npcs.mairi ../12-heilpflanzen-fuer-mairi/quest-start'

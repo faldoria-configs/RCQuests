@@ -1,0 +1,5 @@
+stages:
+  start:
+    actions:
+      flow:
+        - 'Hast du etwa schon etwas erfahren?'

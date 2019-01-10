@@ -1,0 +1,42 @@
+name: Die Quelle allen Übels
+region: eisenkueste
+locked: false
+abortable: true
+authors:
+  - TheFum (QS)
+  - Silthus (QD)
+worlds:
+  - faldoria
+level: 5
+
+default-convs:
+  active:
+    convs:
+      - 'this.renlik:this.quest-active'
+  completed:
+    convs:
+      - 'this.renlik:this.quest-completed'
+
+trigger:
+  flow:
+    - '@host.interact this.renlik this.quest-start'
+
+objectives:
+  '1':
+    name: 'Finde die Quelle des Flusses'
+    desc: 'Finde die Quelle des Flusses und gehe dem Tod der Expeditionsmitglieder auf den Grund.'
+    trigger:
+      flow:
+        - '@loc this.die-quelle'
+  '2':
+    name: 'Vernichte die Quelle allen Übels'
+    trigger:
+      flow:
+        - '@rcmobs.mob.kill this.die-quelle-allen-uebels'
+  '3':
+    name: 'Kehre zu Renlik zurück'
+    desc: 'Kehre zu Renlik zurück und erzähle ihm, was du gefunden hast.'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact this.renlik this.quest-end'

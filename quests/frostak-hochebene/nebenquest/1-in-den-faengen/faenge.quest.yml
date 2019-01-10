@@ -13,6 +13,8 @@ default-convs:
   completed:
     convs:
       - '../../npcs/rolf:this.quest-completed'
+      - '../../npcs/wanderer:this.wanderer-quest-completed'
+      - '../../npcs/reisender:this.reisender-quest-completed'
 
 requirements:
   flow:
@@ -44,4 +46,4 @@ complete-actions:
   flow:
     - '!item.remove "Leeres Papier" 1'
     - '!item.add this.zettel'
-    - '!tag.increase frostak-hochebene.vinnans-hilfe.nachweise'
+    - '!tag frostak-hochebene.vinnans-hilfe.nachweise'

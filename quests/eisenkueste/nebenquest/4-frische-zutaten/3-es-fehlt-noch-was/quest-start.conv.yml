@@ -1,0 +1,9 @@
+stages:
+  start:
+    text: 'Ich brauche noch eine kleine Ration meiner Spezialzutat. Ich würze meinen Eintopf immer noch mit einigen Pilzen. Wenn du mir die noch beschaffst, bekommst du für deine Mühen auch etwas!'
+    answers:
+      flow:
+        - ':"Jetzt reicht es aber wirklich, ich habe jetzt was anderes zu tun."'
+        - '!end'
+        - ':"Na gut, ich bin ja eine geduldige Person..."'
+        - '!quest.start this.pilze'

@@ -1,0 +1,5 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - 'Schnell, beeilt euch!'

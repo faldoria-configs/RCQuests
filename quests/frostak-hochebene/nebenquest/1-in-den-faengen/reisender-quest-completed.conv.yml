@@ -1,0 +1,8 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Wusstet ihr, dass hier ein menschenfressender Wolf lebte?"'
+        - '!text "Habt ihr schon gehört, dass der Wolf von einem tapferen Reisenden getötet wurde?"'
+        - '!text "Noch ein Bier bitte!"'
+        - '!text "Mmm… so Lob ich mir das Trinken!"'

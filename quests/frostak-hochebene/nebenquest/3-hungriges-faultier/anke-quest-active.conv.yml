@@ -1,0 +1,6 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Raus aus meiner Küche!"'
+        - '>"Irgendwas wollte ich hier..."'

@@ -1,0 +1,5 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - 'Immer noch da? Schau, dass du weiter kommst.'

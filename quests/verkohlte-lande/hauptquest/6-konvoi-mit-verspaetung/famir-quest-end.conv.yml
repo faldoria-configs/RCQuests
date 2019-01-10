@@ -1,0 +1,13 @@
+stages:
+  start:
+    text: 'Habt ihr sie gefunden?'
+    answers:
+      flow:
+        - ':"Noch nicht."'
+        - 'Dann beeilt euch bitte!'
+        - '!end'
+        - '?objective.complete this.konvoi 4'
+        - ':"Ja, sie sind gerade auf dem Weg."'
+        - 'Geht es allen gut? Warum haben sie so lange gebraucht?'
+        - '>"Es geht allen gut, Marik wurde von einem feindlichen Magier angegriffen, doch wir konnten ihn besiegen."'
+        - '!quest.complete this.konvoi'

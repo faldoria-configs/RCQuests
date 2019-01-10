@@ -1,0 +1,38 @@
+stages:
+  start:
+    text: 'Da bist du ja wieder, <Name des Spielers>, hast du alles gefunden, was ich brauche?'
+    answers:
+      flow:
+        - ':"Ja, das war gar nicht so schwierig, es waren auch fast keine Wölfe unterwegs. Das sind sie."'
+        - '!item.remove this.items.farn 7'
+        - '!item.remove this.items.orchidee 7'
+        - 'Wunderbar! Ich danke dir. Die Wölfe sind auch noch ein Grund, warum ich nicht so gerne in den Wald gehe, ich muss mich erst daran gewöhnen, dass Kräuter sammeln jetzt gefährlich sein kann.'
+        - '~10s'
+        - 'Aber nun zeig mal deinen Kopf her.'
+        - '>"*du beugst dich zu Mairi hinunter und sie säubert deine Wunde, legt einige der frischen Kräuter drauf und verbindet sie."'
+        - 'Es gibt zwar feinere Methoden, so eine Wunde zu verbinden, Bandagen, die an der Haut kleben, aber sowas haben wir jetzt hier nicht. So, jetzt bin ich fertig, jetzt kommst du dran.'
+        - '~10s'
+        - 'Jetzt zeige ich dir, wie du mein Bein verbinden musst, dann kannst du es später, wenn du es brauchen solltest, für dich oder einen Kameraden.'
+        - '~8s'
+        - '!npc.emote "Mairi setzt sich hin, zieht ihren Rock hoch und streckt dir ihr Bein hin.""'
+        - '~5s'
+        - '!stage step1'
+
+  step1:
+    text: 'Als erstes nimmst du ein sauberes Tuch, feuchtest es etwas mit sauberem Wasser an, oder noch besser Kamillentee, wenn du den hast und entfernst den größten Schmutz aus der Wunde und außenrum. Auch angetrocknetes Blut, aber sei sehr vorsichtig und achtsam.'
+    answers:
+      flow:
+        - ':"Den Anweisungen folgen und das Bein von Mairi säubern."'
+        - '!stage step2'
+  
+  step2:
+    text: 'Als nächstes legst du die Blätter des Farns drauf. Es wäre gut, wenn du die Blätter vorher etwas klopfst, damit der Saft austreten kann, aber notfalls geht es auch so. Ja, du machst das gut! Und jetzt kommen die sauberen Tücher rum, irgendwelche fusselfreien Stoffe sind gut, Leinen z.B. Fange unten am Knöchel an und wickle das Tuch um das Bein, so dass die Stoffbahnen sich etwas überlappen. Ja, genau so! Immer auf das Herz zuwickeln. Zum Schluß kommt dann als Schutz eine etwas gröberer Stoff herum, oder auch ein dünnes Leder, so dass das Bein Luft bekommt. Die letzte Lage musst du dann mit Schnüren vorsichtig festbinden, so dass es geradeso hält, nicht zu fest. Natürlich sollte ich jetzt nicht laufen. Wenn es nicht zu umgehen ist, kannst du auch einen Strumpf drüberziehen, so dass alles hält. Das werde ich jetzt wohl tun müssen.'
+    answers:
+      flow:
+        - ':"Verbinde Mairis Bein. [Neuer Skill: Bandage I]"'
+        - 'Danke %player% das hast du gut gemacht, jetzt hast du schon eine kleine Ahnung von der Heilkunst!'
+        - '!skill.add bandage-1'
+        - '~7s'
+        - 'Hier, nimm als Dankeschön von mir einige fertig geschnittene und aufgewickelte Bandagen. Es wäre gut, wenn du immer einige dabei hast, denn wenn du sie brauchst, hast du nicht immer gleich eine zur Hand. Sonst musst du Streifen von deiner Kleidung reißen.'
+        - '!text.info "Mairi lacht dich jetzt an und du freust dich mit ihr."'
+        - '!quest.complete this.heilpflanzen'

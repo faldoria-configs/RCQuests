@@ -1,0 +1,29 @@
+name: Hilfe für Hauptmann Famir
+region: verkohlte-lande
+locked: false
+abortable: false
+authors:
+  - LilianaVess (SuQ)
+  - Silthus (QS)
+worlds:
+  - faldoria
+level: 8
+
+objectives:
+  '1':
+    name: 'Sprich mit Hauptmann Famir'
+    desc: 'Sprecht mit Hauptmann Famir Steinhaupt auf der Straße vor dem Jorgendder Lager Richtung Osten.'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../../npcs/famir this.famir.default'
+
+  '2':
+    name: 'Helfe Hauptmann Famir'
+    desc: 'Erledigt die Aufträge, die Famir euch gibt.'
+    auto-complete: false
+
+complete-actions:
+  flow:
+    - '!item.add this.brief'
+    - '!quest.start kaltenstrom.hauptquest.1-ein-wichtiger-brief'

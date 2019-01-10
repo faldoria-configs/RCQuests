@@ -1,0 +1,7 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Ja, was ist denn noch?"'
+        - '>"Was sollte ich nochmal tun?"'
+        - '!text "Schaff diese Suppe aus meiner Reichweite, ich kann sie nicht mehr sehen. Tjorben ist sicherlich in der Kneipe, es ist das zweitgrößte Haus auf der anderen Seite des Flusses."'

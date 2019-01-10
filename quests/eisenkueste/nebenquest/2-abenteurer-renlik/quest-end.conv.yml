@@ -1,0 +1,11 @@
+stages:
+  start:
+    actions:
+      flow:
+        - 'Was hast du gefunden? Den Tod nicht, aber was war es dann?'
+        - '>"Ich denke ich möchte nicht wissen, was die Leiter dieser seltsamen Expedition dort getrieben haben, aber ich glaube, sie führten nichts Gutes im Schilde. Dort war ein Wesen, das ich noch nie zuvor gesehen habe. Es bestand aus Feuer und schien von einer magischen Aura umgeben zu sein. Ich konnte es aber trotzdem mit meinen Waffen besiegen."'
+        - 'Ha! Gedacht hab ich’s mir! Dunkle Magie, Beschwörungen… Renlik hat’s gewusst, da ist was faul.'
+        - '>"Wer waren denn nun deine Auftraggeber?"'
+        - 'Auch wenn die jetzt tot sind, denke ich nicht, dass ich dir das sagen werde… manchmal ist Wissen eben nicht nur Macht. Naja, du sollst jedenfalls nicht leer ausgehen. Etwas mehr als einen Gefallen, das wär schon was. Hmmm… Hier, das hab ich mir von einem der Expeditionsleiter.. ähm … ausgeliehen. Brauchen tut er’s jetzt wohl nicht mehr, hihihi...'
+        - '!quest.complete this.die-quelle'
+        - '>"Danke. Ich verschwinde jetzt besser..."'

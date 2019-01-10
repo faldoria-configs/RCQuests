@@ -1,0 +1,22 @@
+name: Bericht des Alchemisten
+type: QUEST
+item: written_book
+book:
+  name: Aufzeichnungen des Magisters Bras Hohlstein an den Magisterrat in Kaltenstrom
+  author: Bras Holstein
+# Nachdem meine Utensilien herbeigeschafft worden waren, machte ich mich daran, die Erde in diesem Gebiet gründlich zu untersuchen. Einige der Bestandteile sind mir wohlbekannt, andere wiederum sind mir vollkommen neu. 
+# Eine dieser unbekannten Substanzen ist ein grünlicher Schleim, der an einigen Stellen aus dem Boden austritt. 
+# Anbei liegt eine Probe dieser Substanz, in einem verstärktem Glas, da sie auf einige Flüssigkeiten explosiv reagiert und zudem noch leicht entzündlich ist, wie ich selbst feststellen musste.
+
+# Ich denke ich werde noch einige Zeit brauchen, bis ich alles gefunden habe, was in diesem Boden enthalten ist. Ich bitte daher um Zustellung einiger weiterer Materialien:
+# -zwei Reagenzgläser
+# -ein Rundkolben 
+# -eine Elle Kuhdarm, da die Schweinedärme nicht als Schläuche taugen
+# -ein paar Spinnenaugen 
+# Und ein Vergrößerungsglas in hoher Qualität
+
+# Wenn möglich auch einen Novizen  (für etwas gefährlichere Experimente)
+
+
+# Vielen Dank
+# Bras Hohlstein

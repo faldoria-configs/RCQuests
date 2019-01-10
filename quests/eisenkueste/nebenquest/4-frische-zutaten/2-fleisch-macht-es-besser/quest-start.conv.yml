@@ -1,0 +1,19 @@
+stages:
+  start:
+    actions:
+      flow:
+        - 'Das Aroma stimmt nicht! So etwas kann ich nicht servieren! Das geht nicht. Du musst mir noch ein paar andere Dinge besorgen.'
+        - '>"Was brauchst du denn noch?"'
+        - '!stage quest'
+
+  quest:
+    text: 'Ich glaube, ein wenig Fleisch würde dem ganzen eine würzige Note geben. Besorg mir doch ein wenig Fisch und etwas [Kiesflohfleisch].'
+    answers:
+      flow:
+        - ':"NEIN, besorg dir deinen Kram selbst!'
+        - 'Ich hätte mehr von jemandem wie dir erwartet!"'
+        - '!end'
+        - ':"Na gut, ich bringe dir das auch noch…"'
+        - '!quest.start this.fleisch'
+        - 'Ausgezeichnet!'
+        - '!end'

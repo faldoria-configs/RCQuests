@@ -1,0 +1,40 @@
+stages:
+  start:
+    text: 'Sag, wie geht es dir, %player%?'
+    answers:
+      flow:
+        - '?tag ankanor.event.survivor'
+        # Spieler ist auf Ankanor gestorben
+        - '-:"Nun, gut, wenn man bedenkt, dass ich den Weg auf’s Schiff fast nicht geschafft habe. So ein Mann von Agnatus hat mich niedergeschlagen und für tot zurückgelassen. Aber irgendjemand muss mich mit auf das Schiff geschleift haben, sonst wäre ich nicht hier. So habe ich nur diese Beule und Platzwunde als Erinnerung."'
+        - '+:"Gut, wenn man bedenkt, wie knapp ich dem Tod auf Ankanor entkommen bin und dann noch den Sturm und das Auseinanderbrechen des Schiffes überlebt habe. Mir ist nur die Beule und Platzwunde am Kopf als Erinnerung geblieben."'
+
+  verwundet:
+    actions:
+      flow:
+        - 'Lass mal sehen, zeig mir deinen Kopf…'
+        - '~2s'
+        - '!emote "*Du beugst dich und zeigst ihr deinen Kopf mit der Beule und Platzwunde*"'
+        - '~5s'
+        - 'Oh, das sieht aber nicht schön aus. Da ist Dreck hineingekommen, das sollte ich behandeln, es eitert etwas. So eine Wunde am Kopf kann gefährlich werden.'
+        - '>"Eiter? *Panik!* Was kann man ich dagegen tun?"'
+        - 'Nichts, abwarten und hoffen, dass es nicht schlimmer wird. Was aber helfen würde, wäre eine bestimmte Pflanze. Ich weiß nicht, ob die hier wächst. Die zieht das Eiter aus der Wunde.'
+        - '>"Ich könnte ja versuchen, sie zu finden."'
+        - 'Ja, das wäre sehr gut, ich kann nämlich nicht gut laufen, ich habe eine Verletzung am Bein.'
+        - '~6s'
+        - '!npc.emote "*hebt ihren Rock etwas und zeigt dir ihr übel zugerichtetes Bein.*"'
+        - '>"Oh, das sieht ja schrecklich aus. Sag mir schnell, was ich suchen soll."'
+        - '!stage quest'
+
+  quest:
+    text: 'Die grüne, farnähnliche Pflanze, die zwischen den Bäumen wächst. Was ich aber genauso dringend bräuchte wäre ein Heilmittel gegen etwas viel Gefährlicheres. Über Husten und Halsweh klagen schon so viele und ich habe Angst, dass es bei einigen zu einer Lungenentzündung kommen könnte. Das wäre sehr schlimm, sie kann zum Tod führen. Wir sind das kalte Wetter hier einfach nicht gewohnt. *schaut resigniert* Schau mal, ob du die blaue Heilorchidee findest, die wäre eine mächtige Verbündete gegen viel Krankheiten. Allerdings wächst sie sicherlich nicht an der Küste, du müsstest sie schon in höher gelegenen Gebieten suchen. Könntest du das tun?'
+    answers:
+      flow:
+        - ':"Tut mir leid Mairi, ich habe grade keine Zeit, jetzt in den Wald zu gehen, ich habe noch so viele andere Aufgaben."'
+        - 'Schade, aber vielleicht klappt es ja später. Ich bräuchte auch jemand, der mein Bein verbindet, ich würde dir zeigen, wie das geht.'
+        - '>"Gerne, ich komme aber später wieder."'
+        - '!end'
+        - ':"Ich versuche sie zu finden, dann kannst du auch etwas davon auf dein Bein tun."'
+        - 'Ja, du könntest mir mein Bein verbinden, ich leite dich an.'
+        - '>"Das wäre großartig, wenn du mir das zeigen könntest! Ich hole schnell die Arzneiblumen."'
+        - 'Ja, aber pass auf die Schimmerwölfe auf, die verbergen sich gut im Schnee!'
+        - '!quest.start this.heilpflanzen'

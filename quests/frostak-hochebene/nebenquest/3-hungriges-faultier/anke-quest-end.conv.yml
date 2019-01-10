@@ -1,0 +1,33 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!text "Raus aus meiner Küche!"'
+        - '>"Ihr seid die Frau von Tjorben?"'
+        - '!text "Wer will das wissen?"'
+        - '>"%player%, ich sollte Knochenmark sammeln und hier her bringen."'
+        - '!stage drunk'
+
+  drunk:
+    text: '*seufzt* Nicht schon wieder. Ist er schon wieder betrunken?'
+    answers:
+      groups:
+        liar:
+          - '50%!text "Na wenigstens etwas."'
+          - '50%!text "Wusst ichs doch, na der soll mir nach hause kommen."'
+      flow:
+        - ':"Nein, ich glaube nicht."'
+        - '!liar'
+        - '!stage suppe'
+        - ':"Ja, er war etwas angetrunken."'
+        - '!text "Wusst ichs doch, na der soll mir nach hause kommen."'
+        - '!stage suppe'
+
+  suppe:
+    actions:
+      flow:
+        - '>"Was machen wir jetzt, nimmst du das Knochenmark?"'
+        - '!text "Ja, is ja gut. Ihr würdet mir einen großen Gefallen tun wenn Ihr diesen Nichtsnutz mit der Suppe von gestern überschütten würdet. Vielleicht mag er sie dann endlich nicht mehr."'
+        - '>"Dein Ernst?"'
+        - '!text "Nehmt schon und lasst mich in Ruhe!"'
+        - '!objective.complete this.faultier 3'
