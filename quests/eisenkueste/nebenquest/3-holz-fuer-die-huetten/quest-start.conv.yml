@@ -1,0 +1,21 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '>"Hey Akisk, schön, dich zu sehen."'
+        - 'Du hast also auch überlebt. Freu dich aber nicht zu früh darüber.'
+        - '>"Warum sollte ich das nicht tun, Najtiss sei Dank, dass ich dem Meer entkommen bin."'
+        - 'Najtiss, als wenn der irgendetwas damit zu tun hat. Aber wie dem auch sei, der Hauptmann hat mir etwas befohlen und dafür brauche ich deine Hilfe.'
+        - '>"Was kann ich für dich tun?"'
+        - 'Wir brauchen Material, damit ich unser Lager weiter befestigen kann und du sollst es für mich besorgen.'
+        - '>"Klingt als könnte das etwas Abwechslung in meinen Tag bringen."'
+        - '!stage quest'
+
+  quest:
+    text: 'Ist aber ganz einfach, am Strand findest du angeschwemmte Teile des Schiffes, die können wir brauchen. Suche nach Holz, aber auch anderen Materialien, Wolle vom Segel oder sowas.'
+    answers:
+      flow:
+        - ':"Vielleicht später."'
+        - '!end'
+        - ':"Ok, ich werde das Material besorgen."'
+        - '!quest.start this.holz'

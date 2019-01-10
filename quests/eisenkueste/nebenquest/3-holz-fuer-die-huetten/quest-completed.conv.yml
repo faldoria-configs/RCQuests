@@ -1,0 +1,6 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - 'Brauchst du was von mir? Ich habe nichts übrig.'
+        - 'Wie gut, dass du soviel Holz gebracht hast, jetzt wird uns bald nicht mehr frieren.'

@@ -1,0 +1,10 @@
+name: Aksik
+disguise: Aksik
+location:
+  x: 3663
+  y: 65
+  z: -2823
+  world: faldoria
+equipment:
+  hand: minecraft:iron_axe
+  offhand: minecraft:spruce_log

@@ -1,0 +1,11 @@
+stages:
+  start:
+    actions:
+      flow:
+        - 'Da bist du ja wieder, hast du die Sachen, die ich brauche? Der Hauptmann schaut mich schon zornig an.'
+        - '>"Ich habe was du brauchst."'
+        - 'Ich danke dir.'
+        - '!quest.complete this.holz'
+        - '~1s'
+        - 'Endlich können wir mit der Arbeit beginnen. Hier ist eine kleine Belohnung.'
+        - '>"War kaum der Rede wert. Dank dir!"'
