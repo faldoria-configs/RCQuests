@@ -1,0 +1,5 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!npc.emote "schluchzt nur und will sich nicht mit dir unterhalten."'

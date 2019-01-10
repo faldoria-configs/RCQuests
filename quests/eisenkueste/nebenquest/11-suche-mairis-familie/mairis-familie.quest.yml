@@ -1,0 +1,29 @@
+name: Die Suche nach Mairis Familie
+region: eisenkueste
+locked: false
+abortable: true
+authors:
+  - Kirilit (QS)
+  - Silthus (QD)
+worlds:
+  - faldoria
+level: 6
+
+requirements:
+  flow:
+    - '?quest.complete eisenkueste.hauptquest.1-was-ist-passiert'
+    - '?quest.complete eisenkueste.hauptquest.2-reparaturarbeiten'
+
+default-convs:
+  active:
+    convs:
+      - 'eisenkueste.npcs.mairi:this.quest-active'
+
+trigger:
+  flow:
+    - '@host.interact eisenkueste.npcs.mairi this.quest-start'
+
+objectives:
+  '1':
+    name: 'Suche Mairis Familie'
+    auto-complete: false
