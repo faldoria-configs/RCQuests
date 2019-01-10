@@ -55,7 +55,7 @@ Mairi steht am Strand und schaut auf das Meer hinaus, sobald der Spieler sie ans
 ### **Dialog 1**
 
 ```yml
-*Du siehst Mairi auf's Meer hinausblicken, ihre Haltung zeigt dir, dass sie Kummer hat*
+*Du siehst Mairi auf das Meer hinausblicken, ihre Haltung zeigt dir, dass sie Kummer hat*
 Spieler: Mairi, was ist los mit dir?
 Mairi: *versucht ein Schluchzen zu unterdrücken*
 Mairi: Meine Kinder, mein Mann, sie sind nicht hier… sie sind bestimmt tot. Wir waren alle auf dem Schiff, aber nun sind sie… nicht da. 
