@@ -1,0 +1,7 @@
+stages:
+  start:
+    actions:
+      flow:
+        - 'Hast du die Bande getötet und Anführer auch?'
+        - '>"Ich habe noch nicht alle erwischt."'
+        - 'Dann sieh zu, dass du fertig wirst, sonst fährt der Ballon ohne dich.'

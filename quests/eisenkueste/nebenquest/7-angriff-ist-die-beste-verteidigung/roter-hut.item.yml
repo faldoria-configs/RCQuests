@@ -1,0 +1,6 @@
+name: Roter Hut
+type: Quest
+quality: COMMON
+item: minecraft:leather_helmet
+lore: Ein roter, auffälliger Hut.
+max-stack-size: 1

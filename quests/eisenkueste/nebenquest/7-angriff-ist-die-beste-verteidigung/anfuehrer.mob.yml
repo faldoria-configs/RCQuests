@@ -1,0 +1,8 @@
+name: Anführer der Schmuggler
+type: skeleton
+disguise: Eisenschmuggler-Anfuehrer
+aggro: true
+passive: false
+elite: true
+min-level: 7
+max-level: 7
