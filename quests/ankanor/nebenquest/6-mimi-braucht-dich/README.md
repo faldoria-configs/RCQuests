@@ -35,7 +35,7 @@ Keine
 
 ## Ablauf
 
-1. Der Spieler trifft auf Mimi, ein 11-jähriges Waisenkind, das ihn anspricht und um Hilfe bittet.
+1. Der Spieler trifft auf Mimi, ein 10-jähriges Waisenkind, das ihn anspricht und um Hilfe bittet.
 2. Er soll Mimis Puppe aus dem höchsten Haus auf Ankanor holen.
 3. Der Spieler tut das und erfährt als Belohnung ein 'Geheimnis'
 
@@ -58,23 +58,23 @@ Mimi: Aber siehst du denn nicht, dass ich einen wehen Fuß habe?  - Mimi hält d
 Spieler: Nein, Mimi, wirklich nicht, ich lass mich von dir nicht auf den Arm nehmen. Geh und hold dir deine Puppe selbst und dann schau, dass du zum Schiff kommst. Weißt du nicht, dass wir alle weg müssen, weil Agnatus und seine bösen Männer kommen? Ich habe jetzt Wichtigeres zu tun. 
 Mimi: Ich verrate dir auch ein Geheimnis, wenn du mir hilfst!
 ```
-> 1. Du und deine Geheimnisse, behalte sie für dich selbst! [Ende]
+> 1. Du und deine Geheimnisse, behalte sie für dich selbst! `[Ende]`
 
 > 2. Du nervst. Aber sag mir, wo deine Puppe ist, ich laufe schnell hoch. 
 
 **Weiter nach Option #2**
 
 ```yml
-Mimi: In der Kiste unter der Treppe, die nach oben führt. In dem Haus ganz oben, nicht dort, wo Bürgermeister Roschick wohnt. Danke, <Name des Spielers>, du bist einfach großartig! 
+Mimi: In der Kiste unter der Treppe, die nach oben führt. In dem Haus ganz oben, nicht dort, wo Bürgermeister Roschik wohnt. Danke, <Name des Spielers>, du bist einfach großartig! 
 ```
----> VLLt Schild am Haus anbringen mit einem Namen - z.B. {Name NPC Eisenküste}, am anderen Mairi
+
 
 `[Quest START]` [Mimi braucht dich](#mimi-braucht-dich)
 
 **QuestLog:** *Laufe ins oberste Haus von Ankanor, das Mairi gehört, hole die Puppe aus der Kiste unter der Treppe und kehre zu Mimi zurück.*
 
-
 Spieler läuft hoch und findet die Puppe in der Kiste, nimmt sie an sich und kehrt zu Mimi zurück. 
+
 ### **Dialog 2**
 ```yml
 Spieler: Hier hast du deine Puppe, aber jetzt mach dich auf zum Schiff!  
@@ -99,19 +99,21 @@ Mimi ist ein Kind, das im Alter von ca 3 Jahren auf der Insel Ankanor in einem k
 
 Mimi ist inzwischen ein hübsches, rothaariges Mädchen mit einem rundlichen Gesicht und grünen Augen. Meist kleben einige Krümel in ihrem Gesicht, da sie trotz Mairies Bemühungen, sie gesund zu ernähren, von Kiakeksen zu leben scheint. Sie ist vom vielen Spielen im Freien braungebrannt und liebt es, sich bunte Blumen ins Haar zu flechten.
 
-Gerne trägt sie grüne oder blaue Kleidchen, Schuhe jedoch mag sie nicht, da sie hinderlich beim Klettern im Tianbaum sind. Sie ist für ihr Alter von 11 Jahren ziemlich klein und erscheint manchen viel jünger als sie wirklich ist. 
+Gerne trägt sie grüne oder blaue Kleidchen, Schuhe jedoch mag sie nicht, da sie hinderlich beim Klettern im Tianbaum sind. Sie ist für ihr Alter von 10 Jahren ziemlich klein und erscheint manchen viel jünger als sie wirklich ist. 
 
 
 ### Standartsätze
 
-#### Während der Quest
+#### Vor der Quest
 
+*Das Kind vor dir kann nicht mit dir reden, da ihr Mund voller Kekse ist*
+
+#### Während der Quest
 
 1. Hast du meine Puppe schon?
 2. Hey, wo bleibt meine Puppe!
 3. < Name des Spielers >, du schaffst das!
 4. < Name des Spielers >, du wirst doch nicht ein kleines Mädchen enttäuschen!
-
 
 
 #### Nach der Quest
@@ -167,15 +169,6 @@ max-stack-size: 1
 
 Puppe aus Stoff und anderen natürlichen Materialien.
 
-Zu finden in Kiste bei --> kann ich grad nicht nachsehen
-
-``yml
-x: 1867
-y: 129
-z: 9
-world: Ankanor
-``` 
-
 ```yml
 name: Aneli
 type: totem
@@ -185,12 +178,20 @@ lore: Diese Puppe wird sehr geliebt.
 max-stack-size: 1
 ```
 
+#### Standort Puppe
+``yml
+x: 1867
+y: 129
+z: 9
+world: Ankanor
+``` 
+
+
 ## Belohnung
 
-xxx Ruf bei den Kaishi
+[xxx] Ruf bei den Kaishi
 1 Stack Cookies
-5 Exp
-1 totem_of_undying   (falls es nicht doch noch eine Quest mit Mimi im Event gibt)
+[X] Exp
 
 
 ## Referenzen
@@ -200,6 +201,9 @@ Quest, in der Junnar erwähnt wird: Faldoria/quests/quests/ankanor/hauptquest/1-
 
 Skin: 
 https://faldoria.de/board/index.php?thread/528-skins-f%C3%BCr-npcs/&postID=3772#post3772
+
+
+~Kirilit~
 
 
 
