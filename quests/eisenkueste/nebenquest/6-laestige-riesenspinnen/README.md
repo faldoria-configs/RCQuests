@@ -1,19 +1,46 @@
 # Lästige Riesenspinnen
 
+Issue 17
+
 > Relativ stark im Text verändert
 
 Questgeber **Alrix** Er ist ein junger Kaishi, der Bergmann werden möchte. Dem steht jedoch entgegen, dass er Spinnen fürchtet - und die sind oft in Minen anzufinden. 
 
+
+## Übersicht
+- [Lästige Riesenspinnen](#l%C3%A4stige-riesenspinnen)
+  - [Übersicht](#%C3%BCbersicht)
+  - [Ablauf](#ablauf)
+  - [Voraussetzungen](#voraussetzungen)
+  - [Questdialog](#questdialog)
+  - [Npc](#npc)
+    - [Alrix](#alrix)
+      - [Standartsätze](#standarts%C3%A4tze)
+        - [Vor der Quest](#vor-der-quest)
+        - [Während der Quest](#w%C3%A4hrend-der-quest)
+        - [Nach der Quest:](#nach-der-quest)
+      - [Ausrüstung](#ausr%C3%BCstung)
+      - [Standort](#standort)
+  - [Items:](#items)
+    - [Drops](#drops)
+      - [Spinnenfleisch](#spinnenfleisch)
+      - [Fäden von den Spinnen](#f%C3%A4den-von-den-spinnen)
+      - [Die Spinnenmutter dropt einen Stack Fäden](#die-spinnenmutter-dropt-einen-stack-f%C3%A4den)
+      - [Spinnenseide](#spinnenseide)
+    - [Belohnung](#belohnung)
+      - [Alriks Geschenk](#alriks-geschenk)
+  - [Referenzen](#referenzen)
+
 ## Ablauf
 
 1. Spieler spricht Alrix an
-2. Alrix bittet en spieler, Spinnen in der Mine zu töten
+2. Alrix bittet den spieler, Spinnen in der Mine zu töten
 3. Der Spieler geht zum Spinnen töten
 4. Eine weitere Quest wird angeboten: Spinnenmutter suchen und töten
 5. Der Spieler kehrt zu Alrix zurück
 
 
-##Voraussetzungen
+## Voraussetzungen
 
 lvl
 
@@ -26,9 +53,9 @@ Waffe
 
 ## Questdialog
 
-*Du läufst an einem jungen Kaishi vorbei, der recht bekümmert aussieht*
-
 ---> bei 5 Block Entfernung
+
+*Du läufst an einem jungen Kaishi vorbei, der recht bekümmert aussieht*
 
 ```yml
 
@@ -63,7 +90,7 @@ Spieler: Spinnen entfernen? Du meinst töten! Reden wir von normalen kleinen Spi
 Alrix: Nein nein...ich rede von Riesenspinnen. Diese sind viel, viel größer und abscheulicher als die kleinen mickrigen da.
 Spieler: Aber warum stören die Spinnen dich? Ich habe in der Umgebuung des Lagers keine gesehen. 
 Alrix: Die sind auch nicht in der Nähe des Lagers, sondern in der Mine dahinten
-*Alrix zeigt in Richtung ?* 
+*Alrix zeigt in Richtung Norden* 
 Alrix: Da ist ein kleines, verlassenens Dörfchen, und dahinter eine Mine, und du weißt ja vielleicht, dass ich Bergmann werden will. Und ich soll nachsehen, ob es dort noch Eisen gibt, oder ob die Mine erschöpft ist. Aber die Spinnen...
 ```
 
@@ -107,6 +134,8 @@ Der Spieler tötet die Spinnenmutter [Ende]
 Wenn 20 der normalen Spinnen auch getötet wurden endet auch die Quest 'Lästige Spinnen. [Ende]
 
 `[Quest START]` [3. Kehre zu Alrix zurück](#kehre-zu-alrix-zurueck)
+
+`Questlog'` *Kehre zu Alrix zurück*
 
 Spieler kehrt zu Alrix zurück.
 
@@ -176,7 +205,7 @@ keine
 
     Alrix: Hallo <Name des Spielers>, wie geht es dir? Hast du inzwischen noch weitere von diesen schrecklichen Gefahren hier an der Eisenküste beseitigt?
 
-    Spieler: Naja, schon, es kommt mir aber selbst komisch vor, dass ihc jetzt so gut mit meiner Waffe umgehen kann, aber ich bin noch lange kein Meister. 
+    Spieler: Naja, schon, es kommt mir aber selbst komisch vor, dass ich jetzt so gut mit meiner Waffe umgehen kann, aber ich bin noch lange kein Meister. 
 
     Alrix: Das wird schon noch, ich bin froh, dass du da bist.
 
@@ -202,9 +231,29 @@ keine Questspezifischen
 
 ### Drops
 
-Spinnenfleisch, Fäden von den Spinnen
+#### Spinnenfleisch
 
-Die Spinnnemutter einen Stack Fäden
+```yml
+name: Spinnenfleisch
+type: QUEST
+quality: COMMON
+item: chicken
+lore: Schmeckt wie Hühnchenfleisch
+max-stack-size: 64
+```
+
+#### Fäden von den Spinnen
+
+```yml
+name: Spinnenfaden
+type: QUEST
+quality: COMMON
+item: string
+lore: Diese Seidenfäden sind besonders dick.
+max-stack-size: 64
+```
+
+#### Die Spinnenmutter dropt einen Stack Fäden
 
 #### Spinnenseide
 
@@ -212,7 +261,7 @@ Die Spinnnemutter einen Stack Fäden
 name: Spinnenseide
 type: QUEST
 quality: COMMON
-item: string
+item: cobweb
 lore: Diese Seidenfäden sind besonders dick.
 max-stack-size: 64
 ```
