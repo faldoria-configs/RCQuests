@@ -1,7 +1,9 @@
-# Der verlorene Jäger 
-# Seltene Pelze
+# Der verlorenen Jäger
 
-> Achtung - verwoben mit Quest: Seltene Pelze
+issue 20
+
+
+> Achtung - verwoben mit Quest: [Seltene Pelze](#seltene-pelze)
 
 >  Der Spieler trifft als Erstes auf Kalbert, dann erst auf Svein - Quest: Der verlorenen Jäger. Während der Quest kann die Quest: Seltene Pelze von Svein angenommen werden. 
 
@@ -10,6 +12,7 @@
 NPCS: [Kalbert](#kalbert) (Vater), [Svein](#svein) (Sohn)
 
 >  Kalberts momentaner Standort ist zu weit von Svein entfernt. Da geht kein Steig oder Weg hin und der Spieler würde sehr lange herumirren. Ich schlage vor:
+> 
  Bei Livas Schrein (3526/116/ -2729) oder besser noch näher, wo Kalbert vielleicht von der Küste aus gesehen werden kann, von da aus ist es schwer genug, Svein zu finden
  (3579/91/-2827)
 
@@ -21,7 +24,6 @@ Fähigkeiten/Stärke der Mobs
 [Belohnung](#belohnung) /Rüstung verzaubern? --> [Umhang aus Schimmerwolfpelz](#umhang-aus-schimmerwolfpelz)
 
 
- 
 ## Veränderungen
 
 Etwas erweitert, der Sohn Svein ist jetzt nicht nur verloren gegangen, sondern hat Angst, die Erwartungen des Vaters nicht zu erfüllen.
@@ -100,9 +102,9 @@ Der Spieler trifft (mehr oder weniger) zufällig auf Kalbert (den er schon kennt
 *Du siehst einen Jäger bei dem Rastplatz stehen, du erkennst beim Näherkommen, dass es Kalbert ist, der Jorgendder, den du schon im Camp gesehen hast*
 Kalbert: Hmmm… Wo ist er nur hin?
 Spieler: Von wem redet Ihr?
-Kalbert: Großer Tianbaum! Erschreck mich doch nicht so!
+Kalbert: Großer Höhlenmolch! Erschreck mich doch nicht so!
 Spieler: Tut mit Leid. Also, wen sucht Ihr?
-Kalbert: Meinen Sohn Svein. Wir waren zusammen auf der Jagd. Hier gibt es ausgesprochen seltene Pelze, weißt du? Besonders die Eisen-Bergkatzen haben es mir angetan. Wir trennten uns, damit Svein sein Geschick beweisen kann, aber er sollte schon längst zurück sein. Wir wollten uns hier wieder treffen. 
+Kalbert: Meinen Sohn Svein. Wir waren zusammen auf der Jagd. Hier gibt es ausgesprochen seltene Pelze, weißt du? Besonders die Eisen-Bergkatzen haben es mir angetan. Wir trennten uns, damit er nicht immer hinter mir herläuft, aber er sollte schon längst zurück sein. Wir wollten uns hier wieder treffen. 
 Spieler: Und was nun?
 Kalbert: Kannst du vielleicht nach Svein schauen? Ich warte hier auf ihn, wenn ich weggehe und er kommt zurück, dann verpassen wir uns erst recht.
 ```
@@ -140,7 +142,7 @@ Svein: Hallo, hast du vielleicht meinen Vater getroffen?
 Spieler: Dein Vater sucht dich! Was ist denn passiert?
 Svein: Nun, nichts eigentlich.
 Spieler: Eigentlich?
-Svein: Naja, mein Vater und ich haben uns getrennt, da er sagte, ich muss jetzt endlich mal mein Geschick auf der Jagd beweisen und soll ihm Felle der Eisen-Bergkatze bringen. Ich habe es ja auch versucht, aber..
+Svein: Naja, mein Vater und ich haben uns getrennt, da er sagte, ich muss jetzt endlich mal alleine gehen und soll ihm Felle der Eisen-Bergkatze bringen. Ich habe es ja auch versucht, aber..
 Spieler: Aber?
 Svein: Ich kann gut schießen! Sehr gut! Aber keine Eisen-Bergkatzen, auch keine Schimmerwölfe, ich finde sie viel zu schön... ich mag ihre Pelze auch nicht tragen..
 Spieler: Da hast du ein Problem. Und was willst du nun tun?
@@ -268,14 +270,16 @@ Kalbert: Grünschnabel, geh zurück ins Camp!
 ##### Während der Quest:
 
 Kalbert: Hast du Svein schon gefunden? 
-    Spieler: Nein, leider noch nicht, aber lange wird es nicht mehr dauern, ich habe fast schon alle Ecken hier herum ausgesucht.
-        Kalbert: Gut, ich hoffe auf dich! 
+
+Spieler: Nein, leider noch nicht, aber lange wird es nicht mehr dauern, ich habe fast schon alle Ecken hier herum ausgesucht.
+
+Kalbert: Gut, ich hoffe auf dich! 
 
 ##### Nach der Quest: 
 
 Kalbert: Schön dich zu sehen, [Name des Spielers], noch nicht auf großer Fahrt?
-     Spieler: Nein, aber bald!
 
+Spieler: Nein, aber bald!
 
 
 #### Ausrüstung
@@ -306,14 +310,16 @@ Svein: Ich glaube nicht, dass du mir jetzt helfen kannst, geh lieber deinen Ange
 ##### Während der Quest:
 
 Svein: Du hast schon alle Pelze zusammen?
-    Spieler: Nein, noch nicht, aber bald!
+
+Spieler: Nein, noch nicht, aber bald!
 
 
 ##### Nach der Quest: 
 
 
 Svein: Hallo, [Name des Spielers], es geht mir jetzt viel besser, nachdem ich mich mit Vater ausgesprochen habe, ich bin dir sehr dankbar dafür!
-    Spieler: Das ist gut, ich freue mich für dich.
+
+Spieler: Das ist gut, ich freue mich für dich.
 
 #### Ausrüstung
 
