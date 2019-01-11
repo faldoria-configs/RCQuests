@@ -1,5 +1,7 @@
 # Abwehrmaßnahmen
 
+Issue 23
+
 NPC: Terry
 
 > **Geändert**
@@ -8,8 +10,24 @@ NPC: Terry
 
 'Krone' der Kiesfloh Königin ersetzt. Welcher Kiesfloh hat eine Krone?
 
+## Übersicht
 
-
+- [Abwehrmaßnahmen](#abwehrma%C3%9Fnahmen)
+  - [Übersicht](#%C3%BCbersicht)
+  - [Ablauf](#ablauf)
+  - [Questdialoge](#questdialoge)
+  - [Npc](#npc)
+    - [Terry](#terry)
+      - [Standartsätze](#standarts%C3%A4tze)
+        - [Vor der Quest](#vor-der-quest)
+        - [Während der Quest: 1. Abwehrmaßnahmen](#w%C3%A4hrend-der-quest-1-abwehrma%C3%9Fnahmen)
+        - [Während der Quest: 2. Freie Bahn](#w%C3%A4hrend-der-quest-2-freie-bahn)
+        - [Nach der Quest:](#nach-der-quest)
+      - [Ausrüstung](#ausr%C3%BCstung)
+      - [Standort](#standort)
+  - [Items:](#items)
+    - [Krone der Kiesflohkönigin](#krone-der-kiesflohk%C3%B6nigin)
+  - [Belohnung:](#belohnung)
 ## Ablauf
 
 1. Der Spieler geht auf Terry zu und spricht ihn an
@@ -73,7 +91,7 @@ Terry: Warte noch, das hier könntest du brauchen.
 > Spieler erhält Gesundheitstrank [Heilung?] und/oder Stärketrank [Stärke?]
 
 ```yml
-Terry: Nehm dich in Acht, junger Kaishi.
+Terry: Nehm dich in Acht, junge Kaishi.
 Spieler: Keine Sorge, ich bin bald zurück.
 ```
 
@@ -110,13 +128,14 @@ Beschreibung!
 
 ##### Vor der Quest
 
-keine
+*Terry brummelt vor sich hin und nimmt dich nicht wahr*
 
 ##### Während der Quest: 1. Abwehrmaßnahmen
 
 > 1.  Nun, schon zurück? Du bist schon fertig? Nein? Doch ein Grünschnabel? - lacht - 
 
 > 2.  Terry: Was, du bist schon fertig?
+      
       Spieler: Leider nein, ich brauchte eine Pause.
       Terry: Ja, die Viecher darf man nicht unterschätzen. 
 
@@ -125,12 +144,14 @@ keine
 > 1. Terry: Sag bloß, du hast die Königin schon erledigt? 
      Spieler: Nein, sie war mir zu stark, ich musste rennen. Hast du noch einen Heiltrank für mich? Dann probiere ich es nochmals.
 
+
      ----> Spieler erhält nochmals einen Heiltrank, wenn er keinen mehr im Inventar hat. 
 
 ##### Nach der Quest: 
 
 > Hey, Kiesflohjäger, auf dem Weg zu neuem Ruhm?
-  Spieler: Neine, nein, erstmal nicht!
+
+> Na, <Name des Spielers>, welche Pläne hast du?
 
 > Na, <Name des Spielers>, welche Pläne hast du?
 
