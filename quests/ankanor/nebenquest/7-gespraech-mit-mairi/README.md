@@ -39,7 +39,7 @@ Keine
 ## Ablauf
 
 1. Mairi spricht den Spieler an (5 Blocks?), wenn er die Treppe zu den zwei oberen Häusern hochläuft. 
-   Variationen im Gespräch, je nachdem ob er die Quest von Mimi weiter unten an der Treppe angenommen hat.
+> Variationen im Gespräch, je nachdem ob er die Quest von Mimi weiter unten an der Treppe angenommen hat.
 2. Der Spieler unterhält sich mit Mairi über Mimi.
 3. Mairi gibt dem Spieler den Auftrag, Mimi zu sagen, dass sie zum Schiff gehen soll.  
 4. Mairi verabschiedet sich vom Spieler.
@@ -51,9 +51,9 @@ Keine
 Spieler läuft die Treppe zu den oberen Häusern hoch. Mairi spricht Spieler an, wenn er 5 Blöcke weg ist
 
 ```yml
-Mairi: Hey, <Name des Spielers>, wart mal einen Augenblick bitte.
+Mairi: Hey, <Name des Spielers>, warte mal einen Augenblick bitte.
 ```
-Möglichkeit 1:  Geht er auf sie zu und klickt sie an, startet der Dialog
+Möglichkeit 1:  Geht er auf sie zu und klickt sie an, startet der Dialog.
 Möglichkeit 2: Geht er weiter, sagt Mairi:
 
 ```yml
@@ -69,7 +69,7 @@ Mairi: Hast du vielleicht Mimi gesehen?
 
 2.  Spieler: Ja, sie sitzt da unten auf der Treppe und wollte, dass ich ihre Puppe hole.
 
-Mairi: Und du hast dich breitschlagen lassen?
+`Mairi: Und du hast dich breitschlagen lassen?`
 
       2.1 wenn der Spieler [NQ Mimi brauch dich](#6-mimi-braucht-dich) angenommen hat:
 
@@ -80,7 +80,7 @@ Mairi: Und du hast dich breitschlagen lassen?
      > Spieler: Nein, ich lass mich doch von ihr nicht auf dem Arm nehmen. 
 
 ```yml
-Mairi: Ja, die Puppe bedeutet ihr viel, sie sagt, dass ihre Mutter sie gemacht hat und dass sie das Einzige ist, das sie noch von ihr hat.
+Mairi: Naja, die Puppe bedeutet ihr viel, sie sagt, dass ihre Mutter sie gemacht hat und dass sie das Einzige ist, das sie noch von ihr hat.
 Spieler: Ja, ich erinnere mich, Mimi war eines Tages da, am Strand angespült, in einem kleinen Boot, das unmöglich die ganze Strecke über das Meer geschafft haben kann. Mit nichts dabei außer einigen Kiakeksen und einen großen, leeren  Schlauch Wasser. Und ihrer Puppe. 
 Mairi: Genau, und das Kleid der Puppe war so ausgeblichen und zerrissen wie ihr eigenes. Es war nicht mehr möglich, daraus einige Rückschlüsse auf ihre Herkunft zu ziehen. Sie selbst konnte es uns auch nicht sagen, sie war ja noch klein, vielleicht drei Jahre alt. 
 Spieler: Du hast sie dann bei dir aufgenommen, nicht wahr? Hast du das nicht schon bereut, so ein Frechdachs wie sie ist?
@@ -146,7 +146,7 @@ Nur XP
 
 ##### Während der Quest
 ```yml
-Mairi: hast du Mimi schon Bescheid gesagt?
+Mairi: Hast du Mimi schon Bescheid gesagt?
 Spieler: Noch nicht, mache ich aber gleich!
 Mairi: Beeil dich bitte!
 ```
