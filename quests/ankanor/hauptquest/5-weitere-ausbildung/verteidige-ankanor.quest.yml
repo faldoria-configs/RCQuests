@@ -26,5 +26,5 @@ objectives:
 
 complete-actions:
   flow:
-    - '!quest.start faldoria.eisenkueste.hauptquest.1-was-ist-passiert.was-ist-passiert'
-    - '!teleport eisenkueste'
+    - '!quest.start eisenkueste.hauptquest.1-was-ist-passiert.was-ist-passiert'
+    - '!server world:faldoria x:3645 y:63 z:2829'
