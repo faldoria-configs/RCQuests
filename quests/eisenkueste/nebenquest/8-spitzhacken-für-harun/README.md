@@ -92,7 +92,7 @@ Harun: Ihr seht kräftig aus, wollt Ihr euch ein paar Münzen verdienen?
 > 
 
 ```yml
-Harun: Was, wie kommst du denn darauf? Nur weil ich etwas älter bin und einen        Bart habe? Du wirst doch keine Vorurteile gegenüber Bartträgern haben?
+Harun: Was, wie kommst du denn darauf? Nur weil ich etwas älter bin und einen Bart habe? Du wirst doch keine Vorurteile gegenüber Bartträgern haben?
 Spieler: Nein das nicht, aber...
 Harun: Papperlapap, willst du jetzt einen Heller haben oder nicht?
 ```
