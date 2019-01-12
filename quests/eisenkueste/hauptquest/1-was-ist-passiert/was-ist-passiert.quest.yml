@@ -7,6 +7,7 @@ authors:
   - Silthus (QD)
 worlds:
   - faldoria
+  - ankanor_event
 level: 3
 
 default-convs:
