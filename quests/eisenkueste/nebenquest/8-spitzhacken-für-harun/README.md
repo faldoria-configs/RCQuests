@@ -50,7 +50,7 @@ QuestBelohnung: 15 Kupfer  <-- weniger! fast nichts!
       - [Spitzhacken](#spitzhacken)
       - [Standort ??](#standort)
     - [Mobs](#mobs)
-    - [Toter Steinmetz](#toter-steinmetz)
+      - [Toter Steinmetz](#toter-steinmetz)
   - [Belohnung](#belohnung)
 
 
@@ -243,7 +243,7 @@ world: Faldoria, Eisenküste
 
 ### Mobs
 
-### Toter Steinmetz
+#### Toter Steinmetz
 
 ```yml
 name: Toter Steinmetz
