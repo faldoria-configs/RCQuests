@@ -31,24 +31,24 @@ objectives:
         trigger:
           flow:
             - '?player.has-item this.items.getreide, 10'
-            - '@inventory.update this.items.getreide'
+            - '@item.pickup this.items.getreide'
       '2':
         name: '10 Wolle'
         trigger:
           flow:
             - '?player.has-item this.items.wolle, 10'
-            - '@inventory.update this.items.wolle'
+            - '@item.pickup this.items.wolle'
       '3':
         name: '10 Holzbretter'
         trigger:
           flow:
             - '?player.has-item this.items.holzbrett, 10'
-            - '@inventory.update this.items.holzbrett'
+            - '@item.pickup this.items.holzbrett'
       '4':
         name: 'Fass Wasser'
         trigger:
           flow:
-            - '@inventory.update this.items.wassereimer'
+            - '@item.pickup this.items.wassereimer'
     complete-actions:
       flow:
         - '!text.think "Ich glaube das waren alle Vorräte. Ich sollte zum Kapitän zurückkehren."'
