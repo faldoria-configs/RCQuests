@@ -2,3 +2,4 @@ quests-base-folder: quests
 max-quests: 27
 quest-load-delay: 30
 quest-pool-delay: 100
+debug-quest-loading: false
