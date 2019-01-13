@@ -15,7 +15,7 @@ default-convs:
 
 requirements:
   flow:
-    - '?rcskills.hero.path class'
+    - '?quest.active ankanor.hauptquest.5-weitere-ausbildung.weitere-ausbildung'
 
 start-trigger:
   flow:

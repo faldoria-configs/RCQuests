@@ -58,3 +58,4 @@ stages:
         - '~1s'
         - '!text "Mache dich nun mit deiner neuen Waffe vertraut und kehre dann zu mir zurück, damit du sie testen kannst."'
         - '!objective.complete this.waffenwahl 1'
+        - '!end'

@@ -18,7 +18,7 @@ repeatable: false
 
 requirements:
   flow:
-    - '?rcskills.hero.path class'
+    - '?quest.active ankanor.hauptquest.5-weitere-ausbildung.weitere-ausbildung'
 
 default-convs:
   active:

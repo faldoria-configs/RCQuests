@@ -7,7 +7,6 @@ authors:
   - Silthus (QD)
 worlds:
   - faldoria
-  - ankanor_event
 level: 3
 
 default-convs:
@@ -23,7 +22,7 @@ default-convs:
       
 start-trigger:
   flow:
-    - '@world.enter eisenkueste' # eisenkueste bezieht sich hier auf die location
+    - '@loc(execute-once:true) eisenkueste' # eisenkueste bezieht sich hier auf die location
     - '!blind 5s'
     - '?tag ankanor.event.survivor'
     - '+!conversation.start this.survivor-start-quest'
@@ -36,7 +35,7 @@ objectives:
     auto-complete: false
     trigger:
       flow:
-        - '@host.proximity host:eisenkueste.npcs.marduk radius:5 conv:this.marduk-was-ist-passiert'
+        - '@host.interact eisenkueste.npcs.marduk this.marduk-was-ist-passiert'
   '2':
     name: 'Erkunde die Umgebung'
     desc: 'Erkunde die Gegend und schau dir das Licht am Berg im Westen an. Finde heraus ob dort jemand lebt.'
