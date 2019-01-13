@@ -11,7 +11,7 @@ level: 1
 
 requirements:
   flow:
-    - '?rcskills.hero.path class'
+    - '?quest.active ../../hauptquest/5-weitere-ausbildung/weitere-ausbildung'
 
 start-trigger:
   flow:
