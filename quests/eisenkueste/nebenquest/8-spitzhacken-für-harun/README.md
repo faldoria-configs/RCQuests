@@ -99,7 +99,7 @@ Harun: Papperlapap, willst du jetzt einen Heller haben oder nicht?
 
 > 1.1  Spieler: Nein, mein Bauchgefühl sagt mir, dass mich lieber fern halten sollte.
 
-```Harun: Wie du meinst, du Hasenpfote.```
+Harun: Wie du meinst, du Hasenpfote.
 
 `[Ende]`
 
