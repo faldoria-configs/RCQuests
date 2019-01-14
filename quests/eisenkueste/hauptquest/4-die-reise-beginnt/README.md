@@ -82,7 +82,7 @@ Spieler: Wollten wir wirklich hier hin? Hier ist es ja noch kälter.
 Elius: Ja hier wollten wir hin, ich hab den Brennstoff gerade noch so richtig eingeschätzt, weiter kommen wir nun nicht mehr.
 ```
 
-`[QUEST ENDE]` [Die Reise beginnt](#4-die-reise-beginnt) und erhält [Belohnung](#belohunung) 
+`[QUEST ENDE]` [Die Reise beginnt](#4-die-reise-beginnt) und erhält [Belohnung](#belohnung) 
 
 ## NPCs
 
