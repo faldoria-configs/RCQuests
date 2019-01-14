@@ -4,15 +4,15 @@ Nun hat der Spieler die Erlaubnis und den Segen seiner Leute und geht zu Elius, 
 
 - [Vorrausetzungen](#vorrausetzungen)
 - [Aufgaben](#aufgaben)
-    - [1. Die Reise beginnt](#1-die-reise-beginnt)
+  - [1. Die Reise beginnt](#1-die-reise-beginnt)
 - [NPCs](#npcs)
-    - [Elius](#elius)
-        - [Standartsätze](#standartsätze)
-            - [Vor der Quest](#vor-der-quest)
-            - [Während der Quest](#während-der-quest)
-            - [Nach der Quest](#nach-der-quest)
-        - [Ausrüstung](#ausrüstung)
-        - [Standort](#standort)
+  - [Elius](#elius)
+    - [Standartsätze](#standarts%C3%A4tze)
+      - [Vor der Quest](#vor-der-quest)
+      - [Während der Quest](#w%C3%A4hrend-der-quest)
+      - [Nach der Quest](#nach-der-quest)
+    - [Ausrüstung](#ausr%C3%BCstung)
+    - [Standort](#standort)
 - [Items](#items)
 - [Mobs](#mobs)
 - [Belohnung](#belohnung)
@@ -72,7 +72,7 @@ z: -1973
 world: Faldoria .Frostak_Hochebene.Jarmundshain
 ```
 
-`[QUEST UPDATE]` [Die Reise beginnt](#1.-die-reise-beginnt)
+`[QUEST UPDATE]` [Die Reise beginnt](#4-die-reise-beginnt)
 **QuestLog:** *Sprich mit Elius und höre was für eine Aufgabe er für dich hat.*
 
 Elius spricht Spieler an.
@@ -82,7 +82,7 @@ Spieler: Wollten wir wirklich hier hin? Hier ist es ja noch kälter.
 Elius: Ja hier wollten wir hin, ich hab den Brennstoff gerade noch so richtig eingeschätzt, weiter kommen wir nun nicht mehr.
 ```
 
-`[QUEST ENDE]` [Die Reise beginnt](#1.-die-reise-beginnt) und erhält [Belohnung](#belohunung) 
+`[QUEST ENDE]` [Die Reise beginnt](#4-die-reise-beginnt) und erhält [Belohnung](#belohunung) 
 
 ## NPCs
 
