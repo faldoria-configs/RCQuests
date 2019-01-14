@@ -2,7 +2,7 @@ stages:
   start:
     actions:
       flow:
-        - '!text "Und der Tag ist Perfekt.", ../mafei'
+        - '!text "Und der Tag ist perfekt.", ../mafei'
         - '~2s'
         - '!text.player "Was hast du gesagt Mafei?"'
         - '~2s'
