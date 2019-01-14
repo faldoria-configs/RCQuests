@@ -24,6 +24,7 @@ world: Faldoria .Frostak_Hochebene.Jarmundshain
 ```
 
 `[QUEST UPDATE]` [Die Reise beginnt](#4-die-reise-beginnt)
+
 **QuestLog:** *Sprich mit Elius und höre was für eine Aufgabe er für dich hat.*
 
 Elius spricht Spieler an.
@@ -66,7 +67,7 @@ Spieler:  *Du fühlst dich plötzlich sehr unsicher und alleine. Vielleicht soll
 Spielerin: Elius, wo sind wir hier eigentlich?
 Elius: Mitten in den Frostak Hochebenen, in Jarmundshain.
 Spielerin: Und das ist wo?
-Elius: Ja, mitten im Landesinneren, westlich von Kaltenstrom. Hättest du dich nicht so auf den Boden gekauert, dann hättest du mehr gesehen. 
+Elius: Mitten im Landesinneren, westlich von Kaltenstrom. Hättest du dich nicht so auf den Boden gekauert, dann hättest du mehr gesehen. 
 Spielerin: Aber es war ja so kalt, der eisige Wind hat meine Augen so tränen lassen, dass ich eh nichts gesehen hätte.
 Elius: Nun, sei es wie es will, wir sind jetzt da. 
 Spielerin: Jarmundshain hast du gesagt, der Name klingt seltsam. 
@@ -74,7 +75,7 @@ Elius: Die Bewohner sind auch seltsame Jorgendder, recht zurückgezogen und etwa
 Spielerin: Joggender? Was für Leute sind denn das wieder?
 Elius: Jorgendder - sprich ja ihren Namen nicht falsch aus! Das ist ein Volk, das von den Zwergen abstammt, aber sich vor, warte, vor ungefähr xxx Jahren mit einem nordischen Seefahrevolk vermischt hat. Haben viel von beiden alten Stämmen, und nicht nur die guten Seiten, aber du wirst sehen, man kann schon mit ihnen auskommen. 
 Spielerin: Hmm, ja, werden sie mit mir sprechen? 
-Elius: Wenn du ihnen nicht dumm kommst schon. Ich würde an deiner Stelle mit dem Ältesten sprechen. Ich nehme an, du willst nach Kaltenstrom, dabei kann dir Vinnan sicherlich helfen. 
+Elius: Wenn du ihnen nicht dumm kommst schon. Ich würde mich an deiner Stelle an dem Ältesten wenden. Ich nehme an, du willst nach Kaltenstrom, dabei kann dir Vinnan sicherlich helfen. 
 Spielerin: Kaltenstrom ist die große Stadt im Osten, nicht wahr, dort wo 
 (Kaltenstrom Info)
 
