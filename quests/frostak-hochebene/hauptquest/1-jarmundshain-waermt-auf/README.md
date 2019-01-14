@@ -45,6 +45,10 @@ Elius: Ja hier wollten wir hin, ich hab den Brennstoff gerade noch so richtig ei
 - [Ablauf](#ablauf)
 - [Dialoge](#dialoge)
   - [Dialog 1](#dialog-1)
+  - [`[Queststart]`Jarmundshain wärmt auf](#queststartjarmundshain-w%C3%A4rmt-auf)
+  - [Dialog 2](#dialog-2)
+  - [`[Queststart]` Bärenjagd](#queststart-b%C3%A4renjagd)
+  - [`[Queststart]` Abgabe Bärenfell](#queststart-abgabe-b%C3%A4renfell)
 
 ## Ablauf
 
@@ -93,6 +97,72 @@ Spielerin: *du lächelst Elius an* Danke für die Ballonfahrt!
 
 `[Belohnung]`  XP
 
-`[Queststart]`[Jarmundshain wärmt auf](#jarmundshain-waermt-auf)
+### `[Queststart]`[Jarmundshain wärmt auf](#jarmundshain-waermt-auf)
 
 [Questlog] *Sprich mit dem Ältesten im Jarmundshain, sein Name ist Vinnan.*
+
+**Die Spielerin verlässt Elius und sucht den Dorfältesten Vinnan**
+
+### Dialog 2
+```yml
+Vinnan: Grüße Fremder, habt Ihr Hunger?
+Spielerin: Ähm... Grüße...  ich bin [Spielername]. Ja, so ein wenig Hunger habe ich schon.
+Vinnan: Schön, Euch kennenzulernen, [Spielername], ich heiße Vinnan und kümmere mich um die meisten Belange hier in Jarmundshain. Ich kann Euch Brot anbieten, wenn Ihr Hunger habt. 
+Spielerin: Oh, ja, gerne!
+```
+
+> Spielerin erhält 3 [Frostakbrotlaib](#frostakbrotlaib)
+
+```yml
+Spielerin: Danke, kann ich vielleicht auch etwas helfen?
+Vinnan: Oh, Ihr möchtet helfen? Das trifft sich gut, hier ist es gerade sehr chaotisch.
+Spielerin: *Du schaust dich etwas um und siehst, dass hier wirklich eine helfende Hand nötig wäre*
+Spielerin: Räumt hier denn niemand auf?
+Vinnan: So meinte ich das nicht! *er lacht und du wirst rot*
+Vinnan: Gunnar, unser Schmied und einziger Kämpfer im Dorf ist vor einer Weile aufgebrochen, um seine verschwundene Tochter zu suchen. Nun fehlt es uns an Fleisch und Fellen. Der Weizen wird dieses Jahr sicherlich nicht reichen. 
+Spielerin: Ich kann auch helfen, nach der Tochter vom Schmied zu suchen. 
+Vinnan: Nein, das kann ich nicht verantworten.
+Spielerin: Warum darf ich Euch da nicht unterstützen?
+Vinnan: Ihr dürft helfen, das Dorf mit Fleisch und Fellen zu versorgen. Geht jagen und bringt die Sachen dann zur Frau vom Schmied.
+Spielerin: Vinnan, warum wird der Weizen denn nicht reichen?
+Vinnan: Ich habe gerade keine Zeit es zu erklären, Ihr werdet es aber gewiss unweigerlich selbst bald erfahren.
+Spielerin: Nun gut, ich lass mich überraschen. Dann mach ich mich wohl mal auf die Jagd.
+Vinnan: Gut danke, meldet Euch bei seiner Frau wenn ihr ein Bären getötet habt, sie verarbeitet die Felle.
+```
+> 1.
+
+`Spielerin: Bären? Ähm.. ich habe es mir anders überlegt.`
+
+`Vinnan: *lacht* Ach was, Ihr schafft das schon.`
+
+> 2.
+
+`Spielerin: Joa, das dürfte kein Problem werden, ich bin schon gut in Übung was sowas angeht. `
+
+`Vinnan: Na dann, vergesst nicht, die Felle zur Frau des Schmieds zu bringen.`
+
+`[Questende]`[Jarmundshain wärmt auf](#jarmundshain-waermt-auf)
+
+*****
+### `[Queststart]` [Bärenjagd](#baerenjagd)
+`[estlog]`Qu *Tötet Bären rund um den Jarmundshain und erbeutet 10 mal Sehniges Bärenfleisch und 10 mal Zerschundenes Bärenfell.*
+
+**Sobald alle Items gesammelt sind:**
+
+`[Questende]`[Bärenjagd](#baerenjagd)
+
+### `[Queststart]` [Abgabe Bärenfell](#abgabe-baerenfell)
+
+`[Questlog]` *Bringt die Felle zur Frau des Schmieds*
+
+
+
+
+
+
+
+
+
+ 
+
+
