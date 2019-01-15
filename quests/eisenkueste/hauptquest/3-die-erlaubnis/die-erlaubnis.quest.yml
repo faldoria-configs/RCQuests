@@ -53,7 +53,7 @@ objectives:
     auto-complete: false
     trigger:
       flow:
-        - '@host.interact eisenkueste.npcs.marduk this.quest-complete'
+        - '@host.interact eisenkueste.npcs.marduk this.quest-end'
 
 complete-actions:
   flow:
