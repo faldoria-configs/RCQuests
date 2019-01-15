@@ -86,6 +86,10 @@ Elius: Ja hier wollten wir hin, ich hab den Brennstoff gerade noch so richtig ei
 1. Der Spieler ist mit Elius mit dem Ballon nach Jarmundshain gefahren und dort gelandet. Er wechselt noch einige Worte mit Elius (-> Eisenküste-Dialog, s.o.)
 2. Spielerin fragt Elius etwas aus, der gibt guten Rat
 3. Spielerin macht sich auf den Weg zu dem Dorfältesten Vinnan.
+4. Vinnan schickt die Spielerin auf die Bärenjagd.
+5. Die Felle und das Fleisch sollen Inge, der Frau des Schmieds gebracht werden.
+6. Bei Inge trifft die Spielerin auf Vestrak, den Sohn des Schmieds.
+7. Die Spielerin holt sich die Belohnung von Vinnan ab und erhält neue Aufgaben.
 
 
 ## Dialoge
@@ -106,10 +110,12 @@ Elius: Mitten im Landesinneren, westlich von Kaltenstrom. Hättest du dich nicht
 Spielerin: Aber es war ja so kalt, der eisige Wind hat meine Augen so tränen lassen, dass ich eh nichts gesehen hätte.
 Elius: Nun, sei es wie es will, wir sind jetzt da. 
 Spielerin: Jarmundshain hast du gesagt, der Name klingt seltsam. 
-Elius: Die Bewohner sind auch seltsame Jorgendder, recht zurückgezogen und etwas mürrisch.  
+Elius: Die Bewohner sind auch seltsame Jorgendder *lacht*, recht zurückgezogen und meist etwas mürrisch.  
 Spielerin: Joggender? Was für Leute sind denn das wieder?
-Elius: Jorgendder - sprich ja ihren Namen nicht falsch aus! Das ist ein Volk, das von den Zwergen abstammt, aber sich vor, warte, vor über tausend Jahren mit einem nordischen Seefahrevolk vermischt hat. Haben viel von beiden alten Stämmen, und nicht nur die guten Seiten, aber du wirst sehen, man kann schon mit ihnen auskommen. 
-Spielerin: Hmm, ja, werden sie mit mir sprechen? 
+Elius: Jorgendder - sprich ja ihren Namen nicht falsch aus! Unser Volk stammt von den Zwergen ab, aber hat sich vor, warte, vor über tausend Jahren mit einem nordischen Seefahrevolk vermischt. Wir haben viel von beiden alten Stämmen, und nicht nur die guten Seiten, aber du wirst sehen, man kann schon mit ihnen auskommen. 
+Spielerin: Wir? Bist du etwa auch ein Jorgennder?
+Elius: Na klar, hast du das nicht gewußt?
+Spielerin: Nein, du hast es nicht erwähnt. Werden die Leute im Dorf mit mir sprechen? 
 Elius: Wenn du ihnen nicht dumm kommst schon. Ich würde mich an deiner Stelle an den Ältesten wenden. Ich nehme an, du willst nach Kaltenstrom, dabei kann dir Vinnan sicherlich helfen. 
 Spielerin: Kaltenstrom ist die große Stadt, über die wir geflogen sind, nicht wahr, mit der großen Burg in der Mitte. Gehört die auch den Jorgenddern?
 Elius: Ja genau, das ist nicht ihre Hauptstadt, das ist Sorvenheim, aber Kaltenstrom ist ihr ganzer Stolz, weil sie es als Jorgendder gebaut haben und nicht von den Zwergen übernommen. Und wenn du den Namen Gimdus hörst, das ist ihr Jarl.
@@ -196,8 +202,8 @@ Vinnan: Gut danke, meldet Euch bei seiner Frau wenn ihr ein Bären getötet habt
 Inge: *zieht die Augenbrauen hoch und schaut dich fragend an, sagt aber nichts*
 Spielerin: Uhm... seid Ihr die Frau vom Schmied?
 Inge: Wer möchte das wissen?
-Spielerin: Ich bin [Spielername]. Ich habe im auftrag von VinnanBären getötet und das da erbeutet. *Du zeigst auf die Felle und das Fleisch*
-Inge: Oh, sehr schön. ich mache mich gleich an die Arbeit. Wenn Euch eine Belohnung versprochen wurde, sprecht mit Vinnan, ich habe für sowas gerade echt keinen Kopf. 
+Spielerin: Ich bin [Spielername]. Ich habe im Auftrag von Vinnan Bären getötet und das da erbeutet. *Du zeigst auf die Felle und das Fleisch*
+Inge: Oh, sehr schön. Ich mache mich gleich an die Arbeit. Wenn Euch eine Belohnung versprochen wurde, sprecht mit Vinnan, ich habe für sowas gerade echt keinen Kopf. 
 ```
 `[Questende]` [Abgabe Bärenfell](#abgabe-baerenfell)
 
@@ -207,7 +213,7 @@ Inge: Oh, sehr schön. ich mache mich gleich an die Arbeit. Wenn Euch eine Beloh
 `[Questlog]` *Sprecht mit Vinnan wegen der Belohnung*
 
 
-**Während der Spieler noch da steht, kommt ein Mann aus dem Haus und spricht die Spielerin an. Keine Quest, Gespräch kann durch Weglaufen beendet werden. Später wieder aufnehmbar?**
+**Während die Spielerin noch da steht, kommt ein Mann aus dem Haus und spricht die Spielerin an. Keine Quest, Gespräch kann durch Weglaufen beendet werden. Später wieder aufnehmbar?**
 
 ```yml
 Vestrak: Sie hat mich Euch gesprochen?
@@ -216,7 +222,7 @@ Vestrak: Meine Mutter..  sie ist immer zurückgezogener geworden seitdem Arula 
 Spieler: Oh, das wusste ich nicht. Das tut mir leid. Ihr seid Inges Sohn? 
 Vestrak: Ja, ich bin Vestrak, und Arula war.. ist meine Schwester. Sie ist verschwunden, war nur in  den Wald gegangen, um einige Pilze zu sammeln. Als sie nicht wiederkam, gingen mein Vater und ich sie suchen. 
 Spielerin: *Du hörst geduldig zu, was Vestrak dir erzählt, er scheint das Bedürfniss zu haben, mit jemanden zu reden.*
-Vestrak: Wir teilten uns auf, um eine größere Fläche abzusuchen. So geschah es,dass mein Vater auch verschwand. *Er zuckt mit den Schultern und fängt fast zum Weinen an*
+Vestrak: Wir teilten uns auf, um eine größere Fläche abzusuchen. So geschah es, dass mein Vater auch verschwand. *Er zuckt mit den Schultern und fängt fast zum Weinen an*
 Spielerin: Vielleicht kann ich Euch ja helfen, aber zuerst muss ich zu Vinnan zurück. 
 Vestrak: Passt auf Euch auf!
 ```
@@ -254,8 +260,12 @@ Spieler: Vielen Dank!
 #### Standartsätze
 
 ##### Vor der Quest:
+-
+
 ##### Während der Quest:
+-
 ##### Nach der Quest: 
+Elius: Na, was zögerst du? 
 
 #### Ausrüstung
 
