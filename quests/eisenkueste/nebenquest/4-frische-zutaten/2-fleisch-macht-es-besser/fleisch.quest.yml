@@ -13,7 +13,7 @@ requirements:
   flow:
     - '?quest.complete ../1-frische-zutaten'
 
-trigger:
+start-trigger:
   flow:
     - '@host.interact ../adanion this.quest-start'
 

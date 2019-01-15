@@ -19,7 +19,7 @@ default-convs:
     convs:
       - 'eisenkueste.npcs.mairi:this.quest-active'
 
-trigger:
+start-trigger:
   flow:
     - '@host.interact eisenkueste.npcs.mairi this.quest-start'
 

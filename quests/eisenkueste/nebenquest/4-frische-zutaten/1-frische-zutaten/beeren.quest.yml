@@ -13,7 +13,7 @@ requirements:
   flow:
     - '?quest.complete eisenkueste.hauptquest.1-was-ist-passiert'
 
-trigger:
+start-trigger:
   flow:
     - '@host.proximity(cooldown:5m) ../adanion'
     - '!text "Hallo, du da, kannst du kurz mal herkommen?" Adanion'
