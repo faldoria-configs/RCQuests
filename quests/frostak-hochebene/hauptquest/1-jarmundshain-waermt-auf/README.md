@@ -49,6 +49,28 @@ Elius: Ja hier wollten wir hin, ich hab den Brennstoff gerade noch so richtig ei
   - [Dialog 2](#dialog-2)
   - [`[Queststart]` Bärenjagd](#queststart-b%C3%A4renjagd)
   - [`[Queststart]` Abgabe Bärenfell](#queststart-abgabe-b%C3%A4renfell)
+- [NPCs](#npcs)
+  - [Vinnan](#vinnan)
+    - [Standartsätze](#standarts%C3%A4tze)
+      - [Vor der Quest:](#vor-der-quest)
+      - [Während der Quest:](#w%C3%A4hrend-der-quest)
+      - [Nach der Quest:](#nach-der-quest)
+    - [Ausrüstung](#ausr%C3%BCstung)
+    - [Standort](#standort)
+  - [Vinnan](#vinnan-1)
+    - [Standartsätze](#standarts%C3%A4tze-1)
+      - [Vor der Quest:](#vor-der-quest-1)
+      - [Während der Quest:](#w%C3%A4hrend-der-quest-1)
+      - [Nach der Quest:](#nach-der-quest-1)
+    - [Ausrüstung](#ausr%C3%BCstung-1)
+    - [Standort](#standort-1)
+  - [Vinnan](#vinnan-2)
+    - [Standartsätze](#standarts%C3%A4tze-2)
+      - [Vor der Quest:](#vor-der-quest-2)
+      - [Während der Quest:](#w%C3%A4hrend-der-quest-2)
+      - [Nach der Quest:](#nach-der-quest-2)
+    - [Ausrüstung](#ausr%C3%BCstung-2)
+    - [Standort](#standort-2)
 
 ## Ablauf
 
@@ -77,10 +99,10 @@ Elius: Nun, sei es wie es will, wir sind jetzt da.
 Spielerin: Jarmundshain hast du gesagt, der Name klingt seltsam. 
 Elius: Die Bewohner sind auch seltsame Jorgendder, recht zurückgezogen und etwas mürrisch.  
 Spielerin: Joggender? Was für Leute sind denn das wieder?
-Elius: Jorgendder - sprich ja ihren Namen nicht falsch aus! Das ist ein Volk, das von den Zwergen abstammt, aber sich vor, warte, vor ungefähr xxx Jahren mit einem nordischen Seefahrevolk vermischt hat. Haben viel von beiden alten Stämmen, und nicht nur die guten Seiten, aber du wirst sehen, man kann schon mit ihnen auskommen. 
+Elius: Jorgendder - sprich ja ihren Namen nicht falsch aus! Das ist ein Volk, das von den Zwergen abstammt, aber sich vor, warte, vor über tausend Jahren mit einem nordischen Seefahrevolk vermischt hat. Haben viel von beiden alten Stämmen, und nicht nur die guten Seiten, aber du wirst sehen, man kann schon mit ihnen auskommen. 
 Spielerin: Hmm, ja, werden sie mit mir sprechen? 
-Elius: Wenn du ihnen nicht dumm kommst schon. Ich würde mich an deiner Stelle an dem Ältesten wenden. Ich nehme an, du willst nach Kaltenstrom, dabei kann dir Vinnan sicherlich helfen. 
-Spielerin: Kaltenstrom ist die große Stadt im Osten, nicht wahr, dort wo 
+Elius: Wenn du ihnen nicht dumm kommst schon. Ich würde mich an deiner Stelle an den Ältesten wenden. Ich nehme an, du willst nach Kaltenstrom, dabei kann dir Vinnan sicherlich helfen. 
+Spielerin: Kaltenstrom ist die große Stadt, nicht wahr, dort wo 
 (Kaltenstrom Info)
 
 Elius: Ja genau... (Kaltenstrom Info)
@@ -145,7 +167,7 @@ Vinnan: Gut danke, meldet Euch bei seiner Frau wenn ihr ein Bären getötet habt
 
 *****
 ### `[Queststart]` [Bärenjagd](#baerenjagd)
-`[estlog]`Qu *Tötet Bären rund um den Jarmundshain und erbeutet 10 mal Sehniges Bärenfleisch und 10 mal Zerschundenes Bärenfell.*
+`[Questlog]` *Tötet Bären rund um den Jarmundshain und erbeutet 10 mal Sehniges Bärenfleisch und 10 mal Zerschundenes Bärenfell.*
 
 **Sobald alle Items gesammelt sind:**
 
@@ -163,6 +185,79 @@ Vinnan: Gut danke, meldet Euch bei seiner Frau wenn ihr ein Bären getötet habt
 
 
 
- 
+
+
+## NPCs
+
+### Vinnan
+
+Vinnan ist der Älteste der Jorgenddersiedlung Jarmundshain und kümmert sich um die Belange der Einwohner. Er ist ein sehr freundlicher Mann, der gerne Hilfe anbietet, aber auch darum bitttet, wenn er welche braucht. 
+
+#### Standartsätze
+
+##### Vor der Quest:
+##### Während der Quest:
+##### Nach der Quest: 
+
+#### Ausrüstung
+
+Welchen Skin hat der NPC? Was hält er in der Hand?
+
+#### Standort   
+
+```yml
+x: 
+y: 
+z: 
+world: faldoria.eisenküste
+```
+
+### Vinnan
+
+Vinnan ist der Älteste der Jorgenddersiedlung Jarmundshain und kümmert sich um die Belange der Einwohner. Er ist ein sehr freundlicher Mann, der gerne Hilfe anbietet, aber auch darum bitttet, wenn er welche braucht. 
+
+#### Standartsätze
+
+##### Vor der Quest:
+##### Während der Quest:
+##### Nach der Quest: 
+
+#### Ausrüstung
+
+Welchen Skin hat der NPC? Was hält er in der Hand?
+
+#### Standort   
+
+```yml
+x: 
+y: 
+z: 
+world: faldoria.eisenküste
+```
+### Vinnan
+
+Vinnan ist der Älteste der Jorgenddersiedlung Jarmundshain und kümmert sich um die Belange der Einwohner. Er ist ein sehr freundlicher Mann, der gerne Hilfe anbietet, aber auch darum bitttet, wenn er welche braucht. 
+
+#### Standartsätze
+
+##### Vor der Quest:
+##### Während der Quest:
+##### Nach der Quest: 
+
+#### Ausrüstung
+
+Welchen Skin hat der NPC? Was hält er in der Hand?
+
+#### Standort   
+
+```yml
+x: 
+y: 
+z: 
+world: faldoria.eisenküste
+```
+
+
+
 
 
