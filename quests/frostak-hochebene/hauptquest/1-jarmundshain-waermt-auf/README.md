@@ -26,6 +26,7 @@ Issue 64
     - [Standartsätze](#standarts%C3%A4tze)
       - [Vor der Quest:](#vor-der-quest)
       - [Während der Quest:](#w%C3%A4hrend-der-quest)
+      - [Nach der Quest: Frage Elius aus](#nach-der-quest-frage-elius-aus)
       - [Nach der Quest:](#nach-der-quest)
     - [Ausrüstung](#ausr%C3%BCstung)
     - [Standort](#standort)
@@ -42,10 +43,21 @@ Issue 64
       - [Vor der Quest: Bärenjagd](#vor-der-quest-b%C3%A4renjagd)
       - [Während der Quest Abgabe Bärenfell](#w%C3%A4hrend-der-quest-abgabe-b%C3%A4renfell)
       - [Nach der Quest:](#nach-der-quest-2)
+    - [Ausrüstung](#ausr%C3%BCstung-2)
+    - [Standort](#standort-2)
+  - [Vestrak](#vestrak)
+    - [Standartsätze](#standarts%C3%A4tze-3)
+      - [Vor der Quest:](#vor-der-quest-2)
+      - [Während der Quest:](#w%C3%A4hrend-der-quest-1)
+      - [Nach der Quest:](#nach-der-quest-3)
+    - [Ausrüstung](#ausr%C3%BCstung-3)
+    - [Standort](#standort-3)
+- [Items](#items)
+- [Mobs](#mobs)
 
 ## Noch zu tun
 
-viel 
+Skins verlinken
 
 ## Verändert
 
@@ -112,7 +124,7 @@ Elius: Nun, sei es wie es will, wir sind jetzt da.
 Spielerin: Jarmundshain hast du gesagt, der Name klingt seltsam. 
 Elius: Die Bewohner sind auch seltsame Jorgendder *lacht*, recht zurückgezogen und meist etwas mürrisch.  
 Spielerin: Joggender? Was für Leute sind denn das wieder?
-Elius: Jorgendder - sprich ja ihren Namen nicht falsch aus! Unser Volk stammt von den Zwergen ab, aber hat sich vor, warte, vor über tausend Jahren mit einem nordischen Seefahrevolk vermischt. Wir haben viel von beiden alten Stämmen, und nicht nur die guten Seiten, aber du wirst sehen, man kann schon mit ihnen auskommen. 
+Elius: Jorgendder - sprich ja ihren Namen nicht falsch aus! Unser Volk stammt von den Zwergen ab, aber hat sich vor, warte, vor über tausend Jahren mit einem nordischen Seefahrevolk vermischt. Wir haben viel von beiden alten Stämmen, und nicht nur die guten Seiten, aber du wirst sehen, man kann schon mit uns auskommen. 
 Spielerin: Wir? Bist du etwa auch ein Jorgennder?
 Elius: Na klar, hast du das nicht gewußt?
 Spielerin: Nein, du hast es nicht erwähnt. Werden die Leute im Dorf mit mir sprechen? 
@@ -218,9 +230,11 @@ Inge: Oh, sehr schön. Ich mache mich gleich an die Arbeit. Wenn Euch eine Beloh
 ```yml
 Vestrak: Sie hat mich Euch gesprochen?
 Spieler: Ähm huch? *vor dir steht ein breitschuldriger Koloss von Mann*
-Vestrak: Meine Mutter..  sie ist immer zurückgezogener geworden seitdem Arula und danach noch Papa weg sind.
-Spieler: Oh, das wusste ich nicht. Das tut mir leid. Ihr seid Inges Sohn? 
-Vestrak: Ja, ich bin Vestrak, und Arula war.. ist meine Schwester. Sie ist verschwunden, war nur in  den Wald gegangen, um einige Pilze zu sammeln. Als sie nicht wiederkam, gingen mein Vater und ich sie suchen. 
+Vestrak: Meine Mutter..  sie ist immer zurückgezogener geworden seitdem Arula und danach noch Papa weg sind. Was hat sie gesagt?
+Spieler: Sie hat nur die Felle und das Fleisch angenommen, mehr nicht.
+Vestrak: Ich halt es langsam nicht mehr aus, ich kann sie aber auch nicht alleine lassen.
+Spielerin: Was ist denn passiert?  
+Vestrak: Arula war.. ist meine Schwester. Sie ist verschwunden, war nur in  den Wald gegangen, um einige Pilze zu sammeln. Als sie nicht wiederkam, gingen mein Vater und ich sie suchen. 
 Spielerin: *Du hörst geduldig zu, was Vestrak dir erzählt, er scheint das Bedürfniss zu haben, mit jemanden zu reden.*
 Vestrak: Wir teilten uns auf, um eine größere Fläche abzusuchen. So geschah es, dass mein Vater auch verschwand. *Er zuckt mit den Schultern und fängt fast zum Weinen an*
 Spielerin: Vielleicht kann ich Euch ja helfen, aber zuerst muss ich zu Vinnan zurück. 
@@ -264,19 +278,33 @@ Spieler: Vielen Dank!
 
 ##### Während der Quest:
 -
+##### Nach der Quest: [Frage Elius aus](#queststartfrage-elius-aus)
+Vor allen anderen Quests:
+
+`Elius: Na, was zögerst du?`
 ##### Nach der Quest: 
-Elius: Na, was zögerst du? 
+```
+1.
+Elius: Nun, wie kommst du mit den Dorfbewohnern aus?
+Spielerin: Gut, ich muss weiter!
+
+2.
+Elius: Na, wie hat Vinnan reagiert?
+Spieler: Er braucht wirklich sehr viel Hilfe
+Elius: Na lass dich nicht aufhalten.
+```
+
 
 #### Ausrüstung
 
-Welchen Skin hat der NPC? Was hält er in der Hand?
+Skin? Kompass in der Hand 
 
 #### Standort   
 
 ```yml
-x: 
-y: 
-z: 
+x: 497
+y: 117
+z: -1973
 world: faldoria.eisenküste
 ```
 
@@ -325,14 +353,15 @@ Vinnan: Sie wohnt am Hang, dort wo das Wasser vom Berg ins grüne Land fließt. 
 
 #### Ausrüstung
 
-Welchen Skin hat der NPC? Was hält er in der Hand?
+Brot in der Hand?
+Skin:
 
 #### Standort   
 
 ```yml
-x: 
-y: 
-z: 
+x: 505
+y: 111
+z: -1851
 world: faldoria.eisenküste
 ```
 
@@ -357,30 +386,44 @@ Spielerin: Oh, ich seh gerade, mir fehlt doch noch was. Ich komm später nochmal
 
 ##### Nach der Quest: 
 
+Alternativ:
+
 ```
+1.
 Inge: Wolltet Ihr noch was?
-Spielering: *du räuspertst dich*  Ne, bin schon weg.
+Spielerin: *du räusperst dich*  Ne, bin schon weg.
+
+2.
+Spielerin: Kann ich Euch irgendwie helfen?
+Inge: Nein *schaut auf den Boden*
+```
+
 
 #### Ausrüstung
 
-Welchen Skin hat der NPC? Was hält er in der Hand?
+Schere in der Hand
 
 #### Standort   
 
 ```yml
-x: 
-y: 
-z: 
+x: 487
+y: 109
+z: -1805
 world: faldoria.eisenküste
 ```
-### Vestrak
 
+### Vestrak
 
 #### Standartsätze
 
 ##### Vor der Quest:
+Vestrak: Lasst mich bitte in Ruhe.
+
 ##### Während der Quest:
+-
 ##### Nach der Quest: 
+Vestrak: Schön, dich zu sehen.
+Spielerin: *Du lächelst Vestrak aufmunternd an*
 
 #### Ausrüstung
 
@@ -389,11 +432,17 @@ Welchen Skin hat der NPC? Was hält er in der Hand?
 #### Standort   
 
 ```yml
-x: 
-y: 
-z: 
+x: 497
+y: 104
+z: -1805
 world: faldoria.eisenküste
 ```
+
+## Items
+
+## Mobs
+
+
 
 
 
