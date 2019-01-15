@@ -4,13 +4,56 @@ Issue 64
 
 [Link zum Google Docs Dokument](https://docs.google.com/document/d/1qNGtcrUiKUG56wcReh-0IIR2xnIP8pkHrfHObpcPeTo)
 
+## Übersicht
+
+- [Übersicht](#%C3%BCbersicht)
+- [Noch zu tun](#noch-zu-tun)
+- [Verändert](#ver%C3%A4ndert)
+- [Vorherige Quest Eisenküste](#vorherige-quest-eisenk%C3%BCste)
+- [Ablauf](#ablauf)
+- [Dialoge](#dialoge)
+  - [`[Queststart]`Frage Elius aus](#queststartfrage-elius-aus)
+  - [Dialog 1 Elius](#dialog-1-elius)
+  - [`[Queststart]`Jarmundshain wärmt auf](#queststartjarmundshain-w%C3%A4rmt-auf)
+  - [Dialog 2 Vinnan](#dialog-2-vinnan)
+  - [`[Queststart]` Bärenjagd](#queststart-b%C3%A4renjagd)
+  - [`[Queststart]` Abgabe Bärenfell](#queststart-abgabe-b%C3%A4renfell)
+  - [Dialog 3 Inge](#dialog-3-inge)
+  - [`[Queststart]` Belohnung](#queststart-belohnung)
+  - [Dialog 4 Vinnan](#dialog-4-vinnan)
+- [NPCs](#npcs)
+  - [Elius](#elius)
+    - [Standartsätze](#standarts%C3%A4tze)
+      - [Vor der Quest:](#vor-der-quest)
+      - [Während der Quest:](#w%C3%A4hrend-der-quest)
+      - [Nach der Quest:](#nach-der-quest)
+    - [Ausrüstung](#ausr%C3%BCstung)
+    - [Standort](#standort)
+  - [Vinnan](#vinnan)
+    - [Standartsätze](#standarts%C3%A4tze-1)
+      - [Vor der Quest:](#vor-der-quest-1)
+      - [Während der Quest, wenn die Bären noch nicht getötet sind:](#w%C3%A4hrend-der-quest-wenn-die-b%C3%A4ren-noch-nicht-get%C3%B6tet-sind)
+      - [Während der Quest, wenn schon alle Questgegenstände gesammelt sind:](#w%C3%A4hrend-der-quest-wenn-schon-alle-questgegenst%C3%A4nde-gesammelt-sind)
+      - [Nach der Quest:](#nach-der-quest-1)
+    - [Ausrüstung](#ausr%C3%BCstung-1)
+    - [Standort](#standort-1)
+  - [Inge](#inge)
+    - [Standartsätze](#standarts%C3%A4tze-2)
+      - [Vor der Quest: Bärenjagd](#vor-der-quest-b%C3%A4renjagd)
+      - [Während der Quest Abgabe Bärenfell](#w%C3%A4hrend-der-quest-abgabe-b%C3%A4renfell)
+      - [Nach der Quest:](#nach-der-quest-2)
+
 ## Noch zu tun
 
 viel 
 
 ## Verändert
 
-Dialog am Anfang hinzugefügt, freiw. Quest in HQ integriert, Infodump Jorgendder und Kaltenstrom
+- Dialog am Anfang hinzugefügt,
+- freiw. Quest in HQ integriert,
+- Infodump Jorgendder und Kaltenstrom,
+- Quest in mehrere aufgespalten
+- Gespräch mit Vestrak erweitert
 
 ## Vorherige Quest Eisenküste
 
@@ -36,41 +79,7 @@ Elius: Ja hier wollten wir hin, ich hab den Brennstoff gerade noch so richtig ei
 
 `[QUEST ENDE]` [Die Reise beginnt](#4-die-reise-beginnt) und erhält [Belohnung](#belohnung) 
 
-## Übersicht
 
-- [Noch zu tun](#noch-zu-tun)
-- [Verändert](#ver%C3%A4ndert)
-- [Vorherige Quest Eisenküste](#vorherige-quest-eisenk%C3%BCste)
-- [Übersicht](#%C3%BCbersicht)
-- [Ablauf](#ablauf)
-- [Dialoge](#dialoge)
-  - [Dialog 1](#dialog-1)
-  - [`[Queststart]`Jarmundshain wärmt auf](#queststartjarmundshain-w%C3%A4rmt-auf)
-  - [Dialog 2](#dialog-2)
-  - [`[Queststart]` Bärenjagd](#queststart-b%C3%A4renjagd)
-  - [`[Queststart]` Abgabe Bärenfell](#queststart-abgabe-b%C3%A4renfell)
-- [NPCs](#npcs)
-  - [Vinnan](#vinnan)
-    - [Standartsätze](#standarts%C3%A4tze)
-      - [Vor der Quest:](#vor-der-quest)
-      - [Während der Quest:](#w%C3%A4hrend-der-quest)
-      - [Nach der Quest:](#nach-der-quest)
-    - [Ausrüstung](#ausr%C3%BCstung)
-    - [Standort](#standort)
-  - [Vinnan](#vinnan-1)
-    - [Standartsätze](#standarts%C3%A4tze-1)
-      - [Vor der Quest:](#vor-der-quest-1)
-      - [Während der Quest:](#w%C3%A4hrend-der-quest-1)
-      - [Nach der Quest:](#nach-der-quest-1)
-    - [Ausrüstung](#ausr%C3%BCstung-1)
-    - [Standort](#standort-1)
-  - [Vinnan](#vinnan-2)
-    - [Standartsätze](#standarts%C3%A4tze-2)
-      - [Vor der Quest:](#vor-der-quest-2)
-      - [Während der Quest:](#w%C3%A4hrend-der-quest-2)
-      - [Nach der Quest:](#nach-der-quest-2)
-    - [Ausrüstung](#ausr%C3%BCstung-2)
-    - [Standort](#standort-2)
 
 ## Ablauf
 
@@ -83,11 +92,11 @@ Elius: Ja hier wollten wir hin, ich hab den Brennstoff gerade noch so richtig ei
 
 Spieler:  *Du fühlst dich plötzlich sehr unsicher und alleine. Vielleicht solltest du dich doch noch an Elius halten und ihn etwas ausfragen*
 
-`[Queststart]`[Frage Elius aus](#frage-elius-aus)
+### `[Queststart]`[Frage Elius aus](#frage-elius-aus)
 
 `[Questlog]`  *Hole von Elius noch einige Informationen ein*
 
-### Dialog 1
+### Dialog 1 [Elius](#elius)
 
 ```yml
 Spielerin: Elius, wo sind wir hier eigentlich?
@@ -102,11 +111,12 @@ Spielerin: Joggender? Was für Leute sind denn das wieder?
 Elius: Jorgendder - sprich ja ihren Namen nicht falsch aus! Das ist ein Volk, das von den Zwergen abstammt, aber sich vor, warte, vor über tausend Jahren mit einem nordischen Seefahrevolk vermischt hat. Haben viel von beiden alten Stämmen, und nicht nur die guten Seiten, aber du wirst sehen, man kann schon mit ihnen auskommen. 
 Spielerin: Hmm, ja, werden sie mit mir sprechen? 
 Elius: Wenn du ihnen nicht dumm kommst schon. Ich würde mich an deiner Stelle an den Ältesten wenden. Ich nehme an, du willst nach Kaltenstrom, dabei kann dir Vinnan sicherlich helfen. 
-Spielerin: Kaltenstrom ist die große Stadt, nicht wahr, dort wo 
-(Kaltenstrom Info)
-
-Elius: Ja genau... (Kaltenstrom Info)
-Spielerin: Und wo finde ich diesen Vinnan?
+Spielerin: Kaltenstrom ist die große Stadt, über die wir geflogen sind, nicht wahr, mit der großen Burg in der Mitte. Gehört die auch den Jorgenddern?
+Elius: Ja genau, das ist nicht ihre Hauptstadt, das ist Sorvenheim, aber Kaltenstrom ist ihr ganzer Stolz, weil sie es als Jorgendder gebaut haben und nicht von den Zwergen übernommen. Und wenn du den Namen Gimdus hörst, das ist ihr Jarl.
+Spielerin: Jarl?
+Elius: Jarl ist ein Titel, er ist nur dem König untertan.
+Spielerin: *Du seufzt* Ich glaube, ich konzentriere mich jetzt lieber auf das Hier und Jetzt.
+Spielerin: Wo finde ich diesen Vinnan?
 Elius: Sein Haus liegt in der Richtung des Weizenfeldes, genau dahinter. Es ist ein sehr großes Haus, es sollte kaum zu verfehlen sein.
 Spielerin: Was sage ich ihm dann?
 Elius: Na, wo du hinwillst. Ihm im gleichen Atemzug Hilfe anzubieten wäre allerdings eine gute Idee, das dürfte ihn sicherlich freuen. 
@@ -125,7 +135,7 @@ Spielerin: *du lächelst Elius an* Danke für die Ballonfahrt!
 
 **Die Spielerin verlässt Elius und sucht den Dorfältesten Vinnan**
 
-### Dialog 2
+### Dialog 2 [Vinnan](#vinnan)
 ```yml
 Vinnan: Grüße Fremder, habt Ihr Hunger?
 Spielerin: Ähm... Grüße...  ich bin [Spielername]. Ja, so ein wenig Hunger habe ich schon.
@@ -178,20 +188,68 @@ Vinnan: Gut danke, meldet Euch bei seiner Frau wenn ihr ein Bären getötet habt
 `[Questlog]` *Bringt die Felle zur Frau des Schmieds*
 
 
+**Sobald die Spielerin (mit Questitems) bei Inge ankommt**
 
 
+### Dialog 3 [Inge](#inge)
+```yml
+Inge: *zieht die Augenbrauen hoch und schaut dich fragend an, sagt aber nichts*
+Spielerin: Uhm... seid Ihr die Frau vom Schmied?
+Inge: Wer möchte das wissen?
+Spielerin: Ich bin [Spielername]. Ich habe im auftrag von VinnanBären getötet und das da erbeutet. *Du zeigst auf die Felle und das Fleisch*
+Inge: Oh, sehr schön. ich mache mich gleich an die Arbeit. Wenn Euch eine Belohnung versprochen wurde, sprecht mit Vinnan, ich habe für sowas gerade echt keinen Kopf. 
+```
+`[Questende]` [Abgabe Bärenfell](#abgabe-baerenfell)
+
+>> sehniges Bärenfleisch und zerschundene Bärenfelle verschwinden aus dem Inventar
+
+### `[Queststart]` [Belohnung](#belohnung)
+`[Questlog]` *Sprecht mit Vinnan wegen der Belohnung*
 
 
+**Während der Spieler noch da steht, kommt ein Mann aus dem Haus und spricht die Spielerin an. Keine Quest, Gespräch kann durch Weglaufen beendet werden. Später wieder aufnehmbar?**
+
+```yml
+Vestrak: Sie hat mich Euch gesprochen?
+Spieler: Ähm huch? *vor dir steht ein breitschuldriger Koloss von Mann*
+Vestrak: Meine Mutter..  sie ist immer zurückgezogener geworden seitdem Arula und danach noch Papa weg sind.
+Spieler: Oh, das wusste ich nicht. Das tut mir leid. Ihr seid Inges Sohn? 
+Vestrak: Ja, ich bin Vestrak, und Arula war.. ist meine Schwester. Sie ist verschwunden, war nur in  den Wald gegangen, um einige Pilze zu sammeln. Als sie nicht wiederkam, gingen mein Vater und ich sie suchen. 
+Spielerin: *Du hörst geduldig zu, was Vestrak dir erzählt, er scheint das Bedürfniss zu haben, mit jemanden zu reden.*
+Vestrak: Wir teilten uns auf, um eine größere Fläche abzusuchen. So geschah es,dass mein Vater auch verschwand. *Er zuckt mit den Schultern und fängt fast zum Weinen an*
+Spielerin: Vielleicht kann ich Euch ja helfen, aber zuerst muss ich zu Vinnan zurück. 
+Vestrak: Passt auf Euch auf!
+```
+
+**Spielerin sucht Vinnan auf**
+
+### Dialog 4 [Vinnan](#vinnan)
+
+```yml
+Vinnan: Da seid Ihr ja wieder.
+Spielerin: Alles erledigt.
+Vinnan: Das ging schneller als erwartet, hört Euch doch bitte auch noch etwas im Dorf um, ob Ihr dort Hilfe anbieten könnt, das würde mir auch sehr helfen.
+Spielerin: Gerne... nur, ich bin sehr kapp an Vorräten und..
+Vinnan: Oh ja, entschuldigt, natürlich werd ich Euch diesen Aufwand entlohnen. Helft den Dorfbewohnern und Ihr werdet es nicht bereuen.
+Spielerin: Das hört sich gut an, ich werde schauen was ich tun kann.
+Vinnan: Nehmt diesen Fellüberwurf als Dank für die Bärenjagd und dieses Papier um Euch aufschreiben zu lassen, wem Ihr geholfen habt.
+Spieler: Vielen Dank!
+```
+
+`[Questende]` [Belohnung](#belohnung)
+
+**Belohnung** [Fellüberwurf](#fellüberwurf)
 
 
+>>> Die Spielerin bekommt [10 Leeres Papier] für die nächste Quest
+
+>>> Nächste HQuest: [Vinnans helfende Hand](#vinnans-helfende-hand)   LINK! falsch?
 
 
 
 ## NPCs
 
-### Vinnan
-
-Vinnan ist der Älteste der Jorgenddersiedlung Jarmundshain und kümmert sich um die Belange der Einwohner. Er ist ein sehr freundlicher Mann, der gerne Hilfe anbietet, aber auch darum bitttet, wenn er welche braucht. 
+### Elius
 
 #### Standartsätze
 
@@ -219,7 +277,40 @@ Vinnan ist der Älteste der Jorgenddersiedlung Jarmundshain und kümmert sich um
 #### Standartsätze
 
 ##### Vor der Quest:
-##### Während der Quest:
+Wenn die Quest [Jarmundshain wärmt auf](#jarmundshain-waermt-auf) noch nicht angenommen ist: 
+*`Vinnan bemerkt dich nicht`*
+##### Während der Quest, wenn die Bären noch nicht getötet sind:
+```
+1. 
+Vinnan: Na, seid Ihr schon fertig?
+Spielerin: Nein, ich mach nur mal Pause.
+
+2. 
+Vinnan: Braucht Ihr noch was?
+Spielerin: Ja, *räusper*, was sollte ich nochmal tun?
+Vinnan: *schaut sehr geduldig* Bären töten und danach das Fleisch und die Felle zur Frau des Schmieds bringen. 
+Spielerin: Wo finde ich denn die Bären?
+Vinnan: Sehr nah an und auf den Bergen, sie leben größtenteils in schneebedeckten Regionen.
+```
+##### Während der Quest, wenn schon alle Questgegenstände gesammelt sind:
+
+```
+Vinnan: Braucht Ihr noch was?
+
+1.
+Spielerin: Auftrag erledigt, hier sind die Felle und das Fleisch.
+
+>> Falls 1. angeklickt wird:
+Vinnan: Bitte bringe es zu Inge, der Frau des Schmieds, ich kann das nicht verarbeiten.
+Spielerin: Dein Ernst? Wo finde ich denn diese Frau des Schmieds?
+Vinnan: Sie wohnt am Hang, dort wo das Wasser vom Berg ins grüne Land fließt. Es ist das einzige Haus mit Wasserrad hier im Dorf.
+
+2. Spielerin: Vinnan, wo finde ich Inge?
+
+>> Falls 2. angeklickt wird:
+Vinnan: Sie wohnt am Hang, dort wo das Wasser vom Berg ins grüne Land fließt. Es ist das einzige Haus mit Wasserrad hier im Dorf.
+
+```
 ##### Nach der Quest: 
 
 #### Ausrüstung
@@ -234,9 +325,46 @@ y:
 z: 
 world: faldoria.eisenküste
 ```
-### Vinnan
 
-Vinnan ist der Älteste der Jorgenddersiedlung Jarmundshain und kümmert sich um die Belange der Einwohner. Er ist ein sehr freundlicher Mann, der gerne Hilfe anbietet, aber auch darum bitttet, wenn er welche braucht. 
+### Inge
+
+Frau des Schmieds, die Felle verarbeitet
+
+#### Standartsätze
+
+##### Vor der Quest: [Bärenjagd](#baerenjagd)
+```
+Inge: Wer seid Ihr und was wollt Ihr? *unwirsch*
+Spielerin: Ich bin [Name der Spielerin], fremd hier im Land. Verzeiht, dass ich Euch gestört habe.
+``` 
+##### Während der Quest [Abgabe Bärenfell](#abgabe-baerenfell)
+(wenn nicht alle Questitems vorhanden sind)
+
+```
+Inge: *schaut dich an und zieht die Augenbrauen hoch* Ist was?
+Spielerin: Oh, ich seh gerade, mir fehlt doch noch was. Ich komm später nochmal wieder.
+```
+
+##### Nach der Quest: 
+
+```
+Inge: Wolltet Ihr noch was?
+Spielering: *du räuspertst dich*  Ne, bin schon weg.
+
+#### Ausrüstung
+
+Welchen Skin hat der NPC? Was hält er in der Hand?
+
+#### Standort   
+
+```yml
+x: 
+y: 
+z: 
+world: faldoria.eisenküste
+```
+### Vestrak
+
 
 #### Standartsätze
 
