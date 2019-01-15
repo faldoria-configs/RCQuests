@@ -17,6 +17,14 @@ default-convs:
     convs:
       - 'eisenkueste.npcs.marduk:this.quest-complete'
 
+requirements:
+  flow:
+    - '?quest.complete ../2-reparaturarbeiten'
+
+trigger:
+  flow:
+    - '@host.interact eisenkueste.npcs.marduk this.quest-start'
+
 objectives:
   '1':
     name: Erkunde die Turmruinen
