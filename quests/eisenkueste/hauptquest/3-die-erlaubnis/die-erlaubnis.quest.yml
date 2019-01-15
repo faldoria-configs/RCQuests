@@ -21,7 +21,7 @@ requirements:
   flow:
     - '?quest.complete ../2-reparaturarbeiten'
 
-trigger:
+start-trigger:
   flow:
     - '@host.interact eisenkueste.npcs.marduk this.quest-start'
 
