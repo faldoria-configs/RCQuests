@@ -111,11 +111,12 @@ Spielerin: Joggender? Was für Leute sind denn das wieder?
 Elius: Jorgendder - sprich ja ihren Namen nicht falsch aus! Das ist ein Volk, das von den Zwergen abstammt, aber sich vor, warte, vor über tausend Jahren mit einem nordischen Seefahrevolk vermischt hat. Haben viel von beiden alten Stämmen, und nicht nur die guten Seiten, aber du wirst sehen, man kann schon mit ihnen auskommen. 
 Spielerin: Hmm, ja, werden sie mit mir sprechen? 
 Elius: Wenn du ihnen nicht dumm kommst schon. Ich würde mich an deiner Stelle an den Ältesten wenden. Ich nehme an, du willst nach Kaltenstrom, dabei kann dir Vinnan sicherlich helfen. 
-Spielerin: Kaltenstrom ist die große Stadt, nicht wahr, dort wo 
-(Kaltenstrom Info)
-
-Elius: Ja genau... (Kaltenstrom Info)
-Spielerin: Und wo finde ich diesen Vinnan?
+Spielerin: Kaltenstrom ist die große Stadt, über die wir geflogen sind, nicht wahr, mit der großen Burg in der Mitte. Gehört die auch den Jorgenddern?
+Elius: Ja genau, das ist nicht ihre Hauptstadt, das ist Sorvenheim, aber Kaltenstrom ist ihr ganzer Stolz, weil sie es als Jorgendder gebaut haben und nicht von den Zwergen übernommen. Und wenn du den Namen Gimdus hörst, das ist ihr Jarl.
+Spielerin: Jarl?
+Elius: Jarl ist ein Titel, er ist nur dem König untertan.
+Spielerin: *Du seufzt* Ich glaube, ich konzentriere mich jetzt lieber auf das Hier und Jetzt.
+Spielerin: Wo finde ich diesen Vinnan?
 Elius: Sein Haus liegt in der Richtung des Weizenfeldes, genau dahinter. Es ist ein sehr großes Haus, es sollte kaum zu verfehlen sein.
 Spielerin: Was sage ich ihm dann?
 Elius: Na, wo du hinwillst. Ihm im gleichen Atemzug Hilfe anzubieten wäre allerdings eine gute Idee, das dürfte ihn sicherlich freuen. 
@@ -249,7 +250,6 @@ Spieler: Vielen Dank!
 ## NPCs
 
 ### Elius
-
 
 #### Standartsätze
 
