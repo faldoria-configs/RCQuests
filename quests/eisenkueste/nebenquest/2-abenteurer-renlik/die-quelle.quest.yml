@@ -17,7 +17,7 @@ default-convs:
     convs:
       - 'this.renlik:this.quest-completed'
 
-trigger:
+start-trigger:
   flow:
     - '@host.interact this.renlik this.quest-start'
 

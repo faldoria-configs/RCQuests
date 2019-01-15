@@ -20,7 +20,7 @@ requirements:
   flow:
     - '?quest.active ../../hauptquest.2-vinnans-helfende.hand'
 
-trigger:
+start-trigger:
   flow:
     - '@host.interact ../../npcs/rolf this.quest-start'
 

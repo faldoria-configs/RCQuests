@@ -19,8 +19,8 @@ objectives:
       flow:
         - '@host.interact ../elius'
         - '?tag eisenkueste.elius.not-ready'
-        - '-!conv.start ../elius this.quest-start'
-        - '+!conv.start ../elius this.quest-start stage:return'
+        - '-!conv.start this.quest-start ../elius'
+        - '+!conv.start this.quest-start ../elius stage:return'
 
 complete-actions:
   flow:

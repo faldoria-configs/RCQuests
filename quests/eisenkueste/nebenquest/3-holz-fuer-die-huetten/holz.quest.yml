@@ -21,7 +21,7 @@ default-convs:
     convs:
       - 'this.aksik:this.quest-completed'
 
-trigger:
+start-trigger:
   flow:
     - '@host.interact this.akisk this.quest-start'
 

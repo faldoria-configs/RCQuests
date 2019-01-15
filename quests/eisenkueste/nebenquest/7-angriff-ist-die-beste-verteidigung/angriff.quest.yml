@@ -22,7 +22,7 @@ default-convs:
     convs:
       - 'this.bari:this.quest-completed'
 
-trigger:
+start-trigger:
   flow:
     - '@quest.completed eisenkueste.hauptquest.2-reparaturarbeiten'
     - '!conv.start this.bari this.quest-start'
