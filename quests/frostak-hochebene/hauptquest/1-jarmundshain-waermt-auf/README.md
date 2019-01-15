@@ -54,12 +54,16 @@ Issue 64
     - [Ausrüstung](#ausr%C3%BCstung-3)
     - [Standort](#standort-3)
 - [Items](#items)
+  - [Fellüberwurf](#fell%C3%BCberwurf)
 - [Mobs](#mobs)
+  - [Frostakbär ??](#frostakb%C3%A4r)
+  - [Belohnungen](#belohnungen)
 
 ## Noch zu tun
 
 Skins verlinken
 Item und Mobs hinzufügen, Namen nachsehen
+Belohnungen
 
 
 ## Verändert
@@ -443,8 +447,13 @@ world: faldoria.eisenküste
 ```
 
 ## Items
+### Fellüberwurf
 
 ## Mobs
+
+### Frostakbär ??
+
+### Belohnungen
 
 
 
