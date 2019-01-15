@@ -29,6 +29,7 @@ objectives:
   '2':
     name: 'Töte Bären und sammle Vorräte'
     desc: 'Tötet Bären rund um den Jarmundshain und erbeutet 10 mal Sehniges Bärenfleisch und 10 mal Zerschundenes Bärenfell. Bringt diese danach zur Frau des Schmieds.'
+    hidden: true
     default-convs:
       complete:
         convs:
@@ -48,6 +49,7 @@ objectives:
   '3':
     name: 'Bringt die Felle zur Frau des Schmieds'
     auto-complete: false
+    hidden: true
     default-convs:
       complete:
         convs:
@@ -59,6 +61,7 @@ objectives:
   '4':
     name: 'Sprecht mit Vinnan für die Belohnung'
     auto-complete: false
+    hidden: true
     trigger:
       flow:
         - '@host.proximity(execute-once:true) ../../npcs/vestrak conv:this.vestrak-quest-end'

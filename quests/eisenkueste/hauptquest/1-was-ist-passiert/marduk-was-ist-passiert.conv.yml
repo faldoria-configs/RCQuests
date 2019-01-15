@@ -28,3 +28,4 @@ stages:
       flow:
         - ':"Jawohl!"'
         - '!objective.complete this.was-ist-passiert 1'
+        - '!end'
