@@ -20,7 +20,8 @@ Issue 64
   - [`[Queststart]` Abgabe Bärenfell](#queststart-abgabe-b%C3%A4renfell)
   - [Dialog 3 Inge](#dialog-3-inge)
   - [`[Queststart]` Belohnung](#queststart-belohnung)
-  - [Dialog 4 Vinnan](#dialog-4-vinnan)
+  - [Dialog 4 Vestrak](#dialog-4-vestrak)
+  - [Dialog 5 Vinnan](#dialog-5-vinnan)
 - [NPCs](#npcs)
   - [Elius](#elius)
     - [Standartsätze](#standarts%C3%A4tze)
@@ -58,6 +59,8 @@ Issue 64
 ## Noch zu tun
 
 Skins verlinken
+Item und Mobs hinzufügen, Namen nachsehen
+
 
 ## Verändert
 
@@ -65,7 +68,7 @@ Skins verlinken
 - freiw. Quest in HQ integriert,
 - Infodump Jorgendder und Kaltenstrom,
 - Quest in mehrere aufgespalten
-- Gespräch mit Vestrak erweitert
+- Gespräch mit Vestrak erweitert, etwas umgeschrieben
 
 ## Vorherige Quest Eisenküste
 
@@ -227,6 +230,7 @@ Inge: Oh, sehr schön. Ich mache mich gleich an die Arbeit. Wenn Euch eine Beloh
 
 **Während die Spielerin noch da steht, kommt ein Mann aus dem Haus und spricht die Spielerin an. Keine Quest, Gespräch kann durch Weglaufen beendet werden. Später wieder aufnehmbar?**
 
+### Dialog 4 [Vestrak](#vestrak)
 ```yml
 Vestrak: Sie hat mich Euch gesprochen?
 Spieler: Ähm huch? *vor dir steht ein breitschuldriger Koloss von Mann*
@@ -243,7 +247,7 @@ Vestrak: Passt auf Euch auf!
 
 **Spielerin sucht Vinnan auf**
 
-### Dialog 4 [Vinnan](#vinnan)
+### Dialog 5 [Vinnan](#vinnan)
 
 ```yml
 Vinnan: Da seid Ihr ja wieder.
