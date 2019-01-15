@@ -1,6 +1,6 @@
 stages:
   start:
-    trigger:
+    actions:
       flow:
         - '!text.player "Hauptmann ich habe es geschafft, Elius ist gerade dabei den Ballon zu reparieren. Das dauert aber ein bisschen."'
         - '~6s'
