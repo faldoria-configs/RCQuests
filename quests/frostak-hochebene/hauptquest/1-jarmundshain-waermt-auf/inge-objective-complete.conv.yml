@@ -3,4 +3,4 @@ stages:
     actions:
       flow:
         - '!text "Wolltet Ihr noch etwas?"'
-        - '>"Ähm ne, bin schon weg."'
+        - '>"*du räusperst dich* Ne, bin schon weg."'

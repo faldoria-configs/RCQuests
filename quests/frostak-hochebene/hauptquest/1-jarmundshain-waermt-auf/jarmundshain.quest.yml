@@ -20,7 +20,7 @@ default-convs:
 
 objectives:
   '1':
-    name: 'Finde und Sprich mit Vinnan'
+    name: 'Finde und sprich mit Vinnan'
     desc: 'Sprecht mit dem Ältesten im Jarmundshain, sein Name ist Vinnan.'
     auto-complete: false
     trigger:
