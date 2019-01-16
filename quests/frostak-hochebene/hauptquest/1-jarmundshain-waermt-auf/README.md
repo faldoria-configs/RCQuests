@@ -57,7 +57,7 @@ Issue 64
   - [Fellüberwurf](#fell%C3%BCberwurf)
 - [Mobs](#mobs)
   - [Frostakbär ??](#frostakb%C3%A4r)
-  - [Belohnungen](#belohnungen)
+- [Belohnungen](#belohnungen)
 
 ## Noch zu tun
 
@@ -451,9 +451,15 @@ world: faldoria.eisenküste
 
 ## Mobs
 
-### Frostakbär ??
+### Frostakbär 
+name: Frostakbär
+type: polar_bear
+aggrvo: true
+passie: false
+min-level: 5
+max-level: 8
 
-### Belohnungen
+## Belohnungen
 
 
 
