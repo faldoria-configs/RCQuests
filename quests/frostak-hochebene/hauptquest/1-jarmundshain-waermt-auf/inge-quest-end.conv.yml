@@ -2,11 +2,11 @@ stages:
   start:
     actions:
       flow:
-        - '!text "..."'
-        - '>"Uhm... bist du die Frau vom Schmied?"'
+        - '!text "*zieht die Augenbrauen hoch und schaut dich fragend an, sagt aber nichts"'
+        - '>"Uhm... seid Ihr die Frau vom Schmied?"'
         - '!text "Wer möchte das wissen?"'
-        - '>"%player%. Ich hab im Auftrag von Vinnan Bären getötet und folgendes erbeutet."'
-        - '!text "Okay, dann werd ich mich wohl an die Arbeit machen. Wenn Euch eine Belohnung versprochen wurde sprecht mit Vinnan, ich hab für sowas gerade echt keinen Kopf."'
+        - '>"Ich bin %player%. Ich habe im Auftrag von Vinnan Bären getötet und das da erbeutet. *Du deutest auf die Felle und das Fleisch.*"'
+        - '!text "OkayOh, sehr schön! Ich mache mich gleich an die Arbeit. Wenn Euch eine Belohnung versprochen wurde sprecht mit Vinnan, ich hab für sowas gerade echt keinen Kopf."'
         - '!item.remove this.items.fell'
         - '!item.remove this.items.fleisch'
         - '!objective.complete this.jarmundshain 3'

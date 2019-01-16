@@ -2,5 +2,5 @@ stages:
   start:
     random-actions:
       flow:
-        - '!text "..."'
+        - '!text "*schaut dich an und zieht die Augenbrauen hoch* Ist was?"'
         - '>"Oh ich seh gerade, mir fehlt doch noch was. Ich komm später nochmal wieder."'
