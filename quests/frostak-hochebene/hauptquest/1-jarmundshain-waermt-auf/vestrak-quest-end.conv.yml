@@ -3,6 +3,13 @@ stages:
     actions:
       flow:
         - '!text "Sie hat mich Euch gesprochen?"'
-        - '>"Ähm huch?"'
-        - '!text "Meine Mutter... sie ist immer zurückgezogener geworden seit dem Arula und danach noch Papa weg sind."'
-        - '>"Oh das wusst ich nicht. Ich muss weiter zu Vinnan."'
+        - '>"Ähm huch? *vor dir steht einbreitschuldriger Koloss von Mann*"'
+        - '!text "Meine Mutter... sie ist immer zurückgezogener geworden seitdem Arula und danach noch Papa weg sind. Was aht sie gesagt?"'
+        - '>"Sie hat nur die Felle und das Fleisch angenommen."'
+        - '!text "Ich halt es langsam nicht mehr aus, ich kann sie aber auhc nicht alleine lassen."'
+        - '>"Was ist denn passiert?"'
+        - '!text "Arula war... ist meine Schwester. Sie ist verschwunden, war nur in  den Wald gegangen, um einige Pilze zu sammeln. Als sie nicht wiederkam, gingen mein Vater und ich sie suchen."'
+        - '>"*Du hörst geduldig zu, was Vestrak dir erzählt, er scheint das Bedürfniss zu haben, mit jemanden zu reden.*"'
+        - '!text "Wir teilten uns auf, um eine größere Fläche abzusuchen. So geschah es, dass mein Vater auch verschwand. *Er zuckt mit den Schultern und fängt fast zum Weinen an*"'
+        - '>"Vielleicht kann ich Euch ja helfen, aber zuerst muss ich zu Vinnan zurück."'
+        - '!text "Passt auf Euch auf!"'
