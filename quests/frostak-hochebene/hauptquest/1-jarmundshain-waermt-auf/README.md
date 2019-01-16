@@ -170,33 +170,26 @@ Spielerin: Oh, ja, gerne!
 
 > Spielerin erhält 3 [Frostakbrotlaib](#frostakbrotlaib)
 
-```yml
-Spielerin: Danke, kann ich vielleicht auch etwas helfen?
-Vinnan: Oh, Ihr möchtet helfen? Das trifft sich gut, hier ist es gerade sehr chaotisch.
-Spielerin: *Du schaust dich etwas um und siehst, dass hier wirklich eine helfende Hand nötig wäre*
-Spielerin: Räumt hier denn niemand auf?
-Vinnan: So meinte ich das nicht! *er lacht und du wirst rot*
-Vinnan: Gunnar, unser Schmied und einziger Kämpfer im Dorf ist vor einer Weile aufgebrochen, um seine verschwundene Tochter zu suchen. Nun fehlt es uns an Fleisch und Fellen. Der Weizen wird dieses Jahr sicherlich nicht reichen. 
-Spielerin: Ich kann auch helfen, nach der Tochter vom Schmied zu suchen. 
-Vinnan: Nein, das kann ich nicht verantworten.
-Spielerin: Warum darf ich Euch da nicht unterstützen?
-Vinnan: Ihr dürft helfen, das Dorf mit Fleisch und Fellen zu versorgen. Geht jagen und bringt die Sachen dann zur Frau vom Schmied.
-Spielerin: Vinnan, warum wird der Weizen denn nicht reichen?
-Vinnan: Ich habe gerade keine Zeit es zu erklären, Ihr werdet es aber gewiss unweigerlich selbst bald erfahren.
-Spielerin: Nun gut, ich lass mich überraschen. Dann mach ich mich wohl mal auf die Jagd.
-Vinnan: Gut danke, meldet Euch bei seiner Frau wenn ihr ein Bären getötet habt, sie verarbeitet die Felle.
-```
-> 1.
+Danke, kann ich vielleicht auch etwas helfen?  
+**Vinnan:** `Oh, Ihr möchtet helfen? Das trifft sich gut, hier ist es gerade sehr chaotisch.`  
+_*Du schaust dich etwas um und siehst, dass hier wirklich eine helfende Hand nötig wäre*_  
+Räumt hier denn niemand auf?  
+**Vinnan:** `So meinte ich das nicht! *er lacht und du wirst rot*`  
+**Vinnan:** `Gunnar, unser Schmied und einziger Kämpfer im Dorf ist vor einer Weile aufgebrochen, um seine verschwundene Tochter zu suchen. Nun fehlt es uns an Fleisch und Fellen. Der Weizen wird dieses Jahr sicherlich nicht reichen.`  
+Ich kann auch helfen, nach der Tochter vom Schmied zu suchen.  
+**Vinnan:** `Nein, das kann ich nicht verantworten.`  
+Warum darf ich Euch da nicht unterstützen?  
+**Vinnan:** `Ihr dürft helfen, das Dorf mit Fleisch und Fellen zu versorgen. Geht jagen und bringt die Sachen dann zur Frau vom Schmied.`  
+Vinnan, warum wird der Weizen denn nicht reichen?  
+**Vinnan:** `Ich habe gerade keine Zeit es zu erklären, Ihr werdet es aber gewiss unweigerlich selbst bald erfahren.`  
+Nun gut, ich lass mich überraschen. Dann mach ich mich wohl mal auf die Jagd.  
 
-`Spielerin: Bären? Ähm.. ich habe es mir anders überlegt.`
+**Vinnan:** `Gut danke, meldet Euch bei seiner Frau wenn ihr ein Bären getötet habt, sie verarbeitet die Felle.`  
+1. _Bären? Ähm.. ich habe es mir anders überlegt._  
+    **Vinnan:** `*lacht* Ach was, Ihr schafft das schon.`
 
-`Vinnan: *lacht* Ach was, Ihr schafft das schon.`
-
-> 2.
-
-`Spielerin: Joa, das dürfte kein Problem werden, ich bin schon gut in Übung was sowas angeht. `
-
-`Vinnan: Na dann, vergesst nicht, die Felle zur Frau des Schmieds zu bringen.`
+2. _Joa, das dürfte kein Problem werden, ich bin schon gut in Übung was sowas angeht._  
+    **Vinnan:** `Na dann, vergesst nicht, die Felle zur Frau des Schmieds zu bringen.`  
 
 `[Questende]`[Jarmundshain wärmt auf](#jarmundshain-waermt-auf)
 
