@@ -198,7 +198,7 @@ Item: engl. Bezeichnung hier: https://minecraft-ids.grahamedgecombe.com/
 ### Einfache Bandage
 
 ```yml
-ID: 
+ID: 339
 name: Einfache Bandage
 type: QUEST 
 quality: COMMON 
@@ -209,7 +209,7 @@ max-stack-size: 16
 ### Grüner Farn
 
 ```yml
-ID: 
+ID: 31:2
 name: Grüner Farn
 type: QUEST 
 quality: COMMON 
@@ -219,7 +219,7 @@ max-stack-size: 64
 ```
 ###  Blaue Heilorchidee
 ```yml
-ID: 
+ID: 38:1
 name: Blaue Heilorchidee
 type: QUEST 
 quality: COMMON 
