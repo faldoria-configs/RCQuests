@@ -9,25 +9,28 @@ Issue #60
 Blumen (blaue Orchidee) in der nordwestlichen Hochebene gefunden
 
 ## Übersicht
-* [Was noch fehlt:](#was-noch-fehlt)
-* [Übersicht](#Übersicht)
-* [Voraussetzungen](#voraussetzungen)
-* [Ablauf](#ablauf)
-* [Questdialoge](#questdialoge)
-  * [Dialog 1](#dialog-1)
-  * [Dialog 2](#dialog-2)
-* [NPCS](#npcs)
-  * [Mairi](#mairi)
-    * [Standartsätze](#standartsätze)
-      * [Vor der Quest](#vor-der-quest)
-      * [Während der Quest:](#während-der-quest)
-      * [Nach der Quest:](#nach-der-quest)
-    * [Ausrüstung](#ausrüstung)
-    * [Standort](#standort)
-* [Items](#items)
-  * [Einfache Bandage](#einfache-bandage)
-* [Belohnung](#belohnung)
-* [Referenzen](#referenzen)
+- [Heilpflanzen für Mairi](#heilpflanzen-f%C3%BCr-mairi)
+  - [Was noch fehlt:](#was-noch-fehlt)
+  - [Übersicht](#%C3%BCbersicht)
+  - [Voraussetzungen](#voraussetzungen)
+  - [Ablauf](#ablauf)
+  - [Questdialoge](#questdialoge)
+    - [Dialog 1](#dialog-1)
+    - [Dialog 2](#dialog-2)
+  - [NPCS](#npcs)
+    - [Mairi](#mairi)
+      - [Standartsätze](#standarts%C3%A4tze)
+        - [Vor der Quest](#vor-der-quest)
+        - [Während der Quest:](#w%C3%A4hrend-der-quest)
+        - [Nach der Quest:](#nach-der-quest)
+      - [Ausrüstung](#ausr%C3%BCstung)
+      - [Standort](#standort)
+  - [Items](#items)
+    - [Einfache Bandage](#einfache-bandage)
+    - [Grüner Farn](#gr%C3%BCner-farn)
+    - [Blaue Heilorchidee](#blaue-heilorchidee)
+  - [Belohnung](#belohnung)
+  - [Referenzen](#referenzen)
 
 
         
@@ -201,6 +204,27 @@ type: QUEST
 quality: COMMON 
 item: paper
 lore: Für notdürftiges, erstes Verbinden reicht's
+max-stack-size: 16
+```
+### Grüner Farn
+
+```yml
+ID: 
+name: Grüner Farn
+type: QUEST 
+quality: COMMON 
+item: fern
+lore: Zieht auch Eiter aus der Wunde
+max-stack-size: 64
+```
+###  Blaue Heilorchidee
+```yml
+ID: 
+name: Blaue Heilorchidee
+type: QUEST 
+quality: COMMON 
+item: blue_orchid
+lore: Eine wunderbare Heilpflanze!
 max-stack-size: 16
 ```
 
