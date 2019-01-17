@@ -8,6 +8,7 @@ Issue 54
 ## Was noch fehlt:
 
 NPC Mairi muss noch plaziert werden
+Braucht auch noch farbigeren Skin (siehe Kaishi-Beschreibung)
 
 
 ## Übersicht 
@@ -39,7 +40,7 @@ Keine
 ## Ablauf
 
 1. Mairi spricht den Spieler an (5 Blocks?), wenn er die Treppe zu den zwei oberen Häusern hochläuft. 
-> Variationen im Gespräch, je nachdem ob er die Quest von Mimi weiter unten an der Treppe angenommen hat.
+> Variationen im Gespräch, je nachdem ob er die Quest von Mimi weiter unten an der Treppe angenommen hat oder nicht.
 2. Der Spieler unterhält sich mit Mairi über Mimi.
 3. Mairi gibt dem Spieler den Auftrag, Mimi zu sagen, dass sie zum Schiff gehen soll.  
 4. Mairi verabschiedet sich vom Spieler.
@@ -50,45 +51,49 @@ Keine
 
 Spieler läuft die Treppe zu den oberen Häusern hoch. Mairi spricht Spieler an, wenn er 5 Blöcke weg ist
 
-```yml
-Mairi: Hey, <Name des Spielers>, warte mal einen Augenblick bitte.
-```
-Möglichkeit 1:  Geht er auf sie zu und klickt sie an, startet der Dialog.
-Möglichkeit 2: Geht er weiter, sagt Mairi:
+**Mairi:** ` Hey, <Name des Spielers>, warte mal einen Augenblick bitte.`      
+1.   Geht er auf sie zu (und klickt sie an), startet der Dialog.   
+2. Geht er weiter, sagt Mairi:   
+   **Mairi:** ` Na, dann eben nicht, dann muss ich selber suchen.` 
 
-```yml
-Mairi: Na , dann eben nicht, dann muss ich selber suchen. 
-```
-### **Dialog 1**   nach Möglichkeit 1
+### **Dialog 1**   nach Möglichkeit 1.  
 
-```yml
-Mairi: Hast du vielleicht Mimi gesehen?
-```
-1. Spieler: Ja, sie sitzt unten auf der Treppe. 
-   Mairi: Gut, danke, ich sehe nach ihr.
+> Spieler geht auf Mairi zu
 
-2.  Spieler: Ja, sie sitzt da unten auf der Treppe und wollte, dass ich ihre Puppe hole.
+**Mairi:** ` Hast du vielleicht Mimi gesehen?`
 
-`Mairi: Und du hast dich breitschlagen lassen?`
+1. Ja, sie sitzt unten auf der Treppe.  
+   **Mairi:** ` Gut, danke, ich sehe nach ihr.`    
+   **`[Ende]`**
 
-      2.1 wenn der Spieler [NQ Mimi brauch dich](#6-mimi-braucht-dich) angenommen hat:
 
-     > Spieler: Ja, natürlich, wer kann ihrem Charm widerstehen?
 
-     2.2 Wenn der Spieler [NQ Mimi brauch dich](#6-mimi-braucht-dich) NICHT angenommen hat:
+2. Ja, sie sitzt da unten auf der Treppe und wollte, dass ich ihre Puppe hole.   
+    **Mairi:** `Und du hast dich breitschlagen lassen?`   Das Stichwort Puppe triggert Mairi.
 
-     > Spieler: Nein, ich lass mich doch von ihr nicht auf dem Arm nehmen. 
+> Wenn der Spieler [NQ Mimi brauch dich](#6-mimi-braucht-dich) angenommen hat:  
+  
+Ja, natürlich, wer kann ihrem Charm widerstehen?
 
-```yml
-Mairi: Naja, die Puppe bedeutet ihr viel, sie sagt, dass ihre Mutter sie gemacht hat und dass sie das Einzige ist, das sie noch von ihr hat.
-Spieler: Ja, ich erinnere mich, Mimi war eines Tages da, am Strand angespült, in einem kleinen Boot, das unmöglich die ganze Strecke über das Meer geschafft haben kann. Mit nichts dabei außer einigen Kiakeksen und einen großen, leeren  Schlauch Wasser. Und ihrer Puppe. 
-Mairi: Genau, und das Kleid der Puppe war so ausgeblichen und zerrissen wie ihr eigenes. Es war nicht mehr möglich, daraus einige Rückschlüsse auf ihre Herkunft zu ziehen. Sie selbst konnte es uns auch nicht sagen, sie war ja noch klein, vielleicht drei Jahre alt. 
-Spieler: Du hast sie dann bei dir aufgenommen, nicht wahr? Hast du das nicht schon bereut, so ein Frechdachs wie sie ist?
-Mairi: Aber nein! Sie ist ein Lausemädchen, aber lieb! Ich wünschte, meine eigenen Kinder würden so folgen wie sie!
-Mairi: Aber was reden wir hier, anstatt dass wir unsere Sachen packen, Agnatus Schergen sind auf dem Weg hierher und wir trödeln rum! Schnell, lass uns unsre letzten Sachen erledigen!
-Aber warte - könntest du ihr bitte sagen, dass sie schnell zum Schiff laufen soll?
-```
-Spieler:
+> Wenn der Spieler [NQ Mimi brauch dich](#6-mimi-braucht-dich) **NICHT** angenommen hat:   
+
+Nein, ich lass mich doch von ihr nicht auf dem Arm nehmen. 
+
+>Das Gespräch geht weiter, egal, welche Antwort der Spieler gewählt hat. 
+
+
+**Mairi**: `Naja, die Puppe bedeutet ihr viel, sie sagt, dass ihre Mutter sie gemacht hat und dass sie das Einzige ist, das sie noch von ihr hat.`   
+Ja, ich erinnere mich, Mimi war eines Tages da, am Strand angespült, in einem kleinen Boot, das unmöglich die ganze Strecke über das Meer geschafft haben kann. Mit nichts dabei außer einigen Kiakeksen und einen großen, leeren  Schlauch Wasser. Und ihrer Puppe.    
+**Mairi:** `Genau, und das Kleid der Puppe war so ausgeblichen und zerrissen wie ihr eigenes. Es war nicht mehr möglich, daraus einige Rückschlüsse auf ihre Herkunft zu ziehen. Sie selbst konnte es uns auch nicht sagen, sie war ja noch klein, vielleicht drei Jahre alt.`   
+Du hast sie dann bei dir aufgenommen, nicht wahr? Hast du das nicht schon bereut, so ein Frechdachs wie sie ist?   
+**Mairi:** ` Aber nein! Sie ist ein Lausemädchen, aber lieb! Ich wünschte, meine eigenen Kinder würden so folgen wie sie!`   
+**Mairi:** `Aber was reden wir hier, anstatt dass wir unsere Sachen packen, Agnatus Schergen sind auf dem Weg hierher und wir trödeln rum! Schnell, lass uns unsre letzten Sachen erledigen!
+Aber warte - könntest du ihr bitte sagen, dass sie schnell zum Schiff laufen soll?`  
+
+
+************** Bis hierher fertig
+
+
 
 1. Nein, ich habe leider keine Zeit. `[Ende]`
 2. Ja, ich hole nur schnell noch ihre Puppe {falls der Spieler die [NQ Mimi brauch dich](#6-mimi-braucht-dich) angenommen hat}.
