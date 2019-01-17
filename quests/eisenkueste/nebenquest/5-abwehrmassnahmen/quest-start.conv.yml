@@ -14,7 +14,7 @@ stages:
         - '~10s'
         - '!stage quest'
   quest:
-    text: 'Töte genug von ihnen, damit eingeschüchtert sind und fernbleiben.|Und bitte beeile dich, denn wir sind auf den Fisch angewiesen. Nimm dich aber in Acht, sie mögen klein sein, aber sie greifen in Scharen an.'
+    text: 'Töte genug von ihnen, damit sie eingeschüchtert sind und fernbleiben.|Und bitte beeile dich, denn wir sind auf den Fisch angewiesen. Nimm dich aber in Acht, sie mögen klein sein, aber sie greifen in Scharen an.'
     answers:
       flow:
         - ':"Kiesflöhe, tut mir leid, die sind nicht so meins."'
