@@ -1,0 +1,42 @@
+name: Kiesfloh Königin
+type: silverfish
+min-level: 8
+max-level: 8
+elite: true
+passive: true
+reset-health: true
+aggro: false
+abilities:
+  summon-mob:
+    name: Kiesfloh
+    custom:
+      mob: this.kiesfloh
+      amount: 1
+    cooldown:
+      base: 15
+  wutanfall:
+    name: Wutanfall
+    ability: enrage
+    custom:
+      treshhold: 0.5
+      attack-increase:
+        base: 1.0
+    effects:
+      enrage:
+        name: Wutanfall
+        duration:
+          base: 30
+        interval:
+          base: 1
+        visual-effects:
+          APPLY:
+            '1':
+              type: bukkit
+              effect: MOBSPAWNER_FLAMES
+            '2':
+              type: sound
+              effect: WOLF_GROWL
+          TICK:
+            '1':
+              type: bukkit
+              effect: MOBSPAWNER_FLAMES
