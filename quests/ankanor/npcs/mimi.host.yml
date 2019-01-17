@@ -1,0 +1,9 @@
+name: Mimi
+disguise: Mimi
+location:
+  x: 38
+  y: 88
+  z: -32
+  world: ankanor
+equipment:
+  hand: cookie

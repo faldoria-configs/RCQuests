@@ -1,0 +1,9 @@
+min-interval: 60
+max-interval: 300
+min-amount: 4
+max-amount: 10
+respawn-treshhold: 2
+mobs:    
+    sandfloh:
+        mob: 'this.kiesfloh'
+        chance: 1.0

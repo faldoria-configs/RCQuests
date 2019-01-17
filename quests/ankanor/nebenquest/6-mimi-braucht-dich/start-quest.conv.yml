@@ -1,0 +1,21 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '>"Was will denn das arme kleine Mädchen von mir?"'
+        - 'Ich habe oben im Haus bei Tante Mairi meine Puppe vergessen und ich brauche sie wirklich dringend!'
+        - '>"Mimi, wieso gehst du denn nicht selber hinauf und holst sie?"'
+        - 'Aber siehst du denn nicht, dass ich einen wehen Fuß habe?  - Mimi hält dir ihr Bein hin, das mit ein paar losen Stoffstreifen umwickelt ist.'
+        - '>"Nein, Mimi, wirklich nicht, ich lass mich von dir nicht auf den Arm nehmen. Geh und hold dir deine Puppe selbst und dann schau, dass du zum Schiff kommst. Weißt du nicht, dass wir alle weg müssen, weil Agnatus und seine bösen Männer kommen? Ich habe jetzt Wichtigeres zu tun."'
+        - '!stage quest'
+  quest:
+    text: 'Ich verrate dir auch ein Geheimnis, wenn du mir hilfst!'
+    answers:
+      flow:
+        - ':"Du und deine Geheimnisse, behalte sie für dich selbst!"'
+        - '!tag ankanor.mimi-braucht-dich.not-accepted'
+        - '!end'
+        - ':"Du nervst. Aber sag mir, wo deine Puppe ist, ich laufe schnell hoch."'
+        - 'In der Kiste unter der Treppe, die nach oben führt. In dem Haus ganz oben, nicht dort, wo Bürgermeister Roschik wohnt. Danke, %player du bist einfach großartig!'
+        - '!quest.start this.mimi'
+        - '!end'

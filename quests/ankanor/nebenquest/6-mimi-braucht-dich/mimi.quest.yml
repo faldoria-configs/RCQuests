@@ -1,0 +1,42 @@
+name: Mimi braucht dich
+region: ankanor
+locked: false
+authors:
+  - Kirilit (SuQ)
+  - Silthus (QS)
+worlds:
+  - ankanor
+level: 1
+
+default-convs:
+  active:
+    convs:
+      - 'ankanor.npcs.mimi:this.quest-active'
+  completed:
+    convs:
+      - 'ankanor.npcs.mimi:this.quest-completed'
+
+start-trigger:
+  flow:
+    - '@host.proximity(execute-once: true) ankanor.npcs.mimi 5'
+    - '!text "Hey, %player, du willst doch sicherlich einem armen kleinen Mädchen helfen?" Mimi'
+    - '~2s'
+    - '!emote "du drehst dich um und siehst auf der Treppe Mimi sitzen, ein etwa 10-jähriges Mädchen, das du vom Sehen her kennst"'
+    - '@host.interact ankanor.npcs.mimi'
+    - '?tag ankanor.mimi-braucht-dich.not-accepted'
+    - '-!conv.start this.quest-start ankanor.npcs.mimi'
+    - '+!conv.start this.quest-start-optional ankanor.npcs.mimi'
+
+objectives:
+  '1':
+    name: 'Finde Mimis Puppe'
+    desc: 'Laufe ins oberste Haus von Ankanor, das Mairi gehört und hole die Puppe aus der Kiste unter der Treppe.'
+    trigger:
+      flow:
+        - '@item.pickup this.items.puppe'
+  '2':
+    name: 'Bringe die Puppe zu Mimi'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ankanor.npcs.mimi this.quest-end'

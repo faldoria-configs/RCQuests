@@ -1,0 +1,8 @@
+name: Kiesfloh
+type: silverfish
+min-level: 5
+max-level: 7
+elite: false
+passive: false
+reset-health: true
+aggro: true

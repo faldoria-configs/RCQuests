@@ -1,0 +1,24 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '>"Hallo Terry, hast du Arbeit für einen mutigen Kaishi?"'
+        - 'Seh ich so aus als hätte ich jemanden Mutiges nötig?'
+        - '!npc.emote "kratzt sich hinter dem Ohr"'
+        - '~4s'
+        - 'Außerdem siehst du eher wie ein Grünschnabel aus.'
+        - '>"Naja..."'
+        - 'Aber wenn du wirklich Arbeit brauchst, dann habe ich eine Aufgabe für dich.'
+        - '>"Ich mache im Moment alles. Also, worum gehts?"'
+        - 'Unser Lager wird seit letzter Nacht ständig von diesen ekelerregenden Kiesflöhen angegriffen. Unsere Leute haben was anderes zu tun als dieses Viezeug fernzuhalten.  Aber es hindert die Fischer, ihrer Arbeit nachzugehen. Deshalb sollst du ihnen einen ernsthaften Schlag verpassen.'
+        - '~10s'
+        - '!stage quest'
+  quest:
+    text: 'Töte genug von ihnen, damit eingeschüchtert sind und fernbleiben.|Und bitte beeile dich, denn wir sind auf den Fisch angewiesen. Nimm dich aber in Acht, sie mögen klein sein, aber sie greifen in Scharen an.'
+    answers:
+      flow:
+        - ':"Kiesflöhe, tut mir leid, die sind nicht so meins."'
+        - '!end'
+        - ':"Keine Sorge, das werde ich schon schaffen."'
+        - '!quest.start this.kiesfloehe'
+        - '!end'

@@ -1,0 +1,40 @@
+name: Abschied von Ariani
+region: ankanor
+locked: false
+authors:
+  - Kirilit (SuQ)
+  - Silthus (QS)
+worlds:
+  - ankanor
+level: 1
+
+default-convs:
+  active:
+    convs:
+      - 'ankanor.npcs.mimi:this.quest-active'
+  completed:
+    convs:
+      - 'ankanor.npcs.mimi:this.quest-completed'
+
+start-trigger:
+  flow:
+    - '@quest.start ../../hauptquest/3-aufstieg-zum-tianbaum'
+    - '!text "%player, wart mal kurz." ankanor.npcs.yoshni'
+    - '@host.interact ankanor.npcs.yoshni'
+    - '?quest.complete ../../hauptquest/3-aufstieg-zum-tianbaum'
+    - '-!conv.start this.quest-start ankanor.npcs.yoshni'
+    - '+!conv.start this.quest-start-optional ankanor.npcs.yoshni'
+
+objectives:
+  '1':
+    name: 'Finde Mimis Puppe'
+    desc: 'Laufe ins oberste Haus von Ankanor, das Mairi gehört und hole die Puppe aus der Kiste unter der Treppe.'
+    trigger:
+      flow:
+        - '@item.pickup this.items.puppe'
+  '2':
+    name: 'Bringe die Puppe zu Mimi'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ankanor.npcs.mimi this.quest-end'

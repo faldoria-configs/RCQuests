@@ -1,0 +1,18 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '!npc.emote "wendet sich zu Roschik"'
+        - 'Ich weiß, dass es eilig und wichtig ist, dass %player zum Tianbaum hinaufsteigt, aber ich mache mir Sorgen um Ariani. Könnte %player Ariani nicht vorher suchen, sie braucht doch länger als wir, bis sie zum Schiff kommt und sie ist schießlich %player Urgroßmutter.'
+        - '!text "Von mir aus, vielleicht kann %player sie ja nebenbei suchen, ihr Haus liegt ja am Weg." Roschik'
+        - '!stage quest'
+  quest:
+    text: 'Ja, aber ich glaube, ich habe Ariani beim Aussichtsplatz oben auf der Klippe gesehen, vielleicht schaust du da erst nach, %player.'
+    answers:
+      flow:
+        - ':"Ich suche Großmutter später, ich möchte erst zum Tianbaum hinauf."'
+        - '!tag ankanor.abschied-von-amari.not-accepted'
+        - '!end'
+        - ':"Ja, ich hole sie gleich, sie wird nicht weg wollen, wie ich sie kenne!"'
+        - '!quest.start this.abschied'
+        - '!end'
