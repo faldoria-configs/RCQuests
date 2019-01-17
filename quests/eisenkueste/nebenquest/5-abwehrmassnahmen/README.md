@@ -30,13 +30,14 @@ Krone der Kiesfloh Königin ersetzt. Welcher Kiesfloh hat eine Krone?
     - [Terry](#terry)
       - [Standartsätze](#standarts%C3%A4tze)
         - [Vor der Quest](#vor-der-quest)
-        - [Während der Quest: 1. Abwehrmaßnahmen](#w%C3%A4hrend-der-quest-1-abwehrma%C3%9Fnahmen)
-        - [Während der Quest: 2. Freie Bahn](#w%C3%A4hrend-der-quest-2-freie-bahn)
+        - [Während der Quest: Abwehrmaßnahmen](#w%C3%A4hrend-der-quest-abwehrma%C3%9Fnahmen)
+        - [Während der Quest: Freie Bahn](#w%C3%A4hrend-der-quest-freie-bahn)
         - [Nach der Quest:](#nach-der-quest)
       - [Ausrüstung](#ausr%C3%BCstung)
       - [Standort](#standort)
   - [Items:](#items)
     - [Krone der Kiesflohkönigin](#krone-der-kiesflohk%C3%B6nigin)
+    - [Heiltrank](#heiltrank)
   - [Belohnung:](#belohnung)
 
 
@@ -153,36 +154,30 @@ Beschreibung!
 
 ##### Vor der Quest
 
-*Terry brummelt vor sich hin und nimmt dich nicht wahr*
+`*Terry brummelt vor sich hin und nimmt dich nicht wahr*`
 
-##### Während der Quest: 1. Abwehrmaßnahmen
+##### Während der Quest: [Abwehrmaßnahmen](#abwehrmassnahmen)
 
-> 1.  Nun, schon zurück? Du bist schon fertig? Nein? Doch ein Grünschnabel? - lacht - 
+**Terry:**  `Nun, schon zurück? Du bist schon fertig? Nein? Doch ein Grünschnabel? *lacht* `    
+Leider nein, ich brauchte eine Pause.   
+**Terry:** ` Ja, die Viecher darf man nicht unterschätzen. `
 
-> 2.  Terry: Was, du bist schon fertig?
-      
-      Spieler: Leider nein, ich brauchte eine Pause.
-      Terry: Ja, die Viecher darf man nicht unterschätzen. 
+##### Während der Quest: [Freie Bahn](#freie-bahn)
 
-##### Während der Quest: 2. Freie Bahn
+**Terry:** ` Sag bloß, du hast die Königin schon erledigt? `  
+Nein, sie war mir zu stark, ich musste rennen. Hast du noch einen Heiltrank für mich? Dann probiere ich es nochmals.   
 
-> 1. Terry: Sag bloß, du hast die Königin schon erledigt? 
-     Spieler: Nein, sie war mir zu stark, ich musste rennen. Hast du noch einen Heiltrank für mich? Dann probiere ich es nochmals.
-
-
-     ----> Spieler erhält nochmals einen Heiltrank, wenn er keinen mehr im Inventar hat. 
+> Spieler erhält nochmals einen Heiltrank, wenn er keinen mehr im Inventar hat. 
 
 ##### Nach der Quest: 
 
-> Hey, Kiesflohjäger, auf dem Weg zu neuem Ruhm?
+1. **Terry:** `Hey, Kiesflohjäger, auf dem Weg zu neuem Ruhm?`   
+2. **Terry:** `Na, <Name des Spielers>, welche Pläne hast du?`
 
-> Na, <Name des Spielers>, welche Pläne hast du?
-
-> Na, <Name des Spielers>, welche Pläne hast du?
 
 #### Ausrüstung 
 
-...........
+? Wer ist Terry?
 
 
 #### Standort
@@ -200,6 +195,7 @@ world: Faldoria, Eisenküste
 ### Krone der Kiesflohkönigin
 
 ```yml
+ID: 314
 name: Krone der Kiesflohkönigin
 type: QUEST
 quality: COMMON
@@ -207,11 +203,22 @@ item: golden_helmet
 lore: Die Krone einer verwunschenen Prinzessin.
 max-stack-size: 1
 ```
+### Heiltrank
 
+```yml
+ID: 373:8197
+name: Terrys Heiltrank
+type: QUEST
+quality: COMMON
+item: potion
+lore: Heilt wirklich!
+max-stack-size: 16
+```
 
 ## Belohnung:
 
-3 Heiltränke
+[Krone der Kiesflohkönigin](#krone-der-kiesflohkoenigin)   
+3 Heiltränke? Können auch ganz normale ohne besonderen Namen sein.
 
 
 
