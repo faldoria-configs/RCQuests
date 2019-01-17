@@ -1,4 +1,4 @@
-name: Mimi braucht dich
+name: Abschied von Ariani
 region: ankanor
 locked: false
 authors:
@@ -18,14 +18,12 @@ default-convs:
 
 start-trigger:
   flow:
-    - '@host.proximity(execute-once: true) ankanor.npcs.mimi 5'
-    - '!text "Hey, %player, du willst doch sicherlich einem armen kleinen Mädchen helfen?" Mimi'
-    - '~2s'
-    - '!emote "du drehst dich um und siehst auf der Treppe Mimi sitzen, ein etwa 10-jähriges Mädchen, das du vom Sehen her kennst"'
-    - '@host.interact ankanor.npcs.mimi'
-    - '?tag ankanor.mimi-braucht-dich.not-accepted'
-    - '-!conv.start this.quest-start ankanor.npcs.mimi'
-    - '+!conv.start this.quest-start-optional ankanor.npcs.mimi'
+    - '@quest.start ../../hauptquest/3-aufstieg-zum-tianbaum'
+    - '!text "%player, wart mal kurz." ankanor.npcs.yoshni'
+    - '@host.interact ankanor.npcs.yoshni'
+    - '?quest.complete ../../hauptquest/3-aufstieg-zum-tianbaum'
+    - '-!conv.start this.quest-start ankanor.npcs.yoshni'
+    - '+!conv.start this.quest-start-optional ankanor.npcs.yoshni'
 
 objectives:
   '1':
