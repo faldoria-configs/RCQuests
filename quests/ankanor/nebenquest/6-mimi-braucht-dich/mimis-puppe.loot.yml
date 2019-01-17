@@ -1,0 +1,6 @@
+count: 1
+entries:
+  puppe:
+    type: item
+    item: 'this.items.puppe'
+    probability: 100

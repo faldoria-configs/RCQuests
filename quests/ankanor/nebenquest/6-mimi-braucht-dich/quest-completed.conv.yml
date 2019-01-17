@@ -1,0 +1,6 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - 'Na, was macht mein Held?'
+        - 'Hey %player Keine Angst, ich gehe schon rechtzeitig zum Schiff, du bist ja auch noch da.'

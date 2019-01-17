@@ -1,0 +1,11 @@
+stages:
+  start:
+    text: 'Na, hast du es dir doch anders überlegt?'
+    answers:
+      flow:
+        - ':"Ja, nun sag mir schnell noch mal, wo ich die Puppe finde."'
+        - 'In der Kiste unter der Treppe, die nach oben führt. In dem Haus ganz oben, nicht dort, wo Bürgermeister Roschik wohnt. Danke, %player, du bist einfach großartig!'
+        - '!quest.start this.mimi'
+        - '!end'
+        - ':"Nein, lass mich in Ruhe!"'
+        - '!end'

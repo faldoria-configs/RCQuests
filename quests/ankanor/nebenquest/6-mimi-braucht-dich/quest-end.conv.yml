@@ -1,0 +1,17 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '>"Hier hast du deine Puppe, aber jetzt mach dich auf zum Schiff!"'
+        - '!item.remove this.items.puppe'
+        - 'Ja, ich lauf' doch schon, aber ich brauchte doch meine Puppe! Da, du kannst die Hälfte meines Plätzchens haben.'
+        - '~4s'
+        - '!item.add this.items.keks'
+        - '>"Was, du kannst doch laufen? Na dann los! Aber schnell!"'
+        - 'Willst du nicht mein Geheimniss wissen?'
+        - '>"Nun sag schon!!! *du wirkst sehr ungeduldig*"'
+        - '!emote.npc "Mimi zieht dich zu sich herunter und flüstert in dein Ohr"'
+        - 'Junnar mag dich!'
+        - '>"Shichos Schwester? *du wirst rot und sagst sehr unwirsch - Verschwinde! Auf zum Schiff!*"'
+        - '!quest.complete this.mimi'
+        - '!end'

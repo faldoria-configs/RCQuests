@@ -1,0 +1,8 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - 'Hast du meine Puppe schon?'
+        - 'Hey, wo bleibt meine Puppe!'
+        - '%player, du schaffst das!'
+        - '%player, du wirst doch nicht ein kleines Mädchen enttäuschen!'
