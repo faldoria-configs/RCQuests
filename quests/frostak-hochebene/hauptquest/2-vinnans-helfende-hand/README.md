@@ -77,15 +77,16 @@ Was ist denn die Belohnung?
 	◦	Spieler: Ja, ich habe genug geholfen.[Beendet die Quest auf Schwierigkeit 2][Weiter bei B] 
 	◦	Spieler: Ne, ich schau erstmal ob ich noch eine leichte Aufgabe finde.[gespräch beendet] 
 
-[Bei 5 oder mehr]
+[Bei 9 oder mehr]
  
-Vinnan: [Spielername]?
-Spieler: Hab ich jetzt genug Leuten geholfen? *zeigt die Zettel*
-Vinnan: Nunja, ich denke sehr viel mehr wird es hier vermutlich auch nicht zu tun geben, danke Ihr habt mir wirklich sehr viel Arbeit abgenommen.
-	•	Spieler: Wie lange hätte es denn gebraucht wenn du das alles selbst erledigt hättest? 
-	◦	Vinnan: Manche von den Dingen die Ihr erledigt habt sind schon eine ganze Weile ein Problem, alleine hätte ich das sicherlich nie wirklich lösen können. 
-	◦	Spieler: Helfen scheint eine neue Gewohnheit zu werden.[Beendet die Quest auf Schwierigkeit 3][Weiter bei B] 
-	•	Spieler: Helfen scheint eine neue Gewohnheit zu werden.[Beendet die Quest auf Schwierigkeit 3][Weiter bei B] 
+**Vinnan:** ` [Spielername]?`  
+Habe ich jetzt genug Leuten geholfen? *zeigt die Zettel*   
+**Vinnan:** ` Nunja, ich denke sehr viel mehr wird es hier vermutlich auch nicht zu tun geben, danke Ihr habt mir wirklich sehr viel Arbeit abgenommen.`     
+Wie lange hätte es denn gebraucht wenn du das alles selbst erledigt hättest?   
+**Vinnan:** ` Manche von den Dingen die Ihr erledigt habt sind schon eine ganze Weile ein Problem, alleine hätte ich das sicherlich nie wirklich lösen können.`  
+Helfen scheint eine neue Gewohnheit zu werden.[Beendet die Quest auf Schwierigkeit 3]
+
+Weiter mit Quest den Verkohlten helfen
 
 
 
