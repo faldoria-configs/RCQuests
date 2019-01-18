@@ -8,28 +8,34 @@ Issue 54
 ## Was noch fehlt:
 
 NPC Mairi muss noch plaziert werden
-Braucht auch noch farbigeren Skin (siehe Kaishi-Beschreibung)
+(wenn Ankanor überholt ist)
 
 
 ## Übersicht 
 
-- [Voraussetzungen](#voraussetzungen)
-- [Ablauf](#ablauf)
-- [Questdialoge](#questdialoge)
-   - [Dialog 1](#dialog-1)
-   - [Dialog 2](#dialog-2) 
-   - [NPCs](#npcs)
-     - [Name des NPCs](#name-des-npcs)
-         - [Standartsätze](#standartsaetze)
-            - [Vor der Quest](#vor-der-quest)
-            - [Während der Quest](#waehrend-der-quest)
-            - [Nach der Quest](#nach-der-quest)
-         - [Ausrüstung](#ausruestung)
-         - [Standort](#standort)
-       
-   
-- [Belohnung](#belohnung)
-         
+- [Gespräch mit Mairi](#gespr%C3%A4ch-mit-mairi)
+  - [Was noch fehlt:](#was-noch-fehlt)
+  - [Übersicht](#%C3%BCbersicht)
+  - [Voraussetzungen](#voraussetzungen)
+  - [Ablauf](#ablauf)
+  - [Questdialoge](#questdialoge)
+    - [**Dialog 1** mit Mairi - nach Möglichkeit 1.](#dialog-1-mit-mairi---nach-m%C3%B6glichkeit-1)
+    - [**Dialog 2** mit Mimi](#dialog-2-mit-mimi)
+  - [Belohnung : XP](#belohnung--xp)
+  - [NPCS](#npcs)
+    - [Mairi](#mairi)
+      - [Standartsätze](#standarts%C3%A4tze)
+        - [Während der Quest](#w%C3%A4hrend-der-quest)
+        - [Nach der Quest:](#nach-der-quest)
+      - [Ausrüstung](#ausr%C3%BCstung)
+      - [Standort](#standort)
+    - [Mimi](#mimi)
+      - [Standartsätze](#standarts%C3%A4tze-1)
+      - [Ausrüstung](#ausr%C3%BCstung-1)
+      - [Standort](#standort-1)
+  - [Items](#items)
+  - [Belohnung](#belohnung)
+  - [Referenzen](#referenzen)
 
 
 ## Voraussetzungen
@@ -56,7 +62,7 @@ Spieler läuft die Treppe zu den oberen Häusern hoch. Mairi spricht Spieler an,
 2. Geht er weiter, sagt Mairi:   
    **Mairi:** ` Na, dann eben nicht, dann muss ich selber suchen.` 
 
-### **Dialog 1**   nach Möglichkeit 1.  
+### **Dialog 1**   mit Mairi - nach Möglichkeit 1.  
 
 > Spieler geht auf Mairi zu
 
@@ -104,7 +110,7 @@ Aber warte - könntest du ihr bitte sagen, dass sie schnell zum Schiff laufen so
 
 *Der Spieler.. erfüllt seine Aufgabe* 
 
-### **Dialog 2**  
+### **Dialog 2** mit Mimi
 
 > Sobald der Spieler Mimi wieder trifft, erfüllt er erst Mairis Wunsch und schickt Mimi zum Schiff. 
 
