@@ -1,10 +1,5 @@
 name: Kapitän Mafei
-type: NPC
-health: 100
-attackable: false
-friendly: true
 disguise: Mafei
-look-close: true
 location:
   world: Ankanor_Event
   x: -6

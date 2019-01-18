@@ -1,9 +1,4 @@
 name: Wächter
-type: NPC
-health: 100
-attackable: false
-friendly: true
-talk-close: true
 disguise: Wächter
 location:
   world: ankanor
