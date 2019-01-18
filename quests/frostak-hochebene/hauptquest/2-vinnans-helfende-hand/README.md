@@ -8,7 +8,7 @@
 - [Questübergang / Vorraussetzung](#quest%C3%BCbergang--vorraussetzung)
 - [Ablauf](#ablauf)
 - [Dialoge](#dialoge)
-    - [`[Queststart]` Vinnans helfende Hand](#queststart-vinnans-helfende-hand)
+		- [`[Queststart]` Vinnans helfende Hand](#queststart-vinnans-helfende-hand)
 
 ## Noch zu tun
 
@@ -28,44 +28,44 @@ Vielen Dank!
 
 ## Dialoge
 
-#### `[Queststart]` [Vinnans helfende Hand](#vinnans-helfende-hand)
+### `[Queststart]` [Vinnans helfende Hand](#vinnans-helfende-hand)
 
 `[Questlog]` *Sprecht mit den Bewohnen vom Jarmundshain und helft ihnen. Sammelt mindestens 3 schriftliche Nachweise über die Hilfe.*
 
-> **Ab hier sammelt der Spieler nun entsprechende Nachweise der Bewohner**  --> Nebenquests?
+> **Ab hier sammelt der Spieler nun entsprechende Nachweise der Bewohner**  --> Nebenquests
 
 
->>> Wenn die Spielerin Vinnan nochmal mit weniger als 3 Nachweisen anspricht
+>> Wenn die Spielerin Vinnan nochmal mit weniger als 3 Nachweisen anspricht
 
 **Vinnan:** ` Oh, so schnell hab ich Euch nicht zurück erwartet.`    
 Ich bin auch noch nicht fertig, habt Ihr Ideen wer Hilfe brauchen könnte?
 
-**Vinnan:** `Eigentlich muss ich doch noch kochen, fragt bitte Ingeborg wenn Ihr Informationen über Bewohner haben möchtet. Sie ist die zweitälteste und sollte irgendwo im Dorf unterwegs sein.`
+**Vinnan:** `Eigentlich muss ich noch kochen, fragt bitte Ingeborg wenn Ihr Informationen über Bewohner haben möchtet. Sie ist die Zweitälteste und sollte irgendwo im Dorf unterwegs sein.`
 
 
->>>Bei 3 Nachweisen
+>>Bei 3 Nachweisen
 
 **Vinnan:** `[Spielername]? `   
-Schau mal, ich hab schon 3 Leuten geholfen.
-**Vinnan:** `Sehr fleißig, möchtet Ihr noch weiteren helfen? Ich könnte die Belohnung erhöhen.`  
-Was ist denn die Belohnung?
+Schau mal, ich hab schon 3 Leuten geholfen.   
+**Vinnan:** `Sehr fleißig, möchtet Ihr noch weiteren drei Leuten helfen? Ich könnte die Belohnung erhöhen.`  
+Was ist denn die Belohnung?   
 **Vinnan:** ` Ein hübsches Fell und Münzen, wenn Ihr mehr Leuten helft gibt es auch mehr Münzen.`  
 
-   1. Ich kann noch mehr Leuten helfen? Dann mach ich das. `[Ende]` Spieler macht weiter
+   1. Ich kann noch mehr Leuten helfen? Dann mach ich das. `[Ende]` --> Spieler macht weiter
    
    2. Ne, so langsam wird das langweilig.   
     **Vinnan:** ` Ihr möchtet also aufhören und Eure Belohnung sofort?`   
-    Ja, ich habe genug geholfen.[Beendet die Quest auf Schwierigkeit 1]   > > Weiter mit HQuest [Den Verkohlten helfen](#den-verkohlten-helfen)      
-   3. Ne, ich schau erstmal ob ich noch eine leichte Aufgabe finde.
+    Ja, ich habe genug geholfen.[Beendet die Quest auf Schwierigkeit 1]   ---> Weiter mit HQuest [Den Verkohlten helfen](#den-verkohlten-helfen)      
+   3. Ne, ich schau erstmal ob ich noch eine leichte Aufgabe finde.  `[Ende]`**?? Was soll das sein?**
 
 
->>>Bei 4 Nachweisen
+>>Bei 6 Nachweisen
 
 **Vinnan:** ` [Spielername]?`  
-Schau mal, ich hab schon vier Leuten geholfen.
-Vinnan: Sehr fleißig, möchtet Ihr noch weiteren helfen? Ich könnte die Belohnung erhöhen.
-	•	Spieler: Was ist denn die Belohnung? 
-	◦	Vinnan: Ein hübsches Fell und Münzen, wenn Ihr mehr Leuten helft gibt es auch mehr Münzen. 
+Schau mal, ich hab schon sechs Leuten geholfen.
+**Vinnan:** ` Sehr fleißig, möchtet Ihr noch weiteren helfen? Ich könnte die Belohnung erhöhen.`   
+Was ist denn die Belohnung?   
+**Vinnan:** ` Ein hübsches Fell und Münzen, wenn Ihr mehr Leuten helft gibt es auch mehr Münzen.`   
 	◦	Spieler: Ich kann noch mehr Leuten helfen? Dann mach ich das.[gespräch beendet] 
 	◦	Spieler: Ne, so langsam wird das langweilig. 
 	▪	Vinnan: Ihr möchtet also aufhören und Eure Belohnung sofort? 
