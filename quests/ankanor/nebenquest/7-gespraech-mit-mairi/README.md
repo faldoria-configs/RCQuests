@@ -79,7 +79,7 @@ Ja, natürlich, wer kann ihrem Charm widerstehen?
 
 Nein, ich lass mich doch von ihr nicht auf dem Arm nehmen. 
 
->Das Gespräch geht weiter, egal, welche Antwort der Spieler gewählt hat. 
+>Das Gespräch geht weiter, egal, welche Antwort der Spieler gewählt hat, ob er die Puppe schon hat oder nicht oder sogar schon abgegeben hat und die NQuest. [Mimi braucht dich] schon abgeschlosen hat. 
 
 
 **Mairi**: `Naja, die Puppe bedeutet ihr viel, sie sagt, dass ihre Mutter sie gemacht hat und dass sie das Einzige ist, das sie noch von ihr hat.`   
@@ -87,17 +87,16 @@ Ja, ich erinnere mich, Mimi war eines Tages da, am Strand angespült, in einem k
 **Mairi:** `Genau, und das Kleid der Puppe war so ausgeblichen und zerrissen wie ihr eigenes. Es war nicht mehr möglich, daraus einige Rückschlüsse auf ihre Herkunft zu ziehen. Sie selbst konnte es uns auch nicht sagen, sie war ja noch klein, vielleicht drei Jahre alt.`   
 Du hast sie dann bei dir aufgenommen, nicht wahr? Hast du das nicht schon bereut, so ein Frechdachs wie sie ist?   
 **Mairi:** ` Aber nein! Sie ist ein Lausemädchen, aber lieb! Ich wünschte, meine eigenen Kinder würden so folgen wie sie!`   
-**Mairi:** `Aber was reden wir hier, anstatt dass wir unsere Sachen packen, Agnatus Schergen sind auf dem Weg hierher und wir trödeln rum! Schnell, lass uns unsre letzten Sachen erledigen!
+**Mairi:** `Aber was reden wir hier, anstatt dass wir unsere Sachen packen! Agnatus Schergen sind auf dem Weg hierher und wir trödeln rum! Schnell, lass uns unsre letzten Sachen erledigen!
 Aber warte - könntest du ihr bitte sagen, dass sie schnell zum Schiff laufen soll?`  
 
 
-************** Bis hierher fertig
+   1. Nein, ich habe leider keine Zeit.   
+   `[Ende]`   
 
-
-
-1. Nein, ich habe leider keine Zeit. `[Ende]`
-2. Ja, ich hole nur schnell noch ihre Puppe {falls der Spieler die [NQ Mimi brauch dich](#6-mimi-braucht-dich) angenommen hat}.
-3. Ja, ich sag es ihr.  {falls der Spieler die [NQ Mimi braucht dich](#6-mimi-braucht-dich) NICHT angenommen hat}.
+      2.1 Ja, ich hole nur schnell noch ihre Puppe {falls der Spieler die [NQ Mimi brauch dich](#6-mimi-braucht-dich) angenommen hat und die Puppe noch nicht im Inventar ist}.   
+      2.2. Ja, ich sag es ihr, die Puppe habe ich schon geholt. {FALLS der Spieler die Puppe schon geholt hat und sie im Inventar ist }   
+      2.3. Ja, ich sag es ihr.  {falls der Spieler die [NQ Mimi braucht dich](#6-mimi-braucht-dich) NICHT angenommen hat}.
 
 `[QUESTSTART]`[Schicke Mimi zum Schiff](#schicke-mimi-zum-schiff)
 
@@ -107,32 +106,48 @@ Aber warte - könntest du ihr bitte sagen, dass sie schnell zum Schiff laufen so
 
 ### **Dialog 2**  
 
-Sobald der Spieler Mimi wieder trifft, spricht er sie erst darauf an. 
-```Yml
-Spieler: Mimi, ich habe Mairi getroffen und sie lässt dir ausrichten, du sollst sofort zum Schiff rennen.
-```
-`[Ende]`
-```yml
-Mimi: Aber ich brauche doch meine Puppe!
-```
-1. Falls [NQ Mimi braucht dich](#6-mimi-braucht-dich) angenommen wurde und der Spieler sie schon hat:
-   
+> Sobald der Spieler Mimi wieder trifft, erfüllt er erst Mairis Wunsch und schickt Mimi zum Schiff. 
 
-    > Weiter mit Zeile 51 der [NQ Mimi braucht dich](#6-mimi-braucht-dich) 
 
-2. Falls [NQ Mimi braucht dich](#6-mimi-braucht-dich) NICHT angenommen wurde und der Spieler die Puppe nicht hat.
+Mimi, ich habe Mairi getroffen und sie lässt dir ausrichten, du sollst sofort zum Schiff rennen.
 
-   2.1: Spieler: Hau ab, oder die bösen Männer holen dich!
-        Mimi: *Mimi schaut dich böse an*
+`[Quest Ende]`[Schicke Mimi zum Schiff](#schicke-mimi-zum-schiff)
 
-   2.2: Ich hole sie ja schon! Wo sagtest du ist sie? Im obersten Haus unter der Kiste in der Treppe?
-        Mimi: *lacht* Ja genau!
 
-**Nach Möglichkeit 2.2 :**
+**Mimi:** ` Aber ich brauche doch meine Puppe!`
+
+>Falls [NQ Mimi braucht dich](#6-mimi-braucht-dich) angenommen wurde und der Spieler die Puppe schon im Inventar hat:  
+    Weiter mit Zeile 51 der [NQ Mimi braucht dich](#6-mimi-braucht-dich) 
+
+***
+
+> Falls [NQ Mimi braucht dich](#6-mimi-braucht-dich) angenommen wurde und der Spieler die Puppe noch NICHT im Inventar hat.
+
+1. Ich eile ja schon! Aber du rennst derweil zum Schiff, wir treffen uns dann dort.   
+   **Mimi:** `Nein, ich warte hier!`   
+   Na gut *du seufzt*
+
+2. Mimi, jetzt ist keine Zeit mehr, wir müssen weg, ich kauf dir einen neue Puppe!   
+   **Mimi:** `*fängt zum Weinen an*`  
+   Na gut, ich geh ja schon.   
+> Weiter mit bereits angenommener Quest [NQ Mimi braucht dich](#6-mimi-braucht-dich)
+
+
+
+*****
+> Falls [NQ Mimi braucht dich](#6-mimi-braucht-dich) NICHT angenommen wurde und der Spieler die Puppe nicht hat.
+
+  1. Hau ab, oder die bösen Männer holen dich!   
+**Mimi:** ` *Mimi schaut dich böse an*`   
+
+      2.Ich hole sie ja schon! Wo sagtest du ist sie?   
+   **Mimi:** `  Im obersten Haus unter der Kiste in der Treppe!`
+
+>>**Nach Möglichkeit 2. :**
       
 `[Quest START]` [Mimi braucht dich](#mimi-braucht-dich)
 
-Issue 51
+Issue #51
 
 
 
@@ -150,18 +165,18 @@ Nur XP
 #### Standartsätze
 
 ##### Während der Quest
-```yml
-Mairi: Hast du Mimi schon Bescheid gesagt?
-Spieler: Noch nicht, mache ich aber gleich!
-Mairi: Beeil dich bitte!
-```
+
+**Mairi:** ` Hast du Mimi schon Bescheid gesagt?`   
+ Noch nicht, mache ich aber gleich!   
+**Mairi:** ` Beeil dich bitte!`
+
 ##### Nach der Quest:
 
-Mairi: Was, du bist immer noch hier? Hast du nichts Besseres zu tun?
+**Mairi:** `Was, du bist immer noch hier? Hast du nichts Besseres zu tun?`
 
 #### Ausrüstung
 
-  > normalen Skin
+Skin in AdminW Disguises --> Ankanor-Skin nehmen! Nr 27
 
 #### Standort
 
@@ -198,12 +213,12 @@ world: Ankanor
 
 ## Items
 
- - 
+  keine
 
 
 ## Belohnung
 
-[Name des Items](##name-des-items)
+
 
 XP
 
