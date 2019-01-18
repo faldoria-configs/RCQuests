@@ -12,7 +12,7 @@ level: 6
 default-convs:
   active:
     convs:
-      - '../../npcs/joan:this.joan'
+      - 'frostak-hochebene.npcs.joan:this.joan'
 
 requirements:
   flow:
@@ -20,7 +20,7 @@ requirements:
 
 start-trigger:
   flow:
-    - '@host.interact ../../npcs/marius this.quest-start'
+    - '@host.interact frostak-hochebene.npcs.marius this.quest-start'
 
 start-actions:
   flow:
@@ -33,27 +33,27 @@ objectives:
     auto-complete: false
     trigger:
       flow:
-        - '@host.interact ../../npcs/kester this.kester'
+        - '@host.interact frostak-hochebene.npcs.kester this.kester'
   
   '2':
     name: 'Sprich mit Jarko im Haus.'
     auto-complete: false
     trigger:
       flow:
-        - '@host.interact ../../npcs/jarko this.jarko'
+        - '@host.interact frostak-hochebene.npcs.jarko this.jarko'
 
   '3':
     name: 'Kehre zu Marius zurück'
     auto-complete: false
     trigger:
       flow:
-        - '@host.interact ../../npcs/marius this.quest-end'
+        - '@host.interact frostak-hochebene.npcs.marius this.quest-end'
 
 complete-actions:
   flow:
     - '?tag frostak-hochebene.holzwuermer.liar'
     - '+!text.quest "Ihr habt Marius gegen euch aufgebracht, dem solltet ihr so schnell nicht zu nahe kommen."'
-    - '+!conv.set ../../npcs/marius this.marius-angry'
+    - '+!conv.set frostak-hochebene.npcs.marius this.marius-angry'
     - '-!text.quest "Ihr habt Marius einen großen Gefallen getan."'
     - '-!item.remove "Leeres Papier" 1'
     - '-!item.add this.zettel'

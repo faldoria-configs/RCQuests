@@ -16,14 +16,14 @@ objectives:
     auto-complete: false
     trigger:
       flow:
-        - '@host.interact ../../npcs/vinnan'
+        - '@host.interact frostak-hochebene.npcs.vinnan'
         - '?tag frostak-hochebene.vinnans-hilfe.nachweise >=3'
-        - '+!conv.start ../../npcs/vinnan this.quest-end'
-        - '-!conv.start ../../npcs/vinnan this.quest-active'
+        - '+!conv.start frostak-hochebene.npcs.vinnan this.quest-end'
+        - '-!conv.start frostak-hochebene.npcs.vinnan this.quest-active'
 
 complete-actions:
   flow:
-    - '!conv.start ../../npcs/vinnan ../3-die-verkohlten/quest-start'
+    - '!conv.start frostak-hochebene.npcs.vinnan ../3-die-verkohlten/quest-start'
     - '?tag frostak-hochebene.vinnans-hilfe.nachweise =3'
     - '!money.add 1d'
     - '!item.add frostak-hochebene.brot 2'
