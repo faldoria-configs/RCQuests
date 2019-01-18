@@ -3,43 +3,39 @@
 Issue 23
 
 NPC: Terry
+
 ## Noch zu tun
 
 Terry Beschreibung, Terry Skin kontrollieren und verlinken/hochladen
 
 ## Veränderungen
 
-Junge entfernt und neutral geschrieben   
+Junge entfernt und neutral geschrieben  
 Krone der Kiesfloh Königin ersetzt. Welcher Kiesfloh hat eine Krone?
 
 ## Übersicht
 
-- [Abwehrmaßnahmen](#abwehrma%C3%9Fnahmen)
-  - [Noch zu tun](#noch-zu-tun)
-  - [Veränderungen](#ver%C3%A4nderungen)
-  - [Übersicht](#%C3%BCbersicht)
-  - [Ablauf](#ablauf)
-  - [Questdialoge](#questdialoge)
-    - [Dialog 1](#dialog-1)
-    - [`[Quest START]` Abwehrmaßnahmen](#quest-start-abwehrma%C3%9Fnahmen)
-    - [`[Quest START]` Kehre zu Terry zurück](#quest-start-kehre-zu-terry-zur%C3%BCck)
-    - [Dialog 2](#dialog-2)
-    - [`[Quest START]` Freie Bahn](#quest-start-freie-bahn)
-    - [`[Quest START]` Kehre zu Terry zurück](#quest-start-kehre-zu-terry-zur%C3%BCck-1)
-  - [Npc](#npc)
-    - [Terry](#terry)
-      - [Standartsätze](#standarts%C3%A4tze)
-        - [Vor der Quest](#vor-der-quest)
-        - [Während der Quest: Abwehrmaßnahmen](#w%C3%A4hrend-der-quest-abwehrma%C3%9Fnahmen)
-        - [Während der Quest: Freie Bahn](#w%C3%A4hrend-der-quest-freie-bahn)
-        - [Nach der Quest:](#nach-der-quest)
-      - [Ausrüstung](#ausr%C3%BCstung)
-      - [Standort](#standort)
-  - [Items:](#items)
-    - [Krone der Kiesflohkönigin](#krone-der-kiesflohk%C3%B6nigin)
-    - [Heiltrank](#heiltrank)
-  - [Belohnung:](#belohnung)
-
+* [Noch zu tun](#noch-zu-tun)
+* [Veränderungen](#veränderungen)
+* [Übersicht](#Übersicht)
+* [Ablauf](#ablauf)
+* [Voraussetzungen](#voraussetzungen)
+* [Questdialoge](#questdialoge)
+  * [Dialog 1](#dialog-1)
+  * [Dialog 2](#dialog-2)
+* [Npc](#npc)
+  * [Terry](#terry)
+    * [Standartsätze](#standartsätze)
+      * [Vor der Quest](#vor-der-quest)
+      * [Während der Quest: Abwehrmaßnahmen](#während-der-quest-abwehrmaßnahmen)
+      * [Während der Quest: Freie Bahn](#während-der-quest-freie-bahn)
+      * [Nach der Quest](#nach-der-quest)
+    * [Ausrüstung](#ausrüstung)
+    * [Standort](#standort)
+* [Items](#items)
+  * [Krone der Kiesflohkönigin](#krone-der-kiesflohkönigin)
+  * [Heiltrank](#heiltrank)
+* [Belohnung](#belohnung)
 
 ## Ablauf
 
@@ -50,99 +46,84 @@ Krone der Kiesfloh Königin ersetzt. Welcher Kiesfloh hat eine Krone?
 4. Der Spieler tut dies.
 5. Spieler kehrt zurück
 
+## Voraussetzungen
 
-
-##Voraussetzungen
-[HQ Was ist passiert?](../1-was-ist-passiert/README.md) - angenommmen
-
-
+* [HQ Was ist passiert?](../1-was-ist-passiert/README.md) - angenommmen
 
 ## Questdialoge
 
 ### Dialog 1
 
-Hallo Terry, hast du Arbeit für ein mutige Kaishi?   
-**Terry:** ` Seh' ich so aus als hätte ich jemanden Mutiges nötig? *er kratzt sich hinter dem Ohr* `    
+Hallo Terry, hast du Arbeit für ein mutige Kaishi?  
+**Terry:** `Seh' ich so aus als hätte ich jemanden Mutiges nötig? *er kratzt sich hinter dem Ohr*`  
 **Terry:** `Außerdem siehst du eher wie ein Grünschnabel aus.`  
-Naja...   
-**Terry:** `Aber wenn du wirklich Arbeit brauchst, dann habe ich eine Aufgabe für dich.`   
-Ich mache im Moment alles. Also, worum gehts?   
-**Terry:** ` Unser Lager wird seit letzter Nacht ständig von diesen ekelerregenden Kiesflöhen angegriffen. Unsere Leute haben was anderes zu tun als dieses Viezeug fernzuhalten.  Es hindert die Fischer, ihrer Arbeit nachzugehen. Deshalb sollst du ihnen einen ernsthaften Schlag verpassen.`   
+Naja...  
+**Terry:** `Aber wenn du wirklich Arbeit brauchst, dann habe ich eine Aufgabe für dich.`  
+Ich mache im Moment alles. Also, worum gehts?  
+**Terry:** `Unser Lager wird seit letzter Nacht ständig von diesen ekelerregenden Kiesflöhen angegriffen. Unsere Leute haben was anderes zu tun als dieses Viezeug fernzuhalten.  Es hindert die Fischer, ihrer Arbeit nachzugehen. Deshalb sollst du ihnen einen ernsthaften Schlag verpassen.`  
 **Terry:** `Töte genug von ihnen, damit eingeschüchtert sind und fernbleiben.
 Und bitte beeile dich, denn wir sind auf den Fisch angewiesen. Nimm dich aber in Acht, sie mögen klein sein, aber sie greifen in Scharen an.`
 
 
-   1. Sandflöhe, tut mir leid, die sind nicht so meins.   
-   **Vinnan** `*starrt dich etwas ungläubig an*` 
+   1. Kiesflöhe, tut mir leid, die sind nicht so meins.  
+   **Terry** `*starrt dich etwas ungläubig an*`  
    **`[Ende]`**
 
-   2. Keine Sorge, das werde ich schon schaffen.   
-   **Vinnan** `Dann viel Erfolg`
+   2. Keine Sorge, das werde ich schon schaffen.  
+   **Terry** `Dann viel Erfolg`
 
-### `[Quest START]` [Abwehrmaßnahmen](#abwehrmassnahmen)
-
-**QuestLog** *Töte fünfzehn [15] Kiesflöhe*
-
-> Spieler begibt sich zum Strand tötet 15 Kiesflöhe 
-
-`[Quest ENDE]` [Abwehrmaßnahmen](#abwehrmassnahmen)
-
+> `[Quest START]` [Abwehrmaßnahmen](#abwehrmassnahmen)
+>
+> **QuestLog** *Töte fünfzehn [15] Kiesflöhe*
+>
+> Spieler begibt sich zum Strand tötet 15 Kiesflöhe
+>
+> `**QuestLog:**` *Kehre zu Terry zurück.*
+>
 > Spieler kehrt zu Terry zurück.
 
-### `[Quest START]` [Kehre zu Terry zurück](#kehre-zu-terry-zurueck)
-
-
 ### Dialog 2
-**Terry:** ` Hast du alles Benötigte?`  
-Klar, was dachtest du denn. 
-**Terry:** `Wunderbar, aber es gibt ein Problem. Die Kiesfloh Königin hat bemerkt, dass du ihre Jungen angegriffen hast und randaliert jetzt am Strand.`
-Oh, das ist aber dumm, jetzt hat sich die Situation noch verschlechert.   
+
+**Terry:** `Hast du alles Benötigte?`  
+Klar, was dachtest du denn.  
+**Terry:** `Wunderbar, aber es gibt ein Problem. Die Kiesfloh Königin hat bemerkt, dass du ihre Jungen angegriffen hast und randaliert jetzt am Strand.`  
+Oh, das ist aber dumm, jetzt hat sich die Situation noch verschlechert.  
 **Terry:** `Niemand traut sich mehr hin.  Wir können so nicht mit den Arbeiten beginnen.`
 
-   1. Das tut mir jetzt aber furchtbar leid, aber die Kiesflöhe waren hart genug, ich fürchte, die Königin ist einen Nummer zu groß für mich.    
+   1. Das tut mir jetzt aber furchtbar leid, aber die Kiesflöhe waren hart genug, ich fürchte, die Königin ist einen Nummer zu groß für mich.  
    **Vinnan:** `Dann muss ich wohl jemand anders finden. *schaut etwas frustriert.*`
 
-   2. Ich werde sehen was ich tun kann.   
-    **Terry:** ` Vielen Dank.`   
-   **Terry:** ` Aber warte - man sagt, sie hat etwas auf dem Kopf, was wie eine Krone aussieht. Wenn möglich, bringe mir das. Vielleicht können wir das als Abschreckung benutzen.`  
-   Wo finde ich sie?   
-   **Terry:** ` Sie hat ihr Versteck in Richtung Norden. Du wirst sie kaum übersehen.`  
+   1. Ich werde sehen was ich tun kann.  
+    **Terry:** `Vielen Dank.`  
+   **Terry:** `Aber warte - man sagt, sie hat etwas auf dem Kopf, was wie eine Krone aussieht. Wenn möglich, bringe mir das. Vielleicht können wir das als Abschreckung benutzen.`  
+   Wo finde ich sie?  
+   **Terry:** `Sie hat ihr Versteck in Richtung Norden. Du wirst sie kaum übersehen.`  
 
-       *Du bist schon am Gehen, als Terry dich zurückhält *   
-   **Terry:** ` Warte noch, das hier könntest du brauchen.`
+       *Du bist schon am Gehen, als Terry dich zurückhält *  
+   **Terry:** `Warte noch, das hier könntest du brauchen.`
 
-> Spieler erhält Gesundheitstrank [Heilung?] und/oder Stärketrank [Stärke?]
+> Spieler erhält einen [Heiltrank](#Heiltrank)
 
 **Terry:** `Nehm dich in Acht, junge Kaishi.`  
 Keine Sorge, ich bin bald zurück.
 
-
-### `[Quest START]` [Freie Bahn](#freie-bahn)
-
-`**QuestLog:**` *Töte die Kiesfloh Königin*
-
->Spieler begibt sich zur Königin und tötet sie.   
-Die Königin droppt [Goldener_Helm](#goldener-helm)
-
-`[Quest ENDE]` [Freie Bahn](#freie-bahn)
-
-### `[Quest START]` [Kehre zu Terry zurück](#kehre-zu-terry-zurueck)   
-
-`**QuestLog:**` *Kehre zu Terry zurück*
-
+> `[Quest START]` [Freie Bahn](#freie-bahn)
+>
+> `**QuestLog:**` *Töte die Kiesfloh Königin*
+>
+> Spieler begibt sich zur Königin und tötet sie.  
+> Die Königin droppt [Goldener_Helm](#goldener-helm)
+>
+> `**QuestLog:**` *Kehre zu Terry zurück*
+>
 > Spieler kehrt zu Terry zurück.
 
-
-
-**Terry:** ` Ich danke dir, vielleicht bist du ja doch kein Grünschnabel. *lacht* `  
-*du grinst ihn nur an*    
+**Terry:** `Ich danke dir, vielleicht bist du ja doch kein Grünschnabel. *lacht*`  
+*du grinst ihn nur an*  
 **Terry:** `Deine Bemühungen bleiben nicht unbelohnt. Hier nimm das, du brauchst sie nötiger als ich.`  
 Dankeschön!
 
-
-`[Quest ENDE]`
-
-
+> `[Quest ENDE]` [Freie Bahn](#freie-bahn)
 
 ## Npc
 
@@ -150,7 +131,7 @@ Dankeschön!
 
 Beschreibung!
 
-#### Standartsätze 
+#### Standartsätze
 
 ##### Vor der Quest
 
@@ -158,27 +139,31 @@ Beschreibung!
 
 ##### Während der Quest: [Abwehrmaßnahmen](#abwehrmassnahmen)
 
-**Terry:**  `Nun, schon zurück? Du bist schon fertig? Nein? Doch ein Grünschnabel? *lacht* `    
-Leider nein, ich brauchte eine Pause.   
-**Terry:** ` Ja, die Viecher darf man nicht unterschätzen. `
+**Terry:**  `Nun, schon zurück? Du bist schon fertig? Nein? Doch ein Grünschnabel? *lacht*`  
+Leider nein, ich brauchte eine Pause.  
+**Terry:** `Ja, die Viecher darf man nicht unterschätzen.`
 
 ##### Während der Quest: [Freie Bahn](#freie-bahn)
 
-**Terry:** ` Sag bloß, du hast die Königin schon erledigt? `  
-Nein, sie war mir zu stark, ich musste rennen. Hast du noch einen Heiltrank für mich? Dann probiere ich es nochmals.   
+**Terry:** `Sag bloß, du hast die Königin schon erledigt?`  
+Nein, sie war mir zu stark, ich musste rennen. Hast du noch einen Heiltrank für mich? Dann probiere ich es nochmals.
 
-> Spieler erhält nochmals einen Heiltrank, wenn er keinen mehr im Inventar hat. 
+> Spieler erhält nochmals einen Heiltrank, wenn er keinen mehr im Inventar hat.
 
-##### Nach der Quest: 
+**Terry:** `Hier bitte, pass auf dich auf!`
 
-1. **Terry:** `Hey, Kiesflohjäger, auf dem Weg zu neuem Ruhm?`   
+> Wenn der Spieler noch einen Heiltrank hat.
+
+**Terry:** `Nutze erstmal den, den du noch hast. Komm dann nochmal zu mir.`
+
+##### Nach der Quest
+
+1. **Terry:** `Hey, Kiesflohjäger, auf dem Weg zu neuem Ruhm?`  
 2. **Terry:** `Na, <Name des Spielers>, welche Pläne hast du?`
 
-
-#### Ausrüstung 
+#### Ausrüstung
 
 ? Wer ist Terry?
-
 
 #### Standort
 
@@ -187,10 +172,9 @@ x: 3656
 y: 65
 z: -2809
 world: Faldoria, Eisenküste
+```
 
-``` 
-
-## Items:
+## Items
 
 ### Krone der Kiesflohkönigin
 
@@ -203,6 +187,7 @@ item: golden_helmet
 lore: Die Krone einer verwunschenen Prinzessin.
 max-stack-size: 1
 ```
+
 ### Heiltrank
 
 ```yml
@@ -215,28 +200,7 @@ lore: Heilt wirklich!
 max-stack-size: 16
 ```
 
-## Belohnung:
+## Belohnung
 
-[Krone der Kiesflohkönigin](#krone-der-kiesflohkoenigin)   
-3 Heiltränke? Können auch ganz normale ohne besonderen Namen sein.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* [Krone der Kiesflohkönigin](#krone-der-kiesflohkoenigin)
+* 3 Heiltränke? Können auch ganz normale ohne besonderen Namen sein.

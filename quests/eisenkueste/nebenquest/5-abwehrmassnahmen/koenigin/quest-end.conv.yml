@@ -1,0 +1,13 @@
+stages:
+  start:
+    actions:
+      flow:
+        - 'Ich danke dir, vielleicht bist du ja doch kein Grünschnabel.'
+        - '!npc.emote "*lacht*"'
+        - '~5s'
+        - '!emote "*du grinst ihn nur an*"'
+        - '~2s'
+        - 'Deine Bemühungen bleiben nicht unbelohnt. Hier nimm das, du brauchst sie nötiger als ich.'
+        - '~2s'
+        - '>"Dankeschön!"'
+        - '!quest.complete this.koenigin'

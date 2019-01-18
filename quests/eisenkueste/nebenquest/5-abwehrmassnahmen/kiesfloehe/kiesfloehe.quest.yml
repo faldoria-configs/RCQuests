@@ -16,14 +16,11 @@ requirements:
 default-convs:
   active:
     convs:
-      - 'this.aksik:this.quest-active'
-  completed:
-    convs:
-      - 'this.aksik:this.quest-completed'
+      - '../terry:this.quest-active'
 
 start-trigger:
   flow:
-    - '@host.interact this.terry this.quest-start'
+    - '@host.interact ../terry this.quest-start'
 
 objectives:
   '1':
@@ -37,10 +34,4 @@ objectives:
     auto-complete: false
     trigger:
       flow:
-        - '@host.interact this.terry this.objective-end'
-
-  '3':
-    name: 'Töte die Kiesfloh Königin'
-    trigger:
-      flow:
-        - '@mob.kill this.koenigin'
+        - '@host.interact ../terry this.quest-end'
