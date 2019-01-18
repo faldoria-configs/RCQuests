@@ -4,7 +4,7 @@ stages:
     actions:
       flow:
         - '?tag frostak-hochebene.vinnans-hilfe.nachweise =3'
-        - '>"Schau mal, ich hab schon 3 Leuten geholfen."'
+        - '>"Schau mal, ich hab schon einer Menge von Leuten geholfen."'
         - '!stage mehr-nachweise'
         - '?tag frostak-hochebene.vinnans-hilfe.nachweise =6'
         - '>"Schau mal, ich hab schon 6 Leuten geholfen."'
@@ -15,7 +15,7 @@ stages:
 
 
   mehr-nachweise:
-    text: 'Sehr fleißig, möchtet Ihr noch drei weiteren helfen? Ich könnte die Belohnung erhöhen.'
+    text: 'Sehr fleißig, möchtet Ihr noch weiteren helfen? Ich könnte die Belohnung erhöhen.'
     answers:
       flow:
         - ':"Was ist denn die Belohnung?"'

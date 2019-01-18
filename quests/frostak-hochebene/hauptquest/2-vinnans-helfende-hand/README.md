@@ -8,7 +8,7 @@
 - [Questübergang / Vorraussetzung](#quest%C3%BCbergang--vorraussetzung)
 - [Ablauf](#ablauf)
 - [Dialoge](#dialoge)
-		- [`[Queststart]` Vinnans helfende Hand](#queststart-vinnans-helfende-hand)
+	- [`[Queststart]` Vinnans helfende Hand](#queststart-vinnans-helfende-hand)
 
 ## Noch zu tun
 
@@ -43,11 +43,11 @@ Ich bin auch noch nicht fertig, habt Ihr Ideen wer Hilfe brauchen könnte?
 **Vinnan:** `Eigentlich muss ich noch kochen, fragt bitte Ingeborg wenn Ihr Informationen über Bewohner haben möchtet. Sie ist die Zweitälteste und sollte irgendwo im Dorf unterwegs sein.`
 
 
->>Bei 3 Nachweisen
+>>Bei 3-5 Nachweisen 
 
 **Vinnan:** `[Spielername]? `   
-Schau mal, ich hab schon 3 Leuten geholfen.   
-**Vinnan:** `Sehr fleißig, möchtet Ihr noch weiteren drei Leuten helfen? Ich könnte die Belohnung erhöhen.`  
+Schau mal, ich hab schon einer Menge von Leuten geholfen.   
+**Vinnan:** `Sehr fleißig, möchtet Ihr noch weiteren Leuten helfen? Ich könnte die Belohnung erhöhen.`  
 Was ist denn die Belohnung?   
 **Vinnan:** ` Ein hübsches Fell und Münzen, wenn Ihr mehr Leuten helft gibt es auch mehr Münzen.`  
 
@@ -63,7 +63,7 @@ Was ist denn die Belohnung?
 
 **Vinnan:** ` [Spielername]?`  
 Schau mal, ich hab schon sechs Leuten geholfen.
-**Vinnan:** ` Sehr fleißig, möchtet Ihr noch weiteren helfen? Ich könnte die Belohnung erhöhen.`   
+**Vinnan:** ` Sehr fleißig, möchtet Ihr noch weiteren helfen? Ich könnte die Belohnung noch weiter erhöhen.`   
 Was ist denn die Belohnung?   
 **Vinnan:** ` Ein hübsches Fell und Münzen, wenn Ihr mehr Leuten helft gibt es auch mehr Münzen.`   
 	◦	Spieler: Ich kann noch mehr Leuten helfen? Dann mach ich das.[gespräch beendet] 
