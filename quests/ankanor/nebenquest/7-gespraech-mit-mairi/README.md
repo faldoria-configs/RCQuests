@@ -79,11 +79,13 @@ Spieler läuft die Treppe zu den oberen Häusern hoch. Mairi spricht Spieler an,
 
 > Wenn der Spieler [NQ Mimi brauch dich](#6-mimi-braucht-dich) angenommen hat:  
   
-Ja, natürlich, wer kann ihrem Charm widerstehen?
+   1. Ja, natürlich, wer kann ihrem Charm widerstehen?   
+   2. Na klar, für Mimi mache ich fast alles.
 
 > Wenn der Spieler [NQ Mimi brauch dich](#6-mimi-braucht-dich) **NICHT** angenommen hat:   
 
-Nein, ich lass mich doch von ihr nicht auf dem Arm nehmen. 
+   1. Nein, ich lass mich doch von ihr nicht auf dem Arm nehmen.    
+   2. Wo denkst du hin, ich bin doch kein Kindermädchen.
 
 >Das Gespräch geht weiter, egal, welche Antwort der Spieler gewählt hat, ob er die Puppe schon hat oder nicht oder sogar schon abgegeben hat und die NQuest. [Mimi braucht dich] schon abgeschlosen hat. 
 
