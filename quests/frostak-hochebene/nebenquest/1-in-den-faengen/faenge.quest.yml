@@ -12,9 +12,9 @@ level: 6
 default-convs:
   completed:
     convs:
-      - '../../npcs/rolf:this.quest-completed'
-      - '../../npcs/wanderer:this.wanderer-quest-completed'
-      - '../../npcs/reisender:this.reisender-quest-completed'
+      - 'frostak-hochebene.npcs.rolf:this.quest-completed'
+      - 'frostak-hochebene.npcs.wanderer:this.wanderer-quest-completed'
+      - 'frostak-hochebene.npcs.reisender:this.reisender-quest-completed'
 
 requirements:
   flow:
@@ -22,7 +22,7 @@ requirements:
 
 start-trigger:
   flow:
-    - '@host.interact ../../npcs/rolf this.quest-start'
+    - '@host.interact frostak-hochebene.npcs.rolf this.quest-start'
 
 objectives:
   '1':
@@ -40,7 +40,7 @@ objectives:
     auto-complete: false
     trigger:
       flow:
-        - '@host.interact ../../npcs/rolf this.quest-end'
+        - '@host.interact frostak-hochebene.npcs.rolf this.quest-end'
 
 complete-actions:
   flow:

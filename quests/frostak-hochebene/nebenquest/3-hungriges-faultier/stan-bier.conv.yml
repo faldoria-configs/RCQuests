@@ -4,7 +4,7 @@ stages:
     answers:
       flow:
         - ':"Ja gerne."'
-        - '!trade ../../npcs/stan'
+        - '!trade frostak-hochebene.npcs.stan'
         - ':"Nein, ich möchte ein Bier."'
         - '!text "Ein Bier..  für Euch? *betrachtet euch argwöhnisch*"'
         - '>"Für den Herrn da drüben."'

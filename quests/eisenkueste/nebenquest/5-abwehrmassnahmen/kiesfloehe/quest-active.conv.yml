@@ -1,0 +1,7 @@
+stages:
+  start:
+    actions:
+      flow:
+        - 'Nun, schon zurück? Du bist schon fertig? Nein? Doch ein Grünschnabel? *lacht*'
+        - '>"Leider nein, ich brauchte eine Pause."'
+        - 'Ja, die Viecher darf man nicht unterschätzen.'

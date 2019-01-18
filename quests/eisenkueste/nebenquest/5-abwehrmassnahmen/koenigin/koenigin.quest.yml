@@ -1,0 +1,40 @@
+name: Freie Bahn
+region: eisenkueste
+locked: false
+abortable: true
+authors:
+  - TheFum (SuQ)
+  - Silthus (QS)
+worlds:
+  - faldoria
+level: 5
+
+requirements:
+  flow:
+    - '?quest.complete ../kiesfloehe'
+
+default-convs:
+  active:
+    convs:
+      - 'this.aksik:this.quest-active'
+  completed:
+    convs:
+      - 'this.aksik:this.quest-completed'
+
+start-trigger:
+  flow:
+    - '@host.interact ../terry this.quest-start'
+
+objectives:
+  '1':
+    name: 'Töte die Kiesfloh Königin'
+    trigger:
+      flow:
+        - '@mob.kill this.kiesfloh-koenigin'
+    
+  '2':
+    name: 'Bringe Terry die Krone der Königin'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact ../terry this.quest-end'

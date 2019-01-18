@@ -1,0 +1,10 @@
+stages:
+  start:
+    actions:
+      flow:
+        - 'Sag bloß, du hast die Königin schon erledigt?'
+        - '>"Nein, sie war mir zu stark, ich musste rennen. Hast du noch einen Heiltrank für mich? Dann probiere ich es nochmals."'
+        - '?item ../heiltrank'
+        - '-!item.give ../heiltrank'
+        - '-!text "Hier bitte, pass auf dich auf!"'
+        - '+!text "Nutze erstmal den, den du noch hast. Komm dann nochmal zu mir."'

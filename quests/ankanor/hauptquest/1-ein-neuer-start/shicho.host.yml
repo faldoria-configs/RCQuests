@@ -1,13 +1,7 @@
 name: Shicho
-type: NPC
-health: 100
-attackable: false
-friendly: true
 disguise: Shicho
 location:
   world: ankanor
   x: 52
   y: 83
   z: -40
-default-conv: this.shicho.default
-talk-close: false

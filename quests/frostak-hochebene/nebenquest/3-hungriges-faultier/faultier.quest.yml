@@ -12,8 +12,8 @@ level: 6
 default-convs:
   completed:
     convs:
-      - '../../npcs/anke:this.anke-quest-completed'
-      - '../../npcs/tjorben:this.tjorben-quest-completed'
+      - 'frostak-hochebene.npcs.anke:this.anke-quest-completed'
+      - 'frostak-hochebene.npcs.tjorben:this.tjorben-quest-completed'
 
 requirements:
   flow:
@@ -21,7 +21,7 @@ requirements:
 
 start-trigger:
   flow:
-    - '@host.interact ../../npcs/tjorben this.quest-start'
+    - '@host.interact frostak-hochebene.npcs.tjorben this.quest-start'
 
 objectives:
   '1':
@@ -31,7 +31,7 @@ objectives:
     optional: true
     trigger:
       flow:
-        - '@host.interact ../../npcs/stan this.stan-bier'
+        - '@host.interact frostak-hochebene.npcs.stan this.stan-bier'
     tasks:
       '1':
         name: 'Besorge ein Bier beim Wirt.'
@@ -43,7 +43,7 @@ objectives:
         auto-complete: false
         trigger:
           flow:
-            - '@host.interact ../../npcs/tjorben this.tjorben-kein-bier'
+            - '@host.interact frostak-hochebene.npcs.tjorben this.tjorben-kein-bier'
 
   '2':
     name: 'Sammle 7 Knochenmark'
@@ -52,8 +52,8 @@ objectives:
     default-convs:
       completed:
         convs:
-          - '../../npcs/anke:this.anke-quest-active'
-          - '../../npcs/tjorben:this.tjorben-quest-active'
+          - 'frostak-hochebene.npcs.anke:this.anke-quest-active'
+          - 'frostak-hochebene.npcs.tjorben:this.tjorben-quest-active'
     trigger:
       flow:
         - '@item.pickup(count:7,count-text:"%current% von %count% Knochenmark gesammelt.") this.knochenmark'
@@ -64,10 +64,10 @@ objectives:
     default-convs:
       completed:
         convs:
-          - '../../npcs/tjorben:this.tjorben-quest-active'
+          - 'frostak-hochebene.npcs.tjorben:this.tjorben-quest-active'
     trigger:
       flow:
-        - '@host.interact ../../npcs/anke this.anke-quest-end'
+        - '@host.interact frostak-hochebene.npcs.anke this.anke-quest-end'
 
   '4':
     name: 'Bringe Tjorben die Suppe.'
@@ -75,10 +75,10 @@ objectives:
     default-convs:
       completed:
         convs:
-          - '../../npcs/anke:this.anke-suppe-active'
+          - 'frostak-hochebene.npcs.anke:this.anke-suppe-active'
     trigger:
       flow:
-        - '@host.interact ../../npcs/tjorben this.tjorben-quest-end'
+        - '@host.interact frostak-hochebene.npcs.tjorben this.tjorben-quest-end'
 
 complete-actions:
   flow:

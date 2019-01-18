@@ -1,0 +1,5 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!npc.emote "*Terry brummelt vor sich hin und nimmt dich nicht wahr*"'

@@ -1,13 +1,7 @@
 name: Angunt
-type: NPC
-health: 100
-attackable: false
-friendly: true
 disguise: Angunt
 location:
   world: ankanor
   x: 49
   y: 70
   z: 117
-# default-conv: this.angunt.default
-talk-close: false

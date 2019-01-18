@@ -4,7 +4,7 @@ stages:
     answers:
       flow:
         - ':"Dein Ernst? Nein!"'
-        - '!conv.start ../../npcs/tjorben this.quest-suppe-start'
+        - '!conv.start frostak-hochebene.npcs.tjorben this.quest-suppe-start'
         - ':"Bekomm ich dann das Geld wieder?"'
         - '!text "Daran solls nisch ‘eitern."'
         - '>"Okay, ich frag mal den Wirt."'

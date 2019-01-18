@@ -1,0 +1,49 @@
+stages:
+  start:
+    actions:
+      flow:
+        - 'Hast du alles Benötigte?'
+        - '>"Klar, was dachtest du denn."'
+        - 'Wunderbar, aber es gibt ein Problem. Die Kiesfloh Königin hat bemerkt, dass du ihre Jungen angegriffen hast und randaliert jetzt am Strand.'
+        - '>"Oh, das ist aber dumm, jetzt hat sich die Situation noch verschlechert."'
+        - '!stage folge-quest'
+        - 'Niemand traut sich mehr hin.  Wir können so nicht mit den Arbeiten beginnen.'
+        - '>"Ich werde sehen was ich tun kann."'
+        - '!objective.complete this.kiesfloehe 2'
+        - 'Vielen Dank.'
+        - '~1s'
+        - 'Aber warte - man sagt, sie hat etwas auf dem Kopf, was wie eine Krone aussieht. Wenn möglich, bringe mir das. Vielleicht können wir das als Abschreckung benutzen.'
+        - '>"Wo finde ich sie?"'
+        - 'Sie hat ihr Versteck in Richtung Norden. Du wirst sie kaum übersehen.'
+        - '~4s'
+        - '!text.info "Du bist schon am Gehen, als Terry dich zurückhält."'
+        - '~2s'
+        - 'Warte noch, das hier könntest du brauchen.'
+        - '~2s'
+        - '!item.add this.heiltrank'
+        - 'Nehm dich in Acht, junge Kaishi.'
+        - '>"Keine Sorge, ich bin bald zurück."'
+
+  folge-quest:
+    text: 'Niemand traut sich mehr hin. Wir können so nicht mit den Arbeiten beginnen.'
+    answers:
+      flow:
+        - ':"Das tut mir jetzt aber furchtbar leid, aber die Kiesflöhe waren hart genug, ich fürchte, die Königin ist einen Nummer zu groß für mich."'
+        - 'Dann muss ich wohl jemand anders finden.'
+        - '!npc.emote "*schaut etwas frustriert.*"'
+        - '!end
+        - ':"Ich werde sehen was ich tun kann."''
+        - 'Vielen Dank.'
+        - '!quest.start ../koenigin'
+        - '~1s'
+        - 'Aber warte - man sagt, sie hat etwas auf dem Kopf, was wie eine Krone aussieht. Wenn möglich, bringe mir das. Vielleicht können wir das als Abschreckung benutzen.'
+        - '>"Wo finde ich sie?"'
+        - 'Sie hat ihr Versteck in Richtung Norden. Du wirst sie kaum übersehen.'
+        - '~5s'
+        - '!text.info "*Du bist schon am Gehen, als Terry dich zurückhält.*"'
+        - '~2s'
+        - 'Warte noch, das hier könntest du brauchen.'
+        - '!item.give ../heiltrank'
+        - '~4s'
+        - 'Nehm dich in Acht, junge Kaishi.'
+        - '>"Keine Sorge, ich bin bald zurück."'

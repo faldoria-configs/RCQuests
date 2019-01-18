@@ -12,7 +12,7 @@ level: 8
 default-convs:
   active:
     convs:
-      - '../../npcs/vinnan:this.vinnan-quest-active'
+      - 'frostak-hochebene.npcs.vinnan:this.vinnan-quest-active'
 
 objectives:
   '1':

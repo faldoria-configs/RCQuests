@@ -1,8 +1,4 @@
 name: Roschik
-type: NPC
-health: 100
-attackable: false
-friendly: true
 disguise: Roschik
 location:
   world: ankanor
