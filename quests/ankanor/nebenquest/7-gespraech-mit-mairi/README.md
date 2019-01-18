@@ -19,8 +19,8 @@ NPC Mairi muss noch plaziert werden
   - [Voraussetzungen](#voraussetzungen)
   - [Ablauf](#ablauf)
   - [Questdialoge](#questdialoge)
-    - [**Dialog 1** mit Mairi - nach Möglichkeit 1.](#dialog-1-mit-mairi---nach-m%C3%B6glichkeit-1)
-    - [**Dialog 2** mit Mimi](#dialog-2-mit-mimi)
+    - [**Dialog 1** (mit Mairi) - nach Möglichkeit 1.](#dialog-1-mit-mairi---nach-m%C3%B6glichkeit-1)
+    - [**Dialog 2** (mit Mimi)](#dialog-2-mit-mimi)
   - [Belohnung : XP](#belohnung--xp)
   - [NPCS](#npcs)
     - [Mairi](#mairi)
@@ -62,7 +62,7 @@ Spieler läuft die Treppe zu den oberen Häusern hoch. Mairi spricht Spieler an,
 2. Geht er weiter, sagt Mairi:   
    **Mairi:** ` Na, dann eben nicht, dann muss ich selber suchen.` 
 
-### **Dialog 1**   mit Mairi - nach Möglichkeit 1.  
+### **Dialog 1**   (mit Mairi) - nach Möglichkeit 1.  
 
 > Spieler geht auf Mairi zu
 
@@ -102,7 +102,8 @@ Aber warte - könntest du ihr bitte sagen, dass sie schnell zum Schiff laufen so
 
       2.1 Ja, ich hole nur schnell noch ihre Puppe {falls der Spieler die [NQ Mimi brauch dich](#6-mimi-braucht-dich) angenommen hat und die Puppe noch nicht im Inventar ist}.   
       2.2. Ja, ich sag es ihr, die Puppe habe ich schon geholt. {FALLS der Spieler die Puppe schon geholt hat und sie im Inventar ist }   
-      2.3. Ja, ich sag es ihr.  {falls der Spieler die [NQ Mimi braucht dich](#6-mimi-braucht-dich) NICHT angenommen hat}.
+
+      2.3. Ja, ich sag es ihr.  {falls der Spieler die [NQ Mimi braucht dich](#6-mimi-braucht-dich) vorher NICHT angenommen hatte}.  **auf diese Antwort folgt der Queststart**
 
 `[QUESTSTART]`[Schicke Mimi zum Schiff](#schicke-mimi-zum-schiff)
 
@@ -110,7 +111,7 @@ Aber warte - könntest du ihr bitte sagen, dass sie schnell zum Schiff laufen so
 
 *Der Spieler.. erfüllt seine Aufgabe* 
 
-### **Dialog 2** mit Mimi
+### **Dialog 2** (mit Mimi)
 
 > Sobald der Spieler Mimi wieder trifft, erfüllt er erst Mairis Wunsch und schickt Mimi zum Schiff. 
 
