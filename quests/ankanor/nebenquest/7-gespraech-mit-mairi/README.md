@@ -86,7 +86,7 @@ Spieler läuft die Treppe zu den oberen Häusern hoch. Mairi spricht Spieler an,
 
    1. Nein, ich lass mich doch von ihr nicht auf dem Arm nehmen.    
    2. Wo denkst du hin, ich bin doch kein Kindermädchen.
-   3. Nein, aber vielleicht hätteich es tun sollen.
+   3. Nein, aber vielleicht  hätte ich es tun sollen.
 
 >Das Gespräch geht weiter, egal, welche Antwort der Spieler gewählt hat, ob er die Puppe schon hat oder nicht oder sogar schon abgegeben hat und die NQuest. [Mimi braucht dich] schon abgeschlosen hat. 
 
