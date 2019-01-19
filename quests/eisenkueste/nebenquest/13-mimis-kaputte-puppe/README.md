@@ -7,7 +7,7 @@ Issue 78
 
 ## Noch zu tun
 
-- Skin anziehen
+- richtigen Skin anziehen
 - Standort festlegen
 
 ## Übersicht
