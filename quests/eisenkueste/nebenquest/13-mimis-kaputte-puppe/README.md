@@ -1,4 +1,7 @@
-Mimis kaputte Puppe
+# Mimis kaputte Puppe
+
+besteht aus [Rede mit Mimi](#rede-mit-mimi)   
+        und [Puppendoktor](#puppendoktor)
 
 Issue 78
 
@@ -9,31 +12,34 @@ Issue 78
 
 ## Übersicht
 
-- [Noch zu tun](#noch-zu-tun)
-- [Übersicht](#%C3%BCbersicht)
-- [Voraussetzungen](#voraussetzungen)
-- [Ablauf](#ablauf)
-- [Questdialoge](#questdialoge)
-  - [Innerer Monolog](#innerer-monolog)
-  - [`[Queststart]` NQ Rede mit Mimi](#queststart-nq-rede-mit-mimi)
-  - [Dialog 1](#dialog-1)
-  - [Dialog 2](#dialog-2)
-  - [`[Queststart]` [Puppendoktor]](#queststart-puppendoktor)
-- [NPCS](#npcs)
-  - [Mimi](#mimi)
-    - [Standartsätze](#standarts%C3%A4tze)
-      - [Vor der Quest:](#vor-der-quest)
-      - [Während der Quest:](#w%C3%A4hrend-der-quest)
-      - [Nach der Quest:](#nach-der-quest)
-    - [Ausrüstung](#ausr%C3%BCstung)
-    - [Standort](#standort)
-- [Referenzen](#referenzen)
+- [Mimis kaputte Puppe](#mimis-kaputte-puppe)
+  - [Noch zu tun](#noch-zu-tun)
+  - [Übersicht](#%C3%BCbersicht)
+  - [Voraussetzungen](#voraussetzungen)
+  - [Ablauf](#ablauf)
+  - [Questdialoge](#questdialoge)
+    - [Innerer Monolog](#innerer-monolog)
+    - [`[Queststart]` NQ [Rede mit Mimi]](#queststart-nq-rede-mit-mimi)
+    - [Dialog 1](#dialog-1)
+    - [Dialog 2](#dialog-2)
+    - [`[Queststart]` [Puppendoktor]](#queststart-puppendoktor)
+  - [NPCS](#npcs)
+    - [Mimi](#mimi)
+      - [Standartsätze](#standarts%C3%A4tze)
+        - [Vor der Quest:](#vor-der-quest)
+        - [Während der Quest:](#w%C3%A4hrend-der-quest)
+        - [Nach der Quest:](#nach-der-quest)
+      - [Ausrüstung](#ausr%C3%BCstung)
+      - [Standort](#standort)
+  - [Item](#item)
+    - [Kaputte Aneli](#kaputte-aneli)
+  - [Referenzen](#referenzen)
 
 ## Voraussetzungen
 
-[HQ Was ist passiert?](../1-was-ist-passiert/README.md) - Abgeschlossen
+[HQ Was ist passiert?](../1-was-ist-passiert/README.md) - angenommen
 
-[HQ Reparaturarbeiten](../2-reparaturarbeiten/README.md) - Abgeschlossen
+
 
 
 ## Ablauf
@@ -54,72 +60,72 @@ Spieler: *Du siehst, dass Mimi traurig da sitzt, Tränen laufen ihr die Wange hi
 
 ```[Ende]```
 
-> 2. Spiele: Das arme Ding, ich werde versuchen, sie zu trösten
+> 2. Spiele: Das arme Ding, ich werde versuchen, sie zu trösten.
 
 
 Klickt der Spieler Mimi an, hat er die Quest: NQ [Rede mit Mimi](#rede-mit-mimi)
 angenommen.
 
-### `[Queststart]`  NQ [Rede mit Mimi](#rede-mit-mimi)
+### `[Queststart]`  NQ [Rede mit Mimi]
 
 **Questlog** *Rede mit Mimi und tröste sie*
 
 ### Dialog 1
 
-```yml
 
-Spieler: Aber Mimi, was ist den los, warum weinst du denn. Ist dir kalt? 
-Mimi: Kalt ist mir auch, aber das ist nicht so schlimm, aber sieh her, meine Puppe ist ganz kaputt. Oh meine arme Aneli!
-```
+Aber Mimi, was ist den los, warum weinst du denn. Ist dir kalt?    
+**Mimi:** ` Kalt ist mir auch, aber das ist nicht so schlimm, aber sieh her, meine Puppe ist ganz kaputt. Oh meine arme Aneli!`
 
-> 1. Falls der Spieler die Quest [Mimi braucht Hilfe](#mimi-braucht-hilfe) abgeschlossen hat:
 
-`Spieler: Oh je, die war doch noch ganz, als ich sie dir aus dem Haus geholt habe, nicht wahr? Wie ist das passiert?
-`
+> Falls der Spieler die Quest [Mimi braucht Hilfe](#mimi-braucht-hilfe) abgeschlossen hat:
 
-> 2. Falls der Spieler die Quest [Mimi braucht Hilfe](#mimi-braucht-hilfe) nicht gemacht hat:
+Oh je, die war doch noch ganz, als ich sie dir aus dem Haus geholt habe, nicht wahr? Wie ist das passiert?
 
-```yml
-Spieler: Oh je, die schaut übel aus, aber das ist doch nur eine Puppe, du lebst, das ist wichtiger!
-Mimi: Was verstehst du von Puppen! Meine Aneli ist lebendig, *Mimi schaut auf die zerstörte Puppe* jedenfalls fast.
-Spieler: Wie ist das denn passiert?
-```
+
+> Falls der Spieler die Quest [Mimi braucht Hilfe](#mimi-braucht-hilfe) nicht gemacht hat:
+
+Oh je, die schaut übel aus, aber das ist doch nur eine Puppe, du lebst, das ist wichtiger!   
+**Mimi:** ` Was verstehst du von Puppen! Meine Aneli ist lebendig, *Mimi schaut auf die zerstörte Puppe* jedenfalls fast.`
+Wie ist das denn passiert?
+
 
 ### Dialog 2
 
-```yml
-Mimi: Als ich zum Schiff gerannt bin, hat ein schwarzer Mann auf mich geschossen, mit einem brennenden Pfeil! Aber der Pfeil ist in Aneli stecken geblieben. Ich bin hingefallen, auf Aneli drauf, da ging das Feuer aus und der Pfeil auch raus.
-Spieler: Und dir ist nichts passiert? Wieso lebst du noch, wenn auf dich geschossen wurde?
-Mimi: *zuckt mit den Schultern* Meine Puppe hat mich beschützt!
-Spieler: *du schaust etwas ungläubig, bemerkst erst jetzt, dass einige ihrer roten Locken versengt sind, ihr verschmiertes Gesicht ist notdürftig gesäubert*
-Spieler: Wie soll das denn gegangen sein?
-Mimi: Schau sie dir doch mal an
-*Sie reicht dir die zerstörte Puppe, nur der feine geschnitzte Kopf wie auch die Hände und Füße aus hartem Holz scheinen halbwegs in Ordnung zu sein, der restliche Körper schaut übel aus. Du nimmst die Puppe in die Hand und bemerkst, dass etwas Hartes in ihren kaputten Torso steckt.* 
-Spieler: Was ist denn das, da ist was Hartes drin!
-Mimi: Ja, das ist ihr Herz, das hat den Pfeil abgehalten.
-*Mimi nimmt die Puppe wieder an sich, bevor du sie näher untersuchen kannst*
-Spieler: Und was soll ich jetzt tun?
-Mimi: Du besorgst mir die Sachen, die wir brauchen, um Aneli wieder ganz zu machen.
-Spieler: Aber woher soll ich wissen, was man dazu braucht, und woher soll ich das bekommen?
-*Mimi zuckt mit den Schultern*
-Mimi: Frag halt Leute, wie man eine Puppe wieder heil macht.
-Spieler: *Du siehst Wolle, die aus dem Körper der Puppe quillt, der Rest scheint Leder oder auch ein fester Stoff zu sein. *
-Mimi: Du kannst das bestimmt, auf dich hören die Leute auch. Mich lachen sie doch bloß aus, wenn ich frage, eine Puppe ist nicht wichtig. Mairi würde mir bestimmt helfen, aber die ist so beschäftigt...
-```
-`[Questende]` 
+**Mimi:** ` Als ich zum Schiff gerannt bin, hat ein schwarzer Mann auf mich geschossen, mit einem brennenden Pfeil! Aber der Pfeil ist in Aneli stecken geblieben. Ich bin hingefallen, auf Aneli drauf, da ging das Feuer aus und der Pfeil auch raus.`  
+Und dir ist nichts passiert? Wieso lebst du noch, wenn auf dich geschossen wurde?   
+**Mimi:** ` *zuckt mit den Schultern* Meine Puppe hat mich beschützt!`  
+*du schaust etwas ungläubig, bemerkst erst jetzt, dass einige ihrer roten Locken versengt sind, ihr verschmiertes Gesicht ist notdürftig gesäubert*   
+Wie soll das denn gegangen sein?   
+**Mimi:** ` Schau sie dir doch mal an!`   
 
-> 1. Spieler: Mimi, ich habe jetzt wirklich keine Zeit, mich um eine kaputte Puppe zu kümmern, ich fliege jetzt bald mit dem Ballon weg. Du musst dir jemand anders suchen.
+*Sie reicht dir die zerstörte Puppe, nur der feine geschnitzte Kopf wie auch die Hände und Füße aus hartem Holz scheinen halbwegs in Ordnung zu sein, der restliche Körper schaut übel aus. Du nimmst die Puppe in die Hand und bemerkst, dass etwas Hartes in ihren kaputten Torso steckt.*    
 
-`Mimi: *traurig* Ich dachte, du bist mein Freund`
+Was ist denn das, da ist was Hartes drin!   
+
+**Mimi:** ` Ja, das ist ihr Herz, das hat den Pfeil abgehalten.`  
+
+*Mimi nimmt die Puppe wieder an sich, bevor du sie näher untersuchen kannst*   
+
+Und was soll ich jetzt tun?    
+
+**Mimi:** ` Du besorgst mir die Sachen, die wir brauchen, um Aneli wieder ganz zu machen.`  
+Aber woher soll ich wissen, was man dazu braucht, und woher soll ich das bekommen?   
+**Mimi:** `*Mimi zuckt mit den Schultern*`  
+**Mimi:** ` Frag halt Leute, wie man eine Puppe wieder heil macht.`  
+*Du siehst Wolle, die aus dem Körper der Puppe quillt, der Rest scheint Leder oder auch ein fester Stoff zu sein. *   
+**Mimi:** ` Du kannst das bestimmt, auf dich hören die Leute auch. Mich lachen sie doch bloß aus, wenn ich frage, eine Puppe ist nicht wichtig. Mairi würde mir bestimmt helfen, aber die ist so beschäftigt...`  
+
+`[Questende]` [Rede mit Mimi](#rede-mit-mimi)
+
+   1. Spieler: Mimi, ich habe jetzt wirklich keine Zeit, mich um eine kaputte Puppe zu kümmern, ich muss so viele andere Sachen tun. Du musst dir jemand anders suchen.   
+   **Mimi:** ` *traurig* Ich dachte, du bist mein Freund`
 
 `[Ende]`
 
 
-> 2. Mimi, ich weiß nicht, wie ich das machen soll, ich fliege jetzt bald mit dem Ballon weg, wie soll ich dir helfen, deinen Puppe wieder heil zu machen?
-
-`Mimi: Vielleicht triffst du ja irgendwo jemand, der sich mit Puppen auskennt - vor allem so besonderen wie meine ...`
-
-`Spieler: *seufzt* : Na, ich verspreche nichts, aber ich werde sehen, was ich tun kann. `
+   2. Mimi, ich weiß nicht, wie ich das machen soll, wie soll ich dir helfen, deinen Puppe wieder heil zu machen?   
+    **Mimi:** ` Vielleicht triffst du ja irgendwo jemand, der sich mit Puppen auskennt - vor allem so besonderen wie meine ...`   
+    *du seufzt* : Na, ich verspreche nichts, aber ich werde sehen, was ich tun kann.
 
 ### `[Queststart]`  [Puppendoktor]
 
@@ -148,13 +154,12 @@ Gerne trägt sie grüne oder blaue Kleidchen, Schuhe jedoch mag sie nicht, da si
 
 ##### Während der Quest:
 
--
+
 
 ##### Nach der Quest: 
 
-Mimi: Hast du vielleicht schon Zeug zum Flicken meiner Puppe?
+**Mimi:** ` Hast du vielleicht schon Zeug zum Flicken meiner Puppe?`
 
-Spieler: 
 1. Woher soll ich denn hier etwas bekommen? Ein Schimmerwolffell wirst du nicht haben wollen. 
 2. Spieler: Mimi, nein, aber ich verspreche dir, ich vergesse dich nicht.
 3. Jetzt nerve mich nicht, ich hatte jetzt doch noch keine Gelegenheit.
@@ -162,7 +167,7 @@ Spieler:
 
 #### Ausrüstung
 
-Eisenküsteskin
+Eisenküsteskin  ID 24, falls nicht alles noch neu organisiert wird
 https://faldoria.de/board/thread/528-skins-f%C3%BCr-npcs/?postID=4053#post4053
 
 Hält Puppe in der Hand (Totem der Unsterblichkeit?)
@@ -174,6 +179,21 @@ x:
 y: 
 z: 
 world: faldoria.eisenküste
+```
+
+## Item
+
+Da die Puppe nicht wirklich in die Hand des Spielers gerät, braucht man auch keins , oder kannst du das hinbekommen, dass der Spieler plötzlich eine "Puppe" in der Hand hat und dann genauso schnell wieder verliert?
+
+### Kaputte Aneli
+```yml
+ID: 449
+name: Kaputte Aneli
+type: QUEST 
+quality: RARE 
+item: totem_of_undying
+lore: Eine wirklich kaputte Puppe
+max-stack-size: 1
 ```
 
 ## Referenzen
