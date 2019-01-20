@@ -1,35 +1,38 @@
 # Was ist passiert? <!-- omit in toc -->
 
-Der Spieler kommt auf die ein oder andere Weise an und bekommt nach einem inneren Monolog die Quest [Was ist passiert?](#1.-was-ist-passiert?). Hierbei soll der Spieler Hauptmann Marduk ansprechen um mehr zu erfahren.
-Nachdem der Spieler das erste Mal mit Marduk in der HQ - Was ist passiert gesprochen hat, bekommt er von ihm den Auftrag die Gegend zu erkunden insbesondere das Licht was Marduk sah. Er findet Elius und spricht mit ihm.
+issue #27
 
-* [Vorrausetzungen](#vorrausetzungen)
-    * [TAG-1](#tag-1)
-    * [TAG-2](#tag-2)
-* [Aufgaben](#aufgaben)
-    * [1. Was ist passiert?](#1-was-ist-passiert)
-        * [Möglichkeit 1 aus HQ Weitere Ausbildung](#möglichkeit-1-aus-hq-weitere-ausbildung)
-        * [Möglichkeit 2 aus HQ Weitere Ausbildung](#möglichkeit-2-aus-hq-weitere-ausbildung)
-    * [2. Erkunde die Umgebung](#2-erkunde-die-umgebung)
-* [NPCs](#npcs)
-    * [Hauptmann Marduk](#hauptmann-marduk)
-        * [Standartsätze](#standartsätze)
-            * [Vor der Quest](#vor-der-quest)
-            * [Während der Quest](#während-der-quest)
-            * [Nach der Quest](#nach-der-quest)
-        * [Ausrüstung](#ausrüstung)
-        * [Standort](#standort)
-    * [Elius](#elius)
-        * [Standartsätze](#standartsätze-1)
-            * [Vor der Quest](#vor-der-quest-1)
-            * [Während der Quest](#während-der-quest-1)
-            * [Nach der Quest](#nach-der-quest-1)
-        * [Ausrüstung](#ausrüstung-1)
-        * [Standort](#standort-1)
-* [Items](#items)
-* [Mobs](#mobs)
-* [Belohnung](#belohnung)
-* [Referenzen](#referenzen)
+Der Spieler kommt auf die ein oder andere Weise an und bekommt nach einem inneren Monolog die Quest [Was ist passiert?](#1.-was-ist-passiert?). Hierbei soll der Spieler Hauptmann Marduk ansprechen um mehr zu erfahren.
+Nachdem der Spieler das erste Mal mit Marduk in der HQ - Was ist passiert gesprochen hat, bekommt er von ihm den Auftrag die Gegend zu erkunden insbesondere das Licht, das Marduk sah. Er findet Elius und spricht mit ihm.
+
+## Übersicht <!-- omit in toc -->
+- [Vorrausetzungen](#vorrausetzungen)
+  - [TAG-1](#tag-1)
+  - [TAG-2](#tag-2)
+- [Aufgaben](#aufgaben)
+  - [1. Was ist passiert?](#1-was-ist-passiert)
+    - [Möglichkeit 1 aus HQ Weitere Ausbildung](#m%C3%B6glichkeit-1-aus-hq-weitere-ausbildung)
+    - [Möglichkeit 2 aus HQ Weitere Ausbildung](#m%C3%B6glichkeit-2-aus-hq-weitere-ausbildung)
+  - [2. Erkunde die Umgebung](#2-erkunde-die-umgebung)
+- [NPCs](#npcs)
+  - [Hauptmann Marduk](#hauptmann-marduk)
+    - [Standartsätze](#standarts%C3%A4tze)
+      - [Vor der Quest](#vor-der-quest)
+      - [Während der Quest](#w%C3%A4hrend-der-quest)
+      - [Nach der Quest](#nach-der-quest)
+    - [Ausrüstung](#ausr%C3%BCstung)
+    - [Standort](#standort)
+  - [Elius](#elius)
+    - [Standartsätze](#standarts%C3%A4tze-1)
+      - [Vor der Quest](#vor-der-quest-1)
+      - [Während der Quest](#w%C3%A4hrend-der-quest-1)
+      - [Nach der Quest](#nach-der-quest-1)
+    - [Ausrüstung](#ausr%C3%BCstung-1)
+    - [Standort](#standort-1)
+- [Items](#items)
+- [Mobs](#mobs)
+- [Belohnung](#belohnung)
+- [Referenzen](#referenzen)
 
 ## Vorrausetzungen
 
@@ -40,7 +43,7 @@ ankanor.event.survivor -
 Bekommt der Spieler wenn er den [Ankanor Event](../../../ankanor/hauptquest/5-weitere-ausbildung#2-verteidige-ankanor) ohne zu sterben überlebt.
 
 ### TAG-2
-eisenkueste.duty-start - Bekommt der Spieler wenn er `Elius` sagt er will nochmal zum Camp zurückkehrt und dort aushelfen.
+eisenkueste.duty-start - Bekommt der Spieler wenn er `Elius` sagt er will nochmal zum Camp zurückkehren und dort aushelfen.
 eisenkueste.duty - Bekommt der Spieler wenn er anstatt `Elius` zu helfen tatsächlich nochmal zum Camp zurückkehrt und dort aushilft.
 
 ## Aufgaben
@@ -50,13 +53,13 @@ eisenkueste.duty - Bekommt der Spieler wenn er anstatt `Elius` zu helfen tatsäc
 #### Möglichkeit 1 aus [HQ Weitere Ausbildung](../../ankanor/hauptquest/5-weitere-ausbildung/README.md)
 > Abfrage true [TAG-1](#tag-1)
 
-Sobald Spieler an der Eisenküste auftaucht nach dem Schiffsbruch, folgt ein innerer Monolog.
+Sobald Spieler nach dem Schiffsbruch an der Eisenküste auftaucht , folgt ein innerer Monolog.
 
-```yml
-Spieler: Warum sind wir an Land? Was ist passiert? Bin ich tot?
-Spieler: Nein, es muss was anderes sein. Das ist ein Camp. Was ist nur auf dem Meer passiert? Eben lag ich noch in meiner Koje und nun bin ich hier irgendwo an Land.
-Spieler: Ist das da hinten Hauptmann Marduk? Der weiß sicher was passiert ist.
-```
+
+Warum sind wir an Land? Was ist passiert? Bin ich tot?   
+Nein, es muss was anderes sein. Das ist ein Camp. Was ist nur auf dem Meer passiert? Eben lag ich noch in meiner Koje und nun bin ich hier irgendwo an Land.   
+Ist das da hinten Hauptmann Marduk? Der weiß sicher was passiert ist.   
+
 
 `[QUEST START]` [Was ist passiert](#1.-was-ist-passiert?)
 > **QuestLog:** *Gehe zu Hauptmann Marduk und frage ihn was passiert ist, warum ihr nun an einer Küste seid.*
@@ -88,14 +91,13 @@ Spieler: Ist das dahinten Hauptmann Marduk? Der weiß sicher was passiert ist.
 
 Marduk spricht den Spieler direkt an (5 Blöcke)
 
-```yml
-Marduk: [Name des Spielers], bist du auch endlich wach, ja?
-Spieler: Hauptmann Marduk hat uns dieser Aknetun erwischt? Sind wir alle tot?
-Marduk: Nein, du wurdest ausgeknockt als du Agnatus Schergen bekämpft hast, man hat dich dann zum Schiff gebracht. Dort wurdest du versorgt.
-Spieler: Und wo sind wir hier? Das sieht mir nicht nach Ankanor aus.
-Marduk: Wo genau wir sind weiß keiner, aber nein es ist nicht mehr Ankanor. Der Sturm letzte Nacht hat unser Schiff zerstört und wir wurden hier angespült.
-Spieler: Ist das dein Ernst? Hmm... und was machen wir nun?
-```
+
+**Marduk:** ` [Name des Spielers], bist du auch endlich wach, ja?`  
+Hauptmann Marduk hat uns dieser Aknetun erwischt? Sind wir alle tot?   
+**Marduk:** ` Nein, du wurdest ausgeknockt als du Agnatus Schergen bekämpft hast, man hat dich dann zum Schiff gebracht. Dort wurdest du versorgt.`  
+Und wo sind wir hier? Das sieht mir nicht nach Ankanor aus.   
+**Marduk:** ` Wo genau wir sind weiß keiner, aber nein es ist nicht mehr Ankanor. Der Sturm letzte Nacht hat unser Schiff zerstört und wir wurden hier angespült.`  
+Ist das dein Ernst? Hmm... und was machen wir nun?
 
 `[QUEST ENDE]` [Was ist passiert](#1.-was-ist-passiert?)
 
@@ -111,21 +113,20 @@ Marduk: Ich habe zwar schon die Gegend ein wenig erkundet und sie scheint weitge
 
 Spieler findet [Elius](#elius) und spricht ihn an.
 
-```yml
-Spieler: Hallo du, ich bin [Spielername], wer bist du?
-Elius: Oh ein Fremder, was macht ihr denn hier in der Wildnis? Ich bin Elius und ich bin hier notgelandet.
-Spieler: Notgelandet? Ach, seid ihr auch schiffbrüchig so wie ich und meine Leute?
-Elius: Kann man so sagen. Mein Ballon hat einen Riss, aber vielleicht könntet ihr mir helfen. Ich bin alt und nicht mehr so fit. 
-Spieler: Wie kann ich euch denn helfen?
-Elius: Ich brauche ein paar Materialien, ich erkläre Euch genau was ich brauche und wo Ihr es wahrscheinlich finden könnt.
-```
 
-> 1. Ok, ich helfe gerne.
-> 2. Ich muss aber erst mal Hauptmann Marduk Bericht erstatten.
+Hallo du, ich bin [Spielername], wer bist du?   
+**Elius:** ` Oh ein Fremder, was macht ihr denn hier in der Wildnis? Ich bin Elius und ich bin hier notgelandet.`
+Notgelandet? Ach, seid ihr auch schiffbrüchig so wie ich und meine Leute?   
+**Elius:** ` Kann man so sagen. Mein Ballon hat einen Riss, aber vielleicht könntet ihr mir helfen. Ich bin alt und nicht mehr so fit.`   
+Wie kann ich euch denn helfen?
+**Elius:** ` Ich brauche ein paar Materialien, ich erkläre Euch genau was ich brauche und wo Ihr es wahrscheinlich finden könnt.`  
 
-```yml
-Elius: Ok, dann hoffe ich, dass ihr bald wieder hier seid.
-```
+
+   1. Ok, ich helfe gerne. 
+    
+   2. Ich muss aber erst mal Hauptmann Marduk Bericht erstatten.   
+      **Elius:** Ok, dann hoffe ich, dass ihr bald wieder hier seid.
+
 
 > Vergabe [TAG-2:](#tag-2) eisenkueste.duty-start
 
