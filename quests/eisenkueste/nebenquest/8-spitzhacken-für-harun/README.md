@@ -131,8 +131,7 @@ Warum machst Ihr es nicht selbst, das klingt doch recht einfach.
 
 `[Ende]` [Spitzhacken für Harun](#spitzhacken-fuer-harun)
 
-### `[Queststart]` [Kehre mit den Spitzhacken zu Harun zurück](#kehre-mit-spitzhacken-zu-harun-zurueck)
-
+### `[Queststart]` [Kehre mit den Spitzhacken zu Harun zurück]
  **Der Spieler kehrt zu Harun zurück**
 
 ### Dialog 3
