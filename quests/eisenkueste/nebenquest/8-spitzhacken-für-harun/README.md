@@ -54,6 +54,9 @@ QuestBelohnung: 15 Kupfer  <-- weniger! fast nichts!
       - [Standort](#standort-1)
     - [Mobs](#mobs)
       - [Standort ungefähr](#standort-ungef%C3%A4hr)
+      - [Toter Steinmetz](#toter-steinmetz)
+      - [Toter Bergarbeiter?](#toter-bergarbeiter)
+  - [Belohnung](#belohnung)
 
 
 
@@ -241,6 +244,7 @@ x: 3443
 y: 99
 z: -2449
 world: Faldoria, Eisenküste
+```
 
 #### Toter Steinmetz
 
@@ -261,11 +265,11 @@ aggro: true
 ```
 >>  Das laufen auch noch Zombies rum!
 
-#### ?
+#### Toter Bergarbeiter?
 
 ```yml
 ID 51
-name: Toter ?
+name: Toter Bergarbeiter??
 type: zombie
 min-level: 
 max-level: 
