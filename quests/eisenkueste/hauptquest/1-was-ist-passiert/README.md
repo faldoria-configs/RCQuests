@@ -104,7 +104,8 @@ Ist das dein Ernst? Hmm... und was machen wir nun?
 ### 2. Erkunde die Umgebung
 
 
-**Marduk:** ` Ich habe zwar schon die Gegend ein wenig erkundet und sie scheint weitgehend unbewohnt zu sein. Aber ich habe ein Licht auf dem Hügel gesehen, ich kann hier nicht weg, ich muss das Camp beschützen. Schau dir das mal an und berichte mir dann.`
+**Marduk:** ` Ich habe zwar schon die Gegend ein wenig erkundet und sie scheint weitgehend unbewohnt zu sein. Aber ich habe ein Licht auf dem Hügel gesehen, ich kann hier nicht weg, ich muss das Camp beschützen. Schau dir das mal an und berichte mir dann.`   
+**Marduk** ` Es würde auch nicht schaden, wenn du dich etwas umhörst, wo du sonst noch mit anpacken könntest. `
 
 Jawohl! 
 
