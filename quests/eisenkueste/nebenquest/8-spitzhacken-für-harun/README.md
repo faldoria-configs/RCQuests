@@ -4,7 +4,7 @@ Issue 18
 
 ## Was noch fehlt:
 
-Nachschaun, wie die Zombies heißen
+Nachschaun, wie die Zombies heißen -->sind nicht da
 Koords nachsehen
 Loot etc
 Sollte da auch noch was anderes zufällig droppen außer die Spitzhacken?
@@ -38,7 +38,7 @@ QuestBelohnung: 15 Kupfer  <-- weniger! fast nichts!
     - [Dialog 1](#dialog-1)
     - [Dialog 2](#dialog-2)
     - [`[Queststart]` [Spitzhacken für Harun]](#queststart-spitzhacken-f%C3%BCr-harun)
-    - [`[Queststart]` Kehre mit den Spitzhacken zu Harun zurück](#queststart-kehre-mit-den-spitzhacken-zu-harun-zur%C3%BCck)
+    - [`[Queststart]` [Kehre mit den Spitzhacken zu Harun zurück]](#queststart-kehre-mit-den-spitzhacken-zu-harun-zur%C3%BCck)
     - [Dialog 3](#dialog-3)
     - [NPC](#npc)
       - [Harun](#harun)
@@ -65,15 +65,18 @@ HQ [Was ist passiert](#was-ist-passiert)
 
 HQ [Reparaturarbeiten](#reparaturarbeiten)
 
+Ich möchte, dass der Spieler die Banditen schon kennengelernt hat. 
+
 
 
 ## Ablauf
 
 
-1. Harun ruft den spieler, sobald er in seine nähe kommt.
+1. Harun ruft den spieler, sobald er in seine Nähe kommt.
 2. Er biete ihm an. etwas Geld zu verdienen
 3. Der Spieler soll für ihn Spitzhacken aus dem Steinbruch holen, weil er zu alt ist.
-4. 
+4. Der Spieler tut dies, bemerkt aber, dass das nicht so einfach ist, da dort Mobs sind.
+5. Er kehrt zu Harun zurück und beschwert sich, wird aber nur ausgelacht. 
 
 ……
 
@@ -186,6 +189,7 @@ Harun ist einer der Banditen, die der Spieler vorher bekämpft hat in der HQ [Re
 #### Ausrüstung 
 
 Axt in der Hand
+Skin fertig, ID
 
 
 #### Standort
@@ -221,9 +225,9 @@ max-stack-size: 1
 #### Standort ??
 
 ```yml
-x: 
-y:
-z: 
+x: 3443
+y: 99
+z: -2467
 world: Faldoria, Eisenküste
 
 ``` 
