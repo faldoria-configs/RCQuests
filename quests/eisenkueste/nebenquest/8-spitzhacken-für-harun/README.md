@@ -51,11 +51,9 @@ QuestBelohnung: 15 Kupfer  <-- weniger! fast nichts!
     - [Items:](#items)
     - [Drops](#drops)
       - [Spitzhacken](#spitzhacken)
-      - [Standort ??](#standort)
+      - [Standort](#standort-1)
     - [Mobs](#mobs)
-      - [Toter Steinmetz](#toter-steinmetz)
-      - [?](#)
-  - [Belohnung](#belohnung)
+      - [Standort ungefähr](#standort-ungef%C3%A4hr)
 
 
 
@@ -222,17 +220,27 @@ max-stack-size: 1
 >> Spitzhacken: Drop  10 % Skelette / Kisten zu 15 %
 
 
-#### Standort ??
+#### Standort 
 
 ```yml
-x: 3443
-y: 99
+x: 3393
+y: 91
 z: -2467
 world: Faldoria, Eisenküste
 
 ``` 
 
 ### Mobs
+
+#### Standort ungefähr
+
+noch den ganzen Hang hinten hoch
+
+```yml
+x: 3443
+y: 99
+z: -2449
+world: Faldoria, Eisenküste
 
 #### Toter Steinmetz
 
