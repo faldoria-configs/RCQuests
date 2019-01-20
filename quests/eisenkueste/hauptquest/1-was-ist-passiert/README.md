@@ -68,7 +68,7 @@ Marduk spricht den Spieler direkt an (5 Blöcke)
 
 
 **Marduk:** ` [Name des Spielers], bist du auch endlich wach, ja?`  
-Hauptmann Marduk hat uns dieser Aknetun erwischt oder warum sind wir plötzlich an einer Küste?
+Hauptmann Marduk hat uns dieser Aknetun erwischt oder warum sind wir plötzlich an einer Küste?   
 **Marduk:** ` Du scheinst einen sehr festen Schlaf zu haben, letzte Nacht tobte ein übler Sturm, der das Schiff zerstörte und uns hier angespült hat. Wir haben dich einfach aus dem Schiffwrack geholt und dachten du wärst ohnmächtig.`  
 Spieler: Ist das dein Ernst? Hmm... und was machen wir nun?
 
@@ -103,10 +103,10 @@ Ist das dein Ernst? Hmm... und was machen wir nun?
 
 ### 2. Erkunde die Umgebung
 
-```yml
-Marduk: Ich habe zwar schon die Gegend ein wenig erkundet und sie scheint weitgehend unbewohnt zu sein. Aber ich habe ein Licht auf dem Hügel gesehen, ich kann hier nicht weg, ich muss das Camp beschützen. Schau dir das mal an und berichte mir dann.
-```
-> Spieler: Jawohl! 
+
+**Marduk:** ` Ich habe zwar schon die Gegend ein wenig erkundet und sie scheint weitgehend unbewohnt zu sein. Aber ich habe ein Licht auf dem Hügel gesehen, ich kann hier nicht weg, ich muss das Camp beschützen. Schau dir das mal an und berichte mir dann.`
+
+Jawohl! 
 
 `[QUEST UPDATE]` [Was ist passiert](#1.-was-ist-passiert?)
 > **QuestLog:** *Erkunde die Gegend und schau dir das Licht am Berg im Westen an. Finde heraus ob dort jemand lebt.*
