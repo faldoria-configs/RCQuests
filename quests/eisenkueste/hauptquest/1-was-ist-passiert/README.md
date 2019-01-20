@@ -53,7 +53,7 @@ eisenkueste.duty - Bekommt der Spieler wenn er anstatt `Elius` zu helfen tatsäc
 #### Möglichkeit 1 aus [HQ Weitere Ausbildung](../../ankanor/hauptquest/5-weitere-ausbildung/README.md)
 > Abfrage true [TAG-1](#tag-1)
 
-Sobald Spieler nach dem Schiffsbruch an der Eisenküste auftaucht , folgt ein innerer Monolog.
+**Sobald Spieler nach dem Schiffsbruch an der Eisenküste auftaucht, folgt ein innerer Monolog.**
 
 
 Warum sind wir an Land? Was ist passiert? Bin ich tot?   
@@ -66,25 +66,25 @@ Ist das da hinten Hauptmann Marduk? Der weiß sicher was passiert ist.
 
 Marduk spricht den Spieler direkt an (5 Blöcke)
 
-```yml
-Marduk: [Name des Spielers], bist du auch endlich wach, ja?
-Spieler: Hauptmann Marduk hat uns dieser Aknetun erwischt oder warum sind wir plötzlich an einer Küste?
-Marduk: Du scheinst einen sehr festen Schlaf zu haben, letzte Nacht tobte ein übler Sturm, der das Schiff zerstörte und uns hier angespült hat. Wir haben dich einfach aus dem Schiffwrack geholt und dachten du wärst ohnmächtig.
+
+**Marduk:** ` [Name des Spielers], bist du auch endlich wach, ja?`  
+Hauptmann Marduk hat uns dieser Aknetun erwischt oder warum sind wir plötzlich an einer Küste?
+**Marduk:** ` Du scheinst einen sehr festen Schlaf zu haben, letzte Nacht tobte ein übler Sturm, der das Schiff zerstörte und uns hier angespült hat. Wir haben dich einfach aus dem Schiffwrack geholt und dachten du wärst ohnmächtig.`  
 Spieler: Ist das dein Ernst? Hmm... und was machen wir nun?
-```
+
 
 `[QUEST ENDE]` [Was ist passiert](#1.-was-ist-passiert?)
 
 #### Möglichkeit 2 aus [HQ Weitere Ausbildung](../../ankanor/hauptquest/5-weitere-ausbildung/README.md)
 > Abfrage false [TAG-1](#tag-1)
 
-Sobald Spieler an der Eisenküste auftaucht nach dem Schiffsbruch, folgt ein innerer Monolog.
+**Sobald Spieler an der Eisenküste auftaucht nach dem Schiffsbruch, folgt ein innerer Monolog.**
 
-```yml
-Spieler: Wo bin ich? Der Angriff, was ist passiert?
-Spieler: Moment mal, sind wir noch auf Ankanor? Sieht mir nicht so aus.
-Spieler: Ist das dahinten Hauptmann Marduk? Der weiß sicher was passiert ist.
-```
+
+Wo bin ich? Der Angriff, was ist passiert?
+Moment mal, sind wir noch auf Ankanor? Sieht mir nicht so aus.
+Ist das dahinten Hauptmann Marduk? Der weiß sicher was passiert ist.
+
 
 `[QUEST START]` [Was ist passiert](#1.-was-ist-passiert?)
 > **QuestLog:** *Gehe zu Hauptmann Marduk und frage ihn was passiert ist, warum ihr nun an einer Küste seid.*
