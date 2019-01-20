@@ -72,8 +72,8 @@ Ich möchte, dass der Spieler die Banditen schon kennengelernt hat.
 ## Ablauf
 
 
-1. Harun ruft den spieler, sobald er in seine Nähe kommt.
-2. Er biete ihm an. etwas Geld zu verdienen
+1. Harun ruft den Spieler, sobald er in seine Nähe kommt.
+2. Er biete ihm an, etwas Geld zu verdienen
 3. Der Spieler soll für ihn Spitzhacken aus dem Steinbruch holen, weil er zu alt ist.
 4. Der Spieler tut dies, bemerkt aber, dass das nicht so einfach ist, da dort Mobs sind.
 5. Er kehrt zu Harun zurück und beschwert sich, wird aber nur ausgelacht. 
