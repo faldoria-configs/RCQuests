@@ -113,7 +113,7 @@ Jawohl!
 `[QUEST UPDATE]` [Was ist passiert](#1.-was-ist-passiert?)
 > **QuestLog:** *Erkunde die Gegend und schau dir das Licht am Berg im Westen an. Finde heraus ob dort jemand lebt.*
 
-Spieler findet [Elius](#elius) und spricht ihn an.
+**Spieler findet [Elius](#elius) und spricht ihn an.**
 
 
 Hallo du, ich bin [Spielername], wer bist du?   
@@ -136,20 +136,21 @@ Wie kann ich euch denn helfen?
 
 Weiter bei [HQ Reparaturarbeiten](../2-reparaturarbeiten/README.md)
 
-Spieler erledigt also erst die Reparaturarbeiten Quest bevor er [Was ist passiert]abschließt.
+Spieler erledigt also erst die Reparaturarbeiten Quest bevor er [Was ist passiert](#was-ist-passiert) abschließt.
 
-Nach dem Erledigen folgt geht es bei Marduk weiter
+Nach dem Erledigen von [HQ Reparaturarbeiten](../2-reparaturarbeiten/README.md) folgt geht es bei Marduk weiter
 
-```yml
-Marduk: Da bist du ja wieder! Hast du die Quelle des Lichts gefunden?
-Spieler: Das habe ich. Es handelte sich dabei um einen abgestürzten Ballon. Der Pilot und ich haben ihn wieder repariert. 
-Marduk: Was ist ein Ballon? 
-Spieler: Ein Schiff, das in der Luft fährt. Er hat mir auch angeboten, da wir ja mehr über dieses Land herausfinden wollen, dass er mich mitnimmt. Das wäre phantastisch, bitte lasst mich mit.
-Marduk: Ein Schiff, das in der Luft fährt, das klingt so als würden wir echt mehr erfahren müssen. Es ist ein großzügiges Angebot, dich mitzunehmen. 
-Spieler: Also kann ich mit ihm mit?
-Marduk: Nun denn, du hast meine Erlaubnis. Ziehe als Botschafter unseres Volkes los und finde mehr über dieses Land heraus. 
-Spieler: Danke, Hauptmann!
-```
+
+**Marduk:** ` Da bist du ja wieder! Hast du die Quelle des Lichts gefunden?`  
+Das habe ich. Es handelt sich dabei um einen abgestürzten Ballon. Der Pilot und ich haben ihn wieder repariert.    
+**Marduk:** ` Was ist ein Ballon? `  
+Ein Schiff, das in der Luft fährt. Er hat mir auch angeboten, da wir ja mehr über dieses Land herausfinden wollen, dass er mich mitnimmt. Das wäre phantastisch, bitte lasst mich mit.   
+**Marduk:** ` Ein Schiff, das in der Luft fährt, das klingt so als würden wir echt mehr erfahren müssen. Es ist ein großzügiges Angebot, dich mitzunehmen. `   
+Also kann ich mit ihm mit?   
+**Marduk:** `Nun denn, du hast meine Erlaubnis. Ziehe als Botschafter unseres Volkes los und finde mehr über dieses Land heraus.` 
+Spieler: Danke, Hauptmann!   
+**Marduk** `Ich wäre dir aber trotzdem dankbar, wenn du hier im Lager auch noch aushelfen würdest, bevor du wegfliegst. So wichtig die Erkundung dieser neuen Welt ist, erst Mal müssen wir überleben.`
+
 
 `[QUEST ENDE]` [Was ist passiert](#1.-was-ist-passiert?)
 Weiter bei [HQ Die Erlaubnis](../3-die-erlaubnis/README.md)

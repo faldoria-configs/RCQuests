@@ -15,6 +15,8 @@ stages:
       flow:
         - ':"Also kann ich mit ihm mit?"'
         - '!text "Nun denn, du hast meine Erlaubnis. Ziehe als Botschafter unseres Volkes los und finde mehr über dieses Land heraus."'
+        - '~3s'
+        - '!text "Ich wäre dir aber trotzdem dankbar, wenn du hier im Lager auch noch aushelfen würdest, bevor du wegfliegst. So wichtig die Erkundung dieser neuen Welt ist, erst Mal müssen wir überleben."'
         - '~6s'
         - '!quest.complete this.was-ist-passiert'
         - '!text.player "Danke, Hauptmann!"'
