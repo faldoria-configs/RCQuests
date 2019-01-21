@@ -1,29 +1,31 @@
 # Reparaturarbeiten <!-- omit in toc -->
 
+Issue 28
+
 Elius bittet den Spieler ihm dabei zu helfen den Ballon zu reparieren mit dem Elius notlanden musste. Hierzu muss er einige Materialien an der Eisenküste sammeln.
 
 - [Vorrausetzungen](#vorrausetzungen)
-    - [TAG-1](#tag-1)
+  - [TAG-1](#tag-1)
 - [Aufgaben](#aufgaben)
-    - [1.1 Materialien sammeln](#11-materialien-sammeln)
-    - [1.2 Materialien sammeln](#12-materialien-sammeln)
+  - [1.1 Materialien sammeln](#11-materialien-sammeln)
+  - [1.2 Materialien sammeln](#12-materialien-sammeln)
 - [NPCs](#npcs)
-    - [Elius](#elius)
-        - [Standartsätze](#standarts%C3%A4tze)
-            - [Vor der Quest](#vor-der-quest)
-            - [Während der Quest](#w%C3%A4hrend-der-quest)
-            - [Nach der Quest](#nach-der-quest)
-        - [Ausrüstung](#ausr%C3%BCstung)
-        - [Standort](#standort)
+  - [Elius](#elius)
+    - [Standartsätze](#standarts%C3%A4tze)
+      - [Vor der Quest](#vor-der-quest)
+      - [Während der Quest](#w%C3%A4hrend-der-quest)
+      - [Nach der Quest](#nach-der-quest)
+    - [Ausrüstung](#ausr%C3%BCstung)
+    - [Standort](#standort)
 - [Items](#items)
-    - [Klebstoff](#klebstoff)
-    - [Holzbrett](#holzbrett)
-    - [Spinnenseide](#spinnenseide)
-    - [Stoff](#stoff)
-    - [Feuerstein](#feuerstein)
-    - [Angerostetes Kettenhemd](#angerostetes-kettenhemd)
-    - [Zerrissener Lederwams](#zerrissener-lederwams)
-    - [Zerschlissene Robe](#zerschlissene-robe)
+  - [Klebstoff](#klebstoff)
+  - [Holzbrett](#holzbrett)
+  - [Spinnenseide](#spinnenseide)
+  - [Stoff](#stoff)
+  - [Feuerstein](#feuerstein)
+  - [Angerostetes Kettenhemd](#angerostetes-kettenhemd)
+  - [Zerrissener Lederwams](#zerrissener-lederwams)
+  - [Zerschlissene Robe](#zerschlissene-robe)
 - [Mobs](#mobs)
 - [Belohnung](#belohnung)
 - [Referenzen](#referenzen)
@@ -42,21 +44,20 @@ eisenkueste.duty - Bekommt der Spieler wenn er anstatt `Elius` zu helfen nochmal
 
 Spieler spricht NPC an.
 
-```yml
-Spieler: Ich bin zurück, Elius, nun kann ich Euch helfen.
-Elius: Schön, dass Ihr zurückgekommen seid. Seid gewarnt, es sind einige Dinge die ich brauche.
-Spieler: Dann sollten wir keine Zeit verlieren.
-Elius: Wunderbar! Ich brauche [1 Klebstoff], [5 Holzbretter], [5 Spinnenseide], [1 Feuerstein] und [5 Stoffe]. 
-Spieler: Und wo finde ich das alles?
-Elius: Auf alles weiß ich auch keine Antwort, aber einige Tipps kann ich Euch geben.
-Elius: Hinter dem Hügel im Süden gibt es eine Mine, ich bin mir sicher da sind Spinnen, gut für Spinnenseide.
-Spieler: Ok und weiter?
-Elius: Ich schätze, dass sich hier irgendwo Schmuggler niedergelassen haben, vielleicht am Strand, die haben sicher Stoffe und Holzbretter.
-Spieler: Und das geben die mir einfach? 
-Elius: Ich schätze nicht, ihr müsst sie überzeugen. Klebstoff ist schwierig, es kann von bestimmten Monstern gewonnen werden. Aber in der Schifffahrt hat man auch oft welches dabei.
-Spieler: Ich werde schon einen Weg finden. Feuerstein kann ich sicher irgendwo am Strand finden.
-Elius: Das ist sehr gut möglich.
-```
+Ich bin zurück, Elius, nun kann ich Euch helfen.   
+**Elius:** ` Schön, dass Ihr zurückgekommen seid. Seid gewarnt, es sind einige Dinge die ich brauche.`  
+Dann sollten wir keine Zeit verlieren.   
+**Elius:** `Wunderbar! Ich brauche `  [Klebstoff](#klebstoff), 5 [Holzbretter](#holzbretter), 5 [Spinnenseide](#spinnenseide), [Feuerstein](#feuerstein) und 5 [Stoffe](#stoffe).    
+Und wo finde ich das alles?   
+**Elius:** ` Auf alles weiß ich auch keine Antwort, aber einige Tipps kann ich Euch geben.`   
+**Elius:** ` Hinter dem Hügel im Süden gibt es eine Mine, ich bin mir sicher da sind Spinnen, gut für Spinnenseide.`   
+Ok und weiter?   
+**Elius:** `Ich schätze, dass sich hier irgendwo Schmuggler niedergelassen haben, vielleicht am Strand, die haben sicher Stoffe und Holzbretter.`      
+Und das geben die mir einfach?    
+**Elius:** ` Ich schätze nicht, ihr müsst sie überzeugen. Klebstoff ist schwierig, es kann von bestimmten Monstern gewonnen werden. Aber in der Schifffahrt hat man auch oft welches dabei.`  
+Ich werde schon einen Weg finden. Feuerstein kann ich sicher irgendwo am Strand finden.   
+**Elius:** ` Das ist sehr gut möglich.`
+
 
 > Ich werde loslegen und versuchen, so schnell wie möglich alles zu besorgen.
 `[QUEST START]` [Reparaturarbeiten](#1.1-Materialien-sammeln)  
