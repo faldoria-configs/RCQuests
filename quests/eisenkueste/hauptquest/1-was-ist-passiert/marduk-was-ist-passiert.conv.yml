@@ -4,8 +4,8 @@ stages:
     answers:
       flow:
         - '?tag ankanor.event.survivor'
-        - '+:"Hauptmann Marduk hat uns dieser Aknetun erwischt oder warum sind wir plötzlich an einer Küste?"'
-        - '!text "Du scheinst einen sehr festen Schlaf zu haben, letzte Nacht tobte ein übler Sturm, der das Schiff zerstörte und uns hier angespült hat. Wir haben dich einfach aus dem Schiffwrack geholt und dachten du wärst ohnmächtig."'
+        - '+:"Hauptmann Marduk, hat uns dieser Aknetun erwischt oder warum sind wir plötzlich an einer Küste?"'
+        - '!text "Agnatus hat dich nicht erwischt, aber der Mast auf unserem kenternden Schiff. Letzte Nacht tobte ein übler Sturm, der das Schiff zerstörte und uns hier angespült hat. Wir haben dich glücklicherweise bemerkt und mit abgeschleppt, obwohl das ziemlich haarig war in dem kalten Wasser.."'
         - '~6s'
         - '!stage start-quest'
         - '-:"Hauptmann Marduk hat uns dieser Aknetun erwischt? Sind wir alle tot?"'

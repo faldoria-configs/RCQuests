@@ -69,9 +69,9 @@ Marduk spricht den Spieler direkt an (5 Blöcke)
 
 
 **Marduk:** ` [Name des Spielers], bist du auch endlich wach, ja?`  
-Hauptmann Marduk hat uns dieser Aknetun erwischt oder warum sind wir plötzlich an einer Küste?   
-**Marduk:** ` Du scheinst einen sehr festen Schlaf zu haben, letzte Nacht tobte ein übler Sturm, der das Schiff zerstörte und uns hier angespült hat. Wir haben dich einfach aus dem Schiffwrack geholt und dachten du wärst ohnmächtig.`  
-Spieler: Ist das dein Ernst? Hmm... und was machen wir nun?
+Hauptmann Marduk, hat uns dieser Aknetun erwischt oder warum sind wir plötzlich an einer Küste?   
+**Marduk:** ` Agnatus hat dich nicht erwischt, aber der Mast auf unserem kenternden Schiff. Letzte Nacht tobte ein übler Sturm, der das Schiff zerstörte und uns hier angespült hat. Wir haben dich glücklicherweise bemerkt und mit abgeschleppt, obwohl das ziemlich haarig war in dem kalten Wasser.`  
+Ist das dein Ernst? Hmm... und was machen wir nun?
 
 
 `[QUEST ENDE]` [Was ist passiert](#1.-was-ist-passiert?)
