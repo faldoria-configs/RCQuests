@@ -8,6 +8,7 @@ Elius bittet den Spieler ihm dabei zu helfen den Ballon zu reparieren mit dem El
   - [TAG-1](#tag-1)
 - [Aufgaben](#aufgaben)
   - [1.1 Materialien sammeln](#11-materialien-sammeln)
+  - [`[QUEST START]` Reparaturarbeiten](#quest-start-reparaturarbeiten)
   - [1.2 Materialien sammeln](#12-materialien-sammeln)
 - [NPCs](#npcs)
   - [Elius](#elius)
@@ -57,13 +58,13 @@ Und das geben die mir einfach?
 **Elius:** ` Ich schätze nicht, ihr müsst sie überzeugen. Klebstoff ist schwierig, es kann von bestimmten Monstern gewonnen werden. Aber in der Schifffahrt hat man auch oft welches dabei.`  
 Ich werde schon einen Weg finden. Feuerstein kann ich sicher irgendwo am Strand finden.   
 **Elius:** ` Das ist sehr gut möglich.`
+Ich werde loslegen und versuchen, so schnell wie möglich alles zu besorgen.
 
 
-> Ich werde loslegen und versuchen, so schnell wie möglich alles zu besorgen.
-`[QUEST START]` [Reparaturarbeiten](#1.1-Materialien-sammeln)  
+### `[QUEST START]` [Reparaturarbeiten](#1.1-Materialien-sammeln)  
 > **QuestLog:** *Sammle [1 Klebstoff], [5 Holzbretter], [5 Spinnenseide], [1 Feuerstein] und [5 Stoffe] für Elius*
 
-> Abrfrage false [TAG-1](#tag-1)
+> Abfrage false [TAG-1](#tag-1)
 ### 1.2 Materialien sammeln
 
 Spieler spricht NPC an.
