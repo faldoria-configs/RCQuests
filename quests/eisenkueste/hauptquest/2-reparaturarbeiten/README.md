@@ -57,7 +57,7 @@ Ok und weiter?
 Und das geben die mir einfach?    
 **Elius:** ` Ich schätze nicht, ihr müsst sie überzeugen. Klebstoff ist schwierig, es kann von bestimmten Monstern gewonnen werden. Aber in der Schifffahrt hat man auch oft welches dabei.`  
 Ich werde schon einen Weg finden. Feuerstein kann ich sicher irgendwo am Strand finden.   
-**Elius:** ` Das ist sehr gut möglich.`
+**Elius:** ` Das ist sehr gut möglich.`   
 Ich werde loslegen und versuchen, so schnell wie möglich alles zu besorgen.
 
 
