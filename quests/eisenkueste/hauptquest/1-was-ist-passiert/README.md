@@ -50,13 +50,14 @@ eisenkueste.duty - Bekommt der Spieler wenn er anstatt `Elius` zu helfen tatsäc
 
 ### 1. Was ist passiert?
 
+**Sobald Spieler nach dem Schiffsbruch an der Eisenküste auftaucht, folgt ein innerer Monolog. Er wacht in einem provisorischem Bett im Lager auf**
+
+
 #### Möglichkeit 1 aus [HQ Weitere Ausbildung](../../ankanor/hauptquest/5-weitere-ausbildung/README.md)
 > Abfrage true [TAG-1](#tag-1)
 
-**Sobald Spieler nach dem Schiffsbruch an der Eisenküste auftaucht, folgt ein innerer Monolog.**
-
-
-Warum sind wir an Land? Was ist passiert? Bin ich tot?   
+*Du starrst an eine Decke aus Stein*   
+Wo bin ich? Was ist passiert? Bin ich tot?   
 Nein, es muss was anderes sein. Das ist ein Camp. Was ist nur auf dem Meer passiert? Eben lag ich noch in meiner Koje und nun bin ich hier irgendwo an Land.   
 Ist das da hinten Hauptmann Marduk? Der weiß sicher was passiert ist.   
 

@@ -2,7 +2,9 @@ stages:
   start:
     actions:
       flow:
-        - '!text.player "Warum sind wir an Land? Was ist passiert? Bin ich tot?"'
+        - '!emote.player "*Du starrst an eine Decke aus Stein*"'
+        - '~2s'
+        - '!text.player "Wo bin ich? Was ist passiert? Bin ich tot?"'
         - '~5s'
         - '!text.player "Nein, es muss was anderes sein. Das ist ein Camp. Was ist nur auf dem Meer passiert? Eben lag ich noch in meiner Koje und nun bin ich hier irgendwo an Land."'
         - '~5s'
