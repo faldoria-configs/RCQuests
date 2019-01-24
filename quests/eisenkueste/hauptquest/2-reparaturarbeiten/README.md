@@ -40,7 +40,10 @@ Elius bittet den Spieler ihm dabei zu helfen, den Ballon zu reparieren mit dem E
 
 ## Noch zu klären
 
+Zeile 132 eine zusätzliche Entscheidung eingebaut- zur Quest Besessene Wölfe
+
 Bei Belohnung stehen noch die verschiedenn Items für die ehemaligen Klassen, wie handhaben wir das jetzt?
+--> Nimm einfach eines für alle!
 
 ## Vorrausetzungen
 
