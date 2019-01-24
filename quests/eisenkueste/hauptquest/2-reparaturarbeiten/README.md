@@ -1,15 +1,22 @@
 # Reparaturarbeiten <!-- omit in toc -->
 
 Issue 28
+Elius bittet den Spieler ihm dabei zu helfen, den Ballon zu reparieren mit dem Elius notlanden musste. Hierzu muss er einige Materialien an der Eisenküste sammeln.
 
-Elius bittet den Spieler ihm dabei zu helfen den Ballon zu reparieren mit dem Elius notlanden musste. Hierzu muss er einige Materialien an der Eisenküste sammeln.
 
+## Übersicht  <!-- omit in toc -->
+
+- [Noch zu klären](#noch-zu-kl%C3%A4ren)
 - [Vorrausetzungen](#vorrausetzungen)
   - [TAG-1](#tag-1)
 - [Aufgaben](#aufgaben)
   - [1.1 Materialien sammeln](#11-materialien-sammeln)
+    - [Dialog 1](#dialog-1)
   - [`[QUEST START]` Reparaturarbeiten](#quest-start-reparaturarbeiten)
   - [1.2 Materialien sammeln](#12-materialien-sammeln)
+  - [`[QUEST START]` Reparaturarbeiten](#quest-start-reparaturarbeiten-1)
+  - [Dialog 2](#dialog-2)
+  - [`[QUEST UPDATE]` Reparaturarbeiten](#quest-update-reparaturarbeiten)
 - [NPCs](#npcs)
   - [Elius](#elius)
     - [Standartsätze](#standarts%C3%A4tze)
@@ -31,6 +38,10 @@ Elius bittet den Spieler ihm dabei zu helfen den Ballon zu reparieren mit dem El
 - [Belohnung](#belohnung)
 - [Referenzen](#referenzen)
 
+## Noch zu klären
+
+Bei Belohnung stehen noch die verschiedenn Items für die ehemaligen Klassen, wie handhaben wir das jetzt?
+
 ## Vorrausetzungen
 
 [HQ Was ist passiert?](../1-was-ist-passiert/README.md) - Angenommen/Abgeschlossen
@@ -40,10 +51,12 @@ eisenkueste.duty - Bekommt der Spieler wenn er anstatt `Elius` zu helfen nochmal
 
 ## Aufgaben
 
-> Abrfrage true [TAG-1](#tag-1)
+> Abfrage true [TAG-1](#tag-1)
 ### 1.1 Materialien sammeln
 
-Spieler spricht NPC an.
+#### Dialog 1
+
+**Spieler spricht NPC an, nachdem er Quest [HQ Was ist passiert?](../1-was-ist-passiert/README.md) abgeschlossen hat:**
 
 Ich bin zurück, Elius, nun kann ich Euch helfen.   
 **Elius:** ` Schön, dass Ihr zurückgekommen seid. Seid gewarnt, es sind einige Dinge die ich brauche.`  
@@ -58,61 +71,64 @@ Und das geben die mir einfach?
 **Elius:** ` Ich schätze nicht, ihr müsst sie überzeugen. Klebstoff ist schwierig, es kann von bestimmten Monstern gewonnen werden. Aber in der Schifffahrt hat man auch oft welches dabei.`  
 Ich werde schon einen Weg finden. Feuerstein kann ich sicher irgendwo am Strand finden.   
 **Elius:** ` Das ist sehr gut möglich.`   
-Ich werde loslegen und versuchen, so schnell wie möglich alles zu besorgen.
+
+1. Ich werde loslegen und versuchen, so schnell wie möglich alles zu besorgen.
 
 
-### `[QUEST START]` [Reparaturarbeiten](#1.1-Materialien-sammeln)  
-> **QuestLog:** *Sammle [1 Klebstoff], [5 Holzbretter], [5 Spinnenseide], [1 Feuerstein] und [5 Stoffe] für Elius*
+### `[QUEST START]` [Reparaturarbeiten](#1.1-Materialien-sammeln)
+**QuestLog`** *Sammle [1 Klebstoff], [5 Holzbretter], [5 Spinnenseide], [1 Feuerstein] und [5 Stoffe] für Elius*      
+
 
 > Abfrage false [TAG-1](#tag-1)
+
+**Der Spieler beginnt sofort die Materialien für Elius zu sammeln, nach Antwort 1, Zeile 127 [HQ Was ist passiert?](../1-was-ist-passiert/README.md)**
+
 ### 1.2 Materialien sammeln
 
-Spieler spricht NPC an.
+**Spieler spricht NPC an, selber Text wie [Dialog 1](#dialog-1), nur ohne die erste Zeile.**
 
-```yml
-Elius: Wunderbar! Ich brauche [1 Klebstoff], [5 Holzbretter], [5 Spinnenseide], [1 Feuerstein] und [5 Stoffe]. 
-Spieler: Und wo finde ich das alles?
-Elius: Auf alles weiß ich auch keine Antwort, aber einige Tipps kann ich Euch geben.
-Elius: Hinter dem Hügel im Süden gibt es eine Mine, ich bin mir sicher da sind Spinnen, gut für Spinnenseide.
-Spieler: Ok und weiter?
-Elius: Ich schätze, dass sich hier irgendwo Schmuggler niedergelassen haben, vielleicht am Strand, die haben sicher Stoffe und Holzbretter.
-Spieler: Und das geben die mir einfach? 
-Elius: Ich schätze nicht, ihr müsst sie überzeugen. Klebstoff ist schwierig, es kann aus bestimmten Monstern gewonnen werden. Aber in der Schifffahrt hat man auch oft welches dabei.
-Spieler: Ich werde schon einen Weg finden. Feuerstein kann ich sicher irgendwo am Strand finden.
-Elius: Das ist sehr gut möglich.
-```
 
-> Ich werde loslegen und versuchen so schnell wie möglich alles zu besorgen.
-`[QUEST START]` [Reparaturarbeiten](#1.2-Materialien-sammeln)  
+**Elius:** `Wunderbar! Ich brauche `  [Klebstoff](#klebstoff), 5 [Holzbretter](#holzbretter), 5 [Spinnenseide](#spinnenseide), [Feuerstein](#feuerstein) und 5 [Stoffe](#stoffe).    
+Und wo finde ich das alles?   
+**Elius:** ` Auf alles weiß ich auch keine Antwort, aber einige Tipps kann ich Euch geben.`   
+**Elius:** ` Hinter dem Hügel im Süden gibt es eine Mine, ich bin mir sicher da sind Spinnen, gut für Spinnenseide.`   
+Ok und weiter?   
+**Elius:** `Ich schätze, dass sich hier irgendwo Schmuggler niedergelassen haben, vielleicht am Strand, die haben sicher Stoffe und Holzbretter.`      
+Und das geben die mir einfach?    
+**Elius:** ` Ich schätze nicht, ihr müsst sie überzeugen. Klebstoff ist schwierig, es kann von bestimmten Monstern gewonnen werden. Aber in der Schifffahrt hat man auch oft welches dabei.`  
+Ich werde schon einen Weg finden. Feuerstein kann ich sicher irgendwo am Strand finden.   
+**Elius:** ` Das ist sehr gut möglich.`  
+
+1. Ich werde loslegen und versuchen, so schnell wie möglich alles zu besorgen.
+
+
+### `[QUEST START]` [Reparaturarbeiten](#1.2-Materialien-sammeln)  
 > **QuestLog:** *Sammle [1 Klebstoff], [5 Holzbretter], [5 Spinnenseide], [1 Feuerstein] und [5 Stoffe] für Elius*
 
-...
+### Dialog 2
 
-```yml
-Elius: Seid ihr schon zurück? Das ging aber schnell.
-Spieler: Ich habe mein Bestes gegeben, es war nicht einfach, aber ich habe es geschafft.
-Elius: Dann gebt mir die Sachen und ich werde mich dran machen den Ballon zu reparieren. Kommt später einfach wieder wenn Ihr mitfliegen wollt.
-Spieler: Das werde ich machen, ich glaube das könnte ein spannendes Abenteuer werden!
-Elius: Sprich doch nochmal mit deinen Leuten in der Zwischenzeit.
-```
 
-> Spieler: Ich werden Hauptmann Marduk von meinem Erfolg hier berichten.
+**Elius:** ` Seid ihr schon zurück? Das ging aber schnell.`  
+Ich habe mein Bestes gegeben, es war nicht einfach, aber ich habe es geschafft.   
+**Elius:** ` Dann gebt mir die Sachen und ich werde mich dran machen den Ballon zu reparieren. Kommt später einfach wieder wenn Ihr mitfliegen wollt.`  
+Das werde ich machen, ich glaube das könnte ein spannendes Abenteuer werden!  
+**Elius:**  ` Sprich doch nochmal mit deinen Leuten in der Zwischenzeit.`
 
-`[QUEST UPDATE]` [Reparaturarbeiten](#reparaturarbeiten)
-> **QuestLog:** *Gehe zurück ins Camp am Strand und sprich mit Marduk.*
 
-```yml
-Spieler: Hauptmann ich habe es geschafft, Elius ist gerade dabei den Ballon zu reparieren. Das dauert aber ein bisschen. 
-Marduk: Das erfreut mich, wenn er fertig ist gehst du also mit ihm.
-```
+1.  Spieler: Ich werden Hauptmann Marduk von meinem Erfolg hier berichten.
 
-> Ja, das wird aufregend.
+### `[QUEST UPDATE]` [Reparaturarbeiten](#reparaturarbeiten)
+**QuestLog:** *Gehe zurück ins Camp am Strand und sprich mit Marduk.*
+
+Hauptmann ich habe es geschafft, Elius ist gerade dabei den Ballon zu reparieren. Das dauert aber ein bisschen. 
+**Marduk:** ` Das erfreut mich, wenn er fertig ist gehst du also mit ihm.`   
+Ja, das wird aufregend.
 
 `[QUEST ENDE]` [Reparaturarbeiten](#reparaturarbeiten) und erhält [Belohnung](#belohunung) 
 
-```yml
-In der Zwischenzeit könntest du noch im Camp aushelfen, frag doch die anderen mal - oder z.B. noch einige der wildgewordenen Wölfe plattmachen. 
-```
+
+**Marduk** `In der Zwischenzeit könntest du noch im Camp aushelfen, frag doch die anderen mal - oder z.B. noch einige der wildgewordenen Wölfe plattmachen.` 
+
 Weiter mit Nebenquest [Besessene Wölfe](../../nebenquest\1-besessene-woelfe\README.md)
 
 Weiter bei [HQ Die Erlaubnis](../3-die-erlaubnis/README.md)

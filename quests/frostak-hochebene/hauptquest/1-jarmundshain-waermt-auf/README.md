@@ -56,7 +56,7 @@ Issue 64
 - [Items](#items)
   - [Fellüberwurf](#fell%C3%BCberwurf)
 - [Mobs](#mobs)
-  - [Frostakbär ??](#frostakb%C3%A4r)
+  - [Frostakbär](#frostakb%C3%A4r)
 - [Belohnungen](#belohnungen)
 
 ## Noch zu tun
@@ -89,14 +89,14 @@ world: Faldoria .Frostak_Hochebene.Jarmundshain
 
 **QuestLog:** *Sprich mit Elius und höre was für eine Aufgabe er für dich hat.*
 
-Elius spricht Spieler an.
-```yml
-Eluis: Noch rechtzeitig sicher gelandet.
-Spieler: Wollten wir wirklich hier hin? Hier ist es ja noch kälter.
-Elius: Ja hier wollten wir hin, ich hab den Brennstoff gerade noch so richtig eingeschätzt, weiter kommen wir nun nicht mehr.
-```
+**Elius spricht Spieler an.**
 
-`[QUEST ENDE]` [Die Reise beginnt](#4-die-reise-beginnt) und erhält [Belohnung](#belohnung) 
+**Elius:** ` Noch rechtzeitig sicher gelandet.`  
+Wollten wir wirklich hier hin? Hier ist es ja noch kälter.  
+**Elius:** ` Ja hier wollten wir hin, ich hab den Brennstoff gerade noch so richtig eingeschätzt, weiter kommen wir nun nicht mehr.` 
+
+
+`[QUEST ENDE]` [Die Reise beginnt](#4-die-reise-beginnt), der Spieler erhält [Belohnung](#belohnung) 
 
 
 
@@ -113,7 +113,7 @@ Elius: Ja hier wollten wir hin, ich hab den Brennstoff gerade noch so richtig ei
 
 ## Dialoge
 
-Spieler:  *Du fühlst dich plötzlich sehr unsicher und alleine. Vielleicht solltest du dich doch noch an Elius halten und ihn etwas ausfragen*
+> *Du fühlst dich plötzlich sehr unsicher und alleine. Vielleicht solltest du dich doch noch an Elius halten und ihn etwas ausfragen*
 
 ### `[Queststart]`[Frage Elius aus](#frage-elius-aus)
 
@@ -121,34 +121,34 @@ Spieler:  *Du fühlst dich plötzlich sehr unsicher und alleine. Vielleicht soll
 
 ### Dialog 1 [Elius](#elius)
 
-```yml
-Spielerin: Elius, wo sind wir hier eigentlich?
-Elius: Mitten in den Frostak Hochebenen, in Jarmundshain.
-Spielerin: Und das ist wo?
-Elius: Mitten im Landesinneren, westlich von Kaltenstrom. Hättest du dich nicht so auf den Boden gekauert, dann hättest du mehr gesehen. 
-Spielerin: Aber es war ja so kalt, der eisige Wind hat meine Augen so tränen lassen, dass ich eh nichts gesehen hätte.
-Elius: Nun, sei es wie es will, wir sind jetzt da. 
-Spielerin: Jarmundshain hast du gesagt, der Name klingt seltsam. 
-Elius: Die Bewohner sind auch seltsame Jorgendder *lacht*, recht zurückgezogen und meist etwas mürrisch.  
-Spielerin: Joggender? Was für Leute sind denn das wieder?
-Elius: Jorgendder - sprich ja ihren Namen nicht falsch aus! Unser Volk stammt von den Zwergen ab, aber hat sich vor, warte, vor über tausend Jahren mit einem nordischen Seefahrevolk vermischt. Wir haben viel von beiden alten Stämmen, und nicht nur die guten Seiten, aber du wirst sehen, man kann schon mit uns auskommen. 
-Spielerin: Wir? Bist du etwa auch ein Jorgennder?
-Elius: Na klar, hast du das nicht gewußt?
-Spielerin: Nein, du hast es nicht erwähnt. Werden die Leute im Dorf mit mir sprechen? 
-Elius: Wenn du ihnen nicht dumm kommst schon. Ich würde mich an deiner Stelle an den Ältesten wenden. Ich nehme an, du willst nach Kaltenstrom, dabei kann dir Vinnan sicherlich helfen. 
-Spielerin: Kaltenstrom ist die große Stadt, über die wir geflogen sind, nicht wahr, mit der großen Burg in der Mitte. Gehört die auch den Jorgenddern?
-Elius: Ja genau, das ist nicht ihre Hauptstadt, das ist Sorvenheim, aber Kaltenstrom ist ihr ganzer Stolz, weil sie es als Jorgendder gebaut haben und nicht von den Zwergen übernommen. Und wenn du den Namen Gimdus hörst, das ist ihr Jarl.
-Spielerin: Jarl?
-Elius: Jarl ist ein Titel, er ist nur dem König untertan.
-Spielerin: *Du seufzt* Ich glaube, ich konzentriere mich jetzt lieber auf das Hier und Jetzt.
-Spielerin: Wo finde ich diesen Vinnan?
-Elius: Sein Haus liegt in der Richtung des Weizenfeldes, genau dahinter. Es ist ein sehr großes Haus, es sollte kaum zu verfehlen sein.
-Spielerin: Was sage ich ihm dann?
-Elius: Na, wo du hinwillst. Ihm im gleichen Atemzug Hilfe anzubieten wäre allerdings eine gute Idee, das dürfte ihn sicherlich freuen. 
-Spielerin: In Ordnung, dann werde ich mein Glück mal versuchen. Und Elius....
-Elius: Ja?
-Spielerin: *du lächelst Elius an* Danke für die Ballonfahrt!
-```
+Elius, wo sind wir hier eigentlich?  
+**Elius:** ` Mitten in den Frostak Hochebenen, in Jarmundshain.`  
+Und das ist wo?  
+**Elius:** ` Mitten im Landesinneren, westlich von Kaltenstrom. Hättest du dich nicht so auf den Boden gekauert, dann hättest du mehr gesehen.`   
+Aber es war ja so kalt, der eisige Wind hat meine Augen so tränen lassen, dass ich eh nichts gesehen hätte.  
+**Elius:** ` Nun, sei es wie es will, wir sind jetzt da. `   
+Jarmundshain hast du gesagt, der Name klingt seltsam.   
+**Elius:** ` Die Bewohner sind auch seltsame Jorgendder *lacht*, recht zurückgezogen und meist etwas mürrisch.`    
+Joggender? Was für Leute sind denn das wieder?   
+**Elius:** ` Jorgendder - sprich ja ihren Namen nicht falsch aus! Unser Volk stammt von den Zwergen ab, aber hat sich vor, warte, vor über tausend Jahren mit einem nordischen Seefahrevolk vermischt. Wir haben viel von beiden alten Stämmen, und nicht nur die guten Seiten, aber du wirst sehen, man kann schon mit uns auskommen. `  
+Wir? Bist du etwa auch ein Jorgennder?   
+**Elius:** `Jorgendder! Na klar, hast du das nicht gewußt?`  
+Nein, du hast es nicht erwähnt. Werden die Leute im Dorf mit mir sprechen?    
+**Elius:** ` Wenn du ihnen nicht dumm kommst schon. Ich würde mich an deiner Stelle an den Ältesten wenden. Ich nehme an, du willst nach Kaltenstrom, dabei kann dir Vinnan sicherlich helfen.`   
+Kaltenstrom ist die große Stadt, über die wir geflogen sind, nicht wahr, mit der großen Burg in der Mitte. Gehört die auch den Jorgenddern?   
+**Elius:** ` Ja genau, das ist nicht ihre Hauptstadt, das ist Sorvenheim, aber Kaltenstrom ist ihr ganzer Stolz, weil sie es als Jorgendder gebaut haben und nicht von den Zwergen übernommen. Und wenn du den Namen Gimdus hörst, das ist ihr Jarl.`    
+Jarl?    
+**Elius:**  `Jarl ist ein Titel, er ist nur dem König untertan.`  
+*Du seufzt* Ich glaube, ich konzentriere mich jetzt lieber auf das Hier und Jetzt.   
+Wo finde ich diesen Vinnan?    
+**Elius:** ` Sein Haus liegt in der Richtung des Weizenfeldes, genau dahinter. Es ist ein sehr großes Haus, es sollte kaum zu verfehlen sein.`   
+Was sage ich ihm dann?     
+**Elius:**  ` Na, wo du hinwillst. Ihm im gleichen Atemzug Hilfe anzubieten wäre allerdings eine gute Idee, das dürfte ihn sicherlich freuen. `   
+In Ordnung, dann werde ich mein Glück mal versuchen. Und Elius....     
+**Elius:** ` Ja?`  
+*du lächelst Elius an* Danke für die Ballonfahrt!
+
+
 
 `[Questende]`[Frage Elius aus](#frage-elius-aus)
 
@@ -161,12 +161,12 @@ Spielerin: *du lächelst Elius an* Danke für die Ballonfahrt!
 **Die Spielerin verlässt Elius und sucht den Dorfältesten Vinnan**
 
 ### Dialog 2 [Vinnan](#vinnan)
-```yml
-Vinnan: Grüße Fremder, habt Ihr Hunger?
-Spielerin: Ähm... Grüße...  ich bin [Spielername]. Ja, so ein wenig Hunger habe ich schon.
-Vinnan: Schön, Euch kennenzulernen, [Spielername], ich heiße Vinnan und kümmere mich um die meisten Belange hier in Jarmundshain. Ich kann Euch Brot anbieten, wenn Ihr Hunger habt. 
-Spielerin: Oh, ja, gerne!
-```
+
+**Vinnan:** ` Grüße Fremder, habt Ihr Hunger?`  
+Ähm... Grüße...  ich bin [Spielername]. Ja, so ein wenig Hunger habe ich schon.   
+**Vinnan:** ` Schön, Euch kennenzulernen, [Spielername], ich heiße Vinnan und kümmere mich um die meisten Belange hier in Jarmundshain. Ich kann Euch Brot anbieten, wenn Ihr Hunger habt. `  
+Oh, ja, gerne!   
+
 
 > Spielerin erhält 3 [Frostakbrotlaib](#frostakbrotlaib)
 
@@ -175,7 +175,7 @@ Danke, kann ich vielleicht auch etwas helfen?
 _*Du schaust dich etwas um und siehst, dass hier wirklich eine helfende Hand nötig wäre*_  
 Räumt hier denn niemand auf?  
 **Vinnan:** `So meinte ich das nicht! *er lacht und du wirst rot*`  
-**Vinnan:** `Gunnar, unser Schmied und einziger Kämpfer im Dorf ist vor einer Weile aufgebrochen, um seine verschwundene Tochter zu suchen. Nun fehlt es uns an Fleisch und Fellen. Der Weizen wird dieses Jahr sicherlich nicht reichen.`  
+**Vinnan:** `Seid Ihr kamprerprobt? Gunnar, unser Schmied und einziger Kämpfer im Dorf ist vor einer Weile aufgebrochen, um seine verschwundene Tochter zu suchen. Nun fehlt es uns an Fleisch und Fellen. Der Weizen wird dieses Jahr sicherlich nicht reichen.`  
 Ich kann auch helfen, nach der Tochter vom Schmied zu suchen.  
 **Vinnan:** `Nein, das kann ich nicht verantworten.`  
 Warum darf ich Euch da nicht unterstützen?  
@@ -210,13 +210,13 @@ Nun gut, ich lass mich überraschen. Dann mach ich mich wohl mal auf die Jagd.
 
 
 ### Dialog 3 [Inge](#inge)
-```yml
-Inge: *zieht die Augenbrauen hoch und schaut dich fragend an, sagt aber nichts*
-Spielerin: Uhm... seid Ihr die Frau vom Schmied?
-Inge: Wer möchte das wissen?
-Spielerin: Ich bin [Spielername]. Ich habe im Auftrag von Vinnan Bären getötet und das da erbeutet. *Du zeigst auf die Felle und das Fleisch*
-Inge: Oh, sehr schön. Ich mache mich gleich an die Arbeit. Wenn Euch eine Belohnung versprochen wurde, sprecht mit Vinnan, ich habe für sowas gerade echt keinen Kopf. 
-```
+
+**Inge:** ` *zieht die Augenbrauen hoch und schaut dich fragend an, sagt aber nichts*`  
+Uhm... seid Ihr die Frau vom Schmied?   
+**Inge:** ` Wer möchte das wissen?`   
+Ich bin [Spielername]. Ich habe im Auftrag von Vinnan Bären getötet und das da erbeutet. *Du zeigst auf die Felle und das Fleisch*   
+**Inge:** ` Oh, sehr schön. Ich mache mich gleich an die Arbeit. Wenn Euch eine Belohnung versprochen wurde, sprecht mit Vinnan, ich habe für sowas gerade echt keinen Kopf. `  
+
 `[Questende]` [Abgabe Bärenfell](#abgabe-baerenfell)
 
 >> sehniges Bärenfleisch und zerschundene Bärenfelle verschwinden aus dem Inventar
@@ -228,34 +228,34 @@ Inge: Oh, sehr schön. Ich mache mich gleich an die Arbeit. Wenn Euch eine Beloh
 **Während die Spielerin noch da steht, kommt ein Mann aus dem Haus und spricht die Spielerin an. Keine Quest, Gespräch kann durch Weglaufen beendet werden. Später wieder aufnehmbar?**
 
 ### Dialog 4 [Vestrak](#vestrak)
-```yml
-Vestrak: Sie hat mich Euch gesprochen?
-Spieler: Ähm huch? *vor dir steht ein breitschuldriger Koloss von Mann*
-Vestrak: Meine Mutter..  sie ist immer zurückgezogener geworden seitdem Arula und danach noch Papa weg sind. Was hat sie gesagt?
-Spieler: Sie hat nur die Felle und das Fleisch angenommen, mehr nicht.
-Vestrak: Ich halt es langsam nicht mehr aus, ich kann sie aber auch nicht alleine lassen.
-Spielerin: Was ist denn passiert?  
-Vestrak: Arula war.. ist meine Schwester. Sie ist verschwunden, war nur in  den Wald gegangen, um einige Pilze zu sammeln. Als sie nicht wiederkam, gingen mein Vater und ich sie suchen. 
-Spielerin: *Du hörst geduldig zu, was Vestrak dir erzählt, er scheint das Bedürfniss zu haben, mit jemanden zu reden.*
-Vestrak: Wir teilten uns auf, um eine größere Fläche abzusuchen. So geschah es, dass mein Vater auch verschwand. *Er zuckt mit den Schultern und fängt fast zum Weinen an*
-Spielerin: Vielleicht kann ich Euch ja helfen, aber zuerst muss ich zu Vinnan zurück. 
-Vestrak: Passt auf Euch auf!
-```
+
+**Vestrak:** ` Sie hat mich Euch gesprochen?`   
+Ähm huch? *vor dir steht ein breitschuldriger Koloss von Mann*   
+**Vestrak:** ` Meine Mutter..  sie ist immer zurückgezogener geworden seitdem Arula und danach noch Papa weg sind. Was hat sie gesagt?`  
+Sie hat nur die Felle und das Fleisch angenommen, mehr nicht.   
+**Vestrak:** ` Ich halt es langsam nicht mehr aus, ich kann sie aber auch nicht alleine lassen.`  
+Was ist denn passiert?        
+**Vestrak:** ` Arula war.. ist meine Schwester. Sie ist verschwunden, war nur in  den Wald gegangen, um einige Pilze zu sammeln. Als sie nicht wiederkam, gingen mein Vater und ich sie suchen. `  
+*Du hörst geduldig zu, was Vestrak dir erzählt, er scheint das Bedürfniss zu haben, mit jemanden zu reden.*   
+**Vestrak:** ` Wir teilten uns auf, um eine größere Fläche abzusuchen. So geschah es, dass mein Vater auch verschwand. *Er zuckt mit den Schultern und fängt fast zum Weinen an*`  
+Vielleicht kann ich Euch ja helfen, aber zuerst muss ich zu Vinnan zurück.    
+**Vestrak:** ` Passt auf Euch auf!`  
+
 
 **Spielerin sucht Vinnan auf**
 
 ### Dialog 5 [Vinnan](#vinnan)
 
-```yml
-Vinnan: Da seid Ihr ja wieder.
-Spielerin: Alles erledigt.
-Vinnan: Das ging schneller als erwartet, hört Euch doch bitte auch noch etwas im Dorf um, ob Ihr dort Hilfe anbieten könnt, das würde mir auch sehr helfen.
-Spielerin: Gerne... nur, ich bin sehr kapp an Vorräten und..
-Vinnan: Oh ja, entschuldigt, natürlich werd ich Euch diesen Aufwand entlohnen. Helft den Dorfbewohnern und Ihr werdet es nicht bereuen.
-Spielerin: Das hört sich gut an, ich werde schauen was ich tun kann.
-Vinnan: Nehmt diesen Fellüberwurf als Dank für die Bärenjagd und dieses Papier um Euch aufschreiben zu lassen, wem Ihr geholfen habt.
-Spieler: Vielen Dank!
-```
+
+**Vinnan:** ` Da seid Ihr ja wieder.`  
+Alles erledigt.   
+**Vinnan:** ` Das ging schneller als erwartet, hört Euch doch bitte auch noch etwas im Dorf um, ob Ihr dort Hilfe anbieten könnt, das würde mir auch sehr helfen.`   
+Gerne... nur, ich bin sehr kapp an Vorräten und..    
+**Vinnan:** ` Oh ja, entschuldigt, natürlich werd ich Euch diesen Aufwand entlohnen. Helft den Dorfbewohnern und Ihr werdet es nicht bereuen.`
+Das hört sich gut an, ich werde schauen was ich tun kann.   
+**Vinnan:** ` Nehmt diesen Fellüberwurf als Dank für die Bärenjagd und dieses Papier um Euch aufschreiben zu lassen, wem Ihr geholfen habt.`  
+Spieler: Vielen Dank!   
+
 
 `[Questende]` [Belohnung](#belohnung)
 

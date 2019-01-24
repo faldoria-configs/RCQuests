@@ -6,7 +6,7 @@ stages:
         - '>"Uhm... seid Ihr die Frau vom Schmied?"'
         - '!text "Wer möchte das wissen?"'
         - '>"Ich bin %player%. Ich habe im Auftrag von Vinnan Bären getötet und das da erbeutet. *Du deutest auf die Felle und das Fleisch.*"'
-        - '!text "OkayOh, sehr schön! Ich mache mich gleich an die Arbeit. Wenn Euch eine Belohnung versprochen wurde sprecht mit Vinnan, ich hab für sowas gerade echt keinen Kopf."'
+        - '!text "Oh, sehr schön! Ich mache mich gleich an die Arbeit. Wenn Euch eine Belohnung versprochen wurde sprecht mit Vinnan, ich hab für sowas gerade echt keinen Kopf."'
         - '!item.remove this.items.fell'
         - '!item.remove this.items.fleisch'
         - '!objective.complete this.jarmundshain 3'

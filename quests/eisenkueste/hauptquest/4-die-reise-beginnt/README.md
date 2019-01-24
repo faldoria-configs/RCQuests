@@ -2,6 +2,8 @@
 
 Nun hat der Spieler die Erlaubnis und den Segen seiner Leute und geht zu Elius, der ihn mitnimmt nach Jarmundshain.
 
+## Übersicht <!-- omit in toc -->
+
 - [Vorrausetzungen](#vorrausetzungen)
 - [Aufgaben](#aufgaben)
   - [1. Die Reise beginnt](#1-die-reise-beginnt)
@@ -26,44 +28,39 @@ Nun hat der Spieler die Erlaubnis und den Segen seiner Leute und geht zu Elius, 
 
 ### 1. Die Reise beginnt
 
-Spieler spricht NPC Elius an.
+**Spieler spricht NPC Elius an.**
 
-```yml
-Spieler: Meister Elius ich bin nun bereit mit euch zu kommen, wie weit seid Ihr mit dem Ballon?
-Elius: Da seid Ihr ja wieder, gerade rechtzeitig. Wir können gleich los. Zunächst aber...
-Spieler: Was denn? Was denn nun noch?
-Elius: Es ist wichtig das Ihr versteht, dass wir nicht so schnell zurück kommen. Habt Ihr Euch ausgerüstet? Habt Ihr Proviant eingepackt?
-Spieler: Ja ich denke ich habe alles.
-Elius: Habt Ihr hier alle Aufgaben erledigt? 
-```
+Meister Elius ich bin nun bereit mit euch zu kommen, wie weit seid Ihr mit dem Ballon?  
+**Elius:** ` Da seid Ihr ja wieder, gerade rechtzeitig. Wir können gleich los. Zunächst aber... `   
+Was denn? Was denn nun noch?   
+**Elius:** `Es ist wichtig das Ihr versteht, dass wir nicht so schnell zurück kommen. Habt Ihr Euch ausgerüstet? Habt Ihr Proviant eingepackt?`           
+Ja ich denke ich habe alles.   
+**Elius:** `Habt Ihr hier alle Aufgaben erledigt?`
 
-> 1. Vielleicht sollte ich doch nochmal ein wenig herum schauen ob ich noch etwas zu tun finde.
-> 2. Ja Meister Elius, ich bin bereit, nun mit euch zu kommen. Lasst uns losfahren.
+1. Vielleicht sollte ich doch nochmal ein wenig herum schauen ob ich noch etwas zu tun finde.  
+2. Ja Meister Elius, ich bin bereit, nun mit euch zu kommen. Lasst uns losfahren.
 
 **Weiter nach #1:**
 
-```yml
-Elius: Dann komme zu mir zurück sobald du bereit bist.
-```
+**Elius:** ` Dann komme zu mir zurück sobald du bereit bist.`
 
-Spieler erledigt, was er erledigen möchte und spricht Elius wieder an.
 
-```yml
-Spieler: Nun sollte ich entgültig alles erledigt haben.
-Elius: Seid ihr euch sicher? Wir können auch noch ein bisschen warten.
-```
+**Spieler erledigt, was er erledigen möchte und spricht Elius wieder an.**
 
-> Ja, ich bin mir sicher! `Nächster Schritt: Weiter nach #2:`  
-> Nein, ich bin mir noch immer nicht sicher.
+ Nun sollte ich entgültig alles erledigt haben.   
+**Elius:** ` Seid ihr euch sicher? Wir können auch noch ein bisschen warten.`
+
+1. Ja, ich bin mir sicher! --->  `Nächster Schritt: Weiter nach #2:`  
+2. Nein, ich bin mir noch immer nicht sicher.
 
 **Weiter nach #2:**
 
-```yml
-Elius: Na dann auf geht die Reise, ich hoffe ich muss nicht wieder notlanden und wir kommen heil in Jarmundshain an.
-Spieler: Das hoffe ich doch auch.
-```
 
-Teleport
+**Elius:** ` Na dann auf geht die Reise, ich hoffe ich muss nicht wieder notlanden und wir kommen heil in Jarmundshain an.`
+Das hoffe ich doch auch.
+
+
+**Teleport**
 
 ```yml
 x: 495
@@ -75,12 +72,12 @@ world: Faldoria .Frostak_Hochebene.Jarmundshain
 `[QUEST UPDATE]` [Die Reise beginnt](#4-die-reise-beginnt)
 **QuestLog:** *Sprich mit Elius und höre was für eine Aufgabe er für dich hat.*
 
-Elius spricht Spieler an.
-```yml
-Eluis: Noch rechtzeitig sicher gelandet.
-Spieler: Wollten wir wirklich hier hin? Hier ist es ja noch kälter.
-Elius: Ja hier wollten wir hin, ich hab den Brennstoff gerade noch so richtig eingeschätzt, weiter kommen wir nun nicht mehr.
-```
+**Elius spricht Spieler an.**
+
+**Elius:** ` Noch rechtzeitig sicher gelandet.`  
+Wollten wir wirklich hier hin? Hier ist es ja noch kälter.  
+**Elius:** ` Ja hier wollten wir hin, ich hab den Brennstoff gerade noch so richtig eingeschätzt, weiter kommen wir nun nicht mehr.`
+
 
 `[QUEST ENDE]` [Die Reise beginnt](#4-die-reise-beginnt) und erhält [Belohnung](#belohnung) 
 

@@ -2,7 +2,7 @@ stages:
   start:
     actions:
       - '!text "Grüße Fremder, habt Ihr Hunger?"'
-      - '>"Ähm Grüße, mein Name ist %player. So ein wenig Hunger hab ich schon."'
+      - '>"Ähm Grüße... ich bin %player. Ja, so ein wenig Hunger hab ich schon."'
       - '!stage bread'
   bread:
     text: "Schön Euch kennenzulernen %player, ich heiße Vinnan und kümmere mich um die meisten Belange hier im Jarmundshain. Ich kann Euch Brot anbieten wenn Ihr Hunger habt."
@@ -19,11 +19,11 @@ stages:
     actions:
       - '!text "Oh Ihr möchtet helfen? Das trifft sich gut hier ist es gerade sehr chaotisch."'
       - '~4s'
-      - '!text.player "Räumt hier denn keiner auf?"'
+      - '!text.player "*Du schaust dich etwas um und siehst, dass hier wirklich eine helfende Hand nötig wäre* Räumt hier denn keiner auf?"'
       - '~1s'
       - '!stage help'
   help:
-    text: 'So meinte ich das nicht, seid Ihr kampferprobt? Gunnar, unser einziger Kämpfer im Dorf und Schmied, ist vor einer Weile aufgebrochen um seine verschwundene Tochter zu suchen. Nun fehlt es uns an Fleisch und Fellen, der Weizen wird dieses Jahr sicher nicht reichen.'
+    text: 'So meinte ich das nicht!*er lacht und du wirst rot* Seid Ihr kampferprobt? Gunnar, unser einziger Kämpfer im Dorf und Schmied, ist vor einer Weile aufgebrochen um seine verschwundene Tochter zu suchen. Nun fehlt es uns an Fleisch und Fellen, der Weizen wird dieses Jahr sicher nicht reichen.'
     answers:
       flow:
         - ':"Ich kann auch helfen nach der Tochter vom Schmied zu suchen."'
