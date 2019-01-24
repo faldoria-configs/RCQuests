@@ -81,7 +81,7 @@ Ich werde schon einen Weg finden. Feuerstein kann ich sicher irgendwo am Strand 
 
 > Abfrage false [TAG-1](#tag-1)
 
-**Der Spieler beginnt sofort die Materialien für Elius zu sammeln, nach Antwort 1, Zeile 127 [HQ Was ist passiert?](../1-was-ist-passiert/README.md)**
+**Der Spieler beginnt `sofort` die Materialien für Elius zu sammeln, nach Antwort 1, Zeile 127 [HQ Was ist passiert?](../1-was-ist-passiert/README.md)**
 
 ### 1.2 Materialien sammeln
 
@@ -115,19 +115,26 @@ Das werde ich machen, ich glaube das könnte ein spannendes Abenteuer werden!
 **Elius:**  ` Sprich doch nochmal mit deinen Leuten in der Zwischenzeit.`
 
 
-1.  Spieler: Ich werden Hauptmann Marduk von meinem Erfolg hier berichten.
+1.  Spieler: Ich werde Hauptmann Marduk von meinem Erfolg hier berichten.
 
 ### `[QUEST UPDATE]` [Reparaturarbeiten](#reparaturarbeiten)
 **QuestLog:** *Gehe zurück ins Camp am Strand und sprich mit Marduk.*
 
-Hauptmann ich habe es geschafft, Elius ist gerade dabei den Ballon zu reparieren. Das dauert aber ein bisschen. 
+Hauptmann ich habe es geschafft, Elius ist gerade dabei den Ballon zu reparieren. Das dauert aber ein bisschen.   
 **Marduk:** ` Das erfreut mich, wenn er fertig ist gehst du also mit ihm.`   
 Ja, das wird aufregend.
 
 `[QUEST ENDE]` [Reparaturarbeiten](#reparaturarbeiten) und erhält [Belohnung](#belohunung) 
 
 
-**Marduk** `In der Zwischenzeit könntest du noch im Camp aushelfen, frag doch die anderen mal - oder z.B. noch einige der wildgewordenen Wölfe plattmachen.` 
+**Marduk** `In der Zwischenzeit könntest du noch im Camp aushelfen, frag doch die anderen mal - oder z.B. noch einige der wildgewordenen Wölfe plattmachen.`
+
+1. Wildgewordenen Wölfe? Wilder wie wild?   
+**Marduk** `Allerdings!`   
+Gut, ich versuch mein Glück.   
+2. Du meinst die hübschen Schimmerwölfe?    
+   **Marduk** `Was ist an denen hübsch? Die sind aggressiv!`  
+   Vielleicht später, ich frage erst noch die anderen, ob die für mich was zu tun haben.   **`[Ende]`**
 
 Weiter mit Nebenquest [Besessene Wölfe](../../nebenquest\1-besessene-woelfe\README.md)
 

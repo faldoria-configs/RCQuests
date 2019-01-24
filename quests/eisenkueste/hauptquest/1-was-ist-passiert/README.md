@@ -5,7 +5,12 @@ issue #27
 Der Spieler kommt auf die ein oder andere Weise an und bekommt nach einem inneren Monolog die Quest [Was ist passiert?](#1.-was-ist-passiert?). Hierbei soll der Spieler Hauptmann Marduk ansprechen um mehr zu erfahren.
 Nachdem der Spieler das erste Mal mit Marduk in der HQ - Was ist passiert gesprochen hat, bekommt er von ihm den Auftrag die Gegend zu erkunden insbesondere das Licht, das Marduk sah. Er findet Elius und spricht mit ihm.
 
+## Noch zu tun
+
+Koord - versetzen
+
 ## Übersicht <!-- omit in toc -->
+- [Noch zu tun](#noch-zu-tun)
 - [Vorrausetzungen](#vorrausetzungen)
   - [TAG-1](#tag-1)
   - [TAG-2](#tag-2)
@@ -39,12 +44,13 @@ Nachdem der Spieler das erste Mal mit Marduk in der HQ - Was ist passiert gespro
 [HQ Weitere Ausbildung](../../ankanor/hauptquest/5-weitere-ausbildung/README.md) Abgeschlossen
 
 ### TAG-1
-ankanor.event.survivor - 
+> ankanor.event.survivor - 
 Bekommt der Spieler wenn er den [Ankanor Event](../../../ankanor/hauptquest/5-weitere-ausbildung#2-verteidige-ankanor) ohne zu sterben überlebt.
 
 ### TAG-2
-eisenkueste.duty-start - Bekommt der Spieler wenn er `Elius` sagt er will nochmal zum Camp zurückkehren und dort aushelfen.
-eisenkueste.duty - Bekommt der Spieler wenn er anstatt `Elius` zu helfen tatsächlich nochmal zum Camp zurückkehrt und dort aushilft.
+> eisenkueste.duty-start - Bekommt der Spieler wenn er `Elius` sagt er will nochmal zum Camp zurückkehren und dort aushelfen.
+
+> eisenkueste.duty - Bekommt der Spieler wenn er anstatt `Elius` zu helfen tatsächlich nochmal zum Camp zurückkehrt und dort aushilft.
 
 ## Aufgaben
 
@@ -81,7 +87,7 @@ Ist das dein Ernst? Hmm... und was machen wir nun?
 
 **Sobald Spieler an der Eisenküste auftaucht nach dem Schiffsbruch, folgt ein innerer Monolog.**
 
-
+*Du starrst an eine Decke aus Stein*
 Wo bin ich? Der Angriff, was ist passiert?
 Moment mal, sind wir noch auf Ankanor? Sieht mir nicht so aus.
 Ist das dahinten Hauptmann Marduk? Der weiß sicher was passiert ist.
@@ -117,10 +123,10 @@ Jawohl!
 
 
 Hallo du, ich bin [Spielername], wer bist du?   
-**Elius:** ` Oh ein Fremder, was macht ihr denn hier in der Wildnis? Ich bin Elius und ich bin hier notgelandet.`
+**Elius:** ` Oh ein Fremder, was macht ihr denn hier in der Wildnis? Ich bin Elius und ich bin hier notgelandet.`   
 Notgelandet? Ach, seid ihr auch schiffbrüchig so wie ich und meine Leute?   
 **Elius:** ` Kann man so sagen. Mein Ballon hat einen Riss, aber vielleicht könntet ihr mir helfen. Ich bin alt und nicht mehr so fit.`   
-Wie kann ich euch denn helfen?
+Wie kann ich euch denn helfen?   
 **Elius:** ` Ich brauche ein paar Materialien, ich erkläre Euch genau was ich brauche und wo Ihr es wahrscheinlich finden könnt.`  
 
 
@@ -138,7 +144,7 @@ Weiter bei [HQ Reparaturarbeiten](../2-reparaturarbeiten/README.md)
 
 Spieler erledigt also erst die Reparaturarbeiten Quest bevor er [Was ist passiert](#was-ist-passiert) abschließt.
 
-Nach dem Erledigen von [HQ Reparaturarbeiten](../2-reparaturarbeiten/README.md) folgt geht es bei Marduk weiter
+Nach dem Erledigen von [HQ Reparaturarbeiten](../2-reparaturarbeiten/README.md)  geht es bei Marduk weiter
 
 
 **Marduk:** ` Da bist du ja wieder! Hast du die Quelle des Lichts gefunden?`  
@@ -147,7 +153,7 @@ Das habe ich. Es handelt sich dabei um einen abgestürzten Ballon. Der Pilot und
 Ein Schiff, das in der Luft fährt. Er hat mir auch angeboten, da wir ja mehr über dieses Land herausfinden wollen, dass er mich mitnimmt. Das wäre phantastisch, bitte lasst mich mit.   
 **Marduk:** ` Ein Schiff, das in der Luft fährt, das klingt so als würden wir echt mehr erfahren müssen. Es ist ein großzügiges Angebot, dich mitzunehmen. `   
 Also kann ich mit ihm mit?   
-**Marduk:** `Nun denn, du hast meine Erlaubnis. Ziehe als Botschafter unseres Volkes los und finde mehr über dieses Land heraus.` 
+**Marduk:** `Nun denn, grundsätzlich hast du meine Erlaubnis. Ziehe als Botschafter unseres Volkes los und finde mehr über dieses Land heraus. Aber..`    
 Spieler: Danke, Hauptmann!   
 **Marduk** `Ich wäre dir aber trotzdem dankbar, wenn du hier im Lager auch noch aushelfen würdest, bevor du wegfliegst. So wichtig die Erkundung dieser neuen Welt ist, erst Mal müssen wir überleben.`
 
@@ -159,15 +165,15 @@ Weiter bei [HQ Die Erlaubnis](../3-die-erlaubnis/README.md)
 
 > Vergabe [TAG-2:](#tag-2) eisenkueste.duty
 
-```yml
-Marduk: Da bist du ja wieder! Hast du die Quelle des Lichts gefunden?
-Spieler: Das habe ich. Es handelte sich dabei um einen abgestürzten Ballon und jemand namens Elius.
-Marduk: Was ist ein Ballon?
-Spieler: Ein Schiff, das in der Luft fährt.
-Marduk: Ah, wir müssen viel mehr über dieses Land herausfinden. Weißt du denn noch mehr?
-Spieler: Nein, aber dieser Elius möchte das ich ihm helfe, vielleicht erfahre ich dann mehr.
-Marduk: Das klingt gar nicht so dumm, also hilf ihm.
-```
+
+**Marduk:** ` Da bist du ja wieder! Hast du die Quelle des Lichts gefunden?`  
+Das habe ich. Es handelte sich dabei um einen abgestürzten Ballon und jemand namens Elius.   
+**Marduk:** ` Was ist ein Ballon?`
+Ein Schiff, das in der Luft fährt.   
+**Marduk:** ` Ah, wir müssen viel mehr über dieses Land herausfinden. Weißt du denn noch mehr?`
+Nein, aber dieser Elius möchte das ich ihm helfe, vielleicht erfahre ich dann mehr.   
+**Marduk:** `Das klingt gar nicht so dumm, also hilf ihm.`  
+
 
 > 1. Ok ich mache mich auf den Weg und erzähle später mehr.
 
@@ -178,7 +184,11 @@ Weiter bei [HQ Reparaturarbeiten](../2-reparaturarbeiten/README.md)
 
 ### Hauptmann Marduk
 
+ID 29
+
 Er schimpft sich zwar Hauptmann, es gibt aber eigentlich keine richtigen Truppen bei den Kaishi. Marduk ist ein sehr entspannter Typ, er hat keine Kampferfahrungen, soll sich aber um die Verteidigung kümmern.
+
+
 
 #### Standartsätze
 
@@ -202,9 +212,9 @@ Steinaxt in der Hand
 #### Standort
 
 ```yml
-x: 3645
-y: 63
-z: -2829
+x: 
+y: 
+z: 
 world: faldoria
 ```
 

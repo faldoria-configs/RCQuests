@@ -3,7 +3,7 @@ stages:
     actions:
       flow:
         - '!text "Das kann doch nicht wahr sein… so ein Mist, jetzt hat es die gute Lise auch erwischt…"'
-        - '>"Seid ihr der Hirte? Vinnan schickt mich euch zu helfen."'
+        - '>"Seid Ihr der Hirte? Vinnan schickt mich, um zu helfen."'
         - '!stage quest'
 
   quest:
@@ -22,8 +22,8 @@ stages:
       flow:
         - ':"Natürlich, deshalb bin ich ja hier!"'
         - '!stage details'
-        - ':"Ich… ich denke ein Wolf ist mir zu gefährlich, ich suche lieber eine leichtere Aufgabe."'
-        - '!text "Schade, kommt zu mir wenn ihr euch umentscheiden solltet… wenn ich dann noch Schafe habe."'
+        - ':"Ich… ich denke, ein Wolf ist mir zu gefährlich, ich suche lieber eine leichtere Aufgabe."'
+        - '!text "Schade, kommt zu mir wenn Ihr euch umentscheiden solltet… wenn ich dann noch Schafe habe."'
         - '!end'
 
   details:
@@ -54,10 +54,10 @@ stages:
 
 
   details2:
-    text: 'Er muss riesig sein, wenn er meine wackeren Schafe tötet, ihr müsst wissen, dass auch sie manchmal beißen.'
+    text: 'Er muss riesig sein, wenn er meine wackeren Schafe tötet, Ihr müsst wissen, dass auch sie manchmal beißen.'
     answers:
       flow:
-        - ':"Meint ihr das ernst? Habt ihr ihn denn schonmal gesehen?"'
+        - ':"Meint ihr das ernst? Habt ihr ihn denn schon mal gesehen?"'
         - '!text "Leider nicht, niemand aus dem Dorf hat ihn bisher gesehen… doch wenn ihr ihn sehen wollt folgt einfach seinen Spuren in diesen Wald."'
         - '>"Dann werde ich ihn mal suchen!"'
         - '!quest.start this.faenge'

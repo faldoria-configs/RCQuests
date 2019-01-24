@@ -2,6 +2,8 @@ stages:
   start:
     actions:
       flow:
+        - '!emote.player "*Du starrst an eine Decke aus Stein*"'
+        - '~2s'
         - '!text.player "Wo bin ich? Der Angriff, was ist passiert?"'
         - '~5s'
         - '!text.player "Moment mal, sind wir noch auf Ankanor? Sieht mir nicht so aus."'

@@ -43,8 +43,8 @@ Belohnungen anpassen ?
 
 **Marduk:** ` Ich hoffe, du weißt was du tust, aber du bist der Einzige, der gerade auf diese Reise gehen kann.`  
 Das ist etwas sehr Wichtiges, oder?  
-**Marduk:** ` Ja, du wirst es großartig machen. Nun gut, aber du solltest dich noch etwas besser vorbereiten bevor ich dir die Erlaubnis geben kann, von hier fort zu gehen.`  
-**Marduk:** ` Außerdem hilf doch den anderen hier im Camp auch noch bitte.`  
+**Marduk:** ` Ja, du wirst es großartig machen. Nun gut, aber du solltest dich noch etwas besser vorbereiten bevor du gehst, ich hätte da noch eine besondere Aufgabe für dich.`  
+**Marduk:** ` Und, habe ich es schon gesagt? Hilf doch den anderen hier im Camp auch noch bitte.`  
 Das mache ich. Welche Aufgabe hast du für mich denn noch?   
 **Marduk:** `Am Strand sind anscheinend einige Ruinen von Türmen, die einst wohl mal die Küste sichern sollten. Gehe doch dorthin und schaue ob du etwas Brauchbares findest.`
 
