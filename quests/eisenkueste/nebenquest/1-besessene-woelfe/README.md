@@ -4,9 +4,9 @@ Issue #21
 
 ## Noch zu tun
 
-> Wölfe Werte geben
-> Belohnung XP und Gold festsetzen
-> Hose verzaubern?
+> Wölfe Werte geben   
+> Belohnung XP und Gold festsetzen    
+> Hose verzaubern?   
 
 **Geändert!**  erst auswahl an Fragen, ob der spieler es machen will 
 
