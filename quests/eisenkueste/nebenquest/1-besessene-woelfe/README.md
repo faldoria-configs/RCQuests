@@ -8,6 +8,8 @@ Issue #21
 > Belohnung XP und Gold festsetzen
 > Hose verzaubern?
 
+**Geändert!**  erst auswahl an Fragen, ob der spieler es machen will 
+
 Im Camp steht [NPC Hauptmann Marduk](#hauptmann-marduk). Er möchte, dass der Spieler aggressive Wölfe für ihn tötet. 
 
 ## Übersicht
@@ -54,47 +56,42 @@ Im Camp steht [NPC Hauptmann Marduk](#hauptmann-marduk). Er möchte, dass der Sp
 
 Der Spieler hat soeben mit Marduk geredet, die [HQ Reparaturarbeiten](../2-reparaturarbeiten/README.md) abgeschlossen und muss noch darauf warten, dass Elius den Ballon fertig repariert. 
 
-siehe [HQ Reparaturarbeiten](../2-reparaturarbeiten/README.md)   Zeile 114
-
-```yml
-Hauptmann Marduk:  Was meinst du? 
-```
-
-> 1. Spieler: Ach nein, Schimmerwölfe jagen ist nicht so meins, die sind doch schön anzusehen.
-
-```yml
-Hauptmann Marduk: Wenn du nicht auch noch beinahe gefressen werden willst, hörst du mir besser zu.
-```
-
-> 2.1. Spieler: Worauf willst du hinaus?
- 
-> 2.2. Spieler: Na gut, was willst du?
- 
-> 2.3 Spieler: Ich komme schon klar, such dir wen anders. `[Ende]`
-
-> 3. Spieler: Schimmerwölfe? Ich tu es für dich, aber warum, sie sind doch schön anzusehen. 
+siehe [HQ Reparaturarbeiten](../2-reparaturarbeiten/README.md)   Zeile 133
 
 
 
+1. Du meinst die hübschen Schimmerwölfe?    
+   **Marduk** `Was ist an denen hübsch? Die sind aggressiv!`  
+   Vielleicht später, ich frage erst noch die anderen, ob die für mich was zu tun haben.   **`[Ende]`**
 
-**Weiter nach 1., 2.1., 2.2. und 3.:**
+   **Hauptmann Marduk:** ` Wenn du nicht auch noch beinahe gefressen werden willst, bevor du wegfliegst, hörst du mir besser zu.`
 
-```yml
-Hauptmann Marduk: Hörzu: Ich habe kein Problem mit Tieren, aber wenn sie eins mit mir haben, ist das sehr wohl ein Problem! Normalerweise halten sich fast alle Viecher von uns fern. Aber hier gibt es Wölfe, die nicht zögern jeden anzugreifen, der ihnen zu nahe kommt. Wer weiß, ob da nicht Magie im Spiel ist.
+    1.2.. Worauf willst du hinaus?  
+    1.2. Na gut, was willst du?  
+    1.3. Schimmerwölfe? Ich tu es für dich, aber warum, sie sind doch schön anzusehen.   
+    1.4. Ich komme schon klar, such dir wen anders.**`[Ende]`**
 
-Spieler: Und ich soll die Wölfe jetzt töten, natürlich. Wo finde ich sie?
 
-Hauptmann Marduk: Ein Stück südwestlich von hier im Wald ist ein alter Schrein an einer eingestürzten Brücke. Dort in der Nähe haben sie mich schon einmal angegriffen. Schau am besten dort. 
-```
-> Na schön, ich werde mich um diese Biester kümmern.
+2. Wildgewordenen Wölfe? Wilder wie wild?   
+**Marduk** `Allerdings!`   
+Gut, ich versuch mein Glück. 
 
-```yml
-Hauptmann Marduk: Du würdest dem Lager damit sehr helfen! Komm wieder zu mir, wenn du sie erledigt hast.
-```
+
+**Weiter nach 1., 1.1., 1.2., 1.3 und 23.:**
+
+
+**Hauptmann Marduk:** ` Hörzu: Ich habe kein Problem mit Tieren, aber wenn sie eins mit mir haben, ist das sehr wohl ein Problem! Normalerweise halten sich fast alle Viecher von uns fern. Aber hier gibt es Wölfe, die nicht zögern jeden anzugreifen, der ihnen zu nahe kommt. Wer weiß, ob da nicht Magie im Spiel ist.`  
+
+Und ich soll die Wölfe jetzt töten, natürlich. Wo finde ich sie?   
+
+**Hauptmann Marduk:** ` Ein Stück südwestlich von hier im Wald ist ein alter Schrein an einer eingestürzten Brücke. Dort in der Nähe haben sie mich schon einmal angegriffen. Schau am besten dort.`    
+Na schön, ich werde mich um diese Biester kümmern.   
+**Hauptmann Marduk:** ` Du würdest dem Lager damit sehr helfen! Komm wieder zu mir, wenn du sie erledigt hast.`
+
 
 `[QUEST START]` [Besessenen Woelfe](#besessene-woelfe)
 
-> **QuestLog:** Suche die Wölfe südwestlich des Lagers, die sich an der alten Brücke beim Schrein breitmachen und töte sie.
+**`QuestLog:`** Suche die Wölfe südwestlich des Lagers, die sich an der alten Brücke beim Schrein breitmachen und töte sie.
 - Töte [20] Wölfe
 
 Spieler tötet 20 Wölfe.
@@ -112,12 +109,11 @@ Spieler tötet 20 Wölfe.
 Spieler geht zurück zu Hauptmann Marduk.
 
 
-```yml
-Hauptmann Marduk: Sind die Biester tot?
-Spieler: Ja, sie hatten keine Chance.
-Hauptmann Marduk: Gut gemacht! Hoffen wir, dass das die einzigen waren.... Nimm dies als Dank. 
 
-```
+**Hauptmann Marduk:** ` Sind die Biester tot?`  
+Ja, sie hatten keine Chance.
+**Hauptmann Marduk:** ` Gut gemacht! Hoffen wir, dass das die einzigen waren.... Nimm dies als Dank.` 
+
 
 `[ENDE]`
 
