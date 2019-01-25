@@ -1,6 +1,35 @@
-# Abenteurer Renlik
+# Abenteurer Renlik <!-- omit in toc -->
 
 Issue 14
+
+
+
+## Überblick <!-- omit in toc -->
+
+- [Noch zu tun](#noch-zu-tun)
+- [Ablauf](#ablauf)
+- [Vorraussetzungen](#vorraussetzungen)
+- [Aufgaben/Quests](#aufgabenquests)
+- [Questdialoge](#questdialoge)
+  - [1. Die Quelle allen Übels](#1-die-quelle-allen-%C3%BCbels)
+  - [1. Kehre zu Renlik zurück](#1-kehre-zu-renlik-zur%C3%BCck)
+- [NPC](#npc)
+  - [Renlik](#renlik)
+    - [Standartsätze](#standarts%C3%A4tze)
+      - [Vor der Quest:](#vor-der-quest)
+      - [Während der Quest/Aufgabe #1](#w%C3%A4hrend-der-questaufgabe-1)
+      - [Nach der Questabgabe/Aufgabe #2](#nach-der-questabgabeaufgabe-2)
+    - [Ausrüstung](#ausr%C3%BCstung)
+    - [Standort](#standort)
+  - [Magische Asche](#magische-asche)
+  - [Schwert](#schwert)
+  - [Dolch](#dolch)
+  - [Bogen](#bogen)
+  - [Stab](#stab)
+- [Mobs](#mobs)
+  - [Die Quelle allen Übels](#die-quelle-allen-%C3%BCbels)
+- [Belohnung](#belohnung)
+- [Referenzen](#referenzen)
 
 ## Noch zu tun
 
@@ -9,31 +38,6 @@ Belohnung ändern, falls Klassen vorerst abgeschafft werden
 Vorraussetzung Waffe festlegen
 Renlik versetzen
 Werte Monster festlegen
-
-## Überblick
-
-- [Voraussetzungen](#voraussetzungen)
-- [Ablauf](#ablauf)
-- [Questdialoge](#questdialoge)
-   
-- [NPCs](#npcs)
-     - [Renlik](#renlik)
-         - [Standartsätze](#standartsaetze)
-            - [Vor der Quest](#vor-der-quest)
-            - [Während der Quest](#waehrend-der-quest)
-            - [Nach der Quest](#nach-der-quest)
-         - [Ausrüstung](#ausruestung)
-         - [Standort](#standort)
--  [Mobs](#mobs)
-    - [Die Quelle allen Übels](#die-quelle-allen-uebels)
-  
--  [Items](#items)
-
-     [Magische Asche](#magische-asche)
-
--  > mehrere Belohnungen für verschiedene Klassen? Gegebenenfalls abändern
-    
-- [Belohnung](#belohnung)
 
 
 ## Ablauf
@@ -48,8 +52,6 @@ Werte Monster festlegen
 
 ## Vorraussetzungen
 
- - lvl 5
- - Waffe???  Ausrüstung?
 
 ## Aufgaben/Quests
 
@@ -62,37 +64,33 @@ Werte Monster festlegen
 
 ### 1. Die Quelle allen Übels
 
-Der Spieler findet Renlik und spricht ihn an. 
+**Der Spieler findet Renlik und spricht ihn an.**
 
-```yml
-Spieler: Was suchst du denn hier draußen in der Wildnis? 
-Renlik: Was ich hier suche? Das habe ich längst gefunden! Aber keine Lösung… keine Lösung… 
-Spieler: Wovon redest du? 
-Renlik: Siehst du die hölzerne Ruine oben auf dem Berg Richtung Westen? Von dort aus ging es los, dort fing es an. Nicht, dass es einfach gewesen wäre überhaupt bis dorthin zu kommen, nein! Doch von da an fing es an wirklich schlimm zu werden! 
-```
 
-> 1. Ich hab genug von deinem wirren Geschwätz. Adieu. `[Ende]`
+Was suchst du denn hier draußen in der Wildnis?    
+**Renlik:** ` Was ich hier suche? Das habe ich längst gefunden! Aber keine Lösung… keine Lösung… `  
+Wovon redest du? 
+**Renlik:** ` Siehst du die hölzerne Ruine oben auf dem Berg Richtung Westen? Von dort aus ging es los, dort fing es an. Nicht, dass es einfach gewesen wäre überhaupt bis dorthin zu kommen, nein! Doch von da an fing es an wirklich schlimm zu werden! `   
 
-> 2. Ganz von vorn bitte, ich verstehe kein Wort. 
+1. Ich hab genug von deinem wirren Geschwätz. Adieu. **`[Ende]`**
+2. Ganz von vorn bitte, ich verstehe kein Wort. 
 
-```yml
-Renlik: Als eine einfache Erkundungstour, eine gemütliche Expedition hatten sie es angepriesen! Nur bis zur Quelle und zurück. Nur die Götter wissen, was sie dort wollten, aber jedem wurde eine großzügige Belohnung versprochen… 
-Spieler: Eine Expedition zur Quelle des Flusses? Wer hat das denn veranlasst? 
-Renlik: Unwichtig, vollkommen unwichtig! Viel wichtiger ist, was jetzt dort ist, und dass alle außer mir das Zeitliche gesegnet haben! 
-Spieler: Was?? Was ist denn an dieser Quelle? 
-NPC: Wenn ich das wüsste… sicher ist nur, dass meine langen Beine mich davor gerettet haben. Im Gegensatz zu all den anderen. 
-```
 
-> 1. Das klingt ja sehr gefährlich, ich denke ich halte mich da lieber raus.`[Ende]`
+**Renlik:** ` Als eine einfache Erkundungstour, eine gemütliche Expedition hatten sie es angepriesen! Nur bis zur Quelle und zurück. Nur die Götter wissen, was sie dort wollten, aber jedem wurde eine großzügige Belohnung versprochen…`   
+Eine Expedition zur Quelle des Flusses? Wer hat das denn veranlasst?    
+**Renlik**: `Unwichtig, vollkommen unwichtig! Viel wichtiger ist, was jetzt dort ist, und dass alle außer mir das Zeitliche gesegnet haben!`   
+Was?? Was ist denn an dieser Quelle?    
+**Renlik:** `Wenn ich das wüsste… sicher ist nur, dass meine langen Beine mich davor gerettet haben. Im Gegensatz zu all den anderen.`   
 
-> 2. Na gut. Was immer an der Quelle haust, ich werde es unschädlich machen. 
+1. Das klingt ja sehr gefährlich, ich denke ich halte mich da lieber raus.`[Ende]`
+2. Na gut. Was immer an der Quelle haust, ich werde es unschädlich machen. 
 
 `[Quest START]` [Die Quelle allen Übels](#die-quelle-allen-uebels)
 
 `**QuestLog:**` *Finde die Quelle des Flusses und gehe dem Tod der Expeditionsmitglieder auf den Grund.*
 
 
-Der Spieler folgt dem Flusslauf bis zur Quelle und tötet das dortige Monster (blaze). Sobald dies erledigt ist, kehrt er zum Abenteurer Renlik zurück. 
+**Der Spieler folgt dem Flusslauf bis zur Quelle und tötet das dortige Monster (blaze). Sobald dies erledigt ist, kehrt er zum Abenteurer Renlik zurück.** 
 
 `[Ende]`
 
@@ -106,15 +104,15 @@ Der Spieler folgt dem Flusslauf bis zur Quelle und tötet das dortige Monster (b
 `**QuestLog:**` *Kehre zu Renlik zurück und erzähle ihm, was du gefunden hast.*
 
 
-```yml
-Renlik: Was hast du gefunden? Den Tod nicht, aber was war es dann?
-Spieler: Ich denke ich möchte nicht wissen, was die Leiter dieser seltsamen Expedition dort getrieben haben, aber ich glaube, sie führten nichts Gutes im Schilde. Dort war ein Wesen, das ich noch nie zuvor gesehen habe. Es bestand aus Feuer und schien von einer magischen Aura umgeben zu sein. Ich konnte es aber trotzdem mit meinen Waffen besiegen.
-Renlik: Ha! Gedacht hab ich’s mir! Dunkle Magie, Beschwörungen… Renlik hat’s gewusst, da ist was faul. 
-Spieler: Wer waren denn nun deine Auftraggeber? 
-Renlik: Auch wenn die jetzt tot sind, denke ich nicht, dass ich dir das sagen werde… manchmal ist Wissen eben nicht nur Macht. Naja, du sollst jedenfalls nicht leer ausgehen. Etwas mehr als einen Gefallen, das wär schon was. Hmmm… Hier, das hab ich mir von einem der Expeditionsleiter.. ähm … ausgeliehen. Brauchen tut er’s jetzt wohl nicht mehr, hihihi...
-```
 
-`[Ende]`
+**Renlik:** ` Was hast du gefunden? Den Tod nicht, aber was war es dann?`     
+Ich denke ich möchte nicht wissen, was die Leiter dieser seltsamen Expedition dort getrieben haben, aber ich glaube, sie führten nichts Gutes im Schilde. Dort war ein Wesen, das ich noch nie zuvor gesehen habe. Es bestand aus Feuer und schien von einer magischen Aura umgeben zu sein. Ich konnte es aber trotzdem mit meinen Waffen besiegen.        
+**Renlik:** ` Ha! Gedacht hab ich’s mir! Dunkle Magie, Beschwörungen… Renlik hat’s gewusst, da ist was faul. `      
+Wer waren denn nun deine Auftraggeber?    
+**Renlik:** ` Auch wenn die jetzt tot sind, denke ich nicht, dass ich dir das sagen werde… manchmal ist Wissen eben nicht nur Macht. Naja, du sollst jedenfalls nicht leer ausgehen. Etwas mehr als einen Gefallen, das wär schon was. Hmmm… Hier, das hab ich mir von einem der Expeditionsleiter.. ähm … ausgeliehen. Brauchen tut er’s jetzt wohl nicht mehr, hihihi...`   
+
+
+**`[Ende]`**
 
 ## NPC 
 
