@@ -4,6 +4,8 @@ Issue 13
 
 ## Noch zu tun
 
+Standort ändern!
+
 
 >  Belohnung mit anderen Quests abstimmen
 
