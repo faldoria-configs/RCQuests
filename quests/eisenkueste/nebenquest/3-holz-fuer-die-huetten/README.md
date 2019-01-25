@@ -47,8 +47,7 @@ Zimmermann [Akisk](#akisk) steht im Lager, das die schiffbrüchigen Ankanorer au
 ## Vorraussetzungen
 
 HQ [Was ist passiert](#1.-was-ist-passiert?)  angenommen.
-HQ `[QUEST UPDATE]` [Was ist passiert](#1.-was-ist-passiert?)
-> **QuestLog:** *Erkunde die Gegend und schau dir das Licht am Berg im Westen an. Finde heraus ob dort jemand lebt.*  angenommen
+
 
 - lvl ?
 - Waffe aus Ankanor
