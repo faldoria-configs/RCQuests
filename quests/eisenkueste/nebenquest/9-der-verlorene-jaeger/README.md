@@ -73,9 +73,9 @@ Etwas erweitert, der Sohn Svein ist jetzt nicht nur verloren gegangen, sondern h
 
 ## Voraussetzungen
 
-[HQ Was ist passiert?](../1-was-ist-passiert/README.md) - Abgeschlossen
+[HQ Was ist passiert?](../1-was-ist-passiert/README.md) - angenommen
 
-[HQ Reparaturarbeiten](../2-reparaturarbeiten/README.md) - Abgeschlossen
+
 
 
 ## Ablauf
