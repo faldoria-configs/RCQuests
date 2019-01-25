@@ -1,20 +1,23 @@
-# Holz für die Hütten
+# Holz für die Hütten <!-- omit in toc -->
 
 Issue 13
 
 ## Noch zu tun
 
->  Skin holzfällerartiger machen
+
 >  Belohnung mit anderen Quests abstimmen
 
 Zimmermann [Akisk](#akisk) steht im Lager, das die schiffbrüchigen Ankanorer aufgebaut haben. 
 
 
-## Übersicht
+## Übersicht <!-- omit in toc -->
 
-- [Voraussetzungen](#voraussetzungen)
+- [Noch zu tun](#noch-zu-tun)
 - [Ablauf](#ablauf)
+- [Vorraussetzungen](#vorraussetzungen)
+- [Aufgaben](#aufgaben)
 - [Questdialoge](#questdialoge)
+  - [1.Sammle Holz für die Hütten](#1sammle-holz-f%C3%BCr-die-h%C3%BCtten)
    
 - [NPCs](#npcs)
      - [Akisk](#akisk)
@@ -60,11 +63,10 @@ HQ `[QUEST UPDATE]` [Was ist passiert](#1.-was-ist-passiert?)
 
 ### 1.Sammle Holz für die Hütten
 
-```yml
-Spieler: Hey Akisk, schön, dich zu sehen.
-Akisk: Du hast also auch überlebt. Freu dich aber nicht zu früh darüber.
-Spieler: Warum sollte ich das nicht tun, Najtiss sei Dank, dass ich dem Meer entkommen bin. 
-Akisk: Najtiss, als wenn der irgendetwas damit zu tun hat. Aber wie dem auch sei, der Hauptmann hat mir etwas befohlen und dafür brauche ich deine Hilfe.
+ Hey Akisk, schön, dich zu sehen.
+**Akisk:** ` Du hast also auch überlebt. Freu dich aber nicht zu früh darüber.`  
+Warum sollte ich das nicht tun, dem Baum sei Dank, dass ich dem Meer entkommen bin. 
+Akisk: Der Baum, als wenn der irgendetwas damit zu tun hat. Aber wie dem auch sei, der Hauptmann hat mir etwas befohlen und dafür brauche ich deine Hilfe.
 Spieler: Was kann ich für dich tun?
 Akisk: Wir brauchen Material, damit ich unser Lager weiter befestigen kann und du sollst es für mich besorgen.
 Spieler: Klingt als könnte das etwas Abwechslung in meinen Tag bringen.
