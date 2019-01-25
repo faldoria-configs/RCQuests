@@ -18,16 +18,39 @@ Zimmermann [Akisk](#akisk) steht im Lager, das die schiffbrüchigen Ankanorer au
 - [Aufgaben](#aufgaben)
 - [Questdialoge](#questdialoge)
   - [1.Sammle Holz für die Hütten](#1sammle-holz-f%C3%BCr-die-h%C3%BCtten)
+- [NPC](#npc)
+  - [Zimmermann Akisk](#zimmermann-akisk)
+    - [Standartsätze](#standarts%C3%A4tze)
+      - [Vor der Quest](#vor-der-quest)
+      - [Während der Quest/Aufgabe #1](#w%C3%A4hrend-der-questaufgabe-1)
+      - [Nach der Quest (#2)](#nach-der-quest-2)
+    - [Ausrüstung](#ausr%C3%BCstung)
+    - [Standort](#standort)
+- [Items](#items)
+  - [Rotes Segeltuch](#rotes-segeltuch)
+  - [Schiffsplanken](#schiffsplanken)
+  - [Kiesflohfleisch](#kiesflohfleisch)
+- [Belohnung:](#belohnung)
    
-- [NPCs](#npcs)
-     - [Akisk](#akisk)
-         - [Standartsätze](#standartsaetze)
-            - [Vor der Quest](#vor-der-quest)
-            - [Während der Quest](#waehrend-der-quest)
-            - [Nach der Quest](#nach-der-quest)
-         - [Ausrüstung](#ausruestung)
-         - [Standort](#standort)
--  [Mobs](#mobs)
+- [Noch zu tun](#noch-zu-tun)
+- [Ablauf](#ablauf)
+- [Vorraussetzungen](#vorraussetzungen)
+- [Aufgaben](#aufgaben)
+- [Questdialoge](#questdialoge)
+  - [1.Sammle Holz für die Hütten](#1sammle-holz-f%C3%BCr-die-h%C3%BCtten)
+- [NPC](#npc)
+  - [Zimmermann Akisk](#zimmermann-akisk)
+    - [Standartsätze](#standarts%C3%A4tze)
+      - [Vor der Quest](#vor-der-quest)
+      - [Während der Quest/Aufgabe #1](#w%C3%A4hrend-der-questaufgabe-1)
+      - [Nach der Quest (#2)](#nach-der-quest-2)
+    - [Ausrüstung](#ausr%C3%BCstung)
+    - [Standort](#standort)
+- [Items](#items)
+  - [Rotes Segeltuch](#rotes-segeltuch)
+  - [Schiffsplanken](#schiffsplanken)
+  - [Kiesflohfleisch](#kiesflohfleisch)
+- [Belohnung:](#belohnung)
    
    keine
   
@@ -62,19 +85,17 @@ HQ [Was ist passiert](#1.-was-ist-passiert?)  angenommen.
 
 ### 1.Sammle Holz für die Hütten
 
- Hey Akisk, schön, dich zu sehen.
+Hey Akisk, schön, dich zu sehen.   
 **Akisk:** ` Du hast also auch überlebt. Freu dich aber nicht zu früh darüber.`  
 Warum sollte ich das nicht tun, dem Baum sei Dank, dass ich dem Meer entkommen bin. 
-Akisk: Der Baum, als wenn der irgendetwas damit zu tun hat. Aber wie dem auch sei, der Hauptmann hat mir etwas befohlen und dafür brauche ich deine Hilfe.
-Spieler: Was kann ich für dich tun?
-Akisk: Wir brauchen Material, damit ich unser Lager weiter befestigen kann und du sollst es für mich besorgen.
-Spieler: Klingt als könnte das etwas Abwechslung in meinen Tag bringen.
-Akisk: Ist aber ganz einfach, am Strand findest du angeschwemmte Teile des Schiffes, die können wir brauchen. Suche nach Holz, aber auch anderen Materialien, Wolle vom Segel oder sowas. 
-```
+**Akisk:** ` Der Baum, als wenn der irgendetwas damit zu tun hat. Aber wie dem auch sei, der Hauptmann hat mir etwas befohlen und dafür brauche ich deine Hilfe.`  
+Was kann ich für dich tun?       
+**Akisk:** ` Wir brauchen Material, damit ich unser Lager weiter befestigen kann und du sollst es für mich besorgen.`      
+Klingt als könnte das etwas Abwechslung in meinen Tag bringen.   
+**Akisk:** ` Ist aber ganz einfach, am Strand findest du angeschwemmte Teile des Schiffes, die können wir brauchen. Suche nach Holz, aber auch anderen Materialien, Wolle vom Segel oder sowas. `  
 
-> 1. Vielleicht später. `[Ende]`
-
-> 2. Ok, ich werde das Material besorgen.
+1. Vielleicht später. `[Ende]`
+2. Ok, ich werde das Material besorgen.
 
 **Weiter mit #2**
 
@@ -82,7 +103,7 @@ Akisk: Ist aber ganz einfach, am Strand findest du angeschwemmte Teile des Schif
 
 `**QuestLog:**`  *Sammle am Strand 10 Holzbretter und 10 Wolle.*
 
-Der Spieler sammelt die erforderlichen Materialien.
+**Der Spieler sammelt die erforderlichen Materialien.**
 
 `[Ende]`
 
@@ -92,17 +113,16 @@ Der Spieler sammelt die erforderlichen Materialien.
 
 `**QuestLog:**`   *Kehre zu Zimmermann Akisk zurück.*
 
-Spieler kehrt mit dem Material zu Akisk zurück.
-Akisk spricht den Spieler an, sobald er in Reichweite von 2 Blocks ist. 
+**Spieler kehrt mit dem Material zu Akisk zurück.   
+Akisk spricht den Spieler an, sobald er in Reichweite von 2 Blocks ist. **
 
 
-```yml
-Akisk: Da bist du ja wieder, hast du die Sachen, die ich brauche? Der Hauptmann schaut mich schon zornig an.
-Spieler: Ich habe was du brauchst.
-NPC: Ich danke dir. 
-NPC: Endlich können wir mit der Arbeit beginnen. Hier ist eine kleine Belohnung.
-Spieler: War kaum der Rede wert. Dank dir!
-```
+
+**Akisk:** ` Da bist du ja wieder, hast du die Sachen, die ich brauche? Der Hauptmann schaut mich schon zornig an.`  
+Ich habe was du brauchst.   
+**Akisk** `**: Ich danke dir. Endlich können wir mit der Arbeit weitermachen. Hier ist eine kleine Belohnung.`     
+War kaum der Rede wert. Dank dir!
+
 `[Ende]`
 
 

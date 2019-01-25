@@ -7,5 +7,5 @@ stages:
         - 'Ich danke dir.'
         - '!quest.complete this.holz'
         - '~1s'
-        - 'Endlich können wir mit der Arbeit beginnen. Hier ist eine kleine Belohnung.'
+        - 'Endlich können wir mit der Arbeit weitermachen. Hier ist eine kleine Belohnung.'
         - '>"War kaum der Rede wert. Dank dir!"'
