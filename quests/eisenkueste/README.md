@@ -105,5 +105,5 @@
 
 ### Gebietskarte
 
-[![](gebietskarte_eisenkueste.png)](.\gebietskarte_eisenkueste.png)
-[![](eisenkueste_mobs.png)](./eisenkueste_mobs.png)
+[![](gebietskarte_eisenkueste.png)](./gebietskarte_eisenkueste.png)
+[![](eisenkueste_mobs.PNG)](./eisenkueste_mobs.PNG)
