@@ -1,5 +1,7 @@
 # Die Erlaubnis <!-- omit in toc -->
 
+Issue 32
+
 Während Elius den Ballon repariert soll der Spieler nochmal ins Camp und mit seinen Leuten Reden. Marduk weist ihn draufhin sich vorzubereiten und die Türme am Strand zu erkunden.
 
 ##  Übersicht <!-- omit in toc -->
@@ -29,6 +31,8 @@ Während Elius den Ballon repariert soll der Spieler nochmal ins Camp und mit se
 
 ## Noch zu klären
 
+Zeile 53, zusätzliche Antwortmöglichkeiten eingefügt! Bitte ergänzen.
+
 Koords neu setzen
 Belohnungen anpassen ?
 
@@ -44,8 +48,13 @@ Belohnungen anpassen ?
 **Marduk:** ` Ich hoffe, du weißt was du tust, aber du bist der Einzige, der gerade auf diese Reise gehen kann.`  
 Das ist etwas sehr Wichtiges, oder?  
 **Marduk:** ` Ja, du wirst es großartig machen. Nun gut, aber du solltest dich noch etwas besser vorbereiten bevor du gehst, ich hätte da noch eine besondere Aufgabe für dich.`  
-**Marduk:** ` Und, habe ich es schon gesagt? Hilf doch den anderen hier im Camp auch noch bitte.`  
-Das mache ich. Welche Aufgabe hast du für mich denn noch?   
+**Marduk:** ` Und, habe ich es schon gesagt? Hilf doch den anderen hier im Camp auch noch bitte. Oder hast du das schon getan?`     
+
+1. Ja, ich habe schon ziemlich vielen ausgeholfen.
+2. Einigen, aber ich schau mich nochmals um, Elius wartet ja auf mich.
+3. Nein, aber das tue ich jetzt, Elius wartet auf mich. 
+    
+Aber sag erst, welche wichtige Aufgabe hast du für mich denn noch?   
 **Marduk:** `Am Strand sind anscheinend einige Ruinen von Türmen, die einst wohl mal die Küste sichern sollten. Gehe doch dorthin und schaue ob du etwas Brauchbares findest.`
 
 1. Ich mache mich direkt auf den Weg.
