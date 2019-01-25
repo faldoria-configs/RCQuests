@@ -111,7 +111,7 @@ Spieler geht zurück zu Hauptmann Marduk.
 
 
 **Hauptmann Marduk:** ` Sind die Biester tot?`  
-Ja, sie hatten keine Chance.
+Ja, sie hatten keine Chance.   
 **Hauptmann Marduk:** ` Gut gemacht! Hoffen wir, dass das die einzigen waren.... Nimm dies als Dank.` 
 
 
