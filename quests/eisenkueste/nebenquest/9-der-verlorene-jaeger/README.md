@@ -256,6 +256,8 @@ Weiter mit [**Dialog 4**](#dialog-4)  [1.2]
 
 ### Kalbert
 
+ID 36
+
 Kalbert ist für einen Jorgendder sehr klein und schlank. Sein Haar ist grau, er hat einen Vollbart, der eine tiefe Narbe an der rechten Wange teilweise verdeckt. Sein Jägergewand typisch grün und prunkvoll, er erhielt es von dem Jarl aus Skallswik für seine Jahre langen Dienste. 
 Er ist ein passionierter Jäger, der immer noch hofft, dass sein etwas tollpatschiger Sohn Svein in seine Fußstapfen tritt. So schickt er Svein aus, um alleine Eisen-Bergkatzen und Schimmerwölfe zu jagen. Als Svein zurückkehrt und gesteht, dass er diese Tiere nicht töten kann, ist er enttäuscht und frustiert, wird aber durch die Gegenwart des Spielers gezwungen, sich zurückzuhalten und sieht ein, dass er damit leben muss. 
 
@@ -296,6 +298,8 @@ world: faldoria.eisenküste
 ```
 
 ### Svein
+
+ID 37
 
 Svein ist ein junger, kräftiger Jorgendder, nicht allzu geschickt als Bogenschütz. Er versucht dies zu verbergen, indem er sagt, dass er Hemmungen hat, wenn er 'schöne' Tiere wie Schimmerwölfe und Eisen-Bergkatzen schießen soll um deren Pelze zu bekommen. Er traut sich nicht recht, dies seinem Vater, Kalbert, einem alten Jäger, zu gestehen. 
 
