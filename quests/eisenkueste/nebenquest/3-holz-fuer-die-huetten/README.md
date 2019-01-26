@@ -161,6 +161,8 @@ Akisk: Dann beeil dich bitte.
 
 #### Ausrüstung
 
+Skin ID 34
+
 Skin hat er (neu machen mit 'Holzfällerhemd', ohne Schulterklappen)
 Holzaxt in der Haupthand, Holzblock in der Nebenhand
 
@@ -168,7 +170,7 @@ Holzaxt in der Haupthand, Holzblock in der Nebenhand
 #### Standort
 
 ```yml
-x: 3613
+x: 3615
 y: 67
 z: -2826
 world: Faldoria, Eisenküste

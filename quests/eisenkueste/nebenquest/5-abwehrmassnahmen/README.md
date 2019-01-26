@@ -6,7 +6,7 @@ NPC: Terry
 
 ## Noch zu tun
 
-Terry Beschreibung, Terry Skin kontrollieren und verlinken/hochladen
+Terry Beschreibung, 
 
 ## Veränderungen
 
@@ -15,27 +15,28 @@ Krone der Kiesfloh Königin ersetzt. Welcher Kiesfloh hat eine Krone?
 
 ## Übersicht
 
-* [Noch zu tun](#noch-zu-tun)
-* [Veränderungen](#veränderungen)
-* [Übersicht](#Übersicht)
-* [Ablauf](#ablauf)
-* [Voraussetzungen](#voraussetzungen)
-* [Questdialoge](#questdialoge)
-  * [Dialog 1](#dialog-1)
-  * [Dialog 2](#dialog-2)
-* [Npc](#npc)
-  * [Terry](#terry)
-    * [Standartsätze](#standartsätze)
-      * [Vor der Quest](#vor-der-quest)
-      * [Während der Quest: Abwehrmaßnahmen](#während-der-quest-abwehrmaßnahmen)
-      * [Während der Quest: Freie Bahn](#während-der-quest-freie-bahn)
-      * [Nach der Quest](#nach-der-quest)
-    * [Ausrüstung](#ausrüstung)
-    * [Standort](#standort)
-* [Items](#items)
-  * [Krone der Kiesflohkönigin](#krone-der-kiesflohkönigin)
-  * [Heiltrank](#heiltrank)
-* [Belohnung](#belohnung)
+- [Abwehrmaßnahmen](#abwehrma%C3%9Fnahmen)
+  - [Noch zu tun](#noch-zu-tun)
+  - [Veränderungen](#ver%C3%A4nderungen)
+  - [Übersicht](#%C3%BCbersicht)
+  - [Ablauf](#ablauf)
+  - [Voraussetzungen](#voraussetzungen)
+  - [Questdialoge](#questdialoge)
+    - [Dialog 1](#dialog-1)
+    - [Dialog 2](#dialog-2)
+  - [Npc](#npc)
+    - [Terry](#terry)
+      - [Standartsätze](#standarts%C3%A4tze)
+        - [Vor der Quest](#vor-der-quest)
+        - [Während der Quest: Abwehrmaßnahmen](#w%C3%A4hrend-der-quest-abwehrma%C3%9Fnahmen)
+        - [Während der Quest: Freie Bahn](#w%C3%A4hrend-der-quest-freie-bahn)
+        - [Nach der Quest](#nach-der-quest)
+      - [Ausrüstung](#ausr%C3%BCstung)
+      - [Standort](#standort)
+  - [Items](#items)
+    - [Krone der Kiesflohkönigin](#krone-der-kiesflohk%C3%B6nigin)
+    - [Heiltrank](#heiltrank)
+  - [Belohnung](#belohnung)
 
 ## Ablauf
 
@@ -163,14 +164,15 @@ Nein, sie war mir zu stark, ich musste rennen. Hast du noch einen Heiltrank für
 
 #### Ausrüstung
 
+ID Ups, der fehlt noch
 ? Wer ist Terry?
 
 #### Standort
 
 ```yml
-x: 3656
+x: 3658
 y: 65
-z: -2809
+z: -2831
 world: Faldoria, Eisenküste
 ```
 

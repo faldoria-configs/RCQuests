@@ -13,7 +13,7 @@ Bari ist der Stellvertreter von Hauptmann Marduk und bei weitem kriegerischer ei
 Waffe festlegen, welche in der Kiste sein soll, je nach Entscheidung im Tianbaum
 Werte festlegen etc
 Skin überprüfen-->fertig
-Standort Bari!
+Standort Bari! fertig
 
 
 ##Änderungen
@@ -156,9 +156,9 @@ Schwert in der Hand
 #### Standort:
 
 ```yml
-x: 
-y: 
-z:
+x: 3613
+y: 67
+z: -2802
 world: faldoria.eisenküste
 ```
 

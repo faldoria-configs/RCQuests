@@ -206,15 +206,17 @@ Er schimpft sich zwar Hauptmann, es gibt aber eigentlich keine richtigen Truppen
 
 #### Ausrüstung
 
+Skin: ID 29
+
 Lederrüstung ohne Helm
 Steinaxt in der Hand
 
 #### Standort
 
 ```yml
-x: 
-y: 
-z: 
+x: 3612
+y: 67
+z: -2804
 world: faldoria
 ```
 

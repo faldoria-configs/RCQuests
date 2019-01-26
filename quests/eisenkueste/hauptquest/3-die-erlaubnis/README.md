@@ -145,16 +145,17 @@ Er schimpft sich zwar Hauptmann, es gibt aber eigentlich keine richtigen Truppen
 2. Du bist gut vorbereitet auf deine Reise, das gibt uns allen Hoffnung.
 
 #### Ausrüstung
+Skin ID 29   
 
-Lederrüstung ohne Helm
-Steinaxt in der Hand
+Lederrüstung ohne Helm   
+Steinaxt in der Hand   
 
 #### Standort
 
 ```yml
-x: 
-y: 
-z: 
+x: 3612
+y: 67
+z: -2804
 world: faldoria
 ```
 
