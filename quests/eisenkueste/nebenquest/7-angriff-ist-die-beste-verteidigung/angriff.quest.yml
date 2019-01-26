@@ -37,7 +37,7 @@ objectives:
         name: 'Töte 15 Eisen Schmuggler'
         trigger:
           flow:
-            - '@mob.kill(count:15,count-text:"%current% von %count% Schmuggler getötet.") this.schmuggler'
+            - '@mob.kill(count:15,count-text:"%current% von %count% Schmuggler getötet.") eisenkueste.mobs.6-eisenschmuggler.schmuggler'
       '2':
         name: 'Erbeute den roten Hut des Anführers'
         trigger:

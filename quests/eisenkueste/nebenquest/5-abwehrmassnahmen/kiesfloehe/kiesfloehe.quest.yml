@@ -27,7 +27,7 @@ objectives:
     name: 'Töte 15 Kiesflöhe'
     trigger:
       flow:
-        - '@mob.kill(count:15,count-text:"%current% von %count% Kiesflöhen getötet.") this.kiesfloh'
+        - '@mob.kill(count:15,count-text:"%current% von %count% Kiesflöhen getötet.") eisenkueste.mobs.1-kiesfloehe.kiesfloh'
     
   '2':
     name: 'Kehre zu Terry zurück.'
