@@ -8,7 +8,7 @@ Issue 78
 ## Noch zu tun
 
 - richtigen Skin anziehen
-- Standort festlegen
+  
 
 ## Übersicht
 
@@ -173,12 +173,13 @@ https://faldoria.de/board/thread/528-skins-f%C3%BCr-npcs/?postID=4053#post4053
 Hält Puppe in der Hand (Totem der Unsterblichkeit?)
 
 #### Standort   
-
+**Sitzend, wenn's geht!**
 ```yml
-x: 
-y: 
-z: 
+x: 3611
+y: 70
+z: -2762
 world: faldoria.eisenküste
+
 ```
 
 ## Item
