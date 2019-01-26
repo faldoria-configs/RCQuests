@@ -9,6 +9,7 @@ Issue 15
 
 Weiße Beeren, Magus Beeren?  
 (Schimmerwölfe, normale Mobs, droppen was?)
+Standort fertig
 
 ## Übersicht
 
@@ -239,9 +240,9 @@ In der Hand - Schüssel?
 #### Standort
 
 ```yml
-x: 3654
+x: 3607
 y: 67
-z: -2828
+z: -2807
 world: Faldoria, Eisenküste
 ``` 
 

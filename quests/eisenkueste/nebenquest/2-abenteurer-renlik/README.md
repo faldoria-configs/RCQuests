@@ -33,10 +33,10 @@ ID 39
 
 ## Noch zu tun
 
-Lagerfeuer bauen (Rüstungsständer, noch keine Rechte)
+Lagerfeuer fertig, sprazelt aber
 Belohnung ändern, falls Klassen vorerst abgeschafft werden
 Vorraussetzung Waffe festlegen
-Renlik versetzen
+Renllik versetzen (Koords unten stimmen!)
 Werte Monster festlegen
 
 
@@ -156,7 +156,7 @@ ungefähr da, muss noch versetzt werden
 ```yml
 x: 3440
 y: 125
-z: -2816
+z: -2832
 world: Faldoria, Eisenküste
 ``` 
 

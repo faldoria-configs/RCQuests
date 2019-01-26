@@ -4,7 +4,7 @@ Issue 13
 
 ## Noch zu tun
 
-Standort ändern!
+Standort geändert! (fertig)
 
 
 >  Belohnung mit anderen Quests abstimmen
@@ -168,9 +168,9 @@ Holzaxt in der Haupthand, Holzblock in der Nebenhand
 #### Standort
 
 ```yml
-x: 3663
-y: 65
-z: -2823
+x: 3613
+y: 67
+z: -2826
 world: Faldoria, Eisenküste
 ``` 
 

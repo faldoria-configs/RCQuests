@@ -7,6 +7,7 @@ Issue #60
 ## Was noch fehlt:
 
 Blumen (blaue Orchidee) in der nordwestlichen Hochebene gefunden
+Koords unten
 
 ## Übersicht
 - [Heilpflanzen für Mairi](#heilpflanzen-f%C3%BCr-mairi)
@@ -178,14 +179,14 @@ Mairi: Schön dich zu sehen, [Name des Spielers]
 
 #### Ausrüstung
 
-Skin: 
+Skin:ID 28
 
 #### Standort   
 
 ```yml
-x: 3666
-y: 64
-z: -2804
+x: 3605 
+y: 69
+z: -2779
 world: faldoria.eisenküste
 ```
 
@@ -208,6 +209,8 @@ max-stack-size: 16
 ```
 ### Grüner Farn
 
+> Überall, auch in der Nähe des Lagers
+
 ```yml
 ID: 31:2
 name: Grüner Farn
@@ -218,6 +221,8 @@ lore: Zieht auch Eiter aus der Wunde
 max-stack-size: 64
 ```
 ###  Blaue Heilorchidee
+> Mitte: 3300/190/-2820
+
 ```yml
 ID: 38:1
 name: Blaue Heilorchidee
