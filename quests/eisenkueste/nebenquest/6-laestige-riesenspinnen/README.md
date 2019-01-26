@@ -198,14 +198,14 @@ Naja, schon, es kommt mir aber selbst komisch vor, dass ich jetzt so gut mit mei
 Eisenspitzhacke in der Hand
 
 Skin fertig
-ID
+ID 35
 
 #### Standort
 
 ```yml
-x: 
-y: 
-z: 
+x: 3631
+y: 65
+z: -2807
 world: Faldoria, Eisenküste
 
 ``` 
