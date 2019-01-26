@@ -27,7 +27,7 @@ objectives:
     desc: 'Suche die Wölfe südwestlich des Lagers, die sich an der alten Brücke beim Schrein breitmachen und töte sie.'
     trigger:
       flow:
-        - '@rcmobs.mob.kill(count:20,count-text:"%current% von %count% Wölfen getötet.") this.wolf'
+        - '@rcmobs.mob.kill(count:20,count-text:"%current% von %count% Wölfen getötet.") eisenkueste.mobs.5-schimmer-woelfe.wolf'
   '2':
     name: 'Erstatte Hauptmann Marduk Bericht'
     trigger:

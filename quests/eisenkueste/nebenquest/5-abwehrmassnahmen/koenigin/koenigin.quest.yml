@@ -30,7 +30,7 @@ objectives:
     name: 'Töte die Kiesfloh Königin'
     trigger:
       flow:
-        - '@mob.kill this.kiesfloh-koenigin'
+        - '@mob.kill eisenkueste.mobs.1-kiesfloehe.kiesfloh-koenigin'
     
   '2':
     name: 'Bringe Terry die Krone der Königin'
