@@ -2,6 +2,8 @@
 
 Issue #16
 
+
+
 NPC: 'Rechte Hand' Marduks: Bari, steht neben Marduk
 
 Bari ist der Stellvertreter von Hauptmann Marduk und bei weitem kriegerischer eingestellt als dieser. Ein untypischer Kaishi.

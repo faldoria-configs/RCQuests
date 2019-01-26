@@ -2,7 +2,7 @@
 
 Issue 14
 
-
+ID 39
 
 ## Überblick <!-- omit in toc -->
 
@@ -143,7 +143,7 @@ Renlik ist ein seltsamer Vogel, einziger Überlebender einer Expedition, die nac
 
 #### Ausrüstung
 
-Skin hat er schon
+Skin ID 39
 Angel, die er ins Feuer hält ??
 
 -->  möchte ihn an ein kleines Lagerfeuer setzen
