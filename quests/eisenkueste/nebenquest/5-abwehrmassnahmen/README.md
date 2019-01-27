@@ -6,7 +6,7 @@ NPC: Terry
 
 ## Noch zu tun
 
-Terry Beschreibung, 
+Terry ist Fischer, deshalb stören ihn die Kiesflöhe am Ufer 
 
 ## Veränderungen
 
@@ -164,8 +164,8 @@ Nein, sie war mir zu stark, ich musste rennen. Hast du noch einen Heiltrank für
 
 #### Ausrüstung
 
-ID Ups, der fehlt noch
-? Wer ist Terry?
+ID 40
+
 
 #### Standort
 
