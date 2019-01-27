@@ -178,9 +178,9 @@ Alter, zänkischer Mann
 
 **Kurro** `Hey [Name des Spielers], ich dachte schon, du kommst gar nicht her zu mir. *Seine Stimme krächzt furchtbar*`   
 Aber doch, ich hatte nur bisher keine Zeit.   
-**Kurro** `Papperlapapp , faule Ausrede, hast nur keine  Lust, mit nem alten Mann zu reden, bist wichtig, redest nur noch mit Marduk, was?`      
+**Kurro** `Papperlapapp, faule Ausrede, hast nur keine  Lust, mit nem alten Mann zu reden, bist wichtig, redest nur noch mit Marduk, was?`      
 Aber wieso, wie kommst du da drauf?   
-**Kurro** `   Ich habe dich gesehen, kaum aufgewacht, bist du sofort zu ihm gerannt!`
+**Kurro** `   Ich habe dich gesehen, kaum aufgewacht, bist du sofort zu ihm gerannt!`   
 Aber, aber, ich wollte doch nur wissen, was passiert ist und dachte….   
 **Kurro:** `Dachte, dachte.. du machst mir nicht weiß, dass du denkst… `   
 Ich bitte, dich, wieso bist du so ärgerlich auf mich!   
