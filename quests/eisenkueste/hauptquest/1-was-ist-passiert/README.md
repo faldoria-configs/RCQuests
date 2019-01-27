@@ -84,7 +84,7 @@ Bekommt der Spieler wenn er den [Ankanor Event](../../../ankanor/hauptquest/5-we
 *Du starrst an eine Decke aus Stein*   
 Wo bin ich? Was ist passiert? Bin ich tot?   
 Nein, es muss was anderes sein. Das ist ein Camp. Was ist nur auf dem Meer passiert? Eben lag ich noch in meiner Koje und nun bin ich hier irgendwo an Land.   
-Ist das da hinten Hauptmann Marduk? Der weiß sicher was passiert ist.   
+Höre ich da draußen Hauptmann Marduk? Der weiß sicher was passiert ist.   
 
 
 `[QUEST START]` [Was ist passiert](#1.-was-ist-passiert?)
@@ -109,7 +109,7 @@ Ist das dein Ernst? Hmm... und was machen wir nun?
 *Du starrst an eine Decke aus Stein*
 Wo bin ich? Der Angriff, was ist passiert?
 Moment mal, sind wir noch auf Ankanor? Sieht mir nicht so aus.
-Ist das dahinten Hauptmann Marduk? Der weiß sicher was passiert ist.
+Höre ich da draußen Hauptmann Marduk? Der weiß sicher was passiert ist.
 
 
 `[QUEST START]` [Was ist passiert](#1.-was-ist-passiert?)
