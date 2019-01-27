@@ -2,6 +2,25 @@
 
 issue #27
 
+Spawn des Spielers
+
+```yml
+x: 3609
+y: 71
+z: -2793
+world: faldoria.eisenküste
+```
+
+ODER
+
+```yml
+x: 3603
+y: 70
+z: -2795
+world: faldoria.eisenküste
+```
+
+
 Der Spieler kommt auf die ein oder andere Weise an und bekommt nach einem inneren Monolog die Quest [Was ist passiert?](#1.-was-ist-passiert?). Hierbei soll der Spieler Hauptmann Marduk ansprechen um mehr zu erfahren.
 Nachdem der Spieler das erste Mal mit Marduk in der HQ - Was ist passiert gesprochen hat, bekommt er von ihm den Auftrag die Gegend zu erkunden insbesondere das Licht, das Marduk sah. Er findet Elius und spricht mit ihm.
 
