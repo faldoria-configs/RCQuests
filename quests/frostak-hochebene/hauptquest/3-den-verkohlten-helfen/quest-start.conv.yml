@@ -1,6 +1,6 @@
 stages:
   start:
-    text: 'Da ich nun weiß dass man sich auf Euch verlassen kann muss ich Euch um einen letzten Gefallen bitten.'
+    text: 'Da ich nun weiß dass man sich auf Euch verlassen kann, muss ich Euch um einen letzten Gefallen bitten.'
     answers:
       flow:
         - ':"Einen letzten Gefallen? Na gut ich höre zu."'
@@ -11,10 +11,10 @@ stages:
   gefallen:
     actions:
       flow:
-        - '!text "Danke, ich wüsste nicht was ich sonst tun würde. Ich möchte das Ihr runter ins Reldos Tal geht, in den Wald von Myrtos der nicht mehr da ist. Dort ist nur noch eine Aschelandschaft oder wie viele es mittlerweile nennen, verkohlte Lande."'
+        - '!text "Danke, ich wüsste nicht was ich sonst tun würde. Ich möchte das Ihr runter ins Reldos Tal geht, in den Wald von Myrtos der nicht mehr da ist. Dort ist nur noch eine Aschelandschaft oder wie viele es mittlerweile nennen, Verkohlte Lande."'
         - '>"Gut, was genau soll ich denn nun in diesem Kohleland?"'
         - '!text "Es tauchen dort immer mehr seltsame Kreaturen auf, meldet Euch beim Alchemisten Bras Hohlstein und helft ihm. Die Gefahr von dort muss unbedingt eingedämmt werden."'
-        - '>"Okay, Kohleland, seltsame Kreaturen und bei Brasso Stein melden."'
+        - '>"In Ordnung, Kohleland, seltsame Kreaturen und bei Brasso Stein melden."'
         - '!text "Bras Hohlstein, danke das Ihr uns helft."'
         - '!quest.start this.die-verkohlten'
 
@@ -23,9 +23,9 @@ stages:
       flow:
         - '!text "Es ist wirklich sehr wichtig, hier passieren merkwürdige Dinge und Ihr seid vermutlich der einzige hier dem ich diese Aufgabe zumuten kann."'
         - '>"Oh, ist es wirklich so wichtig?"'
-        - '!text "Unser Jarmundshain könnte in Gefahr sein, sogar Kaltenstrom. Im Reldos Tal ist der Wald von Myrtos nur noch eine Aschelandschaft, viele sprechen schon von den verkohlten Lande."'
+        - '!text "Unser Jarmundshain könnte in Gefahr sein, sogar Kaltenstrom. Ich kann gar nicht genug betonen, wie wichtig das wäre. Wir wollen nicht, dass noch mehr Wälder zu einer Aschelandschaft werden."'
         - '>"Soll man deswegen kein Lagerfeuer in Wäldern machen?"'
-        - '!text "Es ist sehr viel mehr als das, von dort kommen nun seltsame Kreaturen. Da ich Eure Fähigkeiten nun kenne weiß ich dass Ihr dort helfen könnt. Meldet Euch beim Alchemisten Bras Hohlstein."'
+        - '!text "*seufzt auf* Es ist sehr viel mehr als das, von dort kommen nun seltsame Kreaturen. Da ich Eure Fähigkeiten nun kenne weiß ich dass Ihr dort helfen könnt. Meldet Euch beim Alchemisten Bras Hohlstein."'
         - '>"Das klingt aufregend, auf zu Brasso Stein."'
         - '!text "Bras Hohlstein, danke das Ihr uns helft."'
         - '!quest.start this.die-verkohlten'

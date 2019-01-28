@@ -14,7 +14,7 @@ HQ Vinnans helfende Hand](#queststart-vinnans-helfende-hand) abgeschlossen
 
 ## Dialoge
 
-**Vinnan:** ` Da ich nun weiß dass man sich auf Euch verlassen kann muss ich Euch um einen letzten Gefallen bitten.`   
+**Vinnan:** ` Da ich nun weiß dass man sich auf Euch verlassen kann, muss ich Euch um einen letzten Gefallen bitten.`   
 Einen letzten Gefallen? Na gut ich höre zu.   
 **Vinnan:** ` Danke, ich wüsste nicht was ich sonst tun würde. Ich möchte das Ihr runter ins Reldos Tal geht, in den Wald von Myrtos der nicht mehr da ist. Dort ist nur noch eine Aschelandschaft oder wie viele es mittlerweile nennen, Verkohlte Lande.`  
 Gut, was genau soll ich denn nun in diesem Kohleland?       
