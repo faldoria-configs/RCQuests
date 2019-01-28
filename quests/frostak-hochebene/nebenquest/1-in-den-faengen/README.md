@@ -29,6 +29,7 @@ Ein Wolf hat auf der Frostakebene mehrere Schafe gerissen, der Hirte Rolf bittet
     - [Dialoge](#dialoge-1)
     - [Standort](#standort-1)
   - [Reisender in der Taverne](#reisender-in-der-taverne)
+    - [Standort](#standort-2)
 - [Mobs](#mobs)
   - [Hungriger Wolf](#hungriger-wolf)
 - [Items](#items)
@@ -47,8 +48,8 @@ HQ [Vinnans helfende Hand](#vinnans-helfende-hand) angefangen.
 
 ## Ablauf
 
-1. Der Spieler möchte für Vinnan Aufgaben erledigen udn trifft Rolf, den Schäfer.
-2. 2. Rolf klagt, dass ein sehr großer Wolf seine Schafe reißt.
+1. Der Spieler möchte für Vinnan Aufgaben erledigen und trifft Rolf, den Schäfer.
+2. Rolf klagt, dass ein sehr großer Wolf seine Schafe reißt.
 3. Der Spieler soll ihn töten.
 4. Erfindet sucht den Wolf und findet ihn in einer Höhle.
 5. Dort liegt auch ein toter Mann, dessen Amulet er mitnimmt.
@@ -222,6 +223,18 @@ world: faldoria.jarmundshain
 2. **Reisender:** `Habt ihr schon gehört, dass der Wolf von einem tapferen Reisenden getötet wurde?`  
 3. **Reisender:** `Noch ein Bier bitte!`  
 4. **Reisender:** `Mmm… so Lob ich mir das Trinken!`  
+
+
+Skin ID
+
+#### Standort
+
+```yml
+x: 
+y: 
+z: 
+world: faldoria.jarmundshain
+```
 
 
 
