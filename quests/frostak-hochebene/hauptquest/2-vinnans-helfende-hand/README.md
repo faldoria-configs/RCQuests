@@ -56,6 +56,7 @@ Ich bin auch noch nicht fertig, habt Ihr Ideen wer Hilfe brauchen könnte?
 **Vinnan:** `Eigentlich muss ich noch kochen, fragt bitte Ingeborg wenn Ihr Informationen über Bewohner haben möchtet. Sie ist die Zweitälteste und sollte irgendwo im Dorf unterwegs sein.`
 
 ### Dialog 2
+
 >>Bei 3-5 Nachweisen 
 
 **Vinnan:** `[Spielername]? `   
@@ -68,9 +69,10 @@ Was ist denn die Belohnung?
    
    2. Ne, so langsam wird das langweilig.   
     **Vinnan:** ` Ihr möchtet also aufhören und Eure Belohnung sofort?`   
-    Ja, ich habe genug geholfen.[Beendet die Quest auf Schwierigkeit 1] **`[Ende]`**
+    Ja, ich habe genug geholfen.   
+	 **`[Ende]`**
 > Weiter mit HQuest [Den Verkohlten helfen](#den-verkohlten-helfen)      
-   1. Ne, ich schau erstmal ob ich noch eine leichte Aufgabe finde.  **`[Ende]`** **?? Was soll das sein?**
+   
 
 ### Dialog 3
 >>Bei 6 Nachweisen
@@ -83,7 +85,7 @@ Weitere Münzen als Belohnung?
 1. Hmm, noch mehr Aufgaben? Es ist etwas kalt, aber ich mach das! **`[Ende]`**
 2. Lieber nicht,ich wärme mich erst mal wieder auf.    
 **Vinnan:** ` Ihr möchtet also aufhören und Eure Belohnung sofort?`
-Ja, ich habe erstmal genug, vielleicht mache ich ja später weiter.
+Ja, ich habe erstmal genug, vielleicht mache ich ja später weiter.**`[Ende]`**
 > Weiter mit  HQuest [Den Verkohlten helfen](#den-verkohlten-helfen)      
 
 
