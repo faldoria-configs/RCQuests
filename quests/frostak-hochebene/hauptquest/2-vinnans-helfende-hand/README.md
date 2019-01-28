@@ -1,5 +1,7 @@
 # Vinnans helfende Hand <!-- omit in toc -->
 
+Issue 65
+
 [Link zum Google Docs Dokument](https://docs.google.com/document/d/1qNGtcrUiKUG56wcReh-0IIR2xnIP8pkHrfHObpcPeTo)
 
 ## Übersicht <!-- omit in toc -->
@@ -51,42 +53,40 @@ Schau mal, ich hab schon einer Menge von Leuten geholfen.
 Was ist denn die Belohnung?   
 **Vinnan:** ` Ein hübsches Fell und Münzen, wenn Ihr mehr Leuten helft gibt es auch mehr Münzen.`  
 
-   1. Ich kann noch mehr Leuten helfen? Dann mach ich das. `[Ende]` --> Spieler macht weiter
+   1. Ich kann noch mehr Leuten helfen? Dann mach ich das. **`[Ende]`** --> Spieler macht weiter
    
    2. Ne, so langsam wird das langweilig.   
     **Vinnan:** ` Ihr möchtet also aufhören und Eure Belohnung sofort?`   
-    Ja, ich habe genug geholfen.[Beendet die Quest auf Schwierigkeit 1]   ---> Weiter mit HQuest [Den Verkohlten helfen](#den-verkohlten-helfen)      
-   3. Ne, ich schau erstmal ob ich noch eine leichte Aufgabe finde.  `[Ende]`**?? Was soll das sein?**
+    Ja, ich habe genug geholfen.[Beendet die Quest auf Schwierigkeit 1] **`[Ende]`**
+> Weiter mit HQuest [Den Verkohlten helfen](#den-verkohlten-helfen)      
+   3. Ne, ich schau erstmal ob ich noch eine leichte Aufgabe finde.  **`[Ende]`** **?? Was soll das sein?**
 
 
 >>Bei 6 Nachweisen
 
 **Vinnan:** ` [Spielername]?`  
-Schau mal, ich hab schon sechs Leuten geholfen.
-**Vinnan:** ` Sehr fleißig, möchtet Ihr noch weiteren helfen? Ich könnte die Belohnung noch weiter erhöhen.`   
-Was ist denn die Belohnung?   
-**Vinnan:** ` Ein hübsches Fell und Münzen, wenn Ihr mehr Leuten helft gibt es auch mehr Münzen.`   
-	◦	Spieler: Ich kann noch mehr Leuten helfen? Dann mach ich das.[gespräch beendet] 
-	◦	Spieler: Ne, so langsam wird das langweilig. 
-	▪	Vinnan: Ihr möchtet also aufhören und Eure Belohnung sofort? 
-	▪	Spieler: Ja, ich habe genug geholfen.[Beendet die Quest auf Schwierigkeit 2][Weiter bei B] 
-	▪	Spieler: Ne, ich schau erstmal ob ich noch eine leichte Aufgabe finde.[gespräch beendet] 
-	•	Spieler: Ich kann noch mehr Leuten helfen? Dann mach ich das.[gespräch beendet] 
-	•	Spieler: Ne, so langsam wird das langweilig.  
-	◦	Vinnan: Ihr möchtet also aufhören und Eure Belohnung sofort? 
-	◦	Spieler: Ja, ich habe genug geholfen.[Beendet die Quest auf Schwierigkeit 2][Weiter bei B] 
-	◦	Spieler: Ne, ich schau erstmal ob ich noch eine leichte Aufgabe finde.[gespräch beendet] 
+Schau mal, ich hab schon sechs Leuten geholfen.   
+**Vinnan:** ` Prima! Möchtet Ihr noch weiteren helfen? Ich könnte die Belohnung aufstocken.`   
+Weitere Münzen als Belohnung?   
+**Vinnan:** ` Ja, wenn Ihr noch mehr Leuten helft gibt es auch mehr Münzen.` 
+1. Hmm, noch mehr Aufgaben? Es ist etwas kalt, aber ich mach das! **`[Ende]`**
+2. Lieber nicht,ich wärme mich erst mal wieder auf. 
+**Vinnan:** ` Ihr möchtet also aufhören und Eure Belohnung sofort?`
+Ja, ich habe erstmal genug, vielleicht mache ich ja später weiter.
+> Weiter mit HQuest [Den Verkohlten helfen](#den-verkohlten-helfen)      
 
-[Bei 9 oder mehr]
+
+>>Bei 9 oder 10 Nachweisen
  
-**Vinnan:** ` [Spielername]?`  
+**Vinnan:** ` Da bist du ja, [Spielername]?`  
 Habe ich jetzt genug Leuten geholfen? *zeigt die Zettel*   
 **Vinnan:** ` Nunja, ich denke sehr viel mehr wird es hier vermutlich auch nicht zu tun geben, danke Ihr habt mir wirklich sehr viel Arbeit abgenommen.`     
-Wie lange hätte es denn gebraucht wenn du das alles selbst erledigt hättest?   
+Wie lange hätte es denn gebraucht wenn Ihr das alles selbst erledigt hättet?   
 **Vinnan:** ` Manche von den Dingen die Ihr erledigt habt sind schon eine ganze Weile ein Problem, alleine hätte ich das sicherlich nie wirklich lösen können.`  
 Helfen scheint eine neue Gewohnheit zu werden.[Beendet die Quest auf Schwierigkeit 3]
 
-Weiter mit Quest den Verkohlten helfen
+> Weiter mit HQuest [Den Verkohlten helfen](#den-verkohlten-helfen)      
+
 
 
 
