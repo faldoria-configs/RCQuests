@@ -14,13 +14,14 @@ Issue 65
 	- [Dialog 1](#dialog-1)
 	- [Dialog 2](#dialog-2)
 	- [Dialog 3](#dialog-3)
-	- [Dialog 4](#dialog-4)
-	- [**`[Quest Start]`** Den Verkohlten helfen](#quest-start-den-verkohlten-helfen)
 - [NPC](#npc)
 	- [Vinnan](#vinnan)
 		- [Standartsätze](#standarts%C3%A4tze)
 		- [Ausrüstung](#ausr%C3%BCstung)
 		- [Standort](#standort)
+- [Belohnung](#belohnung)
+- [Items](#items)
+	- [Warme Wollmütze](#warme-wollm%C3%BCtze)
 
 ## Noch zu tun
 
@@ -68,8 +69,8 @@ Was ist denn die Belohnung?
    2. Ne, so langsam wird das langweilig.   
     **Vinnan:** ` Ihr möchtet also aufhören und Eure Belohnung sofort?`   
     Ja, ich habe genug geholfen.[Beendet die Quest auf Schwierigkeit 1] **`[Ende]`**
-> Weiter mit [Dialog 4](#dialog-4) , HQuest [Den Verkohlten helfen](#den-verkohlten-helfen)      
-   3. Ne, ich schau erstmal ob ich noch eine leichte Aufgabe finde.  **`[Ende]`** **?? Was soll das sein?**
+> Weiter mit HQuest [Den Verkohlten helfen](#den-verkohlten-helfen)      
+   1. Ne, ich schau erstmal ob ich noch eine leichte Aufgabe finde.  **`[Ende]`** **?? Was soll das sein?**
 
 ### Dialog 3
 >>Bei 6 Nachweisen
@@ -83,7 +84,7 @@ Weitere Münzen als Belohnung?
 2. Lieber nicht,ich wärme mich erst mal wieder auf.    
 **Vinnan:** ` Ihr möchtet also aufhören und Eure Belohnung sofort?`
 Ja, ich habe erstmal genug, vielleicht mache ich ja später weiter.
-> Weiter mit [Dialog 4](#dialog-4)  - HQuest [Den Verkohlten helfen](#den-verkohlten-helfen)      
+> Weiter mit  HQuest [Den Verkohlten helfen](#den-verkohlten-helfen)      
 
 
 >>Bei 9 oder 10 Nachweisen
@@ -95,36 +96,15 @@ Wie lange hätte es denn gebraucht wenn Ihr das alles selbst erledigt hättet?
 **Vinnan:** ` Manche von den Dingen die Ihr erledigt habt sind schon eine ganze Weile ein Problem, alleine hätte ich das sicherlich nie wirklich lösen können.`  
 Helfen scheint eine neue Gewohnheit zu werden.[Beendet die Quest auf Schwierigkeit 3]
 
-> Weiter [Dialog 4](#dialog-4) und somit HQuest [Den Verkohlten helfen](#den-verkohlten-helfen)      
-
-### Dialog 4
-
-
-**Vinnan:** ` Da ich nun weiß dass man sich auf Euch verlassen kann muss ich Euch um einen letzten Gefallen bitten.`   
-Einen letzten Gefallen? Na gut ich höre zu.   
-**Vinnan:** ` Danke, ich wüsste nicht was ich sonst tun würde. Ich möchte das Ihr runter ins Reldos Tal geht, in den Wald von Myrtos der nicht mehr da ist. Dort ist nur noch eine Aschelandschaft oder wie viele es mittlerweile nennen, Verkohlte Lande.`  
-Gut, was genau soll ich denn nun in diesem Kohleland?       
-**Vinnan:** `Es tauchen dort immer mehr seltsame Kreaturen auf, meldet Euch beim Alchemisten Bras Hohlstein und helft ihm. Die Gefahr von dort muss unbedingt eingedämmt werden.`  
-
-1. In Ordnung, Kohleland, seltsame Kreaturen und bei Brasso Stein melden.
-**Vinnan:** `Bras Hohlstein, danke das Ihr uns helft.`
-
-**`[Quest Start]`** [Den Verkohlten helfen](#den-verkohlten-helfen) 
-
-2. Och nö, ich brauch wirklich erst einmal eine Pause.   
-**Vinnan:** `Es ist wirklich sehr wichtig, hier passieren merkwürdige Dinge und Ihr seid vermutlich der einzige hier dem ich diese Aufgabe zumuten kann.`  
-Oh, ist es wirklich so wichtig?   
-**Vinnan:** `Unser Jarmundshain könnte in Gefahr sein, sogar Kaltenstrom. Ich kann gar nicht genug betonen, wie wichtig das wäre. Wir wollen nicht, dass noch mehr Wälder zu einer Aschelandschaft werden. `   
-Soll man deswegen kein Lagerfeuer in Wäldern machen?   
-**Vinnan:** ` *seufzt auf* Es ist sehr viel mehr als das, von dort kommen nun seltsame Kreaturen. Da ich Eure Fähigkeiten nun kenne weiß ich dass Ihr dort helfen könnt. Meldet Euch beim Alchemisten Bras Hohlstein.`  
-Das klingt aufregend, auf zu Brasso Stein.   
-**Vinnan:** `Bras Hohlstein, danke das Ihr uns helft.`  
 
 **`[Quest Ende]:`** [Vinnans helfende Hand](#vinnans-helfende-hand)
 
-### **`[Quest Start]`** [Den Verkohlten helfen](#den-verkohlten-helfen)
+> Weiter  HQuest [Den Verkohlten helfen](#den-verkohlten-helfen)      
 
-**`Questlog:`**  * Sprecht mit Bras Hohlstein in den Verkohlten Landen *
+
+
+
+
 
 
 
@@ -172,5 +152,27 @@ y: 111
 z: -1851
 world: faldoria.eisenküste
 ```
+
+## Belohnung
+
+Mütze (verzauberter, farbiger Leder - oder Eisenhelm?), Geld
+
+## Items
+
+Item: engl. Bezeichnung hier: https://minecraft-ids.grahamedgecombe.com/
+
+
+### Warme Wollmütze
+
+```yml
+ID: 298
+name: Warme Wollmütze
+type: QUEST 
+quality: COMMON 
+item: leather_helmet
+lore: Diese Wollmütze ist mit Fell gefüttert
+max-stack-size: 1
+```
+
 
 
