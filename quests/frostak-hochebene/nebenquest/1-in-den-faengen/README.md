@@ -121,6 +121,7 @@ Ein Hirte oin der Nähe von Jarmundshain
 ##### Vor der Quest:
 
 *Der Hirte scheint keine Zeit für dich zu haben.*
+**Rolf** `Giselaaa! Fridaaaaa! Hierher!`  
 
 ##### Während der Quest:
 
@@ -133,6 +134,7 @@ Nein, ich konnte ihn noch nicht finden…
 **Rolf** `Magst du etwas Schafsmilch probieren? Nein? schade. `   
 **Rolf** `Schau nur, wie die Lämmer springen, jetzt muss ich keine Angst mehr um sie haben.`   
 **Rolf** `Grüße, [Name des Spielers], du bist immer gerne gesehen bei mir.`
+**Rolf** `Ich danke euch… und Lise und Frida und Lotte…
    
 
 
@@ -144,9 +146,9 @@ Schere, Stab?
 #### Standort   
 
 ```yml
-x: 
-y: 
-z: 
+x: 555
+y: 111
+z: -1967
 world: faldoria.jarmundshain
 ```
 
@@ -196,9 +198,9 @@ Skin ID
 #### Standort   
 
 ```yml
-x: 
-y: 
-z: 
+x: 547
+y: 78
+z: -1739
 world: faldoria.jarmundshain
 ```
 
@@ -230,9 +232,9 @@ Skin ID
 #### Standort
 
 ```yml
-x: 
-y: 
-z: 
+x: 440
+y: 118
+z: -1876
 world: faldoria.jarmundshain
 ```
 
