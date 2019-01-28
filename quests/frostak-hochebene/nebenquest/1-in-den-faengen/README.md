@@ -29,9 +29,16 @@ Ein Wolf hat auf der Frostakebene mehrere Schafe gerissen, der Hirte Rolf bittet
     - [Dialoge](#dialoge-1)
     - [Standort](#standort-1)
   - [Reisender in der Taverne](#reisender-in-der-taverne)
-    - [](#)
+- [Mobs](#mobs)
+  - [Hungriger Wolf](#hungriger-wolf)
+- [Items](#items)
+  - [Wolfskopf](#wolfskopf)
+  - [Silbernes Amulet](#silbernes-amulet)
+  - [Rolfs Zettl](#rolfs-zettl)
 
 ## Noch zu tun
+
+Skins, Wolfskopf??? Item??
 
 ## Vorraussetzung
 
@@ -39,6 +46,13 @@ HQ [Jarmundshain wärmt auf](#jarmundshain-waermt-auf) abgeschlossen
 HQ [Vinnans helfende Hand](#vinnans-helfende-hand) angefangen.
 
 ## Ablauf
+
+1. Der Spieler möchte für Vinnan Aufgaben erledigen udn trifft Rolf, den Schäfer.
+2. 2. Rolf klagt, dass ein sehr großer Wolf seine Schafe reißt.
+3. Der Spieler soll ihn töten.
+4. Erfindet sucht den Wolf und findet ihn in einer Höhle.
+5. Dort liegt auch ein toter Mann, dessen Amulet er mitnimmt.
+6. Der Spieler tötet den wolf und kehrt mit einem Wolfskopf zurück.
 
 ## Dialoge
 
@@ -105,6 +119,8 @@ Ein Hirte oin der Nähe von Jarmundshain
 #### Standartsätze   
 ##### Vor der Quest:
 
+*Der Hirte scheint keine Zeit für dich zu haben.*
+
 ##### Während der Quest:
 
 **Rolf:** `Und, und? Habt ihr ihn erlegt?`   
@@ -112,6 +128,13 @@ Nein, ich konnte ihn noch nicht finden…
 **Rolf:** `Er hinterlässt überall Blut und Knochen, ihr könnt es gar nicht verfehlen…`
 
 ##### Nach der Quest: 
+
+**Rolf** `Magst du etwas Schafsmilch probieren? Nein? schade. `   
+**Rolf** `Schau nur, wie die Lämmer springen, jetzt muss ich keine Angst mehr um sie haben.`   
+**Rolf** `Grüße, [Name des Spielers], du bist immer gerne gesehen bei mir.`
+   
+
+
 #### Ausrüstung
 
 Skin ID
@@ -183,27 +206,86 @@ world: faldoria.jarmundshain
 
 >>> **Ich schreib das um auf drei Gäste in der Taverne mit Namen!**
 
+> Wolf lebt
 
-#### 
-
-**Man erfährt in einer nahen Taverne von einem Reisenden, dass er im Wald ein verlassenes Lager gefunden hat, voll von Blutspuren.
+**Man erfährt in einer nahen Taverne von einem Reisenden, dass er im Wald ein verlassenes Lager gefunden hat, voll von Blutspuren.**
 (Sitzt in der Taverne von Jarmundhain und trinkt ein Bier)
 
 *Ein Gast der Taverne spricht dich an, er trinkt gerade eine Bier*
-   **Reisender:** `Ihr glaubt nicht was ich im Wald gefunden habe… ein verlassenes Lager, voller Blut!`  
-   
-	•	Etwas treibt sich im Wald herum… Ich habe überall Blut gefunden! 
-	•	Seid vorsichtig! Im Wald lebt ein Menschenfressendes Ungeheuer! 
+1. **Reisender:** `Ihr glaubt nicht was ich im Wald gefunden habe… ein verlassenes Lager, voller Blut!`  
+2. **Reisender:** `Etwas treibt sich im Wald herum… Ich habe überall Blut gefunden!`
+3. **Reisender:** `Seid vorsichtig! Im Wald lebt ein Menschenfressendes Ungeheuer!`
 
-(Wenn der Wolf erlegt wurde)
-Reisender:
-	•	Wusstet ihr, dass hier ein menschenfressender Wolf lebte? 
-	•	Habt ihr schon gehört, dass der Wolf von einem tapferen Reisenden getötet wurde? 
-	•	Noch ein Bier bitte! 
-	•	Mmm… so Lob ich mir das Trinken! 
+> Wolf wurde erlegt wurde
 
+1. **Reisender:** `Wusstet ihr, dass hier ein menschenfressender Wolf lebte?`   
+2. **Reisender:** `Habt ihr schon gehört, dass der Wolf von einem tapferen Reisenden getötet wurde?`  
+3. **Reisender:** `Noch ein Bier bitte!`  
+4. **Reisender:** `Mmm… so Lob ich mir das Trinken!`  
 
 
+
+## Mobs
+
+### Hungriger Wolf
+
+```yml
+name: Hungriger Wolf
+type: wolf
+aggro: true
+passive: false
+elite: true
+min-level: 8
+max-level: 8
+```
+```yml
+x: 535
+y: 101
+z: -2121
+world: faldoria.jarmundshain
+radius: 5
+```
+
+## Items
+
+Item: engl. Bezeichnung hier: https://minecraft-ids.grahamedgecombe.com/
+
+
+### Wolfskopf
+
+```yml
+ID: ?
+name: Wolfskopf
+type: QUEST
+quality: RARE 
+item: ?
+lore: Die Zähne sind immer noch scharf.
+max-stack-size: 1
+```
+
+### Silbernes Amulet
+
+```yml
+ID: 322:1
+name: Silbernes Amulet
+type: QUEST
+quality: RARE 
+item: enchanted_golden_apple
+lore: Wem würde es wohl etwas bedeuten?
+max-stack-size: 1
+```
+
+### Rolfs Zettl
+
+```yml
+ID: 339
+name: Rolfs Zettl
+type: QUEST
+quality: Common 
+item: paper
+lore: Eine Bestätigung von Rolf, dass ich den Wolf beseitigt habe.
+max-stack-size: 1
+```
 
 
 
