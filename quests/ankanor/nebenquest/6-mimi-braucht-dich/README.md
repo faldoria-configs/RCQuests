@@ -9,19 +9,25 @@ Skin hochgeladen!
 
 ## Übersicht 
 
-- [Voraussetzungen](#voraussetzungen)
+- [Übersicht](#%C3%BCbersicht)
+- [Vorraussetzungen](#vorraussetzungen)
 - [Ablauf](#ablauf)
-- [Questdialoge](#questdialoge)
-   - [Dialog 1](#dialog-1)
-   - [Dialog 2](#dialog-2) 
-- [NPCs](#npcs)
-     - [Name des NPCs](#name-des-npcs)
-         - [Standartsätze](#standartsaetze)
-            - [Vor der Quest](#vor-der-quest)
-            - [Während der Quest](#waehrend-der-quest)
-            - [Nach der Quest](#nach-der-quest)
-         - [Ausrüstung](#ausruestung)
-         - [Standort](#standort)
+- [Aufgaben](#aufgaben)
+  - [**Dialog 1**](#dialog-1)
+  - [**Dialog 2**](#dialog-2)
+- [NPC](#npc)
+  - [Mimi](#mimi)
+  - [Standartsätze](#standarts%C3%A4tze)
+    - [Vor der Quest](#vor-der-quest)
+    - [Während der Quest](#w%C3%A4hrend-der-quest)
+    - [Nach der Quest](#nach-der-quest)
+    - [Falls die Quest das erste Mal nicht angenommen wurde](#falls-die-quest-das-erste-mal-nicht-angenommen-wurde)
+  - [Ausrüstung](#ausr%C3%BCstung)
+  - [Standort](#standort)
+- [Items](#items)
+  - [Angebissenes Plätzchen](#angebissenes-pl%C3%A4tzchen)
+  - [Puppe Aneli](#puppe-aneli)
+    - [Standort Puppe](#standort-puppe)
        
 -  [Items](#items)
     - [Puppe Aneli](#puppe-aneli)
@@ -78,7 +84,7 @@ Spieler läuft hoch und findet die Puppe in der Kiste, nimmt sie an sich und keh
 ### **Dialog 2**
 ```yml
 Spieler: Hier hast du deine Puppe, aber jetzt mach dich auf zum Schiff!  
-Mimi: Ja, ich lauf' doch schon, aber ich brauchte doch meine Puppe! Da, du kannst die Hälfte meines Plätzchens haben. 
+Mimi: Ja, ich lauf doch schon, aber ich brauchte doch meine Puppe! Da, du kannst die Hälfte meines Plätzchens haben. 
 ```
 ----> Mimi gibt dem Spieler ein angebissenes Plätzchen - Spieler hat im Inventar einen Keks der [Angebissenes Plätzchen](#angebissenes-plaetzchen) heißt.
 

@@ -73,7 +73,7 @@ stages:
         - '~2s'
         - '!text player "Wir? Bist du etwa auch ein Jorgennder?"'
         - '~2s'
-        -'!text "Jorgendder! Na klar, hast du das nicht gewußt?"'
+        - '!text "Jorgendder! Na klar, hast du das nicht gewußt?"'
         - '~2s'
         - '!text player "Nein, du hast es nicht erwähnt. Werden die Leute im Dorf mit mir sprechen? "'
         - '~2s'
