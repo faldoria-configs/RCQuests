@@ -170,8 +170,8 @@ Harun ist einer der Banditen, die der Spieler vorher bekämpft hat in der HQ [Re
 
 #### Ausrüstung
 
-Axt in der Hand
-Skin fertig, ID
+Spitzhacke in der Hand
+Skin fertig, ID 30
 
 #### Standort
 
