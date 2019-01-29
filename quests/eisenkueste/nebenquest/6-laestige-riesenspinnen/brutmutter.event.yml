@@ -1,0 +1,7 @@
+worlds:
+  - faldoria
+trigger:
+  flow:
+    - '@loc(execute-once:true) x:3283 y:108 z:-2577 world:faldoria radius:3'
+    - '!tag eisenkueste.riesenspinnen.brutmutter'
+    - '!player.think "Vielleicht gibt es hier eine Spinnenkönigin die all diese wiederlichen Riesenspinnen produziert."'

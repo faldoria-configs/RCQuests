@@ -1,0 +1,11 @@
+stages:
+  start:
+    text: 'Na, hast du schon alle Spitzhacken?'
+    answers:
+      flow:
+        - ':"Nein, aber ich weiß jetzt, warum du da nicht runter wolltest, aber ich hole sie schon noch."'
+        - '!end'
+        - ':"Nein, und den Rest kannst du selber holen, du Lügner."'
+        - '!quest.abort this.spitzhacken'
+        - '!quest.lock this.spitzhacken'
+        - '!end'

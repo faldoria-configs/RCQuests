@@ -1,0 +1,45 @@
+name: Lästige Riesenspinnen
+region: eisenkueste
+locked: false
+abortable: true
+authors:
+  - TheFum (SuQ)
+  - Silthus (QS)
+worlds:
+  - faldoria
+level: 7
+
+default-convs:
+  active:
+    convs:
+      - 'eisenkueste.npcs.alrix:this.quest-active'
+  completed:
+    convs:
+      - 'eisenkueste.npcs.alrix:this.quest-completed'
+
+start-trigger:
+  flow:
+    - '@host.interact eisenkueste.npcs.alrix this.quest-start'
+
+objectives:
+  '1':
+    name: 'Töte 20 Spinnen'
+    desc: 'Gehe zur Mine hinter dem Dorf, suche das Nest und töte die Spinnen.'
+    trigger:
+      flow:
+        - '@mob.kill(count:20,count-text:"%current% von %count% Spinnen getötet.") group:eisenkueste.mobs.7-riesenspinnen.spinnen'
+    
+  '2':
+    name: 'Töte die Brutmutter'
+    hidden: true
+    optional: true
+    trigger:
+      flow:
+        - '@mob.kill eisenkueste.mobs.7-riesenspinnen.brutmutter'
+
+  '3':
+    name: 'Kehre zu Alrix zurück'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact eisenkueste.npcs.alrix this.quest-end'

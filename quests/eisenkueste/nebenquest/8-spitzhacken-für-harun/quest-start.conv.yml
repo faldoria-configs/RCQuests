@@ -1,0 +1,41 @@
+stages:
+  start:
+    text: 'Ihr seht kräftig aus, wollt Ihr euch ein paar Münzen verdienen?'
+    answers:
+      flow:
+        - ':"Ich weiß nicht recht, Ihr seht mir nicht vertrauenswürdig aus."'
+        - 'Was, wie kommst du denn darauf? Nur weil ich etwas älter bin und einen Bart hab. Du wirst doch keine Vorurteile gegenüber Bartträgern haben?'
+        - '>"Nein das nicht, aber..."'
+        - '!stage not-sure'
+        - ':"Ein paar Münzen in der Geldkatze wären nicht schlecht, was soll ich denn für Euch tun?"'
+        - '!stage quest'
+  
+  not-sure:
+    text: 'Papperlapap, willst du jetzt einen Heller haben oder nicht?'
+    answers:
+      flow:
+        - ':"Nein, mein Bauchgefühl sagt mir, dass mich lieber fern halten sollte."'
+        - 'Wie du meinst, du Hasenpfote.'
+        - '!end'
+        - ':"Na gut, was soll ich tun?"'
+        - '!stage quest'
+  
+  quest:
+    actions:
+      flow:
+        - 'Die Aufgabe ist ganz einfach, seht Ihr da unten den Steinbruch? Ihr müsst dort nur sieben Spitzhacken aus den Kisten holen.'
+        - '~3s'
+        - '>"Warum machst Ihr es nicht selbst, das klingt doch recht einfach."'
+        - '!stage quest-start'
+
+  quest-start:
+    text: 'Ach, Ihr seht doch, ich bin nicht mehr der Jüngste, mir tun die Gelenke weh und der Pfad da runter ist steil, aber für Euch ist das sicherlich ein Kinderspiel.'
+    answers:
+      flow:
+        - ':"*Du schaust den Mann kritisch an und glaubst ihm nicht, da ist etwas faul!* Tut mir leid, ich muss wieder zum Lager zurück, Ihr schafft das bestimmt alleine."'
+        - 'Faulpelz! Die Kiesflöhe sollen dich in den Arsch beißen!'
+        - '!end'
+        - ':"Na gut, das leuchtet mir ein und klingt auch ganz einfach, ich mache es."'
+        - 'Gut, dann macht euch auf den Weg, ich werde Euch dann entlohnen.'
+        - '!quest.start this.spitzhacken'
+        - '!end'

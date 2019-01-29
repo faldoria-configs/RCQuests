@@ -1,0 +1,27 @@
+name: Giftige Spinnenbrut
+type: cave_spider
+min-level: 6
+max-level: 8
+abilities:
+  gift:
+    name: Gift
+    ability: strike
+    custom:
+      poison: true
+    damage:
+      base: 14
+    cooldown:
+      base: 30
+    effects:
+      poison:
+        name: Gift
+        duration:
+          base: 12
+        interval:
+          base: 3
+        damage:
+          base: 11
+  knockback-resistance:
+    custom:
+      chance:
+        base: 0.35

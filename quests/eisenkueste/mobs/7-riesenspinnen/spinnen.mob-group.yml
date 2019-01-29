@@ -1,0 +1,15 @@
+min-interval: 60
+max-interval: 300
+min-amount: 2
+max-amount: 5
+respawn-treshhold: 1
+mobs:    
+    kleine-spinne:
+        mob: 'this.kleine-spinne'
+        chance: 0.40
+    giftige-spinne:
+        mob: 'this.giftige-spinne'
+        chance: 0.20
+    riesenspinne:
+        mob: 'this.riesenspinne'
+        chance: 0.40

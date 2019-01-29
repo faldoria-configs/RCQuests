@@ -1,0 +1,43 @@
+name: Spitzhacken für Harun
+region: eisenkueste
+locked: false
+abortable: true
+authors:
+  - TheFum (QS)
+  - Silthus (QD)
+worlds:
+  - faldoria
+level: 6
+
+requirements:
+  flow:
+    - '?quest eisenkueste.hauptquest.1-was-ist-passiert'
+
+default-convs:
+  active:
+    convs:
+      - 'eisenkueste.npcs.harun:this.quest-active'
+  completed:
+    convs:
+      - 'eisenkueste.npcs.harun:this.quest-completed'
+
+start-trigger:
+  flow:
+    - '@host.proximity(cooldown:5m) eisenkueste.npcs.harun radius:15'
+    - '!text "Heh Ihr, kommt mal her.", Harun'
+    - '@host.interact eisenkueste.npcs.harun this.quest-start'
+
+objectives:
+  '1':
+    name: 'Sammle 7 Spitzhacken'
+    desc: 'Finde und sammle 7 Spitzhacken in den Ruinen des Steinbruchs.'
+    requirements:
+      flow:
+        - '?item this.spitzhacke 7'
+    
+  '2':
+    name: 'Bringe Harun die Spitzhacken'
+    auto-complete: false
+    trigger:
+      flow:
+        - '@host.interact eisenkueste.npcs.harun this.quest-end'

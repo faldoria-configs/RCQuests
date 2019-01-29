@@ -1,0 +1,7 @@
+stages:
+  start:
+    actions:
+      flow:
+        - 'Hallo %player, wie geht es dir? Hast du inzwischen noch weitere von diesen schrecklichen Gefahren hier an der Eisenküste beseitigt?'
+        - '>"Naja, schon, es kommt mir aber selbst komisch vor, dass ich jetzt so gut mit meiner Waffe umgehen kann, aber ich bin noch lange kein Meister."'
+        - 'Das wird schon noch, ich bin froh, dass du da bist.'

@@ -1,0 +1,10 @@
+name: Kleine Spinnenbrut
+type: cave_spider
+passive: true
+min-level: 5
+max-level: 7
+abilities:
+  knockback-resistance:
+    custom:
+      chance:
+        base: 0.25

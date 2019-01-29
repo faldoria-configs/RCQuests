@@ -11,8 +11,7 @@ level: 6
 
 requirements:
   flow:
-    - '?quest.complete eisenkueste.hauptquest.1-was-ist-passiert'
-    - '?quest.complete eisenkueste.hauptquest.2-reparaturarbeiten'
+    - '?quest eisenkueste.hauptquest.1-was-ist-passiert'
 
 default-convs:
   active:
