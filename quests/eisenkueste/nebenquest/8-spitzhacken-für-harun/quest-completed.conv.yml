@@ -1,0 +1,5 @@
+stages:
+  start:
+    actions:
+      flow:
+        - 'Was willst du hier noch, nochmals runter? Verschwinde oder.... *hebt seine Axt*'

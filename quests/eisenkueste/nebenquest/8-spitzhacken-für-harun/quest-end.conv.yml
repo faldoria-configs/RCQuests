@@ -1,0 +1,20 @@
+stages:
+  start:
+    actions:
+      flow:
+        - 'Da seid Ihr ja wieder, an einem Stück, wie erfreulich. Habt ihr die Spitzhacken?'
+        - '>"Ja, aber ich hoffe, Eure Belohnung fällt hoch genug aus - Ihr habt mich reingelegt."'
+        - '!item.remove this.spitzhacke 7'
+        - 'Ach was, ich habe dir nur nicht alle Gründe gesagt, warum ich da nicht runter will.'
+        - '>"Und wozu braucht Ihr die Spitzhacken?"'
+        - 'Na, für die Mine.'
+        - '>"Für die Mine? Seid Ihr am Ende.... kann ich jetzt meine Belohnung haben?"'
+        - 'Belohnung? Ach ja! *lacht laut und reicht dir einige Münzen* Hier, dein Lohn.'
+        - '!quest.complete this.spitzhacken'
+        - '!player.emote "Du schaust die wenigen Münzen in deiner Hand an."'
+        - '>"Was, soll das alles sein?"'
+        - 'Haben wir ausgemacht, wieviel es sein sollen?'
+        - '>"Nein, aber..."'
+        - 'Nun verzieh dich, Grünschnabel!'
+        - '!npc.emote "*nimmt seine große Axt drohend in die Hand*"'
+        - '!end'

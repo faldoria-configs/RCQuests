@@ -1,0 +1,5 @@
+stages:
+  start:
+    actions:
+      flow:
+        - 'Verpiss dich, Grünschnabel!'
