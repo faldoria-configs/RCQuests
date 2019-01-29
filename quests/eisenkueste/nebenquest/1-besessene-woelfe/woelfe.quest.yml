@@ -17,10 +17,6 @@ default-convs:
     convs:
       - 'eisenkueste.npcs.marduk:this.quest-completed'
 
-requirements:
-  flow:
-    - '?quest eisenkueste.hauptquest.2-reparaturarbeiten'
-
 objectives:
   '1':
     name: 'Töte 20 Wölfe'

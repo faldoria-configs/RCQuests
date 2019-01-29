@@ -11,7 +11,7 @@ level: 5
 
 requirements:
   flow:
-    - '?quest.complete eisenkueste.hauptquest.1-was-ist-passiert'
+    - '?quest eisenkueste.hauptquest.1-was-ist-passiert'
 
 start-trigger:
   flow:
