@@ -1,0 +1,8 @@
+stages:
+  start:
+    text: '%player, hast du die Spinnen schon alle erledigt?'
+    answers:
+      flow:
+        - '?tag eisenkueste.riesenspinnen.brutmutter'
+        - '+:"Nein, da gibt es noch einetwas größeres Problem, aber von dem erzähle ich dir später."'
+        - '-:"Nein, das waren zu viele für einmal, aber ich gehe nochmals hin."'

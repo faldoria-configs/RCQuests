@@ -1,0 +1,17 @@
+name: Riesenspinne
+type: spider
+min-level: 6
+max-level: 8
+abilities:
+  netz:
+    name: Gespinst
+    ability: magic-bolt
+    custom:
+      web: true
+    cooldown:
+      base: 27
+    effects:
+      web:
+        name: Gespinst
+        duration:
+          base: 6

@@ -1,0 +1,10 @@
+name: Alrix
+desc: 'Alrix ist ein junger Kaishi, der Bergmann werden möchte. Dem steht jedoch entgegen, dass er Spinnen fürchtet - und die sind oft in Minen anzufinden. Er ist ein eher schmächtiger Typ, jedoch voller Ergeiz, was seinen gewünschten Beruf anbelangt. Er ist ein netter Kerl, der jedem gerne hilft, der ihn fragt.'
+disguise: Alrix
+equipment:
+  hand: iron_pickaxe
+location:
+  x: 3631
+  y: 65
+  z: -2807
+  world: faldoria

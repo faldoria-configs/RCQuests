@@ -1,0 +1,41 @@
+stages:
+  start:
+    actions:
+      flow:
+        - '>"Alrix, was schaust du denn so bekümmert?"'
+        - '!stage spinnen'
+  spinnen:
+    text: '%player, findest du Spinnen genau so widerlich und schrecklich wie ich?'
+    answers:
+      flow:
+        - ':"Ja, ich kann sie auch nicht leiden. Von mir aus können sie ruhig als Vogelfutter dienen."'
+        - 'Gut, dann kannst du mir ja einen kleinen Gefallen tun und ein paar Spinnen für mich entfernen.'
+        - '!stage quest-start'
+        - ':"Ne, ich finde Spinnen interessant und würde auch gerne eine als Haustier haben! Manche sind so schön gefärbt."'
+        - 'Ahh...nunja….egal... aber bitte hilf mir bei ...du musst für mich etwas erledigen. Bitte!'
+        - '>"Ja rück raus damit!"'
+        - 'Du musst für mich Spinnen.. entfernen.'
+        - '!stage quest-start'
+
+  quest-start:
+    actions:
+      flow:
+        - '>"Spinnen entfernen? Du meinst töten! Reden wir von normalen kleinen Spinnen?"'
+        - 'Nein nein...ich rede von Riesenspinnen. Diese sind viel, viel größer und abscheulicher als die kleinen mickrigen da.'
+        - '>"Aber warum stören die Spinnen dich? Ich habe in der Umgebuung des Lagers keine gesehen."'
+        - 'Die sind auch nicht in der Nähe des Lagers, sondern in der Mine dahinten.'
+        - '~4s'
+        - '!npc.emote "*zeigt in Richtung Süden*"'
+        - '~2s'
+        - '!stage quest'
+
+  quest:
+    text: 'Da ist ein kleines, verlassenens Dörfchen, und dahinter eine Mine, und du weißt ja vielleicht, dass ich Bergmann werden will. Und ich soll nachsehen, ob es dort noch Eisen gibt, oder ob die Mine erschöpft ist. Aber die Spinnen...'
+    answers:
+      flow:
+        - ':"Oh Alrix, das tut mir leid für dich, aber an die Riesenspinnen traue ich mich auch nicht."'
+        - '!end'
+        - ':"In Ordnung, ich helfe dir! Ich werde mich auf den Weg machen und die Plage beseitigen."'
+        - 'Danke, du bist ein guter Freund.'
+        - '!quest.start this.spinnen'
+        - '!end'

@@ -1,0 +1,47 @@
+name: Brutmutter
+type: spider
+min-level: 9
+max-level: 9
+elite: true
+abilities:
+  gift:
+    name: Gift
+    ability: strike
+    custom:
+      poison: true
+    damage:
+      base: 38
+    cooldown:
+      base: 28
+    effects:
+      poison:
+        name: Gift
+        duration:
+          base: 12
+        interval:
+          base: 3
+        damage:
+          base: 12
+  netz:
+    name: Gespinst
+    ability: magic-bolt
+    custom:
+      web: true
+    cooldown:
+      base: 24
+    effects:
+      web:
+        name: Gespinst
+        duration:
+          base: 10
+  summon-mob:
+    name: Spinnenbrut
+    custom:
+      mob: 'this.kleine-spinne'
+      amount: 3
+    cooldown:
+      base: 30
+  knockback-resistance:
+    custom:
+      chance:
+        base: 0.5

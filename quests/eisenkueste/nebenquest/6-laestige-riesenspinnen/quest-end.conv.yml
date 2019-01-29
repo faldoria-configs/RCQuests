@@ -1,0 +1,33 @@
+stages:
+  start:
+    text: 'Hast du die Plage beseitigt?'
+    answers:
+      flow:
+        - ':"Ja, das habe ich gemacht."'
+        - 'Danke, ich bin so froh, jetzt kann ich meine Arbeit erledigen.'
+        - '?tag eisenkueste.riesenspinnen.brutmutter'
+        - '+!stage brutmutter-1'
+        - '-!stage quest-end'
+
+  brutmutter-1:
+    actions:
+      flow:
+        - '>"Sei froh, dass du da nicht hineingegangen bist, da waren nicht nur die großen Spinnen, sondern eine riesige dazu. Die habe ich auch gleich mit platt gemacht."'
+        - '!stage brutmutter-2'
+  brutmutter-2:
+    text: 'Was hast du? Du hast die Brutmutter getötet?'
+    answers:
+      flow:
+        - '?objective.complete this.spinnen 2'
+        - '+:"Ja, es schien mir logisch diese auch zu töten.. wenn schon, denn schon..."'
+        - 'Da bin ich aber froh....'
+        - '!stage quest-end'
+        - '-:"Nein, ich wollte sie nicht ganz ausrotten, aber wenn du Probleme bekommen solltest, dann helfe ich dir wieder."'
+        - 'Wenn du meinst..'
+        - '!stage quest-end'
+
+  quest-end:
+    actions:
+      flow:
+        - 'Danke nochmals für deine Hilfe, ich kann dir leider nur eine Kleinigkeit als Dank geben, ich hoffe, es gefällt dir.'
+        - '!quest.complete this.spinnen'
