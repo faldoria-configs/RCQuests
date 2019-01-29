@@ -2,6 +2,15 @@
 
 Issue #69
 
+## Folgequests
+
+[Kein Bier](#kein-bier)
+[Knochenbrühe](#knochenbruehe)
+
+
+
+
+
 ## Übersicht <!-- omit in toc -->
 
 ##  Noch zu tun
@@ -67,7 +76,12 @@ So ist das Leben.
 
 2. Ja, sowas kann ich.
    **Tjorben** `Gut, unser Haus ist hier raus..  danach rechts.. über die Brücke, da rechts den Weg weiter. Dann geht man gerade drauf zu, da findet Ihr meine Frau.`   
-   Gut, da bring ich dann Knochenmark hin.
+   Gut, da bring ich dann Knochenmark hin.  **`[Ende]`**
+
+### **`[Quest Start]`** [Knochenbrühe]
+
+**`Questlog:`**  *Besorgt von den Tieren im Umkreis von Jarmundshain 7 Knochenmark und bringt es zur Frau von Tjorben.*
+
 
 
 
