@@ -91,7 +91,7 @@ stages:
         - '~2s'
         - '!text "Sein Haus liegt in der Richtung des Weizenfeldes, genau dahinter. Es ist ein sehr großes Haus, es sollte kaum zu verfehlen sein."'
         - '~2s'
-        -'!text player "Was sage ich ihm dann?"'
+        - '!text player "Was sage ich ihm dann?"'
         - '~2s'
         - '!text "Na, wo du hinwillst. Ihm im gleichen Atemzug Hilfe anzubieten wäre allerdings eine gute Idee, das dürfte ihn sicherlich freuen."'
         - '~2s'

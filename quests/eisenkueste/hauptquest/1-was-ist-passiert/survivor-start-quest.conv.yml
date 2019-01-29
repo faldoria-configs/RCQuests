@@ -2,7 +2,7 @@ stages:
   start:
     actions:
       flow:
-        - '!player.emote "*Du starrst an eine Decke aus Stein*"'
+        - '!emote "*Du starrst an eine Decke aus Stein*"'
         - '~2s'
         - '!text.player "Wo bin ich? Was ist passiert? Bin ich tot?"'
         - '~5s'
