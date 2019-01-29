@@ -33,8 +33,13 @@ Issue 81
     - [Skin](#skin-6)
   - [Kuro](#kuro)
     - [Dialog](#dialog-4)
-    - [Standort](#standort-7)
     - [Skin](#skin-7)
+  - [Dialog Taruio (Junge)](#dialog-taruio-junge)
+    - [Standort](#standort-7)
+    - [Skin](#skin-8)
+  - [Dialog Varii (Fischer)](#dialog-varii-fischer)
+    - [Standort](#standort-8)
+    - [Skin](#skin-9)
 
 ## Fanu 
 
@@ -191,6 +196,83 @@ Nein, ganz und gar nicht , aber ich muss jetzt wirklich gehen.
 **Kurro:** `Soso, du musst gehen, nun, dann geh eben. Niemand will einem alten Mann zuhören. Geh!`   
 Alles Gute…   
 **Kurro:** `*brummt in seinen Bart*`
+
+
+ ### Standort
+fehlt noch
+
+### Skin
+fehlt noch
+
+
+## Dialog Taruio (Junge)
+
+*Du siehst einen etwa 8-jährigen Jungen in der Nähe stehen, er schaut recht unglücklich aus*   
+Hallo, ist alles in Ordnung mit dir?
+
+**Taruio:** `Gar nichts ist in Ordnung, ich will zurück zum Tianbaum.`
+
+Ja, das wird wohl für längere Zeit nicht möglich sein.
+
+**Taruio:** `*Haut wütend mit seinem Stiefel an einen Eisblock.* Ich hasse aber diese Kälte, immer muss man warm angezogen sein, ins Wasser kann man nicht.`   
+Sei froh, dass du überhaupt warme Sachen hast, dass soviel aus dem Schiff gerettet werden konnte.    
+**Taruio:**`Ist es hier überall so kalt?`   
+Keine Ahnung, aber ich kann es mir nicht vorstellen.    
+**Taruio:** `Wie kommen wir hier weg?`
+
+> 1. Wenn der Spieler schon vom Ballon weiß
+
+Ich fahre möglicherweise bald dem Ballon weg und erkunde die Welt.   
+**Taruio:** `Kommst du dann wieder und holst mich?`   
+Das kann ich wirklich jetzt noch nicht sagen, ich weiß ja nicht, was mir bevorsteht, vielleicht sterbe ich auch.   
+**Taruio:** `Was? Das kannst du nicht bringen. Du musst uns hier wegholen, hörst du?`   
+Ich tu mein Bestes.
+
+
+> 2. Wenn der Spieler den Ballon noch nicht gefunden hat:   
+> 
+Das weiß ich auch nicht, wir werden sehen, irgendwas fällt Marduk bestimmt ein oder etwas ergibt sich.   
+**Taruio:** `Naja, das klingt nicht recht überzeugend`   
+Es gibt die Türme hier, die müssen Leute gebaut haben, die müssen von woher gekommen sein. Hier gibt es bestimmt einen Pass oder sowas.   
+
+**Taruio:** `*Kickt wieder den Eisbrocken.* Na, dann such mal…`
+
+
+
+### Standort
+fehlt noch
+
+### Skin
+fehlt noch
+
+
+
+
+## Dialog Varii (Fischer)
+
+*Du siehst einen Mann in der Nähe des Wracks stehen stehen, der angelt*
+
+Grüße Varii, du bist wieder bei deiner Lieblingsbeschäftigung, angeln?   
+**Varii:** `Ob sie das bleiben wird, zweifle ich an, inzwischen angle ich lieber ein Stück Fleisch aus dem Feuer.`    
+Wieso, du konntest doch nicht genug kriegen ?   
+
+**Varii:** `Ja schon, aber jetzt ist es hier saukalt, die Hände frieren dir ab, du kannst dich nicht ins Wasser stellen, weil dir sonst die Beine abfallen und mehr.`    
+Ja, das kann ich verstehen, dass das kein Spaß mehr ist. Aber was meisnt du mit mehr?   
+**Varii:** Ja, die blöden Kiesflöhe hier. Die Sandflöhe waren schon schlimm genug, aber die hier.. *Schüttelt nur den Kopf* `   
+
+> 1. Wenn der Spieler die Quest noch nicht hat oder angenommen
+
+Ich schau mal, ob ich da helfen kann.   
+**Varii:** `Das wäre schön von dir, ich spendier dir dann auch einen Lachs!`   
+Dann weiterhin ‚Viel Fisch!`   
+
+
+>. Wenn er sie schon erledigt hat
+
+Ich habe mich schon um sie gekümmert, die sollten jetzt kein großes Problem mehr sein.   
+**Varii:** ´Großartig, dann gehe ich gleich mal die Küste runter, da schwimmt nämlich ein mir unbekannter Fisch rum, den muss ich fangen!`   
+Vielleicht bekommst du jetzt ja wieder mehr Lust auf’s Angeln!     
+**Varii:** `Könnte durchaus sein, danke. *Grinst dich an*   
 
 
 ### Standort
