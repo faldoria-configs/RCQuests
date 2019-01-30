@@ -4,7 +4,7 @@ stages:
       flow:
         - '>"Hier hast du deine Puppe, aber jetzt mach dich auf zum Schiff!"'
         - '!item.remove this.items.puppe'
-        - 'Ja, ich lauf' doch schon, aber ich brauchte doch meine Puppe! Da, du kannst die Hälfte meines Plätzchens haben.'
+        - 'Ja, ich lauf doch schon, aber ich brauchte doch meine Puppe! Da, du kannst die Hälfte meines Plätzchens haben.'
         - '~4s'
         - '!item.add this.items.keks'
         - '>"Was, du kannst doch laufen? Na dann los! Aber schnell!"'

@@ -27,34 +27,35 @@ QuestBelohnung: 15 Kupfer  <-- weniger! fast nichts!
 
 ## Übersicht  
 
-* [Was noch fehlt](#was-noch-fehlt)
-* [Veränderungen](#veränderungen)
-* [Übersicht](#Übersicht)
-* [Voraussetzungen](#voraussetzungen)
-* [Ablauf](#ablauf)
-* [Questdialoge](#questdialoge)
-  * [Dialog 1](#dialog-1)
-  * [Dialog 2](#dialog-2)
-  * [`[Queststart]` [Spitzhacken für Harun]](#queststart-spitzhacken-für-harun)
-  * [`[Queststart]` [Kehre mit den Spitzhacken zu Harun zurück]](#queststart-kehre-mit-den-spitzhacken-zu-harun-zurück)
-  * [Dialog 3](#dialog-3)
-  * [NPC](#npc)
-    * [Harun](#harun)
-    * [Standartsätze](#standartsätze)
-      * [Vor der Quest](#vor-der-quest)
-      * [Während der Quest](#während-der-quest)
-      * [Nach der Quest](#nach-der-quest)
-    * [Ausrüstung](#ausrüstung)
-    * [Standort](#standort)
-  * [Items](#items)
-  * [Drops](#drops)
-    * [Spitzhacken](#spitzhacken)
-    * [Standort](#standort-1)
-  * [Mobs](#mobs)
-    * [Standort ungefähr](#standort-ungefähr)
-    * [Toter Steinmetz](#toter-steinmetz)
-    * [Toter Bergarbeiter](#toter-bergarbeiter)
-* [Belohnung](#belohnung)
+- [Spitzhacken für Harun](#spitzhacken-f%C3%BCr-harun)
+  - [Was noch fehlt](#was-noch-fehlt)
+  - [Veränderungen](#ver%C3%A4nderungen)
+  - [Übersicht](#%C3%BCbersicht)
+  - [Voraussetzungen](#voraussetzungen)
+  - [Ablauf](#ablauf)
+  - [Questdialoge](#questdialoge)
+    - [Dialog 1](#dialog-1)
+    - [Dialog 2](#dialog-2)
+    - [`[Queststart]` [Spitzhacken für Harun]](#queststart-spitzhacken-f%C3%BCr-harun)
+    - [`[Queststart]` [Kehre mit den Spitzhacken zu Harun zurück]](#queststart-kehre-mit-den-spitzhacken-zu-harun-zur%C3%BCck)
+    - [Dialog 3](#dialog-3)
+    - [NPC](#npc)
+      - [Harun](#harun)
+      - [Standartsätze](#standarts%C3%A4tze)
+        - [Vor der Quest](#vor-der-quest)
+        - [Während der Quest](#w%C3%A4hrend-der-quest)
+        - [Nach der Quest](#nach-der-quest)
+      - [Ausrüstung](#ausr%C3%BCstung)
+      - [Standort](#standort)
+    - [Items](#items)
+    - [Drops](#drops)
+      - [Spitzhacken](#spitzhacken)
+      - [Standort](#standort-1)
+    - [Mobs](#mobs)
+      - [Standort ungefähr](#standort-ungef%C3%A4hr)
+      - [Toter Steinmetz](#toter-steinmetz)
+      - [Toter Bergarbeiter](#toter-bergarbeiter)
+  - [Belohnung](#belohnung)
 
 ## Voraussetzungen
 
@@ -169,15 +170,15 @@ Harun ist einer der Banditen, die der Spieler vorher bekämpft hat in der HQ [Re
 
 #### Ausrüstung
 
-Axt in der Hand
-Skin fertig, ID
+Spitzhacke in der Hand
+Skin fertig, ID 30
 
 #### Standort
 
 ```yml
-x:
-y:
-z:
+x: 3443
+y: 99
+z: -2467
 world: Faldoria, Eisenküste
 ```
 

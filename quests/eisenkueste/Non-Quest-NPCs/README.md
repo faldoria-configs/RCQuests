@@ -35,6 +35,12 @@ Issue 81
     - [Dialog](#dialog-4)
     - [Standort](#standort-7)
     - [Skin](#skin-7)
+  - [Dialog Tampi (Junge)](#dialog-tampi-junge)
+    - [Standort](#standort-8)
+    - [Skin](#skin-8)
+  - [Dialog Varii (Fischer)](#dialog-varii-fischer)
+    - [Standort](#standort-9)
+    - [Skin](#skin-9)
 
 ## Fanu 
 
@@ -51,13 +57,13 @@ Nein, ich schau ich hier nur um, ob ich jemand helfen könnte.
 2. Ich habe schon geholfen.   
    **Fanu:** `Ach so`
 
-3. Ermm, ich würde lieber… ne, nichts weiter   
+3. Ermm, ich würde lieber… mitdir.. ne, nichts weiter   
     **Fanu:** `Schade.`
 
 Dann mach’s gut!   
 **Fanu:** `*schaut dir bedauernd hinterher*`
 
-**Falls der spieler Fanu nochmals anklickt:**
+**Falls der Spieler Fanu nochmals anklickt:**
 
 **Fanu** `*schaut dich fragend an*`   
 Eh, wie heißt du eigentlich?   
@@ -66,10 +72,15 @@ Nur so…
 
 
 ### Standort
-fehlt noch
+```yml
+x: 3601
+y: 71
+z: -2787
+world: faldoria
+```
 
 ### Skin
-fehlt noch
+ID 43
 
 ## Heitini
 
@@ -87,10 +98,16 @@ Wie du meinst.
 Nun dann, adieu.
 
 ### Standort
-fehlt noch
+
+```yml
+x: 3607
+y: 70
+z: -2790
+world: faldoria
+```
 
 ### Skin
-fehlt noch
+ID 41
 
 ## Luana
 
@@ -110,10 +127,16 @@ Ich suche sie gleich mal auf.
 **Luana:** `Tu das, das ist nie verkehrt.   
 
 ### Standort
-fehlt noch
+
+```yml
+x: 3602
+y: 68
+z: -2807
+world: faldoria
+```
 
 ### Skin
-fehlt noch
+ID 42   Die habe ich verkehrt herum gemalt, aber bei einem stehenden NPC fällt das hoffentlih nicht auf ;)
 
 ## Schlafender Mann
 
@@ -122,7 +145,15 @@ fehlt noch
 
 
 ### Standort
-fehlt noch
+
+> Liegend
+
+```yml
+x: 3611
+y: 71 
+z: -2788
+world: faldoria.eisenküste
+```
 
 ### Skin
 fehlt noch
@@ -131,21 +162,40 @@ fehlt noch
 
 `*Der Mann scheint nicht mit dir reden zu wollen.*`
 
-### Standort
-fehlt noch
+### Standort  
+
+```yml
+x: 3613
+y: 70
+z: -2780
+world: faldoria.Eisenküste
+```
 
 ### Skin
-fehlt noch
+
+
 
 ## Jammernde Frau
 
-`*Die alte Frau bemerkt dich nicht, hat die Arme um ihre Knie geschlungen und jammert nur* auweh, auweh, ach, so ein Elend..`
+`*Die alte Frau bemerkt dich nicht, hat die Arme um ihre Knie geschlungen und jammert nur* auweh, auweh, ach, so ein Elend..`   
 
-### Standort
-fehlt noch
+### Standort   
+
+```yml
+x: 3634
+y: 64
+z: -2800
+world: faldoria
+```
 
 ### Skin
-fehlt noch
+
+```yml
+x:
+y: 
+z:
+world: faldoria
+```
 
 
 ## Taharu
@@ -164,7 +214,12 @@ Wo denkst du hin!
 **Taharu:** `*lacht* Lass gut sein, das ist lange her. Aber jetzt sieh zu, dass du weiter kommst!`   
 
 ### Standort
-fehlt noch
+```yml
+x: 3618
+y: 68
+z: -2799
+world: faldoria
+```
 
 ### Skin
 fehlt noch
@@ -194,7 +249,102 @@ Alles Gute…
 
 
 ### Standort
+
+```yml
+x: 3615
+y: 67
+z: -2812
+world: faldoria
+```
+
+### Skin
 fehlt noch
+
+
+## Dialog Tampi (Junge)
+
+*Du siehst einen etwa 8-jährigen Jungen in der Nähe stehen, er schaut recht unglücklich aus*   
+Hallo, ist alles in Ordnung mit dir?
+
+**Tampi:** `Gar nichts ist in Ordnung, ich will zurück zum Tianbaum.`
+
+Ja, das wird wohl für längere Zeit nicht möglich sein.
+
+**Tampi:** `*Haut wütend mit seinem Stiefel an einen Eisblock.* Ich hasse aber diese Kälte, immer muss man warm angezogen sein, ins Wasser kann man nicht.`   
+Sei froh, dass du überhaupt warme Sachen hast, dass soviel aus dem Schiff gerettet werden konnte.    
+**Tampi:**`Ist es hier überall so kalt?`   
+Keine Ahnung, aber ich kann es mir nicht vorstellen.    
+**Tampi:** `Wie kommen wir hier weg?`
+
+> 1. Wenn der Spieler schon vom Ballon weiß
+
+Ich fahre möglicherweise bald dem Ballon weg und erkunde die Welt.   
+**Tampi:** `Kommst du dann wieder und holst mich?`   
+Das kann ich wirklich jetzt noch nicht sagen, ich weiß ja nicht, was mir bevorsteht, vielleicht sterbe ich auch.   
+**Tampi:** `Was? Das kannst du nicht bringen. Du musst uns hier wegholen, hörst du?`   
+Ich tu mein Bestes.
+
+
+> 2. Wenn der Spieler den Ballon noch nicht gefunden hat:   
+> 
+Das weiß ich auch nicht, wir werden sehen, irgendwas fällt Marduk bestimmt ein oder etwas ergibt sich.   
+**Tampi:** `Naja, das klingt nicht recht überzeugend`   
+Es gibt die Türme hier, die müssen Leute gebaut haben, die müssen von woher gekommen sein. Hier gibt es bestimmt einen Pass oder sowas.   
+
+**Tampi:** `*Kickt wieder den Eisbrocken.* Na, dann such mal…`
+
+
+
+### Standort
+
+```yml
+x: 3667
+y: 64
+z: -2790
+world: faldoria
+```
+
+### Skin
+fehlt noch
+
+
+
+
+## Dialog Varii (Fischer)
+
+*Du siehst einen Mann in der Nähe des Wracks stehen stehen, der angelt*
+
+Grüße Varii, du bist wieder bei deiner Lieblingsbeschäftigung, angeln?   
+**Varii:** `Ob sie das bleiben wird, zweifle ich an, inzwischen angle ich lieber ein Stück Fleisch aus dem Feuer.`    
+Wieso, du konntest doch nicht genug kriegen ?   
+
+**Varii:** `Ja schon, aber jetzt ist es hier saukalt, die Hände frieren dir ab, du kannst dich nicht ins Wasser stellen, weil dir sonst die Beine abfallen und mehr.`    
+Ja, das kann ich verstehen, dass das kein Spaß mehr ist. Aber was meisnt du mit mehr?   
+**Varii:** Ja, die blöden Kiesflöhe hier. Die Sandflöhe waren schon schlimm genug, aber die hier.. *Schüttelt nur den Kopf* `   
+
+> 1. Wenn der Spieler die Quest noch nicht hat oder angenommen
+
+Ich schau mal, ob ich da helfen kann.   
+**Varii:** `Das wäre schön von dir, ich spendier dir dann auch einen Lachs!`   
+Dann weiterhin ‚Viel Fisch!`   
+
+
+>. Wenn er sie schon erledigt hat
+
+Ich habe mich schon um sie gekümmert, die sollten jetzt kein großes Problem mehr sein.   
+**Varii:** ´Großartig, dann gehe ich gleich mal die Küste runter, da schwimmt nämlich ein mir unbekannter Fisch rum, den muss ich fangen!`   
+Vielleicht bekommst du jetzt ja wieder mehr Lust auf’s Angeln!     
+**Varii:** `Könnte durchaus sein, danke. *Grinst dich an*   
+
+
+### Standort 
+
+```yml
+x: 3696
+y: 64
+z: -2777
+world: faldoria
+```
 
 ### Skin
 fehlt noch
