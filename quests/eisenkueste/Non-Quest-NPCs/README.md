@@ -80,7 +80,7 @@ world: faldoria
 ```
 
 ### Skin
-fehlt noch
+ID 43
 
 ## Heitini
 
@@ -107,7 +107,7 @@ world: faldoria
 ```
 
 ### Skin
-fehlt noch
+ID 41
 
 ## Luana
 
@@ -136,7 +136,7 @@ world: faldoria
 ```
 
 ### Skin
-fehlt noch
+ID 42   Die habe ich verkehrt herum gemalt, aber bei einem stehenden NPC fällt das hoffentlih nicht auf ;)
 
 ## Schlafender Mann
 
