@@ -24,7 +24,7 @@ Issue 81
   - [Kenro (Stummer Mann)](#kenro-stummer-mann)
     - [Standort](#standort-4)
     - [Skin](#skin-4)
-  - [Liro (Jammernde Frau)](#liro-jammernde-frau)
+  - [Ahua (Jammernde Frau)](#ahua-jammernde-frau)
     - [Standort](#standort-5)
     - [Skin](#skin-5)
   - [Taharu](#taharu)
@@ -174,10 +174,10 @@ world: faldoria.Eisenküste
 ```
 
 ### Skin
+ID 48
 
 
-
-## Liro  (Jammernde Frau)
+## Ahua  (Jammernde Frau)
 
 `*Die alte Frau bemerkt dich nicht, hat die Arme um ihre Knie geschlungen und jammert nur* auweh, auweh, ach, so ein Elend..`   
 
@@ -191,7 +191,7 @@ world: faldoria
 ```
 
 ### Skin
-ID 48, small
+ID 51, small
 
 
 ## Taharu
