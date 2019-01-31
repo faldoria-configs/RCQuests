@@ -18,13 +18,13 @@ Issue 81
     - [Dialog](#dialog-2)
     - [Standort](#standort-2)
     - [Skin](#skin-2)
-  - [Schlafender Mann](#schlafender-mann)
+  - [Somno (Schlafender Mann)](#somno-schlafender-mann)
     - [Standort](#standort-3)
     - [Skin](#skin-3)
-  - [Stummer Mann](#stummer-mann)
+  - [Kenro (Stummer Mann)](#kenro-stummer-mann)
     - [Standort](#standort-4)
     - [Skin](#skin-4)
-  - [Jammernde Frau](#jammernde-frau)
+  - [Liro (Jammernde Frau)](#liro-jammernde-frau)
     - [Standort](#standort-5)
     - [Skin](#skin-5)
   - [Taharu](#taharu)
@@ -140,7 +140,7 @@ world: faldoria
 ### Skin
 ID 42   Die habe ich verkehrt herum gemalt, aber bei einem stehenden NPC fällt das hoffentlih nicht auf ;)
 
-## Schlafender Mann
+## Somno (Schlafender Mann)
 
 `*Der Mann scheint fest zu schlafen, du willst ihn nicht wecken*`
 
@@ -158,9 +158,9 @@ world: faldoria.eisenküste
 ```
 
 ### Skin
-fehlt noch
+ID 50
 
-## Stummer Mann
+## Kenro (Stummer Mann)
 
 `*Der Mann scheint nicht mit dir reden zu wollen.*`
 
@@ -177,7 +177,7 @@ world: faldoria.Eisenküste
 
 
 
-## Jammernde Frau
+## Liro  (Jammernde Frau)
 
 `*Die alte Frau bemerkt dich nicht, hat die Arme um ihre Knie geschlungen und jammert nur* auweh, auweh, ach, so ein Elend..`   
 
@@ -191,7 +191,7 @@ world: faldoria
 ```
 
 ### Skin
-
+ID 48, small
 
 
 ## Taharu
@@ -218,7 +218,7 @@ world: faldoria
 ```
 
 ### Skin
-fehlt noch
+ID 47
 
 
 ## Kuro
