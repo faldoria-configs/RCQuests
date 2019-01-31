@@ -84,7 +84,7 @@ ID 43
 
 ## Heitini
 
-Alte, mürrische Frau
+`Alte, mürrische Frau`
 
 ### Dialog
 
@@ -110,6 +110,8 @@ world: faldoria
 ID 41
 
 ## Luana
+
+`Hilft dem Koch
 
 ### Dialog
 
@@ -190,12 +192,6 @@ world: faldoria
 
 ### Skin
 
-```yml
-x:
-y: 
-z:
-world: faldoria
-```
 
 
 ## Taharu
@@ -258,7 +254,7 @@ world: faldoria
 ```
 
 ### Skin
-fehlt noch
+ID 46
 
 
 ## Dialog Tampi (Junge)
@@ -305,7 +301,7 @@ world: faldoria
 ```
 
 ### Skin
-fehlt noch
+ID 45
 
 
 
@@ -347,7 +343,7 @@ world: faldoria
 ```
 
 ### Skin
-fehlt noch
+ID 44  (Fischerhose)
 
 
 
