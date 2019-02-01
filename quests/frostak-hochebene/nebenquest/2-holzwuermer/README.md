@@ -115,8 +115,8 @@ Ich mache mich sofort auf den Weg. Auf Wiedersehen!
     **Jarko:** `Na, mal sehen. Ah, das müssten wir alles noch haben. Ich werde sofort eine Lieferung zusammenstellen.`  
     Ich danke euch, ich werde es Marius ausrichten.
 
-**`[Quest  Ende 2.2]`** [Holzwürmer](#holzwuermer)   
-**`[Quest Ende]`** [Jarko](#jarko)
+**[Quest  Ende 2.2]** [Holzwürmer](#holzwuermer)      
+**[Quest Ende]** [Jarko](#jarko)
 
 ### **`[Quest Start]`** [Rückkehr]
 **`QuestLog:`** *Kehrt zu Marius zurück.*
@@ -131,7 +131,7 @@ Ja, sie schicken einen Wagen mit den Stämmen.
 
 1. Keine Ursache ich helfe gerne.   
    
-**`[Quest Ende 1]`** [Rückkehr](#rueckkehr)   
+**[Quest Ende 1]** [Rückkehr](#rueckkehr)   
 **Spieler bekommt Zettl für Vinnan**    
 **`QuestLog:`** *Ihr habt Marius einen großen Gefallen getan.*
 
@@ -143,14 +143,14 @@ Ja, sie schicken einen Wagen mit den Stämmen.
       2.1. Ist euer Holz wirklich von Würmern befallen? Oder spielt ihr nur den Hilflosen?     
       **Marius:** `Sagt mal, meint Ihr ich bin ein Lügner? Und spiele Euch alles nur vor? Verschwindet! `  
 
-      **`[Quest Ende 2.1]`** [Rückkehr](#rueckkehr)     
+      **[Quest Ende 2.1]** [Rückkehr](#rueckkehr)     
       **`Ohne Zettl für Vinnan!`**     
       **`QuestLog:`** *Ihr habt Marius gegen euch aufgebracht, dem solltet ihr so schnell nicht zu nahe kommen.*   
 
       2.2 Achso ähm… ich wollte nur fragen ob ich noch etwas tun kann?   
       **Marius:**  `Im Augenblick nicht, nein… doch nehmt dies für eure Mühen.`    
 
-      **`[Quest Ende 2.2]`** [Rückkehr](#rueckkehr) 
+      **[Quest Ende 2.2]** [Rückkehr](#rueckkehr) 
 
        **Belohnung:** Holzschüssel, nur bei 2.2   
 **Spieler bekommt Zettl für Vinnan**  
