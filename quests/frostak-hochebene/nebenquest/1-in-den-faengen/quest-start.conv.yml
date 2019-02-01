@@ -23,7 +23,7 @@ stages:
         - ':"Natürlich, deshalb bin ich ja hier!"'
         - '!stage details'
         - ':"Ich… ich denke, ein Wolf ist mir zu gefährlich, ich suche lieber eine leichtere Aufgabe."'
-        - '!text "Schade, kommt zu mir wenn Ihr euch umentscheiden solltet… wenn ich dann noch Schafe habe."'
+        - '!text "Schade, kommt zu mir, wenn Ihr euch umentscheiden solltet… wenn ich dann noch Schafe habe."'
         - '!end'
 
   details:
@@ -36,7 +36,7 @@ stages:
         - '!stage details2'
 
   details1:
-    text: 'Ich habe mich nie getraut ihm zu folgen, doch seine Spuren führen dort in den Wald...'
+    text: 'Ich habe mich nie getraut, ihm zu folgen, doch seine Spuren führen dort in den Wald...'
     answers:
       flow:
         - ':"Ich werde mich sofort auf den Weg machen!"'
@@ -58,7 +58,7 @@ stages:
     answers:
       flow:
         - ':"Meint ihr das ernst? Habt ihr ihn denn schon mal gesehen?"'
-        - '!text "Leider nicht, niemand aus dem Dorf hat ihn bisher gesehen… doch wenn ihr ihn sehen wollt folgt einfach seinen Spuren in diesen Wald."'
+        - '!text "Leider nicht, niemand aus dem Dorf hat ihn bisher gesehen… doch wenn ihr ihn sehen wollt, folgt einfach seinen Spuren in diesen Wald."'
         - '>"Dann werde ich ihn mal suchen!"'
         - '!quest.start this.faenge'
         - '!end'
