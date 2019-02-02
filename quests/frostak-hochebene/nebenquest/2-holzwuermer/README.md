@@ -12,10 +12,44 @@ Issue #67
   - [**`[Quest Start]`** [Holzwürmer]](#quest-start-holzw%C3%BCrmer)
   - [Dialog 2 (Kester)](#dialog-2-kester)
   - [**`[Quest Start]`** [Jarko]](#quest-start-jarko)
-  - [Dialog 3 (Jarko)](#dialog-3-jarko)
+  - [Dialog 3 (Joan)](#dialog-3-joan)
+  - [**`[Quest Start]`** [Jarko]](#quest-start-jarko-1)
+  - [Dialog 4 (Jarko)](#dialog-4-jarko)
   - [**`[Quest Start]`** [Rückkehr]](#quest-start-r%C3%BCckkehr)
-  - [Dialog 4 (Marius)](#dialog-4-marius)
+  - [Dialog 5 (Marius)](#dialog-5-marius)
+- [NPCs](#npcs)
+- [`Marius`](#marius)
+  - [Standardsätze](#standards%C3%A4tze)
+    - [Vor der Quest](#vor-der-quest)
+    - [Während der Quest](#w%C3%A4hrend-der-quest)
+    - [Nach der Quest](#nach-der-quest)
+  - [Ausrüstung/Skin](#ausr%C3%BCstungskin)
+  - [Standort](#standort)
+- [`Kester`](#kester)
+  - [Standardsätze](#standards%C3%A4tze-1)
+    - [Vor der Quest](#vor-der-quest-1)
+    - [Während der Quest](#w%C3%A4hrend-der-quest-1)
+    - [Nach der Quest](#nach-der-quest-1)
+  - [Ausrüstung/Skin](#ausr%C3%BCstungskin-1)
+  - [Standort](#standort-1)
+- [`Jarko`](#jarko)
+  - [Standardsätze](#standards%C3%A4tze-2)
+    - [Vor der Quest](#vor-der-quest-2)
+    - [Während der Quest](#w%C3%A4hrend-der-quest-2)
+    - [Nach der Quest](#nach-der-quest-2)
+  - [Ausrüstung/Skin](#ausr%C3%BCstungskin-2)
+  - [Standort](#standort-2)
+- [`Joan`](#joan)
+  - [Standardsätze](#standards%C3%A4tze-3)
+    - [Vor der Quest](#vor-der-quest-3)
+    - [Während der Quest](#w%C3%A4hrend-der-quest-3)
+    - [Nach der Quest](#nach-der-quest-3)
+  - [Ausrüstung/Skin](#ausr%C3%BCstungskin-3)
+  - [Standort](#standort-3)
+- [Items](#items)
+  - [Liste mit Hölzern](#liste-mit-h%C3%B6lzern)
   - [Rolfs Zettl](#rolfs-zettl)
+  - [Holzschüssel von Marius](#holzsch%C3%BCssel-von-marius)
 
 ##  Noch zu tun
 
@@ -46,12 +80,12 @@ Vinnan schickt mich, Ihr könnt wohl etwas Hilfe gebrauchen?
 Was kann ich da tun?   
 **Marius:** `Am anderen Ende des Dorfes leben die Holzfällerbrüder Jarko, Joan und Kester, sie haben bestimmt noch geeignetes Holz. Könnt ihr sie bitten mir etwas davon zu liefern?`  
 
-1. Ich habe leider im Augenblick keine Zeit, fragt mich später noch einmal. 
+1. Ich habe leider im Augenblick keine Zeit, fragt mich später noch einmal.    
 **`Marius:`** `Schade, dann ein anderes Mal.`  
    **`[Ende]`** 
    
 
-2. Natürlich, wie viel Holz benötigt ihr denn?   
+2. Natürlich, wie viel Holz benötigt ihr denn?               
    **Marius:** `Ich danke euch, hier habt ihr einen Brief mit den Hölzern die ich benötige.`    
 
 
@@ -72,7 +106,22 @@ Er sagt es sei krank und er bräuchte eine Ladung von Euch.
 ### **`[Quest Start]`** [Jarko]
 **`QuestLog:`** *Sprich mit Jarko im Haus*
 
-### Dialog 3 (Jarko)
+### Dialog 3 (Joan)
+
+**Joan:** `Zwei Birken, eine Fichte, … Oh hallo. Sucht ihr etwas?`
+Ich bin hier um etwas Holz für Marius zu kaufen.   
+**Joan:** Àh, der gute Marius. Ist er wieder zu faul sein Holz selbst zu fällen?`  
+Sein Holz ist von Holzwürmern befallen.   
+**Joan:** `Na wenn er meint. Sprich mit Jarko im Haus, er wird eine Lieferung zusammenstellen.`  
+
+### **`[Quest Start]`** [Jarko]
+**`QuestLog:`** *Sprich mit Jarko im Haus*
+
+> Keine Änderung, wenn der Spieler schon mit Kester gesprochen hat und dort die Quest angeommen hat. (oder umgekehrt)
+
+
+
+### Dialog 4 (Jarko)
 
 **Jarko:** ` Hallo, was kann ich für euch tun?`  
 Marius schickt mich etwas Holz zu kaufen.   
@@ -93,7 +142,7 @@ Ich mache mich sofort auf den Weg. Auf Wiedersehen!
 
 
 
-2. Sagt, habt ihr etwas gegen Marius? Ihr scheint ihn nicht zu mögen.   
+1. Sagt, habt ihr etwas gegen Marius? Ihr scheint ihn nicht zu mögen.   
 **Jarko:** `Nun, er behauptet unser Holz sei von schlechter Qualität, daher schlägt er seine Stämme meist selbst. Doch andauernd gibt es Probleme mit seinen Stämmen und immer öfter müssen wir ihm aushelfen. Das wundert uns schon.`  
 
      2.1.Vielleicht ist euer Holz nicht so schlecht wie er behauptet.  
@@ -121,7 +170,7 @@ Ich mache mich sofort auf den Weg. Auf Wiedersehen!
 ### **`[Quest Start]`** [Rückkehr]
 **`QuestLog:`** *Kehrt zu Marius zurück.*
 
-### Dialog 4 (Marius)
+### Dialog 5 (Marius)
 
 [Zurück bei Marius]
 
@@ -157,22 +206,100 @@ Ja, sie schicken einen Wagen mit den Stämmen.
 
 
 
+## NPCs
+
+## `Marius`
+
+### Standardsätze
+#### Vor der Quest
+#### Während der Quest
+#### Nach der Quest
+
+### Ausrüstung/Skin
+
+### Standort
+```yml
+x: 581
+y: 108
+z: -2052
+world: faldoria.jarmundshain
+```
 
 
+## `Kester`
 
+### Standardsätze
+#### Vor der Quest
+#### Während der Quest
+#### Nach der Quest
 
+### Ausrüstung/Skin
 
+Zettl in der einen, Feder in der anderen Hand
 
+### Standort
+```yml
+x: 693
+y: 82
+z: -1663
+world: faldoria.jarmundshain
+```
 
+## `Jarko`
 
+### Standardsätze
+#### Vor der Quest
+#### Während der Quest
+#### Nach der Quest
 
+### Ausrüstung/Skin
 
+Sitzt und hält ein buch in der Hand
 
+### Standort
+```yml
+x: 671
+y: 83
+z: -1667
+world: faldoria.jarmundshain
+```
 
+## `Joan` 
 
+### Standardsätze
+#### Vor der Quest
+#### Während der Quest
+#### Nach der Quest
 
+### Ausrüstung/Skin
 
+Hält Sattel in der Hand
 
+### Standort
+```yml
+x: 683
+y: 82
+z: -1658
+world: faldoria.jarmundshain
+```
+
+## Items
+
+### Liste mit Hölzern
+
+name: Liste mit Hölzern
+type: QUEST
+item: written_book
+book:
+  name: Liste mit Hölzern
+  author: Marius
+  pages:
+    '1':
+      - Benötigte Hölzer
+      - 
+      - 7 Stämme Eiche, gute Qualität
+      - 4 Stämme, 6 Bretter Fichte, gute Qualität
+      - 3 Stämme Fichte, mäßige Qualität
 
 
 ### Rolfs Zettl
@@ -183,6 +310,19 @@ name: Marius Zettl
 type: QUEST
 quality: Common 
 item: paper
-lore: Eine Bestätigung von Marius, dass ich den Holz besorgt habe.
+lore: Eine Bestätigung von Marius, dass ich ihm Holz besorgt habe.
 max-stack-size: 1
 ```
+
+### Holzschüssel von Marius
+
+```yml
+ID: 281
+name: Holzschüssel von Marius
+type: QUEST
+quality: Common 
+item: bowl   
+lore: Echte Handarbeit!
+max-stack-size: 1
+```
+
