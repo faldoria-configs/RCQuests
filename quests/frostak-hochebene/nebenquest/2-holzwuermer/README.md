@@ -1,6 +1,8 @@
 # Holzwürmer <!-- omit in toc -->
 Issue #67
 
+Frage von Liliana: Kann man [Jarko](#jarko) zu einem Holzhändler machen?
+
 
 ## Übersicht <!-- omit in toc -->
 
@@ -53,7 +55,7 @@ Issue #67
 
 ##  Noch zu tun
 
-Standartsätze und so weiter
+Skins 
 
 ## Vorraussetzungen
 
@@ -212,8 +214,21 @@ Ja, sie schicken einen Wagen mit den Stämmen.
 
 ### Standardsätze
 #### Vor der Quest
+1. **Marius:** `Hört Ihr auch manchmal so ein Donnern?`     
+2. **Marius:** `Wenn nur diese Würmer nicht wären…`  
+3. **Marius:** `So Klar war es schon lange nicht mehr.`    
+ 
+
 #### Während der Quest
+
 #### Nach der Quest
+1. **Marius:** `Hört Ihr auch manchmal so ein Donnern?`     
+2. **Marius:** `Wenn nur diese Würmer nicht wären…`  
+3. **Marius:** `So Klar war es schon lange nicht mehr.` 
+
+Nachdem er den Spieler fortgejagt hat:   
+**Marius:** `..grummel…`   
+`Verzieht euch!`   `„Spielt ihr den Hilflosen?“ hat er gefragt… pah, so ein verzogener Bengel.`  
 
 ### Ausrüstung/Skin
 
@@ -229,6 +244,9 @@ world: faldoria.jarmundshain
 ## `Kester`
 
 ### Standardsätze
+
+`...zwei, drei… da der vierte…`    `...Eiche, Fichte… jetzt fehlt noch etwas Birke…` `JOAN! WIR BRAUCHEN NOCH BIRKE!`
+
 #### Vor der Quest
 #### Während der Quest
 #### Nach der Quest
@@ -248,9 +266,20 @@ world: faldoria.jarmundshain
 ## `Jarko`
 
 ### Standardsätze
+
 #### Vor der Quest
+
+`Einen Augenblick, ich muss eben die Bücher fertigstellen…`  
+`Sucht ihr gutes Holz? Wir haben das Beste!`  
+`Habt etwas Geduld ich bin gleich fertig.`
+
 #### Während der Quest
 #### Nach der Quest
+
+`Einen Augenblick, ich muss eben die Bücher fertigstellen…`  
+`Sucht ihr gutes Holz? Wir haben das Beste!`  
+`Habt etwas Geduld ich bin gleich fertig.`
+
 
 ### Ausrüstung/Skin
 
@@ -267,6 +296,11 @@ world: faldoria.jarmundshain
 ## `Joan` 
 
 ### Standardsätze
+
+`...ganz ruhig mein Alter…`  
+`Oh, einen schönen Tag euch, Reisender!`  
+`...na komm! Der Sattel muss doch passen…`  
+
 #### Vor der Quest
 #### Während der Quest
 #### Nach der Quest
