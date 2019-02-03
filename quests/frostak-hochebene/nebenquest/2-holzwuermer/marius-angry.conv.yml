@@ -3,5 +3,5 @@ stages:
     random-actions:
       flow:
         - '!text "...grummel…"'
-        - Verzieht euch!
-        - '"spielt ihr den Hilflosen?" hat er gefragt… pah, so ein verzogener Bengel."'
+        - Verzieht Euch!
+        - '"spielt Ihr den Hilflosen?" hat er gefragt… pah, so ein verzogener Bengel."'

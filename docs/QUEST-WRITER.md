@@ -6,6 +6,7 @@ Der Story und Quest Entwickler, auch Questschreiber genannt, entwirft Storys und
   - [Getting Started](#getting-started)
   - [Der erste Schritt - Ordnerstruktur](#der-erste-schritt---ordnerstruktur)
   - [Zweiter Schritt - Markdown Datei schreiben](#zweiter-schritt---markdown-datei-schreiben)
+  - [---](#)
 - [Titel der Quest](#titel-der-quest)
   - [Ablauf](#ablauf)
   - [Vorraussetzungen](#vorraussetzungen)
@@ -23,9 +24,10 @@ Der Story und Quest Entwickler, auch Questschreiber genannt, entwirft Storys und
     - [Itemname](#itemname)
   - [Mobs](#mobs)
     - [Mobname](#mobname)
-      - [Ausrüstung](#ausr%C3%BCstung)
+      - [Ausrüstung](#ausr%C3%BCstung-1)
   - [Belohnung](#belohnung)
   - [Referenzen](#referenzen)
+  - [---](#1)
   - [Issues](#issues)
     - [Erstellen eines Issues](#erstellen-eines-issues)
     - [Issue abschließen](#issue-abschlie%C3%9Fen)
@@ -197,7 +199,7 @@ Unter den Issues gibt es eine Kommentarfunktion sodass man auch direkt darüber 
 
 ### Erstellen eines Issues
 
-Wichtig ist das sollte es beim Erstellen der Ordnerstruktur, bzw. des ersten Entwurfes kein Eintrag im Issue-Board zu der Quest geben, ist dieser anzulegen.
+Wichtig ist dass, sollte es beim Erstellen der Ordnerstruktur, bzw. des ersten Entwurfes kein Eintrag im Issue-Board zu der Quest geben, dieser anzulegen ist.
 
 1. Hierzu einfach auf `New Issue` klicken.
 2. Bei `Choose Template` Quest auswählen, dies gibt euch schon die die angelegte Vorlage für die Issues welche ihr nur noch ausfüllen müsst.

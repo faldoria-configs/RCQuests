@@ -1,9 +1,9 @@
 name: Harun
 disguise: Harun
 equipment:
-  hand: iron_axe
+  hand: iron_pickaxe
 location:
-  x: -1
-  y: 128
-  z: -1
+  x: 3443
+  y: 99
+  z: -2467
   world: faldoria

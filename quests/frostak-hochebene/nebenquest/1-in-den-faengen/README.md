@@ -27,6 +27,7 @@ Ein Wolf hat auf der Frostakebene mehrere Schafe gerissen, der Hirte Rolf bittet
     - [Standort](#standort)
   - [Wanderer](#wanderer)
     - [Dialoge](#dialoge-1)
+    - [Ausrüstung](#ausr%C3%BCstung-1)
     - [Standort](#standort-1)
   - [Reisender in der Taverne](#reisender-in-der-taverne)
     - [Standort](#standort-2)
@@ -63,7 +64,7 @@ Die Spielerin triff auf einen Mann (Hirten), der neben einem Schafskadaver steht
 
 **Rolf** `Das kann doch nicht wahr sein… so ein Mist, jetzt hat es die gute Lise auch erwischt…`   
 Seid Ihr der Hirte? Vinnan schickt mich, um zu helfen.   
-**Rolf** `Ja, ich bin Rolf. Und ich kann eure Hilfe sehr gut gebrauchen. Seht ihr dies? Das ist Lise, mein bestes Schaf, getötet von einem Wolf der sich hier herumtreibt.`     
+**Rolf** `Ja, ich bin Rolf. Und ich kann eure Hilfe sehr gut gebrauchen. Seht ihr dies? Das ist Lise, mein bestes Schaf, getötet von einem Wolf, der sich hier herumtreibt.`     
 
 1. Ein Wolf? Ein wirklicher großer Wolf?    
 **Rolf** `Ja, ein Wolf. Er kommt des Nachts und reißt meine Schafe. Würdet ihr mir helfen ihn zu töten`      
@@ -73,7 +74,7 @@ Seid Ihr der Hirte? Vinnan schickt mich, um zu helfen.
 > Auf beide Fragen/Antworten sind folgende Antworten möglich: 
  
 1. Ich… ich denke, ein Wolf ist mir zu gefährlich, ich suche lieber eine leichtere Aufgabe.   
-   **Rolf** `Schade, kommt zu mir wenn Ihr euch umentscheiden solltet… wenn ich dann noch Schafe habe.` **`[Ende]`**
+   **Rolf** `Schade, kommt zu mir wenn, Ihr euch umentscheiden solltet… wenn ich dann noch Schafe habe.` **`[Ende]`**
 2. Natürlich, deshalb bin ich ja hier!      
    **Rolf** `Sehr gut… endlich jemand der sich dieser Plage annimmt.` 
 
@@ -85,8 +86,8 @@ Seid Ihr der Hirte? Vinnan schickt mich, um zu helfen.
 
      2.2 Ist er groß?   
         **Rolf** `Er muss riesig sein, wenn er meine wackeren Schafe tötet, Ihr müsst wissen, dass auch sie manchmal beißen.`    
-        Meint ihr das ernst? Habt Ihr ihn denn schon mal gesehen?
-        **Rolf** `Leider nicht, niemand aus dem Dorf hat ihn bisher gesehen… doch wenn ihr ihn sehen wollt folgt einfach seinen Spuren in diesen Wald.`     
+        Meint ihr das ernst? Habt Ihr ihn denn schon mal gesehen?   
+        **Rolf** `Leider nicht, niemand aus dem Dorf hat ihn bisher gesehen… doch wenn ihr ihn sehen wollt, folgt einfach seinen Spuren in diesen Wald.`     
         Dann werde ich ihn mal suchen!
 
 ### `[Queststart]`[In den Fängen des Wolfes]
@@ -102,7 +103,7 @@ An der Leiche des Mannes findet er ein Amulett, welches er entweder verkaufen ka
 ### Dialog 2
 
 **Rolf:** `Und, und? Habt ihr ihn erlegt?`  
-Ja, hier ist sein Kopf… (wenn der Spieler den Wolfskopf im Inventar hat)
+Ja, hier ist sein Kopf… (wenn der Spieler den Wolfskopf im Inventar hat)   
 **Rolf** `Ihh… behaltet ihn. Aber ich danke Euch für Eure Hilfe, jetzt können meine Schafe wieder in Ruhe grasen, Berta und Frida und Nelli und Gustaf und Bella und…`
 
 **`[Quest Ende]`** [In den Fängen des Wolfes](#in-den-faengen-des-wolfes)
@@ -115,32 +116,33 @@ Ja, hier ist sein Kopf… (wenn der Spieler den Wolfskopf im Inventar hat)
 
 ### Rolf
 
-Ein Hirte oin der Nähe von Jarmundshain 
+Ein Hirte in der Nähe von Jarmundshain 
 
 #### Standartsätze   
 ##### Vor der Quest:
 
 *Der Hirte scheint keine Zeit für dich zu haben.*
+
 **Rolf** `Giselaaa! Fridaaaaa! Hierher!`  
 
 ##### Während der Quest:
 
 **Rolf:** `Und, und? Habt ihr ihn erlegt?`   
-Nein, ich konnte ihn noch nicht finden… 
+Nein, ich konnte ihn noch nicht finden…    
 **Rolf:** `Er hinterlässt überall Blut und Knochen, ihr könnt es gar nicht verfehlen…`
 
 ##### Nach der Quest: 
 
 **Rolf** `Magst du etwas Schafsmilch probieren? Nein? schade. `   
 **Rolf** `Schau nur, wie die Lämmer springen, jetzt muss ich keine Angst mehr um sie haben.`   
-**Rolf** `Grüße, [Name des Spielers], du bist immer gerne gesehen bei mir.`
-**Rolf** `Ich danke euch… und Lise und Frida und Lotte…
+**Rolf** `Grüße, [Name des Spielers], du bist immer gerne gesehen bei mir.`   
+**Rolf** `Ich danke euch… und Lise und Frida und Lotte…`
    
 
 
 #### Ausrüstung
 
-Skin ID
+Skin ID   
 Schere, Stab?
 
 #### Standort   
@@ -190,7 +192,7 @@ world: faldoria.jarmundshain
      `Àber davon rede ich doch nicht, der Wolf ist tot!`   
      Achso, *Du grinst breit* 
 
-     #### Ausrüstung
+#### Ausrüstung
 
 Skin ID
 

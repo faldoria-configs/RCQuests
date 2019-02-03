@@ -16,14 +16,14 @@ stages:
         - 'Na wenigstens etwas.'
         - '!stage suppe'
         - ':"Ja, er war etwas angetrunken."'
-        - '!text "Wusst ichs doch, na der soll mir nach hause kommen."'
+        - '!text "Wusst ichs doch, na der soll mir nach Hause kommen."'
         - '!stage suppe'
 
   suppe:
     actions:
       flow:
         - '>"Was machen wir jetzt, nimmst du das Knochenmark?"'
-        - '!text "Ja, is ja gut. Ihr würdet mir einen großen Gefallen tun wenn Ihr diesen Nichtsnutz mit der Suppe von gestern überschütten würdet. Vielleicht mag er sie dann endlich nicht mehr."'
+        - '!text "Ja, is ja gut. Ihr würdet mir einen großen Gefallen tun, wenn Ihr diesen Nichtsnutz mit der Suppe von gestern überschütten würdet. Vielleicht mag er sie dann endlich nicht mehr."'
         - '>"Dein Ernst?"'
         - '!text "Nehmt schon und lasst mich in Ruhe!"'
         - '!objective.complete this.faultier 3'
