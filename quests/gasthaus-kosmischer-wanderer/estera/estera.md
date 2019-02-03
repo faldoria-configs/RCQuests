@@ -1,4 +1,4 @@
-- [Katera](#katera)
+- [Estera](#estera)
   - [Funktionen](#funktionen)
   - [Szene - Debut](#szene---debut)
     - [Dialoge](#dialoge)
@@ -6,7 +6,7 @@
     - [Standort](#standort)
     - [Skin](#skin)
 
-# Katera
+# Estera
 
 Es ranken sich viele Gerüchte um Estera, die einen glauben fest, dass sie unsterbliche Blutsaugerin ist und ihre Gäste in Ihr Gasthaus lockt um sie auszusaugen. Andere behaupten sie hat ihren Mann im Auftrag eines Gottes umgebracht und so kam sie an dieses Gasthaus. Doch eines ist gewiss Estera duldet in ihrem Gasthaus keinen Unfrieden, jeder der in ihrem Gasthaus Stunk macht wir unverzüglich hinaus geschmissen, hier packt sie auch selbst an. Ihr alter kann nur geschätzt werden, man schätzt sie aber auf Anfang 40. Ihr langes dunkelblondes Haar ist stets zu einem Zopf geflochten. Ihre Statur ist etwas kräftiger. Meist trägt sie ein Bordeaux farbenes Leinenkleid mit schwarzen Ärmeln was sich vorne schnüren lässt. Oder eine Kombination aus Bordeaux farbenen Rock mit einer leichten naturfarbenen Leinenbluse. Was aber immer gleichbleibt, ist das sie etwas in mit der Farbe Bordeaux anhat. Gründe dafür sind nicht bekannt und wie so vieles um ihre Person ein Geheimnis.
 
