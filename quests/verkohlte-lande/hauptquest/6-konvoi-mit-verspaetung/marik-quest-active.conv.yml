@@ -3,6 +3,6 @@ stages:
     actions:
       flow:
         - '!text "...Nein! Halt! Lasst mich!..."'
-        - '>"Beruhigt euch, ich bin ein Freund, ich tue euch nichts!"'
+        - '>"Beruhigt Euch, ich bin ein Freund, ich tue Euch nichts!"'
         - 'Tut mir leid, ich… ...argh!... PARRES MIH MERTA! …ich, ich werde angegriffen. Ein anderer Magier greift meinen Verstand an, er muss ganz… PARRES ...ganz in der Nähe sein. Wahrscheinlich in der Nähe des Portals, dort wo die Magie am stärksten ist. Tötet ihn schnell und bringt mir sein Herz, ich weiß nicht wie lange ich das noch aushalte. ...aarrgh…'
         - '!objective.complete this.konvoi 2'

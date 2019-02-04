@@ -2,8 +2,8 @@ stages:
   start:
     actions:
       flow:
-        - 'Und wieder einmal bin ich euch zu Dank verpflichtet. Dieser Krieger wird keine Leben mehr nehmen. Doch brauche ich noch ein letztes Mal eure Hilfe! Der Konvoi, den meine Männer beschützen sollten hätte schon vor einigen Stunden hier eintreffen sollen, doch ich kann diesen Posten nicht verlassen  um nach ihnen zu sehen, könntet ihr das für mich machen?'
+        - 'Und wieder einmal bin ich Euch zu Dank verpflichtet. Dieser Krieger wird keine Leben mehr nehmen. Doch brauche ich noch ein letztes Mal eure Hilfe! Der Konvoi, den meine Männer beschützen sollten hätte schon vor einigen Stunden hier eintreffen sollen, doch ich kann diesen Posten nicht verlassen  um nach ihnen zu sehen, könntet Ihr das für mich tun?'
         - '~10s'
         - '>"Wo muss ich denn nach ihnen suchen?"'
-        - 'Folgt dieser Straße Richtung Osten, von dort sollen sie kommen. Beeilt euch!'
+        - 'Folgt dieser Straße Richtung Osten, von dort sollen sie kommen. Beeilt Euch!'
         - '!quest.start this.konvoi'

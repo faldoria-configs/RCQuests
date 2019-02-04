@@ -2,9 +2,9 @@ stages:
   start:
     actions:
       flow:
-        - 'Wer seid ihr?'
-        - '>"Hauptmann Famir hat mich geschickt um nach euch zu sehen."'
+        - 'Wer seid Ihr?'
+        - '>"Hauptmann Famir hat mich geschickt um nach Euch zu sehen."'
         - 'Uns geht es gut, nur unser Magier Marik ist eben zusammengebrochen und redet wirr, deshalb haben wir Halt gemacht.'
         - '>"Was ist mit ihm?"'
-        - 'Sprecht selbst mit ihm, es scheint ihm nicht gut zu gehen, vielleicht könnt ihr ihm helfen.'
+        - 'Sprecht selbst mit ihm, es scheint ihm nicht gut zu gehen, vielleicht könnt Ihr ihm helfen.'
         - '!objective.complete this.konvoi 1'
