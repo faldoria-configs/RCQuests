@@ -10,7 +10,7 @@ Issue #66
 
 ## Vorrausetzungen
 
-HQ Vinnans helfende Hand](#queststart-vinnans-helfende-hand) abgeschlossen
+HQ [Vinnans helfende Hand](#queststart-vinnans-helfende-hand) abgeschlossen
 
 ## Dialoge
 
@@ -36,7 +36,7 @@ Das klingt aufregend, auf zu Brasso Stein.
 
 
 
-### **`[Quest Start]`** [Den Verkohlten helfen](#den-verkohlten-helfen)
+### **`[Quest Start]`** [Den Verkohlten helfen]
 
 **`Questlog:`**  * Sprecht mit Bras Hohlstein in den Verkohlten Landen *
 

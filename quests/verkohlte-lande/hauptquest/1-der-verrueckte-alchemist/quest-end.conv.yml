@@ -7,16 +7,16 @@ stages:
         - '!stage quest'
 
   quest:
-    text: 'Endlich, da seid ihr ja. Habt ihr gefunden was ich brauchte?'
+    text: 'Endlich, da seid Ihr ja. Habt Ihr gefunden was ich brauche?'
     answers:
       flow:
         - '?objective.complete this.utensilien 1'
         - ':"Ja, hier sind die gesuchten Materialien!"'
         - '!stage quest-end'
         - ':"Nein, ich brauche noch etwas Zeit."'
-        - 'Dann beeilt euch! … noch etwas davon… …immer diese Jünglinge…'
+        - 'Dann beeilt Euch! … noch etwas davon… …immer diese Jünglinge…'
         - '!end'
-        - ':"Wo finde ich was du suchst?"'
+        - ':"Wo finde ich was Ihr sucht?"'
         - 'Die Blumen sprießen hier überall aus dem Boden und die Splitter scheinen diese Kreaturen bei sich zu tragen.'
         - '!end'
 
@@ -30,9 +30,9 @@ stages:
         - '!explosion this.alchemie-kolben'
         - '!text "...neeiin, was ist nur schiefgelaufen? Die ganze Arbeit… alles umsonst!"'
         - '~2s'
-        - '>"Was ist passiert? Geht es euch gut?"'
-        - 'Nein, es geht mir nicht gut! So ein Fehler passiert sonst nur den Novizen, nicht aber einem erfahrenen Alchemisten wie mir. ...ich habe wohl… …ach nein… Könntet ihr noch etwas für mich tun? Dieser Bericht muss zum Armeeführer des Lagers gebracht werden, am besten so schnell es geht.'
+        - '>"Was ist passiert? Geht es Euch gut?"'
+        - 'Nein, es geht mir nicht gut! So ein Fehler passiert sonst nur den Novizen, nicht aber einem erfahrenen Alchemisten wie mir. ...ich habe wohl… …ach nein… Könntet Ihr noch etwas für mich tun? Dieser Bericht muss zum Armeeführer des Lagers gebracht werden, am besten so schnell es geht.'
         - '~5s'
         - '>"Natürlich, ich mache mich sofort auf den Weg."'
-        - 'Ich danke euch und nun eilt, es ist wichtig! ...alles nochmal…'
+        - 'Ich danke Euch und nun eilt, es ist wichtig! ...alles nochmal…'
         - '!quest.complete this.utensilien'
