@@ -20,6 +20,8 @@ Siehe [Dialog 1](#dialog-1): Offensichtlich soll hier nicht der Name des NPCs st
 
 > Bericht in Buch übertragen?
 
+Hat Bras dann den Namen "Alter Mann" über dem Kopf?
+
 ## Übersicht <!-- omit in toc -->
 
 - [Ablauf](#ablauf)
@@ -35,39 +37,43 @@ Siehe [Dialog 1](#dialog-1): Offensichtlich soll hier nicht der Name des NPCs st
   - [**`[Quest Ende]`** Den Verkohlten helfen](#quest-ende-den-verkohlten-helfen)
 - [NPCs](#npcs)
 - [`Bras Hohlstein`](#bras-hohlstein)
-    - [Standartsätze](#standarts%C3%A4tze)
-      - [Vor der Quest](#vor-der-quest)
-      - [Während der Quest](#w%C3%A4hrend-der-quest)
-      - [Nach der Quest](#nach-der-quest)
-    - [Ausrüstung](#ausr%C3%BCstung)
-    - [Standort](#standort)
+  - [`Standartsätze`](#standarts%C3%A4tze)
+    - [Vor der Quest](#vor-der-quest)
+    - [Während der Quest](#w%C3%A4hrend-der-quest)
+    - [Nach der Quest](#nach-der-quest)
+  - [`Ausrüstung`](#ausr%C3%BCstung)
+  - [`Standort`](#standort)
 - [`Armeeführer`](#armeef%C3%BChrer)
-    - [Standartsätze](#standarts%C3%A4tze-1)
-      - [Vor der Quest](#vor-der-quest-1)
-      - [Während der Quest](#w%C3%A4hrend-der-quest-1)
-      - [Nach der Quest](#nach-der-quest-1)
-    - [Ausrüstung](#ausr%C3%BCstung-1)
-    - [Standort](#standort-1)
+  - [Standartsätze](#standarts%C3%A4tze)
+    - [Vor der Quest](#vor-der-quest-1)
+    - [Während der Quest](#w%C3%A4hrend-der-quest-1)
+    - [Nach der Quest](#nach-der-quest-1)
+  - [Ausrüstung](#ausr%C3%BCstung)
+    - [Standort](#standort)
 - [Items](#items)
-  - [Itemname](#itemname)
+  - [Feuerpflanze](#feuerpflanze)
+  - [Magmasplitter](#magmasplitter)
+  - [Starkes Gift der Schwäche ???](#starkes-gift-der-schw%C3%A4che)
+  - [Flasche mit grüner Flüssigkeit (Gift)](#flasche-mit-gr%C3%BCner-fl%C3%BCssigkeit-gift)
+  - [Bericht des Alchemisten](#bericht-des-alchemisten)
+  - [Buch?](#buch)
 - [Mobs](#mobs)
   - [Mobname](#mobname)
-    - [Ausrüstung](#ausr%C3%BCstung-2)
+  - [Hungriger Wolf](#hungriger-wolf)
+    - [Ausrüstung](#ausr%C3%BCstung-1)
 - [Belohnung](#belohnung)
 - [Referenzen](#referenzen)
-- [---](#)
 - [Issues](#issues)
-  - [Erstellen eines Issues](#erstellen-eines-issues)
-  - [Issue abschließen](#issue-abschlie%C3%9Fen)
 
 
 ## Ablauf
 1. Der/die Spieler*in wird von Vinnan ins Jorgendderlager ins Reldostal geschickt, um Bras zu treffen und ihm zu helfen. 
-2. Er trifft auf einen alten Mann, dem er helfen soll, erkennt ihn aber nicht als Brass.
+2. Er trifft auf einen alten Mann, dem er helfen soll, erkennt ihn aber nicht als Bras.[Dialog 1](#dialog-1)
 3. Er besorgt für Bras Zutaten für ein Experiment.
 4. Das geht schief.
 5. Bras möchte nun, dass er einen Bericht ins Armeelager bringt.
-6. 
+6. Der/die Spieler*in bringt den Bericht zum Armeeführer. [Dialog 3](#dialog-3)
+7. 
 
 
 ## Vorraussetzungen
@@ -227,39 +233,7 @@ Warum habt Ihr mir nicht gesagt, dass Ihr Bras Hohlstein seid? Vinnan schickte m
 
 ### **`[Quest Ende]`** [Den Verkohlten helfen](#den-verkohlten-helfen)
 
->> Weiß nicht, ob das wirklich zwei Optionen sein sollten...
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-    
-
-
-
+>> Weiß nicht, ob das wirklich zwei Optionen sein sollten?
 
 
 
@@ -270,18 +244,18 @@ Warum habt Ihr mir nicht gesagt, dass Ihr Bras Hohlstein seid? Vinnan schickte m
 
 ## NPCs
 
-Unter NPCs finden sich alle NonPlayerCharaktere wieder die für die Quest relevant sind. Diese sind einzeln zu trennen.
 
 ## `Bras Hohlstein`
 
 Bras Hohlstein hat einen langen, weißgrauen Bart und trägt eine lange Robe, sein Blick ist etwas verwirrt.
 
-#### Standartsätze  
 
-##### Vor der Quest
-1. Dies passiert wenn der Spieler beispielsweise bestimmte Questvorraussetzungen noch nicht erfüllt.
+### `Standartsätze`  
 
-##### Während der Quest  
+#### Vor der Quest
+**Alter Mann:** `....noch einen Tropfen hier... und ein Schlückchen da...  *der alte Mann scheint dich nicht zu bemerken...`  
+
+#### Während der Quest  
 Nach der Frage: Endlich, da seid Ihr ja. Habt Ihr gefunden was ich brauche?
 
 1. Nein, ich brauche noch etwas Zeit.   
@@ -290,52 +264,41 @@ Nach der Frage: Endlich, da seid Ihr ja. Habt Ihr gefunden was ich brauche?
 2. Wo finde ich was Ihr sucht?   
    **Alter Mann:** `Die Blumen sprießen hier überall aus dem Boden und die Splitter scheinen diese Kreaturen bei sich zu tragen.`
 
+#### Nach der Quest
 
-##### Nach der Quest
-1. Das erfolgreiche Abschließen der Quest kann zu Sätzen führen, die den Spieler an diese erinnern, wenn er den NPC noch mal anspricht.
-2. Aber es kann auch unterschiedliche Dialoge geben, je nachdem wie der Spieler die Quest abgeschlossen hat, wenn es bei den Entscheidungen mehrere Möglichkeiten gab.
+**Alter Mann:** `Ah, mein Gehilfe kommt zurück? Ihr wollt mich weiter unterstützen? ..Nein? ..Schade. `
     
-#### Ausrüstung
+### `Ausrüstung`
 
-Unter diesem Punkt soll angegeben werden welche Art Skin der NPC haben sollte, ob er etwas in der Hand hält oder gar Rüstung trägt.
+Hält eine Glasflasche in der Hand
+Skin ID 
 
-#### Standort   
 
-Alchemielabor vor dem Jorgendder Lager in den Verkohlten Landen   
+### `Standort`
+
+Der Standort ist die einfache Angabe der Koordinaten des NPCs in einem bestimmten Format. 
 
 ```yml
 x: 691
 y: 93
-z: -1451
+z: 1451
 world: faldoria.verkohlte-lande
 ```
 
 ## `Armeeführer`
 
+### Standartsätze  
 
-#### Standartsätze  
 
-Standartsätze sind sind einfache Sätze die der NPC von sich gibt wenn man ihn anspricht. Diese Sätze sollten im Regelfall einen Teil der Geschichte der Welt, seine Story, Questhinweise oder sonstige interessante Dinge beinhalten. 
-Diese Dialoge können zu drei unterschiedlichen Zeiten passieren.
-
-##### Vor der Quest
-1. Dies passiert wenn der Spieler beispielsweise bestimmte Questvorraussetzungen noch nicht erfüllt.
-
-##### Während der Quest  
-1. Zu diesem Zeitpunkt ist es meist interessant wenn man dem Spieler Informationen oder Hinweise zur vom NPC gegebenen Quest gibt.
-
-##### Nach der Quest
-1. Das erfolgreiche Abschließen der Quest kann zu Sätzen führen, die den Spieler an diese erinnern, wenn er den NPC noch mal anspricht.
-2. Aber es kann auch unterschiedliche Dialoge geben, je nachdem wie der Spieler die Quest abgeschlossen hat, wenn es bei den Entscheidungen mehrere Möglichkeiten gab.
+#### Vor der Quest
+#### Während der Quest  
+#### Nach der Quest
     
-#### Ausrüstung
+### Ausrüstung
 
 Unter diesem Punkt soll angegeben werden welche Art Skin der NPC haben sollte, ob er etwas in der Hand hält oder gar Rüstung trägt.
 
 #### Standort
-
-Kommandanturzelt im Lager (685,97,-1486)
-
 
 ```yml
 x: 685
@@ -344,17 +307,108 @@ z: -1486
 world: faldoria.verkohlte-lande
 ```
 
+
 ## Items
 
-Unter Items finden sich alle Items wieder die verwendet werden. Neue Items werden in der Quest beschrieben. Ist es ein schon vorhandenes ist die ID des Items anzugeben.
 
-### Itemname
+### Feuerpflanze
 
-Nach dem exakten Namen des Items folgt eine kurze Beschreibung des Items, ob es dropt oder verkauft wird, bzw. die Relation zur Quest und wenn das Item schon vorhanden ist folgt die ID des Items. Des Weiteren folgt bei neuen Items eine Auflistung von Parametern in einem bestimmten Format.
+Wird gesammelt
 
-![](img/example_itemname.png)
+```yml
+ID: 372  
+name: Feuerpflanze
+type: QUEST
+quality: Common 
+item: nether_wart
+lore: Ein unentbehrlicher Zusatz für Liebestränke
+max-stack-size: 16
+```
 
-Sollte es mehr als ein Item geben wird jedes einzelne getrennt angegeben.
+### Magmasplitter
+
+Wird gesammelt? Drop aus Kies?
+
+```yml
+ID: 318
+name: Magmasplitter
+type: QUEST
+quality: Common 
+item: flint
+lore: 
+max-stack-size: 64
+```
+
+### Starkes Gift der Schwäche ???
+
+
+
+```yml
+ID: ?
+name: Wolfskopf
+type: QUEST
+quality: RARE 
+item: ?
+lore: Die Zähne sind immer noch scharf.
+max-stack-size: 1
+```
+
+### Flasche mit grüner Flüssigkeit (Gift)
+
+```yml
+ID: ?
+name: 
+type: QUEST
+quality: RARE 
+item: ?
+lore: 
+max-stack-size: 1
+```
+### Bericht des Alchemisten
+
+```yml
+ID: ?
+name: Bericht des Alchemisten
+type: QUEST
+item: written_book
+book:
+  name: Aufzeichnungen des Magisters Bras Hohlstein an den Magisterrat in Kaltenstrom
+  author: Bras Holstein
+```
+Nachdem meine Utensilien herbeigeschafft worden waren, machte ich mich daran, die Erde in diesem Gebiet gründlich zu untersuchen. Einige der Bestandteile sind mir wohlbekannt, andere wiederum sind mir vollkommen neu.    
+Eine dieser unbekannten Substanzen ist ein grünlicher Schleim, der an einigen Stellen aus dem Boden austritt.    
+Anbei liegt eine Probe dieser Substanz, in einem verstärktem Glas, da sie auf einige Flüssigkeiten explosiv reagiert und zudem noch leicht entzündlich ist, wie ich selbst feststellen musste.   
+
+
+Ich denke ich werde noch einige Zeit brauchen, bis ich alles gefunden habe, was in diesem Boden enthalten ist. Ich bitte daher um Zustellung einiger weiterer Materialien:   
+-zwei Reagenzgläser   
+-ein Rundkolben    
+-eine Elle Kuhdarm, da die Schweinedärme nicht als Schläuche taugen   
+-ein paar Spinnenaugen    
+Und ein Vergrößerungsglas in hoher Qualität   
+
+
+ Wenn möglich auch einen Novizen  (für etwas gefährlichere Experimente)
+
+
+Vielen Dank
+Bras Hohlstein
+
+
+### Buch?
+
+```yml
+ID: ?
+name: 
+type: QUEST
+quality: RARE 
+item: ?
+lore: 
+max-stack-size: 1
+```
+
+
+
 
 ## Mobs
 
@@ -364,15 +418,31 @@ Wie schon bei den Items finden sich hier alle in der Quest vorkommenden Mobs wie
 
 Dem Mobnamen folgen in einem bestimmten Format einige Parameter. Zu Beginn sind diese noch spekulativ einzutragen, mit der Zeit allerdings wird es gewisse Vorgaben bzw. Vorlagen geben zu welchem Zeitpunkt welche Parameter nicht über bzw. unterschritten werden sollten.
 
-![](img/example_mobparameter.png)
+### Hungriger Wolf
+
+```yml
+name: Hungriger Wolf
+type: wolf
+aggro: true
+passive: false
+elite: true
+min-level: 8
+max-level: 8
+```
+```yml
+x: 535
+y: 101
+z: -2121
+world: faldoria.verkohlte-lande
+radius: 5
+```
+
 
 #### Ausrüstung
 
-Unter diesem Punkt kann angegeben werden, sofern dieser Art von Anpassung möglichist, welche Waffe der Mob in der hand hält, welchen Skin er haben soll oder welche Rüstungen er trägt.
+Unter diesem Punkt kann angegeben werden, sofern dieser Art von Anpassung möglich ist, welche Waffe der Mob in der Hand hält, welchen Skin er haben soll oder welche Rüstungen er trägt.
 
 ## Belohnung
-
-In den Belohungen finden sich alle Dinge wieder, die der Spieler erhält wenn er die Quest abschließt. Hier ist alles möglich was die Kreativität hergibt, doch es sollte im Regelfall einen Zweck dienen. Hinweis: Wenn hier Items vorkommen auch diese bitte hier mit ID angeben oder sollten sie hier angelegt worden sein zum jeweiligen Item verlinken.
 
 Und hey, für das Lesen dieses Markdowns erhälst auch du was.
 > 250 Ruf bei `Gott TheFum`  
@@ -381,43 +451,9 @@ Und hey, für das Lesen dieses Markdowns erhälst auch du was.
 
 ## Referenzen
 
-Unter den Referenzen können diverse Dinge angegeben werden. Verlinkungen zu wichtigen Quests die hiermit zu tun haben, Forenbeiträge, die IssueID im Git, Karten, etc.  
-Ich werde ein paar Links da lassen.
+https://docs.google.com/document/d/10viAI_ffsf0m6g3VLAa2PaYsH2bxOplo8bmE1v8e5rs/edit
 
-* [Beispiel Quest](../quests/ankanor/nebenquest/5-hilf-dem-lagerarbeiter/README.md) - Die von mir verwendete Quest für die Beispiele.
-* [Markdown Formatierung](https://support.zendesk.com/hc/de/articles/203691016-Formatieren-von-Text-mit-Markdown) - Eine kleine Übersicht der Wichtigsten Formatierungen die verwendet werden. (Bessere Links bitte melden oder selbst eintragen)
-* [Webinterface Items](https://app.faldoria.de/items) / [Forenlink](https://faldoria.de/board/index.php?thread/491-tof-webinterface-f%C3%BCr-admins/) - Hier befindet sich das Interface wo wir Items erstellen bzw. die Übersicht der Vorhandenen.
-* [Faldoria Git-Issues](https://git.faldoria.de/groups/tof/-/issues) - Hier findest du alle Issues die in unserem Git erstellt worden sind. 
-
----
----
 
 ## Issues
 
-Dieses Wort ist dir vielleicht schon das ein oder andere mal untergekommen, hier oder auch in anderen Dokumenten. Wir nutzen die Issues zur Dokumentation des Prozesses der gesamten Quest-Entwicklung, von der Idee bis zum Aufspielen auf den Live-Server.  
-Unter den Issues gibt es eine Kommentarfunktion sodass man auch direkt darüber kommunizieren kann wenn Fragen, Hinweise oder dergleichen auftauchen.
 
-### Erstellen eines Issues
-
-Wichtig ist das sollte es beim Erstellen der Ordnerstruktur, bzw. des ersten Entwurfes kein Eintrag im Issue-Board zu der Quest geben, ist dieser anzulegen.
-
-1. Hierzu einfach auf `New Issue` klicken.
-2. Bei `Choose Template` Quest auswählen, dies gibt euch schon die die angelegte Vorlage für die Issues welche ihr nur noch ausfüllen müsst.
-3. Titel der Issue ist `Ort: Questart [Name der Quest]`
-4. Füllt eine kurze `Zusammenfassung` zu Beginn ein.
-5. Ersetzt in der Vorlage das `Readme.md` im ersten Punkt mit dem Link zum Quest Ordner im Git
-6. Assigned euch die Issue wenn ihr an der Quest selbst arbeitet.
-7. Fügt den passenden Milestone hinzu, sofern vorhanden.
-8. Klickt auf `Submit Issue`
-
-Schon habt ihr ein Issue erstellt.
-
-Nun arbeitet ihr an der Quest und gebt jedesmal wenn ihr Änderungen im Git speichert (comitted) die IssueID mit #ID im Kommentar zum commit an.
-
-### Issue abschließen
-
-Sobald ihr fertig seid müsst ihr die Quest zur Implementierung an die Quest-Skripter freigeben. 
-
-1. Hakt die ersten beiden Punkte der Liste ab, sofern erledigt.
-2. `Unassigned` euch selbst.
-3. Fertig!
