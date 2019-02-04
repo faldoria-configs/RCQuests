@@ -32,6 +32,7 @@ Siehe [Dialog 1](#dialog-1): Offensichtlich soll hier nicht der Name des NPCs st
   - [`[Quest Start]` [Ein seltsamer Bericht]](#quest-start-ein-seltsamer-bericht)
   - [`Dialog 3`](#dialog-3)
   - [`[Quest Start]` [Hilfe für Hauptmann Famir]](#quest-start-hilfe-f%C3%BCr-hauptmann-famir)
+  - [**`[Quest Ende]`** Den Verkohlten helfen](#quest-ende-den-verkohlten-helfen)
 - [NPCs](#npcs)
 - [`Bras Hohlstein`](#bras-hohlstein)
     - [Standartsätze](#standarts%C3%A4tze)
@@ -224,7 +225,7 @@ Warum habt Ihr mir nicht gesagt, dass Ihr Bras Hohlstein seid? Vinnan schickte m
 `2. Nehmt dieses Buch, es führt in eine alte Ruine in den Bergen, es lohnt sich dort vorbeizuschauen und nun geht! …das in dieses Glas… ...etwas davon...`
 
 
-**`[Quest Ende]`** [Den Verkohlten helfen](#den-verkohlten-helfen)
+### **`[Quest Ende]`** [Den Verkohlten helfen](#den-verkohlten-helfen)
 
 >> Weiß nicht, ob das wirklich zwei Optionen sein sollten...
 
