@@ -20,7 +20,7 @@ keine / oder Aufforderung im Lobby-Gasthaus angenommen?
 
 ### `Dialog 1`
 
-@DAvId
+@DAvId   
 Die Spielerin spawnt in einem kleinen Zimmer, von dem aus sie Zugang zu einer Terrasse mit grandiosem Blick über die Insel hat. Der einzige Weg führt von hier aus nach unten, so dass die Spielerin gezwungen ist, auf die Terrasse zu gehen, um nach unten zu kommen. Auf dem Weg nach unten kann dann Shicho sie irgendwo abfangen.
 
  Sobald der Spieler "aufwacht/spawnt" hört er (nach wenigen Sekunden??) eine Stimme:
