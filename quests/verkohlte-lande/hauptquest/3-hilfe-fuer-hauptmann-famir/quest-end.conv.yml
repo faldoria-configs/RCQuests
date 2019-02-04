@@ -1,6 +1,6 @@
 stages:
   start:
-    text: 'Ich weiß nicht wie ich mich bei euch bedanken soll, doch nehmt diese Silbertaler als dankeschön. Außerdem habe ich einen Brief der schnellstmöglich nach Kaltenstrom gebracht werden muss. Dies ist meine letzte Bitte. Würdet ihr das noch erledigen?'
+    text: 'Ich weiß nicht wie ich mich bei Euch bedanken soll, doch nehmt diese Silbertaler als dankeschön. Außerdem habe ich einen Brief, der schnellstmöglich nach Kaltenstrom gebracht werden muss. Dies ist meine letzte Bitte. Würdet Ihr das noch erledigen?'
     answers:
       flow:
         - ':"Ich bin schon fast unterwegs, nur in welche Richtung muss ich?"'

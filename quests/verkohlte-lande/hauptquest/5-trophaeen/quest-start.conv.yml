@@ -2,8 +2,8 @@ stages:
   start:
     actions:
       flow:
-        - 'Wie ich sehe seid ihr ein guter Kämpfer, solche wie euch kann ich gut gebrauchen. Eben kam ein Späher, der von einem kleinen Lager weiter im Süden berichtet, dort soll sich ein Anführer dieser Monster aufhalten, allerdings brauche ich die meisten meiner Männer um einen Konvoi zu beschützen, daher brauche ich eure Hilfe.'
+        - 'Wie ich sehe seid Ihr ein guter Kämpfer, solche wie Euch kann ich gut gebrauchen. Eben kam ein Späher, der von einem kleinen Lager weiter im Süden berichtet, dort soll sich ein Anführer dieser Monster aufhalten, allerdings brauche ich die meisten meiner Männer um einen Konvoi zu beschützen, daher brauche ich Eure Hilfe.'
         - '~8s'
         - '>"Was soll ich tun, auch seinen Kopf mitbringen?"'
-        - 'Nein, dieses Mal geht es um etwas anderes, dieser Krieger hat einige meiner Männer getötet und trägt nun ihre Waffen als Trophäen. Ich möchte, dass ihr sie zurückbringt.'
+        - 'Nein, dieses Mal geht es um etwas anderes, dieser Krieger hat einige meiner Männer getötet und trägt nun ihre Waffen als Trophäen. Ich möchte, dass Ihr sie zurückbringt.'
         - '!quest.start this.trophaeen'

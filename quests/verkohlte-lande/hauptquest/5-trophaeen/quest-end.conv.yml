@@ -1,23 +1,23 @@
 stages:
   start:
-    text: 'Habt ihr es geschafft?'
+    text: 'Habt Ihr es geschafft?'
     answers:
       flow:
         - ':"Nein, ich benötige noch etwas Zeit."'
-        - 'Bereitet euch gut vor, es ist kein leichter Gegner.'
+        - 'Bereitet Euch gut vor, es ist kein leichter Gegner.'
         - '!end'
         - ':"Ja, ich habe ihn besiegt."'
         - '!stage waffen'
 
   waffen:
-    text: 'Gut, dass ihr dieses Monster erledigt habt! Sagt, wie viele der Waffen konntet ihr retten?'
+    text: 'Gut, dass Ihr dieses Monster erledigt habt! Sagt, wie viele der Waffen konntet ihr retten?'
     answers:
       flow:
         - ':"[Lügen] Ich konnte drei Waffen aus dem Lager bergen."'
         - '!tag verkohlte-lande.trophaen.3-waffen'
-        - 'Ich danke euch, nun können wir den Verstorbenen die Nötige Ehre erweisen.'
+        - 'Ich danke Euch, nun können wir den Verstorbenen die Nötige Ehre erweisen.'
         - '!quest.complete this.trophaeen'
         - :"Ich habe fünf Waffen mitbringen können."
         - '!tag verkohlte-lande.trophaen.5-waffen'
-        - 'Ich danke euch, nun können wir den Verstorbenen die Nötige Ehre erweisen.'
+        - 'Ich danke Euch, nun können wir den Verstorbenen die Nötige Ehre erweisen.'
         - '!quest.complete this.trophaeen'

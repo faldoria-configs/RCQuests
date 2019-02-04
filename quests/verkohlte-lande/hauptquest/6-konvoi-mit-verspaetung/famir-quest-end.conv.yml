@@ -1,10 +1,10 @@
 stages:
   start:
-    text: 'Habt ihr sie gefunden?'
+    text: 'Habt Ihr sie gefunden?'
     answers:
       flow:
         - ':"Noch nicht."'
-        - 'Dann beeilt euch bitte!'
+        - 'Dann beeilt Euch bitte!'
         - '!end'
         - '?objective.complete this.konvoi 4'
         - ':"Ja, sie sind gerade auf dem Weg."'
