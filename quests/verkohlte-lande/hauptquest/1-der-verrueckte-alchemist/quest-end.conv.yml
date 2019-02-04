@@ -31,7 +31,7 @@ stages:
         - '!text "...neeiin, was ist nur schiefgelaufen? Die ganze Arbeit… alles umsonst!"'
         - '~2s'
         - '>"Was ist passiert? Geht es Euch gut?"'
-        - 'Nein, es geht mir nicht gut! So ein Fehler passiert sonst nur den Novizen, nicht aber einem erfahrenen Alchemisten wie mir. ...ich habe wohl… …ach nein… Könntet Ihr noch etwas für mich tun? Dieser Bericht muss zum Armeeführer des Lagers gebracht werden, am besten so schnell es geht.'
+        - 'Nein, es geht mir nicht gut! So ein Fehler passiert sonst nur den Novizen, nicht aber einem erfahrenen Alchemisten wie mir. ...ich habe wohl… …ach nein… Könntet Ihr noch etwas für mich tun? Dieser Bericht und die Probe muss zum Armeeführer des Lagers gebracht werden, am besten so schnell es geht.'
         - '~5s'
         - '>"Natürlich, ich mache mich sofort auf den Weg."'
         - 'Ich danke Euch und nun eilt, es ist wichtig! ...alles nochmal…'

@@ -2,13 +2,14 @@
 
 Issue #70      
 
-NPC: [Bras Hohlstein](#bras-hohlstein)    
-     [Armeeführer](#armeeführer)
+NPCs:   
+[Bras Hohlstein](#bras-hohlstein)    
+[Armeeführer](#armeeführer)
 
-Untergeordnete Quests:
-[Der alte Greis](#der-alte-greis)
-[Ein paar Untensilien](#ein-paar-utensilien)
-[Ein seltsamer Bericht](#ein-seltsamer-bericht)
+Untergeordnete Quests:   
+[Der alte Greis](#der-alte-greis)   
+[Ein paar Untensilien](#ein-paar-utensilien)   
+[Ein seltsamer Bericht](#ein-seltsamer-bericht)   
 
 
 ## Noch zu tun/Probleme <!-- omit in toc -->
@@ -16,6 +17,8 @@ Untergeordnete Quests:
 Probleme s. GoogleDoc: https://docs.google.com/document/d/10viAI_ffsf0m6g3VLAa2PaYsH2bxOplo8bmE1v8e5rs/edit
 
 Siehe [Dialog 1](#dialog-1): Offensichtlich soll hier nicht der Name des NPCs stehen, sondern "verrückter Alchemist" - eigentlich findet das der/die Spieler*in selber heraus, so habe ich "alter Mann" eingesetzt, das, was er/sie sieht.
+
+> Bericht in Buch übertragen?
 
 ## Übersicht <!-- omit in toc -->
 
@@ -27,6 +30,8 @@ Siehe [Dialog 1](#dialog-1): Offensichtlich soll hier nicht der Name des NPCs st
   - [`[Quest Start]` [Ein paar Utensilien]](#quest-start-ein-paar-utensilien)
   - [`Dialog 2`](#dialog-2)
   - [`[Quest Start]` [Ein seltsamer Bericht]](#quest-start-ein-seltsamer-bericht)
+  - [`Dialog 3`](#dialog-3)
+  - [`[Quest Start]` [Hilfe für Hauptmann Famir]](#quest-start-hilfe-f%C3%BCr-hauptmann-famir)
 - [NPCs](#npcs)
 - [`Bras Hohlstein`](#bras-hohlstein)
     - [Standartsätze](#standarts%C3%A4tze)
@@ -57,6 +62,11 @@ Siehe [Dialog 1](#dialog-1): Offensichtlich soll hier nicht der Name des NPCs st
 
 ## Ablauf
 1. Der/die Spieler*in wird von Vinnan ins Jorgendderlager ins Reldostal geschickt, um Bras zu treffen und ihm zu helfen. 
+2. Er trifft auf einen alten Mann, dem er helfen soll, erkennt ihn aber nicht als Brass.
+3. Er besorgt für Bras Zutaten für ein Experiment.
+4. Das geht schief.
+5. Bras möchte nun, dass er einen Bericht ins Armeelager bringt.
+6. 
 
 
 ## Vorraussetzungen
@@ -64,9 +74,9 @@ Siehe [Dialog 1](#dialog-1): Offensichtlich soll hier nicht der Name des NPCs st
 HQ-Reihe in Jarmundshain abgeschlossen: 
 
 HQ [Vinnans helfende Hand](#queststart-vinnans-helfende-hand) abgeschlossen  <--- falscher Link
-HQ [Den Verkohlten helfen](#den-verkohlten-helfen)
+HQ [Den Verkohlten helfen](#den-verkohlten-helfen) offen!
 
-Bestimmter lvl Vorraussetzung?
+Bestimmter lvl Vorraussetzung?   
 Welche Items nötig?
 
 
@@ -91,7 +101,7 @@ Welche Items nötig?
 2. Ich sammle Informationen über dieses Gebiet!  
    **Alter Mann:** `Oh, endlich mal jemand, der seinen Wissensdurst auch nicht stillen kann. Könntet Ihr mir bei etwas helfen?`   
 3. Ich suche Brass Hohlstein.    
-   **Alter Mann:** `*kratz sich hinterm Ohr* So, so, Brass Hohlstein sucht Ihr, sollte ich den kennen? Aber mal was ganz anderes, Ihr könntet doch sicherlich einem alten Mann etwas zur Hand gehen?` 
+   **Alter Mann:** `*kratz sich hinterm Ohr* So, so, Bras Hohlstein sucht Ihr, sollte ich den kennen? Aber mal was ganz anderes, Ihr könntet doch sicherlich einem alten Mann etwas zur Hand gehen?` 
 
 > Antwortmöglichkeiten auf alle Fragen:
 
@@ -114,10 +124,14 @@ Welche Items nötig?
 **Alter Mann:** `...so ein Mist… ...wie konnte ich nur…`     
 *Räusper*   
 **Alter Mann:** `Endlich, da seid ihr ja. Habt ihr gefunden was ich brauchte?`  
-Ja, hier sind die gesuchten Materialien!   
-**Alter Mann:** `Jaa! Es klappt, ich habe...  *Lauter Knall* (vielleicht eine Partikelexplosion?) ...neeiin, was ist nur schiefgelaufen? Die ganze Arbeit… alles umsonst!`  
+Ja, hier sind die gesuchten Materialien!
+**Alter Mann:** `Wunderbar! Gebt sie in diesen Kolben.` 
+*wirf die Materialien in den Kolben*  
+
+**Alter Mann:** `Jaa! Es klappt, ich habe...  *Lauter Knall*` (vielleicht eine Partikelexplosion?)    
+**Alter Mann:** `...neeiin, was ist nur schiefgelaufen? Die ganze Arbeit… alles umsonst!`     
 Was ist passiert? Geht es Euch gut?
-**Alter Mann:** `Nein, es geht mir nicht gut! So ein Fehler passiert sonst nur den Novizen, nicht aber einem erfahrenen Alchemisten wie mir. ...ich habe wohl… …ach nein… Könntet Ihr noch etwas für mich tun? Dieser Bericht muss zum Armeeführer des Lagers gebracht werden, am Besten so schnell es geht.`   
+**Alter Mann:** `Nein, es geht mir nicht gut! So ein Fehler passiert sonst nur den Novizen, nicht aber einem erfahrenen Alchemisten wie mir. ...ich habe wohl… …ach nein… Könntet Ihr noch etwas für mich tun? Dieser Bericht und die Probe muss zum Armeeführer des Lagers gebracht werden, am Besten so schnell es geht.`   
 Natürlich, ich mache mich sofort auf den Weg!
 
 `[Quest Ende]`[Ein paar Untensilien](#ein-paar-utensilien)
@@ -152,6 +166,73 @@ Wenn möglich auch einen Novizen  (für etwas gefährlichere Experimente)
 Vielen Dank
 Bras Hohlstein
 ******
+
+**Spieler*in begibt sich zum Armeeführer**
+
+### `Dialog 3`
+
+**Armeeführer:** `Was wünscht Ihr?`  
+Ich soll Euch einen Brief und eine... Probe.. von dem verwirrten Alten vor dem Lager überbringen.
+
+`[Quest Ende]` [Ein seltsamer Bericht](#ein-seltsamer-bericht)   
+> Bericht und Fläschchen aus dem Inventar entfernt
+
+**Armeeführer:** `Ich danke Euch, braucht der Alte Alchemist wieder etwas von seinen berauschenden Kräutern? `  
+Berauschende Kräuter?      
+**Armeeführer:** `Ja, er nimmt haufenweise davon zu sich, anscheinend bringen sie ihn manchmal etwas durcheinander. Aber das scheint ihr ja schon selbst erlebt zu haben, dem Knall nach zu urteilen.`  
+Wer ist dieser Alte?   
+**Armeeführer:** `Ein Magister der Alchemie und ein sehr guter noch dazu. Wenn er nicht so viele Kräuter kauen würde!`   
+Alchemie... *dir dämmert etwas* ..doch nicht etwas Bras Holstein?
+**Armeeführer:** `Doch genau, kennt Ihr ihn?`  
+Nein, aber der Dorfälteste aus Jarmundshain, Vinnan, schickte mich zu ihm, um ihm zu helfen. 
+**Armeeführer:** `*nickt nur*` 
+
+Ich würde euch gerne noch einige Fragen stellen, erlaubt Ihr?   
+**Armeeführer:** `Nur zu.`     
+
+
+1.Warum lagert die Armee hier am Rand des Tals?      
+**Armeeführer:** `Wie Ihr vielleicht bemerkt habt geht es hier nicht mit rechten Dingen zu. Die Magier, die in der Zitadelle im Osten lebten haben sich wieder einmal mit Mächten auseinandergesetzt, die sie nicht kontrollieren konnten. Und nun seht Ihr was daraus hervorgegangen ist. Nichts als Leid und Elend.`      
+
+2. Woher kommen diese ekelhaften Kreaturen?    
+   **Armeeführer:**  `Sie kommen  aus einem Portal nicht weit von hier, doch niemand weiß, wo dieses Portal hinführt. `
+
+3. Wie weit ist es bis Kaltenstrom? Das ist doch die nächstgrößere Stadt hier, nicht wahr?
+**Armeeführer:** èine halbe Tagesreise? *zuckt mit den Schultern* Kommt drauf an, wie schnell Ihr reist.`
+
+
+**Armeeführer:**  `Nun muss ich aber weitermachen, meldet Euch beim Gehen unbedingt nochmals bei dem Alten, bei Bras Holstein. Und wenn Ihr schon auf dem Weg seid, schaut auch mal bei Hauptmann Famir vorbei, er kann bestimmt Eure Hilfe gebrauchen.`  
+
+### `[Quest Start]` [Hilfe für Hauptmann Famir]
+
+**`Questlog:`** *Sprecht mit Hauptmann Famir Steinhaupt auf der Straße vor dem Jorgendder Lager Richtung Osten.*
+
+*Du spürst das dringende Verlangen, sofort nochmal mit dem alten Mann zu reden, nachdem du jetzt weißt, dass es Bras Hohlstein ist.*
+
+>> Ich startete jetzt nicht nochmals eine Quest, damit der/die Spieler*in nochmals mit Bras redet, sonder schließe die Quest [Den Verkohlten helfen] erst danach ab. 
+
+**Bras Holstein** `Ah, da seid ihr ja wieder, ich wollte euch für Eure Hilfe danken..`  
+Warum habt Ihr mir nicht gesagt, dass Ihr Bras Hohlstein seid? Vinnan schickte mich, um euch zu helfen.
+**Bras Holstein** `Hat er? Ja, guter Mann, dieser Vinnan. Aber nun geht... nein.. wartet... ich wollte Euch etwas geben.`  
+1. *Du schaust erwartungsvoll*
+2. *Du schaust sehr genervt*
+3. *Du schaust etwas ungeduldig, hälst dich aber zurück und sagst nichts*
+
+**Bras Holstein** 
+
+`1. Nehmt dieses Fläschchen, es ist mit einem starken Gift gefüllt, und nun geht! ...das in dieses Glas… ...etwas davon... ein Novize wäre wirklich hilfreich...`   
+`2. Nehmt dieses Buch, es führt in eine alte Ruine in den Bergen, es lohnt sich dort vorbeizuschauen und nun geht! …das in dieses Glas… ...etwas davon...`
+
+
+**`[Quest Ende]`** [Den Verkohlten helfen](#den-verkohlten-helfen)
+
+>> Weiß nicht, ob das wirklich zwei Optionen sein sollten...
+
+
+
+
+
+
 
 
 
