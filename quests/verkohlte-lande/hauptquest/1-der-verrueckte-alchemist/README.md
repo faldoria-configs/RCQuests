@@ -22,6 +22,8 @@ Siehe [Dialog 1](#dialog-1): Offensichtlich soll hier nicht der Name des NPCs st
 
 Hat Bras dann den Namen "Alter Mann" über dem Kopf?
 
+Was ist das für ein Buch oder Gift, das der Spieler am Ende erhält?
+
 ## Übersicht <!-- omit in toc -->
 
 - [Ablauf](#ablauf)
