@@ -221,7 +221,7 @@ Ich würde euch gerne noch einige Fragen stellen, erlaubt Ihr?
 >> Ich startete jetzt nicht nochmals eine Quest, damit der/die Spieler*in nochmals mit Bras redet, sonder schließe die Quest [Den Verkohlten helfen] erst danach ab. 
 
 **Bras Holstein** `Ah, da seid ihr ja wieder, ich wollte euch für Eure Hilfe danken..`  
-Warum habt Ihr mir nicht gesagt, dass Ihr Bras Hohlstein seid? Vinnan schickte mich, um euch zu helfen.
+Warum habt Ihr mir nicht gesagt, dass Ihr Bras Hohlstein seid? Vinnan schickte mich, um Euch zu helfen.
 **Bras Holstein** `Hat er? Ja, guter Mann, dieser Vinnan. Aber nun geht... nein.. wartet... ich wollte Euch etwas geben.`  
 1. *Du schaust erwartungsvoll*
 2. *Du schaust sehr genervt*
@@ -277,8 +277,7 @@ Skin ID
 
 
 ### `Standort`
-
-Der Standort ist die einfache Angabe der Koordinaten des NPCs in einem bestimmten Format. 
+ 
 
 ```yml
 x: 691
@@ -342,7 +341,6 @@ max-stack-size: 64
 ```
 
 ### Starkes Gift der Schwäche ???
-
 
 
 ```yml
