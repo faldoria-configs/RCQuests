@@ -23,22 +23,20 @@ keine / oder Aufforderung im Lobby-Gasthaus angenommen?
 @DAvId   
 Die Spielerin spawnt in einem kleinen Zimmer, von dem aus sie Zugang zu einer Terrasse mit grandiosem Blick über die Insel hat. Der einzige Weg führt von hier aus nach unten, so dass die Spielerin gezwungen ist, auf die Terrasse zu gehen, um nach unten zu kommen. Auf dem Weg nach unten kann dann Shicho sie irgendwo abfangen.
 
- Sobald der Spieler "aufwacht/spawnt" hört er (nach wenigen Sekunden??) eine Stimme:
+ Sobald die Spielerin "aufwacht/spawnt" hört er (nach wenigen Sekunden??) eine Stimme:
 
 **Noromi:** `[Name des Spielers], komm raus zu mir, es ist ein wunderschöner Tag heute!`   
-*Du hörst die helle Stimme deiner Freundin Noromi rufen, streckst dich und überlegst, ob du ihrer Aufforderung gleich folgen sollst oder erst etwas später und entscheidest dich für sofort.*
-> Eine Wahl wollen wir jetzt ja noch nicht anbieten, oder?   
-Spieler*in geht notgedrungen auf die Terrasse.
+*Du hörst die helle Stimme deiner Freundin Noromi rufen, streckst dich und überlegst, ob du ihrer Aufforderung gleich folgen sollst oder erst etwas später und entscheidest dich doch für sofort, oder fast sofort.*
 
-Schön dich zu sehen, Noromi. Stell dir vor, was ich heute geträumt habe, der Tianbaum selbst muss mir den Traum geschickt haben!    
-**Noromi:** `Ich höre! *Sie lächelt dich erwartungsvoll an*`   
-Ich konnte fliegen! Ich bin um unsere ganze Insel geflogen! Rund um den Tianbaum, es war einfach fantastisch!    
-*Du versinkst in der Erinnerung an den Traum.*
+Ich komm ja schon! *Du reißt die Augen auf! Was war das eben für ein Traum ?!
 
-# Cinematik!!!
+# Cinematic!!!
 
-**Noromi:** `Du bist ja noch ganz hin und weg! Aber jetzt komme mal wieder zurück auf den Boden. Shicho drückt sich schon eine Zeitlang da unten rum und wartet auf dich. Lass dir nicht zu viel Zeit, er scheint ungeduldig zu sein.`   
-Bin schon unterwegs!
+*Erschöpft von der Anstrengung des Fliegens lässt du dich wieder ins Bett sinken!* 
+
+**Noromi:** `[Name des Spielers]! * sehr laut*  Komm  endlich, du Faultier! Shicho wartet unten auf dich. Lass dir nicht zu viel Zeit, er scheint ungeduldig zu sein.`  
+
+Bin ja schon unterwegs!
 
 
 
