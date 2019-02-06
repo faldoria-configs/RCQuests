@@ -13,7 +13,7 @@ level: 8
 objectives:
   '1':
     name: 'Sprich mit Hauptmann Famir'
-    desc: 'Sprecht mit Hauptmann Famir Steinhaupt auf der Straße vor dem Jorgendder Lager Richtung Osten.'
+    desc: 'Sprich mit Hauptmann Famir Steinhaupt auf der Straße vor dem Jorgendder Lager Richtung Osten.'
     auto-complete: false
     trigger:
       flow:
@@ -21,7 +21,7 @@ objectives:
 
   '2':
     name: 'Helfe Hauptmann Famir'
-    desc: 'Erledigt die Aufträge, die Famir euch gibt.'
+    desc: 'Erledigt die Aufträge, die Famir Euch gibt.'
     auto-complete: false
 
 complete-actions:

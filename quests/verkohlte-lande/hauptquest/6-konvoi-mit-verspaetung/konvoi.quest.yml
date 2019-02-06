@@ -17,7 +17,7 @@ trigger:
 objectives:
   '1':
     name: 'Finde den vermissten Konvoi'
-    desc: 'Findet den Konvoi mit Famirs Männern auf der Straße Richtung Osten.'
+    desc: 'Finde den Konvoi mit Famirs Männern auf der Straße Richtung Osten.'
     auto-complete: false
     trigger:
       flow:

@@ -4,5 +4,5 @@ stages:
     answers:
       flow:
         - ':"Ich bin schon fast unterwegs, nur in welche Richtung muss ich?"'
-        - 'Immer Richtung Osten, du kannst sie gar nicht verfehlen.'
+        - 'Immer Richtung Osten, Ihr könnt sie gar nicht verfehlen.'
         - '!quest.complete this.famir'

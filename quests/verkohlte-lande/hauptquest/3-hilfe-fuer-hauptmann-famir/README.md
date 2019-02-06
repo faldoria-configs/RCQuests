@@ -183,7 +183,7 @@ Es geht allen gut, Marik wurde von einem feindlichen Magier angegriffen, doch wi
 
 **Famir Steinhaupt:** ` Ich weiß nicht wie ich mich bei Euch bedanken soll, doch nehmt diese Silbertaler als Dankeschön. Außerdem habe ich einen Brief, der schnellstmöglich nach Kaltenstrom gebracht werden muss. Dies ist meine letzte Bitte. Würdet ihr das noch erledigen?`  
 Ich bin schon fast unterwegs, nur in welche Richtung muss ich?   
-**Famir Steinhaupt:** ` Immer Richtung Osten, du kannstIhr könnt sie gar nicht verfehlen.`
+**Famir Steinhaupt:** ` Immer Richtung Osten, Ihr könnt sie gar nicht verfehlen.`
 
 **Inventar:** 100 Silbertaler und verschlossener Brief hinzugefügt
 ### **`[Quest Ende]`** [Hilfe für Hauptmann Famir](#helft-hauptmann-famir)
