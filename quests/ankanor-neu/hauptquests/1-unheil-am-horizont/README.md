@@ -18,9 +18,9 @@ keine / oder Aufforderung im Lobby-Gasthaus angenommen?
 
 ## Aufgaben/Ereignisse
 
-**Sobald die Spielerin entweder das erste Mal von der Lobby her kommt oder auch direkt das Spiel betritt:**
+**Sobald/bevor die Spielerin entweder das erste Mal von der Lobby her kommt oder auch direkt das Spiel betritt:**
 
-# Cinematic!!!Flug um die Insel und durch den Baum 
+## Cinematic!!! - Flug um die Insel und durch den Baum 
 
 Wielange?
 
@@ -38,9 +38,37 @@ Bin ja schon unterwegs.. *murmelst du vor dich hin*
 
 *Vielleicht solltest du dich doch auf den Weg machen.*
 
+Die Spielerin wird jetzt durch die Wegführung gezwungen, an Shicho vorbeizugehen und wird von diesem festgehalten.
+
+**Shicho:** ` Hey [Spielername], was machst du noch hier, der Bürgermeister hat zu einer Versammlung gerufen.`     
+
+> [Klick auf die Antwort]   
+> 
+Wieso, was ist los? Gab es wieder Ärger im Lager?      
+**Shicho:** `Schön wär’s, mach schnell, die anderen warten schon. *Er erhebt die Stimme* Und der Weg zur Versammlungshalle führt hier ..... (muss noch eingesetzt werden, wenn fertig gebaut), nicht nach... zu den Äpfeln.`        
+Und was soll ich dort?   
+**Shicho:** `Sprich sofort mit unserem Bürgermeister Roshik. Der sagt dir dann schon, was du tun sollst.`    
+> Grauer Text: Du kannst mit einem NPC per Rechtsklick sprechen   
+> 
+In Ordnung, wenn's sein muss, dann mache ich mich gleich auf den Weg. 
+
+**Shicho:** Bevor du gehst, vergiss nicht das du deine Aufgaben im Journal notiert hast. Wenn du es weggesteckt hast, kannst du es wieder mit /journal in dein Inventar holen. Und nun los geh zur Versammlungshalle.
+> Das mit dem Inventar gehört nicht in Shichos Mund , vielleicht so?
+
+**Shicho:** `Noch einen Moment. Vergiss nicht, dass du deine Aufgaben im Journal notiert hast. Vergessliche Leue wie du sollten sich wenigstens daran erinnern. Und nun los geh zur Versammlungshalle.`    
+Ich bin ja schon unterwegs. 
+
+> [Klick auf die Antwort]
+
+> Wenn du dein Journal, das deine Quests beinhaltet weggesteckt hast, kannst du es wieder mit /journal in dein Inventar holen.
+
+### **`[QUEST START]`** [Versammlungshalle](#versammlungshalle)  
+**QuestLog:** *Begib dich zur Versammlungshalle und sprich mit Roschik*  
 
 
+> Spieler erhält 10x [Steak](#steak)
 
+Weiter bei [NPC Roschik](#Roschik)
 
 
 
