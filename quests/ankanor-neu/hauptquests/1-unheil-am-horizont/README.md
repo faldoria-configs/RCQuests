@@ -56,7 +56,7 @@ In Ordnung, wenn's sein muss, dann mache ich mich gleich auf den Weg.
 **Shicho:** Bevor du gehst, vergiss nicht das du deine Aufgaben im Journal notiert hast. Wenn du es weggesteckt hast, kannst du es wieder mit /journal in dein Inventar holen. Und nun los geh zur Versammlungshalle.
 > Das mit dem Inventar gehört nicht in Shichos Mund , vielleicht so?
 
-**Shicho:** `Noch einen Moment. Vergiss nicht, dass du deine Aufgaben im Journal notiert hast. Vergessliche Leue wie du sollten sich wenigstens daran erinnern. Und nun los geh zur Versammlungshalle.`    
+**Shicho:** `Noch einen Moment. Vergiss nicht, dass du deine Aufgaben im Journal notiert hast. Vergessliche Leute wie du sollten sich wenigstens daran erinnern. Und nun los geh zur Versammlungshalle.`    
 Ich bin ja schon unterwegs. 
 
 > [Klick auf die Antwort]
