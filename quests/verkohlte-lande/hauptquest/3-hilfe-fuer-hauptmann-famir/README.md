@@ -9,6 +9,8 @@ NPCs:
 
 ## Noch zu tun/Probleme
 
+NPCs, Mobs, Items, Skins, Fragen klären, Ablauf
+
 ## Übersicht <!-- omit in toc -->
 - [Noch zu tun/Probleme](#noch-zu-tunprobleme)
 - [Ablauf](#ablauf)
