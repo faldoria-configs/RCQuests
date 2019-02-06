@@ -4,6 +4,8 @@ Issue #71
 
 NPCs:
 [Famir](#famir)
+[Ramar](#ramar)
+[Marik](#marik)
 
 ## Noch zu tun/Probleme
 
@@ -15,11 +17,12 @@ NPCs:
   - [`Dialog 1`](#dialog-1)
   - [**`[Quest aktualisiert]`** Hilfe für Hauptmann Famir](#quest-aktualisiert-hilfe-f%C3%BCr-hauptmann-famir)
   - [**`[Quest Start]`** Um Kopf und Kragen](#quest-start-um-kopf-und-kragen)
-  - [Dialog 2](#dialog-2)
+  - [Dialog 2 (Famir)](#dialog-2-famir)
   - [**`[Quest Start]`** [Trophäen]](#quest-start-troph%C3%A4en)
   - [**`[Quest Start]`** [Konvoi mit Verspätung]](#quest-start-konvoi-mit-versp%C3%A4tung)
-  - [**`[Quest Ende]`** Konvoi mit Verspätung](#quest-ende-konvoi-mit-versp%C3%A4tung)
-  - [**`[Quest Ende]`** Helft Hauptmann Famir](#quest-ende-helft-hauptmann-famir)
+  - [Dialog 3 (Ramar)](#dialog-3-ramar)
+  - [Dialog 4 (Marik)](#dialog-4-marik)
+  - [**`[Quest Ende]`** Hilfe für Hauptmann Famir](#quest-ende-hilfe-f%C3%BCr-hauptmann-famir)
   - [**`[Quest Start]`** [Ein wichtiger Brief.]](#quest-start-ein-wichtiger-brief)
 - [NPCs](#npcs)
 - [`Famir`](#famir)
@@ -83,7 +86,7 @@ HQuest [Ein seltsamer Bericht](#ein-seltsamer-bericht) abgeschlossen ?? Nötig?
 
 **Der Spieler läuft zu den Ruinen wo einige schwächere Monster auf ihn warten. Wenn er einige von ihnen getötet hat erscheint der Boss dieser Gruppe, ein Schurke, bewaffnet mit einem einfachen Schwert und einer schwarzen Lederrüstung. Wenn der Spieler diesen Gegner bezwungen hat, droppt er seinen Kopf und ein Teil seiner Lederrüstung(Loot). Dann kehrt der Spieler zu Famir zurück.**
 
-### Dialog 2
+### Dialog 2 (Famir)
 
 **Famir Steinhaupt:** `Habt ihr den Gegner bezwungen?`  
 1. Nein, ich muss mich noch vorbereiten.   
@@ -130,6 +133,8 @@ Wo muss ich denn nach ihnen suchen?
 ### **`[Quest Start]`** [Konvoi mit Verspätung]
 **`QuestLog:`** *Findet den Konvoi mit Famirs Männern auf der Straße Richtung Osten*
 
+### Dialog 3 (Ramar)
+
 **Der/die Spieler*in findet den Konvoi und Famirs Krieger, die in der  Nähe des Portals feststecken.  
 Der Spieler muss nun mit einem der Männer sprechen.   
 Die anderen geben Hinweise mit wem.**
@@ -143,6 +148,7 @@ Was ist mit ihm?
 **`[Quest aktualisiert:]`** [Konvoi mit Verspätung](#konvoi-mit-verspaetung)
 **`Questlog:`** [Redet mit Marik]
 
+### Dialog 4 (Marik)
 Der Magier Marik ist ein junger Mann mit verwirrtem Blick, der sehr konzentriert aber überfordert scheint
 
 **Marik:** `...Nein! Halt! Lasst mich!...`      
@@ -171,19 +177,20 @@ Der Magier droppt ein Herz und einen seltsamen Stab.**
 2. Ja, sie sind gerade auf dem Weg. (Erst wenn der Spieler das Herz bei Marik abgegeben hat)   
 **Famir Steinhaupt:** `Geht es allen gut? Warum haben sie so lange gebraucht?`   
 Es geht allen gut, Marik wurde von einem feindlichen Magier angegriffen, doch wir konnten ihn besiegen.     
-### **`[Quest Ende]`** [Konvoi mit Verspätung](#konvoi-mit-verspaetung)
+**`[Quest Ende]`** [Konvoi mit Verspätung](#konvoi-mit-verspaetung)
 
 **Famir Steinhaupt:** ` Ich weiß nicht wie ich mich bei Euch bedanken soll, doch nehmt diese Silbertaler als Dankeschön. Außerdem habe ich einen Brief, der schnellstmöglich nach Kaltenstrom gebracht werden muss. Dies ist meine letzte Bitte. Würdet ihr das noch erledigen?`  
 Ich bin schon fast unterwegs, nur in welche Richtung muss ich?   
 **Famir Steinhaupt:** ` Immer Richtung Osten, du kannstIhr könnt sie gar nicht verfehlen.`
 
 **Inventar:** 100 Silbertaler und verschlossener Brief hinzugefügt
-### **`[Quest Ende]`** [Helft Hauptmann Famir](#helft-hauptmann-famir)
+### **`[Quest Ende]`** [Hilfe für Hauptmann Famir](#helft-hauptmann-famir)
 
 ### **`[Quest Start]`**  [Ein wichtiger Brief.]
 **`Questlog:`** *Bringt Famirs Brief nach Kaltenstrom*
 
 > Buch im Inventar?
+
 Famirs Brief
 “ Brief von Hauptmann Famir Steinhaupt an den Stadthalter in Kaltenstrom”
 verschlossen mit einem Siegel
