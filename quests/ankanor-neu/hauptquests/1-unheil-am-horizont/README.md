@@ -18,25 +18,25 @@ keine / oder Aufforderung im Lobby-Gasthaus angenommen?
 
 ## Aufgaben/Ereignisse
 
+**Sobald die Spielerin entweder das erste Mal von der Lobby her kommt oder auch direkt das Spiel betritt:**
+
+# Cinematic!!!Flug um die Insel und durch den Baum 
+
+Wielange?
+
 ### `Dialog 1`
 
 @DAvId   
 Die Spielerin spawnt in einem kleinen Zimmer, von dem aus sie Zugang zu einer Terrasse mit grandiosem Blick über die Insel hat. Der einzige Weg führt von hier aus nach unten, so dass die Spielerin gezwungen ist, auf die Terrasse zu gehen, um nach unten zu kommen. Auf dem Weg nach unten kann dann Shicho sie irgendwo abfangen.
 
- Sobald die Spielerin "aufwacht/spawnt" hört er (nach wenigen Sekunden??) eine Stimme:
-
 **Noromi:** `[Name des Spielers], komm raus zu mir, es ist ein wunderschöner Tag heute!`   
-*Du hörst die helle Stimme deiner Freundin Noromi rufen, streckst dich und überlegst, ob du ihrer Aufforderung gleich folgen sollst oder erst etwas später und entscheidest dich doch für sofort, oder fast sofort.*
+*Die helle Stimme deiner Freundin Noromi reißt dich aus deinem Traum. Du schreckst auf und überlegst, ob du ihrer Aufforderung gleich folgen sollst oder erst etwas später und entscheidest dich für später. Erschöpft von der Anstrengung des Fliegens lässt du dich wieder ins Bett sinken.* 
 
-Ich komm ja schon! *Du reißt die Augen auf! Was war das eben für ein Traum ?!
+**Noromi:** `[Name des Spielers]! * sehr laut*  Komm  endlich, du Faultier! Shicho wartet unten auf dich. Lass dir nicht zu viel Zeit, er scheint ungeduldig zu sein. Ich gehe schon mal vor uns sage ihm, das du kommst!`     
 
-# Cinematic!!!
+Bin ja schon unterwegs.. *murmelst du vor dich hin*
 
-*Erschöpft von der Anstrengung des Fliegens lässt du dich wieder ins Bett sinken!* 
-
-**Noromi:** `[Name des Spielers]! * sehr laut*  Komm  endlich, du Faultier! Shicho wartet unten auf dich. Lass dir nicht zu viel Zeit, er scheint ungeduldig zu sein.`  
-
-Bin ja schon unterwegs!
+*Vielleicht solltest du dich doch auf den Weg machen.*
 
 
 
