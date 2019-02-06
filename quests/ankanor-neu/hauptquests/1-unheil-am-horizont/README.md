@@ -32,11 +32,12 @@ Die Spielerin spawnt in einem kleinen Zimmer, von dem aus sie Zugang zu einer Te
 **Noromi:** `[Name des Spielers], komm raus zu mir, es ist ein wunderschöner Tag heute!`   
 *Die helle Stimme deiner Freundin Noromi reißt dich aus deinem Traum. Du schreckst auf und überlegst, ob du ihrer Aufforderung gleich folgen sollst oder erst etwas später und entscheidest dich für später. Erschöpft von der Anstrengung des Fliegens lässt du dich wieder ins Bett sinken.* 
 
-**Noromi:** `[Name des Spielers]! * sehr laut*  Komm  endlich, du Faultier! Shicho wartet unten auf dich. Lass dir nicht zu viel Zeit, er scheint ungeduldig zu sein. Ich gehe schon mal vor uns sage ihm, das du kommst!`     
+**Noromi:** `[Name des Spielers]! * sehr laut*  Komm  endlich, du Faultier! Shicho wartet unten auf dich. Lass dir nicht zu viel Zeit, er scheint ungeduldig zu sein. Ich gehe schon mal vor uns sage ihm, das du kommst!`    
+
+*Vielleicht solltest du dich doch auf den Weg machen.*
 
 Bin ja schon unterwegs.. *murmelst du vor dich hin*
 
-*Vielleicht solltest du dich doch auf den Weg machen.*
 
 Die Spielerin wird jetzt durch die Wegführung gezwungen, an Shicho vorbeizugehen und wird von diesem festgehalten.
 
