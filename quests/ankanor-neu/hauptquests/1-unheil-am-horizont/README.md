@@ -39,7 +39,7 @@ Die Spielerin spawnt in einem kleinen Zimmer, von dem aus sie Zugang zu einer Te
 Bin ja schon unterwegs.. *murmelst du vor dich hin*
 
 
-Die Spielerin wird jetzt durch die Wegführung gezwungen, an Shicho vorbeizugehen und wird von diesem festgehalten.
+**Die Spielerin wird jetzt durch die Wegführung gezwungen, an Shicho vorbeizugehen und wird von diesem festgehalten.**
 
 **Shicho:** ` Hey [Spielername], was machst du noch hier, der Bürgermeister hat zu einer Versammlung gerufen.`     
 
