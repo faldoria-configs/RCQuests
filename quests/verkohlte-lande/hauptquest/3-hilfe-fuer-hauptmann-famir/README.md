@@ -8,7 +8,50 @@ NPCs:
 ## Noch zu tun/Probleme
 
 ## Übersicht <!-- omit in toc -->
-
+- [Noch zu tun/Probleme](#noch-zu-tunprobleme)
+- [Ablauf](#ablauf)
+- [Vorraussetzungen](#vorraussetzungen)
+- [Aufgaben](#aufgaben)
+  - [`Dialog 1`](#dialog-1)
+  - [**`[Quest aktualisiert]`** Hilfe für Hauptmann Famir](#quest-aktualisiert-hilfe-f%C3%BCr-hauptmann-famir)
+  - [**`[Quest Start]`** Um Kopf und Kragen](#quest-start-um-kopf-und-kragen)
+  - [Dialog 2](#dialog-2)
+  - [**`[Quest Start]`** [Trophäen]](#quest-start-troph%C3%A4en)
+  - [**`[Quest Start]`** [Konvoi mit Verspätung]](#quest-start-konvoi-mit-versp%C3%A4tung)
+  - [**`[Quest Ende]`** Konvoi mit Verspätung](#quest-ende-konvoi-mit-versp%C3%A4tung)
+  - [**`[Quest Ende]`** Helft Hauptmann Famir](#quest-ende-helft-hauptmann-famir)
+  - [**`[Quest Start]`** [Ein wichtiger Brief.]](#quest-start-ein-wichtiger-brief)
+- [NPCs](#npcs)
+- [`Famir`](#famir)
+  - [Standartsätze](#standarts%C3%A4tze)
+    - [Vor der Quest](#vor-der-quest)
+    - [Während der Quest](#w%C3%A4hrend-der-quest)
+    - [Nach der Quest](#nach-der-quest)
+  - [Ausrüstung](#ausr%C3%BCstung)
+    - [Standort](#standort)
+- [`Ramar`](#ramar)
+  - [Standartsätze](#standarts%C3%A4tze-1)
+    - [Vor der Quest](#vor-der-quest-1)
+    - [Während der Quest](#w%C3%A4hrend-der-quest-1)
+    - [Nach der Quest](#nach-der-quest-1)
+  - [Ausrüstung](#ausr%C3%BCstung-1)
+    - [Standort](#standort-1)
+- [`Marik`](#marik)
+  - [Standartsätze](#standarts%C3%A4tze-2)
+    - [Vor der Quest](#vor-der-quest-2)
+    - [Während der Quest](#w%C3%A4hrend-der-quest-2)
+    - [Nach der Quest](#nach-der-quest-2)
+  - [Ausrüstung](#ausr%C3%BCstung-2)
+    - [Standort](#standort-2)
+- [Items](#items)
+  - [Itemname](#itemname)
+- [Mobs](#mobs)
+  - [Mobname](#mobname)
+  - [Hungriger Wolf](#hungriger-wolf)
+    - [Ausrüstung](#ausr%C3%BCstung-3)
+- [Belohnung](#belohnung)
+- [Referenzen](#referenzen)
+- [Issues](#issues)
 
 ## Ablauf
 ## Vorraussetzungen
@@ -60,94 +103,92 @@ Was soll ich tun, auch seinen Kopf mitbringen?
 
 **`QuestLog:`** *Tötet den Häuptling im Lager etwas südlich der kleinen Brücke und bringt seine Waffen zu Famir.*   
 
-**Der Spieler trifft in dem Lager auf ein paar Monster in schwachen Rüstungen und einen etwas größeren Krieger in einer offensichtlich nicht ihm gehörenden Rüstung. Wenn er ihn getötet ha,t droppt der Gegner fünf Waffen, die alle sehr gute Werte haben und sehr wertvoll sind.**
+**Der Spieler trifft in dem Lager auf ein paar Monster in schwachen Rüstungen und einen etwas größeren Krieger in einer offensichtlich nicht ihm gehörenden Rüstung. Wenn er ihn getötet hat, droppt der Gegner fünf Waffen, die alle sehr gute Werte haben und sehr wertvoll sind.**
 
+**Famir Steinhaupt:** `Habt ihr es geschafft?`
+1. Nein, ich benötige noch etwas Zeit.   
+   **Famir Steinhaupt:** `Bereitet euch gut vor, es ist kein leichter Gegner.`   
+2. Ja, ich habe ihn besiegt.    
+   **Famir Steinhaupt:** `Gut, dass ihr dieses Monster erledigt habt! Sagt, wie viele der Waffen konntet ihr retten?` 
 
+1. Ich konnte drei Waffen aus dem Lager bergen. *
+2. Ich habe fünf Waffen mitbringen können. ^
+> ---> Wichtig für die Ankunft in Kaltenstrom
 
+**Famir Steinhaupt:** `Ich danke euch, nun können wir den Verstorbenen die Nötige Ehre erweisen.` 
 
+**`[Quest Ende]`** [Trophäen](#trophaeen)
 
+**Inventar:** ⅗ Waffen entfernt
 
-NPC[Famir Steinhaupt]: Habt ihr es geschafft?
-Spieler: 1. Nein, ich benötige noch etwas Zeit.
-         2. Ja, ich habe ihn besiegt.
-NPC[Famir Steinhaupt]: 1. Bereitet euch gut vor, es ist kein leichter Gegner.
-                2. Gut, dass ihr dieses Monster erledigt habt! Sagt, wie viele der Waffen konntet ihr retten?
-Spieler: 1.Ich konnte drei Waffen aus dem Lager bergen. *
-     2. Ich habe fünf Waffen mitbringen können. ^
-(Wichtig für die Ankunft in Kaltenstrom)
+> Ich weiß nicht, ob bei jeder Antwort nur 3 Waffen entfernt werden sollen, würde nicht der Hauptmann bei Antwort 2 (fünf Waffen) sagen, dass die Spielerin zwei haben kann?
 
-NPC[Famir Steinhaupt]: Ich danke euch, nun können wir den Verstorbenen die Nötige Ehre erweisen. 
+**Famir Steinhaupt:** ` Und wieder einmal bin ich euch zu Dank verpflichtet. Dieser Krieger wird keine Leben mehr nehmen. Doch brauche ich noch ein letztes Mal Eure Hilfe! Der Konvoi, den meine Männer beschützen sollten hätte schon vor einigen Stunden hier eintreffen sollen, doch ich kann diesen Posten nicht verlassen  um nach ihnen zu sehen, könntet Ihr das für mich machen?`   
+Wo muss ich denn nach ihnen suchen?   
+**Famir Steinhaupt:** `Folgt dieser Straße Richtung Osten, von dort sollen sie kommen. Beeilt euch!`  
 
-Quest abgeschlossen: Trophäen
-Inventar: ⅗ Waffen entfernt
+### **`[Quest Start]`** [Konvoi mit Verspätung]
+**`QuestLog:`** *Findet den Konvoi mit Famirs Männern auf der Straße Richtung Osten*
 
-NPC[Famir Steinhaupt]: Und wieder einmal bin ich euch zu Dank verpflichtet. Dieser Krieger wird keine Leben mehr nehmen. Doch brauche ich noch ein letztes Mal eure Hilfe! Der Konvoi, den meine Männer beschützen sollten hätte schon vor einigen Stunden hier eintreffen sollen, doch ich kann diesen Posten nicht verlassen  um nach ihnen zu sehen, könntet ihr das für mich machen?
-Spieler: Wo muss ich denn nach ihnen suchen?
-NPC[Famir Steinhaupt]: Folgt dieser Straße Richtung Osten, von dort sollen sie kommen. Beeilt euch!
+**Der/die Spieler*in findet den Konvoi und Famirs Krieger, die in der  Nähe des Portals feststecken.  
+Der Spieler muss nun mit einem der Männer sprechen.   
+Die anderen geben Hinweise mit wem.**
 
-Quest angenommen: Konvoi mit Verspätung
-QuestLog: Findet den Konvoi mit Famirs Männern auf der Straße Richtung Osten
+**[Ramar]:** ` Wer seid Ihr?`   
+Hauptmann Famir hat mich geschickt, um nach Euch zu sehen.   
+**[Ramar]:** ` Uns geht es gut, nur unser Magier Marik ist eben zusammengebrochen und redet wirr, deshalb haben wir Halt gemacht.`  
+Was ist mit ihm?   
+**[Ramar]:** `Sprecht selbst mit ihm, es scheint ihm nicht gut zu gehen, vielleicht könnt Ihr ihm helfen.`
 
-Spieler findet den Konvoi und Famirs Krieger, die Nähe dem Portal feststecken. 
-Der Spieler muss nun mit einem der Männer sprechen.
-Die anderen geben Hinweise mit wem.
-
-NPC[Ramar]: Wer seid ihr?
-Spieler: Hauptmann Famir hat mich geschickt um nach euch zu sehen.
-NPC[Ramar]: Uns geht es gut, nur unser Magier Marik ist eben zusammengebrochen und redet wirr, deshalb haben wir Halt gemacht.
-Spieler: Was ist mit ihm?
-NPC[Ramar]: Sprecht selbst mit ihm, es scheint ihm nicht gut zu gehen, vielleicht könnt ihr ihm helfen.
-
-Quest aktualisiert: Konvoi mit Verspätung
-Questlog: Redet mit Marik
+**`[Quest aktualisiert:]`** [Konvoi mit Verspätung](#konvoi-mit-verspaetung)
+**`Questlog:`** [Redet mit Marik]
 
 Der Magier Marik ist ein junger Mann mit verwirrtem Blick, der sehr konzentriert aber überfordert scheint
 
-NPC[Marik]: ...Nein! Halt! Lasst mich!... 
-Spieler: Beruhigt euch, ich bin ein Freund, ich tue euch nichts!
-NPC[Marik]: Tut mir leid, ich… ...argh!... PARRES MIH MERTA! …ich, ich werde angegriffen. Ein anderer Magier greift meinen Verstand an, er muss ganz… PARRES ...ganz in der Nähe sein. Wahrscheinlich in der Nähe des Portals, dort wo die Magie am stärksten ist. Tötet ihn schnell und bringt mir sein Herz, ich weiß nicht wie lange ich das noch aushalte. ...aarrgh… 
+**Marik:** `...Nein! Halt! Lasst mich!...`      
+Beruhigt Euch, ich bin ein Freund, ich tue Euch nichts!   
+**Marik:** `Tut mir leid, ich… ...argh!... PARRES MIH MERTA! …ich, ich werde angegriffen. Ein anderer Magier greift meinen Verstand an, er muss ganz… PARRES ...ganz in der Nähe sein. Wahrscheinlich in der Nähe des Portals, dort wo die Magie am stärksten ist. Tötet ihn schnell und bringt mir sein Herz, ich weiß nicht wie lange ich das noch aushalte. ...aarrgh…`   
 
-Quest aktualisiert: Konvoi mit Verspätung
-Questlog: Tötet den feindlichen Magier in der Nähe.
+**`[Quest aktualisiert:]`** [Konvoi mit Verspätung](#konvoi-mit-verspaetung)
+**`Questlog:`** *Tötet den feindlichen Magier in der Nähe.*
 
-Spieler macht sich auf die Suche nach dem Magier und findet ihn am Portal.
-Der Magier ist ein “Ork” mit langem Kapuzenmantel und einem Stab in der Hand.
-Der Magier droppt ein Herz und einen seltsamen Stab. 
+**Spieler macht sich auf die Suche nach dem Magier und findet ihn am Portal.
+Der Magier ist ein “Ork” mit langem Kapuzenmantel und einem Stab in der Hand.   
+Der Magier droppt ein Herz und einen seltsamen Stab.**
 
-Quest aktualisiert: Konvoi mit Verspätung
-Questlog: Bringt das Herz zu Marik
+**`[Quest aktualisiert:]`** [Konvoi mit Verspätung](#konvoi-mit-verspaetung)
+**`Questlog:`** *Bringt das Herz zu Marik*
 
-NPC[Marik]: 1. Schnell, beeilt euch! (wenn Magier noch nicht getötet)
-              2. Ihr habt es geschafft, ohne euch wäre ich jetzt tot oder würde mich gegen meine eigenen Leute stellen. Jetzt können wir weiter. Sagt Famir, dass wir auf dem Weg sind.
+**Marik:** `Ihr habt es geschafft, ohne Euch wäre ich jetzt tot oder würde mich gegen meine eigenen Leute stellen. Jetzt können wir weiter. Sagt Famir, dass wir auf dem Weg sind.`   
 
-Inventar: Herz entfernt
-Quest aktualisiert: Konvoi mit Verspätung
-Questlog: Sprecht mit Famir
-NPC[Famir Steinhaupt]: Habt ihr sie gefunden?
-Spieler: 1. Noch nicht.
-      2. Ja, sie sind gerade auf dem Weg. (Erst wenn der Spieler das Herz bei Marik abgegeben hat)
-NPC[Famir Steinhaupt]: 1. Dann beeilt euch bitte!
-                2. Geht es allen gut? Warum haben sie so lange gebraucht?
-Spieler: Es geht allen gut, Marik wurde von einem feindlichen Magier angegriffen, doch wir konnten ihn besiegen.
-NPC[Famir Steinhaupt]: Ich weiß nicht wie ich mich bei euch bedanken soll, doch nehmt diese Silbertaler als dankeschön. Außerdem habe ich einen Brief der schnellstmöglich nach Kaltenstrom gebracht werden muss. Dies ist meine letzte Bitte. Würdet ihr das noch erledigen?
-Spieler: Ich bin schon fast unterwegs, nur in welche Richtung muss ich?
-NPC[Famir Steinhaupt]: Immer Richtung Osten, du kannst sie gar nicht verfehlen.
+**Inventar:** Herz entfernt
+**`[Quest aktualisiert:]`** [Konvoi mit Verspätung](#konvoi-mit-verspaetung)
+**`Questlog:`** *Sprecht mit Famir*
 
-Inventar: 100 Silbertaler und verschlossener Brief hinzugefügt
-Quest abgeschlossen: Helft Hauptmann Famir
-Quest angenommen: Ein wichtiger Brief.
-Questlog: Bringt Famirs Brief nach Kaltenstrom
+**Famir Steinhaupt:** ` Habt ihr sie gefunden?`
+1. Noch nicht.   
+   **Famir Steinhaupt:** `Dann beeilt euch bitte!`     
+2. Ja, sie sind gerade auf dem Weg. (Erst wenn der Spieler das Herz bei Marik abgegeben hat)   
+**Famir Steinhaupt:** `Geht es allen gut? Warum haben sie so lange gebraucht?`   
+Es geht allen gut, Marik wurde von einem feindlichen Magier angegriffen, doch wir konnten ihn besiegen.     
+### **`[Quest Ende]`** [Konvoi mit Verspätung](#konvoi-mit-verspaetung)
 
+**Famir Steinhaupt:** ` Ich weiß nicht wie ich mich bei Euch bedanken soll, doch nehmt diese Silbertaler als Dankeschön. Außerdem habe ich einen Brief, der schnellstmöglich nach Kaltenstrom gebracht werden muss. Dies ist meine letzte Bitte. Würdet ihr das noch erledigen?`  
+Ich bin schon fast unterwegs, nur in welche Richtung muss ich?   
+**Famir Steinhaupt:** ` Immer Richtung Osten, du kannstIhr könnt sie gar nicht verfehlen.`
+
+**Inventar:** 100 Silbertaler und verschlossener Brief hinzugefügt
+### **`[Quest Ende]`** [Helft Hauptmann Famir](#helft-hauptmann-famir)
+
+### **`[Quest Start]`**  [Ein wichtiger Brief.]
+**`Questlog:`** *Bringt Famirs Brief nach Kaltenstrom*
+
+> Buch im Inventar?
 Famirs Brief
 “ Brief von Hauptmann Famir Steinhaupt an den Stadthalter in Kaltenstrom”
 verschlossen mit einem Siegel
 
 (Für weitere Beschreibungen der Monster bei Jakob melden!)
-
-
-
-
-
 
 
 ## NPCs
@@ -179,7 +220,64 @@ Der Standort ist die einfache Angabe der Koordinaten des NPCs in einem bestimmte
 x: 
 y: 
 z: 
-world: faldoria.eisenküste
+world: faldoria.verkohlte-lande
+```
+## `Ramar`
+
+Junger Hauptmann in Hauptmannsuniform der Jorgendder
+
+### Standartsätze  
+
+
+#### Vor der Quest
+
+#### Während der Quest  
+
+
+#### Nach der Quest
+    
+### Ausrüstung
+
+Unter diesem Punkt soll angegeben werden welche Art Skin der NPC haben sollte, ob er etwas in der Hand hält oder gar Rüstung trägt.
+
+#### Standort
+
+Der Standort ist die einfache Angabe der Koordinaten des NPCs in einem bestimmten Format. 
+
+```yml
+x: 
+y: 
+z: 
+world: faldoria.verkohlte-lande
+```
+## `Marik`
+
+Der Magier Marik ist ein junger Mann mit verwirrtem Blick, der sehr konzentriert aber überfordert scheint
+
+### Standartsätze  
+
+
+#### Vor der Quest
+
+#### Während der Quest  
+**Marik:** 1. Schnell, beeilt euch! (wenn Magier noch nicht getötet)
+
+
+#### Nach der Quest
+    
+### Ausrüstung
+
+Unter diesem Punkt soll angegeben werden welche Art Skin der NPC haben sollte, ob er etwas in der Hand hält oder gar Rüstung trägt.
+
+#### Standort
+
+Der Standort ist die einfache Angabe der Koordinaten des NPCs in einem bestimmten Format. 
+
+```yml
+x: 
+y: 
+z: 
+world: faldoria.verkohlte-lande
 ```
 
 ## Items
