@@ -90,11 +90,11 @@ Ich bin ja schon unterwegs.
 
 ### Dialog 2
 
-**Roschik:** `Endlich hast du es auch geschafft.`
-Was ist los? Warum sind alle so aufgeregt? Hat Kozas wieder einmal einen Riesenfisch gefangen? Wenn ja, lasst mich damit in Ruhe.
-**Roschik:** `Nein! Eine große Gefahr droht uns. Wir haben ... erfahren, dass Agnatus auf dem Weg hierher sein könnte, dass er Schiffe in unsere Richtung entsandt hat.`  
-Amalgus? Wer ist das nun wieder?
-**Roschik:** Agnatus, Agnatus der Nekromant, er terrorisiert das Festland mit seinen Untoten und Schergen. 
+**Roschik:** `Endlich hast du es auch geschafft.`   
+Was ist los? Warum sind alle so aufgeregt? Hat Kozas wieder einmal einen Riesenfisch gefangen? Wenn ja, lasst mich damit in Ruhe.   
+**Roschik:** `Nein! Eine große Gefahr droht uns. Wir haben ... erfahren, dass Agnatus auf dem Weg hierher sein könnte, dass er Schiffe in unsere Richtung entsandt hat.`     
+Amalgus? Wer ist das nun wieder?   
+**Roschik:** `Agnatus, Agnatus der Nekromant, er terrorisiert das Festland mit seinen Untoten und Schergen. `      
 Ach der aus den Geschichten..., und was machen wir jetzt?
 
 `[QUEST ENDE]` [Unheil am Horizont](#unheil-am-horizont)
