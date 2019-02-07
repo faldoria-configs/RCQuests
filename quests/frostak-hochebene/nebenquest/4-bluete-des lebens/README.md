@@ -67,8 +67,8 @@ Und das wäre..?
      **`[Quest Start]`** [Blüte des Lebens] ---> Wenn Spieler schon vorher mit Ingeborg geredet hat.   
 4.2 Gut, ich suche sie auf, werde sie schon finden.
 
-###   **`[Quest Start]`** [Was weiß Ingeborg?]   
-**`Questlog:`** *Gehe zu Ingeborg und sieh zu, was du erfährst* 
+###   **[Quest Start]** [Was weiß Ingeborg?]   
+**Questlog:** *Gehe zu Ingeborg und sieh zu, was du erfährst* 
 
 
 4.3 Nein, so sehr interessiert es mich jetzt auch wieder nicht.   
