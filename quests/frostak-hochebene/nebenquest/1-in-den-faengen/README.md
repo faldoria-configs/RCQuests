@@ -1,6 +1,6 @@
 # In den Fängen des Wolfes <!-- omit in toc -->
 
-Issue 68
+Issue #68
 
 ORT: Jarmundshain
 
@@ -18,18 +18,18 @@ Ein Wolf hat auf der Frostakebene mehrere Schafe gerissen, der Hirte Rolf bittet
   - [`[Queststart]`[In den Fängen des Wolfes]](#queststartin-den-f%C3%A4ngen-des-wolfes)
   - [Dialog 2](#dialog-2)
 - [NPCS](#npcs)
-  - [Rolf](#rolf)
+- [` Rolf`](#rolf)
     - [Standartsätze](#standarts%C3%A4tze)
       - [Vor der Quest:](#vor-der-quest)
       - [Während der Quest:](#w%C3%A4hrend-der-quest)
       - [Nach der Quest:](#nach-der-quest)
     - [Ausrüstung](#ausr%C3%BCstung)
     - [Standort](#standort)
-  - [Wanderer](#wanderer)
+- [`Wanderer`](#wanderer)
     - [Dialoge](#dialoge-1)
     - [Ausrüstung](#ausr%C3%BCstung-1)
     - [Standort](#standort-1)
-  - [Reisender in der Taverne](#reisender-in-der-taverne)
+- [` Reisender in der Taverne`](#reisender-in-der-taverne)
     - [Standort](#standort-2)
 - [Mobs](#mobs)
   - [Hungriger Wolf](#hungriger-wolf)
@@ -107,6 +107,7 @@ Ja, hier ist sein Kopf… (wenn der Spieler den Wolfskopf im Inventar hat)
 **Rolf** `Ihh… behaltet ihn. Aber ich danke Euch für Eure Hilfe, jetzt können meine Schafe wieder in Ruhe grasen, Berta und Frida und Nelli und Gustaf und Bella und…`
 
 **`[Quest Ende]`** [In den Fängen des Wolfes](#in-den-faengen-des-wolfes)
+
 **`QuestLog:`**  * Ihr habt dem Hirten erfolgreich geholfen und kennt jetzt die Hälfte seiner Schafe mit Namen.*
 
 **`Questbelohnungen:`**  Wolfskopf, Marke für Vinnan
@@ -114,7 +115,7 @@ Ja, hier ist sein Kopf… (wenn der Spieler den Wolfskopf im Inventar hat)
 
 ## NPCS
 
-### Rolf
+## ` Rolf`
 
 Ein Hirte in der Nähe von Jarmundshain 
 
@@ -154,14 +155,14 @@ z: -1967
 world: faldoria.jarmundshain
 ```
 
-### Wanderer
+## `Wanderer`
 >> Weitere Möglichkeit, auf den Wolf aufmerksam zu werden
 
 > Gibt es dann keine Quest?
 
 #### Dialoge
 
-** Man erfährt von einem Wanderer, dass sich ein Wolf im Wald herumtreibt**   
+**Man erfährt von einem Wanderer, dass sich ein Wolf im Wald herumtreibt**   
 (Sitzt an einem Feuer)   
 
 
@@ -207,9 +208,8 @@ world: faldoria.jarmundshain
 ```
 
 
-### Reisender in der Taverne
+## ` Reisender in der Taverne`
 
->>> **Ich schreib das um auf drei Gäste in der Taverne mit Namen!**
 
 > Wolf lebt
 
