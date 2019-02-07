@@ -58,8 +58,8 @@ Und das wäre..?
 3. Blumen zu pflücken kann doch nicht so schwer sein.   
     **Jan:** ` Das freut mich, dass Ihr das für mich tun wollt.` 
 
-### **`[Quest Start]`** [Blüte des Lebens]   
-**`Questlog:`** *Sammle 4 Biosnablüten und bringe sie Jan und seiner Frau Lucia*
+### **[Quest Start]** [Blüte des Lebens]   
+**Questlog:** *Sammle 4 Biosnablüten und bringe sie Jan und seiner Frau Lucia*
 
 4.    Wozu braucht Ihr diese spezielle Blume?   
 **Jan:** ` *wirkt verlegen* Das ...   fragt Ingeborg, die kann das besser erklären als ich.`   
