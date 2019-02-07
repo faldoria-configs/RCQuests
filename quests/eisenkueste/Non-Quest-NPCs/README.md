@@ -37,10 +37,10 @@ Issue #81
     - [Dialog](#dialog-4)
     - [Standort](#standort-7)
     - [Skin](#skin-7)
-  - [Dialog Tampi (Junge)](#dialog-tampi-junge)
+  - [Tampi (Junge)](#tampi-junge)
     - [Standort](#standort-8)
     - [Skin](#skin-8)
-  - [Dialog Varii (Fischer)](#dialog-varii-fischer)
+  - [Varii (Fischer)](#varii-fischer)
     - [Standort](#standort-9)
     - [Skin](#skin-9)
 
@@ -259,7 +259,7 @@ world: faldoria
 ID 46
 
 
-## Dialog Tampi (Junge)
+## Tampi (Junge)
 
 *Du siehst einen etwa 8-jährigen Jungen in der Nähe stehen, er schaut recht unglücklich aus*   
 Hallo, ist alles in Ordnung mit dir?
@@ -308,7 +308,7 @@ ID 45
 
 
 
-## Dialog Varii (Fischer)
+## Varii (Fischer)
 
 *Du siehst einen Mann in der Nähe des Wracks stehen stehen, der angelt*
 
