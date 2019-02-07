@@ -1,20 +1,33 @@
 # Blüte des Lebens <!-- omit in toc -->
-Issue #86
+Issue #86   
+Idee und erste Ausführung: LilianaVess   
+Ausarbeitung: Kirilit
 
 ## Noch zu tun/Probleme
 
 ## Ablauf
 
+1. Die Spielerin trifft während der Suche nach Arbeit auf Jan, den Weber.
+2. Nach einer ersten Ablehnung rückt er nach kurzen Dialog mit einer aufgabe heraus.
+3. Der Spieler soll eine blaue Blume suchen, die hoch oben in den Bergen wächst.
+4. Jan will der Spielerin aber nicht sagen, warum er sie braucht, aber er verweist sie zu Ingeborg.
+5. Die Spielerin kann entscheiden, ob sie gleich geht, ablehnt, oder erst Ingeborg aufsucht. 
+6. Der Spieler holt die blaue Blume.
+7. Je nach vorherigem Verlauf erfährt er jetzt, wozu sie gut ist, war er bei Ingeborg, weiß er es schon. 
+8. Bei Ingeborg erhält er keinen Zettl, er hat ja nichts für sie getan. 
+
 ## Übersicht <!-- omit in toc -->
 
 ## Vorraussetzungen
 
-[Vinnans helfende Hand](../2-vinnans-helfende-hand)
+[Vinnans helfende Hand](../2-vinnans-helfende-hand) <--- falscher Link
 
 
 ## Aufgaben
 
 ### `Dialog 1`
+
+
 
 ## NPCs
 
