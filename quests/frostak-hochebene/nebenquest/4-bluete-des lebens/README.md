@@ -46,10 +46,9 @@ Ich meine....
 `Ich hätte vielleicht doch eine Aufgabe für Euch…`  
 Und das wäre..?         
 **Jan:** `Ich brauche eine  bestimmte blaue Blume, aber sie wächst nur an sehr schwierig zu erreichenden Stellen, Ihr müsstet den Berg dafür erklimmen. Wenn Euch das nicht zu gefährlich ist?`
-
-1. Lieber nicht, dünne Luft vertrage ich nicht so gut. `[Ende]`   
-2. Blumen pflücken? Ich habe mir mal an einem Blatt  in die Hand geschnitten, ich glaube das ist mir zu gefährlich. `[Ende]`   
-3. Blumen zu pflücken kann doch nicht so schwer sein.   
+   1. Lieber nicht, dünne Luft vertrage ich nicht so gut. `[Ende]`   
+   2. Blumen pflücken? Ich habe mir mal an einem Blatt  in die Hand geschnitten, ich glaube das ist mir zu gefährlich. `[Ende]`   
+   3. Blumen zu pflücken kann doch nicht so schwer sein.   
     **Jan:** ` Das freut mich, dass Ihr das für mich tun wollt.` 
 
 ### **[Quest Start]** [Blüte des Lebens]   
