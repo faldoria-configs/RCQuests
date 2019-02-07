@@ -1,6 +1,8 @@
 # Non-Quest-NPCS-Dialoge
 
-Issue 81
+Kirilit (SuQ)
+
+Issue #81
 
 ## Übersicht
 
@@ -126,7 +128,7 @@ Danke, bis auf meine Beule geht es mir gut.
 2. Nein, wo finde ich sie denn?   
 **Luana:** `Da hinten, gleich außerhalb der hinteren Türe.`   
 Ich suche sie gleich mal auf.    
-**Luana:** `Tu das, das ist nie verkehrt.   
+**Luana:** `Tu das, das ist nie verkehrt.`   
 
 ### Standort
 
@@ -207,7 +209,7 @@ Hey, das ist nicht wahr, ich war nie ein Nichtsnutz!
 Nein! Ich doch nicht!   
 **Taharu:** `Und dann warst das auch nicht du, der den Kühen die Schwänze zusammengebunden hat so dass sie nicht mehr ein- noch aus wußten und die ganze Nacht brüllten, bis jemand nachsah?`   
 Wo denkst du hin!        
-**Taharu:** `*lacht* Lass gut sein, das ist lange her. Aber jetzt sieh zu, dass du weiter kommst!`   
+**Taharu:** `*lacht* Lass gut sein, das ist lange her. Diese guten Seiten sind vorbei! Aber jetzt sieh zu, dass du weiter kommst!`   
 
 ### Standort
 ```yml
@@ -316,7 +318,7 @@ Wieso, du konntest doch nicht genug kriegen ?
 
 **Varii:** `Ja schon, aber jetzt ist es hier saukalt, die Hände frieren dir ab, du kannst dich nicht ins Wasser stellen, weil dir sonst die Beine abfallen und mehr.`    
 Ja, das kann ich verstehen, dass das kein Spaß mehr ist. Aber was meisnt du mit mehr?   
-**Varii:** Ja, die blöden Kiesflöhe hier. Die Sandflöhe waren schon schlimm genug, aber die hier.. *Schüttelt nur den Kopf* `   
+**Varii:** `Ja, die blöden Kiesflöhe hier. Die Sandflöhe waren schon schlimm genug, aber die hier.. *Schüttelt nur den Kopf* `   
 
 > 1. Wenn der Spieler die Quest noch nicht hat oder angenommen
 
@@ -325,12 +327,12 @@ Ich schau mal, ob ich da helfen kann.
 Dann weiterhin ‚Viel Fisch!`   
 
 
->. Wenn er sie schon erledigt hat
+> 2. Wenn er sie schon erledigt hat
 
 Ich habe mich schon um sie gekümmert, die sollten jetzt kein großes Problem mehr sein.   
-**Varii:** ´Großartig, dann gehe ich gleich mal die Küste runter, da schwimmt nämlich ein mir unbekannter Fisch rum, den muss ich fangen!`   
+**Varii:** `Großartig, dann gehe ich gleich mal die Küste runter, da schwimmt nämlich ein mir unbekannter Fisch rum, den muss ich fangen!`   
 Vielleicht bekommst du jetzt ja wieder mehr Lust auf’s Angeln!     
-**Varii:** `Könnte durchaus sein, danke. *Grinst dich an*   
+**Varii:** `Könnte durchaus sein, danke. *Ein kleines Lächeln huscht über sein Gesicht*`   
 
 
 ### Standort 
