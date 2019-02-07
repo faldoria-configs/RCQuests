@@ -6,7 +6,7 @@ ORT: Jarmundshain
 
 Ein Wolf hat auf der Frostakebene mehrere Schafe gerissen, der Hirte Rolf bittet um Hilfe. 
 
-> Zsätlichen Möglickeiten, auf den Wolf aufmerksam zu werden!
+> Zusätzliche Möglickeiten, auf den Wolf aufmerksam zu werden!
 
 ## Übersicht <!-- omit in toc -->
 
