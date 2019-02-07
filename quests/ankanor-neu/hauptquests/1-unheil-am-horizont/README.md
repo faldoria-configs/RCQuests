@@ -3,15 +3,31 @@
 Issue #85
 
 Erstes Spawnen der Spielerin auf Ankanor. 
-NPCs:
-Noroni?
 
-## Noch zu tun/Probleme
+NPCs:
+[Noroni](#noroni)   
+[Shicho](#shicho)   
+[Roschik](#roschik)
+[Yoshni](#yoshni)
+[Irgendwen]
+
+## Noch zu tun/Probleme/Info
+
+> @DAvId   
+Die Spielerin spawnt in einem kleinen Zimmer, von dem aus sie Zugang zu einer Terrasse mit grandiosem Blick über die Insel hat. Der einzige Weg führt von hier aus nach unten, so dass die Spielerin gezwungen ist, auf die Terrasse zu gehen, um nach unten zu kommen. Auf dem Weg nach unten kann dann Shicho sie irgendwo abfangen.
 
 ## Übersicht
 
 
 ## Ablauf
+
+1. Cinematic: Der Spieler fliegt wie im Traum um Ankanor und durch den Baum.
+2. Er erwacht/spawnt in einem kleinen Raum, dessen einzige Tür auf eine Terrasse führt, von der er einen grandiosen Blick auf die Insel/das Dorf hat). Er wird aufgefordert, aufzustehen ud zu Shicho zu gehen.
+3. Spieler verlässt das Gebäude und trifft Shicho, Spieler wird eingefroren
+4. [NPC Shicho](#Shicho) spricht Spieler an und gibt ihm die Info in die Versammlungshalle zu gehen und mit [NPC Roschik](#Roschik) zu sprechen
+5. Spieler geht in die Versammlungshalle und spricht Roshik an.
+6. Roshik erklärt die Lage und gibt eine neue Aufgabe an den Spieler.
+
 ## Vorraussetzungen
 
 keine / oder Aufforderung im Lobby-Gasthaus angenommen?
@@ -20,14 +36,12 @@ keine / oder Aufforderung im Lobby-Gasthaus angenommen?
 
 **Sobald/bevor die Spielerin entweder das erste Mal von der Lobby her kommt oder auch direkt das Spiel betritt:**
 
-## Cinematic!!! - Flug um die Insel und durch den Baum 
+### 'Cinematic!!!` - Flug um die Insel und durch den Baum 
 
-Wielange?
 
 ### `Dialog 1`
 
-@DAvId   
-Die Spielerin spawnt in einem kleinen Zimmer, von dem aus sie Zugang zu einer Terrasse mit grandiosem Blick über die Insel hat. Der einzige Weg führt von hier aus nach unten, so dass die Spielerin gezwungen ist, auf die Terrasse zu gehen, um nach unten zu kommen. Auf dem Weg nach unten kann dann Shicho sie irgendwo abfangen.
+
 
 **Noromi:** `[Name des Spielers], komm raus zu mir, es ist ein wunderschöner Tag heute!`   
 *Die helle Stimme deiner Freundin Noromi reißt dich aus deinem Traum. Du schreckst auf und überlegst, ob du ihrer Aufforderung gleich folgen sollst oder erst etwas später und entscheidest dich für später. Erschöpft von der Anstrengung des Fliegens lässt du dich wieder ins Bett sinken.* 
@@ -38,8 +52,11 @@ Die Spielerin spawnt in einem kleinen Zimmer, von dem aus sie Zugang zu einer Te
 
 Bin ja schon unterwegs.. *murmelst du vor dich hin*
 
+> Der Spieler sieht Noromi nicht, außer er springt gleich auf, sondern hört nur ihre Stimme. Kann sie weggehen? Kann man den Spieler im Bett festhalten, bis der letzte Satz kommt?
 
 **Die Spielerin wird jetzt durch die Wegführung gezwungen, an Shicho vorbeizugehen und wird von diesem festgehalten.**
+
+### Dialog 1 (Shicho)
 
 **Shicho:** ` Hey [Spielername], was machst du noch hier, der Bürgermeister hat zu einer Versammlung gerufen.`     
 
@@ -63,44 +80,104 @@ Ich bin ja schon unterwegs.
 
 > Wenn du dein Journal, das deine Quests beinhaltet weggesteckt hast, kannst du es wieder mit /journal in dein Inventar holen.
 
-### **`[QUEST START]`** [Versammlungshalle](#versammlungshalle)  
+### **`[QUEST START]`** [Unheil am Horizont]  
 **QuestLog:** *Begib dich zur Versammlungshalle und sprich mit Roschik*  
 
 
-> Spieler erhält 10x [Steak](#steak)
+> Spieler erhält 10x [Steak](#steak) --->unlogisch, kann man ihm die nicht gleich am Anfang ins Inventar tun, dazu einig Äpfel? Besser noch Brot, da die Kaishi ja mehr oder weniger vegetarisch sind und erst später vermehrt Fleisch essen?
 
-Weiter bei [NPC Roschik](#Roschik)
+**Die Spielerin läuft jetzt in die Versammlungshalle, wo sie [NPC Roschik](#Roschik) trifft, einen der Ältesten der Kaishi, der sich um alle organisatorischen Dinge kümmert, dazu noch zwei weitere Mitglieder des Rates, [Yoshni](#yoshni) und (irgendwen)**
+
+### Dialog 2
+
+**Roschik:** `Endlich hast du es auch geschafft.`
+Was ist los? Warum sind alle so aufgeregt? Hat Kozas wieder einmal einen Riesenfisch gefangen? Wenn ja, lasst mich damit in Ruhe.
+**Roschik:** `Nein! Eine große Gefahr droht uns. Wir haben ... erfahren, dass Agnatus auf dem Weg hierher sein könnte, dass er Schiffe in unsere Richtung entsandt hat.`  
+Amalgus? Wer ist das nun wieder?
+**Roschik:** Agnatus, Agnatus der Nekromant, er terrorisiert das Festland mit seinen Untoten und Schergen. 
+Ach der aus den Geschichten..., und was machen wir jetzt?
+
+`[QUEST ENDE]` [Unheil am Horizont](#unheil-am-horizont)
+
+**Belohnung:**  Nur XP, er hat ja noch nichts gemacht
+
+Weiter bei ... 
 
 
 
 ## NPCs
 
+## `Noromi`
 
-## `Name des NPCs`
+Noromi ist eine Freundin des Spielers/der Spielerin. Er sieht sie am Anfang nicht.
 
 ### Standartsätze  
 
-
-#### Vor der Quest
-
-#### Während der Quest  
-
-
 #### Nach der Quest
-    
+Und, ...
+
 ### Ausrüstung
 
-Unter diesem Punkt soll angegeben werden welche Art Skin der NPC haben sollte, ob er etwas in der Hand hält oder gar Rüstung trägt.
+### Standort
+```yml
+x: 
+y: 
+z: 
+world:ankanor
+```
 
+
+## `Shicho`
+
+Dieser Kaishi ist die rechte Hand Roschiks (des Bürgermeisters), er ist ein Besserwisser und mischt sich ständig in andere Angelegenheiten ein.
+
+### Standartsätze  
+
+#### Vor der Quest
+Nicht vorhanden
+#### Während der Quest  
+1. Beweg dich jetzt zur Versammlungshalle, es ist sehr wichtig.
+
+#### Nach der Quest
+1. Enttäusche uns nicht, jetzt muss jeder anpacken bevor die Katastrophe beginnt. Auch du!
+2. Wenn ich mich nicht irre hast du was zu tun!
+### Ausrüstung
+Hand?
 #### Standort
-
-Der Standort ist die einfache Angabe der Koordinaten des NPCs in einem bestimmten Format. 
 
 ```yml
 x: 
 y: 
 z: 
-world: faldoria.eisenküste
+world: ankanor
+```
+
+## `Roschik`
+
+Er ist einer der Ältesten (der Bürgermeister)  des Dorfes in dem die Kaishi wohnen. Er ist ein sehr gütiger Kaishi und wird von allen respektiert.
+
+### Standartsätze  
+
+
+#### Vor der Quest
+Nicht vorhanden
+#### Während der Quest  
+nicht vorhanden
+#### Nach der Quest
+1. Es ist sehr wichtig das du keinen Unsinn machst im Moment, wir brauchen jeden jetzt um uns vorzubereiten.
+2. Ich hoffe du verstehst, dass ich gerade keine Zeit habe für dich.
+    
+### Ausrüstung
+Was hält er in der Hand?
+Skin ID: 
+
+#### Standort 
+
+```yml
+x: 
+y: 
+z: 
+world: ankanor
 ```
 
 ## Items
@@ -112,9 +189,9 @@ Nach dem exakten Namen des Items folgt eine kurze Beschreibung des Items, ob es 
 
 ```yml
 ID: ?
-name: Wolfskopf
-type: QUEST
-quality: RARE 
+name: 
+type: food
+quality: 
 item: ?
 lore: Die Zähne sind immer noch scharf.
 max-stack-size: 1
@@ -123,47 +200,10 @@ max-stack-size: 1
 
 Sollte es mehr als ein Item geben wird jedes einzelne getrennt angegeben.
 
-## Mobs
-
-Wie schon bei den Items finden sich hier alle in der Quest vorkommenden Mobs wieder. Ist der Mob schon vorhanden ist der Name und eine Referenz anzugeben, wo der Mob schon mal verwendet worden ist.
-
-### Mobname
-
-Dem Mobnamen folgen in einem bestimmten Format einige Parameter. Zu Beginn sind diese noch spekulativ einzutragen, mit der Zeit allerdings wird es gewisse Vorgaben bzw. Vorlagen geben zu welchem Zeitpunkt welche Parameter nicht über bzw. unterschritten werden sollten.
-
-### Hungriger Wolf
-
-```yml
-name: Hungriger Wolf
-type: wolf
-aggro: true
-passive: false
-elite: true
-min-level: 8
-max-level: 8
-```
-```yml
-x: 535
-y: 101
-z: -2121
-world: faldoria.jarmundshain
-radius: 5
-```
-
-
-#### Ausrüstung
-
-Unter diesem Punkt kann angegeben werden, sofern dieser Art von Anpassung möglich ist, welche Waffe der Mob in der Hand hält, welchen Skin er haben soll oder welche Rüstungen er trägt.
 
 ## Belohnung
 
-Und hey, für das Lesen dieses Markdowns erhälst auch du was.
-> 250 Ruf bei `Gott TheFum`  
-> Den Titel `Questschreiber GitLord`  
-> 3000 EXP für Teammitglied
-
 ## Referenzen
-
 
 ## Issues
 
