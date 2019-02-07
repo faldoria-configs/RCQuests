@@ -81,8 +81,8 @@ Und das wäre..?
 
 4.3.2. Ich rede doch erst mal mit Ingeborg, ich klettere doch nicht wegen einer Marotte einen Berg hinauf! 
    
-**`[Quest Start]`** [Was weiß Ingeborg?]    
-**`Questlog:`** *Gehe zu Ingeborg und sieh zu, was du erfährst*  
+**[Quest Start]** [Was weiß Ingeborg?]    
+**Questlog:** *Gehe zu Ingeborg und sieh zu, was du erfährst*  
    
 
 
