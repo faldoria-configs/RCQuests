@@ -95,7 +95,9 @@ Was ist los? Warum sind alle so aufgeregt? Hat Kozas wieder einmal einen Riesenf
 **Roschik:** `Nein! Eine große Gefahr droht uns. Wir haben ... erfahren, dass Agnatus auf dem Weg hierher sein könnte, dass er Schiffe in unsere Richtung entsandt hat.`     
 Amalgus? Wer ist das nun wieder?   
 **Roschik:** `Agnatus, Agnatus der Nekromant, er terrorisiert das Festland mit seinen Untoten und Schergen. `      
-Ach der aus den Geschichten..., und was machen wir jetzt?
+Ach der aus den Geschichten..., und wie habt ihr es ....erfahren? Hat wieder einer von den Alten was geträumt?
+**Roschik:** `Sei nicht so respektlos, junger Mensch, der Tianbaum schenkt uns Wissen durch die Träume, die er schickt. Aber es gibt noch mehr Hinweise, dass Böses naht. In der Höhle unter den Wurzeln haben sich Untote erhoben...`
+Oh, und was machen wir jetzt?
 
 `[QUEST ENDE]` [Unheil am Horizont](#unheil-am-horizont)
 
