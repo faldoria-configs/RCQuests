@@ -36,14 +36,8 @@ Ich wüßte nicht, was ich Euch für Arbeit geben könnte.`
 
 1. Na dann, schade, dann suche ich wo anders. `[Ende]`
 2. *Du zeigst dich nun doch am Teppich interessiert*   
-Hmm, ja, Ihr verwendet schöne Farben, so bunt wie ich es gewohnt bin.
-
-   **Jan:**   
-`2.1. Ihr kommt von weit her? `   
-`2.2. Wie hat es Euch denn in diese verlassenen Gegend verschlagen?`
-
-> Auf beide Antworten: 
->
+Hmm, ja, Ihr verwendet schöne Farben, so bunt wie ich es gewohnt bin.   
+**Jan:**  `Ihr kommt von weit her?  Wie hat es Euch denn in diese verlassenen Gegend verschlagen?`  
 Ja, ich bin vom Volk der Kaishi und komme von Ankanor, von dort wurden wir von Agnitos Schergen vertrieben.   
 **Jan:** `Agnitos?`   
 Ich meine....    
