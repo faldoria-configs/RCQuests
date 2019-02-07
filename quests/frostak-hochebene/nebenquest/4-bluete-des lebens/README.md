@@ -44,7 +44,7 @@ Hmm, ja, Ihr verwendet schöne Farben, so bunt wie ich es gewohnt bin.
 
 > Auf beide Antworten: 
 >
-Ja, ich bin ein Kaishi und komme von Ankanor, von dort wurden wir von Agnitos Schergen vertrieben.   
+Ja, ich bin vom Volk der Kaishi und komme von Ankanor, von dort wurden wir von Agnitos Schergen vertrieben.   
 **Jan:** `Agnitos?`   
 Ich meine....    
 **Jan:** `Ihr meint Agnatus! Das ist schlimm, wohin dieser finstere Geist überall Elend und Leid bringt.`  
