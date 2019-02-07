@@ -15,6 +15,7 @@ Ein Wolf hat auf der Frostakebene mehrere Schafe gerissen, der Hirte Rolf bittet
 - [Ablauf](#ablauf)
 - [Dialoge](#dialoge)
   - [Dialog 1](#dialog-1)
+  - [`[Queststart]`In den Fängen des Wolfes](#queststartin-den-f%C3%A4ngen-des-wolfes)
   - [`[Queststart]`[In den Fängen des Wolfes]](#queststartin-den-f%C3%A4ngen-des-wolfes)
   - [Dialog 2](#dialog-2)
 - [NPCS](#npcs)
@@ -54,7 +55,7 @@ HQ [Vinnans helfende Hand](#vinnans-helfende-hand) angefangen.
 3. Der Spieler soll ihn töten.
 4. Erfindet sucht den Wolf und findet ihn in einer Höhle.
 5. Dort liegt auch ein toter Mann, dessen Amulet er mitnimmt.
-6. Der Spieler tötet den wolf und kehrt mit einem Wolfskopf zurück.
+6. Der Spieler tötet den Wolf und kehrt mit einem Wolfskopf zurück.
 
 ## Dialoge
 
@@ -82,9 +83,9 @@ Seid Ihr der Hirte? Vinnan schickt mich, um zu helfen.
 
      **Rolf** `Ich habe mich nie getraut ihm zu folgen, doch seine Spuren führen dort in den Wald...`   
         Ich werde mich sofort auf den Weg machen!    
-  `[Queststart]`[In den Fängen des Wolfes](#in-den-faengen-des-wolfes)
+### `[Queststart]`[In den Fängen des Wolfes](#in-den-faengen-des-wolfes)
 
-     2.2 Ist er groß?   
+2.2 Ist er groß?   
         **Rolf** `Er muss riesig sein, wenn er meine wackeren Schafe tötet, Ihr müsst wissen, dass auch sie manchmal beißen.`    
         Meint ihr das ernst? Habt Ihr ihn denn schon mal gesehen?   
         **Rolf** `Leider nicht, niemand aus dem Dorf hat ihn bisher gesehen… doch wenn ihr ihn sehen wollt, folgt einfach seinen Spuren in diesen Wald.`     
