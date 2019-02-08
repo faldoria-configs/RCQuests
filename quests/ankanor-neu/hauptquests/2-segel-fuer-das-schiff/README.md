@@ -26,7 +26,7 @@ Items, Skins, NPCs-Standarts., Belohnung, Tutorial
   - [`Dialog 1` (Roschik)](#dialog-1-roschik)
   - [**[QUEST START]** Segel für das Schiff](#quest-start-segel-f%C3%BCr-das-schiff)
   - [Dialog 2 (Mafei)](#dialog-2-mafei)
-  - [**[QUEST Update]** Segel für das Schiff](#quest-update-segel-f%C3%BCr-das-schiff)
+  - [**[QUEST Update 1]** Segel für das Schiff](#quest-update-1-segel-f%C3%BCr-das-schiff)
   - [Dialog 3 (Roschik)](#dialog-3-roschik)
 - [NPCs](#npcs)
 - [`Roschik`](#roschik)
@@ -92,7 +92,7 @@ Das ist aber eine ganze Menge!
 
 > Liste einfügen?
 
-### **[QUEST Update]** [Segel für das Schiff](#segel-fuer-das-schiff-2)
+### **[QUEST Update 1]** [Segel für das Schiff](#segel-fuer-das-schiff-2)
 **Questlog:** *Hole den Segelstoff bei Schneider Janis, besorge im Lager Segelschnur und Kleber und frage dort Kansa, wie es mit den Essensvorräten steht.*
 
 **Die Spielerin erfüllt nun alle diese Aufgaben und kehrt dann zu Mafei zurück.**
@@ -107,7 +107,7 @@ Das ist aber eine ganze Menge!
 2. Ja hier hast du sie.   
    **Mafei:** `Vielen Dank! Dann lass dich nochmal bei Roschik sehen,er hat bestimmt noch mehr Aufgaben für dich.`   
 
-**QUEST UPDATE:** [Segel für das Schiff](#segel-fuer-das-schiff)   
+**[QUEST UPDATE 2]:** [Segel für das Schiff](#segel-fuer-das-schiff)   
 **Questlog** *Gehe zurück zum Ältesten Roshik in die Versammlungshalle*
 
 
