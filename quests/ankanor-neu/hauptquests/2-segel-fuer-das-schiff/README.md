@@ -30,7 +30,7 @@ Was soll ich tun?
 Ich mache mich sofort auf den Weg.   
 
 ### **[QUEST START]** [Segel für das Schiff](#segel-fuer-das-schiff-1)  
-**Questlog**: *Finde und sprich mit Kapitän Mafei, du wirst ihn an der Küste beim Schiff finden. Folge seinen Anweisungen und kehre dann zu mir zurück.*
+**Questlog**: *Sprich mit Kapitän Mafei, du wirst ihn an der Küste beim Schiff finden. Folge seinen Anweisungen und kehre dann zu mir zurück.*
 
 **Weiter bei [NPC Kapitän Mafei](#kapitän-mafei)**
 
