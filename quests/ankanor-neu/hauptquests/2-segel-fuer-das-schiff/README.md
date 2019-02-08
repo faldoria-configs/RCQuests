@@ -27,6 +27,7 @@ Items, Skins, NPCs-Standarts., Belohnung, Tutorial
   - [**[QUEST START]** Segel für das Schiff](#quest-start-segel-f%C3%BCr-das-schiff)
   - [Dialog 2 (Mafei)](#dialog-2-mafei)
   - [**[QUEST Update 1]** Segel für das Schiff](#quest-update-1-segel-f%C3%BCr-das-schiff)
+  - [**[QUEST UPDATE 2]:** Segel für das Schiff](#quest-update-2-segel-f%C3%BCr-das-schiff)
   - [Dialog 3 (Roschik)](#dialog-3-roschik)
 - [NPCs](#npcs)
 - [`Roschik`](#roschik)
@@ -107,7 +108,7 @@ Das ist aber eine ganze Menge!
 2. Ja hier hast du sie.   
    **Mafei:** `Vielen Dank! Dann lass dich nochmal bei Roschik sehen,er hat bestimmt noch mehr Aufgaben für dich.`   
 
-**[QUEST UPDATE 2]:** [Segel für das Schiff](#segel-fuer-das-schiff)   
+### **[QUEST UPDATE 2]:** [Segel für das Schiff](#segel-fuer-das-schiff)   
 **Questlog** *Gehe zurück zum Ältesten Roshik in die Versammlungshalle*
 
 
