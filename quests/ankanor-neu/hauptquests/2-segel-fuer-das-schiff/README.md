@@ -44,7 +44,7 @@ Roschik schickt mich, du sollst das Schiff klar machen. Irgendwas von Weltunterg
 Nein, nein ehrlich, Agmagnum, der Nekrodingsda, hat Schiffe in unsere Richtung geschickt.   
 **Mafei:** `Wer? Wenn das einer deiner Späße wird, werde ich dich den Fischen zum Fraß vorwerfen.`   
 So glaub mir doch, du sollst das Schiff klar machen.   
-**Mafei:** `Bei der großen Seeschlange, wer rechnet mit sowas. Gut, dass ich schon vorgesorgt habe, aber es muss noch etliches repariert werden. Dabei kannst du mir behilflich sein. Ich brauche etliches Material zum Reparieren.`   
+**Mafei:** `Bei der großen Seeschlange, wer rechnet mit sowas. Gut, dass ich schon vorgesorgt habe, aber es muss noch etliches getan werden. Dabei kannst du mir behilflich sein. Ich brauche etliches Material zum Reparieren.`   
 Na, dann sag schon, ich wachse ja schon hier an.    
 **Mafei:** `*schaut dich leicht erzürnt an* `   
 **Mafei:** `Also, da wäre mal der Segelstoff, den habe ich schon bei Janis bestellt, dem Schneider gleich da hinter der Brücke. Den brauchst du bloss abholen. Dann wäre da noch die Segelschnur und der Kleber aus dem Lager. Und wenn du schon dort bist, fragst du Kansa, wie es mit den Essensvorräten aussieht. Das wird schon noch etwas Zeit haben.`   
