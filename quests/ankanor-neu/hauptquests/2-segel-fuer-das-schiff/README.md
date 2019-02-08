@@ -5,12 +5,11 @@ Issue #87
 
 ## Ablauf
 
-# Segel für das Schiff <!-- omit in toc -->
-## Übersicht 
+
+## Übersicht  <!-- omit in toc -->
 
 - [Noch zu tun/Probleme](#noch-zu-tunprobleme)
 - [Ablauf](#ablauf)
-- [Übersicht](#%C3%BCbersicht)
 - [Ablauf](#ablauf-1)
 - [Vorraussetzungen](#vorraussetzungen)
 - [Aufgaben](#aufgaben)
