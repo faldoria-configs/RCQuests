@@ -1,4 +1,9 @@
-# Unheil am Horizont
+# Unheil am Horizont > <!-- omit in toc -->
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+
 
 Issue #85
 
@@ -18,7 +23,42 @@ Die Spielerin spawnt in einem kleinen Zimmer, von dem aus sie Zugang zu einer Te
 
 Skins, Items, 
 
-## Übersicht
+## Übersicht <!-- omit in toc -->
+
+- [Noch zu tun/Probleme/Info](#noch-zu-tunproblemeinfo)
+- [Ablauf](#ablauf)
+- [Vorraussetzungen](#vorraussetzungen)
+- [Aufgaben/Ereignisse](#aufgabenereignisse)
+  - [`Cinematic!!!` - Flug um die Insel und durch den Baum](#cinematic---flug-um-die-insel-und-durch-den-baum)
+  - [`Dialog 1`](#dialog-1)
+  - [`Dialog 2` (Shicho)](#dialog-2-shicho)
+  - [`[QUEST START]` [Unheil am Horizont]](#quest-start-unheil-am-horizont)
+  - [`Dialog 3` (Roschik)](#dialog-3-roschik)
+- [NPCs](#npcs)
+- [`Noromi`](#noromi)
+  - [Standartsätze](#standarts%C3%A4tze)
+    - [Nach der Quest](#nach-der-quest)
+  - [Ausrüstung](#ausr%C3%BCstung)
+  - [Standort](#standort)
+- [`Shicho`](#shicho)
+  - [Standartsätze](#standarts%C3%A4tze-1)
+    - [Vor der Quest](#vor-der-quest)
+    - [Während der Quest](#w%C3%A4hrend-der-quest)
+    - [Nach der Quest](#nach-der-quest-1)
+  - [Ausrüstung](#ausr%C3%BCstung-1)
+    - [Standort](#standort-1)
+- [`Roschik`](#roschik)
+  - [Standartsätze](#standarts%C3%A4tze-2)
+    - [Vor der Quest](#vor-der-quest-1)
+    - [Während der Quest](#w%C3%A4hrend-der-quest-1)
+    - [Nach der Quest](#nach-der-quest-2)
+  - [Ausrüstung](#ausr%C3%BCstung-2)
+    - [Standort](#standort-2)
+- [Items](#items)
+  - [`Roter Apfel`](#roter-apfel)
+- [Belohnung](#belohnung)
+- [Referenzen](#referenzen)
+- [Issues](#issues)
 
 
 ## Ablauf
@@ -38,7 +78,7 @@ keine / oder Aufforderung im Lobby-Gasthaus angenommen?
 
 **Sobald/bevor die Spielerin entweder das erste Mal von der Lobby her kommt oder auch direkt das Spiel betritt:**
 
-### 'Cinematic!!!` - Flug um die Insel und durch den Baum 
+### `Cinematic!!!` - Flug um die Insel und durch den Baum 
 
 
 ### `Dialog 1`
@@ -57,9 +97,9 @@ Bin ja schon unterwegs.. *murmelst du vor dich hin*
 
 >> Der Spieler sieht Noromi nicht, außer er springt gleich auf, sondern hört nur ihre Stimme. Kann sie weggehen? Kann man den Spieler im Bett festhalten, bis der letzte Satz kommt?
 
-**Die Spielerin wird jetzt durch die Wegführung gezwungen, an Shicho vorbeizugehen und wird von diesem festgehalten.**
+**Die Spielerin wird jetzt durch die Wegführung gezwungen, an Shicho vorbeizugeh2n und wird von diesem festgehalten.**
 
-### Dialog 1 (Shicho)
+### `Dialog 2` (Shicho)
 
 **Shicho:** ` Hey [Spielername], was machst du noch hier, der Älteste Roschik hat zu einer Versammlung gerufen.`     
 
@@ -74,7 +114,7 @@ In Ordnung, wenn's sein muss, dann mache ich mich gleich auf den Weg.
 > Grauer Text: TIPP: Du kannst dein Quest Tagebuch über den Menüpunkt im Craftingfeld deines Inventars öffnen.`
 
 
-### **`[QUEST START]`** [Unheil am Horizont]  
+### `[QUEST START]` [Unheil am Horizont]  
 **QuestLog:** *Begib dich zur Versammlungshalle und sprich mit Roschik*  
 
 
@@ -83,7 +123,7 @@ Am Eingang der Versammlungshalle erscheint der graue Text:**
 
 > Grauer Text: TIPP: Du kannst mit einem NPC per Rechtsklick sprechen.
 
-### Dialog 2
+### `Dialog 3` (Roschik)
 
 **Roschik:** `Endlich hast du es auch geschafft.`   
 Was ist los? Warum sind alle so aufgeregt? Hat Kozas wieder einmal einen Riesenfisch gefangen? Wenn ja, lasst mich damit in Ruhe.   
