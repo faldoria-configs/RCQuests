@@ -25,10 +25,11 @@ Items, Skins, NPCs-Standarts., Belohnung, Tutorial
 - [Aufgaben](#aufgaben)
   - [`Dialog 1` (Roschik)](#dialog-1-roschik)
   - [**[QUEST START]** Segel für das Schiff](#quest-start-segel-f%C3%BCr-das-schiff)
-  - [Dialog 2 (Mafei)](#dialog-2-mafei)
-  - [**[QUEST Update 1]** Segel für das Schiff](#quest-update-1-segel-f%C3%BCr-das-schiff)
-  - [**[QUEST UPDATE 2]:** Segel für das Schiff](#quest-update-2-segel-f%C3%BCr-das-schiff)
-  - [Dialog 3 (Roschik)](#dialog-3-roschik)
+  - [`Dialog 2` (Mafei)](#dialog-2-mafei)
+  - [**[QUEST Update 1]** Zeug für Mafei besorgen](#quest-update-1-zeug-f%C3%BCr-mafei-besorgen)
+  - [**[QUEST UPDATE 2]:** Zurück zu Roschik](#quest-update-2-zur%C3%BCck-zu-roschik)
+  - [`Dialog 3` (Roschik)](#dialog-3-roschik)
+  - [**[Quest Ende]** Segel für das Schiff](#quest-ende-segel-f%C3%BCr-das-schiff)
 - [NPCs](#npcs)
 - [`Roschik`](#roschik)
   - [Standartsätze](#standarts%C3%A4tze)
@@ -74,7 +75,7 @@ Ich mache mich sofort auf den Weg.
 
 **Weiter bei [NPC Kapitän Mafei](#kapitän-mafei)**
 
-### Dialog 2 (Mafei)
+### `Dialog 2` (Mafei)
 
 **Mafei:** ` Und der Tag ist perfekt.`   
 Was hast du gesagt Mafei?   
@@ -93,7 +94,7 @@ Das ist aber eine ganze Menge!
 
 > Liste einfügen?
 
-### **[QUEST Update 1]** [Segel für das Schiff](#segel-fuer-das-schiff-2)
+### **[QUEST Update 1]** [Zeug für Mafei besorgen](#segel-fuer-das-schiff-2)
 **Questlog:** *Hole den Segelstoff bei Schneider Janis, besorge im Lager Segelschnur und Kleber und frage dort Kansa, wie es mit den Essensvorräten steht.*
 
 **Die Spielerin erfüllt nun alle diese Aufgaben und kehrt dann zu Mafei zurück.**
@@ -108,7 +109,7 @@ Das ist aber eine ganze Menge!
 2. Ja hier hast du sie.   
    **Mafei:** `Vielen Dank! Dann lass dich nochmal bei Roschik sehen,er hat bestimmt noch mehr Aufgaben für dich.`   
 
-### **[QUEST UPDATE 2]:** [Segel für das Schiff](#segel-fuer-das-schiff)   
+### **[QUEST UPDATE 2]:** [Zurück zu Roschik](#segel-fuer-das-schiff)   
 **Questlog** *Gehe zurück zum Ältesten Roshik in die Versammlungshalle*
 
 
@@ -116,14 +117,14 @@ Das ist aber eine ganze Menge!
 
 Weiter bei [NPC Roschik](#segel-fuer-das-schiff-3)
 
-### Dialog 3 (Roschik)
+### `Dialog 3` (Roschik)
 
 **Roschik:** ` Hast du Kapitän Mafei über die Situation informiert?`   
 Ja, auch wenn er mir anfangs nicht glauben wollte, ich habe sogar geholfen, das Schiff zu reparieren - indirekt.    
 **Roschik:** `Das freut mich. Noromi hat einige Kürbiskuchen dagelassen, ich denke, du magst die, nicht wahr?`   
 Uhmm, ja, sehr gerne.
 
-**`[Quest Ende]`** [Segel für das Schiff](#segel-fuer-das-schiff)
+### **[Quest Ende]** [Segel für das Schiff](#segel-fuer-das-schiff)
 
 **Belohnung:**
 XP + Kürbiskuchen 
