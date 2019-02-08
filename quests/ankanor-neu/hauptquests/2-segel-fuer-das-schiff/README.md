@@ -10,7 +10,10 @@ Items, Skins, NPCs-Standarts., Belohnung, Tutorial
 3. Dieser gibt ihm verschiedene Aufgaben:
    - Material zur Reparatur des Schiffes aus dem Lager bei der Versammlunghalle zu besorgen.
    - zum Schneider zu gehen und bestellten Stoff für ein neues Segel zu holen
-   - Kansa in der Lagerhalle ansprechen. 
+   - Kansa in der Lagerhalle ansprechen.
+4. Die Spielerin geht nun zum Schneider und in die Lagerhalle und holt die erforderlichen Dinge.
+5. In der lagerhalle spricht Kansa sie an, dort kann sie eine Quest annehmen.
+6. Sie kehrt dann zu Mafei zurück und schließlich zu Roschik.  
 
 
 
