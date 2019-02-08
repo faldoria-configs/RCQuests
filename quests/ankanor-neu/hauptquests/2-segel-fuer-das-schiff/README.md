@@ -5,12 +5,19 @@ Issue #87
 
 ## Ablauf
 
+1. Start: Spieler bekommt von [NPC Roschik](#Roschik) die Aufgabe [Kapitän Mafei](#kapitän-mafei) zu finden und ihm zu helfen.
+2. Spieler geht zum Steg beim Schiff und spricht Mafei an.
+3. Dieser gibt ihm verschiedene Aufgaben:
+   - Material zur Reparatur des Schiffes aus dem Lager bei der Versammlunghalle zu besorgen.
+   - zum Schneider zu gehen und bestellten Stoff für ein neues Segel zu holen
+   - Kansa in der Lagerhalle ansprechen. 
+
+
 
 ## Übersicht  <!-- omit in toc -->
 
 - [Noch zu tun/Probleme](#noch-zu-tunprobleme)
 - [Ablauf](#ablauf)
-- [Ablauf](#ablauf-1)
 - [Vorraussetzungen](#vorraussetzungen)
 - [Aufgaben](#aufgaben)
   - [`Dialog 1` (Roschik)](#dialog-1-roschik)
@@ -44,13 +51,6 @@ Issue #87
 - [Issues](#issues)
 
 
-## Ablauf
-1. Start: Spieler bekommt von [NPC Roschik](#Roschik) die Aufgabe [Kapitän Mafei](#kapitän-mafei) zu finden und ihm zu helfen.
-2. Spieler geht zum Steg beim Schiff und spricht Mafei an.
-3. Dieser gibt ihm verschiedene Aufgaben:
-   - Material zur Reparatur des Schiffes aus dem Lager bei der Versammlunghalle zu besorgen.
-   - zum Schneider zu gehen und bestellten Stoff für ein neues Segel zu holen
-   - Kansa in der Lagerhalle ansprechen. 
 
 ## Vorraussetzungen
 
