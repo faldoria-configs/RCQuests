@@ -5,7 +5,44 @@ Issue #87
 
 ## Ablauf
 
-## Übersicht
+# Segel für das Schiff <!-- omit in toc -->
+## Übersicht 
+
+- [Noch zu tun/Probleme](#noch-zu-tunprobleme)
+- [Ablauf](#ablauf)
+- [Übersicht](#%C3%BCbersicht)
+- [Ablauf](#ablauf-1)
+- [Vorraussetzungen](#vorraussetzungen)
+- [Aufgaben](#aufgaben)
+  - [`Dialog 1` (Roschik)](#dialog-1-roschik)
+  - [**[QUEST START]** Segel für das Schiff](#quest-start-segel-f%C3%BCr-das-schiff)
+  - [Dialog 2 (Mafei)](#dialog-2-mafei)
+  - [**[QUEST Update]** Segel für das Schiff](#quest-update-segel-f%C3%BCr-das-schiff)
+  - [Dialog 3 (Roschik)](#dialog-3-roschik)
+- [NPCs](#npcs)
+- [`Roschik`](#roschik)
+  - [Standartsätze](#standarts%C3%A4tze)
+    - [Vor der Quest](#vor-der-quest)
+    - [Während der Quest](#w%C3%A4hrend-der-quest)
+    - [Nach der Quest](#nach-der-quest)
+  - [Ausrüstung](#ausr%C3%BCstung)
+    - [Standort](#standort)
+- [`Kapitän Mafei`](#kapit%C3%A4n-mafei)
+  - [Standartsätze](#standarts%C3%A4tze-1)
+    - [Vor der Quest](#vor-der-quest-1)
+    - [Während der Quest](#w%C3%A4hrend-der-quest-1)
+    - [Nach der Quest](#nach-der-quest-1)
+  - [Ausrüstung](#ausr%C3%BCstung-1)
+    - [Standort](#standort-1)
+- [Items](#items)
+  - [Itemname](#itemname)
+- [Mobs](#mobs)
+  - [Mobname](#mobname)
+  - [Hungriger Wolf](#hungriger-wolf)
+    - [Ausrüstung](#ausr%C3%BCstung-2)
+- [Belohnung](#belohnung)
+- [Referenzen](#referenzen)
+- [Issues](#issues)
 
 
 ## Ablauf
