@@ -23,9 +23,10 @@ Die Spielerin spawnt in einem kleinen Zimmer, von dem aus sie Zugang zu einer Te
 
 Skins, Items, 
 
-## Übersicht <!-- omit in toc -->
+## Übersicht 
 
 - [Noch zu tun/Probleme/Info](#noch-zu-tunproblemeinfo)
+- [Übersicht](#%C3%BCbersicht)
 - [Ablauf](#ablauf)
 - [Vorraussetzungen](#vorraussetzungen)
 - [Aufgaben/Ereignisse](#aufgabenereignisse)
