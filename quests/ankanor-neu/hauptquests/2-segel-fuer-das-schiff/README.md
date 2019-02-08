@@ -2,7 +2,7 @@
 Issue #87
 
 ## Noch zu tun/Probleme
-
+Items, Skins, NPCs-Standarts., Belohnung, Tutorial
 ## Ablauf
 
 1. Start: Spieler bekommt von [NPC Roschik](#Roschik) die Aufgabe [Kapitän Mafei](#kapitän-mafei) zu finden und ihm zu helfen.
