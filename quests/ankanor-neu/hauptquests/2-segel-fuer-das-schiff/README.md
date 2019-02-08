@@ -150,10 +150,10 @@ Beschreibung ergänzen
 #### Standort
 
 
-x: 
-y: 
-z: 
-world: ankanor
+**`x: `**   
+**y: `**   
+**z: `**   
+**`world: ankanor`**
 
 ## `Kapitän Mafei`
 
