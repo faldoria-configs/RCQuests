@@ -71,10 +71,8 @@ Und was soll ich dort?
 **Shicho:** `Sprich sofort mit unserem Bürgermeister Roshik. Der sagt dir dann schon, was du tun sollst.`    
 In Ordnung, wenn's sein muss, dann mache ich mich gleich auf den Weg. 
 
-`Du kannst dein Quest Tagebuch über den Menüpunkt im Craftingfeld deines Inventars öffnen.`
+> Grauer Text: TIPP: Du kannst dein Quest Tagebuch über den Menüpunkt im Craftingfeld deines Inventars öffnen.`
 
-
-> Grauer Text: TIPP: Wenn du dein Journal, das deine Quests beinhaltet weggesteckt hast, kannst du es wieder mit /journal in dein Inventar holen.~~
 
 ### **`[QUEST START]`** [Unheil am Horizont]  
 **QuestLog:** *Begib dich zur Versammlungshalle und sprich mit Roschik*  
