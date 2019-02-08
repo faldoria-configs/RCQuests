@@ -16,6 +16,8 @@ NPCs:
 > @DAvId   
 Die Spielerin spawnt in einem kleinen Zimmer, von dem aus sie Zugang zu einer Terrasse mit grandiosem Blick über die Insel hat. Der einzige Weg führt von hier aus nach unten, so dass die Spielerin gezwungen ist, auf die Terrasse zu gehen, um nach unten zu kommen. Auf dem Weg nach unten kann dann Shicho sie irgendwo abfangen.
 
+Skins, Items, 
+
 ## Übersicht
 
 
@@ -42,7 +44,6 @@ keine / oder Aufforderung im Lobby-Gasthaus angenommen?
 ### `Dialog 1`
 
 
-
 **Noromi:** `[Name des Spielers], komm raus zu mir, es ist ein wunderschöner Tag heute!`   
 *Die helle Stimme deiner Freundin Noromi reißt dich aus deinem Traum. Du schreckst auf und überlegst, ob du ihrer Aufforderung gleich folgen sollst oder erst etwas später und entscheidest dich für später. Erschöpft von der Anstrengung des Fliegens lässt du dich wieder ins Bett sinken.* 
 
@@ -52,41 +53,35 @@ keine / oder Aufforderung im Lobby-Gasthaus angenommen?
 
 Bin ja schon unterwegs.. *murmelst du vor dich hin*
 
-> Der Spieler sieht Noromi nicht, außer er springt gleich auf, sondern hört nur ihre Stimme. Kann sie weggehen? Kann man den Spieler im Bett festhalten, bis der letzte Satz kommt?
+**`Der Spieler hat 64 Brot in seinem Inventar. In einer Kiste in seinem Zimmer befinden sich weitere Kleinigkeiten wie 16 Äpfel und einige unnütze, benannte Dinge (Spielzeug, fast kaputte, bunte Lederstiefel und ein kaputtes Hemd, eine Angel..)`**   
+
+>> Der Spieler sieht Noromi nicht, außer er springt gleich auf, sondern hört nur ihre Stimme. Kann sie weggehen? Kann man den Spieler im Bett festhalten, bis der letzte Satz kommt?
 
 **Die Spielerin wird jetzt durch die Wegführung gezwungen, an Shicho vorbeizugehen und wird von diesem festgehalten.**
 
 ### Dialog 1 (Shicho)
 
-**Shicho:** ` Hey [Spielername], was machst du noch hier, der Bürgermeister hat zu einer Versammlung gerufen.`     
+**Shicho:** ` Hey [Spielername], was machst du noch hier, der Älteste Roschik hat zu einer Versammlung gerufen.`     
 
-> [Klick auf die Antwort]   
-> 
+> Grauer Text: Klick auf die Antwort   
+
 Wieso, was ist los? Gab es wieder Ärger im Lager?      
 **Shicho:** `Schön wär’s, mach schnell, die anderen warten schon. *Er erhebt die Stimme* Und der Weg zur Versammlungshalle führt hier ..... (muss noch eingesetzt werden, wenn fertig gebaut), nicht nach... zu den Äpfeln.`        
 Und was soll ich dort?   
-**Shicho:** `Sprich sofort mit unserem Bürgermeister Roshik. Der sagt dir dann schon, was du tun sollst.`    
-> Grauer Text: Du kannst mit einem NPC per Rechtsklick sprechen   
-> 
-In Ordnung, wenn's sein muss, dann mache ich mich gleich auf den Weg. 
+**Shicho:** `Sprich sofort mit unserem Bürgermeister Roshik. Der sagt dir dann schon, was du tun sollst.`       
+In Ordnung, wenn's sein muss, dann mache ich mich gleich auf den Weg.   
 
-**Shicho:** Bevor du gehst, vergiss nicht das du deine Aufgaben im Journal notiert hast. Wenn du es weggesteckt hast, kannst du es wieder mit /journal in dein Inventar holen. Und nun los geh zur Versammlungshalle.
-> Das mit dem Inventar gehört nicht in Shichos Mund , vielleicht so?
-
-**Shicho:** `Noch einen Moment. Vergiss nicht, dass du deine Aufgaben im Journal notiert hast. Vergessliche Leute wie du sollten sich wenigstens daran erinnern. Und nun los geh zur Versammlungshalle.`    
-Ich bin ja schon unterwegs. 
-
-> [Klick auf die Antwort]
-
-> Wenn du dein Journal, das deine Quests beinhaltet weggesteckt hast, kannst du es wieder mit /journal in dein Inventar holen.
+ 
+> Grauer Text: Du kannst dein Quest Tagebuch über den Menüpunkt im Handwerksfeld deines Inventars öffnen.
 
 ### **`[QUEST START]`** [Unheil am Horizont]  
 **QuestLog:** *Begib dich zur Versammlungshalle und sprich mit Roschik*  
 
 
-> Spieler erhält 10x [Steak](#steak) --->unlogisch, kann man ihm die nicht gleich am Anfang ins Inventar tun, dazu einig Äpfel? Besser noch Brot, da die Kaishi ja mehr oder weniger vegetarisch sind und erst später vermehrt Fleisch essen?
+**Die Spielerin läuft jetzt in die Versammlungshalle, wo sie [NPC Roschik](#Roschik) trifft, einen der Ältesten der Kaishi, der sich um alle organisatorischen Dinge kümmert, dazu noch zwei weitere Mitglieder des Rates, [Yoshni](#yoshni) und (irgendwen)   
+Am Eingang der Versammlungshalle erscheint der graue Text:**
 
-**Die Spielerin läuft jetzt in die Versammlungshalle, wo sie [NPC Roschik](#Roschik) trifft, einen der Ältesten der Kaishi, der sich um alle organisatorischen Dinge kümmert, dazu noch zwei weitere Mitglieder des Rates, [Yoshni](#yoshni) und (irgendwen)**
+> Grauer Text: Du kannst mit einem NPC per Rechtsklick sprechen
 
 ### Dialog 2
 
@@ -95,15 +90,15 @@ Was ist los? Warum sind alle so aufgeregt? Hat Kozas wieder einmal einen Riesenf
 **Roschik:** `Nein! Eine große Gefahr droht uns. Wir haben ... erfahren, dass Agnatus auf dem Weg hierher sein könnte, dass er Schiffe in unsere Richtung entsandt hat.`     
 Amalgus? Wer ist das nun wieder?   
 **Roschik:** `Agnatus, Agnatus der Nekromant, er terrorisiert das Festland mit seinen Untoten und Schergen. `      
-Ach der aus den Geschichten..., und wie habt ihr es ....erfahren? Hat wieder einer von den Alten was geträumt?
-**Roschik:** `Sei nicht so respektlos, junger Mensch, der Tianbaum schenkt uns Wissen durch die Träume, die er schickt. Aber es gibt noch mehr Hinweise, dass Böses naht. In der Höhle unter den Wurzeln haben sich Untote erhoben...`
+Ach der aus den Geschichten..., und wie habt ihr es ....erfahren? Hat wieder einer von den Alten was geträumt?   
+**Roschik:** `Sei nicht so respektlos, junger Mensch, der Tianbaum schenkt uns Wissen durch die Träume, die er schickt. Aber es gibt noch mehr Hinweise, dass Böses naht. In der Höhle unter den Wurzeln haben sich Untote erhoben...`   
 Oh, und was machen wir jetzt?
 
 `[QUEST ENDE]` [Unheil am Horizont](#unheil-am-horizont)
 
 **Belohnung:**  Nur XP, er hat ja noch nichts gemacht
 
-Weiter bei ... 
+Weiter mit HQ [Segel für das Schiff](../segel-fuer-das-schiff.md) 
 
 
 
@@ -195,7 +190,7 @@ name:
 type: food
 quality: 
 item: ?
-lore: Die Zähne sind immer noch scharf.
+lore: 
 max-stack-size: 1
 ```
 
