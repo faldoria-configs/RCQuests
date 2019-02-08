@@ -180,19 +180,19 @@ world: ankanor
 ## Items
 
 
-### Itemname
+### Roter Apfel
 
 Nach dem exakten Namen des Items folgt eine kurze Beschreibung des Items, ob es dropt oder verkauft wird, bzw. die Relation zur Quest und wenn das Item schon vorhanden ist folgt die ID des Items. Des Weiteren folgt bei neuen Items eine Auflistung von Parametern in einem bestimmten Format.
 
-```yml
-ID: ?
-name: 
-type: food
-quality: 
-item: ?
-lore: 
-max-stack-size: 1
-```
+
+**ID: 260**   
+**name: Roter Apfel**   
+**type: food**   
+**quality: COMMON**   
+**item: apple**   
+**lore: knackig, saftig, rot**   
+**max-stack-size: 64**   
+
 
 
 Sollte es mehr als ein Item geben wird jedes einzelne getrennt angegeben.
