@@ -66,11 +66,14 @@ Wieso, was ist los? Gab es wieder Ärger im Lager?
 **Shicho:** `Schön wär’s, mach schnell, die anderen warten schon. *Er erhebt die Stimme* Und der Weg zur Versammlungshalle führt hier ..... (muss noch eingesetzt werden, wenn fertig gebaut), nicht nach... zu den Äpfeln.`        
 Und was soll ich dort?   
 **Shicho:** `Sprich sofort mit unserem Bürgermeister Roshik. Der sagt dir dann schon, was du tun sollst.`    
-> Grauer Text: Du kannst mit einem NPC per Rechtsklick sprechen   
-> 
+
+> ~~Grauer Text: Du kannst mit einem NPC per Rechtsklick sprechen ~~
+
 In Ordnung, wenn's sein muss, dann mache ich mich gleich auf den Weg. 
 
-**Shicho:** Bevor du gehst, vergiss nicht das du deine Aufgaben im Journal notiert hast. Wenn du es weggesteckt hast, kannst du es wieder mit /journal in dein Inventar holen. Und nun los geh zur Versammlungshalle.
+> Ich weis nicht ob Schicho das sagen soll oder wir es einfach nur als Text im Chat anzeigen. Ich finde das wirkt etwas deplaziert. Ich würde einfach eine Info im Chat zeigen: `Du kannst dein Quest Tagebuch über den Menüpunkt im Craftingfeld deines Inventars öffnen.`
+
+~~**Shicho:** Bevor du gehst, vergiss nicht das du deine Aufgaben im Journal notiert hast. Wenn du es weggesteckt hast, kannst du es wieder mit /journal in dein Inventar holen. Und nun los geh zur Versammlungshalle.
 > Das mit dem Inventar gehört nicht in Shichos Mund , vielleicht so?
 
 **Shicho:** `Noch einen Moment. Vergiss nicht, dass du deine Aufgaben im Journal notiert hast. Vergessliche Leute wie du sollten sich wenigstens daran erinnern. Und nun los geh zur Versammlungshalle.`    
@@ -78,15 +81,18 @@ Ich bin ja schon unterwegs.
 
 > [Klick auf die Antwort]
 
-> Wenn du dein Journal, das deine Quests beinhaltet weggesteckt hast, kannst du es wieder mit /journal in dein Inventar holen.
+> Wenn du dein Journal, das deine Quests beinhaltet weggesteckt hast, kannst du es wieder mit /journal in dein Inventar holen.~~
 
 ### **`[QUEST START]`** [Unheil am Horizont]  
 **QuestLog:** *Begib dich zur Versammlungshalle und sprich mit Roschik*  
 
 
 > Spieler erhält 10x [Steak](#steak) --->unlogisch, kann man ihm die nicht gleich am Anfang ins Inventar tun, dazu einig Äpfel? Besser noch Brot, da die Kaishi ja mehr oder weniger vegetarisch sind und erst später vermehrt Fleisch essen?
+> Vielleicht platzieren wir auch einfach eine Truhe in dem Zimmer und neugrierige Spieler können die Truhe looten und erhalten dadurch (mehr) Essen. Außerdem lassen wir ihn direkt mit etwas Brot (ist ja dein Vorschlag) spawnen.
 
 **Die Spielerin läuft jetzt in die Versammlungshalle, wo sie [NPC Roschik](#Roschik) trifft, einen der Ältesten der Kaishi, der sich um alle organisatorischen Dinge kümmert, dazu noch zwei weitere Mitglieder des Rates, [Yoshni](#yoshni) und (irgendwen)**
+
+> Beim Betreten der Versammlungshalle Tipp: `Du kannst mit einem NPC per Rechtsklick sprechen.`
 
 ### Dialog 2
 
