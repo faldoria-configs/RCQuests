@@ -149,12 +149,12 @@ Beschreibung ergänzen
 ### Ausrüstung
 #### Standort
 
-```yml
+
 x: 
 y: 
 z: 
 world: ankanor
-```
+
 ## `Kapitän Mafei`
 
 ### Standartsätze  
