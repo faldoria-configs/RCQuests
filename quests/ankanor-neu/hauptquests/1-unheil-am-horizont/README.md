@@ -180,9 +180,9 @@ world: ankanor
 ## Items
 
 
-### Roter Apfel
+### `Roter Apfel`
 
-Nach dem exakten Namen des Items folgt eine kurze Beschreibung des Items, ob es dropt oder verkauft wird, bzw. die Relation zur Quest und wenn das Item schon vorhanden ist folgt die ID des Items. Des Weiteren folgt bei neuen Items eine Auflistung von Parametern in einem bestimmten Format.
+Liegt in der Kiste im Zimmer des Spielers, 16 Stück
 
 
 **ID: 260**   
@@ -192,10 +192,6 @@ Nach dem exakten Namen des Items folgt eine kurze Beschreibung des Items, ob es 
 **item: apple**   
 **lore: knackig, saftig, rot**   
 **max-stack-size: 64**   
-
-
-
-Sollte es mehr als ein Item geben wird jedes einzelne getrennt angegeben.
 
 
 ## Belohnung
