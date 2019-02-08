@@ -62,13 +62,13 @@ Das ist aber eine ganze Menge!
 > Bei Kansa erhält dann der Spieler eine weitere Quest, die er gleichzeitig machen kann oder auch nicht.
 
 **Mafei:** ` Hast du alles erledigt?`
-1. Nein, ich habe noch nicht alles erledigt.
-   **Mafei:**  Dann solltest du dich beeilen.`
+1. Nein, ich habe noch nicht alles erledigt.   
+   **Mafei:**  `   Dann solltest du dich beeilen.`
 
-2. Ja hier hast du sie.
+2. Ja hier hast du sie.   
    **Mafei:** `Vielen Dank! Dann lass dich nochmal bei Roschik sehen,er hat bestimmt noch mehr Aufgaben für dich.`   
 
-**QUEST UPDATE:** [Segel für das Schiff](#segel-fuer-das-schiff)
+**QUEST UPDATE:** [Segel für das Schiff](#segel-fuer-das-schiff)   
 **Questlog** *Gehe zurück zum Ältesten Roshik in die Versammlungshalle*
 
 
@@ -78,9 +78,9 @@ Weiter bei [NPC Roschik](#segel-fuer-das-schiff-3)
 
 ### Dialog 3 (Roschik)
 
-**Roschik:** ` Hast du Kapitän Mafei über die Situation informiert?`
-Ja, auch wenn er mir anfangs nicht glauben wollte, ich habe sogar geholfen, das Schiff zu reparieren - indirekt. 
-**Roschik:** `Das freut mich. Noromi hat einige Kürbiskuchen dagelassen, ich denke, du magst die, nicht wahr?`
+**Roschik:** ` Hast du Kapitän Mafei über die Situation informiert?`   
+Ja, auch wenn er mir anfangs nicht glauben wollte, ich habe sogar geholfen, das Schiff zu reparieren - indirekt.    
+**Roschik:** `Das freut mich. Noromi hat einige Kürbiskuchen dagelassen, ich denke, du magst die, nicht wahr?`   
 Uhmm, ja, sehr gerne.
 
 **`[Quest Ende]`** [Segel für das Schiff](#segel-fuer-das-schiff)
