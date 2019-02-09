@@ -23,7 +23,7 @@ Wieso sollte ich für Noromi...?  Du ziehst mich auf! Für sowas ist jetzt keine
 Na, der Necrodingsda, der Necromant.   
 **Janis:** `Ach, mißt Roschik den Träumen der Ältesten soviel Gewicht bei?`   
 Ich weiß nicht, aber es sollen auch noch irgendwelche Skelette irgendwo aufgetaucht sein.   
-**Janis:** `Nun, dann pack mal lieber den Segelstoff zusammen und bring in Mafei, der muss ja auch noch verarbeitet werden. .. Und die Tasche für Noromi willst du wirklich nicht? Ich gebe sie dir auch ganz billig!`   
+**Janis:** `Nun, dann pack mal lieber den Segelstoff zusammen und bring ihn Mafei, der muss ja auch noch verarbeitet werden. .. Und die Tasche für Noromi willst du wirklich nicht? Ich gebe sie dir auch ganz billig!`   
 Lass mich mit Noromi in Ruhe, ich muss jetzt gehen! *Du ärgerst dich, weil du etwas rot geworden bist*   
 **Janis:** `*lacht:*`   
 
