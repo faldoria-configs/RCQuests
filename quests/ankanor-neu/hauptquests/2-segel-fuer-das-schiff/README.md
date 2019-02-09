@@ -104,7 +104,7 @@ Das ist aber eine ganze Menge!
 
 **Die Spielerin erfüllt nun alle diese Aufgaben und kehrt dann zu Mafei zurück.**
 
->> Schneider ist ein Händler, der aber nicht handelt, der Spieler kann den Stoff so nehmen.   
+>> Schneider ist ein Händler, der aber nicht nur handelt, der Spieler kann den Stoff so nehmen.   
 >> Bei Kansa erhält dann der Spieler eine weitere Quest, die er gleichzeitig machen kann oder auch nicht.
 
 >> Kansa-Quest-Link und NonQuestNPC Schneider Janis kommt noch
