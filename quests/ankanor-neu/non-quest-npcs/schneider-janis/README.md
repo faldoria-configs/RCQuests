@@ -27,10 +27,12 @@ Ich weiß nicht, aber es sollen auch noch irgendwelche Skelette irgendwo aufgeta
 Lass mich mit Noromi in Ruhe, ich muss jetzt gehen! *Du ärgerst dich, weil du etwas rot geworden bist*   
 **Janis:** `*lacht:*`   
 
-
+>> Wie macht man das jetzt, damit das Inventar erst aufgeht, wenn Janis sagt: Nun Pack mal lieber den Segelstoff zusammen? Wie ist es möglich, dass der Spieler nur den nimmt und nicht was anderes auch, was Janis im Inventar hat oder hat er zu diesem Zeitpunkt nur den Segelstoff drin, weil er ihn dem Spieler ja gibt, oder machen wir das mit dem Händler erst später (hab schon eine Idee)
 
 
 ## Ausrüstung
+Schere in der Hand
+Skin:
 ## Standort
 
 ```yml
@@ -41,6 +43,8 @@ world: faldoria.eisenküste
 ```
 
 ## Items im Inventar
+
+kommt noch
 
 ### Itemname
 
