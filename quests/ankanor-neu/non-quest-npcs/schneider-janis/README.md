@@ -49,6 +49,18 @@ world: faldoria.eisenküste
 
 kommt noch
 
+### Hübsches Täschchen
+
+```yml
+ID: ?
+name: Hübsches Täschchen
+type: 
+quality: RARE 
+item: Irgendein bunter, gebrannter Keramikblock
+lore: Sorgfältig genäht und bestickt
+max-stack-size: 1
+price: 
+```
 ### Itemname
 
 ```yml
@@ -61,4 +73,3 @@ lore: (opt.)
 max-stack-size: 1
 price: 
 ```
-
