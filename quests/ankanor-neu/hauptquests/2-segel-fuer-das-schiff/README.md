@@ -100,7 +100,7 @@ Das ist aber eine ganze Menge!
 >> Liste einfügen?
 
 ### **[QUEST Update 1]** [Zeug für Mafei besorgen](#segel-fuer-das-schiff-2)
-**Questlog:** *Hole den Segelstoff bei Schneider Janis, besorge im Lager Segelschnur und Kleber und frage dort Kansa, wie es mit den Essensvorräten steht.*
+**Questlog:** *Hole den Segelstoff bei Schneider Janis, besorge im Lager 100 Fuß Segelschnur und 1 Eimer Kleber und frage dort Kansa, wie es mit den Essensvorräten steht.*
 
 **Die Spielerin erfüllt nun alle diese Aufgaben und kehrt dann zu Mafei zurück.**
 
