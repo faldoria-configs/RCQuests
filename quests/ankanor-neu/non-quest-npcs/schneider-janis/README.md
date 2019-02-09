@@ -32,6 +32,12 @@ Lass mich mit Noromi in Ruhe, ich muss jetzt gehen! *Du ärgerst dich, weil du e
 
 ## Questunabhängige Dialoge
 
+**Ruft dem Spieler schon beim Vorbeigehen zu (3 Blocks)**
+
+1. **Janis:** `Ja hallo, ein sauberes, frisch genähtes Taschentuch gefällig? Nein, schade, morgen ist es schon nicht mehr frisch!`
+2. **Janis:** `Sonnenhüte, leicht unf luftig! Mit Schnur gegen die Meeresbrise!`
+
+
 
 ## Ausrüstung
 Schere in der Hand
@@ -42,34 +48,95 @@ Skin:
 x: 
 y: 
 z: 
-world: faldoria.eisenküste
+world: ankanor
 ```
 
 ## Items im Inventar
 
 kommt noch
 
+### Segelstoffballen
+
+```yml
+ID: 35:14
+name: Segelstoffballen
+type: QUEST
+quality:COMMON
+item: red_wool
+lore: Beste Qualität für langen Halt
+max-stack-size: 64
+price: ??
+```
+
 ### Hübsches Täschchen
 
 ```yml
-ID: ?
+ID: 236
 name: Hübsches Täschchen
-type: 
+type: vendor
 quality: RARE 
-item: Irgendein bunter, gebrannter Keramikblock
+item: orange_glazed_terracotta
 lore: Sorgfältig genäht und bestickt
+max-stack-size: 1
+price: ??
+```
+### Weißer Wollstoff
+
+```yml
+ID: 35
+name: Weißer Wollstoff
+type: vendor
+quality:COMMON
+item: white_wool
+lore: (opt.)
+max-stack-size: 64
+price: 
+```
+### Schneiderschere
+
+```yml
+ID: 359
+name: Schneiderschere
+type: vendor
+quality: COMMON
+item: shears (verzaubert?)
+lore: Schneidet besonders genau
 max-stack-size: 1
 price: 
 ```
-### Itemname
+### Seidenfaden
 
 ```yml
-ID: ?
-name: 
-type: QUEST
-quality: RARE /COMMON
-item: 
-lore: (opt.)
+ID: 287
+name: Seidenfaden
+type: vendor
+quality: COMMON
+item: string
+lore: Dünn, aber sehr fest!
+max-stack-size: 64
+price: 
+```
+### Taschentuch
+
+```yml
+ID: 339
+name: Taschentuch
+type: vendor
+quality: COMMON
+item: paper
+lore: Ganz neu, ganz frisch, ungewaschen!
 max-stack-size: 1
 price: 
+```
+### Sonnenhut
+
+```yml
+ID: 298
+name: Sonnenhut
+type: vendor
+quality: COMMON
+item: leather_helmet (weiß gefärbt), keine Werte
+lore: Leicht und luftig! Zusammenfaltbar!
+max-stack-size: 1
+price: ?
 ```
