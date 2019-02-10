@@ -82,9 +82,9 @@ Und das wäre..?
 **Questlog:** *Gehe zu Ingeborg und sieh zu, was du erfährst*  
 *****
    
-**Spieler geht zu [Ingeborg](../ingeborg.md) und kann dort die Quest **
+**Spieler geht zu [Ingeborg](../ingeborg.md) und kann dort die Quest [Was weiß Ingeborg?](../bluete-des-lebens.md) abschließen**
 
-**Kehrt der Spieler von Ingeborg zurück, kann er die Quest [Was weiß Ingeborg?] annehmen. **
+**Kehrt der Spieler von Ingeborg zurück, kann er die Quest [Was weiß Ingeborg?](#bluete-des-lebens) annehmen.**
 
 
 ## NPCs
