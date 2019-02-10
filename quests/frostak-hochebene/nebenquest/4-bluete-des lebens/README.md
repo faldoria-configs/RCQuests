@@ -20,7 +20,7 @@ Ausarbeitung: Kirilit
 
 ## Vorraussetzungen
 
-[Vinnans helfende Hand](../2-vinnans-helfende-hand) <--- falscher Link
+[Vinnans helfende Hand](../2-vinnans-helfende-hand.md)
 
 
 ## Aufgaben
@@ -50,34 +50,39 @@ Und das wäre..?
    2.2 Blumen pflücken? Ich habe mir mal an einem Blatt  in die Hand geschnitten, ich glaube das ist mir zu gefährlich. `[Ende]`   
    2.3. Blumen zu pflücken kann doch nicht so schwer sein.   
     **Jan:** ` Das freut mich, dass Ihr das für mich tun wollt.` 
-
+******
 ### **[Quest Start]** [Blüte des Lebens]   
 **Questlog:** *Sammle 4 Biosnablüten und bringe sie Jan und seiner Frau Lucia*
+*******
+`2.4.` Wozu braucht Ihr diese spezielle Blume?   
+**Jan:** ` *wirkt verlegen* Das ...   fragt Ingeborg, die kann das besser erklären als ich.`  
 
-    2.4.    Wozu braucht Ihr diese spezielle Blume?   
-**Jan:** ` *wirkt verlegen* Das ...   fragt Ingeborg, die kann das besser erklären als ich.`   
-2.4.1 Ach ja, ich habe schon mit ihr gesprochen. Deshalb! Warum sagt Ihr das nicht gleich! Ich springe, ich eile!   
-     **`[Quest Start]`** [Blüte des Lebens] ---> Wenn Spieler schon vorher mit Ingeborg geredet hat.   
-2.4.2 Gut, ich suche sie auf, werde sie schon finden.
+`2.4.1` Ach ja, ich habe schon mit ihr gesprochen. Deshalb! Warum sagt Ihr das nicht gleich! Ich springe, ich eile! 
 
+*****
+### **[Quest Start]** [Blüte des Lebens](#bluete-des-lebens) ---> Wenn Spieler schon vorher mit Ingeborg geredet hat. 
+****  
+`2.4.2` Gut, ich suche sie auf, werde sie schon finden.
+****
 ###   **[Quest Start]** [Was weiß Ingeborg?]   
 **Questlog:** *Gehe zu Ingeborg und sieh zu, was du erfährst* 
+*****
 
-
-2.4.3 Nein, so sehr interessiert es mich jetzt auch wieder nicht.   
+`2.4.3` Nein, so sehr interessiert es mich jetzt auch wieder nicht.   
     **Jan:** `Werdet Ihr nun die Blume für mich suchen?` 
 
-2.4.3.1. Na klar, so ein Blümchen kann nicht so schwierig zum Pflücken sein.    
-*Du summst vor dich hin:* Blümchen am Wege, Blümchen am Stege, Blümchen, blüh, Frühjahr ist hie!   
+`2.4.3.1.` Na klar, so ein Blümchen kann nicht so schwierig zum Pflücken sein.    
+*Du summst vor dich hin:* Blümchen am Wege, Blümchen am Stege, Blümchen, blüh, Frühjahr ist hie!      
 **Jan:** `*Jan schaut dich sehr verdutzt an*`      
 *Du lachst* Ich geh ja schon!   
 
-2.4.3.2. Ich rede doch erst mal mit Ingeborg, ich klettere doch nicht wegen einer Marotte einen Berg hinauf! 
-   
+`2.4.3.2.` Ich rede doch erst mal mit Ingeborg, ich klettere doch nicht wegen einer Marotte einen Berg hinauf! 
+*****   
 **[Quest Start]** [Was weiß Ingeborg?]    
 **Questlog:** *Gehe zu Ingeborg und sieh zu, was du erfährst*  
+*****
    
-
+**Spieler geht zu Ingeborg**
 
 
 ## NPCs
