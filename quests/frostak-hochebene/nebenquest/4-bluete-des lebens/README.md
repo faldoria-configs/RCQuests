@@ -100,17 +100,67 @@ Und das wäre..?
 ## NPCs
 
 
-## `Name des NPCs`
+## `Jan`
 
 ### Standartsätze  
 
-
 #### Vor der Quest
-
+Wenn [Vinnans helfende Hände](../vinnans-helfende-hand.md) noch nicht angenommen ist]
+**Jan:** Grüße,Fremdling. Wenn Ihr etwas wollt, sprecht bitte erst mit unserem Dorfältesten Vinnan. `
 #### Während der Quest  
-
+**Jan:** `Denkt daran das die Blume blau ist und oben auf den Bergen wächst, wir setzen sehr viel Hoffnung in die Wirkung dieser Blume.` 
 
 #### Nach der Quest
+**Jan:** `Dank Euch bin ich wieder hoch motiviert einen Kinderteppich zu weben.` [Ende]    
+### Ausrüstung
+Wolle in der Hand
+Skin ID
+
+
+
+#### Standort
+
+
+
+```yml
+x: 
+y: 
+z: 
+world: faldoria.jarmundshain
+```
+## `Lucia`
+
+### Standartsätze  
+
+#### Vor der Quest
+**Lucia** `Sucht Ihr was Bestimmtes?`
+Eh, nein.
+
+#### Während der Quest    
+**Lucia:** ` Ich hörte Ihr möchtet für uns die Blume der Fruchtbarkeit pflücken?`   
+1. Genau, sie soll wohl oben auf den Bergen wachsen.   
+2. Nein ich soll die Bioblüte oder so ähnlich suchen. Wenn ich sowas sehe bring ich sie vorbei.   
+**Lucia:** Danke, ich werde mir überlegen mein Baby nach Euch zu benennen wenn Ihr sie bringt.
+Ähmm...
+
+#### Nach der Quest
+
+Mit Blüte noch im Inventar:   
+**Lucia:** ` Ja genau, das ist die richtige Blüte, gebt sie aber besser erstmal meinem Mann. Er möchte sicherlich wieder wie der Held dastehen und sie mir geben *schmunzelt*`   
+Ohne Blüte im Inventar:   
+**Lucia:**  `  Nochmals danke für Eure Hilfe.`  
+
+## `Ingeborg`
+
+### Standartsätze  
+
+#### Während der Quest  
+**Ingeborg:** `Zieht Euch etwas wärmer an, sonst verkühlt Ihr Euch noch.`
+
+#### Nach der Quest
+Mit Blüte im Inventar   
+**Ingeborg:**  `Ah ich seh schon, Vorsicht ist besser als Nachsicht. *zwinkert euch zu*`
+
     
 ### Ausrüstung
 
@@ -130,51 +180,19 @@ world: faldoria.eisenküste
 ## Items
 
 
-### Itemname
+### Biosnablüte
 
-Nach dem exakten Namen des Items folgt eine kurze Beschreibung des Items, ob es dropt oder verkauft wird, bzw. die Relation zur Quest und wenn das Item schon vorhanden ist folgt die ID des Items. 
+Wächst im hohen Gebirge
 
 ```yml
 ID: ?
-name: 
+name: Biosnablüte
 type: QUEST
-quality: RARE /COMMON
-item: 
-lore: max-stack-size: 1
+quality: RARE 
+item: blue_orchidee
+lore: Macht Paare glücklich
+max-stack-size: 16
 ```
-
-
-
-
-## Mobs
-
-
-### Mobname
-
-
-
-### Hungriger Wolf
-
-```yml
-name: Hungriger Wolf
-type: wolf
-aggro: true
-passive: false
-elite: true
-min-level: 8
-max-level: 8
-```
-```yml
-x: 535
-y: 101
-z: -2121
-world: faldoria.jarmundshain
-radius: 5
-```
-
-
-#### Ausrüstung
-
 
 
 ## Belohnung
