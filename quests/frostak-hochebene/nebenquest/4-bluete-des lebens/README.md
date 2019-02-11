@@ -49,10 +49,10 @@ Und das wäre..?
    2.1. Lieber nicht, dünne Luft vertrage ich nicht so gut. `[Ende]`   
    2.2 Blumen pflücken? Ich habe mir mal an einem Blatt  in die Hand geschnitten, ich glaube das ist mir zu gefährlich. `[Ende]`   
    2.3. Blumen zu pflücken kann doch nicht so schwer sein.   
-    **Jan:** ` Das freut mich, dass Ihr das für mich tun wollt.` 
+    **Jan:** ` Das freut mich, dass Ihr das für mich tun wollt. Dann sucht bitte für mich und meine Frau Biosnablüten. Die Blume ist blau und wächst an sehr hohen Stellen des Gebirges um uns herum.` 
 ******
 ### **[Quest Start]** [Blüte des Lebens]   
-**Questlog:** *Sammle 4 Biosnablüten und bringe sie Jan und seiner Frau Lucia*
+**Questlog:** *Sammle 4 Biosnablüten und bringe sie Jan und seiner Frau Lucia. Sie ist blau und wächst in den Höhenlagen des Gebirges*
 *******
 `2.4.` Wozu braucht Ihr diese spezielle Blume?   
 **Jan:** ` *wirkt verlegen* Das ...   fragt Ingeborg, die kann das besser erklären als ich.`  
@@ -84,7 +84,17 @@ Und das wäre..?
    
 **Spieler geht zu [Ingeborg](../ingeborg.md) und kann dort die Quest [Was weiß Ingeborg?](../bluete-des-lebens.md) abschließen**
 
-**Kehrt der Spieler von Ingeborg zurück, kann er die Quest [Was weiß Ingeborg?](#bluete-des-lebens) annehmen.**
+**Kehrt der Spieler von Ingeborg zurück, kann er die Quest [Blüte des Lebens?](#bluete-des-lebens) annehmen.**
+
+
+**Der Spieler geht nun in die Berge und holt die Blüten, kehrt dann zu Jan zurück**
+
+### `Dialog 2`
+**Jan:** ` Danke, genau diese habe ich gemeint, sie leuchtet wunderbar blau. Wir werden das Kind nach der Blume benennen.`
+
+**Lucia:** ` *ruft* Das werden wir nicht!`
+
+**Jan:** ` War doch nur eine Idee. Unser Dank ist Euch sicher und auch diese kleine Belohnung für Eure Mühen.
 
 
 ## NPCs

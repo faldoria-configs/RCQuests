@@ -28,7 +28,7 @@ Stabfuchtler?
 **Ingeborg:** `Manche nennen sie auch weiterhin Magier, aber ich finde es unverzeihlich was mit dem schönen Land passiert ist und wie alles welkt.`   
 Euer Getreide sieht mir gar nicht so nach Unfruchtbarkeit aus.   
 **Ingeborg:**  `Vielleicht seid Ihr noch etwas jung für das Thema, aber ich meinte eher dass nach dem großen Brand noch keine Frau schwanger geworden ist. Seht Euch also vor, wenn Ihr mal eine Familie haben wollt.`      
-1. Danke für den Hinweis, ich bleibe nicht länger als nötig. 
+1. Danke für den Hinweis, ich bleibe nicht länger als nötig.
 2. Das wird mir hier zu privat
 
 **Antwort auf beide Antwortmöglichkeiten:**  
