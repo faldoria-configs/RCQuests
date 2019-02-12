@@ -1,8 +1,10 @@
-# Waffenwahl
+# Wahl der Waffe
 
 Issue #89
 
 ## Noch zu tun/Info
+
+Wenn Insel fertig Jamos Standort noch beschreiben , Z 206
 
 ## Ablauf
 
@@ -170,10 +172,11 @@ MICHAEL! Hilfe!
 ### Dialog 7
 **Lious:** `Ich freue mich für dich, nun testen wir deine neuen Fähigkeiten.`  
 Und wie wollt Ihr das machen?   
-**Lious:** `Ganz einfach, ich hetze dir Spinnen auf den Hals.` 
+**Lious:** `Ganz einfach, ich hetze dir Spinnen auf den Hals.`   
 Iih nein, alles nur nicht das.   
 **Lious:** `Du hast keine Wahl!`
-```
+
+
 > `[QUEST UPDATE]` [Wahl der Waffe](#wahl-der-waffe)  
 **Questlog**: *Töte 3 freundliche Spinnen.*
 
@@ -198,13 +201,18 @@ world: Ankanor
 > Spieler muss Lious ansprechen
 
 
-**Lious:** `Sehr schön hast du das gemacht.`
-Danke, ich fühle mich nun viel besser gerüstet, Agna...  ich meine, jeglicher Gefahr zu trotzen.  
+**Lious:** `Sehr schön hast du das gemacht.`   
+Danke, ich fühle mich nun viel besser gerüstet, Agna...  ich meine, jeglicher Gefahr zu trotzen.
+**Lious:** `Und nun gehe zu dem Ältesten Jamos, der unten beim.... auf dich wartet. Er wird dir weitere Aufgaben geben, bei denen du deine neuen Fähigkeiten erproben kannst. `  
 
 
-`[QUEST ENDE]` [Wahl der Waffe](#wahl-der-waffe)  
+`[QUEST ENDE]` [Wahl der Waffe](#wahl-der-waffe) 
 
-> Weiter bei [HQ Weitere Ausbildung](../5-weitere-ausbildung/README.md)
+### `[Quest Start]` [Suche Jamos auf](#suche-jamos-auf)
+
+**Questlog:** *Suche Jamos auf, der unten am Tianbaum bei... auf dich wartet*
+
+> Weiter bei HQ [Einübung der Waffe](../5-einuebung-der-waffe/README.md)
 
 
 ## NPC
