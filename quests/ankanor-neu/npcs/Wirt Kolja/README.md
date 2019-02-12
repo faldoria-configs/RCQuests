@@ -1,8 +1,12 @@
 # Wirt Kolja <!-- omit in toc -->
 
+Issue #94
+
+Items noch raussuchen!
+
 ## Beschreibung
 
-Der wirt Kolja hat ein kleines Gasthaus in der Nähe des Hafens, in dem er vorbeikommende Leute mit gutem Essen versorgt. Er ist ein sehr freundlicher, manchmal etwas lauter Einwohner Ankanors.
+Der Wirt Kolja hat ein kleines Gasthaus in der Nähe des Hafens, in dem er vorbeikommende Leute mit gutem Essen versorgt. Er ist ein sehr freundlicher, manchmal etwas lauter Einwohner Ankanors.
 
 ## Besonderheiten
 
@@ -12,7 +16,7 @@ Wirt mit lauter Stimme, lacht gerne
 
 ### Beim ersten Besuch eines Spielers
 
-**Wirt Kolja:**  `Ja, wen haben wir denn da, der [Name des Spielers] lässt sich auch mal wieder sehen? Waswird denn heute gewünscht? Hääte da gegrillten Schwarzbarsch im Angebot`
+**Wirt Kolja:**  `Ja, wen haben wir denn da, der [Name des Spielers] lässt sich auch mal wieder sehen? Waswird denn heute gewünscht? Hääte da gegrillten Schwarzbarsch im Angebot`   
 Nein danke, lass erst Mal sehen, was du sonst noch hast.
 
 **Spieler kann dann Inventar anklicken**
@@ -35,6 +39,9 @@ Klickt der Spieler ihn an:
 3. `Freut mich ja, dass du gerne zu mir kommst. Wie wäre es heute mit Pilzeintopf? Den isst du aber am Besten hier.`
 
 ## Ausrüstung
+
+hat was zum Essen in der Hand
+
 ## Standort
 
 ```yml
