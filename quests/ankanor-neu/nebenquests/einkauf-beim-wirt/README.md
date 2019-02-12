@@ -10,7 +10,7 @@ Standort,
 
 ## Ablauf
 1. Roschik gibt dem Spieler etwas Geld, damit er sich etwas zum Essen kaufen kann, bevor er den Tianbaum hinaufläuft.
-2. Der Spieler lernt nun die Möglichkeit kennen, sich etwas zum Essen zu kaufen, wenn er vorher nicht schon selst darauf gekommen ist. Der Geldbetrag sollte ein kleines Polster auch für später sein. (vermitttelt ein gutes Gefühl!)
+2. Der Spieler lernt nun die Möglichkeit kennen, sich etwas zum Essen zu kaufen, wenn er vorher nicht schon selbst darauf gekommen ist. Der Geldbetrag sollte ein kleines Polster auch für später sein. (vermitttelt ein gutes Gefühl!)
 
 
 ## Übersicht <!-- omit in toc -->
