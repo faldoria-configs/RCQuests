@@ -23,7 +23,9 @@ Nein danke, lass erst Mal sehen, was du sonst noch hast.
 
 ### Bei weiteren Besuchen
 
-Ohne Anklicken, wenn der Spieler nur vorbeigeht (alternativ):
+Ohne Anklicken, wenn der Spieler nur vorbeigeht (alternativ):  
+
+
 **Wirt Kolja:**
 
 1. `Hey, [Name des Spielers], alles gut gewesen, das letzte Mal?`
