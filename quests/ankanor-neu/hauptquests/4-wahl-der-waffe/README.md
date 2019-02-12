@@ -225,15 +225,13 @@ Lious ist Wesen in Kaishi-Gestalt, das hoch im Tianbaum wohnt. Die Kaish glauben
 
 ##### Vor der Quest: 
 
-```yml
-Lious: Was führt dich zu mir, junger Kaishi? Bit du schon bereit für das, was ich dich lehren kann?
-Spieler: Wovon sprichtst du?
-Lious: Also nein. Komme bitte wieder, wenn dir deine Ältesten schicken. 
-Spieler: Erzähl mir doch bitte mehr von denGeschichten über die Helden früherer Zeiten.
-Lious: Dafür ist jetzt leider keine Zeit. 
-Spieler: Schade
-```
-*du zuckst mit den Schultern und gehst wieder*
+
+**Lious:** ` Was führt dich zu mir, junger Kaishi? Bist du schon bereit für das, was ich dich lehren kann?`  
+Wovon sprichtst du?   
+**Lious:** `Also nein. Komme bitte wieder, wenn dir deine Ältesten schicken.`    
+Erzähl mir doch bitte mehr von den Geschichten über die Helden früherer Zeiten.   
+**Lious:** `Dafür ist jetzt leider keine Zeit.`    
+Schade  *du zuckst mit den Schultern und gehst wieder*
 
 ##### Während der Quest des Waffenwählens: 
 
@@ -244,7 +242,7 @@ Spieler: Schade
 
 ##### Nach der Quest: 
 
-> Lious: Was tust du hier, junger Kaishi, hast du nicht Aufgaben zu erledigen und zu lernen, deine Waffe zu beherrschen?
+**Lious:** ` Was tust du hier, junger Kaishi, hast du nicht Aufgaben zu erledigen und zu lernen, deine Waffe zu beherrschen?`  
 
 #### Ausrüstung
 
