@@ -35,7 +35,7 @@ Lious, der seltsame Mann? Gut, wie du willst, ich werde zur Krone des Baumes hin
 
 **Spieler erhält von Roschik einen großzügigen Geldbetrag.**
 
-Hier geht es zu NQuest [Einkauf beim Wirt]()../einkauf-beim-wirt.md).
+Hier geht es zu NQuest [Einkauf beim Wirt](../einkauf-beim-wirt.md).
 
 >> Eigentlich auch ein Stück Tutorial, aber das werden die Meisten wissen, wie man mit einem NPC handelt. Muss also nicht in den Hauptqueststrang.
 
