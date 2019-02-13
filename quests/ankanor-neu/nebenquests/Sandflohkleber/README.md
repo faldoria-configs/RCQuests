@@ -24,11 +24,11 @@ HQ [Einübung der Waffe](../../5-einübung-der-waffe/ReADME-md) angenommen
 
 Angunt ruft dem Spieler schon von Weitem zu (7 Blocks):   
 
-**Angunt:** `Hey, Jungspund, ich brauche ich mal. Du musst mir mit den Sandflöhen helfen!`   
-Wozu musst du Sandflöhe platt machne, wenn alle zusammen helfen, dass wir das Schiff fertig bekommen?`   
-**Angunt:** `Schlaumeier, der Kapität braucht Kleber oder Teer für die Schiffsplanken, deshalb bemühe ich mich so. Aber die Biester sind heute aufgebracht. Wahrscheinlich hat sich ene Königin eingenistet.`   
-Oder es sind auch schon Atagnus Ausdünstungen, die sie spüren.   
-**Angunt:** `Hä, was meinst du? Egal, ich sehe, du hast ja eine Waffe, dann wird es dir ein Einfaches sein, mir so ungefähr genau 10 Kleber zu besorgen.`
+**Angunt:** `Hey, Jungspund, ich brauche ich mal. Du musst mir mit den Sandflöhen helfen!`      
+Wozu musst du Sandflöhe platt machen, wenn alle zusammen helfen, damit wir das Schiff fertig bekommen?            
+**Angunt:** `Schlaumeier, der Kapität braucht Kleber oder Teer für die Schiffsplanken, deshalb bemühe ich mich so. Aber die Biester sind heute aufgebracht. Wahrscheinlich hat sich ene Königin eingenistet.`      
+Oder es sind auch schon Atagnus Ausdünstungen, die sie spüren.      
+**Angunt:** `Hä, was meinst du? Egal, ich sehe, du hast ja eine Waffe, dann wird es dir ein Einfaches sein, mir so ungefähr genau 10 Kleber zu besorgen.`   
 
 1. Sandflöhe? Kein Problem!
    
