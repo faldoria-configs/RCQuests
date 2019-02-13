@@ -47,16 +47,16 @@ Quest  [Im Herzen des Tianbaumes](../3-im-herzen-des-tianbaumes.md)
 
 ### Dialog 1
 
-Ja, ich weiß, dieser Nekromant kommt, aber ich kann doch nicht kämpfen, kaum jemand von uns Kaishi kann kämpfen, wir sind ein sehr friedliches Volk. Mit meinen Fäusten werde ich wohl nichts ausrichten.      
-**Lious:** `Das ist mir durchaus bewußt und ich finde es bedauerlich, dass ich euch, insbesondere jetzt dir, eine Waffe in die Hand geben muss.`    
-Eine Waffe? Ich kann doch gar nicht damit umgehen. Ich haue mir wahrscheinlich eher in den Fuß als dass ich einen Feind verletze.    
-**Lious:** `Auch das weiß ich, und auch da kann ich dir helfen, zumindest für die nächsten Tage, wenn du in besondere Gefahr gerätst.
+Ja, ich weiß, dieser Nekromant kommt, aber ich kann doch nicht kämpfen, kaum jemand von uns Kaishi kann kämpfen, wir sind ein sehr friedliches Volk. Mit meinen Fäusten werde ich wohl nichts ausrichten.         
+**Lious:** `Das ist mir durchaus bewußt und ich finde es bedauerlich, dass ich euch, insbesondere jetzt dir, eine Waffe in die Hand geben muss.`   
+Eine Waffe? Ich kann doch gar nicht damit umgehen. Ich haue mir wahrscheinlich eher in den Fuß als dass ich einen Feind verletze.       
+**Lious:** `Auch das weiß ich, und auch da kann ich dir helfen, zumindest für die nächsten Tage, wenn du in besondere Gefahr gerätst.`  
 
 > >  Irgendein Buff, der einem knapp vor dem Abkratzen etwas Leben spendiert? Generell etwas mehr Leben für die restliche Zeit auf Ankanor?
 
- An was für eine Waffe hast du denn gedacht?    
-**Lious:** ` Schau da drüben, da kannst du dir eine Waffe aussuchen. Nimm, was dich anspricht. Ich werde dir die Fähigkeit geben, damit umzugehen - bis zu einem bestimmten Grad - so dass du dir nicht den Fuß abhackst. *lacht etwas belustigt*   
-**Lious:** ` Komm, lass uns einen Blick auf sie werfen. Geh voran.`   
+An was für eine Waffe hast du denn gedacht?       
+**Lious:** `Schau da drüben, da kannst du dir eine Waffe aussuchen. Nimm, was dich anspricht. Ich werde dir die Fähigkeit geben, damit umzugehen - bis zu einem bestimmten Grad - so dass du dir nicht den Fuß abhackst. *lacht etwas belustigt* `    
+**Lious:** ` Komm, lass uns einen Blick auf sie werfen. Geh voran.`  
 
 
 >> Da hängen/liegen nun irgendwie die Waffen herum.
@@ -183,18 +183,18 @@ Iih nein, alles nur nicht das.
 > Spieler wird nach folgenden Koordinaten teleportiert.
 
 ```yml
-x: 17
-y: 155
-z: 13
+x: 
+y: 
+z:
 world: Ankanor
 ```
 
 > Dort tötet er die 3 [Mob Freundliche Spinne](#freundliche-spinne) und wird zurück zu Lious geportet.
 
 ```yml
-x: 8
-y: 183
-z: 23
+x: 
+y: 
+z: 
 world: Ankanor
 ```
 
@@ -202,8 +202,13 @@ world: Ankanor
 
 
 **Lious:** `Sehr schön hast du das gemacht.`   
-Danke, ich fühle mich nun viel besser gerüstet, Agna...  ich meine, jeglicher Gefahr zu trotzen.
+Danke, ich fühle mich nun viel besser gerüstet, Agna...  ich meine, jeglicher Gefahr zu trotzen.   
 **Lious:** `Und nun gehe zu dem Ältesten Jamos, der unten beim.... auf dich wartet. Er wird dir weitere Aufgaben geben, bei denen du deine neuen Fähigkeiten erproben kannst. `  
+Der alte, tattrige Mann kann mir doch nichts beibringen!?   
+**Lious:** Glaub das nicht, zum Kämpfen gehört mehr als nur etwas Schmalz in den Armen. Da muss man auch etwas mehr als Stroh da oben haben.   
+**Lious:** `*Lious schaut dich zweifelnd an*  Er wird deine weitere Ausbildung überwachen.`   
+Nun gut,ich werde ihn aufsuchen.
+
 
 
 `[QUEST ENDE]` [Wahl der Waffe](#wahl-der-waffe) 
@@ -251,9 +256,9 @@ Skin:
 #### Standort
 
 ```yml
-x: 9
-y: 183
-z: 21
+x: 
+y: 
+z: 
 world: Ankanor
 ```
 
@@ -441,31 +446,6 @@ aggro: false
 
 
 ## Referenzen
-
-Vorquest: [Ein neuer Start](../3-aufstieg-zum-tianbaum/README.md)  
-Folgequest: [Weitere Ausbildung](../5-weitere-ausbildung)
-
-## Änderungen an der nächsten Quest [Weitere Ausbildung](../5-weitere-ausbildung)
-
->>> Ich habe das Verprügeln bei Lious rausgenommen, weil mir das dann doch zu unpassend gegenüber dem verehrten Helden Lious erschien, genauso wenig passt es, das in Hinblick auf den Bürgermeister zu sagen. Selbst wenn der Spieler nicht der Schlauste ist, macht seine Sozialisation das unwahrscheinlich. 
-
-**************************
-### 1. Weitere Ausbildung
-
-> Konversation angeknüpft an Vorquest [HQ Klassenwahl](../4-klassenwahl/README.md)
-
-
-Lious: Gehe nun zum Ältesten Jamos.
-
-**Spieler: Der alte, tattrige Mann kann mir doch nichts beibringen!?**
-
-**Lious: Glaub das nicht, zum Kämpfen gehört mehr als nur etwas Schmalz in den Armen. Da muss man auch etwas mehr als Stroh da oben haben. *Lious schaut dich zweifelnd an*  Er wird deine weitere Ausbildung überwachen.**
-
-**Spieler: Nun gut,ich werde ihn aufsuchen.**
-
-
-`[QUEST START]` [Weitere Ausbildung](#weitere-ausbildung))
-> **QuestLog:** *Gehe zum Ältesten Jamos und sprich mit ihm, er steht unten am Weg nahe des Zugangs zum Tianbaum.*
 
 
 
