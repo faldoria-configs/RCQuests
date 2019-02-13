@@ -8,8 +8,8 @@ Standort, Skin, Satz ergänzen: ` Vor der Quest
 ## Ablauf
 
 1. Der Spieler nähert sich Angunt
-2. NPC [Angunt](#Angunt) ruft dem spieler zu, dass er Hlfe braucht
-3. Spieler nimmer an
+2. NPC [Angunt](#Angunt) ruft dem Spieler zu, dass er Hilfe braucht
+3. Spieler nimmt an.
 4. Angunt gibt ihm die Aufgabe [Mobs Sandflöhe](#Sandflöhe) zu töten, bis er 10 Kleber hat.
 5.  `Questbeginn:`[Sandflohkleber](#sandflohkleber)
 6. Spieler kehrt zurück und erhält eine [Belohnung](#Belohnung)
@@ -52,9 +52,9 @@ Er ist ein neugieriger Kaishi, der sehr viel über Pflanzen und Tiere weiß. St�
 #### Vor der Quest
 `Grüß dich, was bringt dich des Weges? Hast du schon das ... (je nach dem, wo er steht) da drüben gesehen, das ist ausgesprochen interessant, das ist bestimmt eine neue Variation, die Blätter sind nämlich etwas mehr geschlitzt als sonst ... du bist nicht dran interessiert? Schade..`
 #### Während der Quest  
-**Agunt:** `Nun, hast du schon genug vom Kleber?`
-Nein, noch nicht ganz, die Viecher sind doch etwas zäher, als ich dachte.
-**Agunt:** `Na, dann hopp, hopp, sonst wird das nie was mit dem Schiff.`
+**Agunt:** `Nun, hast du schon genug vom Kleber?`   
+Nein, noch nicht ganz, die Viecher sind doch etwas zäher, als ich dachte.   
+**Agunt:** `Na, dann hopp, hopp, sonst wird das nie was mit dem Schiff.`   
 Ich tue mein Bestes!
 
 #### Nach der Quest
