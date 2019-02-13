@@ -21,23 +21,9 @@ Issue #95
   - [`Dialog 1`](#dialog-1)
   - [`[Quest Start]` Hilf den Bewohnern](#quest-start-hilf-den-bewohnern)
   - [`[Quest Start]` Warnungen](#quest-start-warnungen)
+  - [`[Quest Start:]` Rückkehr zu Jamos](#quest-start-r%C3%BCckkehr-zu-jamos)
   - [`[Quest Ende]`: Suche Jamos auf](#quest-ende-suche-jamos-auf)
-- [NPCs](#npcs)
-- [`Name des NPCs`](#name-des-npcs)
-- [Standartsätze](#standarts%C3%A4tze)
-    - [Vor der Quest](#vor-der-quest)
-    - [Während der Quest](#w%C3%A4hrend-der-quest)
-    - [Nach der Quest](#nach-der-quest)
-  - [Ausrüstung](#ausr%C3%BCstung)
-  - [Standort](#standort)
-- [Items](#items)
-  - [Itemname](#itemname)
-- [Mobs](#mobs)
-  - [Mobname](#mobname)
-    - [Ausrüstung](#ausr%C3%BCstung-1)
-- [Belohnung](#belohnung)
-- [Referenzen](#referenzen)
-- [Issues](#issues)
+  - [Dialog 2 (Jamos)](#dialog-2-jamos)
 
 ## Vorraussetzungen
 
@@ -70,6 +56,9 @@ Gut, dann suche ich beide mal auf.
 
 **Jamos:** `Kehre zu mir zurück, wenn du deine Aufgaben erfüllt hast!`
 
+### `[Quest Start:]` [Rückkehr zu Jamos](#rueckkehr-zu-jamos)   
+**Questlog:** *Kehre zu Jamos zurück, wenn du alles erledigt hast, was man dir aufgetragen hat.*   
+
 ### `[Quest Ende]`: [Suche Jamos auf](../4-wahl-der-waffe/README.md)
 
 
@@ -81,8 +70,29 @@ NQ  [Quest Start] [Warnungen](#warnungen)  optional
 NQ
 NQ
 
+**und kehrt dann zu Jamos zurück.**
 
+### Dialog 2 (Jamos)
 
+**Jamos:** 
+
+Jamos: Ich hörte du hast den Bewohnern gut geholfen, gerade zur rechten Zeit.
+Spieler: Warum was ist nun schon wieder?
+Jamos: Agnatus Truppen wurden gesichtet. Wir brauchen dich sofort am Rand des Dorfes. 
+Spieler: Wie? Was? Jetzt schon? Ich dachte ich werde noch weiter ausgebildet.
+Jamos: Dies ist Teil deiner Ausbildung und nun verliere keine Zeit, lauf ins Dorf versuche dann zum Schiff zu kommen. Ich komme nach!
+```
+
+> 1. Ok, pass auf dich auf Alterchen.   
+> **Achtung:** Ab hier passiert alles auf Ankanor Event!
+
+**Teleport:**
+```yml
+x: -62
+y: 80
+z: 70
+world: Ankanor-Event
+```
 
 
 
