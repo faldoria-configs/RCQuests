@@ -21,21 +21,44 @@ Wenn Insel fertig Jamos Standort noch beschreiben , Z 206
 
 ## Übersicht
 
-- [Voraussetzungen](#voraussetzungen)
-- [Ablauf](#ablauf)
-- [Questdialoge](#questdialoge)
-   
-- [NPCs](#npcs)
-     - [Lious](#lious)
-         - [Standartsätze](#standartsaetze)
-            - [Vor der Quest](#vor-der-quest)
-            - [Während der Quest](#waehrend-der-quest)
-            - [Nach der Quest](#nach-der-quest)
-         - [Ausrüstung](#ausruestung)
-         - [Standort](#standort)
--  [Mobs](#mobs)
--  [Items](#items)
-- [Belohnung](#belohnung)
+- [Wahl der Waffe](#wahl-der-waffe)
+  - [Noch zu tun/Info](#noch-zu-tuninfo)
+  - [Ablauf](#ablauf)
+  - [Übersicht](#%C3%BCbersicht)
+  - [Voraussetzungen](#voraussetzungen)
+  - [Questdialoge](#questdialoge)
+    - [Dialog 1](#dialog-1)
+    - [Dialog 2 (Vorstellung der Waffen)](#dialog-2-vorstellung-der-waffen)
+    - [`[QUEST START]` Wahl der Waffe](#quest-start-wahl-der-waffe)
+    - [Hauptfrage (Entscheidung)](#hauptfrage-entscheidung)
+    - [Dialog 3 (Wahl der Waffe)](#dialog-3-wahl-der-waffe)
+    - [Dialog 4 (Version unsicher)](#dialog-4-version-unsicher)
+    - [Dialog 5 (nochmal erklären)](#dialog-5-nochmal-erkl%C3%A4ren)
+    - [Dialog 6 (Hinweis, dass man nicht an die Waffe gebunden ist)](#dialog-6-hinweis-dass-man-nicht-an-die-waffe-gebunden-ist)
+    - [Dialog 7 (Bestätigung, erhält Waffe)](#dialog-7-best%C3%A4tigung-erh%C3%A4lt-waffe)
+    - [Dialog 8 (Testen)](#dialog-8-testen)
+    - [`[Quest Start]` Suche Jamos auf](#quest-start-suche-jamos-auf)
+  - [NPC](#npc)
+    - [Lious](#lious)
+      - [Standart-Sätze](#standart-s%C3%A4tze)
+        - [Vor der Quest:](#vor-der-quest)
+        - [Während der Quest des Waffenwählens:](#w%C3%A4hrend-der-quest-des-waffenw%C3%A4hlens)
+        - [Nach der Quest:](#nach-der-quest)
+      - [Ausrüstung](#ausr%C3%BCstung)
+      - [Standort](#standort)
+  - [Items](#items)
+    - [Schwert des Schutzes](#schwert-des-schutzes)
+    - [Schild des Schutzes](#schild-des-schutzes)
+    - [Flinker Dolch](#flinker-dolch)
+    - [Scharfer Dolch](#scharfer-dolch)
+    - [Schwert des Verteidigers](#schwert-des-verteidigers)
+    - [Axt des Zorns](#axt-des-zorns)
+    - [Stab des Tianbaums](#stab-des-tianbaums)
+    - [Bogen des Tianbaums](#bogen-des-tianbaums)
+  - [Mobs](#mobs)
+    - [Freundliche Spinne (Worldspawn)](#freundliche-spinne-worldspawn)
+  - [Belohnung](#belohnung)
+  - [Referenzen](#referenzen)
 
 ## Voraussetzungen
 
@@ -63,7 +86,7 @@ An was für eine Waffe hast du denn gedacht?
 
 >> Lious folgt dem Spieler - oder kann er auch vorangehen? Steht dann irgendwo in der Mitte und dreht sich? Dialog kann noch angepasst werden.
 
-### Dialog 2
+### Dialog 2 (Vorstellung der Waffen)
 
 
 **Lious:** ` Hier zur Linken siehst du Schwert und Schild, die klassischen Waffen eines Kriegers, der seine Leute schützt.`
@@ -81,7 +104,7 @@ Oh je, ich fühle mich überfordert,  wie kann ich so schnell wissen, was zu mir
 **Lious:** `Sei nicht bange. Wenn du die nächsten Tage damit überstehst und du mit deiner Wahl nicht zurecht kommst, kannst du durchaus Ausschau halten nach einer anderen Möglichkeit, dich zu verteidigen. Aber jetzt wirf auf einen Blick auf die Waffen und nimm dir genug Zeit, um dich zu entscheiden. Hast du deine Wahl getroffen, komme zu mir zurück.`   
 
 
-`[QUEST START]` [Wahl der Waffe](#wahl-der-waffe)
+### `[QUEST START]` [Wahl der Waffe](#wahl-der-waffe)
 
 **Questlog:** *Entscheide dich, welche Waffe du benutzen möchtest und kehre dann zu Lious zurück.*
 
@@ -89,11 +112,11 @@ Oh je, ich fühle mich überfordert,  wie kann ich so schnell wissen, was zu mir
 Lious spricht ihn an, sobald er sich auf 2 Blocks genähert hat.** 
 
 
-
+### Hauptfrage (Entscheidung)
 
 **Lious:** ` Hast du dich entschieden, welche Waffe du nehmen willst?`
 
-### Dialog 3
+### Dialog 3 (Wahl der Waffe)
 
 1. Ja, das habe ich.   
 **Lious:** ` Gut, welche Waffe möchtest du?`
@@ -110,30 +133,32 @@ Lious spricht ihn an, sobald er sich auf 2 Blocks genähert hat.**
 
    1.6 Ich will den Bogen, bitte. 
 
-**Weiter mit** [Dialog 6](#dialog-6)
+**Weiter mit** [Dialog 7](#dialog-7)
 
-### Dialog 4
+### Dialog 4 (Version unsicher)
 
 2.  Nein, ich bin mir noch unsicher, ich komme später wieder. 
    
     2.1   **Lious:** `Gut, aber lass dir nicht zuviel Zeit. Das Übel wartet nicht.`  
     2.2   **Lious:** `Ich sehe, du machst dir sehr viele Gedanken. Aber bedenke, Agnatus kommt näher!`
 
-### Dialog 5
+### Dialog 5 (nochmal erklären)
 3. Nein, könntest du mir die Waffen noch einmal erklären.   
    **Lious:** ` Gerne, aber bedenke, die Zeit drängt.`
     
 **Hier** weiter mit [Dialog 2](#dialog-2)  
-und [Dialog 5](#dialog-5)
+und [Dialog 6](#dialog-6)
  
-### Dialog 5
+### Dialog 6 (Hinweis, dass man nicht an die Waffe gebunden ist)
 
 **Lious:** `Erinnere dich - du bist nicht an diese Waffe gebunden, du kannst später eine andere wählen. Wenn du soweit bist, komme zu mir zurück. `
 
-**Weiter mit**  [Dialog ](#dialog-4)
+**Spieler überlegt nochmal**
+
+**Weiter mit**  [Hauptfrage](#hauptfrage)
 
 ********
-### Dialog 6
+### Dialog 7 (Bestätigung, erhält Waffe)
 
 `Lious: So sei es!`
 
@@ -169,7 +194,7 @@ MICHAEL! Hilfe!
 
 > Nachdem der Spieler die Waffe erprobt hat.    <-------  **oder was auch immer**
 
-### Dialog 7
+### Dialog 8 (Testen)
 **Lious:** `Ich freue mich für dich, nun testen wir deine neuen Fähigkeiten.`  
 Und wie wollt Ihr das machen?   
 **Lious:** `Ganz einfach, ich hetze dir Spinnen auf den Hals.`   
