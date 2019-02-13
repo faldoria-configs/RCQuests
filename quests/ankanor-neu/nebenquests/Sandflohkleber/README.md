@@ -3,6 +3,8 @@ Issue #96
 
 ## Noch zu tun/Probleme
 
+Standort, Skin, Satz ergänzen: ` Vor der Quest
+
 ## Ablauf
 
 1. Der Spieler nähert sich Angunt
@@ -24,9 +26,9 @@ HQ [Einübung der Waffe](../../5-einübung-der-waffe/ReADME-md) angenommen
 
 Angunt ruft dem Spieler schon von Weitem zu (7 Blocks):   
 
-**Angunt:** `Hey, Jungspund, ich brauche ich mal. Du musst mir mit den Sandflöhen helfen!`      
+**Angunt:** `Hey, Jungspund, ich brauche dich mal. Du musst mir mit den Sandflöhen helfen!`      
 Wozu musst du Sandflöhe platt machen, wenn alle zusammen helfen, damit wir das Schiff fertig bekommen?            
-**Angunt:** `Schlaumeier, der Kapität braucht Kleber oder Teer für die Schiffsplanken, deshalb bemühe ich mich so. Aber die Biester sind heute aufgebracht. Wahrscheinlich hat sich ene Königin eingenistet.`      
+**Angunt:** `Schlaumeier, der Kapität braucht Kleber oder Teer für die Schiffsplanken, deshalb bemühe ich mich so. Aber die Biester sind heute aufgebracht. Wahrscheinlich hat sich eine Königin eingenistet.`      
 Oder es sind auch schon Atagnus Ausdünstungen, die sie spüren.      
 **Angunt:** `Hä, was meinst du? Egal, ich sehe, du hast ja eine Waffe, dann wird es dir ein Einfaches sein, mir so ungefähr genau 10 Kleber zu besorgen.`   
 
@@ -48,57 +50,70 @@ Er ist ein neugieriger Kaishi, der sehr viel über Pflanzen und Tiere weiß. St�
 
 ## Standartsätze  
 #### Vor der Quest
+`Grüß dich, was bringt dich des Weges? Hast du schon das ... (je nach dem, wo er steht) da drüben gesehen, das ist ausgesprochen interessant, das ist bestimmt eine neue Variation, die Blätter sind nämlich etwas mehr geschlitzt als sonst ... du bist nicht dran interessiert? Schade..`
 #### Während der Quest  
+**Agunt:** `Nun, hast du schon genug vom Kleber?`
+Nein, noch nicht ganz, die Viecher sind doch etwas zäher, als ich dachte.
+**Agunt:** `Na, dann hopp, hopp, sonst wird das nie was mit dem Schiff.`
+Ich tue mein Bestes!
+
 #### Nach der Quest
+ **Agunt:** `Gut gemacht, aber was willst du noch hier? Hattest du es nicht eilig? Ich komme auch schon gleich.`
+
 ### Ausrüstung
+Skin
+Stock in der Hand
 ### Standort
-
-
 
 ```yml
 x: 
 y: 
 z: 
-world: faldoria.eisenküste
+world: ankanor
 ```
-
 ## Items
 
-### Itemname
+### Sandflohkleber
 
 ```yml
-ID: ?
-name: 
+ID: 351:8
+name: Sandflohkleber
 type: QUEST
-quality: RARE /COMMON
-item: 
-lore: max-stack-size: 1
+quality: COMMON
+item: gray_dye
+lore: max-stack-size: 16
 ```
+
 
 
 ## Mobs
-### Mobname
 
-```yml
-name: 
-type: wolf
-aggro: true
+### Sandfloh
+
+name: Sandfloh
+type: silverfish
+min-level: 1
+max-level: 2
+min-health: 80
+max-health: 88
+min-damage: 3
+max-damage: 5
+elite: false
+spawn-chance: 1.0
 passive: false
-elite: true
-min-level: 8
-max-level: 8
-```
-```yml
-x: 535
-y: 101
-z: -2121
-world: faldoria.jarmundshain
-radius: 5
-```
+baby: false
+reset-health: true
+ranged: false
+rare: false
+spawn-radius: 50
+spawning-naturally: false
+aggro: true
 
 
-#### Ausrüstung
 ## Belohnung
+
+Geld, XP
+
 ## Referenzen
 ## Issues
 
