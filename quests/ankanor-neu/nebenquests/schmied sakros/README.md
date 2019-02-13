@@ -22,18 +22,18 @@ HQ [Einübung der Waffe](../../5-einübung-der-waffe/ReADME-md) angenommen
 
 Die Spielerin wird schon von 5 Block Entfernung angerufen: 
 
-**Sakros:** ` [Name des Spielers], komm sofort her, sofort!`
-Ja, ich komme ja schon, wollte ja fragen, ob du mich brauchst.
-**Sakros:** `Bla bla, wer's glaubt wird seelig und so weiter. Ich muss neue Schwerter machen und brauche dazu Materialien!`
-Und wo soll ich deine Materialien herbekommen, ich bin doch kein Bergmann.
-**Sakros:**  `Nein, so schaust du nicht aus, das ist wahr.. `
-Wieso schickst du nicht jemand anders oder gehst selber. 
-**Sakros:** `Weil ich keine Lust habe und weil ich ein gutes Argument habe, nämlich meine Faust.`
-`*Sakros hält sie dir unter die Nase, sie riecht nach Schmiedefeuer und Stärke*`
-Na gut, Was brauchst du?
-**Sakros:**  Eisen und rostige Schwerter aus der Höhle auf der anderen Seite des Dorfes.
-Das alte Piratenzeug oder wer das auch immer war?
-**Sakros:**  `Ja, und jetzt los, sonst setzt´s was!`
+**Sakros:** ` [Name des Spielers], komm sofort her, sofort!`   
+Ja, ich komme ja schon, wollte ja fragen, ob du mich brauchst.   
+**Sakros:** `Bla bla, wer's glaubt wird seelig und so weiter. Ich muss neue Schwerter machen und brauche dazu Materialien!`   
+Und wo soll ich deine Materialien herbekommen, ich bin doch kein Bergmann.   
+**Sakros:**  `Nein, so schaust du nicht aus, das ist wahr.. `   
+Wieso schickst du nicht jemand anders oder gehst selber.    
+**Sakros:** `Weil ich keine Lust habe und weil ich ein gutes Argument habe, nämlich meine Faust.`   
+`*Sakros hält sie dir unter die Nase, sie riecht nach Schmiedefeuer und Stärke*`   
+Na gut, Was brauchst du?     
+**Sakros:**  `Eisen und rostige Schwerter aus der Höhle auf der anderen Seite des Dorfes.`   
+Das alte Piratenzeug oder wer das auch immer war?   
+**Sakros:**  `Ja,das alte Zeug und jetzt los, sonst setzt´s was!`    
 
 ## NPCs
 
