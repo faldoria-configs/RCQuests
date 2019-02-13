@@ -39,7 +39,7 @@ Quest [Suche Jamos auf](../4-wahl-der-waffe/README.md) angenommen
 Oh mann.   
 **Jamos:** `Kind, das war ein Scherz! Du kannst dich jetzt in deiner Waffen üben, indem du anderen Bewohnern bei besonderen Aufgaben hilfst, die man lieber nicht mit bloßen Händen anpackt. Du bist nun ein Kaishi mit besonderen Fähigkeiten, nutze sie!`   
 Kannst du mir einen Hinweis geben?   
-**Jamos:** `Ja, ich hörte, dass jemand Probleme mit den Sandflöhen hat, außerdem könnte ich mir vorstellen, dass der Schmied Hilfe braucht. `   
+**Jamos:** `Ja, ich hörte, dass jemand Probleme mit den Sandflöhen hat, außerdem könnte ich mir vorstellen, dass der Schmied Hilfe braucht. Aber es mag auch noch andere geben.`   
 Gut, dann suche ich beide mal auf. 
 
 ### `[Quest Start]` [Hilf den Bewohnern](#hilf-den-bewohnern)     
@@ -74,6 +74,7 @@ NQ
 
 ### Dialog 2 (Jamos)
 
+> das schreib ich fertig, wenn ich die NQ habe.
 **Jamos:** 
 
 Jamos: Ich hörte du hast den Bewohnern gut geholfen, gerade zur rechten Zeit.
