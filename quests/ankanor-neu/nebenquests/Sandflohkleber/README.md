@@ -34,7 +34,7 @@ Oder es sind auch schon Atagnus Ausdünstungen, die sie spüren.
    
 ###  `[QUEST START]` [Sandflohkleber](#sandflohkleber)
 
-2. Also ne, das soll das Erste sein, ab dem ich meine Waffe ausprobiere? Da komme ich lieber später wieder. `[Ende]`
+2. Also ne, das soll das Erste sein, an dem ich meine Waffe ausprobiere? Da komme ich lieber später wieder. `[Ende]`
 
 
 
