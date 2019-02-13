@@ -4,7 +4,7 @@ Issue #89
 
 ## Noch zu tun/Info
 
-Wenn Insel fertig Jamos Standort noch beschreiben , Z 206
+Wenn Insel fertig Jamos Standort noch beschreiben , Z 231
 
 ## Ablauf
 
