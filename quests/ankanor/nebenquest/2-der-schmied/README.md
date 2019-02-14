@@ -2,6 +2,10 @@
 
 Am südöstlichen Rand des Dorfes steht [NPC Sakros](#Sakros) der Schmied. Er benötigt Materialien für Schwerter, er erklärt dem Spieler, dass er Eisen und rostige Schwerter aus einer Höhle auf der anderen Seite holen soll.
 
+
+
+
+
 ## Ablauf
 
 1. Start: Spieler nähert sich Sakros
