@@ -3,7 +3,7 @@ Issue #96
 
 ## Noch zu tun/Probleme
 
-Standort, Skin, Satz ergänzen: ` Vor der Quest
+Standort, Skin, Satz ergänzen:  Vor der Quest
 
 ## Ablauf
 

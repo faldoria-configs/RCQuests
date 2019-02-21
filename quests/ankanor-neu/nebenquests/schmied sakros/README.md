@@ -33,7 +33,7 @@ Die Spielerin wird schon von 5 Block Entfernung angerufen:
 
 **Sakros:** ` [Name des Spielers], komm sofort her, sofort!`   
 Ja, ich komme ja schon, wollte ja fragen, ob du mich brauchst.   
-**Sakros:** `Bla bla, wer's glaubt wird seelig und so weiter. Ich muss Schwerter machen und brauche dazu Materialien!`   
+**Sakros:** `Bla bla, wer's glaubt wird selig und so weiter. Ich muss Schwerter machen und brauche dazu Materialien!`   
 Und wo soll ich deine Materialien herbekommen, ich bin doch kein Bergmann.   
 **Sakros:**  `Nein, so schaust du nicht aus, das ist wahr.. `   
 Wieso schickst du nicht jemand anders oder gehst selber.    
@@ -49,7 +49,7 @@ Das alte Piratenzeug oder wer das auch immer war?
 ### `[Quest Start]`[Eisen für die Schmiede]
 **Questlog:**  *Besorge in der Höhle auf der anderen Seite der Insel 7 Eisenbarren und 7 Schwerter*
 
-1.  Nein vergiss es! Höhlen sind nichts für mich. `[Ende]`
+2.  Nein vergiss es! Höhlen sind nichts für mich. `[Ende]`
  
 **Die Spielerin läuft zur Höhle und trifft dort auf Genam, der ihr eine extra Quest gibt. Mit Schwertern und Eisen kommt sie zu Sakros zurück.**
 
@@ -69,7 +69,23 @@ Da waren Skelette in der Höhle! Außerdem musste ich einmal um die ganze Insel 
 Ermm... na gut.
 
 `[Quest Start:]`[Schwerter schmieden](#schwerter-schmieden)
-**Questlog:** *Zieh den Hebel, drück den Knopf und betätige den Hebel erneut.*
+
+**QuestLog:** *Stelle 3 Schwerter her, indem du den Hebel ziehst, den Knopf drückst und nochmal den Hebel betätigst.*
+
+** Der Spieler macht die gegebene Aufgabe, bis Sakros nach dem dritten Schwert sagt:**
+
+**Sakros:** `Gut, das sollte reichen.`   
+Und? Bist du zufrieden mit der Arbeit?   
+**Sakros:** `Hab schon besseres gesehen, aber für den ersten Versuch ist das schon recht gut.`  
+Und warum konntest du das selbst nicht machen?   
+**Sakros:** `Hab mir nen Nagel eingerissen. Und jetzt hau ab!`
+
+`[QUEST ENDE]` [Schwerter schmieden](#schwerter-schmieden)    
+[Belohnung](#Belohnung)
+
+
+
+
 
 ## NPCs
 
@@ -81,9 +97,10 @@ Schmied von Ankanor. Ein sehr rauer und ungeduldiger Geselle.
 
 ### **Vor der Quest**   
 
-Wenn Quest  [Einübung der Waffe] noch nicht angenommen wurde:    
-1.**Sakros:** ` Nur mit einer starken Faust kann man etwas in seinem Leben erreichen.`   
-1. **Sakros:** `Puh, ich hasse diese Hitze am Schmelzofen!  Geh nicht zu nah ran! Wärst nicht der Erste, der mit einer Brandwunde wieder weggeht! *lacht lauthals* `    
+Wenn Quest  [Einübung der Waffe] noch nicht angenommen wurde (alternativ):    
+
+**Sakros:** ` Nur mit einer starken Faust kann man etwas in seinem Leben erreichen.`   
+**Sakros:** `Puh, ich hasse diese Hitze am Schmelzofen!  Geh nicht zu nah ran! Wärst nicht der Erste, der mit einer Brandwunde wieder weggeht! *lacht lauthals* `    
   
 Wenn Quest [Eisen für die Schmiede](#eisen-fuer-die-schmiede) das erste Mal abgelehnt wurde:
 
@@ -94,11 +111,11 @@ Ja, ich habe es mir anders überlegt.
 **Questlog:**  *Besorge in der Höhle auf der anderen Seite der Insel 7 Eisenbarren und 7 Schwerter*
 
 ### **Während der Quest**  
-1. Du bist ja noch immer hier, beeil dich und hol mir die Materialien für die Schwerter! Aber etwas plötzlich!
+**Sakros:** ` Du bist ja noch immer hier, beeil dich und hol mir die Materialien für die Schwerter! Aber etwas plötzlich!`
 
 ### **Nach der Quest**  
 - Nicht vorhanden bzw. Questdialog [Schwerter schmieden](#schwerter-schmieden)
-- Was bist du noch hier? Die Schwerter braucht jemand! Lauf!
+**Sakros:** `Was bist du noch hier? Die Schwerter braucht jemand! Lauf!
     
 ### **Ausrüstung**
 Schwert in der Hand

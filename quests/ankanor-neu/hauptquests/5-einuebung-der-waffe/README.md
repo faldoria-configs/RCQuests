@@ -64,7 +64,7 @@ Gut, dann suche ich beide mal auf.
 
 **Die Spielerin erledigt nun folgende Quests und Folgequests**
 NQ  [Quest Start] [Warnungen](#warnungen)  optional
-NQ
+NQ  [Sandflohkleber](../sandflohkleber/README.md)
 NQ
 
 **und kehrt dann zu Jamos zurück.**
