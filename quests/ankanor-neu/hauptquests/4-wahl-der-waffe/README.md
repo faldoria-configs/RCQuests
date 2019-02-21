@@ -38,6 +38,7 @@ Wenn Insel fertig Jamos Standort noch beschreiben , Z 231
     - [Dialog 6 (Hinweis, dass man nicht an die Waffe gebunden ist)](#dialog-6-hinweis-dass-man-nicht-an-die-waffe-gebunden-ist)
     - [Dialog 7 (Bestätigung, erhält Waffe)](#dialog-7-best%C3%A4tigung-erh%C3%A4lt-waffe)
     - [Dialog 8 (Testen)](#dialog-8-testen)
+    - [Dialog 9](#dialog-9)
     - [`[Quest Start]` Suche Jamos auf](#quest-start-suche-jamos-auf)
     - [**`[Quest Start]`** Der Segen](#quest-start-der-segen)
   - [NPC](#npc)
@@ -230,7 +231,7 @@ world: Ankanor
 
 > Spieler muss Lious ansprechen
 
-
+### Dialog 9 
 **Lious:** `Sehr schön hast du das gemacht.`   
 Danke, ich fühle mich nun viel besser gerüstet, Agna...  ich meine, jeglicher Gefahr zu trotzen. 
 
