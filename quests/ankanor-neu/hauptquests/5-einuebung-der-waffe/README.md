@@ -19,10 +19,10 @@ Issue #95
 - [Vorraussetzungen](#vorraussetzungen)
 - [Aufgaben](#aufgaben)
   - [`Dialog 1`](#dialog-1)
+  - [`[Quest Ende]`: Suche Jamos auf](#quest-ende-suche-jamos-auf)
   - [`[Quest Start]` Hilf den Bewohnern](#quest-start-hilf-den-bewohnern)
   - [`[Quest Start]` Warnungen](#quest-start-warnungen)
   - [`[Quest Start:]` Rückkehr zu Jamos](#quest-start-r%C3%BCckkehr-zu-jamos)
-  - [`[Quest Ende]`: Suche Jamos auf](#quest-ende-suche-jamos-auf)
   - [Dialog 2 (Jamos)](#dialog-2-jamos)
 
 ## Vorraussetzungen
@@ -42,6 +42,8 @@ Kannst du mir einen Hinweis geben?
 **Jamos:** `Ja, ich hörte, dass jemand Probleme mit den Sandflöhen hat, außerdem könnte ich mir vorstellen, dass der Schmied Hilfe braucht. Aber es mag auch noch andere geben.`   
 Gut, dann suche ich beide mal auf. 
 
+### `[Quest Ende]`: [Suche Jamos auf](../4-wahl-der-waffe/README.md)
+
 ### `[Quest Start]` [Hilf den Bewohnern](#hilf-den-bewohnern)     
 **Questlog:** *Hilf Agunt bei den Sandflöhen und frage den Schmied, ob er Hilfe braucht.*
 
@@ -58,11 +60,6 @@ Gut, dann suche ich beide mal auf.
 
 ### `[Quest Start:]` [Rückkehr zu Jamos](#rueckkehr-zu-jamos)   
 **Questlog:** *Kehre zu Jamos zurück, wenn du alles erledigt hast, was man dir aufgetragen hat.*   
-
-### `[Quest Ende]`: [Suche Jamos auf](../4-wahl-der-waffe/README.md)
-
-
-
 
 
 **Die Spielerin erledigt nun folgende Quests und Folgequests**
