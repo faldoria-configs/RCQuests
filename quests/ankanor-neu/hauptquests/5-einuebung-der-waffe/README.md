@@ -101,7 +101,7 @@ NQ  [Piratenknochen](../../piratenknochen/README.md)
   **Jamos:** `*Jamos schaut dich nur traurig an*`
 
 **Jamos:** `Nun, jetzt kommt das Wichtigste überhaupt. Zwar müssen wir vor Agnatus fliehen, aber wir sind nicht ganz machtlos. Wir haben unseren Tianbaum. Du wirst ihm jetzt persönlich begegnen. Folge dem Pfad, der dort beginnt wo ....  und dich zu seinen Wurzeln führen wird. `  
-Was erzählst du mir da für einen Sch...  verzeih, was meinst du damit? 
+Was erzählst du mir da für einen Sch...  verzeih, was meinst du damit?    
 **Jamos:** `Dort wirst du den Segen des Tianbaumes erhalten, und nun geh.`
 
 1. Also ich bitte dich, an sowas habe ich nicht mehr geglaubt, seit ich das Lesen gelernt habe. Hast du nicht eine andere Aufgabe für mich?     
@@ -124,7 +124,7 @@ Was erzählst du mir da für einen Sch...  verzeih, was meinst du damit?
 
 
 **Jamos:** `[Name des Spielers], schnell, komm her, die Ereignisse überstürzen sich. Eile zu Hauptmann Marduk, er..`   
-Hauptmann Marduk! Hey, ich werde noch ein Heldenmensch!
+Hauptmann Marduk! Hey, ich werde noch ein Heldenmensch!   
 **Jamos:** `*Schaut freundlich und betrübt zugleich.* Freue dich nicht zu früh, schrecklich  Böses ist im Anmarsch! Hauptmann Marduck steht da drüben auf der Anhöhe!`
 
 **Der Spieler läuft jetzt zu Hauptmann Marduck und mitten ins Event. Von dem Aussichtspunkt, an dem Marduk steht, kann man die angreifenden Schiffe gut sehen. Der Spieler erhält nun die Aufgabe, Schwerter zum Schiff zu bringen.**
