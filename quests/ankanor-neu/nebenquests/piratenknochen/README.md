@@ -29,7 +29,7 @@ insbesondere die 1. Quest: [Eisen für die Schmiede](../eisen-fuer-die-schmiede/
 **Genam:** `Halt, kein Zutritt!`   
 Aber ich habe die Genehmigung des Schmiedes. Ich soll in die alten Kisten dort drunten schauen.   
 **Genam:** `Des Schmiedes? Er braucht wohl Eisen, braucht die alten, rostigen Schwerter von da unten. Nun, dort warten aber Skelette auf Unglückliche, die in die Höhle müssen.`   
-Oje, ich habe schon davon gehört, aber nicht gedacht, dass dies diese höhle ist..und jetzt?   
+Oje, ich habe schon davon gehört, aber nicht gedacht, dass dies diese Höhle ist..und jetzt?   
 **Genam:** ` Wenn der Schmied seine Schwerter will, musst du sie wohl oder übel da unten rausholen. Dann könntest du auch gleich, wenn du schon da bist ein paar von diesen Skeletten für mich zu Knochenmehl verarbeiten, wie wäre das?`   
 
 1. Muss ich ja wohl, wenn ich da runter muss...
