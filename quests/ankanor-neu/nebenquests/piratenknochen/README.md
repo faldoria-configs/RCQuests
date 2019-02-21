@@ -33,20 +33,20 @@ Oje, ich habe schon davon gehört, aber nicht gedacht, dass dies diese höhle is
 **Genam:** ` Wenn der Schmied seine Schwerter will, musst du sie wohl oder übel da unten rausholen. Dann könntest du auch gleich, wenn du schon da bist ein paar von diesen Skeletten für mich zu Knochenmehl verarbeiten, wie wäre das?`   
 
 1. Muss ich ja wohl, wenn ich da runter muss...
-2. Ich glaube, ich muss erst noch mal hintern Busch.
-   **Genam:** `*lacht laut auf* Mach das, aber ich kann mich darauf verlassen, dass du gehst?`
+2. Ich glaube, ich muss erst noch mal hintern Busch.   
+   **Genam:** `*lacht laut auf* Mach das, aber ich kann mich darauf verlassen, dass du gehst?`   
    Klar doch, was bleibt mir anderes übrig?
 
-`[QUEST START]` Piratenknochen](#piratenknochen)
+`[QUEST START]` Piratenknochen](#piratenknochen)   
 **QuestLog:** *Töte in der Höhle für die Wache Genam 10 Skelette.*
 
 **Der Spieler erledigt die Aufgabe und kehrt zum Questgeber zurück.**
 
 ### `Dialog 2`
 
-**Genam:** ` Aus der Tatsache, dass du noch lebst, und aus der, dass du die Schwerter hast, nehme ich an, dass die Skelette tot sind?`
-Ja, sie sind tot… oder was auch immer. Knochenstaub, wie du es gewünscht hast.
-**Genam:** ` Vielen Dank, dass du dich darum gekümmert hast.`
+**Genam:** ` Aus der Tatsache, dass du noch lebst, und aus der, dass du die Schwerter hast, nehme ich an, dass die Skelette tot sind?`   
+Ja, sie sind tot… oder was auch immer. Knochenstaub, wie du es gewünscht hast.   
+**Genam:** ` Vielen Dank, dass du dich darum gekümmert hast.`   
 Musste ich ja wohl…
 
 `[QUEST ENDE]` Piratenknochen](#piratenknochen)
@@ -82,13 +82,13 @@ world: Ankanor
 
 #### Während der Quest
 
-**Genam:** `Beeile dich etwas, dieses Geklapper nervt langsam.`
+**Genam:** `Beeile dich etwas, dieses Geklapper nervt langsam.`   
 *du murmelst:*  Und ich dachte wegen dem Adlatus...
 
 ### Nach der Quest
 
 1. **Genam:** `Ich frage mich noch immer wie diese Skelette hierher gekommen sind und vorallem warum? Ob das eine Prüfung ist?`   
-   Die Ältesten meine, das hängt mit der Ankunft von A.. du weißt schon wer.. zusammen.   
+   Die Ältesten meinen, das hängt mit der Ankunft von A.. du weißt schon wer.. zusammen.   
    **Genam:** `Agnatus? Würde mich nicht wundern.`   
 
 2.  **Genam:** `Vielen Dank nochmal das du diese Ausgeburten von Skeletten getötet hast.
