@@ -40,7 +40,6 @@ Wenn Insel fertig Jamos Standort noch beschreiben , Z 231
     - [Dialog 8 (Testen)](#dialog-8-testen)
     - [Dialog 9 (Segen)](#dialog-9-segen)
     - [`[Quest Start]` Suche Jamos auf](#quest-start-suche-jamos-auf)
-    - [**`[Quest Start]`** Der Segen](#quest-start-der-segen)
   - [NPC](#npc)
     - [Lious](#lious)
       - [Standart-Sätze](#standart-s%C3%A4tze)
@@ -239,36 +238,13 @@ Danke, ich fühle mich nun viel besser gerüstet, Agna...  ich meine, jeglicher 
 `[QUEST ENDE]` [Wahl der Waffe](#wahl-der-waffe) 
 
 
-
-**Questlog:** *Suche Jamos auf, der unten am Tianbaum bei... auf dich wartet*
-**Lious:** `Und nun werde ich dir noch eine besondere Aufgabe, nein einen Ratschlag geben, aber bevor ich das tue müssen wir über deine weitere Ausbildung reden. Diese wird der Älteste Jamos weiterführen, der unten beim.... auf dich wartet. Er wird dir weitere Aufgaben geben, bei denen du deine neuen Fähigkeiten erproben kannst. `  
+**Lious:** `Nun müssen wir über deine weitere Ausbildung reden. Diese wird der Älteste Jamos weiterführen, der unten beim.... auf dich wartet. Er wird dir weitere Aufgaben geben, bei denen du deine neuen Fähigkeiten erproben kannst. `  
 Der alte, tattrige Mann kann mir doch nichts beibringen!?   
 **Lious:** Glaub das nicht, zum Kämpfen gehört mehr als nur etwas Schmalz in den Armen. Da muss man auch etwas mehr als Stroh da oben haben.   
 **Lious:** `*Lious schaut dich zweifelnd an*  Wenn er es nicht schafft, dir etwas beizubringen, dann auch niemand sonst.`   
 Nun gut,ich werde ihn aufsuchen. 
 ### `[Quest Start]` [Suche Jamos auf](#suche-jamos-auf)
-
-Aber was für einen Ratschlag wolltest du mir noch geben?
-**Lious:** `*Lious lächelt dich plötzlich geheimnisvoll an.* Siehst du die Lücke da drüben im Gebüsch? Folge dem Pfad, der dort beginnt und du wirst unserem Tianbaum persönlich begegnen! `
-Was erzählst du mir da für einen Sch...  verzeih, was meinst du damit? 
-**Lious:** `Dort wirst du den Segen des Tianbaumes erhalten, und nun geh.`
-
-1. Also ich bitte dich, an sowas habe ich nicht mehr geglaubt, seit ich das Lesen gelernt habe. Ich suche lieber gleich Jamos auf.    
-  **Lious:** `Wie du meinst.`  
-`[Ende]`   
-1. Den Segen, sowas gibt es wirklich? Nun, schaden kann's ja wohl nicht.   
-2. Den Segen des Tianbaumes? Aber ich bin doch nur ein kleines Nichts, habe nie geträumt wie andere..   
-   **Lious:** `Nun, von jetzt an wirst du träumen. Leb wohl.`   
-
-### **`[Quest Start]`**  [Der Segen](#der-segen)   
-**Questlog:** *Folge den Pfad, den Lious dir gezeigt hat bis zu seinem Ende.*
-
-**Der Spieler folgt dem Pfad und sobald er in einer Art kleiner Lichtung ist, beginnt ein kleines Cinematic, in welchem er den Segen des Tianbaumes erhält.**
-
-> Segen des Tianbaums: Erhöhung der Anzahl der Herzen für den verbleibenden Zeitraum auf Ankanor. (oder auch noch etwas Anderes). 
-
-**Unittelbar nach dem Ende der Cinematic wird er nach unten teleportiert in die Nähe von Jamos. **
-
+**Questlog:** *Suche Jamos auf, der unten am Tianbaum bei... auf dich wartet*
 
 > Weiter bei HQ [Einübung der Waffe](../5-einuebung-der-waffe/README.md)
 

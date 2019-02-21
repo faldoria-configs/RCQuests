@@ -7,6 +7,8 @@ Issue #95
 
 ## Noch zu tun/Probleme
 
+Beginn des Pfades zu den Wurzeln beschreiben
+
 ## Ablauf
 1. Lious schickt den Spieler den Tianbaum wieder hinunter zu dem Ältesten Jamos.
 2. Jamos gibt den Auftrag, anderen bei den Vorbereitungen zur Flucht zu unterstützen. 
@@ -23,7 +25,24 @@ Issue #95
   - [`[Quest Start]` Hilf den Bewohnern](#quest-start-hilf-den-bewohnern)
   - [`[Quest Start]` Warnungen](#quest-start-warnungen)
   - [`[Quest Start:]` Rückkehr zu Jamos](#quest-start-r%C3%BCckkehr-zu-jamos)
-  - [Dialog 2 (Jamos)](#dialog-2-jamos)
+  - [Dialog 2 (Jamos, Segen)](#dialog-2-jamos-segen)
+  - [**`[Quest Start]`** Der Segen](#quest-start-der-segen)
+- [NPCs](#npcs)
+- [`Name des NPCs`](#name-des-npcs)
+- [Standartsätze](#standarts%C3%A4tze)
+    - [Vor der Quest](#vor-der-quest)
+    - [Während der Quest](#w%C3%A4hrend-der-quest)
+    - [Nach der Quest](#nach-der-quest)
+  - [Ausrüstung](#ausr%C3%BCstung)
+  - [Standort](#standort)
+- [Items](#items)
+  - [Itemname](#itemname)
+- [Mobs](#mobs)
+  - [Mobname](#mobname)
+    - [Ausrüstung](#ausr%C3%BCstung-1)
+- [Belohnung](#belohnung)
+- [Referenzen](#referenzen)
+- [Issues](#issues)
 
 ## Vorraussetzungen
 
@@ -34,13 +53,13 @@ Quest [Suche Jamos auf](../4-wahl-der-waffe/README.md) angenommen
 
 ### `Dialog 1`
 
-Ältester Jamos, ich soll mich bei dir melden für weitere Ausbildung.   
-**Jamos:** ` Waaas? Du willst etwas hören über die Helden von Azuran? Was ist das denn?`   
+Ältester Jamos, ich soll mich bei dir melden für weitere Ausbildung. 
+**Jamos:** ` Waaas? Ich soll dir etwas über die Helden von Azuran erzählen? Was ist denn?`   
 Oh mann.   
 **Jamos:** `Kind, das war ein Scherz! Du kannst dich jetzt in deiner Waffen üben, indem du anderen Bewohnern bei besonderen Aufgaben hilfst, die man lieber nicht mit bloßen Händen anpackt. Du bist nun ein Kaishi mit besonderen Fähigkeiten, nutze sie!`   
 Kannst du mir einen Hinweis geben?   
-**Jamos:** `Ja, ich hörte, dass jemand Probleme mit den Sandflöhen hat, außerdem könnte ich mir vorstellen, dass der Schmied Hilfe braucht. Aber es mag auch noch andere geben.`   
-Gut, dann suche ich beide mal auf. 
+**Jamos:** `Ja, ich hörte, dass jemand Probleme mit den Sandflöhen hat, außerdem könnte ich mir vorstellen, dass der Schmied Hilfe braucht. Aber es mag auch noch andere geben. Halte deine Augen offen und höre auf dein Herz.`   
+Gut, dann suche ich erst Mal die Beiden auf. 
 
 ### `[Quest Ende]`: [Suche Jamos auf](../4-wahl-der-waffe/README.md)
 
@@ -48,7 +67,7 @@ Gut, dann suche ich beide mal auf.
 **Questlog:** *Hilf Agunt bei den Sandflöhen und frage den Schmied, ob er Hilfe braucht.*
 
 
-**Jamos:** `Nochwas. Wenn du unterwegs bist und jemanden triffst oder auf einem Feld arbeiten siehst, rede mit ihm und sage ihm, dass sie sich bereit für die Flucht machen sollen. Es gibt immer noch welche, die haben nicht kapiert, dass sie in großer Gefahr sind.`   
+**Jamos:**  `  Nochwas. Wenn du unterwegs bist und jemanden triffst oder auf einem Feld arbeiten siehst, rede mit ihm und sage ihm, dass sie sich bereit für die Flucht machen sollen. Es gibt immer noch welche, die haben nicht kapiert, dass sie in großer Gefahr sind.`   
 1. Ja, ich versuche es.
        
 ### `[Quest Start]` [Warnungen](#warnungen)      
@@ -62,33 +81,60 @@ Gut, dann suche ich beide mal auf.
 **Questlog:** *Kehre zu Jamos zurück, wenn du alles erledigt hast, was man dir aufgetragen hat.*   
 
 
-**Die Spielerin erledigt nun folgende Quests und Folgequests**
-NQ  [Quest Start] [Warnungen](#warnungen)  optional
-NQ  [Sandflohkleber](../sandflohkleber/README.md)
-NQ
+**Die Spielerin erledigt nun folgende Quests und Folgequests**   
+NQ  [Quest Start] [Warnungen](#warnungen)  optional   
+NQ  [Sandflohkleber](../../sandflohkleber/README.md)   
+NQ  [Schmied Sakros](../../schmied-sakros/READMME.md) (zwei Quests)   
+NQ  [Piratenknochen](../../piratenknochen/README.md)   
 
 **und kehrt dann zu Jamos zurück.**
 
-### Dialog 2 (Jamos)
+### Dialog 2 (Jamos, Segen)
 
-> das schreib ich fertig, wenn ich die NQ habe.
-**Jamos:** 
+**Jamos:** `Nun, wie weit bist du gekommen? Hast du allen geholfen, die dich um Hilfe gebeten haben? Oder willst du noch etwas erledigen?    
 
-Jamos: Ich hörte du hast den Bewohnern gut geholfen, gerade zur rechten Zeit.
-Spieler: Warum was ist nun schon wieder?
-Jamos: Agnatus Truppen wurden gesichtet. Wir brauchen dich sofort am Rand des Dorfes. 
-Spieler: Wie? Was? Jetzt schon? Ich dachte ich werde noch weiter ausgebildet.
-Jamos: Dies ist Teil deiner Ausbildung und nun verliere keine Zeit, lauf ins Dorf versuche dann zum Schiff zu kommen. Ich komme nach!
-```
+1. Hmm, vielleicht sollte ich doch noch.... ich brauche nicht lange, dann bin ich wieder hier!   
+**Der Spieler kann noch mal gehen und eine weitere Quest erledigen, wenn er möchte. Danach kommt er schlußendlich zu Jamos:**   
+1.2 Jetzt bin ich da und habe alles erledigt. Was hast du denn Wichtiges für mich?   
+2. Ja, mir fällt jetzt keiner mehr ein, der noch unbedingt meine Hilfe benötigt. Oder weißt du noch was?
+3. Ich weiß nicht, ich habe jetzt keine Lust mehr, helfen strengt an!   
+  **Jamos:** `*Jamos schaut dich nur traurig an*`
 
-> 1. Ok, pass auf dich auf Alterchen.   
-> **Achtung:** Ab hier passiert alles auf Ankanor Event!
+**Jamos:** `Nun, jetzt kommt das Wichtigste überhaupt. Zwar müssen wir vor Agnatus fliehen, aber wir sind nicht ganz machtlos. Wir haben unseren Tianbaum. Du wirst ihm jetzt persönlich begegnen. Folge dem Pfad, der dort beginnt wo ....  und dich zu seinen Wurzeln führen wird. `  
+Was erzählst du mir da für einen Sch...  verzeih, was meinst du damit? 
+**Jamos:** `Dort wirst du den Segen des Tianbaumes erhalten, und nun geh.`
+
+1. Also ich bitte dich, an sowas habe ich nicht mehr geglaubt, seit ich das Lesen gelernt habe. Hast du nicht eine andere Aufgabe für mich?     
+  **Jamos** `Im Augenblick nicht, aber komme bald wieder.`  
+`[Ende]` 
+**Kommt der Spieler zurück, wird er gleich zu Marduk geschickt, für den Segen ist keine Zeit mehr:**
+
+1. Den Segen, sowas gibt es wirklich? Nun, schaden kann's ja wohl nicht.   
+2. Den Segen des Tianbaumes? Aber ich bin doch nur ein kleines Nichts, habe nie geträumt wie andere..   
+   **Jamos:** `Nun, von jetzt an wirst du träumen.`   
+
+### **`[Quest Start]`**  [Der Segen](#der-segen)   
+**Questlog:** *Folge den Pfad zu den Wurzeln bis zu seinem Ende.*
+
+**Der Spieler folgt dem Pfad und sobald er in einer Art kleiner Lichtung ist, beginnt ein kleines Cinematic, in welchem er den Segen des Tianbaumes erhält.**
+
+> Segen des Tianbaums: Erhöhung der Anzahl der Herzen für den verbleibenden Zeitraum auf Ankanor. (oder auch noch etwas Anderes). 
+
+**Unittelbar nach dem Ende der Cinematic wird er wieder zu Jamos teleportiert**
+
+
+**Jamos:** `[Name des Spielers], schnell, komm her, die Ereignisse überstürzen sich. Eile zu Hauptmann Marduk, er..`   
+Hauptmann Marduk! Hey, ich werde noch ein Heldenmensch!
+**Jamos:** `*Schaut freundlich und betrübt zugleich.* Freue dich nicht zu früh, schrecklich  Böses ist im Anmarsch! Hauptmann Marduck steht da drüben auf der Anhöhe!`
+
+**Der Spieler läuft jetzt zu Hauptmann Marduck und mitten ins Event. Von dem Aussichtspunkt, an dem Marduk steht, kann man die angreifenden Schiffe gut sehen. Der Spieler erhält nun die Aufgabe, Schwerter zum Schiff zu bringen.**
+
 
 **Teleport:**
 ```yml
-x: -62
-y: 80
-z: 70
+x: 
+y:
+z: 
 world: Ankanor-Event
 ```
 
