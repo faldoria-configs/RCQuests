@@ -8,7 +8,7 @@ Issue #95
 ## Noch zu tun/Probleme
 
 ## Ablauf
-1. Lious schickt den spieler den tianbaum wieder hinunter zu dem Ältesten Jamos.
+1. Lious schickt den Spieler den Tianbaum wieder hinunter zu dem Ältesten Jamos.
 2. Jamos gibt den Auftrag, anderen bei den Vorbereitungen zur Flucht zu unterstützen. 
 
 ## Übersicht

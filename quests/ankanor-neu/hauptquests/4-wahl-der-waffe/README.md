@@ -14,7 +14,8 @@ Wenn Insel fertig Jamos Standort noch beschreiben , Z 231
 4. Gespräch mit Lious
 5. Test der Waffe (Spinnen)
 6. Gespräch mit Lious
-7. Lious schickt den Spieler weiter zum Einüben seiner neuen Waffe. 
+7. Lious verweist den Spieler an Jamos zum Einüben seiner neuen Waffe.
+8. Zuvor jedoch schickt er ihn weiter den Baum hinauf um den Segen des Tianbaumes zu erhalten. 
 
 
 
@@ -38,6 +39,7 @@ Wenn Insel fertig Jamos Standort noch beschreiben , Z 231
     - [Dialog 7 (Bestätigung, erhält Waffe)](#dialog-7-best%C3%A4tigung-erh%C3%A4lt-waffe)
     - [Dialog 8 (Testen)](#dialog-8-testen)
     - [`[Quest Start]` Suche Jamos auf](#quest-start-suche-jamos-auf)
+    - [**`[Quest Start]`** Der Segen](#quest-start-der-segen)
   - [NPC](#npc)
     - [Lious](#lious)
       - [Standart-Sätze](#standart-s%C3%A4tze)
@@ -75,7 +77,7 @@ Ja, ich weiß, dieser Nekromant kommt, aber ich kann doch nicht kämpfen, kaum j
 Eine Waffe? Ich kann doch gar nicht damit umgehen. Ich haue mir wahrscheinlich eher in den Fuß als dass ich einen Feind verletze.       
 **Lious:** `Auch das weiß ich, und auch da kann ich dir helfen, zumindest für die nächsten Tage, wenn du in besondere Gefahr gerätst.`  
 
-> >  Irgendein Buff, der einem knapp vor dem Abkratzen etwas Leben spendiert? Generell etwas mehr Leben für die restliche Zeit auf Ankanor?
+> >  Irgendein Buff, der einem knapp vor dem Abkratzen etwas Leben spendiert? Generell etwas mehr Leben für die restliche Zeit auf Ankanor? ---> `Nach dem Segen des Tianbaumes!`
 
 An was für eine Waffe hast du denn gedacht?       
 **Lious:** `Schau da drüben, da kannst du dir eine Waffe aussuchen. Nimm, was dich anspricht. Ich werde dir die Fähigkeit geben, damit umzugehen - bis zu einem bestimmten Grad - so dass du dir nicht den Fuß abhackst. *lacht etwas belustigt* `    
@@ -137,13 +139,15 @@ Lious spricht ihn an, sobald er sich auf 2 Blocks genähert hat.**
 
 ### Dialog 4 (Version unsicher)
 
-2.  Nein, ich bin mir noch unsicher, ich komme später wieder. 
+2.  Nein, ich bin mir noch unsicher, ich komme später wieder.   
+--> Antworten von Lious alternativ, falls der Spieler öfter als einmal kommt. 
+
    
     2.1   **Lious:** `Gut, aber lass dir nicht zuviel Zeit. Das Übel wartet nicht.`  
     2.2   **Lious:** `Ich sehe, du machst dir sehr viele Gedanken. Aber bedenke, Agnatus kommt näher!`
 
 ### Dialog 5 (nochmal erklären)
-3. Nein, könntest du mir die Waffen noch einmal erklären.   
+1. Nein, könntest du mir die Waffen noch einmal erklären.   
    **Lious:** ` Gerne, aber bedenke, die Zeit drängt.`
     
 **Hier** weiter mit [Dialog 2](#dialog-2)  
@@ -185,6 +189,7 @@ und [Dialog 6](#dialog-6)
 TIPS-Plugin:
 
 MICHAEL! Hilfe!
+> Tutorial
 
 
 > `[QUEST UPDATE]` [Wahl der Waffe](#wahl-der-waffe-2)  
@@ -227,20 +232,41 @@ world: Ankanor
 
 
 **Lious:** `Sehr schön hast du das gemacht.`   
-Danke, ich fühle mich nun viel besser gerüstet, Agna...  ich meine, jeglicher Gefahr zu trotzen.   
-**Lious:** `Und nun gehe zu dem Ältesten Jamos, der unten beim.... auf dich wartet. Er wird dir weitere Aufgaben geben, bei denen du deine neuen Fähigkeiten erproben kannst. `  
-Der alte, tattrige Mann kann mir doch nichts beibringen!?   
-**Lious:** Glaub das nicht, zum Kämpfen gehört mehr als nur etwas Schmalz in den Armen. Da muss man auch etwas mehr als Stroh da oben haben.   
-**Lious:** `*Lious schaut dich zweifelnd an*  Er wird deine weitere Ausbildung überwachen.`   
-Nun gut,ich werde ihn aufsuchen.
-
-
+Danke, ich fühle mich nun viel besser gerüstet, Agna...  ich meine, jeglicher Gefahr zu trotzen. 
 
 `[QUEST ENDE]` [Wahl der Waffe](#wahl-der-waffe) 
 
-### `[Quest Start]` [Suche Jamos auf](#suche-jamos-auf)
+
 
 **Questlog:** *Suche Jamos auf, der unten am Tianbaum bei... auf dich wartet*
+**Lious:** `Und nun werde ich dir noch eine besondere Aufgabe, nein einen Ratschlag geben, aber bevor ich das tue müssen wir über deine weitere Ausbildung reden. Diese wird der Älteste Jamos weiterführen, der unten beim.... auf dich wartet. Er wird dir weitere Aufgaben geben, bei denen du deine neuen Fähigkeiten erproben kannst. `  
+Der alte, tattrige Mann kann mir doch nichts beibringen!?   
+**Lious:** Glaub das nicht, zum Kämpfen gehört mehr als nur etwas Schmalz in den Armen. Da muss man auch etwas mehr als Stroh da oben haben.   
+**Lious:** `*Lious schaut dich zweifelnd an*  Wenn er es nicht schafft, dir etwas beizubringen, dann auch niemand sonst.`   
+Nun gut,ich werde ihn aufsuchen. 
+### `[Quest Start]` [Suche Jamos auf](#suche-jamos-auf)
+
+Aber was für einen Ratschlag wolltest du mir noch geben?
+**Lious:** `*Lious lächelt dich plötzlich geheimnisvoll an.* Siehst du die Lücke da drüben im Gebüsch? Folge dem Pfad, der dort beginnt und du wirst unserem Tianbaum persönlich begegnen! `
+Was erzählst du mir da für einen Sch...  verzeih, was meinst du damit? 
+**Lious:** `Dort wirst du den Segen des Tianbaumes erhalten, und nun geh.`
+
+1. Also ich bitte dich, an sowas habe ich nicht mehr geglaubt, seit ich das Lesen gelernt habe. Ich suche lieber gleich Jamos auf.    
+  **Lious:** `Wie du meinst.`  
+`[Ende]`   
+1. Den Segen, sowas gibt es wirklich? Nun, schaden kann's ja wohl nicht.   
+2. Den Segen des Tianbaumes? Aber ich bin doch nur ein kleines Nichts, habe nie geträumt wie andere..   
+   **Lious:** `Nun, von jetzt an wirst du träumen. Leb wohl.`   
+
+### **`[Quest Start]`**  [Der Segen](#der-segen)   
+**Questlog:** *Folge den Pfad, den Lious dir gezeigt hat bis zu seinem Ende.*
+
+**Der Spieler folgt dem Pfad und sobald er in einer Art kleiner Lichtung ist, beginnt ein kleines Cinematic, in welchem er den Segen des Tianbaumes erhält.**
+
+> Segen des Tianbaums: Erhöhung der Anzahl der Herzen für den verbleibenden Zeitraum auf Ankanor. (oder auch noch etwas Anderes). 
+
+**Unittelbar nach dem Ende der Cinematic wird er nach unten teleportiert in die Nähe von Jamos. **
+
 
 > Weiter bei HQ [Einübung der Waffe](../5-einuebung-der-waffe/README.md)
 
