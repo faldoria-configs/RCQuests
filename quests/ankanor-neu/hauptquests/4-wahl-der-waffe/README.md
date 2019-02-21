@@ -496,7 +496,7 @@ aggro: false
 [Waffenwahl](#waffenwahl)  
 > 10 EXP  
 
-## Der Segen
+## [Der Segen](#der-segen)
 
 Kind der Kaishi,    
 Das Unheil naht am Horizont,   
