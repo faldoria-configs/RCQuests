@@ -21,7 +21,27 @@ Zwei Quests!
 5. Darauf hat Sakros eine weitere Aufgabe (nächste Quest:)
 
 ## Übersicht
-
+- [Noch zu tun/Probleme](#noch-zu-tunprobleme)
+- [Ablauf](#ablauf)
+- [Übersicht](#%C3%BCbersicht)
+- [Vorraussetzungen](#vorraussetzungen)
+- [Aufgaben](#aufgaben)
+  - [`Dialog 1`](#dialog-1)
+  - [`[Quest Start]`[Eisen für die Schmiede]](#quest-starteisen-f%C3%BCr-die-schmiede)
+  - [Dialog 2](#dialog-2)
+- [NPCs](#npcs)
+- [`Schmied Sakros`](#schmied-sakros)
+- [Standartsätze](#standarts%C3%A4tze)
+  - [**Vor der Quest**](#vor-der-quest)
+  - [**Während der Quest**](#w%C3%A4hrend-der-quest)
+  - [**Nach der Quest**](#nach-der-quest)
+  - [**Ausrüstung**](#ausr%C3%BCstung)
+  - [**Standort**](#standort)
+- [Items](#items)
+  - [Eisenbarren](#eisenbarren)
+  - [Rostiges Schwert](#rostiges-schwert)
+- [Belohnung](#belohnung)
+- [Referenzen](#referenzen)
 ## Vorraussetzungen
 HQ [Einübung der Waffe](../../5-einübung-der-waffe/ReADME-md) angenommen
 
