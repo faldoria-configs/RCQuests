@@ -28,7 +28,7 @@ Zwei Quests!
 - [Aufgaben](#aufgaben)
   - [`Dialog 1`](#dialog-1)
   - [`[Quest Start]`[Eisen für die Schmiede]](#quest-starteisen-f%C3%BCr-die-schmiede)
-  - [Dialog 2](#dialog-2)
+  - [`Dialog 2](#dialog-2)
 - [NPCs](#npcs)
 - [`Schmied Sakros`](#schmied-sakros)
 - [Standartsätze](#standarts%C3%A4tze)
@@ -74,7 +74,7 @@ Das alte Piratenzeug oder wer das auch immer war?
 **Die Spielerin läuft zur Höhle und trifft dort auf Genam, der ihr eine extra Quest gibt. Mit Schwertern und Eisen kommt sie zu Sakros zurück.**
 
 
-### Dialog 2
+### `Dialog 2
 
 Ich bin wieder da! Und habe Schwerter und Eisen!    
 `[Quest Ende:]`[Eisen für die Schmiede](#eisen-fuer-die-schmiede)   
