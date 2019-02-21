@@ -54,3 +54,5 @@ world: Lobby
 
 ### Skin
 ID: 
+
+![](img/Roza.png)
