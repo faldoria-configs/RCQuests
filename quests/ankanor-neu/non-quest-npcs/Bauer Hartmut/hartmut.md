@@ -1,5 +1,18 @@
 # Hartmut <!-- omit in toc -->
 
+## Übersicht<!-- omit in toc -->
+- [Fehlt noch](#fehlt-noch)
+- [Beschreibung](#beschreibung)
+- [Besonderheiten](#besonderheiten)
+- [Dialoge](#dialoge)
+- [Ausrüstung](#ausr%C3%BCstung)
+- [Standort](#standort)
+- [Items](#items)
+  - [Milchbecher](#milchbecher)
+## Fehlt noch
+
+Skin
+
 ## Beschreibung
 
 Hartmut ist ein leidenschaftlicher Bauer, der seine Tiere über alles liebt.
@@ -9,7 +22,7 @@ keine
 
 **Der Spieler rennt auf Hartmut zu und spricht ihn an:**
 
-## Dialog 1
+## Dialoge
 
 Wenn der Spieler die Quest [Warnungen](../einuebung-der-waffe/README.md) (Zeile 73)angenommen hat:
 
