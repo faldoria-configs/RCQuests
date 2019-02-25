@@ -47,6 +47,8 @@ Skin
 
 ## Standort
 
+Irgendwo am Wasser
+
 ```yml
 x: 
 y: 
