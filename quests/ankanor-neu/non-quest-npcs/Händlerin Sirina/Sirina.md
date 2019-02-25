@@ -70,7 +70,7 @@ Falls ein weiteres Mal angeklickt wird:
 
 
 ## Ausrüstung
-Melonenscheibe in der Hand
+Melonenscheibe in der Hand   
 Skin: 
 https://faldoria.de/board/thread/560-skins-ankanor/?postID=4355#post4355
 
