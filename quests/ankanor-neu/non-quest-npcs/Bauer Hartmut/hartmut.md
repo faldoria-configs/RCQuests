@@ -28,7 +28,7 @@ Wenn der Spieler die Quest [Warnungen](../einuebung-der-waffe/README.md) (Zeile 
 
 Hartmut, du musst dich bereit machen, zum Schiff zu gehen, du weißt doch, wir müssen weg.   
 **Hartmut:** `Habe ich schon gehört, aber wie stellst du dir das vor, Kind? Ich habe hier alle meine Kühe und Schafe, die kann ich doch nicht alleine lassen, wer soll die melken, wer füttern?`   
-Aber ja, das stimmt schon, aber - wenn die Schergen von Agnathes kommen, dann töten die dich und deine Kühe dazu.  
+Aber ja, das stimmt schon, aber - wenn die Schergen von Agnathes kommen, dann töten sie dich und deine Kühe dazu.  
 **Hartmut:** `Weißt du was, das glaube ich nicht, die brauchen doch auch Milch und Wolle, so jemand wie ich kann sicherlich überall leben. `   
 Das sind aber keine normalen … Eroberer, die das Land wollen, das sind Leute, die wollen zerstören!   
 **Hartmut:** `Na dann geh und frage Kapitän Mafei, ob er Platz auf den Schiffen für meine Tiere hat. `   
@@ -38,10 +38,10 @@ Erm, ja *kleinlaut*, das mach ich glatt, auch wenn…  servus Hartmut.
 Wenn der Spieler die Quest [Warnungen](../einuebung-der-waffe/README.md) (Zeile 73)angenommen NICHT hat:
 
 **Hartmut:** `Hey, [Name des Spielers], willst mir wohl beim Melken helfen?`   
-Nein danke, das ist nicht meine Lieblingsbeschäftigung.
-**Hartmut:** `Da,versuch mal!`
-**Spieler erhält einen eimer Milch**
-**Hartmut:** `Den Becher will ich aber wieder`
+Nein danke, das ist nicht meine Lieblingsbeschäftigung.   
+**Hartmut:** `Da,versuch mal!`   
+**Spieler erhält einen eimer Milch**   
+**Hartmut:** `Den Becher will ich aber wieder`   
 
 *Eimer verschwindet aus dem Inventar*
 
