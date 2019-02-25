@@ -41,6 +41,10 @@ Aber du weißt doch, es gibt auch.. Der Typ ist doch ein Magier, ein Necromagier
 
 
 ## Ausrüstung
+Hält Angel in der Hand
+Skin
+
+
 ## Standort
 
 ```yml
@@ -50,18 +54,5 @@ z:
 world: ankanor
 ```
 
-## Items im Inventar
 
-### Itemname
-
-```yml
-ID: ?
-name: 
-type: QUEST
-quality: RARE /COMMON
-item: 
-lore: (opt.)
-max-stack-size: 1
-price: 
-```
 
