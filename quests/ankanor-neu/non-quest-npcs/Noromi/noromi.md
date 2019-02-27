@@ -1,5 +1,14 @@
 # Noromi <!-- omit in toc -->
 
+## Übersicht <!-- omit in toc -->
+- [Beschreibung](#beschreibung)
+- [Besonderheiten](#besonderheiten)
+- [Dialog](#dialog)
+- [Ausrüstung](#ausr%C3%BCstung)
+- [Standort](#standort)
+- [Items](#items)
+  - [Hübsches Täschchen](#h%C3%BCbsches-t%C3%A4schchen)
+
 ## Beschreibung
 
 Noromi ist eine engere Freundin des Spielers oder der Spielerin
