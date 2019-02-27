@@ -16,7 +16,7 @@ Skin, Standort
 1. Der Spieler kommt ins Lager, mit Quest [Segel für das Schiff](../segel-fuer-das-schiff.md) (Möglichkeit ohne Quest s.u.)
 2. Kansa fragt, was er will.
 3. Spieler erzählt ihm von seinem Auftrag, Kansa lässt ihn gewähren.
-4. Danach fragt kansa ihn, ob der Spieler für ihn auch etwas erledigen könnte - Vorräte für das Schiff besorgen.
+4. Danach fragt Kansa ihn, ob der Spieler für ihn auch etwas erledigen könnte - Vorräte für das Schiff besorgen.
 5. Der Spieler erfüllt die Aufgaben. 
 
 
