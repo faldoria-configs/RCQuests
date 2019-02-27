@@ -40,7 +40,7 @@ Wenn der Spieler die Quest [Warnungen](../einuebung-der-waffe/README.md) (Zeile 
 **Hartmut:** `Hey, [Name des Spielers], willst mir wohl beim Melken helfen?`   
 Nein danke, das ist nicht meine Lieblingsbeschäftigung.   
 **Hartmut:** `Da,versuch mal!`   
-**Spieler erhält einen eimer Milch**   
+**Spieler erhält einen Eimer Milch**   
 **Hartmut:** `Den Becher will ich aber wieder`   
 
 *Eimer verschwindet aus dem Inventar*
