@@ -48,7 +48,7 @@ Du spinnst. Ich habe es dir gesagt.
 Hallo Lilofee
 **Lilofee:** `*schaut dich kritisch an und wendet sich dann ab`
 1. Na, dann eben nicht, blödes Huhn. 
-2. Habt ihr den Fleck auf Eurem Kleid bemerkt, werte Dame?
+2. Habt ihr den Fleck auf Eurem Kleid bemerkt, werte Dame?   
    **Lilofee:** `Was? *schaut an sich runter* Geh weg, du Nichtsnutz! Lass dich nicht mehr bei mir sehen!` 
 
 
