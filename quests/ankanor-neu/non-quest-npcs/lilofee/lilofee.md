@@ -18,7 +18,7 @@ Glaubt nicht, dass ihr jemand etwas antun kann, so schön wie sie ist
 
 **Spieler trifft Lilofee irgendwo**
 
-> Wenn der Spieler die Quest [Warnungen](../5-einuebung-der-waffe/README.md) (Zeile 73)angenommen hat:
+> Wenn der Spieler die Quest [Warnungen](../../5-einuebung-der-waffe/README.md) (Zeile 73)angenommen hat:
 
 Lilo, Lilo, du weißt, dass du dich fertig machen musst, weil wir bald mit dem Schiff fliehen müssen?
 

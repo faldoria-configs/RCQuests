@@ -70,10 +70,10 @@ Gut, dann suche ich erst Mal die Beiden auf.
 **Jamos:**  `  Nochwas. Wenn du unterwegs bist und jemanden triffst oder auf einem Feld arbeiten siehst, rede mit ihm und sage ihm, dass sie sich bereit für die Flucht machen sollen. Es gibt immer noch welche, die haben nicht kapiert, dass sie in großer Gefahr sind.`   
 1. Ja, ich versuche es.
        
-### `[Quest Start]` [Warnungen](#warnungen)      
+### `[Quest Start]` [Warnungen](#warnungen)    
 **Questlog:** *Warne mindestens 5 Bewohner Ankanors vor der Ankunft des Necromanten*
 
-2. Dafür werde ich keine Zeit haben.`[Ende]`
+1. Dafür werde ich keine Zeit haben.`[Ende]`
 
 **Jamos:** `Kehre zu mir zurück, wenn du deine Aufgaben erfüllt hast!`
 
