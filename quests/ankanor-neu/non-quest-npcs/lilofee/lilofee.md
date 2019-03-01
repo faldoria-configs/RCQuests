@@ -40,16 +40,16 @@ Du spinnst. Ich habe es dir gesagt.
 2. Das glaubst du doch nicht wirklich?  
    **Liliofee:** `Wieso nicht? Ich kann jeden Mann betören, egal woher er kommt.`   
  Dir ist nicht mehr zu helfen. Hoffentlich findet sich jemand, der dir wenn es soweit ist eins auf die Rübe gibt und dich auf’s Schiff trägt. Da könntest du noch von Glück reden.   
- **Liliofee:** `Schau dass du weiter kommst, du ungezogenes Etwas.   
+ **Liliofee:** `Schau dass du weiter kommst, du ungezogenes Etwas. ` `[Ende]`  
 
 
 ### Dialog 2 (Standard)
 
 Hallo Lilofee
 **Lilofee:** `*schaut dich kritisch an und wendet sich dann ab`
-1. Na, dann eben nicht, blödes Huhn. 
+1. Na, dann eben nicht, blödes Huhn. `[Ende]`   
 2. Habt ihr den Fleck auf Eurem Kleid bemerkt, werte Dame?   
-   **Lilofee:** `Was? *schaut an sich runter* Geh weg, du Nichtsnutz! Lass dich nicht mehr bei mir sehen!` 
+   **Lilofee:** `Was? *schaut an sich runter* Geh weg, du Nichtsnutz! Lass dich nicht mehr bei mir sehen!` `[Ende]`  
 
 
 
