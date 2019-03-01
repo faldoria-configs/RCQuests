@@ -6,7 +6,7 @@ Glaubt nicht, dass ihr jemand etwas antun kann, so schön wie sie ist
 ## Übersicht<!-- omit in toc -->
 - [Fehlt noch](#fehlt-noch)
 - [Dialog 1 (mit Quest)](#dialog-1-mit-quest)
-  - [Dialog 2 (Standard)](#dialog-2-standard)
+- [Dialog 2 (Standard)](#dialog-2-standard)
 - [Ausrüstung](#ausr%C3%BCstung)
 - [Standort](#standort)
 - [Items in der Hand](#items-in-der-hand)
@@ -43,7 +43,7 @@ Du spinnst. Ich habe es dir gesagt.
  **Liliofee:** `Schau dass du weiter kommst, du ungezogenes Etwas. ` `[Ende]`  
 
 
-### Dialog 2 (Standard)
+## Dialog 2 (Standard)
 
 Hallo Lilofee
 **Lilofee:** `*schaut dich kritisch an und wendet sich dann ab`
