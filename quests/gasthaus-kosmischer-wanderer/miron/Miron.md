@@ -29,10 +29,21 @@ In welchem Gebiet wart Ihr einst ein Künstler, Ihr seht nicht sehr gelehrt aus.
     **Miron:** `Ich weiß nicht wovon ihr sprecht.`  
           1. Ich sehe es Euch an, Ihr mögt die Gastwirtin oder?  
           **Miron:** `Redet nicht so ein Unsinn!`  
-          2. Ist nicht so wichtig. *[Eine Ebene zurück im Dialog.]*
+          2. Ist auch nicht so wichtig. *[Eine Ebene zurück im Dialog.]*
           
     2. Welches Wissen genau wollt Ihr anderen denn weitergeben?  
-      **Miron:** `Ich weiß 
+      **Miron:** `Kennt ihr die großen Baumeister dieser Welten? Ich möchte unteranderem auf diese Aufmerksam machen, da sie stets neue Meister suchen und sogar sterbliche zu Baumeistern bilden.`
+        1. Nein, ich kenne sie nicht. Wer sind sie?
+            **Miron** `Wie ich schon sagte große Baumeister die diese Welten erschaffen. Wollt ihr es versuchen und euch einen Platz in ihren Reihen verdienen?`
+            **Miron** `Wenn ihr euch noch unsicherseit was ich genau meine, schaut auf die Plattform [Faldoria.de](https://faldoria.de/board/thread/229-alles-%C3%BCber-den-architekt/) dort findet ihr mehr darüber.`
+            Ich danke euch für die Informationen. *[Eine Ebene zurück im Dialog.]*
+        2. Ja, ich kenne sie und ich möchte auch so ein Baumeister werden.
+            **Miron** `Dann solltet ihr schnell auf die Testbau-Welt und euch dort bewähren. Weiteres findet ihr auf der Plattform [Faldoria.de](https://faldoria.de/board/thread/229-alles-%C3%BCber-den-architekt/).`
+            Danke für eure Hilfe. *[Teleport: Testbau-Welt]*
+        3. Ja, ich kenne sie, aber ich interessiere mich nicht dafür ein Baumeister zu werden. *[Eine Ebene zurück im Dialog.]*
+    3. 
+
+
 
 2. Ich weiß warum Ihr hier seid, ich brauche einfach Eure Hilfe.  
    **Miron:** `Wie kann ich euch denn helfen?` 
