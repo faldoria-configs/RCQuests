@@ -9,25 +9,26 @@ Skin hochgeladen!
 
 ## Übersicht 
 
-- [Übersicht](#%C3%BCbersicht)
-- [Vorraussetzungen](#vorraussetzungen)
-- [Ablauf](#ablauf)
-- [Aufgaben](#aufgaben)
-  - [**Dialog 1**](#dialog-1)
-  - [**Dialog 2**](#dialog-2)
-- [NPC](#npc)
-  - [Mimi](#mimi)
-  - [Standartsätze](#standarts%C3%A4tze)
-    - [Vor der Quest](#vor-der-quest)
-    - [Während der Quest](#w%C3%A4hrend-der-quest)
-    - [Nach der Quest](#nach-der-quest)
-    - [Falls die Quest das erste Mal nicht angenommen wurde](#falls-die-quest-das-erste-mal-nicht-angenommen-wurde)
-  - [Ausrüstung](#ausr%C3%BCstung)
-  - [Standort](#standort)
-- [Items](#items)
-  - [Angebissenes Plätzchen](#angebissenes-pl%C3%A4tzchen)
-  - [Puppe Aneli](#puppe-aneli)
-    - [Standort Puppe](#standort-puppe)
+- [Mimi braucht dich](#mimi-braucht-dich)
+  - [Übersicht](#%C3%BCbersicht)
+  - [Vorraussetzungen](#vorraussetzungen)
+  - [Ablauf](#ablauf)
+  - [Aufgaben](#aufgaben)
+    - [**Dialog 1**](#dialog-1)
+    - [**Dialog 2**](#dialog-2)
+  - [NPC](#npc)
+    - [Mimi](#mimi)
+    - [Standartsätze](#standarts%C3%A4tze)
+      - [Vor der Quest](#vor-der-quest)
+      - [Während der Quest](#w%C3%A4hrend-der-quest)
+      - [Nach der Quest](#nach-der-quest)
+      - [Falls die Quest das erste Mal nicht angenommen wurde](#falls-die-quest-das-erste-mal-nicht-angenommen-wurde)
+    - [Ausrüstung](#ausr%C3%BCstung)
+    - [Standort](#standort)
+  - [Items](#items)
+    - [Angebissenes Plätzchen](#angebissenes-pl%C3%A4tzchen)
+    - [Puppe Aneli](#puppe-aneli)
+      - [Standort Puppe](#standort-puppe)
        
 -  [Items](#items)
     - [Puppe Aneli](#puppe-aneli)
@@ -55,7 +56,7 @@ Der Spieler soll Mimis Puppe aus dem höchstgelegenen Haus von Ankanor holen.
 Mimi sitzt auf der Treppe, die zu den oberen Häusern Ankanors führt und ruft dem Spieler zu, sobald er vorbeikommt: (5 Block oder mehr?)
 
 ```yml
-Mimi: Hey, <Name des Spielers>, du willst doch sicherlich einem armen kleinen Mädchen helfen? 
+Mimi: Hey, <Name des Spielers>,  du willst doch sicherlich einem armen kleinen Mädchen helfen? 
 *du drehst dich um und siehst auf der Treppe Mimi sitzen, ein etwa 10-jähriges Mädchen, das du vom Sehen her kennst*
 Spieler: Was will denn das arme kleine Mädchen von mir? 
 Mimi: Ich habe oben im Haus bei Tante Mairi meine Puppe vergessen und ich brauche sie wirklich dringend!
