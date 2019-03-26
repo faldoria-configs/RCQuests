@@ -1,0 +1,15 @@
+name: Sokensos
+type: NPC
+health: 100
+attackable: false
+friendly: true
+disguise: Sokensos
+equipment:
+  hand: SHEARS
+location:
+  world: ankanor
+  x: 
+  y: 
+  z: 
+default-conv: this.sokensos.default
+talk-close: false

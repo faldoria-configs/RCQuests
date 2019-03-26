@@ -1,0 +1,7 @@
+stages:
+  start:
+    random-actions:
+      flow:
+        - '!text "Weißt du, was rot ist und hier gleich rumliegt? DU, wenn du nicht verschwindest!"'
+        - '!text "Weg von meinen Geraeten! Die koennten noch dreckig werden."'
+        - '!text "Willkommen, wertes Versuchsobje.... <&Auml>hm, ich meine, werter Patient!"'
