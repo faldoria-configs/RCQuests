@@ -1,5 +1,6 @@
-# Im Herzen des Tianbaumes#  <!-- omit in toc -->
+# Im Herzen des Tianbaumes <!-- omit in toc -->
 
+Issue #88
 
 
 ## Noch zu tun/Probleme
@@ -29,6 +30,15 @@ Wie meinst du das? Soll ich mein Zimmer sauber machen? Ich habe aber erst gekehr
 Was, Kampf, ich? Wie, mit einem Schwert? Was muss ich tun?   
 **Roschik:** `Sei nicht so übereifrig. Steige den Tianbaum hinauf, dort wirst du Lious treffen, der dir dabei helfen wird..`  
 Lious, der seltsame Mann? Gut, wie du willst, ich werde zur Krone des Baumes hinauf steigen.. 
+**Roschik:** `Warte, hier hast du einige Münzen, gehe beim Wirt vorbei und kauf dir etwas zumEssen, di wirst es brauchen.`
+*Du schaust überrascht* Oh, danke!
+
+**Spieler erhält von Roschik einen großzügigen Geldbetrag.**
+
+Hier geht es zu NQuest [Einkauf beim Wirt](../einkauf-beim-wirt.md).
+
+>> Eigentlich auch ein Stück Tutorial, aber das werden die Meisten wissen, wie man mit einem NPC handelt. Muss also nicht in den Hauptqueststrang.
+
    
 [QUEST START]` [Im Herzen des Tianbaumes](#im-herzen-des-tianbaumes)     
 **Questlog**: *Folge den Weg um den Tianbaum herum auf die andere Seite, triff den Wächter des Heiligtums und steige den Tianbaum hinauf. Dort wird dir Lious weiterhelfen*

@@ -1,7 +1,12 @@
 # Segel für das Schiff <!-- omit in toc -->
 Issue #87
 
-## Noch zu tun/Probleme
+## Noch zu tun/Probleme/Info
+
+> 1-Strich --> Tutorial 
+
+> > 2-Strich ---> Anmerkungen   
+
 Items, Skins, NPCs-Standarts., Belohnung, Tutorial
 ## Ablauf
 
@@ -19,7 +24,7 @@ Items, Skins, NPCs-Standarts., Belohnung, Tutorial
 
 ## Übersicht  <!-- omit in toc -->
 
-- [Noch zu tun/Probleme](#noch-zu-tunprobleme)
+- [Noch zu tun/Probleme/Info](#noch-zu-tunproblemeinfo)
 - [Ablauf](#ablauf)
 - [Vorraussetzungen](#vorraussetzungen)
 - [Aufgaben](#aufgaben)
@@ -92,15 +97,20 @@ Na, dann sag schon, ich wachse ja schon hier an.
 Das ist aber eine ganze Menge!   
 **Mafei:** `Was, kannst du dir nicht drei Sachen merken? Los mit dir!`
 
-> Liste einfügen?
+>> Liste einfügen?
 
 ### **[QUEST Update 1]** [Zeug für Mafei besorgen](#segel-fuer-das-schiff-2)
-**Questlog:** *Hole den Segelstoff bei Schneider Janis, besorge im Lager Segelschnur und Kleber und frage dort Kansa, wie es mit den Essensvorräten steht.*
+**Questlog:** *Hole den Segelstoff bei Schneider Janis, besorge im Lager 100 Fuß Segelschnur und 1 Eimer Kleber und frage dort Kansa, wie es mit den Essensvorräten steht.*
 
 **Die Spielerin erfüllt nun alle diese Aufgaben und kehrt dann zu Mafei zurück.**
 
-> Schneider ist ein Händler, der aber nicht handelt, der Spieler kann den stoff so nehmen.
-> Bei Kansa erhält dann der Spieler eine weitere Quest, die er gleichzeitig machen kann oder auch nicht.
+>> Schneider ist ein Händler, der aber nicht nur handelt, der Spieler kann den Stoff so nehmen.    
+
+[Schneider Janis](.../schneider-janis.md)   
+>> Bei Kansa erhält dann der Spieler eine weitere Quest, die er gleichzeitig machen kann oder auch nicht.   Ach das für hier relevante Stück Text ist bei Kansa.
+
+
+>> Kansa-Quest-Link und NonQuestNPC Schneider Janis kommt noch
 
 **Mafei:** ` Hast du alles erledigt?`
 1. Nein, ich habe noch nicht alles erledigt.   
