@@ -1,6 +1,6 @@
 name: Frostakbär
 type: polar_bear
-aggrvo: true
-passie: false
+aggro: true
+passive: false
 min-level: 5
 max-level: 8

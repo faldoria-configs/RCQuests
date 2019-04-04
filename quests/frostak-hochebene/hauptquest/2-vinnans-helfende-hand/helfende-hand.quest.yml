@@ -24,10 +24,10 @@ objectives:
 complete-actions:
   flow:
     - '!conv.start frostak-hochebene.npcs.vinnan ../3-die-verkohlten/quest-start'
-    - '?tag frostak-hochebene.vinnans-hilfe.nachweise =3-5'
+    - '?tag frostak-hochebene.vinnans-hilfe.nachweise 3-5'
     - '!money.add 1d'
     - '!item.add frostak-hochebene.brot 2'
-    - '?tag frostak-hochebene.vinnans-hilfe.nachweise =6'
+    - '?tag frostak-hochebene.vinnans-hilfe.nachweise 6-9['
     - '!money.add 1d50h'
     - '!item.add frostak-hochebene.brot 6'
     - '?tag frostak-hochebene.vinnans-hilfe.nachweise >=9'

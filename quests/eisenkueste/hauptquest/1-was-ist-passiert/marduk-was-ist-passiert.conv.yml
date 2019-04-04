@@ -4,22 +4,26 @@ stages:
     answers:
       flow:
         - '?tag ankanor.event.survivor'
+        # Antwort 1
         - '+:"Hauptmann Marduk, hat uns dieser Aknetun erwischt oder warum sind wir plötzlich an einer Küste?"'
         - '!text "Agnatus hat dich nicht erwischt, aber der Mast auf unserem kenternden Schiff. Letzte Nacht tobte ein übler Sturm, der das Schiff zerstörte und uns hier angespült hat. Wir haben dich glücklicherweise bemerkt und mit abgeschleppt, obwohl das ziemlich haarig war in dem kalten Wasser.."'
         - '~6s'
         - '!stage start-quest'
+        # Antwort 2
         - '-:"Hauptmann Marduk hat uns dieser Aknetun erwischt? Sind wir alle tot?"'
         - '!stage 2'
   '2':
     text: 'Nein, du wurdest ausgeknockt als du Agnatus Schergen bekämpft hast, man hat dich dann zum Schiff gebracht. Dort wurdest du versorgt.'
     answers:
       flow:
+        # 1
         - ':"Und wo sind wir hier? Das sieht mir nicht nach Ankanor aus."'
         - '!text "Wo genau wir sind weiß keiner, aber nein es ist nicht mehr Ankanor. Der Sturm letzte Nacht hat unser Schiff zerstört und wir wurden hier angespült."'
         - '~5s'
         - '!text.player "Ist das dein Ernst? Hmm... und was machen wir nun?"'
         - '~1s'
         - '!stage start-quest'
+        # 2
         - ':"Hmm... und was machen wir nun?"'
         - '!stage start-quest'
   start-quest:

@@ -8,6 +8,7 @@ authors:
 worlds:
   - faldoria
 level: 3
+auto-complete: false
 
 default-convs:
   not-started:

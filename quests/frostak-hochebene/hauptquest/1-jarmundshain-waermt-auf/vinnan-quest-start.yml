@@ -1,7 +1,7 @@
 stages:
   start:
     actions:
-      - '!text "Grüße Fremder, habt Ihr Hunger?"'
+      - 'Grüße Fremder, habt Ihr Hunger?'
       - '>"Ähm Grüße... ich bin %player. Ja, so ein wenig Hunger hab ich schon."'
       - '!stage bread'
   bread:

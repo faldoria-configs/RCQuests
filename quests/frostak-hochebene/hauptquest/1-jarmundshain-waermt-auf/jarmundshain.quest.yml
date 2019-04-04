@@ -19,6 +19,11 @@ default-convs:
     convs:
       - 'frostak-hochebene.npcs.inge:this.inge-quest-completed'
 
+start-trigger:
+  flow:
+    - '@quest.completed eisenkueste.hauptquest.4-die-reise-beginnt'
+    - '!quest this.jarmundshain'
+
 objectives:
   '1':
     name: 'Finde und sprich mit Vinnan'

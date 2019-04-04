@@ -21,7 +21,3 @@ objectives:
         - '?tag eisenkueste.elius.not-ready'
         - '-!conv.start this.quest-start ../elius'
         - '+!conv.start this.quest-start ../elius stage:return'
-
-complete-actions:
-  flow:
-    - '!quest.start frostak-hochebene.hauptquest.1-jarmundshain-waermt-auf'
