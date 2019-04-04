@@ -7,7 +7,7 @@
     - [Skin](#skin)
 ## Noch zu tun
 
-Skin hochladen, Standtort festlegen
+Skin hochladen, Standort festlegen
 # Estera
 
 Es ranken sich viele Gerüchte um Estera: Die einen glauben fest, dass sie eine unsterbliche Blutsaugerin ist und ihre Gäste in ihr Gasthaus lockt um sie auszusaugen. Andere behaupten, dass sie ihren Mann im Auftrag eines Gottes umgebracht hat und so an dieses Gasthaus kam. Doch eines ist gewiss -  Estera duldet in ihrem Gasthaus keinen Unfrieden, jeder der hier Ärger macht wird unverzüglich hinausgeworfen, hier packt sie auch selbst an, ihre etwas kräftigere Statur kommt ihr da entgegen. Man vermutet, dass sie Anfang vierzig ist, aber ihr ovales Gesicht mit den blauen Augen verät ihr Alter nicht. Ihr langes dunkelblondes Haar ist stets zu einem Zopf geflochten. Sie trägt immer bordeaux, meist ein Leinenkleid mit schwarzen Ärmeln, das sich vorne schnüren lässt, oder eine Kombination aus bordeaux farbenen Rock mit einer leichten naturfarbenen Leinenbluse. Gründe für ihre Farbwahl sind nicht bekannt und wie so vieles um ihre Person ein Geheimnis.
