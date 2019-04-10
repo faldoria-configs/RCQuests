@@ -9,14 +9,14 @@
 
 # Katera
 
-Friedenswächterin Katera wird sie auch genannt von denen die wissen, wer sie ist. Sie gehört zu den Friedenwächtern die in den [Vincul-Lehren](https://git.faldoria.de/tof/story/blob/master/Religionen-Goetter-Erschaffung/Kaishi-Vincul-Lehren.md) erwähnt werden. Wie in den Lehren beschrieben fand sie wie die anderen Friedenswächter den Tod, doch sie manifestierte sich wieder in einer körperlichen Form um die Welt weiterhin zu lehren.  
+Friedenswächterin Katera: So wird sie genannt von denen die wissen, wer sie ist. Sie gehört zu den Friedenswächtern, die in den [Vincul-Lehren](https://git.faldoria.de/tof/story/blob/master/Religionen-Goetter-Erschaffung/Kaishi-Vincul-Lehren.md) erwähnt werden. Wie in den Lehren beschrieben fand sie wie die anderen Friedenswächter den Tod, doch sie manifestierte sich wieder in einer körperlichen Form um die Welt weiterhin zu lehren.  
 Auf ihren Reisen fand sie das Gasthaus zum kosmischen Wanderer, merkte welchen zentralen und mystischen Punkt dieses Gasthaus inne hatte und beschloss von hier aus alle Reisenden, die hier unterkamen, insbesondere Kaishi, anzuleiten und zu unterstützen.
 
 ## Funktionen
 
 * Verbindung nach Ankanor
 * Hat Hinweise auf den Verbleib anderer Kaishi in der gesamten Welt.
-* *Quest: Hoffnung Ankanors* - Gibt eine Quest, die den Spieler zurück nach Ankanor bringt. Ob Vergangenheit, Zukunft, Gegenwart sehen wir dann wenn die Quest eine Idee hat beziehnugsweise entwickelt wird.
+* *Quest: Hoffnung Ankanors* - Gibt eine Quest, die den Spieler zurück nach Ankanor bringt. Ob Vergangenheit, Zukunft, Gegenwart sehen wir dann wenn die Quest eine Idee hat beziehungsweise entwickelt wird.
 
 ## Szene - Debut
 
@@ -31,13 +31,13 @@ Katera: Möge der Frieden mit Euch sein, wie kann ich Euch helfen?
   * Spieler: Kenne ich Euch von irgendwoher, Ihr kommt mir bekannt vor?
     * Katera: Ich bin Katera, auf dem Pfad der Bindung sind wir uns alle schon einmal begegnet. Wenn Ihr wollt, erzähle ich Euch mehr vom Pfad der Bindung. 
       * Spieler: Das ist nett, doch dafür habe ich gerade keine Zeit. *(Gespräch beendet)*
-      * Spieler: Der Pfad der Bindung. *schaut nachdenklich* Sicher, erzählt mirbitte etwas davon.
+      * Spieler: Der Pfad der Bindung. *schaut nachdenklich* Sicher, erzählt mir bitte etwas davon.
         * Katera: **[Platzhalter]!!!!!!!!!!**
       * Spieler: Vielleicht ein anderes Mal, ich habe andere Fragen.
         * Katera: Scheut Euch nicht zu Fragen.
         * Spieler: Da ihr Euch mit Pfaden auszukennen scheint: Kennt Ihr einen Pfad von hier weg, ich möchte etwas erleben.
-          * Katera: Ihr könnt viele Wege einschlagen, was Ihr sucht, findet ihr vielleicht auf einer kleinen Insel namens Ankanor.
-          * Spieler: Ankanor, das klingt schön. Was werde ich dort erleben wenn ich diesen Pfad beschreite? 
+          * Katera: Ihr könnt viele Wege einschlagen, was Ihr sucht, findet Ihr vielleicht auf einer kleinen Insel namens Ankanor.
+          * Spieler: Ankanor, das klingt schön. Was werde ich dort erleben, wenn ich diesen Pfad beschreite? 
           * Katera: Dies liegt in Euerer Hand. Ihr werdet dort aber als Kaishi wiedergeboren. Es ist der Beginn Eurer Reise in eine fantastische Welt voller Möglichkeiten. 
           * Spieler: Ich fange also ein neues Leben an? Das klingt super, diesen Pfad möchte ich gehen.
           * Katera: Seid ihr Euch sicher? 
@@ -54,7 +54,7 @@ Katera: Möge der Frieden mit Euch sein, wie kann ich Euch helfen?
 
 Tag: *ankanor.end = true*
 
-Spieler: Katera, ich brauche eure Hilfe.
+Spieler: Katera, ich brauche eure Hilfe.   
 Katera: Möge der Frieden mit Euch sein, wie kann ich Euch helfen?
   * Spieler: Könnt Ihr mir nochmal vom Pfad der Bindung erzählen?
     * Katera: Es ist mir eine Freude, Euch noch einmal davon zu erzählen.

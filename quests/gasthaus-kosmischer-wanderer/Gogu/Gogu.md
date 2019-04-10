@@ -5,6 +5,7 @@
       - [](#)
     - [Standort](#standort)
     - [Skin](#skin)
+    - [Standort vor der Türe nach draußen](#standort-vor-der-t%C3%BCre-nach-drau%C3%9Fen)
 
 # Gogu
 
@@ -46,3 +47,12 @@ world: Lobby
 
 ### Skin
 ID: 54
+
+
+### Standort vor der Türe nach draußen
+```yml
+x: 77
+y: 162
+z: 101
+world: Lobby
+```
