@@ -70,11 +70,11 @@ Katera: Möge der Frieden mit Euch sein, wie kann ich Euch helfen?
 
 ### Standort
 ```yml
-x: 
-y: 
-z: 
-world: 
+x: 60
+y: 170
+z: 127
+world: Lobby
 ```
 
 ### Skin
-ID: 
+ID: 55
