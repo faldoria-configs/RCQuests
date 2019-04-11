@@ -28,11 +28,11 @@ Roza ist in ihren frühen dreißiger Lebensjahren, jung, dynamisch und stets fre
   2. Gerade brauche ich nichts zu essen und meine Kehle ist auch nicht trocken, aber hast du was Interessantes zu erzählen?  
     **Roza** `Kennst du Gogu? *Roza errötet* Er ist so stark und gut aussehend. Wusstest du, dass er mal einen König beschützt hat?`
        1. Wer war nochmal Gogu?  
-        **Roza** `Er ist große gutaussehende Mann dort an der Theke. Wenn jemand Ärger macht, ich hoffe du bist nicht so einer, dann wirft er ihn hinaus.`
+        **Roza** `Er ist große gutaussehende Mann dort an der Türe. Wenn jemand Ärger macht, ich hoffe du bist nicht so einer, dann wirft er ihn hinaus.`
        2. Ja ich kenne Gogu, aber dass er mal einen König beschützt hat wusste ich nicht. Was weißt du noch über ihn?  
        **Roza** `Er redet zwar nicht viel, aber er kümmert sich wundervoll um uns alle hier. Sein Lieblingsessen ist Weißdorneintopf mit viel extra Fleisch drin.`  
        **Roza** `Ich fühle mich in seiner Nähe immer sicher, deshalb mag ich ihn so.`  
-           1. Das kann ich verstehen, gibt es sonst noch etwas was du erzählen kannst?   
+           1. Das kann ich verstehen, gibt es sonst noch etwas was du über ihn erzählen kannst?   
            **Roza** `Du solltest einfach mit ihm selbst reden` *(Gespräch beendet)*
   3. Das ist nett, aber ich interessiere mich eher dafür wie ich gesund bleibe und mich, wenn ich verletzt bin, heilen kann.   
      **Roza** `Was du immer machen solltest ist, bevor du ein Abenteuer beginnst, dich mit Nahrung zu versogen. Pack so viel ein wie du in deinen Rucksack bekommst. Gute Nahrung hilft immer!`  
@@ -53,6 +53,6 @@ world: Lobby
 ```
 
 ### Skin
-ID: 
+ID:57
 
 ![](img/Roza.png)
