@@ -7,7 +7,7 @@
 
 # Shargam
 
-Sharmgams Anwesenheit im kosmischen Wanderer mag für viele befremdlich sein, die meisten aber wissen nicht einmal, wer Shargam ist. Denn Shargam ist ein Ork. Andere verachten Orks für ihre Taten, doch nicht alle sind Kriegstreiber und hasserfüllt. Shargam ist einer der letzten vom Klan der grauen Raben. Seine Heimat war auf Azuran, doch wie so viele Völker ist sein Volk auch durch die Machenschaften "Des Übels" fast vernichtet worden. In den unzähligen Kämpfen, die er schon miterlebte, hat er viel Leid erfahren, doch sein Stolz und seine Ehre trieben ihn immer voran. In seiner letzten Schlacht erlitt er durch einen Schwerthieb eine große Wunde an seiner Brust. Er sah sich schon zu seiner Familie heimkehren, die von Agnatus Schergen getötet worden waren. Doch als er seine Augen ein weiteres Mal aufschlug, lag er in einem Zimmer im Kosmischen Wanderer. Seine Zeit war noch nicht gekommen. Wie genau er hierhergekommen war, ist ihm noch immer nicht klar, doch seit vielen Jahren nun steht er in der Küche und kocht. Häufig sehnt er sich zurück auf das Schlachtfeld, so dass er alsbald zu seiner Familie zurückkehren kann.   
+Sharmgams Anwesenheit im kosmischen Wanderer mag für viele befremdlich sein, die meisten aber wissen nicht einmal, wer Shargam ist. Denn Shargam ist ein Ork. Andere verachten Orks für ihre Taten, doch nicht alle sind Kriegstreiber und hasserfüllt. Shargam ist einer der letzten vom Klan der Grauen Raben. Seine Heimat war auf Azuran, doch wie so viele Völker ist sein Volk auch durch die Machenschaften "Des Übels" fast vernichtet worden. In den unzähligen Kämpfen, die er schon miterlebte, hat er viel Leid erfahren, doch sein Stolz und seine Ehre trieben ihn immer voran. In seiner letzten Schlacht erlitt er durch einen Schwerthieb eine große Wunde an seiner Brust. Er sah sich schon zu seiner Familie heimkehren, die von Agnatus Schergen getötet worden waren. Doch als er seine Augen ein weiteres Mal aufschlug, lag er in einem Zimmer im Kosmischen Wanderer. Seine Zeit war noch nicht gekommen. Wie genau er hierhergekommen war, ist ihm noch immer nicht klar, doch seit vielen Jahren nun steht er in der Küche und kocht. Häufig sehnt er sich zurück auf das Schlachtfeld, so dass er alsbald zu seiner Familie zurückkehren kann.   
 
 Shargams haut ist grau-grünlich, Haare und Bart sind lang und zusammengebunden, häufig ist sein Bart sogar geflochten. Er hat strahlend orange Augen, seine Hauer im Unterkiefer sind ungewöhnlich klein, dennoch sieht man sie noch. Auf seiner Brust hat er eine große Narbe. Manchmal sieht man diese, wenn sein typisches erdfarbenes Leinenhemd und die weiße Schürze tief genug rutschen. Seine einfache Leinenhose ist braun. Shargam mag sich nichts an die Füße ziehen deswegen ist er oft barfuß, doch dies gefällt Estera nicht. Sie sagt, dass sich das in einer Küche nicht gehört. 
 
@@ -36,7 +36,7 @@ Derzeitige Ideen:
 
 **Shargam** `Ey du, was machst du hier in meiner Küche? *schaut grimmig*`  
   1.  Entschuldigt, aber der Geruch hier ist einfach umwerfend. Könnte ich etwas zu essen bekommen?  
-      **Shargam**  `Geht zu Roza und sagt ihr was ihr Essen wollt.`
+      **Shargam**  `Geht zu Roza und sagt ihr was ihr essen wollt.`
         1. Kann ich nicht auch von Euch was bekommen, wenn ich schon mal hier bin?  
            **Shargam** `Na schön, was wollt Ihr? [Handelsmenü öffnet sich]`
         2. Ok, aber freut mich mal den Koch gesehen zu haben der dieses wunderbare Essen zaubert.  
@@ -62,7 +62,7 @@ Derzeitige Ideen:
                 1. Entschuldigt, ich dachte das wäre witzig.  
                    **Shargam** `*grunzt laut* Manchmal liebe ich es Leute wie dich zu  verarschen.`  
                     1. Ihr habt mich also nur hops genommen, ja? Nicht witzig.  
-                       **Shargam** `*wischt sich eine Träne vom lachen weg* Für mich schon. Was kann ich für dich noch tun, als Wiedergutmachung?`  
+                       **Shargam** `*wischt sich eine Träne vom Lachen weg* Für mich schon. Was kann ich für dich noch tun, als Wiedergutmachung?`  
                         1. Wie wäre es mit Grunz-Unterricht?  
                         **Shargam** `Nein, das brauchst du sicher nicht, wir alle grunzen doch sowieso bei ganz bestimmten Dingen schon gut genug.`
                             1. *schaut erst etwas verwirrt* ... Achso, ich verstehe schon, Ihr meint... Lassen wir das! *[Eine Ebene zurück im Dialog.]*
@@ -78,5 +78,5 @@ world: Lobby
 ```
 
 ### Skin
-ID: 
+ID: 58
 
